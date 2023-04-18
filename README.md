@@ -11,4 +11,4 @@ Die jeweilgen Dateien im Spieleverzeichnis mit den deutschen Dateien überschrei
 
 Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anlitung wird nachgereicht.
 
-Achtung: Bitte beachte, dass wir für die ordnungsgemäße Funktion der Dateien natürlich keine Gewährleistung geben können und übernehmen auch keine Verantwortung für irgendwelche Schäden durch deren Nutzung. Bitte auch das Lizenz-Dokument im Hauptverzeichnis beachten!
+Achtung: Bitte beachte, dass wir für die ordnungsgemäße Funktion der Dateien natürlich keine Gewährleistung geben können und wir übernehmen auch keine Verantwortung für irgendwelche Schäden durch deren Nutzung (siehe auch Disclaimer im Hauptverzeichnis)!

@@ -1,2 +1,2 @@
 # DW2-Deutsch
-Community project for the German localization of Distant Worlds 2
+Community Projekt für die deutsche Lokalisierung von Distant Worlds 2

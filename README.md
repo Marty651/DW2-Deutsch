@@ -7,7 +7,7 @@ Download:
 Über den grünen "Code" Button erreicht man den Download der ZIP-Datei, die alle deutschen Patch-Dateien enthält.
 
 Installation:
-Die jeweilgen Dateien im Spieleverzeichnis mit den deutschen Dateien überschreiben.
+Die jeweilgen Dateien im Spieleverzeichnis mit den deutschen Dateien überschreiben. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
 
 Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anleitung wird nachgereicht.
 

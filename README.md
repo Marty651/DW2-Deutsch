@@ -1,7 +1,7 @@
 # DW2-Deutsch
 Community Projekt für die deutsche Lokalisierung von Distant Worlds 2
 
-Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames können wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereitstellen.
+Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames wollen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereitstellen.
 
 Download:
 Über den grünen "Code" Button erreicht man den Download der ZIP-Datei, die alle deutschen Patch-Dateien enthält.

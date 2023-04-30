@@ -9,9 +9,9 @@ Download:
 
 Installation:
 
-In der heruntergeladene ZIP-Datei (DW2-Deutsch-main.zip) findet sich ein Unterordner "DW2-Deutsch-main". Darunter gibt es weitere Unterordner zu den jeweilgen Versionen (z.B. "Deutsch 1.1.2.4"). In diesen Unterordnern befinden sich die deutschen Dateien, mit denen die jeweiligen englischen Dateien in .../\<DW2-Spieleverzeichnis\>/data/ überschrieben werden müssen. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
+In der heruntergeladene ZIP-Datei (DW2-Deutsch-main.zip) findet sich ein Unterordner "DW2-Deutsch-main". Darunter gibt es weitere Unterordner zu den jeweilgen Versionen (z.B. "Deutsch 1.1.2.4"). In diesen Unterordnern befinden sich die deutschen Dateien, mit denen die jeweiligen englischen Dateien in ...\\\<DW2-Spieleverzeichnis\>\\data\\ überschrieben werden müssen. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
 
-Falls man den DLC besitzt, kann man die Dateien im Ordner "DLC Ikkuro and Dhayut" in denselben Ordner (.../\<DW2-Spieleverzeichnis\>/data/) kopieren und die englischen Dateien überschreiben.
+Falls man den DLC besitzt, kann man die Dateien im Ordner "DLC Ikkuro and Dhayut" in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
 
 Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anleitung findet sich im Github Hauptverzeichnis.
 

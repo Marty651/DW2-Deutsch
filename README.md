@@ -13,7 +13,7 @@ Installation:
 
 In den ZIP-Dateien befinden sich die deutschen Dateien, mit denen die jeweiligen englischen Dateien in ...\\\<DW2-Spieleverzeichnis\>\\data\\ überschrieben werden müssen. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
 
-Falls man den DLC besitzt, kann man die Dateien des entsprechenden ZIUP-Files in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
+Falls man den DLC besitzt, kann man die Dateien des entsprechenden ZIP-Files in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
 
 Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anleitung findet sich im Github Hauptverzeichnis.
 

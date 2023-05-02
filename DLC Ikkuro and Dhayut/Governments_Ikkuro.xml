@@ -2,7 +2,7 @@
 <ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Government>
     <GovernmentId>11</GovernmentId>
-    <Name>Harmonious Utopia</Name>
+    <Name>Harmonische Utopie</Name>
 	<StartingGameEventNames>
 		<string>Initialise Government (Harmonious Utopia)</string>
 	</StartingGameEventNames>
@@ -14,8 +14,8 @@ Die typischen Ziele der Führer und Menschen in einer harmonischen Utopie sind L
 
 Harmonische Utopien sind im Allgemeinen offene Gesellschaften und können in Zeiten von Konflikten und Streit kämpfen, da die zur Verteidigung oder zum Angriff erforderlichen Maßnahmen oft im Widerspruch zu ihren Grundphilosophien stehen.</Description>
     <ImageFilename />
-	  <LeaderTitle>Guardian of Life</LeaderTitle>
-    <CabinetTitle />
+	  <LeaderTitle>Wächter des Lebens</LeaderTitle>
+    <CabinetTitle>Kabinett</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float> <!-- Undefined, i.e. Unused -->

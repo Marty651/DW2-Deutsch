@@ -5,7 +5,7 @@ Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. M
 
 Download:
 
-Aktuelle Release finden sich auf der rechten Seite. Das letzte Release ist v1.1.2.4. Einfach anklicken, darunter findet man dann die zip-Dateien für das Spiel und den DLC.
+Aktuelle Release finden sich auf der rechten Seite. Das letzte Release ist v1.1.2.4a. Einfach anklicken, darunter findet man dann die zip-Dateien für das Spiel und den DLC.
 
 Für tagesaktuelle (ungeprüfte!) Versionen erreicht man auch über den grünen "Code" Button den Download einer ZIP-Datei, die alle aktuellen deutschen Patch-Dateien enthält.
 

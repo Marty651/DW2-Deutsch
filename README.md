@@ -1,5 +1,5 @@
 # DW2-Deutsch
-Community Projekt für die deutsche Lokalisierung von Distant Worlds 2
+<strong>Community Projekt für die deutsche Lokalisierung von Distant Worlds 2</strong>
 
 Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames stellen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereit.
 

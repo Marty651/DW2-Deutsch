@@ -11,7 +11,6 @@ Deutsche Dateien für Release-Version 1.1.2.4:
 Deutsche Dateien für DLC Ikkuro & Dhayut:  
 [DLC I&D v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-20230502/DW2-Deutsch_1.1.2.4_DLC_Ikkuro_and_Dhayut_v0.5.zip)
 
-(Für tagesaktuelle - unvollständige - Versionen erreicht man auch über den grünen "Code" Button den Download einer ZIP-Datei, die alle aktuellen deutschen Patch-Dateien enthält. Das wird aber nicht empfohlen.)
 
 <h2>Installation</h2>
 

@@ -854,7 +854,7 @@ Orte können auf verschiedenen Ebenen erforscht werden. Die anfängliche Erkundu
 
 Aber andere Objekte können auf tieferen Ebenen der Erkundung versteckt sein. Dazu können Boni, alte Ruinen, Ressourcen oder sogar seltene Artefakte gehören.
 
-Die Erkundung auf einer tieferen Ebene erfordert bessere Komponenten mit einer höheren Wertigkeit, entweder Untersuchungsmodule oder Erkundungsscanner.
+Die Erkundung auf einer tieferen Ebene erfordert bessere Komponenten mit einer höheren Wertigkeit, entweder Erkundungsmodule oder Untersuchungsscanner.
 
 An jedem Ort schickt das Erkundungsschiff Untersuchungsteams aus, um den Planeten zu inspizieren. Die Erkundung ist langsam und zeitaufwändig.
 
@@ -1114,7 +1114,7 @@ Wenn Sie einmal mit der linken Maustaste auf ein Bauwerft Symbol klicken, wird d
 Sie erstellen ein neues Design, indem Sie Komponenten zu den Schächten einer Hülle hinzufügen.
 
 Ihr neues Design muss viele Anforderungen erfüllen, um als gültig zu gelten. Zum Beispiel:
-[ULI]alle Designs müssen eine Kommandozentrale haben[/ULI]
+[ULI]alle Designs müssen eine Schiffs- u. Stationsbrücke haben[/ULI]
 [ULI]alle Designs müssen Treibstoff lagern, um Energie aus einem Reaktor zu erzeugen[/ULI]
 [ULI]alle Schiffe müssen über Triebwerke verfügen, um mobil zu sein[/ULI]
 
@@ -1153,12 +1153,12 @@ Die Komponenten, die Sie in der Liste "Schächte designen" hinzufügen, sind das
 Jeder Schacht hat einen Typ und eine Größe. Sie können nur dann Komponenten in einem Schacht platzieren, wenn es sich um einen passenden Typ handelt und wenn die Größe der Komponente in den Schacht passt.
 
 Es gibt 6 Komponentenschachttypen. Jeder Komponentenschachttyp erlaubt nur bestimmte Arten von Komponenten:
-[ULI]Allgemein: Kommandozentralen, Mannschaftsquartiere, Brennstoffzellen, Reaktoren, Hyperantriebe, Frachträume, Passagierräume, Truppenräume, Bergbaumaschinen, Energiekollektoren und alle anderen[/ULI]
+[ULI]Allgemein: Schiffs- u. Stationsbrücken, Mannschaftsquartiere, Kraftstoffzellen, Reaktoren, Hyperantriebe, Frachträume, Passagierräume, Truppenräume, Bergbaumaschinen, Energiekollektoren und alle anderen[/ULI]
 [ULI]Waffen: Waffen oder Traktorstrahlen[/ULI]
-[ULI]Triebwerke: Triebwerke und Vektortriebwerke[/ULI]
+[ULI]Triebwerke: Triebwerke und Vektor-Triebwerke[/ULI]
 [ULI]Verteidigung: Panzerung, Schilde oder Schadenskontrolle[/ULI]
 [ULI]Hangars: Andockbuchten, Bauwerften oder Jägerbuchten[/ULI]
-[ULI]Sensoren: Scanner, Gegenmaßnahmen, Zielerfassungs-Computer, Untersuchungsmodule, Scanner-Störsender[/ULI]
+[ULI]Sensoren: Scanner, Gegenmaßnahmen, Zielerfassungs-Computer, Erkundungsmodule, Scanner-Störsender[/ULI]
 
 So fügen Sie eine Komponente zu einem Feld hinzu:
 [OLI]wählen Sie die gewünschte Komponente aus der Liste "Verfügbare Komponenten"[/OLI]
@@ -1206,85 +1206,85 @@ Beachten Sie, dass beim Hinzufügen von Triebwerken zu einem Schiffsentwurf der 
       </TourStep>
       <TourStep>
         <StepTitle>Design Übersicht</StepTitle>
-        <MarkupText>The Design Overview displays all of the current stats for your design. The values in this panel change as you add and remove components to the hull.
+        <MarkupText>In der Designübersicht werden alle aktuellen Statistiken zu Ihrem Design angezeigt. Die Werte in diesem Bereich ändern sich, wenn Sie Komponenten zum Rumpf hinzufügen oder daraus entfernen.
 
-There are many sections to the Design Overview showing data on various aspects of the design. Much of the data has further information when hovered.
+Die Designübersicht enthält viele Abschnitte, in denen Daten zu verschiedenen Aspekten des Designs angezeigt werden. Viele der Daten enthalten weitere Informationen, wenn Sie mit der Maus darüber fahren.
 
-At the top is the design name. Click here to type a new name.
+Oben steht der Designname. Klicken Sie hier, um einen neuen Namen einzugeben.
 
-[H3]Recommendations[/H3]
-Next is the Recommendations button. This shows a summary of any warnings or errors in the current design. 
+[H3]Empfehlungen[/H3]
+Als nächstes kommt die Schaltfläche „Empfehlungen“. Hier wird eine Zusammenfassung aller Warnungen oder Fehler im aktuellen Design angezeigt. 
 
-Hover over the Recommendations button to popout a larger summary panel. Click the button to lock the recommendations panel open.
+Bewegen Sie den Mauszeiger über die Schaltfläche „Empfehlungen“, um ein größeres Zusammenfassungsfenster einzublenden. Klicken Sie auf die Schaltfläche, um das Empfehlungsfenster zu sperren.
 
-The design is not valid (and cannot be saved) until any errors are resolved.
+Das Design ist ungültig (und kann nicht gespeichert werden), bis etwaige Fehler behoben sind.
 
-[H3]Core Design Information[/H3]
-Next is a summary of the key design data. This includes information about the purchase and maintenance costs.
+[H3]Kerninformationen zum Design[/H3]
+Als nächstes folgt eine Zusammenfassung der wichtigsten Designdaten. Dazu gehören Informationen zu den Anschaffungs- und Wartungskosten.
 
-It also outlines some important requirements:
-[ULI]the design cannot be larger than the maximum size allowed by the hull[/ULI]
-[ULI]there must be adequate crew for the design[/ULI]
+Außerdem werden einige wichtige Anforderungen aufgeführt:
+[ULI]Das Design darf nicht größer sein als die vom Rumpf maximal zulässige Größe[/ULI]
+[ULI]Es muss ausreichend Personal für den Entwurf vorhanden sein[/ULI]
 
-[H3]Rating[/H3]
-The Rating section summarizes data about the design in 4 key areas: Attack Strength, Defend Strength, Speed and Maneuvering, and Scanners.
+[H3]Bewertung[/H3]
+Der Abschnitt „Bewertung“ fasst Daten zum Design in vier Schlüsselbereichen zusammen: Angriffsstärke, Verteidigungsstärke, Geschwindigkeit und Manöver sowie Scanner.
 
-Hover over each value for a breakdown of the factors that contribute to the rating in each area.
+Bewegen Sie den Mauszeiger über jeden Wert, um eine Aufschlüsselung der Faktoren anzuzeigen, die zur Bewertung in jedem Bereich beitragen.
 
-[H3]Energy[/H3]
-The Energy section summarizes the energy generation, storage and distribution in the design.
+[H3]Energie[/H3]
+Der Abschnitt „Energie“ fasst die Energieerzeugung, -speicherung und -verteilung im Entwurf zusammen.
 
-It also shows graphs outlining how energy is consumed both at sublight speeds in combat and during hyperspace travel. For bases only one graph is shown.
+Außerdem werden Diagramme angezeigt, die zeigen, wie Energie sowohl bei Unterlichtgeschwindigkeit im Kampf als auch bei Reisen im Hyperraum verbraucht wird. Für Basen wird nur ein Diagramm angezeigt.
 
-An important value is the reactor energy generation rate per unit of fuel. This shows the efficiency of the reactor fuel usage, which has a direct impact on how quickly a ship needs to refuel.
+Ein wichtiger Wert ist die Energieerzeugungsrate des Reaktors pro Brennstoffeinheit. Dies zeigt die Effizienz des Reaktorbrennstoffverbrauchs, die einen direkten Einfluss darauf hat, wie schnell ein Schiff nachtanken muss.
 
-[H3]Movement[/H3]
-This section is only relevant to ships. It shows the movement speed and energy usage at various levels.
+[H3]Bewegung[/H3]
+Dieser Abschnitt ist nur für Schiffe relevant. Es zeigt die Bewegungsgeschwindigkeit und den Energieverbrauch auf verschiedenen Ebenen an.
 
-Also shown here is the hyperdrive jump range and overall fuel range.
+Hier werden auch die Sprungreichweite des Hyperantriebs und die Gesamtkraftstoffreichweite angezeigt.
 
-The hyperdrive jump accuracy indicates the minimum jump exit range when travelling to a location without a colony or base of your own, e.g. when attacking an enemy location.
+Die Sprunggenauigkeit des Hyperantriebs gibt die minimale Sprung-Ausgangsreichweite an, wenn Sie zu einem Ort reisen, an dem es keine eigene Kolonie oder Basis gibt, z.B. beim Angriff auf einen feindlichen Standort.
 
-This means that the ship will exit the jump at approximately this range and then must travel at sub-light speed towards the destination.
+Das bedeutet, dass das Schiff den Sprung in etwa dieser Entfernung verlässt und dann mit Unterlichtgeschwindigkeit zum Ziel fliegen muss.
 
-[H3]Weapons[/H3]
-The Weapons section outlines weapon ranges and damage rates per second across various weapon categories.
+[H3]Waffen[/H3]
+Der Abschnitt „Waffen“ beschreibt die Waffenreichweiten und Schadensraten pro Sekunde für verschiedene Waffenkategorien.
 
-Hovering over the weapon damage graphs reveals further information.
+Wenn Sie mit der Maus über die Waffenschadensdiagramme fahren, werden weitere Informationen angezeigt.
 
-Also shown are the fighter capacity and build rate.
+Außerdem werden die Kämpferkapazität und die Baurate angezeigt.
 
-[H3]Defense[/H3]
-The Defense section shows the shield, armor and damage repair values for the design.
+[H3]Verteidigung[/H3]
+Im Abschnitt „Verteidigung“ werden die Schild-, Panzerungs- und Schadensreparaturwerte für das Design angezeigt.
 
-Hovering over the shield and armor graphs reveals further information.
+Wenn Sie mit der Maus über die Schild- und Panzerungsdiagramme fahren, werden weitere Informationen angezeigt.
 
-Also shown are the boarding defense strength.
+Außerdem wird die Stärke der Enterverteidigung angezeigt.
 
-[H3]Targeting and Countermeasures[/H3]
-This section shows the targeting and countermeasures bonuses.
+[H3]Zielerfassung und Gegenmaßnahmen[/H3]
+In diesem Abschnitt werden die Ziel- und Gegenmaßnahmen-Boni aufgeführt.
 
-Improved targeting makes weapons more accurate and more likely to strike their target.
+Durch die verbesserte Zielgenauigkeit werden Waffen präziser und treffen ihr Ziel mit größerer Wahrscheinlichkeit.
 
-Improved countermeasures makes a design more able to throw off enemy weapons and thus avoid damage.
+Durch verbesserte Gegenmaßnahmen ist ein Design besser in der Lage, feindliche Waffen abzuwehren und so Schaden zu vermeiden.
 
-[H3]Sensors[/H3]
-The Sensors section outlines the strength and range of a variety of different scanner types:
-[ULI]general short- and long-range scanners for detecting distant ships[/ULI]
-[ULI]hyperjump tracking of enemy ships when they jump away from your location[/ULI]
-[ULI]trace scanning of internal information about nearby enemy vessels[/ULI]
-[ULI]scanner jamming that protects against scanning by enemies[/ULI]
+[H3]Sensoren[/H3]
+Der Abschnitt „Sensoren“ beschreibt die Stärke und Reichweite verschiedener Scannertypen:
+[ULI]Allgemeine Kurz- und Langstreckenscanner zur Erkennung entfernter Schiffe[/ULI]
+[ULI]Hyperjump-Verfolgung feindlicher Schiffe, wenn diese von Ihrem Standort wegspringen[/ULI]
+[ULI]Spurenscannen interner Informationen über feindliche Schiffe in der Nähe[/ULI]
+[ULI]Scanner-Störung, die vor dem Scannen durch Feinde schützt[/ULI]
 
-[H3]Industry[/H3]
-The Industry section has values for various industrial categories like cargo storage, docking bay throughput, mining, research and others.
+[H3]Industrie[/H3]
+Der Abschnitt „Industrie“ enthält Werte für verschiedene Industriekategorien wie Frachtlagerung, Durchsatz an Andockbuchten, Bergbau, Forschung und andere.
 
-[H3]Bonuses[/H3]
-The Bonuses section summarizes any bonuses provided by the hull or any components in the design.
+[H3]Boni[/H3]
+Der Abschnitt „Boni“ fasst alle Boni zusammen, die der Rumpf oder Komponenten im Design bieten.
 
-[H3]Resources Required to Build[/H3]
-This section shows the total resources that are required to build a new copy of this design.
+[H3]Zum Bauen erforderliche Ressourcen[/H3]
+In diesem Abschnitt werden die Gesamtressourcen angezeigt, die zum Erstellen einer neuen Kopie dieses Entwurfs erforderlich sind.
 
-This includes resources from the hull and all components on the design.</MarkupText>
+Dazu gehören Ressourcen aus dem Rumpf und allen Komponenten des Designs</MarkupText>
         <RelatedControlNames>
           <string>DesignSummaryContainer</string>
         </RelatedControlNames>

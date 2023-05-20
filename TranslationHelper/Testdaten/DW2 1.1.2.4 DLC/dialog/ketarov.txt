@@ -1,0 +1,67 @@
+
+GREETING_INTRODUCTION			;Greetings! We are the {0}.\n\nWe value knowledge - especially knowledge of those that scheme against us.\n\nAre you a schemer or a friend?
+GREETING_FRIENDLY			;Welcome friend. Let us plot the downfall of our enemies!
+GREETING_NEUTRAL			;You have something you'd like to talk about?
+GREETING_ANGRY				;Oh, it's YOU again. State your business quickly
+
+OFFER_FREETRADE				;Join us in a Free Trade Agreement!\n\nYes?
+
+OFFER_PROTECTORATE			;You need to join with a strong empire like ours in a Protectorate treaty. We could then protect you against any aggressors.\n\nSurely you agree?
+OFFER_MUTUALDEFENSE			;We admire your strength - we should join together in a Mutual Defense Pact. This would deter others from plotting against us.\n\nA wise plan, don't you think?
+OFFER_DEMANDITEM			;We require something of you. Do not disappoint us - give us what we ask for
+OFFER_DEAL				;Does this trade appeal to you?
+
+DEMAND_ACCEPT				;We will part with this for you
+DEMAND_REJECT				;We are not intimidated. We may accept a fair deal, but not threats
+
+DEAL_BEGIN				;What is your proposal?
+DEAL_ACCEPT				;It's a deal!
+DEAL_IMPROVE				;An appealing offer - but we need just a bit more
+DEAL_REJECT				;We cannot accept this offer
+DEAL_COMPLAIN				;You must be joking! But we're not laughing. Make a serious offer or none at all
+
+MUTUALDEFENSE_ACCEPT			;Agreed, a Mutual Defense Pact makes good sense. Welcome to our new allies!
+MUTUALDEFENSE_REJECT			;No, a Mutual Defense Pact does not match with our plans at the moment
+MUTUALDEFENSE_REQUESTHELP		;Those sneaky vermin, the {0}, are attacking us! We call on you to honor your treaty with us and declare war on them.\n\nAre you with us?
+MUTUALDEFENSE_HONORREQUESTHELP		;We will honor this agreement - we declare war on the {0}!
+MUTUALDEFENSE_HONORREQUESTHELP_RESPONSE	;A test well met, ally!
+MUTUALDEFENSE_DECLINEREQUESTHELP	;Sorry, but our plans do not include fighting unwinnable wars.\n\nWe cannot help you...
+MUTUALDEFENSE_DECLINEREQUESTHELP_RESPONSE	;We always suspected you were going to betray us.\n\nYou will pay for this dishonor!
+PROTECTORATE_ACCEPT			;We can see much benefit in becoming your Protectorate - we accept.\n\nMay our friendship last until we grow big enough to defeat you
+FREETRADE_ACCEPT			;A Free Trade Agreement - what a brilliant idea! We accept your offer
+
+CANCELTREATY				;We no longer find this {0} beneficial - we are cancelling it
+CANCELTREATY_RESPONSE_FRIENDLY		;How sad. Maybe you will reconsider at a later time
+CANCELTREATY_RESPONSE_NEUTRAL		;Alright then - it is over
+CANCELTREATY_RESPONSE_ANGRY		;We were just about to cancel this treaty ourselves.\n\nWe really didn't want it anyway
+
+TREATY_PROPOSAL				;What do you have in mind?
+TREATY_ACCEPTRESPONSE			;A very smart decision - welcome to our alliance!
+TREATY_REJECTRESPONSE			;A poor choice.\n\nMaybe you will realize this later and reconsider...
+
+TRADESANCTIONS_IMPOSE			;We have something for you: Trade Sanctions!\n\nWe will no longer sponsor your belligerence - all trade between us is over
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Do you really think we care about losing your trade? It is nothing to us!
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;Our suspicions are confirmed: you are totally untrustworthy
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;How criminal! How disturbing to betray your friends in this manner
+TRADESANCTIONS_LIFT			;Our Trade Sanctions against you are over. We will trade with you once again
+TRADESANCTIONS_LIFT_RESPONSE		;We are glad that you have become more reasonable. We welcome fair trade between us
+
+WAR_DECLARE				;Our preparations are complete - now it is time for WAR!\n\nWe look forward to removing every last trace of your miserable existence from the galaxy!
+WAR_DECLARE_RESPONSE_EAGER		;We knew it would come to this!\n\nYou want war, but now you will get annihilation!
+WAR_DECLARE_RESPONSE_NEUTRAL		;We knew you were planning to betray us!\n\nNow we will teach you a lesson in how to fight!
+WAR_DECLARE_RESPONSE_SURPRISED		;We always suspected you were a traitor. Now we know it is true.\n\nWe will give you war, if that is what you seek!
+
+WAR_END					;This war only weakens both of us. We propose an immediate end to our fighting
+WAR_END_ACCEPT				;Agreed. Let us end our war at once
+WAR_END_REJECT				;End the war? No, we are just getting started!
+
+GIFT_GIVE				;We offer you a gift of {0} credits.\n\nWe hope that it will reassure you of our peaceful intentions
+GIFT_THANKS				;We appreciate your gift. Thank you.\n\nMaybe you are not as evil as we imagined
+
+WARNING						;What is it?
+WARNING_INTELLIGENCEMISSIONS			;We warn you not to attempt any further covert missions against us.\n\nAll of your evil plots are well known to us...
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;We are not aware of any missions against you my friend, but we will investigate this situation at once
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Surely you are mistaken? We have no knowledge of any missions against you
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;You are right to fear our masterful spy network.\n\nWe know more than you imagine - including all your weaknesses...
+
+WARNING_ATTACKS					;We are angered by your ship attacks against us.\n\nStop them now, or face retaliation!

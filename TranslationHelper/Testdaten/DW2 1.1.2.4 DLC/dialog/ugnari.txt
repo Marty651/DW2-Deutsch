@@ -1,0 +1,48 @@
+
+GREETING_INTRODUCTION			;Welcome strange one! We are the {0}.\n\nWe love tinkering with new technology.\n\nPerhaps you've heard others say that we are greedy and dishonest, but don't believe those lies. We just like to make sure we get a good deal
+GREETING_FRIENDLY			;Welcome back! What did you want to talk about?
+GREETING_NEUTRAL			;We are listening
+GREETING_ANGRY				;We're not very happy with you. So tell us what you want, then leave!
+
+OFFER_FREETRADE				;How about accepting our offer of a Free Trade Agreement?\n\nIt would be a great deal for you! And I suppose we would benefit from it too...\n\nDo you accept?
+FREETRADE_ACCEPT			;It's a deal!\n\nWe acccept the Free Trade Agreement
+FREETRADE_REJECT			;No deal.\n\nWe are not interested in a Free Trade Agreement just now
+
+CANCELTREATY				;Our {0} with you is over.\n\nNo hard feelings, right? We can renegotiate later if you want
+CANCELTREATY_RESPONSE_FRIENDLY		;No more treaty?!\n\nAren't we friends now? Did we cheat too much?
+CANCELTREATY_RESPONSE_NEUTRAL		;Hey, you broke the deal! That's not fair.\n\nWe snuck a lot of devious fineprint into that treaty. That was hard work!
+CANCELTREATY_RESPONSE_ANGRY		;We don't need your silly treaty anyway. So there
+
+TREATY_PROPOSAL				;What's the deal?
+TREATY_ACCEPTRESPONSE			;Celebration! We're partners now!
+TREATY_REJECTRESPONSE			;We are sad about this
+
+TRADESANCTIONS_IMPOSE			;You bet the wrong way this time: Trade Sanctions on you!\n\nWe're not trading with your empire again!
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Trade Sanctions?! You are a big cheat!\n\nWe'll get you, tricky alien!
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;No trading with you?\n\nYour business deals were all bad anyway. We don't need them
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;Keep your trade then. We don't care
+TRADESANCTIONS_LIFT			;It's your lucky day: we're lifting our Trade Sanctions against you.\n\nWe will now resume trading with you. But no more funny business, ok?
+TRADESANCTIONS_LIFT_RESPONSE		;Huh! We do not need your trade...
+
+WAR_DECLARE				;You cheating trickster! We declare WAR on you!\n\nYou'll be sorry now!
+WAR_DECLARE_RESPONSE_EAGER		;You think you'll defeat us?! You're wrong.\n\nWe're trickier than you are! You'll be sorry!
+WAR_DECLARE_RESPONSE_NEUTRAL		;We're ready for you. We'll punish you!
+WAR_DECLARE_RESPONSE_SURPRISED		;We thought you liked us?!\n\nYou can't do this! It's not allowed!
+
+WAR_END					;This war is unprofitable. It should end.\n\nWhat do you say?
+WAR_END_ACCEPT				;Yes, we agree to end the war
+WAR_END_REJECT				;No, we're betting on winning this war.\n\nSo we're not stopping now!
+
+GIFT_GIVE				;Here's a gift for you: {0} credits
+GIFT_THANKS				;Thanks for your gift!\n\nYou know, we really like money. And people who give us money
+
+WARNING						;What did we do wrong?
+WARNING_INTELLIGENCEMISSIONS			;Stop doing all those spy things on us!\n\nWe can see how devious you are. We're pretty devious ourselves, so we know what we're talking about.\n\nAnyway, don't do those things again, alright?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;Spy missions on you?\n\nYou must have gotten mixed up friend. That can't be us
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Spy missions on you?\n\nYou must have gotten mixed up. That can't be us
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Spy missions against you?\n\nSo what if we did? You probably deserved it!
+WARNING_ATTACKS					;Stop attacking our ships and bases!\n\nWe're warning you: keep this up and you'll be sorry!
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Attacks? What are you talking about?\n\nThat wasn't us, friend
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Attacks? What are you talking about?\n\nThat wasn't us
+
+WARNING_ATTACKS_RESPONSE_ANGRY			;Attacks on you?\n\nMaybe we did do it. But you deserved it anyway, so there!

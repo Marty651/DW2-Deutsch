@@ -1,0 +1,63 @@
+
+GREETING_INTRODUCTION			;Hi funny alien! {0} we are.\n\nFriends with you, we be!
+GREETING_FRIENDLY			;Good to see you it is, friend. We help you, yes?
+GREETING_NEUTRAL			;We listen. You speak
+GREETING_ANGRY				;What you smelly ones want this time?
+
+PIRATE_PROTECTIONPROPOSE		;You want us to protect you? Good idea!\n\nFor fee shown below we can 'protect' all your ships in our region for six months.\n\nReady to pay?
+PIRATE_PROTECTIONPROPOSEINITIATE	;Galaxy is dangerous place, you know. Easy to get hurt.\n\nFor small fee we can protect all your ships in our region for six months.\n\nYou should pay up, hmmm?
+PIRATE_PROTECTIONACCEPTRESPONSE		;Your money smell real good!\n\nNo accidents for your ships till we spent all the money, ok?
+PIRATE_PROTECTIONREJECTRESPONSE		;No pay - no protection.\n\nVery simple, it is
+PIRATE_PROTECTIONALREADYPAID		;You crazy alien! You already paid!\n\nCome back later. We take more money then
+PIRATE_BUYINFO				;Here's all the secret stuff we know about.\n\nJust clicky-clicky on anything you want, ok?
+PIRATE_ATTACKOFFER_EMPIRES		;We send big bashing on anyone on the list.\n\nJust clicky-clicky who you want bashed, ok?
+PIRATE_ATTACKOFFER_SINGLEEMPIRE		;You not like {0}? We could do big bashing on them for you.\n\nDon't worry - we not tell anyone, ok?\n\nJust pay us {1} credits and we take care of everything.\n\nSound good?
+PIRATE_ATTACKCOMMENCE			;We got the money. {0} getting a bashing!\n\nBye
+
+PIRATE_ALLIANCEPROPOSE			;We spent all that money you gave us. How about permanent alliance with us now?\n\nGive us {0} credits every month and we protect your ships and attack your enemies, without you getting in trouble.\n\nGood deal, yes?
+PIRATE_ALLIANCEACCEPTRESPONSE	;You smarter than you look!\n\nWe friends forever now - just keep sending that money, ok.\n\nHave to go now - we bash all your enemies!
+PIRATE_ALLIANCEREJECTRESPONSE	;Silly alien!\n\nWe have to eat, you know. No pay, no help for you - got it?
+PIRATE_ALLIANCECANCELRESPONSE	;Very, very bad.\n\nWe need your money - if you not give it, then we just have to take it anyway.\n\nNot too late to change mind, ok?
+
+OFFER_FREETRADE				;You and us be friends - have Free Trade Agreement. Lots of money!\n\nSmells good, yes?
+FREETRADE_ACCEPT			;We very happy to have Free Trade Agreement with you! Big feast time!
+FREETRADE_REJECT			;No, we not want Free Trade Agreement.\n\nMaybe later, ok
+
+CANCELTREATY				;{0} with you all finished. We had enough now
+CANCELTREATY_RESPONSE_FRIENDLY		;We not friends now? We smell bad? What is it? Very sad
+CANCELTREATY_RESPONSE_NEUTRAL		;Treaty over? Ok then
+CANCELTREATY_RESPONSE_ANGRY		;We not like you anyway. You smell funny, and no good hunter.\n\nGo away now
+
+TREATY_PROPOSAL				;Tell us treaty - we tell you if smell good or bad
+TREATY_ACCEPTRESPONSE			;We make big feast! Welcome friends!
+TREATY_REJECTRESPONSE			;You missing many big feasts, much good hunting. Think more - change mind
+
+TRADESANCTIONS_IMPOSE			;Trade Sanctions on you now! No more feasts, no more hunting.\n\nWe teach you!
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Bad, bad! You pay big time! Angry, angry!
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;Your goods were smelly anyway. Not hurt us
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;No more trade? Why? We not friends now?
+TRADESANCTIONS_LIFT			;We stop Trade Sanctions on you now.\n\nYou come hunting with us again if you want
+TRADESANCTIONS_LIFT_RESPONSE		;Your goods still smelly. But we buy smelly stuff from you again now
+
+WAR_DECLARE				;WAR on you! You in big trouble - we hunting YOU!
+WAR_DECLARE_RESPONSE_EAGER		;We not frightened. We good hunters. You be sorry
+WAR_DECLARE_RESPONSE_NEUTRAL		;We ready for war. Our spears are sharp!
+WAR_DECLARE_RESPONSE_SURPRISED		;You all mixed up! We friends, have feast together - not war! Tell us is mistake
+
+WAR_END					;Big hunting time finished now. We want feast.\n\nEnd war, yes?
+WAR_END_ACCEPT				;Yes, we stop war now. Ready for big feast
+WAR_END_REJECT				;No, we just started hunting. Not end war now. Not feast time yet
+
+GIFT_GIVE				;We give you {0} credits. You can have big feast now!
+GIFT_THANKS				;Thank you for money! All things smelling good!
+
+WARNING_INTELLIGENCEMISSIONS		;Stop spying on us! We get angry angry with sneaky sneaky.\n\nNo more spy stuff - we warning you!
+WARNING_ATTACKS				;Stop hunting our ships! All smells very bad.\n\nBig warning: we hunt YOU if not stop
+
+WARNING						;What you warn us about?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;No missions on you, friend. We not sneaky
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Really? Not heard this. Will check about it, ok?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Missions on you? Oh yes, we not like you - very smelly.\n\nSo we send missions. Maybe send more if you still smelly
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Oh sorry. We mixed you up with someone else.\n\nNot happen again
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;That not good. We be more careful, ok?
+WARNING_ATTACKS_RESPONSE_ANGRY			;Attacks on you? Yes - we not like you.\n\nWe send more attacks if you not behave, ok?

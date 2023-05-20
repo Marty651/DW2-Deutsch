@@ -1,0 +1,68 @@
+GREETING_INTRODUCTION   ;We are the {0}.\n\nWe seek total dominance over all.\n\nWill you bow before us, or must you be conquered?
+GREETING_FRIENDLY   ;What scheme for conquest have you come to share with us, friend?
+GREETING_NEUTRAL   ;Explain your presence before us
+GREETING_ANGRY    ;You come to speak with us, enemy?\n\nWhat pacifying offer do you have for us?
+
+
+OFFER_DEAL    ;Would you accept this trade?
+OFFER_DEAL_RESPONSE  ;What kind of deal are you offering?
+
+PIRATEPROTECTION_DEAL    ;Space is a cold and dangerous place. It would be a such a shame if any of your ships or bases suffered harm...\n\nFor the small monthly fee of {0} credits we can guarantee that none of your ships will suffer any 'unfortunate accidents'.\n\nAt least, not until our next fee is due anyway...
+
+DEAL_BEGIN    ;A deal? Let's hear it
+DEAL_ACCEPT    ;We accept your proposal
+DEAL_ACCEPT_RESPONSE  ;An excellent outcome!
+DEAL_REJECT_RESPONSE  ;That’s very disappointing...
+DEAL_REJECT    ;This proposal is worthless - no deal
+
+SWAP_MAPS  ;What kind of map did you want to swap?
+
+WAR_END_ACCEPT    ;For once we agree with you - this war should end.\n\nOur forces are standing down
+WAR_END_REJECT    ;End the war?!\n\nOnly the weak crave relief from their losses. The strong press forward with conquest. You are the weak, and we are the strong.\n\nThis war is not over yet
+
+TREATY_ACCEPT   ;We accept your offer of {0}
+TREATY_REJECT   ;No, we are not interested in {0}
+TREATY_REJECT_TOOSOON_NEUTRAL   ;No, we are not interested in {0}. It is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_ANGRY   ;We have no interest in {0} with you! Besides, it is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_FRIENDLY   ;We are not interested in {0} now. It is too soon after the last change to our relations
+TREATY_ACCEPT_NEUTRAL   ;We accept your offer of {0}
+TREATY_REJECT_NEUTRAL   ;No, we are not interested in {0} at this time
+TREATY_ACCEPT_ANGRY   ;We accept your offer of {0}
+TREATY_REJECT_ANGRY   ;We have no interest in {0} with you!
+TREATY_ACCEPT_FRIENDLY   ;We gladly accept your offer of {0}!
+TREATY_REJECT_FRIENDLY   ;We are not interested in {0} at this time
+
+PROTECTION_ACCEPT  ;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_NEUTRAL  ;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_ANGRY  ;Your pathetic weakness has been noted. Our 'protection' will cost you {0} credits per month. You may go now
+PROTECTION_ACCEPT_FRIENDLY  ;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_REJECT   ;No, we are not interested in protecting you
+PROTECTION_REJECT_NEUTRAL  ;No, we don't want a Protection Arrangement with you
+PROTECTION_REJECT_ANGRY  ;No, we don't want to protect your worthless empire! Perhaps we will conquer it instead...
+PROTECTION_REJECT_FRIENDLY  ;No, we don't want a Protection Arrangement with you
+
+CANCELTREATY    ;Our {0} with you is now terminated.\n\n"Terminated" - how we love that word! It has such a ring to it, don't you think?
+CANCELTREATY_RESPONSE_FRIENDLY  ;We used to like you.\n\nBut perhaps we misjudged matters...
+CANCELTREATY_RESPONSE_NEUTRAL  ;Very well then. Your insult has been noted
+CANCELTREATY_RESPONSE_ANGRY  ;Good, good. This treaty was getting in the way of our plans anyway
+
+CANCELPROTECTION_RESPONSE_FRIENDLY  ;A surprising choice. But perhaps it is for the best
+CANCELPROTECTION_RESPONSE_NEUTRAL  ;What a shame. We will miss those monthly credits. Perhaps we will find other ways to obtain them...
+CANCELPROTECTION_RESPONSE_ANGRY  ;Fool! Do you really think you can possibly survive without our 'protection'?!
+
+TREATY_PROPOSAL    ;What exactly are you proposing?
+TREATY_ACCEPTRESPONSE   ;Excellent!\n\nWe hope that you are compliant and submissive allies. Are you?
+TREATY_REJECTRESPONSE   ;How independent of you.\n\nThat is not a trait that we like
+
+PROTECTION_ACCEPTRESPONSE  ;A shrewd choice! We look forward to your monthly payments
+PROTECTION_REJECTRESPONSE  ;What a foolish choice! You will end up paying for this...
+
+GIFT_GIVE    ;We have a gift for you of {0} credits.\n\nIt is not in our nature to be so kind.\n\nSo you would be wise to see this as a cynical ploy
+GIFT_THANKS_ANGRY    ;Your stingy gift has been recorded
+GIFT_THANKS_NEUTRAL    ;Thank you for your modest gift
+GIFT_THANKS_FRIENDLY    ;We are delighted to receive your very satisfactory gift!
+GIFT_PROPOSE    ;What kind of gift did you have in mind?
+
+WAR_DECLARE_RESPONSE_ANGRY  ;How ironic - we were just about to declare war on you! So convenient.\n\nAnd now you must die...
+WAR_DECLARE_RESPONSE_NEUTRAL  ;How brave of you - daring to take us on!\n\nOf course, bravery and foolishness are closely related.\n\nVery closely, in this case
+WAR_DECLARE_RESPONSE_FRIENDLY  ;You are full of surprises!\n\nBut we always welcome a good fight.\n\nSo victory to the strong! - that's us, of course

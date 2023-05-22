@@ -1,11 +1,13 @@
+# << Zweites Programm - Prüfung der richtigen Verwendung der GameEvent Namen. >>
+
 # Check GameEvents
 # First searches all GameEvent/Name elements and stores the values <- all possible GameEvent (reference / ID names).
 # Then it searches for locations that could reference a game event and stores the found values.
 # Then it compares the found values with the possible values and shows the differences (GameEvents that arer eferenced but do not exist).
 
 $files = @(
-    "../1.1.2.4/DW2/GameEvents*"
-    "../1.1.2.4/DLC Ikkuro and Dhayut/GameEvents*"
+    "$PSScriptRoot/../1.1.2.4/DW2/GameEvents*"
+    "$PSScriptRoot/../1.1.2.4/DLC Ikkuro and Dhayut/GameEvents*"
 );
 
 $gameEvents = $files | Get-ChildItem | ForEach-Object { [xml](Get-Content $_.FullName -Encoding UTF8) };

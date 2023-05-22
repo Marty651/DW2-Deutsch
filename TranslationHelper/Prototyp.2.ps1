@@ -1,93 +1,47 @@
-# Notes / TODO: 
-# - Dad needs the other program first -> check glossar (component def. + names of galactopedia files) against the "fließtexte" (galactopedia)
-# - Is not checking empty content really good?
-# - Comment nodes instead of text nodes & show both (all) at the same time?
-
-# << Erstes Programm - Zusammenführung von Englisch Neu <- Englisch Alt <- Deutsch Alt (Automatische Übernahme bei neuen Versionen). >>
+# << Drittes Programm - Zusammenführung von mehreren zeitgleichen Änderungen einer Datei (Aufzeigen von Konflikten). >>
+# - Expects the structure to be identical
+# - 2 Files -> One MASTER one (slave) -> Check master for rules and if slave different -> MARKER
 
 ### Global Setup ###
 
 # @{ ... }
 $Config = @{
-    UseDeepl = $false
     DryRun = $false
     ShowGreen = $false
 
     MarkerPreAndPostFix = "#####"
-    MarkerInvalid = "UNGÜLTIG"
-    MarkerNew = "NEU"
-    MarkerNotYetTranslated = "NOCH_NICHT_ÜBERSETZT"
-    MarkerOutdated = "VERALTET"
+    MarkerConflict = "KONFLIKT"
 
-    FilePathRuleSets = "$PSScriptRoot\Konfiguration\Regeln.ps1"
-
-    FolderPathEnNew = "$PSScriptRoot\1 Englisch Neu"
-    FolderPathEnOld = "$PSScriptRoot\2 Englisch Alt"
-    FolderPathDe = "$PSScriptRoot\3 Deutsch Alt"
+    FolderPathFirst = "$PSScriptRoot\1 Englisch Neu"
+    FolderPathSecond = "$PSScriptRoot\2 Englisch Alt"
 
     FolderPathResult = "$PSScriptRoot\4 Deutsch Neu (Ergebnis)"
-    FilePathLog = "$PSScriptRoot\Logs\Prototyp.Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
-
-    FilePathDeeplKey = "$PSScriptRoot\Schlüssel\Deepl.txt"
-    DeeplUrl = "https://api-free.deepl.com/v2/translate"
+    FilePathLog = "$PSScriptRoot\Logs\Prototyp.2.Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
 }
 
-# @{Name = "", Files = @(), Rules = @()}
-$RuleSets = . $Config.FilePathRuleSets
-
-$global:Log = @("TYP; REGELSET; DATEI; REGEL; INFO");
+$global:Log = @("TYP; DATEI; INFO");
 $LogFn = {
-    param($type, $ruleSet, $file, $rule, $info, $steps, $foregroundColor)
+    param($type, $file, $info, $steps, $foregroundColor)
 
-    Write-Host -ForegroundColor $foregroundColor "$steps $rule -> $type. $info"
-    $global:Log += "$type; $ruleSet; $file; $rule; $info"
-}
-
-$TranslateFn = {
-    param($text)
-
-    $params = @{
-        auth_key = Get-Content $Config.FilePathDeeplKey
-        text = $text
-        target_lang = "DE"
-    }
-    $response = Invoke-RestMethod -Uri $Config.DeeplUrl -Method Post -Body $params
-    return $response.translations.text
-}
+    Write-Host -ForegroundColor $foregroundColor "$steps $type. $info"
+    $global:Log += "$type; $file; $info"
+};
 
 $ProcessFn = {
-    param($elementNew, $elementOld, $elementDe, $ruleInfo)
+    param($elementFirst, $elementSecond)
 
     if ($Config.DryRun) {
-        Write-Host -ForegroundColor Magenta ">>>> $ruleInfo"
+        Write-Host -ForegroundColor Magenta ">>>> OK"
         return
     }
 
     # Workaround: Some "empty" elements are not recognized as such, so we add a text node if it doesn't exist.
     # TODO: Maybe it's better to just ignore empty or throw a warning/error/invalid?
-    if (!($elementNew | Get-Member "#text" -MemberType Property)) {
-        $elementNew.AppendChild($xmlEnNew.CreateTextNode([String]::Empty)) | Out-Null
+    if (!($elementFirst | Get-Member "#text" -MemberType Property)) {
+        $elementFirst.AppendChild($xmlEnNew.CreateTextNode([String]::Empty)) | Out-Null
     }
 
-    if ($null -eq $elementOld) {
-        $LogFn.Invoke($Config.MarkerNotYetTranslated, $name, $file, $ruleInfo, "Kein Element gefunden in 'Englisch Alt'.", ">>>>", "DarkCyan")
-        $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $TranslateFn.Invoke($elementNew."#text") : $elementNew."#text")
-        return
-    }
-    elseif ($elementOld.InnerText -ne $elementNew.InnerText) {
-        $LogFn.Invoke($Config.MarkerOutdated, $name, $file, $ruleInfo, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.", ">>>>", "DarkCyan")
-        $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerOutdated + $Config.MarkerPreAndPostFix + " " + $elementNew."#text"
-        return
-    }
-
-    # Elements in EN_NEW and EN_OLD exist and text is equal!
-
-    if ($null -eq $elementDe) {
-        $LogFn.Invoke($Config.MarkerNotYetTranslated, $name, $file, $ruleInfo, "Kein Element gefunden in 'Deutsch Alt'.", ">>>>", "DarkCyan")
-        $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $TranslateFn.Invoke($elementNew."#text") : $elementNew."#text")
-        return
-    }
-    elseif (($elementNew.InnerText -eq $elementDe.InnerText) -and ($elementNew.InnerText -ne [String]::Empty)) {
+    if (($elementNew.InnerText -eq $elementDe.InnerText) -and ($elementNew.InnerText -ne [String]::Empty)) {
         $LogFn.Invoke($Config.MarkerNotYetTranslated, $name, $file, $ruleInfo, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.", ">>>>", "DarkCyan")
         $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $TranslateFn.Invoke($elementNew."#text") : $elementNew."#text")
         return

@@ -5338,7 +5338,7 @@ Disallowed Tech		;Verbotene Technologie
 Character Mission Explanation InfluenceEmpirePositively		;Beeinflusse eine andere Fraktion in ihrer Beurteilung einer dritten Partei, so dass sie die dritte Partei mehr mag
 Character Mission Explanation InfluenceEmpireNegatively		;Beeinflusse eine andere Fraktion in ihrer Beurteilung einer dritten Partei, so dass sie die dritte Partei weniger mag
 Character Mission Explanation InternalStabilization		;Reduziert interne Unruhen von Dissidenten in deinem eigenen Reich. Das ist besonders in Kriegszeiten nützlich, wenn Deine Kriegsmüdigkeit hoch wird. Bei Erfolg wird Dein Reich für 2 Jahre reduzierte Kriegsmüdigkeit und Korruption haben.
-Character Mission Explanation CaptureBase		;Erobere eine bestimmte Basis eine anderen Reiches. Die Zielbasis muss Deinem Reich bekannt sein. Sie muss außerdem in Deinem Reich oder in einem nicht-beanspruchten Gebiet sein. Die Basis kann also nicht im Gebiet des Zielreiches (z.B. ein Raumhafen oder eine Kolonie) sein.
+Character Mission Explanation CaptureBase		;Erobere eine bestimmte Basis eines anderen Reiches. Die Zielbasis muss Deinem Reich bekannt sein. Sie muss außerdem in Deinem Reich oder in einem nicht-beanspruchten Gebiet sein. Die Basis kann also nicht im Gebiet des Zielreiches (z.B. ein Raumhafen oder eine Kolonie) sein.
 
 Character Mission Explanation Success InternalStabilization		;Als ein Ergebnis wird unser Reich für die nächsten 2 Jahre reduzierte Kriegsmüdigkeit und Korruption haben.
 
@@ -5350,10 +5350,10 @@ Ship Design is Automated		;Schiffsdesign ist automatisiert
 Ship Design is Manually-controlled		;Schiffsdesign ist manuell kontrolliert
 
 Civil War in EMPIRE		;Bürgerkrieg in {0}
-Civil War Detail EMPIRE NEWEMPIRE COLONYCOUNT		;EIn Bürgerkrieg steht bevor im {0}!\n\nMüder der Unterdrückung und Tyrannei, haben {2} Kolonien ihre Unabhängigkeit erklärt und haben das {0} verlassen!\n\nSie haben ein neues Reich gegründet, das {1}.\n\nDer Krieg zwischen den zwei Fraktionen geht weiter.
+Civil War Detail EMPIRE NEWEMPIRE COLONYCOUNT		;Ein Bürgerkrieg steht bevor im {0}!\n\nMüder der Unterdrückung und Tyrannei, haben {2} Kolonien ihre Unabhängigkeit erklärt und haben das {0} verlassen!\n\nSie haben ein neues Reich gegründet, das {1}.\n\nDer Krieg zwischen den zwei Fraktionen geht weiter.
 
 Civil War!		;Bürgerkrieg!
-Your Empire Civil War Detail NEWEMPIRE COLONYCOUNT		;Katastrophe! Unser Reich hat sich in zwei Teile gespalten!\n\nMassive Unruhen führten dazu, dass {1} Kolonien ihre Unabhängigkeit erklärt und unser Reich verlassen haben. Sie haben ein neues Reich gegründet, das {0}.\n\nWir sind nun mi diesen Verrätern im Krieg - wir werden zurückholen, was uns gehört!
+Your Empire Civil War Detail NEWEMPIRE COLONYCOUNT		;Katastrophe! Unser Reich hat sich in zwei Teile gespalten!\n\nMassive Unruhen führten dazu, dass {1} Kolonien ihre Unabhängigkeit erklärt und unser Reich verlassen haben. Sie haben ein neues Reich gegründet, das {0}.\n\nWir sind nun mit diesen Verrätern im Krieg - wir werden zurückholen, was uns gehört!
 
 Left-click to move up Explanation		;Left-click to move up\nShift-Left-click to move to top
 Left-click to move down Explanation		;Left-click to move down\nShift-Left-click to move to bottom

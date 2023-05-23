@@ -1,0 +1,1 @@
+@pwsh.exe -ExecutionPolicy ByPass -File "%~dp0\Start.ps1"

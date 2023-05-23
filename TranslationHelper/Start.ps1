@@ -1,0 +1,1 @@
+. $PSScriptRoot\Programm\Prototyp.ps1

@@ -1,5 +1,5 @@
 # << Viertes Programm - Prüfung von Strukturänderungen einer Datei (Neu VS Alt). >>
-# First compare structure (scan)
+# First compare structure (scan)/****************************
 
 ### Global Setup ###
 
@@ -100,9 +100,7 @@ foreach ($ruleSet in $RuleSets) {
 
         Write-Host ""
 
-        if ($false -eq $Config.DryRun) {
-            $xmlEnNew.Save("$($Config.FolderPathResult)\$file")
-        }
+        $xmlEnNew.Save("$($Config.FolderPathResult)\$file")
     }
     Write-Host ""
 }

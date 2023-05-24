@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfMusicTrack xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MusicTrack>
+    <Mood>Action</Mood>
+    <Layers>
+      <MusicTrackLayer>
+        <Filepath>Sounds/Music/DistantWorlds2-LayerTest1-Layer1</Filepath>
+        <RaceId>-1</RaceId>
+      </MusicTrackLayer>
+      <MusicTrackLayer>
+        <Filepath>Sounds/Music/DistantWorlds2-LayerTest1-Layer2</Filepath>
+        <RaceId>-1</RaceId>
+      </MusicTrackLayer>
+      <MusicTrackLayer>
+        <Filepath>Sounds/Music/DistantWorlds2-LayerTest1-Layer3</Filepath>
+        <RaceId>-1</RaceId>
+      </MusicTrackLayer>
+      <MusicTrackLayer>
+        <Filepath>Sounds/Music/DistantWorlds2-LayerTest1-Layer4</Filepath>
+        <RaceId>-1</RaceId>
+      </MusicTrackLayer>
+    </Layers>
+    <Stingers>
+      <MusicTrackStinger>
+        <Filepath>Sounds/Music/DistantWorlds2-Stinger1</Filepath>
+      </MusicTrackStinger>
+    </Stingers>
+    <BeatsPerMinute>104</BeatsPerMinute>
+    <Weighting>1</Weighting>
+  </MusicTrack>
+</ArrayOfMusicTrack>

@@ -1,0 +1,48 @@
+
+GREETING_INTRODUCTION			;We are the {0}.\n\nWe seek understanding of all in the galaxy, including your unique empire.\n\nPlease, tell us about yourselves
+GREETING_FRIENDLY			;Our good friends, what is it that you wish to discuss with us?
+GREETING_NEUTRAL			;Is there anything that we can do for you?
+GREETING_ANGRY				;You test our patience.\n\nState your business quickly
+
+OFFER_FREETRADE				;We would be honored if you would accept a Free Trade Agreement with us. We feel certain that this arrangement would be mutually advantageous.\n\nWhat do you say?
+FREETRADE_ACCEPT			;A Free Trade Agreement with you? We eagerly accept!\n\nWe will leave our ambassadors to work out the details of the treaty for us
+FREETRADE_REJECT			;We are sorry, but a Free Trade Agreement with you would not be suitable for us right now.\n\nMaybe we should revisit this topic at a later time
+
+CANCELTREATY				;This {0} is no longer in our best interests. We are cancelling this arrangement
+CANCELTREATY_RESPONSE_FRIENDLY		;This disappoints us. We felt that this treaty was most worthwhile.\n\nBut we respect your decision to end it
+CANCELTREATY_RESPONSE_NEUTRAL		;How unfortunate.\n\nBut it is good to speak openly with each other in these important matters
+CANCELTREATY_RESPONSE_ANGRY		;You feelings match ours - we no longer want this treaty either.\n\nIt is best for it to end
+
+TREATY_PROPOSAL				;A treaty proposal? We are eager to hear your idea
+TREATY_ACCEPTRESPONSE			;We are most pleased at your acceptance, our new ally.\n\nFeel free to share your thoughts with us at any time
+TREATY_REJECTRESPONSE			;Perhaps another time you will feel differently
+
+TRADESANCTIONS_IMPOSE			;We feel compelled to impose Trade Sanctions against your empire. All trade between our two empires has ended.\n\nWe trust that we will not need to take any further punitive measures against you - but that will be up to you
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;Trade Sanctions cut both ways, you know.\n\nYou should be careful not to take on more than you can handle...
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;This action is most unhelpful. We urge you to reconsider this course
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;This is most unsettling. We do not understand your actions here
+TRADESANCTIONS_LIFT			;Our Trade Sanctions against you have ended.\n\nWe hope for continued improvement in our relationship
+TRADESANCTIONS_LIFT_RESPONSE		;This is a welcome development. Trade can increase mutual understanding between our peoples
+
+WAR_DECLARE				;We formally notify you that a state of war now exists between us.\n\nYou leave us no choice but to meet you in battle
+WAR_DECLARE_RESPONSE_EAGER		;It is not often that we seek war. But in your case we welcome it.\n\nWe anticipate your swift defeat
+WAR_DECLARE_RESPONSE_NEUTRAL		;We may be peaceful, but we are also prepared.\n\nIf you seek war, we will give it to you
+WAR_DECLARE_RESPONSE_SURPRISED		;We do not understand your aggression.\n\nWe will defend ourselves, but we implore you to think again
+
+WAR_END					;This destructive conflict achieves nothing - we propose an immediate end to the war.\n\nWhat do you say?
+WAR_END_ACCEPT				;Yes, this war serves no purpose. We are ordering our forces to stop fighting
+WAR_END_REJECT				;It is too late for peace now.\n\nThis war will continue until you are defeated
+
+GIFT_GIVE				;We present you with a gift of {0} credits.\n\nMay this gesture build a stronger bond between our peoples
+GIFT_THANKS				;You kind gift was most appreciated. Thank you!
+
+WARNING_INTELLIGENCEMISSIONS		;Your reckless covert missions against us are most destabilising.\n\nStop these missions at once! Our internal affairs are none of your concern
+WARNING_ATTACKS				;We are deeply concerned over your unprovoked attacks on our ships and bases.\n\nCease these military operations this instant, or face devastating retaliation!
+
+WARNING						;Share your concerns with us
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;We have not heard of any covert missions against you.\n\nPerhaps you are mistaken?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Covert missions, you say? Let us look into the matter.\n\nThank you for raising this issue with us
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;You have detected covert missions against you?\n\nIf we may speak frankly with you: we feel threatened by you. You are irrational and unpredictable. We feel that we must keep a close eye on you.\n\nSurely you understand our situation?
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;Oh dear, it seems that some of our commanders have become a little too enthusiastic in defending our borders.\n\nPlease accept our apologies
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Attacks? Most unfortunate.\n\nWe will launch a study to explore your allegations
+WARNING_ATTACKS_RESPONSE_ANGRY			;Yes, we are aware of the attacks. We always send attacks against empires that threaten us.\n\nSurely you understand this concept?

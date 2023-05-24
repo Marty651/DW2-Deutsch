@@ -1,0 +1,56 @@
+
+GREETING_INTRODUCTION			;We are the {0}.\n\nWe like the quiet life. And a good game of Todash.\n\nHow about you?
+GREETING_FRIENDLY			;Ahh, good to see you again!\n\nWould you like to join our game of Todash?
+GREETING_NEUTRAL			;Hmm? Oh, you have something to talk about?
+GREETING_ANGRY				;Grrr, you dare to come before us! This had better be good.\n\nSpeak!
+
+PIRATE_PROTECTIONPROPOSE		;Protection for your ships? yes, we can provide that for you.\n\nFor the fee shown below we can 'protect' all of your ships as they travel through our territory.\n\nSound like a bargain to you?
+PIRATE_PROTECTIONPROPOSEINITIATE	;There are many hidden dangers lying in wait for your ships - pirates, for example!\n\nBut for a modest fee we can protect all of your ships travelling through our territory.\n\nA tempting offer, don't you agree?
+PIRATE_PROTECTIONACCEPTRESPONSE		;Excellent!\n\nWe will pass the word to our ships to stand down when they see any of your vessels.\n\nGood bye, until our next fee is due...
+PIRATE_PROTECTIONREJECTRESPONSE		;We wonder whether you're looking for trouble.\n\nMaybe you are...
+PIRATE_ATTACKOFFER_SINGLEEMPIRE		;You seem to be having difficulty with the {0}. That doesn't have to be a problem for you though - we can attack them for you!\n\nThis arrangement would be a secret just between ourselves. You wouldn't get any blame for the attacks.\n\nAll we need is a payment of {1} credits
+PIRATE_ATTACKCOMMENCE			;You just hired us!\n\nThe {0} won't know what hit them!
+
+OFFER_FREETRADE				;You know something: what we need is a Free Trade Agreement. It would be a really great thing.\n\nWhat do you think?
+FREETRADE_ACCEPT			;A Free Trade Agreement, now that's a great idea! We accept.\n\nWe can already think of the ways we're going to spend all that extra money!
+FREETRADE_REJECT			;Well, no actually. We don't think a Free Trade Agreement would be a good idea.\n\nNot with you anyway
+
+CANCELTREATY				;That {0} we had with you? It's done: over, finished, kaput.\n\nIt just didn't work out
+CANCELTREATY_RESPONSE_FRIENDLY		;Well, darn!\n\nWe thought we had a good thing there. You never can tell, I guess
+CANCELTREATY_RESPONSE_NEUTRAL		;If you say so
+CANCELTREATY_RESPONSE_ANGRY		;Oh yeah?! Well we never liked you anyway.\n\nSo there
+
+TREATY_PROPOSAL				;A treaty?! We love treaties!\n\nTell us more
+TREATY_ACCEPTRESPONSE			;I'm so excited! New friends means a big celebration.\n\nBy the way: do you play Todash?
+TREATY_REJECTRESPONSE			;Hmm, that's not what I was wanting to hear.\n\nYou sure know how to kill the party
+
+TRADESANCTIONS_IMPOSE			;You know what you have now: Trade Sanctions!\n\nYou've really earned this. We've had enough of your backstabbing
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY	;You can't imagine how angry we are right now!\n\nIndescribably angry! Furiously outraged! Even quite upset
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL	;That's just what we expected from you.\n\nWe're not inviting you to any more Todash games now!
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;Well, you're a real piece of work! Imagine: slapping trade sanctions on us, your friends!\n\nDon't speak with us again
+TRADESANCTIONS_LIFT			;Trade Sanctions over.\n\nThey're pretty boring actually. We much prefer free and open trade
+TRADESANCTIONS_LIFT_RESPONSE		;Now you're making sense for a change.\n\nWe welcome a return to normal trade
+
+WAR_DECLARE				;You have gone too far this time: WAR on your scrawny empire!\n\nWe'll make you beg for mercy, then show you none!
+WAR_DECLARE_RESPONSE_EAGER		;BRING, IT, ON! We'll bury you!
+WAR_DECLARE_RESPONSE_NEUTRAL		;Temper, temper! This is the last mistake you'll ever make
+WAR_DECLARE_RESPONSE_SURPRISED		;Surely not!\n\nWe thought we were friends? Looks like we were wrong
+
+WAR_END					;We liked this war to begin with, but now it's no fun any more.\n\nShall we call it a day? What do you say?
+WAR_END_ACCEPT				;Yes, enough fighting for today.\n\nWe can carry on again later if we feel like it
+WAR_END_REJECT				;No, this war is way too much fun to stop!\n\nSurely you're not bored already?
+
+GIFT_GIVE				;We got a gift for you: {0} credits! Do you like it?
+GIFT_THANKS				;Wow! A gift for us! Thanks!
+
+WARNING_INTELLIGENCEMISSIONS		;Hey, we know about all those covert missions you're sending against us.\n\nAnd we're pretty mad about them!\n\nSo knock it off right now, ok?
+WARNING_ATTACKS				;Stop your attacks on our ships right now!\n\nOur patience is really wearing thin - we're warning you!
+
+
+WARNING						;A warning? We wonder what could this be about?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;We understand your concern.\n\nWe'll make sure this doesn't happen again
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Before responding we must check the details of this incident.\n\nWe'll get back to you, ok?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY	;Now that you mention it: yes, we did order those missions against you.\n\nWhy? Because we really hate you, actually.\n\nAre we all clear on that?
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;How awful. Please accept our apologies.\n\nGive us the details of the incident and we'll deal with the ship captain that did this
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Hmmm, not good. To get caught, that is.\n\nPlease accept our apologies
+WARNING_ATTACKS_RESPONSE_ANGRY			;We do remember ordering some attacks recently.\n\nBut we'd only ever do that to our enemies. So I guess that means you're our enemy?

@@ -1,0 +1,32 @@
+Fleets are groupings of military ships that act together to carry out missions.
+
+They have a home base that defines their center of operations. They also have an engagement range that defines the area they will engage enemy targets, in a radius out from their home base.
+
+[H3]Fleets List[/H3]
+This screen lists all of the Fleets in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the fleets are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the current mission for the fleet. Also shown are the number of ships in the fleet, the combat strength of the fleet and the attack strength of any troops in the fleet. The fleet role icon is shown at the far-right. Any characters in the fleet are shown at the right, next to the mission description.
+
+Hovering over a list item displays a detailed summary in a panel at the right. This summary panel shows a complete breakdown of all ships in the fleet by ship role, damage level and fuel level. It also provides details on any admirals or generals in the fleet.
+
+[H3]Templates and Fleet Roles[/H3]
+As explained previously, fleets are based on a template. Fleets can have a specific role such as: Attack, Raid, Defend, or Invade. These fleets will select missions appropriate to their fleet role. 
+
+You can also choose to control a fleet manually by setting it's role to Manual (Fleet Role button under Selection Panel) or by simply assigning a mission to the fleet (thus automatically changing it to a Manual fleet).
+
+[H3]Creating New Fleets[/H3]
+You can create a new fleet in a number of different ways:
+[ULI]select multiple military ships in the main view by drag-selecting with the left mouse button held down or by ctrl-clicking each ship. Then click the 'Create New Fleet' button under the Selection Panel[/ULI]
+[ULI]select multiple ships in the Military Ships list by ctrl- and shift-clicking ships in the list. Then click the 'Create New Fleet' button under the Selection Panel[/ULI]
+[ULI]in the Fleet Templates screen, select the desired template and then click either the 'Form new fleet' or 'Build new fleet' buttons at the right[/ULI]
+
+You can also add individual ships to an existing fleet by selecting the ship and clicking the 'Join ship to fleet' button under the Selection Panel. This will popup a list of all fleets that can be joined. Select the fleet you want the ship to join by clicking on it from the list.
+
+[H3]Tactical Settings[/H3]
+Fleets have a full array of tactical settings that fine-tune how they operate. Open the tactical settings screen by selecting the fleet and clicking the 'Set Tactics' button at the far-right under the Selection Panel.
+
+You can control how fleets will respond to threats by setting the Engagement Range. For further details hover over each setting in the Tactical Settings screen.
+
+Note that individual ships within a fleet also have their own tactical settings. You can tweak how the fleet and ship tactics interact in the section 'Fleet Ships - Tactical Overrides'.

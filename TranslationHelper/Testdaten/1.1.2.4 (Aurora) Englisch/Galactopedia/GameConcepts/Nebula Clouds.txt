@@ -1,0 +1,47 @@
+﻿Nebula Clouds are a major feature of the galaxy. Vast clouds of gas and dust spread across the expanse of the galaxy.
+
+[H3]Effect on Hyperspace Travel[/H3]
+Nebula clouds inhibit hyperspace travel, greatly slowing the jump speed of ships when inside them.
+
+For this reason ships typically plot jump paths around nebulae instead of travelling directly through them.
+
+Thus nebulae form natural barriers that shape the galaxy.
+
+[H3]Effect on Long Range Scanners[/H3]
+Long range scanners are inhibited by nebulae. Their scan range is greatly reduced when inside a nebulae.
+
+Nebulae also act as a barrier that blocks scanning of objects on the other side. So you cannot see ships or bases on the other side of a nebula cloud. In other words, you cannot 'scan through' nebulae.
+
+[H2]Other Nebulae Effects[/H2]
+All nebula clouds slow hyperspace travel and inhibit sensors. However some nebulae also have other effects, as outlined below:
+
+[H3]Galactic Storm[/H3]
+Galactic Storms are dangerous nebulae regions with periodic charged lightning strikes. They can inflict the following types of damage on ships or bases:
+[ULI]Standard Damage: 7 max (mitigate with Reactive Armor)[/ULI]
+
+[H3]Ion Storm[/H3]
+Ion Storms emit damaging ion radiation that can disable the components of unprotected ships or bases. They also have a constant energy drain, causing ships to expend more reactor power and thus more fuel.
+[ULI]Ion Damage: 4 max (mitigate with Ion Defense)[/ULI]
+[ULI]Energy Drain: -1/sec[/ULI]
+
+[H3]Gravitic Storm[/H3]
+Gravitic Storms emit intense bursts of gravitic energy that can damage or disable unprotected ships or bases. They also slow the speed of sub-light travel for any ships inside them. They have the following effects:
+[ULI]Ion Damage: 8 max (mitigate with Ion Defense)[/ULI]
+[ULI]Standard Damage: 5 max (mitigate with Reactive Armor)[/ULI]
+[ULI]Speed Modifier: -50%[/ULI]
+
+[H3]Radiation Zone[/H3]
+Radiation Zones are areas of intense radiation that drains energy and shields. They also greatly reduce the effectiveness of sensors.
+[ULI]Energy Drain: -15/sec[/ULI]
+[ULI]Sensors Disabled: -30[/ULI]
+[ULI]Shields Reduced: -6/sec[/ULI]
+
+[H2]Nebulae Map Overlay[/H2]
+You can see the precise boundaries of nebula clouds by turning on the Nebulae map overlay. This overlay shows the outlines of all known nebulae.
+
+The nebulae markers are colored according to the type of nebulae:
+[ULI]Standard Nebulae: Grey[/ULI]
+[ULI]Galactic Storm: Orange[/ULI]
+[ULI]Ion Storm: Purple[/ULI]
+[ULI]Gravitic Storm: Green[/ULI]
+[ULI]Radiation Zone: Yellow[/ULI]

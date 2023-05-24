@@ -16,6 +16,7 @@
 # - - https://scoop.sh/
 # - - https://ohmyposh.dev/docs/installation/windows
 # - - https://github.com/dahlbyk/posh-git
+# - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/set-strictmode?view=powershell-7.3
 
 # References:
 # - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document
@@ -122,7 +123,7 @@ $ProcessFn = {
 ### Main Program ###
 
 Write-Host -ForegroundColor Green "Starte mit Konfiguration:"
-$Config | Select-Object -Property UseDeepl, ShowGreen, DryRun | Format-List
+$Config | Out-Host
 
 if ($Config.DebugOnlyRulesets.Count -gt 0) {
     $RuleSets = $RuleSets | Where-Object { $Config.DebugOnlyRulesets -contains $_.Name }
@@ -135,31 +136,36 @@ foreach ($ruleSet in $RuleSets) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
     $paths = $ruleSet.Pfade
-    Write-Host "> Starte Verarbeitung von Regelset: $name"
+    Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"
 
     # We allow file globs, this resolves them and returns an array of file names for the next steps.
-    $files = $fileNames | % { Get-Item "$($Config.FolderPathEnNew)\$_" } | Select-Object -ExpandProperty Name
+    $files = $fileNames | % { Get-Item "$($Config.FolderPathEnNew)\$_" -ErrorAction SilentlyContinue } | Select-Object -ExpandProperty Name
+
+    if ($files.Count -eq 0) {
+        $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.", ">>>", "Red")
+        continue
+    }
 
     foreach ($file in $files) {
         Write-Host ">> Starte Verarbeitung von Datei: $file"        
 
         $xmlEnNew = $LoadFn.Invoke("$($Config.FolderPathEnNew)\$file")
         if ($null -eq $xmlEnNew) {
-            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Neu' nicht gefunden.", ">>>", "Red")
+            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Neu' konnte nicht geladen werden.", ">>>", "Red")
             continue
         }
 
         $xmlEnOld = $LoadFn.Invoke("$($Config.FolderPathEnOld)\$file")
         if ($null -eq $xmlEnOld) {
             Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathEnOld)\$file nicht gefunden."
-            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Alt' nicht gefunden.", ">>>", "Red")
+            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.", ">>>", "Red")
             continue
         }
 
         $xmlDe = $LoadFn.Invoke("$($Config.FolderPathDe)\$file")
         if ($null -eq $xmlDe) {
             Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathDe)\$file nicht gefunden."
-            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Deutsch Alt' nicht gefunden.", ">>>", "Red")
+            $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.", ">>>", "Red")
             continue
         }
 

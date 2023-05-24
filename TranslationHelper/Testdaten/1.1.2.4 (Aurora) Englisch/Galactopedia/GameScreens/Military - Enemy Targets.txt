@@ -1,0 +1,13 @@
+This screen lists known enemy targets that you can attack with your fleets. These include fixed targets like enemy bases (e.g. pirate bases) and colonies. It also includes enemy fleets for which we know the current location.
+
+When zoomed out to the galaxy- or system-level the enemy targets are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it's location. Double-clicking the item will move the view to that location.
+
+Each list item shows the known enemy strength at the target location. For enemy bases it also shows the current health level of the target.
+
+[H3]Defending Strength[/H3]
+For enemy colonies it shows the known defending troop strength. Note that this can be an estimate when the colony is not directly visible, so caution is needed when considering whether to invade.
+
+[H3]Queuing Attacks[/H3]
+The button at the right allows you to queue an attack against the target. When the next appropriate fleet becomes available it will assign an attack mission against the target. You can click the button again to cancel the attack.
+
+If you cannot attack the target the Queue button will be disabled. A tooltip on the button will explain why you cannot attack.

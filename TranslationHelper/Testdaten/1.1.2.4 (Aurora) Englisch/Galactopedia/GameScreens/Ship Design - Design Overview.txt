@@ -1,0 +1,79 @@
+The Design Overview displays all of the current stats for your design. The values in this panel change as you add and remove components to the hull.
+
+There are many sections to the Design Overview showing data on various aspects of the design. Much of the data has further information when hovered.
+
+At the top is the design name. Click here to type a new name.
+
+[H3]Recommendations[/H3]
+Next is the Recommendations button. This shows a summary of any warnings or errors in the current design. 
+
+Hover over the Recommendations button to popout a larger summary panel. Click the button to lock the recommendations panel open.
+
+The design is not valid (and cannot be saved) until any errors are resolved.
+
+[H3]Core Design Information[/H3]
+Next is a summary of the key design data. This includes information about the purchase and maintenance costs.
+
+It also outlines some important requirements:
+[ULI]the design cannot be larger than the maximum size allowed by the hull[/ULI]
+[ULI]there must be adequate crew for the design[/ULI]
+
+[H3]Rating[/H3]
+The Rating section summarizes data about the design in 4 key areas: Attack Strength, Defend Strength, Speed and Maneuvering, and Scanners.
+
+Hover over each value for a breakdown of the factors that contribute to the rating in each area.
+
+[H3]Energy[/H3]
+The Energy section summarizes the energy generation, storage and distribution in the design.
+
+It also shows graphs outlining how energy is consumed both at sublight speeds in combat and during hyperspace travel. For bases only one graph is shown.
+
+An important value is the reactor energy generation rate per unit of fuel. This shows the efficiency of the reactor fuel usage, which has a direct impact on how quickly a ship needs to refuel.
+
+[H3]Movement[/H3]
+This section is only relevant to ships. It shows the movement speed and energy usage at various levels.
+
+Also shown here is the hyperdrive jump range and overall fuel range.
+
+The hyperdrive jump accuracy indicates the minimum jump exit range when travelling to a location without a colony or base of your own, e.g. when attacking an enemy location.
+
+This means that the ship will exit the jump at approximately this range and then must travel at sub-light speed towards the destination.
+
+[H3]Weapons[/H3]
+The Weapons section outlines weapon ranges and damage rates per second across various weapon categories.
+
+Hovering over the weapon damage graphs reveals further information.
+
+Also shown are the fighter capacity and build rate.
+
+[H3]Defense[/H3]
+The Defense section shows the shield, armor and damage repair values for the design.
+
+Hovering over the shield and armor graphs reveals further information.
+
+Also shown are the boarding defense strength.
+
+[H3]Targeting and Countermeasures[/H3]
+This section shows the targeting and countermeasures bonuses.
+
+Improved targeting makes weapons more accurate and more likely to strike their target.
+
+Improved countermeasures makes a design more able to throw off enemy weapons and thus avoid damage.
+
+[H3]Sensors[/H3]
+The Sensors section outlines the strength and range of a variety of different scanner types:
+[ULI]general short- and long-range scanners for detecting distant ships[/ULI]
+[ULI]hyperjump tracking of enemy ships when they jump away from your location[/ULI]
+[ULI]trace scanning of internal information about nearby enemy vessels[/ULI]
+[ULI]scanner jamming that protects against scanning by enemies[/ULI]
+
+[H3]Industry[/H3]
+The Industry section has values for various industrial categories like cargo storage, docking bay throughput, mining, research and others.
+
+[H3]Bonuses[/H3]
+The Bonuses section summarizes any bonuses provided by the hull or any components in the design.
+
+[H3]Resources Required to Build[/H3]
+This section shows the total resources that are required to build a new copy of this design.
+
+This includes resources from the hull and all components on the design.

@@ -1,0 +1,27 @@
+The Design Bays list shows all of the component bays in the hull.
+
+The components added to the Design Bays list is the core of the design. The components added here define the capabilities and behavior of the design.
+
+Each bay has a type and size. You can only place components in a bay when it is a matching type and when the component size fits within the bay.
+
+There are 6 component bay types. Each bay type only allows certain types of components:
+[ULI]General: command centers, crew quarters, fuel cells, reactors, hyperdrives, cargo bays, passenger compartments, troop compartments, mining engines, energy collectors and all others[/ULI]
+[ULI]Weapons: weapons or tractor beams[/ULI]
+[ULI]Engines: engines and vectoring engines[/ULI]
+[ULI]Defense: armor, shields or damage control[/ULI]
+[ULI]Hangars: docking bays, construction yards or fighter bays[/ULI]
+[ULI]Sensors: scanners, countermeasures, targeting computers, survey modules, scanner jammers[/ULI]
+
+To add a component to a bay:
+[OLI]select the desired component from the Available Components list[/OLI]
+[OLI]find a bay of the matching type and adequate size in the Design Bays list[/OLI]
+[OLI]left-click in the bay to place the component[/OLI]
+
+You can also do the following:
+[ULI]when you hover over a bay that already contains a component, a popup comparison window will be displayed. This allows you to quickly see the differences between them[/ULI]
+[ULI]right-click a bay to remove an existing component[/ULI]
+
+[H3]External Bays[/H3]
+Note that some component bays are external on the preview model. In other words, they can be seen on the exterior of the ship or base.
+
+External bays are shown in the Design Bays list by a 'view' icon at the left. You can click the view icon to rotate the preview to show the external bay.

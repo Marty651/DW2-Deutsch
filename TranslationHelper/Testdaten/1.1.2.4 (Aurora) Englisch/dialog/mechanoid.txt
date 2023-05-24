@@ -1,0 +1,77 @@
+﻿GREETING_INTRODUCTION		;We are the {0}. We seek nothing from others, but to be left alone.\n\nWhat is the purpose of this communication?
+GREETING_FRIENDLY			;What do you wish to discuss?
+GREETING_NEUTRAL			;Transmit your message.
+GREETING_ANGRY				;Speak.
+
+MUTUALDEFENSE_ACCEPT			;Yes, a Mutual Defense Pact is an excellent idea.\n\nWe accept.
+MUTUALDEFENSE_REJECT			;No, we have no interest in a Mutual Defense Pact
+MUTUALDEFENSE_REQUESTHELP		;We are under attack from the {0}. We are requesting that you honor your treaty with us and declare war on them.\n\nDo we have your assistance?
+MUTUALDEFENSE_HONORREQUESTHELP		;Certainly, we will comply with our alliance directives.\n\nWe declare war on the {0}.
+MUTUALDEFENSE_HONORREQUESTHELP_RESPONSE	;That is most helpful.
+MUTUALDEFENSE_DECLINEREQUESTHELP	;We are unable to comply with this request.
+MUTUALDEFENSE_DECLINEREQUESTHELP_RESPONSE	;This is most disconcerting. Your failure to assist will have grave consequences.
+
+FREETRADE_ACCEPT			;Your offer of a Free Trade Agreement is most sensible - we accept.
+FREETRADE_REJECT			;We have no interest in a Free Trade Agreement
+
+CANCELTREATY						;Our {0} with you must now end.
+CANCELTREATY_RESPONSE_FRIENDLY		;We do not understand. This is most illogical.
+CANCELTREATY_RESPONSE_NEUTRAL		;We will update our diplomatic records with this change
+CANCELTREATY_RESPONSE_ANGRY			;This is most unhelpful.
+
+TREATY_PROPOSAL					;What do you propose?
+TREATY_ACCEPTRESPONSE			;This is a most pleasing outcome. We anticipate many benefits from this arrangement.
+TREATY_REJECTRESPONSE			;Most unfortunate
+
+TRADESANCTIONS_IMPOSE						;It is necessary to impose Trade Sanctions against you.\n\nAll trade between our two empires is terminated.
+TRADESANCTIONS_IMPOSE_RESPONSE_ANGRY		;You are becoming quite a problem. 
+TRADESANCTIONS_IMPOSE_RESPONSE_NEUTRAL		;That is most unhelpful.
+TRADESANCTIONS_IMPOSE_RESPONSE_SURPRISED	;We do not understand your actions. This is most illogical.
+TRADESANCTIONS_LIFT					;Our Trade Sanctions against you have ended. We will now resume normal trade.
+TRADESANCTIONS_LIFT_RESPONSE		;This is a sensible change
+TRADESANCTIONS_REQUESTLIFTOTHER		;We request that you restore trade with the {0}
+TRADESANCTIONS_REQUESTLIFTOTHER_ACCEPT	;As you have requested, we will resume trade with the {0}
+TRADESANCTIONS_REQUESTLIFTOTHER_REJECT	;We see no reason to resume trade with the {0}
+TRADESANCTIONS_REQUESTIMPOSEJOINT	;We request that you terminate trade with the {0}
+TRADESANCTIONS_REQUESTIMPOSEJOINT_ACCEPT	;At your request, we have terminated all trade with the {0}
+TRADESANCTIONS_REQUESTIMPOSEJOINT_REJECT	;We see no need to end trade with the {0}
+
+WAR_DECLARE						;We formally declare War on your empire. We cannot allow your continued existence.
+WAR_DECLARE_RESPONSE_EAGER		;We are prepared and ready.
+WAR_DECLARE_RESPONSE_NEUTRAL	;We will preserve our territorial integrity. Prepare for battle.
+WAR_DECLARE_RESPONSE_SURPRISED	;This is a most unwelcome development. And illogical.\n\nSurely you have made a mistake here?
+
+WAR_DECLARE_REQUESTJOINT			;We formally request that you declare war on the {0}
+WAR_DECLARE_REQUESTJOINT_ACCEPT		;At your request, we declare war on the {0}
+WAR_DECLARE_REQUESTJOINT_REJECT		;We cannot declare war on the {0}. This would be illogical for us.
+
+WAR_END							;After evaluating the situation we have determined that this war should end.\n\nDo you agree?
+WAR_END_SUBJUGATIONDEMAND		;We will end this war only if you agree to enslave yourselves and become our Subjugated Dominion.\n\nDo we have your agreement?
+WAR_END_SUBJUGATIONOFFER		;The most logical course for us now is to offer ourselves as subjugated slaves of your empire in order to end this war.\n\nWhat do you say?
+WAR_END_ACCEPT					;We agree that this war should end - our forces are standing down.
+WAR_END_REJECT					;No, we cannot allow your continued existence. We must fight this war to its end.
+
+WAR_END_REQUESTOTHER			;Please end your war with the {0}
+WAR_END_REQUESTOTHER_ACCEPT		;At your request, we will end our war with the {0}
+WAR_END_REQUESTOTHER_REJECT		;Sorry, we cannot stop our war against the {0}
+
+GIFT_GIVE					;We have transmitted a gift of {0} credits to your empire.
+GIFT_THANKS					;Thank you for your gift
+GIFT_PROPOSE				;What kind of gift do you have in mind?
+
+WARNING									;What do you wish to say?
+WARNING_INTELLIGENCEMISSIONS			;We have detected your covert missions against us.\n\nWe warn you not to continue with these hostile acts.
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_FRIENDLY	;We are not aware of any covert missions against you. Are you sure that you have your facts straight?
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_NEUTRAL	;Thank you for sharing your concerns with us.
+WARNING_INTELLIGENCEMISSIONS_RESPONSE_ANGRY		;We're afraid we can't do that. We must have knowledge of your plans.
+WARNING_ATTACKS							;We cannot allow your attacks against us to continue. They must cease immediately.
+WARNING_ATTACKS_RESPONSE_FRIENDLY		;We are sorry, this is a mistake. We cannot understand how this happened.
+WARNING_ATTACKS_RESPONSE_NEUTRAL		;Than you for notifying us of this incident. We must investigate and determine what happened.
+WARNING_ATTACKS_RESPONSE_ANGRY			;We were compelled to act due to your aggression.\n\nIt would be helpful for you to review and modify your behavior, so that we are not forced to repeat these attacks.
+
+WARNING_REMOVEFORCESSYSTEM					;We cannot allow the presence of your forces in our territory.\n\nYou must remove your military ships from the {0} system at once.
+WARNING_REMOVEFORCESSYSTEM_RESPONSE_COMPLY	;We see no need to remove our ships from your systems.
+WARNING_REMOVEFORCESSYSTEM_RESPONSE_REFUSE	;We will comply with your request. Our ships are leaving your systems.
+WARNING_REMOVEFORCESSYSTEM_RESPONSE_NOFORCESPRESENT	;You are mistaken. We do not have any military forces in your territory.
+
+HISTORY_OFFER_STORYMESSAGE		;We have an important warning that you need to hear.\n\nDo we have your full attention?

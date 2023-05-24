@@ -1,0 +1,11 @@
+Fleet Templates allow you to define the composition of your fleets, setting the amount of ships for each ship role. They also define a grouping of default tactical settings. You can then create new fleets based on a template.
+
+Fleets will attempt to include ships that match the roles and amounts outlined in their template. But if there are insufficient ships available for a desired role, the fleet will fall-back to using ships from other roles to fill out the overall number of ships.
+
+[H3]Fleet Template Types[/H3]
+Each fleet role has a default template: Attack, Raid, Defend, Invade. You can also manually create other templates for each fleet role.
+
+[H3]Creating Fleets using Fleet Templates[/H3]
+You can create new fleets by manually selecting ships and then forming a fleet with them. However the Fleet Templates screen provides a couple of quick ways of creating new fleets.
+
+In the Fleet Templates screen you can select the desired template and then click either the 'Form new fleet' or 'Build new fleet' buttons at the right.

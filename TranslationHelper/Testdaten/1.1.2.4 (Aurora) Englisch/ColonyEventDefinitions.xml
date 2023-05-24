@@ -1,0 +1,1196 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>0</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.02</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0005</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Colossal Quake</Name>
+    <Description>The quake has leveled many cities and opened vast fissures in the planet surface. Much of the planetary infrastructure has been reduced to rubble.
+
+As a result there has been extensive loss of life and the quake has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/earthquake</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>1</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.015</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.01</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>7</OrbTypeId>
+        <Factor>0.5</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>9</OrbTypeId>
+        <Factor>0.8</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>11</OrbTypeId>
+        <Factor>0.1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>17</OrbTypeId>
+        <Factor>0.5</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>18</OrbTypeId>
+        <Factor>0.2</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>21</OrbTypeId>
+        <Factor>0.2</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>23</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Tsunami</Name>
+    <Description>Powerful underwater surges have swept away many suboceanic cities and manufacturing centers.
+
+As a result there has been extensive loss of life and the tsunami has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/tsunami</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>2</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.015</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0015</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>8</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>27</OrbTypeId>
+        <Factor>0.7</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Massive Sinkhole</Name>
+    <Description>An entire continent has suffered extensive crustal collapse, sending entire cities plunging into vast undergound pools of mud and debris.
+
+As a result there has been extensive loss of life and the sinkhole has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/sinkhole</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>3</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.015</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0035</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>10</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>19</OrbTypeId>
+        <Factor>0.8</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>20</OrbTypeId>
+        <Factor>0.5</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Enormous Sandstorm</Name>
+    <Description>Colossal storm winds have sent a wall of sand across half the planet's surface, irretrievably burying many cities underneath.
+
+As a result there has been extensive loss of life and the sandstorm has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/sandstorm</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>4</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.015</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0015</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>11</OrbTypeId>
+        <Factor>0.6</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>21</OrbTypeId>
+        <Factor>0.4</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>22</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Super-freezing Blizzard</Name>
+    <Description>Powerful storm winds and huge chunks of super-chilled ice have wiped out many above-ground installations, and even damaged some cities in underground ice-caves.
+
+As a result there has been extensive loss of life and the blizzard has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/blizzard</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>5</ColonyEventDefinitionId>
+    <Type>Disaster</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.05</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.03</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.002</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>12</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>29</OrbTypeId>
+        <Factor>0.6</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>30</OrbTypeId>
+        <Factor>0.8</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Catastrophic Volcanic Eruption</Name>
+    <Description>Multiple new super-volcanoes have burst through the planet crust, spewing huge oceans of lava across entire continents.
+
+As a result there has been extensive loss of life and the eruption has even damaged the quality of the planet itself.</Description>
+    <ImageFilename>Environment/Events/eruption</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>6</ColonyEventDefinitionId>
+    <Type>Plague</Type>
+    <DurationMinimum>0.15</DurationMinimum>
+    <DurationMaximum>0.35</DurationMaximum>
+    <PopulationAmount>-0.11</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-5</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>2.0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>150000000</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0008</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Hekretos Fever</Name>
+    <Description>Hekretos Fever is a deadly infection that attacks the internal organs, causing rapid degeneration and death. An outbreak of Hekretos Fever typically lasts about 3 months.</Description>
+    <ImageFilename>Environment/Events/HekretosFever</ImageFilename>
+    <IconFilename>Environment/Events/Icons/HekretosFever</IconFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>7</ColonyEventDefinitionId>
+    <Type>Plague</Type>
+    <DurationMinimum>0.6</DurationMinimum>
+    <DurationMaximum>0.9</DurationMaximum>
+    <PopulationAmount>-0.08</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-8</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>1.2</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0007</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Dekara Virus</Name>
+    <Description>Dekara Virus is a very painful disease that slowly cripples the central nervous system of any creature it infects, ultimately leading to death. An outbreak of Dekara Virus typically lasts about 9 months.</Description>
+    <ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
+    <IconFilename>Environment/Events/Icons/DekaraVirus</IconFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>8</ColonyEventDefinitionId>
+    <Type>Plague</Type>
+    <DurationMinimum>0.05</DurationMinimum>
+    <DurationMaximum>0.12</DurationMaximum>
+    <PopulationAmount>-0.35</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-12</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>4.5</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0004</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Genetic Scrambling Syndrome</Name>
+    <Description>Genetic Scrambling Syndrome attacks the genetic code in all of the cells of an infected creature, wiping out any useful biological instructions. This leads to very rapid disintegration of the infected creature, finally breaking them down to a puddle of protein slime. An outbreak of Genetic Scrambling Syndrome typically lasts only one month. However it is highly infectious and thus can spread rapidly.</Description>
+    <ImageFilename>Environment/Events/GeneticScramblingSyndrome</ImageFilename>
+    <IconFilename>Environment/Events/Icons/GeneticScramblingSyndrome</IconFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>9</ColonyEventDefinitionId>
+    <Type>Plague</Type>
+    <DurationMinimum>0.25</DurationMinimum>
+    <DurationMaximum>0.4</DurationMaximum>
+    <PopulationAmount>-0.28</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-15</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>3.0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>300000000</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0003</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Merturov Plague</Name>
+    <Description>Merturov Plague is the most deadly disease in the known galaxy. It swiftly eats the brain of the infected creature, progressively causing insanity, immobilization and eventual death. Merturov Plague is a highly resilient air-borne virus, and is thus very infectious. An outbreak of Merturov Plague typically lasts 4 months.</Description>
+    <ImageFilename>Environment/Events/MerturovPlague</ImageFilename>
+    <IconFilename>Environment/Events/Icons/MerturovPlague</IconFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>10</ColonyEventDefinitionId>
+    <Type>Plague</Type>
+    <DurationMinimum>2</DurationMinimum>
+    <DurationMaximum>3</DurationMaximum>
+    <PopulationAmount>-0.08</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-10</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>8.0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>50000000</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Shakturi Psionic Virus</Name>
+    <Description>Shakturi Psionic Virus makes a species more vulnerable to Shakturi psychic powers.\n\nAlthough not particularly deadly, it's lethality correlates with how resistant a species is to psychic attacks.\n\nInfected victims come under a form of psychic suggestion, making them behave in ways that maximize the spread of the virus. Thus Shakturi Psionic Virus is very infectious and can spread rapidly.</Description>
+    <ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
+    <IconFilename>Environment/Events/Icons/PsionicMindVirus</IconFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>11</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Haakonish Xenophobia</Name>
+    <ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>12</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.05</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>-0.03</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.00125</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>1</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>9</OrbTypeId>
+        <Factor>0.7</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>23</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Underwater Leviathan</Name>
+    <Description>The main underwater city of our colony {1} has suffered a devastating attack by an enormous Darkhul sea monster!
+
+Many lives have been lost at {1}, and the quality of the colony has also been reduced.</Description>
+    <ImageFilename>Environment/Events/Underwater Leviathan</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>13</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.00125</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>1</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Research Insight</Name>
+    <Description>The great minds of our scientists and engineers at {1} have had a series of brilliant insights. Our empire-wide research efforts will receive a +10% boost for the next year!</Description>
+    <ImageFilename>Environment/Events/Research Insight</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>14</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.004</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>4</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>TroopRecruitment</Type>
+        <Amount>0.20</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>RecruitedTroopStrengthAll</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Warrior Wave</Name>
+    <Description>Our armies are preparing for a surge of new troops at our colony {1}.
+
+All troops recruited in the next year will be trained 20% faster and will be 10% stronger.</Description>
+    <ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>15</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>2</DurationMinimum>
+    <DurationMaximum>2</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>3</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0025</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>4</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.50</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Patriotic Wave</Name>
+    <Description>A wave of intense patriotic spirit sweeps through our colony {1}!
+
+War weariness has been dramatically reduced throughout our empire for the next 2 years.</Description>
+    <ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>16</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0025</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>7</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>Targeting</Type>
+        <Amount>0.20</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>Countermeasures</Type>
+        <Amount>0.20</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>CounterEspionage</Type>
+        <Amount>0.20</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Predictive History</Name>
+    <Description>Analysts at our colony {1} have made an ingenious application of our knowledge. Using our detailed examination of the past, combined with our extensive exploration discoveries, we can now predict events of the near future with some accuracy.
+
+For the next year our empire will enjoy the following benefits:
+ - 20% more accurate targeting in ship battles
+ - 20% more effective countermeasures in ship battles
+ - significant counter-intelligence advantages</Description>
+    <ImageFilename>Environment/Events/Predictive History</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>17</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.0025</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>3</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Economic Boost</Name>
+    <Description>The clever finance wizards at our colony {1} have figured out a way to temporarily boost economic output through some creative accounting!
+
+For the next year our colony {1} will enjoy a +10% boost to income.</Description>
+    <ImageFilename>Environment/Events/Economic Boost</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>18</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>0.5</DurationMinimum>
+    <DurationMaximum>0.5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.004</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>2</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>10</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>19</OrbTypeId>
+        <Factor>0.6</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>20</OrbTypeId>
+        <Factor>0.3</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>RecruitedTroopStrengthAll</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Great Hunt</Name>
+    <Description>A Great Hunt of the mighty Bakdur sand worms is underway at our colony {1}!
+
+For the next six months all troops recruited at our colony {1} will be 10% stronger.
+
+In addition, the associated festivities at the colony will provide a +10% boost to happiness.</Description>
+    <ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>19</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>0</DurationMinimum>
+    <DurationMaximum>0</DurationMaximum>
+    <PopulationAmount>-0.03</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.00125</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>6</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>Undefined</Type>
+        <Amount>0.10</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Crazed Cannibalism</Name>
+    <Description>The populace at our colony {1} has been driven into an insane frenzy. Due to this hyper-aggressive paranoia, there has been widespread cannibalism!
+
+As a result the population of {1} has been reduced.</Description>
+    <ImageFilename>Environment/Events/Crazed Cannibalism</ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>20</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0.004</RandomInitiationChance>
+    <RaceFilterIds>
+      <unsignedByte>0</unsignedByte>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+      <OrbTypeFactor>
+        <OrbTypeId>7</OrbTypeId>
+        <Factor>1</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>17</OrbTypeId>
+        <Factor>0.7</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>18</OrbTypeId>
+        <Factor>0.5</Factor>
+      </OrbTypeFactor>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>TourismIncome</Type>
+        <Amount>0.20</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Great Art Exposition</Name>
+    <Description>A great art exposition is being held at our colony {1}. This exposition features the pinnacle of art and culture from the surrounding systems.
+
+As a result our empire will enjoy a +20% boost to tourism income for the next year.</Description>
+    <ImageFilename>Environment/Events/Great Art Exposition</ImageFilename>
+  </ColonyEventDefinition>
+  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>21</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1.5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>MiningRate</Type>
+        <Amount>0.50</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Mining Bonus</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>22</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-15</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>s
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>true</ValuesDecayGradually>
+    <Name>We're not alone in the universe...</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>23</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Our PR Campaign</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>24</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>We Paid Pirates</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>25</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>We've Eliminated a Threat</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>26</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>We Helped Aliens</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>27</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Our People Have Been Inspired</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>28</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>6</DurationMinimum>
+    <DurationMaximum>6</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.3</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>true</ValuesDecayGradually>
+    <Name>Morale Improvement Initiative</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>29</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>6</DurationMinimum>
+    <DurationMaximum>6</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>-0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>true</ValuesDecayGradually>
+    <Name>Competition Initiative</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>30</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>-10</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>true</ValuesDecayGradually>
+    <Name>The Clones Attacked</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>31</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>5</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Planetary Damage Repaired</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>32</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>5</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>We Recovered Ancient Knowledge</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>33</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>10</DurationMinimum>
+    <DurationMaximum>10</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ValuesDecayGradually>true</ValuesDecayGradually>
+    <Name>Zenox Cognition Virus</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>  
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>34</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>5</DurationMinimum>
+    <DurationMaximum>5</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>0</ColonyHappiness>
+    <EmpireHappiness>-5</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <Bonuses />
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Alien Encounter</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition>
+    <ColonyEventDefinitionId>51</ColonyEventDefinitionId>
+    <Type>Undefined</Type>
+    <DurationMinimum>1</DurationMinimum>
+    <DurationMaximum>1</DurationMaximum>
+    <PopulationAmount>0</PopulationAmount>
+    <DevelopmentChange>0</DevelopmentChange>
+    <DamageRepair>0</DamageRepair>
+    <MigrationFactor>0</MigrationFactor>
+    <ResourceAbundance>0</ResourceAbundance>
+    <ColonyHappiness>5</ColonyHappiness>
+    <EmpireHappiness>0</EmpireHappiness>
+    <SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+    <SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+    <RandomInitiationChance>0</RandomInitiationChance>
+    <RaceFilterIds>
+    </RaceFilterIds>
+    <OrbTypeFilters>
+    </OrbTypeFilters>
+    <ValuesDecayGradually>false</ValuesDecayGradually>
+    <Name>Focusing on what matters</Name>
+    <Description></Description>
+    <ImageFilename></ImageFilename>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

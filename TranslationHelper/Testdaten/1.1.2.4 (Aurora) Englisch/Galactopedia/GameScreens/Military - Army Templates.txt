@@ -1,0 +1,15 @@
+Army Templates allow you to define the relative composition of troop types. Army Templates are used by fleets and colonies to specify how many of each type of troop they should have.
+
+[H3]Army Template Types[/H3]
+There are 4 basic types of Army Template:
+[ULI]Invasion: assigned to fleets to define which troops should be used when invading enemy colonies. These would typically include lots of Armor, some Special Forces, some Infantry and Titans (if available)[/ULI]
+[ULI]Major Colony Defense: assigned to major colonies (like your capital) to define which troops should be used to defend the colony from invading enemy troops. These would typically include all troops types, but especially lots of infantry and planetary defense units.[/ULI]
+[ULI]Border Colony Defense: assigned to vulnerable border colonies to define which troops should be used to defend the colony from invading enemy troops. These would typically include lots of infantry and some planetary defense units.[/ULI]
+[ULI]Standard Colony Defense: assigned to all other colonies to define which troops should be used to defend the colony from invading enemy troops. These would typically include lots of infantry.[/ULI]
+
+There is a default template for each type, but you can modify these, or create additional templates that match your needs.
+
+[H3]Assigning Army Templates[/H3]
+You can select an Army Template for a colony by selecting the colony and using the 'Set Colony Automation' > 'Army Template' buttons under the Selection Panel. This will popup a list of all Army Templates that can be used. Select the template you want to use for the colony by clicking on it from the list. The colony will then attempt to recruit defensive troops in the ratio outlined by the template.
+
+You can select an Army Template for a fleet by selecting the fleet and using the 'Army Template' button under the Selection Panel. This will popup a list of all Army Templates that can be used. Select the template you want to use for the fleet by clicking on it from the list. The fleet will then attempt to load troops in the ratio outlined by the template.

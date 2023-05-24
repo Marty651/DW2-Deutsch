@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ArrayOfCharacterRoom xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<CharacterRoom>
+		<RoomId>11</RoomId>
+		<Name>Dhayut_Default</Name>
+		<RoomImageFilename>Characters/Rooms/Dhayut_Default</RoomImageFilename>
+		<WindowRatioRegion>
+			<X>0.45</X>
+			<Y>0.14</Y>
+			<Width>0.35</Width>
+			<Height>0.64</Height>
+			<Left>0.45</Left>
+			<Top>0.14</Top>
+			<Location>
+				<X>0.45</X>
+				<Y>0.14</Y>
+			</Location>
+			<Size>
+				<Width>0.35</Width>
+				<Height>0.64</Height>
+			</Size>
+		</WindowRatioRegion>
+		<Offset>
+			<X>0.1</X>
+			<Y>0.11</Y>
+		</Offset>
+		<ScaleXY>
+			<X>0.479</X>
+			<Y>0.61</Y>
+		</ScaleXY>
+		<RoomFeatureToFront>true</RoomFeatureToFront>
+		<DataPath>data\CharacterRooms\Dhayut\Dhayut_background</DataPath>
+		<AnimationNames>
+			<SortableTextValue>
+				<Text>Dhayut_background_action1</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Dhayut_background_action2</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Dhayut_background_action3</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Dhayut_background_loop</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNames>
+	</CharacterRoom>
+
+</ArrayOfCharacterRoom>

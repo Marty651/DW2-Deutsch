@@ -1,5 +1,5 @@
 <#
-    << Hier werden die Regeln per Datei (Governments*, ShipHulls*) angegeben. >> 
+    << Hier werden die Regelsets - Regeln per Datei/Dateigruppe (Governments.xml, ShipHulls*.xml) - angegeben. >> 
     Diese Datei wird von PowerShell gestartet/ausgeführt und ausgelesen.
     Erwartete Rückgabe ist ein Array von Regelsets mit folgendem Aufbau:
         @{
@@ -17,7 +17,8 @@
     https://www.w3schools.com/xml/xpath_syntax.asp
 #>
 
-@(
+### [START] Alles ab hier ist nur ein Beispiel und wird so nicht tatsächlich verwendet! ###
+$Nicht_Verwendetes_Beispiel = @(
     @{
         # Es ist auch möglich, mehrere Regelsets für die gleichen Dateien zu definieren.
         Name = "Governments"
@@ -53,10 +54,14 @@
             "/ArrayOfShipHull/ShipHull/Name" 
         )
     }
+)
+### [ENDE] Alles bis hier ist nur ein Beispiel und wird so nicht tatsächlich verwendet! ###
+
+@(
     @{
         Name = "Army Templates"
         Dateien = @(
-            "ArmyTemplates*.xml"
+            "ArmyTemplates.xml"
         )
         Pfade = @(
             "/ArrayOfArmyTemplate/ArmyTemplate/Name"
@@ -65,7 +70,7 @@
     @{
         Name = "Artifacts"
         Dateien = @(
-            "Artifacts*.xml"
+            "Artifacts.xml"
         )
         Pfade = @(
             "/ArrayOfArtifact/Artifact/Name"
@@ -75,7 +80,7 @@
     @{
         Name = "Colony Event Definitions"
         Dateien = @(
-            "ColonyEventDefinitions*.xml"
+            "ColonyEventDefinitions.xml"
         )
         Pfade = @(
             "/ArrayOfColonyEventDefinition/ColonyEventDefinition/Name"
@@ -85,7 +90,7 @@
     @{
         Name = "Component Definitions"
         Dateien = @(
-            "ComponentDefinitions*.xml"
+            "ComponentDefinitions.xml"
         )
         Pfade = @(
             "/ArrayOfComponentDefinition/ComponentDefinition/Name"
@@ -94,7 +99,7 @@
     @{
         Name = "Fleet Templates"
         Dateien = @(
-            "FleetTemplates*.xml"
+            "FleetTemplates.xml"
         )
         Pfade = @(
             "/ArrayOfFleetTemplate/FleetTemplate/Name"
@@ -103,7 +108,7 @@
     @{
         Name = "Game Events"
         Dateien = @(
-            "GameEvents*.xml"
+            "GameEvents.xml"
         )
         Pfade = @(
             "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/MessageTitle"
@@ -112,6 +117,28 @@
             "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/MessageTitle"
             "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/Description"
             "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/ChoiceButtonText"
+        )
+    }
+    @{
+        Name = "Game Events (Governments)"
+        Dateien = @(
+            "GameEvents_Governments.xml"
+        )
+        Pfade = @(
+            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/MessageTitle"
+            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/Description"
+        )
+    }
+    @{
+        Name = "Governments"
+        Dateien = @(
+            "Governments.xml"
+        )
+        Pfade = @(
+            "/ArrayOfGovernment/Government/Name"
+            "/ArrayOfGovernment/Government/Description"
+            "/ArrayOfGovernment/Government/LeaderTitle"
+            "/ArrayOfGovernment/Government/CabinetTitle"
         )
     }
 )

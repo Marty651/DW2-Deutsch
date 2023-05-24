@@ -1,0 +1,94 @@
+Ships and Fleets have tactical settings that determine how they respond to threats and how they engage in battle.
+
+The tactical settings can be accessed from the 'Set Tactics' button at the far-right under the Selection Panel (must have one of your own ships or fleets selected).
+
+The meaning of each of these settings are outlined below, first for ships, and then fleet-specific settings.
+
+[H2]Ship Tactical Settings[/H2]
+[H3]Position Within Fleet[/H3]
+Position Within Fleet specifies how the ship operates within a fleet.
+[ULI]Core: Core ships are the most important ships in the fleet, and are escorted by the other fleet ships (Close Escort and Picket). Usually a fleet will have only one or two Core ships[/ULI]
+[ULI]Close Escort: these ships escort the Core ships in a close defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.[/ULI]
+[ULI]Picket: these ships escort the Core ships in a more distant defensive perimeter. When there are no enemies present or enemies are on all sides, then they will form a circular defensive perimeter around the Core ships. When enemy forces predominantly come from one direction then they form an arc defensive formation between the Core ships and the enemy ships.[/ULI]
+
+[H3]Engagement Range[/H3]
+Engagement Range specifies when a ship will engage enemy targets.
+[ULI]Do Not Engage: the ship will never engage enemies[/ULI]
+[ULI]Engage When Attacked: will engage enemies only when directly attacked by them[/ULI]
+[ULI]Nearby: will engage enemy targets that are nearby[/ULI]
+[ULI]Same Location: will engage enemy targets that are at the same location (planet and moons)[/ULI]
+[ULI]Same System: will engage enemy targets that are in the same star system[/ULI]
+
+Note that when a ship is part of a fleet, then the Fleet Engagement Range overrides the ship engagement range. In other words, when a ship is part of a fleet it uses the fleet engagement range instead of its own.
+
+[H3]Attack Stance - Weaker Targets[/H3]
+This determines how a ship will engage a target that is weaker than itself, including how it determines the optimal range to use.
+[ULI]Evade: the ship will attempt to remain out of weapons range of the enemy target[/ULI]
+[ULI]Cautious: the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy[/ULI]
+[ULI]Neutral: the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy[/ULI]
+[ULI]Aggressive: the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself[/ULI]
+
+[H3]Attack Stance - Stronger Targets[/H3]
+This determines how a ship will engage a target that is stronger than itself, including how it determines the optimal range to use.
+[ULI]Evade: the ship will attempt to remain out of weapons range of the enemy target[/ULI]
+[ULI]Cautious: the ship will select an attack range that inflicts some damage on the enemy while minimizing damage to itself from the enemy[/ULI]
+[ULI]Neutral: the ship will select an attack range that inflicts the maximum damage on the enemy while avoiding excessive damage to itself from the enemy[/ULI]
+[ULI]Aggressive: the ship will select an attack range that inflicts maximum damage on the enemy with little consideration for enemy damage against itself[/ULI]
+
+[H3]Retreat When[/H3]
+This specifies when a ship will flee a battle location.
+[ULI]Enemy in same System: will flee at the first sight of an enemy in the same star system[/ULI]
+[ULI]Enemy at same Location: will flee at the first sight of an enemy in the same location[/ULI]
+[ULI]Enemy Nearby: will flee when an enemy is nearby at the same location[/ULI]
+[ULI]When Attacked: will flee when directly attacked by an enemy[/ULI]
+[ULI]Shields below 50% or any Armor damage: will flee when shields drop below 50% or any armor has been damaged[/ULI]
+[ULI]Shields below 20% or Armor below 50%: will flee when shields drop below 20% or armor is below 50%[/ULI]
+[ULI]Any non-defense component damaged: will flee when any non-defense component is damaged, i.e. components other than shields or armor[/ULI]
+[ULI]20% of non-defense components damaged: will flee when 20% of non-defense components are damaged[/ULI]
+[ULI]50% of non-defense components damaged: will flee when 50% of non-defense components are damaged[/ULI]
+[ULI]Never: this ship will never flee battle[/ULI]
+
+[H3]Invade Colonies[/H3]
+This determines how a ship will land troops during a colony invasion.
+[ULI]Immediately: the ship will attempt to immediately land troops at the colony[/ULI]
+[ULI]When Clear: the ship will wait until all static defenses at the colony have been cleared before invading. This includes all defending bases in orbit around the colony[/ULI]
+[ULI]Never: the ship will never invade enemy colonies[/ULI]
+
+[H2]Fleet Tactical Settings[/H2]
+[H3]Fleet Engagement Range[/H3]
+Fleet Engagement Range specifies when a fleet will engage targets.
+[ULI]Do Not Engage: the fleet will never engage enemies[/ULI]
+[ULI]Engage When Attacked: will engage enemies only when directly attacked by them[/ULI]
+[ULI]Nearby: will engage enemy targets that are nearby[/ULI]
+[ULI]Same Location: will engage enemy targets that are at the same location (planet and moons)[/ULI]
+[ULI]Same System: will engage enemy targets that are in the same star system[/ULI]
+[ULI]Sector range: will engage enemy targets that are within a sector range[/ULI]
+[ULI]33% of Fuel Range: will engage enemy targets that are within 33% of fleet fuel range[/ULI]
+[ULI]50% of Fuel Range: will engage enemy targets that are within 50% of fleet fuel range[/ULI]
+
+Note that fleet engagement range overrides the engagement ranges of individual ships in the fleet. When a ship is part of a fleet it uses the fleet engagement range instead of its own engagement range.
+
+Manually-controlled fleets will not automatically respond to threats outside their current star system. This is indicated by yellow text for this setting when the fleet is manually-controlled. To enable fleet engagement range beyond the current star system you should use an automated fleet role (Defend, Attack, Raid, Invade).
+
+Fleets will also not automatically engage threats outside their current star system when Military Attacks are manually-controlled (see Military section in Empire Policy settings). This is indicated by orange text for this setting when Military Attacks are manually-controlled. Thus for fleets to automatically respond to threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Manual fleet role) if you want them to automatically engage threats beyond their current system.
+
+[H3]Formation[/H3]
+Specfies the proximity of Close Escort and Picket ships to their escorted Core ships in the fleet.
+[ULI]Very Tight[/ULI]
+[ULI]Tight[/ULI]
+[ULI]Normal[/ULI]
+[ULI]Loose[/ULI]
+[ULI]Very Loose[/ULI]
+
+[H3]Allow Ship Role Reassignment[/H3]
+This determines whether ships can have their 'Role Within Fleet' automatically reassigned or not. This means that whenever a new fleet lead ship is selected (e.g. when a better ship joins fleet or when the old lead ship is lost) then the Core, Close Escort and Picket ships can change.
+[ULI]Ships reassign roles within fleet as needed[/ULI]
+[ULI]Ships retain current role within fleet[/ULI]
+
+[H3]Retreat When[/H3]
+Determines when the entire fleet will decide to retreat from a battle.
+[ULI]Enemy Strength 50% greater[/ULI]
+[ULI]Enemy Strength 100% greater[/ULI]
+[ULI]Enemy Strength 200% greater[/ULI]
+[ULI]Never[/ULI]
+[ULI]Enemy Strength greater[/ULI]

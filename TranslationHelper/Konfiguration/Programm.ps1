@@ -6,8 +6,6 @@
     In der Regel sind die empfohlenene Standardeinstellungen bereits gesetzt.
 #>
 
-# Kommt noch ...
-
 @{
     UseDeepl = $false
     DryRun = $false
@@ -28,7 +26,9 @@
     FolderPathDe = "$PSScriptRoot\..\3 Deutsch Alt"
 
     FolderPathResult = "$PSScriptRoot\..\4 Deutsch Neu (Ergebnis)"
-    FilePathLog = "$PSScriptRoot\..\Logs\Prototyp.Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
+
+    # FilePathLog = "$PSScriptRoot\..\Logs\Prototyp.Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
+    FilePathLog = "$PSScriptRoot\..\Logs\Prototyp.Log.csv"
 
     FilePathDeeplKey = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
     DeeplUrl = "https://api-free.deepl.com/v2/translate"

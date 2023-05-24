@@ -1,0 +1,1905 @@
+<?xml version="1.0"?>
+<ArrayOfTourItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TourItem>
+    <Title>Basic Tour</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Introduction</StepTitle>
+        <MarkupText>Welcome to Distant Worlds 2!
+
+This brief tour gives an overview of the major elements of the user interface.
+
+Each item will be highlighted with a colored border as it is explained.
+
+Click the Next button below to get started!</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Moving Around</StepTitle>
+        <MarkupText>You can pan the main view by left-clicking and dragging with the mouse or using the W,A,S,D keys.
+        
+Additionally you can also pan the main view by moving your mouse to the edge of the screen.
+
+You can zoom in or out using the mouse scroll-wheel or using the PageUp and PageDown keys.</MarkupText>
+        <RelatedControlNames>
+          <string></string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Game Menu</StepTitle>
+        <MarkupText>You can open the game menu by clicking this button. Or press the Escape key.
+        
+From here you can do the following:
+[ULI]load and save games[/ULI]
+[ULI]change game settings[/ULI]
+[ULI]relaunch this Basic Tour[/ULI]
+[ULI]enter the Game Editor[/ULI]
+[ULI]return to the Main Menu[/ULI]
+[ULI]exit the game[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>GameMenuButton</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Game Settings</StepTitle>
+        <MarkupText>As mentioned in the previous step, you can show the Game Settings screen from the Game Menu. You can also open Game Settings using the / key.
+        
+[H3]User Interface Size[/H3]
+In Game Settings under the Display section, you can select the size for the user interface. This allows you to increase the size of text and other elements on high resolution screens.
+        
+[H3]User Interface Color Scheme[/H3]
+You can also choose a new Color Scheme from the available options.
+
+When you have finished changing your settings be sure to click the 'Apply' button to save the changes.</MarkupText>
+        <RelatedControlNames>
+          <string>GameSettingsDialog</string>
+        </RelatedControlNames>
+      </TourStep>
+      
+      <TourStep>
+        <StepTitle>Pause/Resume &amp; Game Speed</StepTitle>
+        <MarkupText>The middle button allows you to pause and resume the game, or use the Spacebar key.
+
+Control the game speed using the left and right buttons, increasing or decreasing how fast time passes. You can also use the + or - keys.</MarkupText>
+        <RelatedControlNames>
+          <string>PlayPause</string>
+          <string>GameSpeedSlower</string>
+          <string>GameSpeedFaster</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Main View Header</StepTitle>
+        <MarkupText>This header displays important information about the game. From left to right it shows:
+[ULI]the current research projects[/ULI]
+[ULI]the number of colonies and total population in your empire[/ULI]
+[ULI]the current cash on hand and cashflow for your empire[/ULI]
+[ULI]the galaxy star date[/ULI]
+Hovering over these will give more information. Clicking on them will take you to a screen with even more detail.
+
+This header will sometimes also show additional information, which can include:
+[ULI]warnings about rebelling colonies[/ULI]
+[ULI]warnings about high war weariness[/ULI]
+[ULI]war progress reports[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>MainViewHeader</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Control Center</StepTitle>
+        <MarkupText>The Control Center provides a wealth of information, along with many powerful tools to help manage your empire.
+        
+Hovering over each of the 10 main buttons will expand the header section below it, providing a summary of your empire in that area.
+
+Moving your mouse over the header will then expand the sub menus below, giving even more detail in various sub sections. Click on a sub menu button to switch between sub sections.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireSectionList</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Control Center - Locking Panels Open</StepTitle>
+        <MarkupText>Each of the sections in the Control Center can be locked open by clicking anywhere on the expanded section. Othewise the section will automatically collapse when you move your mouse away.
+
+You can also lock open an expanded section by clicking on the relevant main button at the top of the Control Center.
+
+To 'unlock' a section and allow it to collapse, click again on the relevant main button at the top of the Control Center.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireSectionList</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Selection Panel</StepTitle>
+        <MarkupText>The Selection Panel provides detailed information on the currently selected item. This can include ships, bases, colonies, planets, moons, asteroids, space creatures or space debris.
+
+[H3]Selecting Items[/H3]
+You can select items by clicking on them in the main view. When an item is selected it will be surrounded by the selection circle. You can also select items from some of the sub lists in the Control Center.
+
+To select multiple ships hold down the Ctrl key while left-click-dragging with the mouse. A selection rectangle will appear, selecting all of your fully-constructed ships inside the rectangle.
+
+[H3]Exploring information in the panel[/H3]
+Different information will be displayed depending on what is selected. Much of the data displayed will provide further information when hovering, through tooltips, or pop-out side panels along with extra controls.
+
+You can navigate forward and back through your selection history using the left and right arrows near the top of the Selection Panel. You can also cycle through various items in your empire using key presses, e.g. 'C' will cycle through all of your colonies, 'X' will cycle through all your exploration ships. See the Key Mappings under Game Settings for further options.
+
+[H3]Renaming items[/H3]
+You can change the name of any item that you own (ship, base, colony) by clicking on its name in the Selection Panel. This will allow you to edit the name. Click anywhere outside the edit box to save your changes.
+
+[H3]Zoom to item[/H3]
+To immediately zoom the main view to the selected item, click any empty space in the Selection Panel header. Or you can use the Backspace key.</MarkupText>
+        <RelatedControlNames>
+          <string>SelectionPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Action Buttons</StepTitle>
+        <MarkupText>You can perform actions on the selected item using the Action Buttons under the Selection Panel.
+
+Each selected item will have different actions available. Hovering over each action button provides more information.
+
+Some examples of action buttons:
+[ULI]refuel and repair the selected ship[/ULI]
+[ULI]increase the tax rate at the selected colony[/ULI]
+[ULI]retrofit the selected base to the latest design[/ULI]
+[ULI]queue the construction of a new mining station at the selected planet[/ULI]
+
+[H3]Additional Actions[/H3]
+Some action buttons drill down to a further layer of actions, e.g. if you have a spaceport selected, the Construction button provides actions for building all of the active ship designs in your empire. You can return to the top level of actions using the right-most 'Return to Top' button.</MarkupText>
+        <RelatedControlNames>
+          <string>ActionButtons</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Zoom Presets and Others</StepTitle>
+        <MarkupText>These buttons allow you to quickly zoom to different levels: a single location, an entire star system, a wide region, and the entire galaxy.
+
+You can also quickly zoom to the selected item. Or use the Backspace key to do the same thing.
+
+Other buttons allow toggling ship and base symbols at location level and weapon range indicators for the selected ship or base.
+
+[H3]Camera Views[/H3]
+The right-most button allows you to change the camera view. Available settings include:
+[ULI]Default 45 degree view[/ULI]
+[ULI]Top Down angle[/ULI]
+[ULI]High angle[/ULI]
+[ULI]Low angle[/ULI]
+Additionally when you are zoomed into location level and have a ship or base selected:
+[ULI]Trailing ship or base view[/ULI]
+[ULI]Bridge ship or base view[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>LocationShipSymbolButton</string>
+          <string>WeaponRangeDisplayButton</string>
+          <string>ZoomInButton</string>
+          <string>ZoomOutButton</string>
+          <string>ZoomToItemButton</string>
+          <string>ZoomLocationButton</string>
+          <string>ZoomSystemButton</string>
+          <string>ZoomSectorButton</string>
+          <string>ZoomGalaxyButton</string>
+          <string>CameraModeButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      
+      <TourStep>
+        <StepTitle>Galaxy Zoom Level and Badges</StepTitle>
+        <MarkupText>When zoomed out to the galaxy level you can view the star systems and nebula clouds that comprise the galaxy.
+
+[H3]System Badges[/H3]
+At the galaxy level you can also see the badges for colonized systems. These badges provide a summary of what is in the system.
+
+The background color of each badge matches the colony empire.
+
+The first row of the badge has the system name. If the system is the empire capital, a star is shown to the left of the name.
+
+The next row has a picture of the major race at the colony, along with the population level. Next to this is an icon showing the colony approval rate.
+
+If the system has a spaceport present a yellow 'construction yard' icon is shown. If the system has a refuelling source a blue 'refuel' icon is shown.
+
+The third row shows the major resources present in the system.
+
+A fourth row may also be shown outlining our empire's fleet and ship strength in the system (white text and yellow lighting bolt icon). If there are enemy threats in the system then their strength is shown (red text and lighting bolt icon).
+
+[H3]Location Badges[/H3]
+When zoomed to system level you can see badges for colony locations in the system.
+
+These badges display similar data to the system badges.
+
+[H3]Colony Badges[/H3]
+When zoomed to location level, hovering the mouse over a colony will display a colony badge with essential data like the following:
+[ULI]name of the colony and exploration level[/ULI]
+[ULI]type and size of the planet or moon[/ULI]
+[ULI]quality of the planet or moon[/ULI]
+[ULI]population, approval and development level of the colony[/ULI]
+[ULI]icons showing any spaceport or refuelling source at the colony[/ULI]
+[ULI]resources mined at the colony[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>ZoomGalaxyButton</string>
+          <string>MapOverlays_Cartouches</string>
+        </RelatedControlNames>
+        <ZoomMode>Galaxy</ZoomMode>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Map Overlays</StepTitle>
+        <MarkupText>There are many map overlays that can be shown when zoomed out to the galaxy level.
+
+These include the following:
+[ULI]Resource flows from mining location to destination[/ULI]
+[ULI]Migration flows from established colonies to new colonies[/ULI]
+[ULI]Tourism flows from colonies to Resort Bases[/ULI]
+[ULI]Nebula Boundary Markers[/ULI]
+[ULI]Long Range Scanner coverage[/ULI]
+[ULI]Ship Travel Vectors[/ULI]
+[ULI]System and Location Badges[/ULI]
+[ULI]Exploration overlay[/ULI]
+[ULI]Diplomacy overlay[/ULI]
+
+Also present is an option to hide most of the user interface, allowing you to completely focus on the scene in the main view.
+
+Hover over each map overlay button for more details.</MarkupText>
+        <RelatedControlNames>
+          <string>MapOverlayButtons</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>View Summary</StepTitle>
+        <MarkupText>The View Summary is a very powerful management tool that gives you a quick overview of all the visible items in the current view. This overview is automatically updated as your view changes when you pan or zoom.
+
+Hovering over each item in the View Summary will provide further information along with a callout line showing where the item is in the main view.
+
+Clicking on an item will select it in the Selection Panel. Double-clicking an item will zoom the main view to the item.
+
+When there are many items some data may be summarized using an icon along with the number of items. Hovering this will expand the items to individual units which can then be selected.
+
+[H3]Galaxy Level[/H3]
+When zoomed out to galaxy level, clicking on a system badge will change the View Summary to display the known items in that system. You can then interact with those items, selecting and moving to them, even though zoomed out to the galaxy level.
+
+Click the system badge again to return to viewing galaxy items. Or you can just zoom in or out using the mouse scroll-wheel.</MarkupText>
+        <RelatedControlNames>
+          <string>SystemSummary</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Messages</StepTitle>
+        <MarkupText>Incoming messages are displayed at the right side of the screen.
+
+Messages gradually expire and disappear, as indicated by the progress bar at the bottom of each message.
+
+Hovering a message provides more detailed information, often with options to move your view to the message location.
+
+Hovering a message will also ping the location in the main view, showing you the location of the event in the galaxy (when zoomed out to the galaxy level).
+
+Left-clicking a message will select any related item in the Selection Panel.
+
+Right-clicking a message will dismiss it, removing it from the list. However the message will still be retained in the Message Log (see next).
+
+Messages can also include advisor suggestions, giving you advice on what to do next. You can approve or decline the advisor suggestion when you hover over the message.</MarkupText>
+          <RelatedControlNames>
+          <string>MessageListView</string>
+        </RelatedControlNames>
+        <ZoomMode>Capital</ZoomMode>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Message Log and Filtering</StepTitle>
+        <MarkupText>To see all of your past messages, open the Message Log using the button indicated. You can then hover over each message to review it in detail.
+
+[H3]Filtering Messages[/H3]
+In the Message Log you can also filter which types of messages you want to see by clicking on the filter text at the top. This will expand the filter buttons.
+
+You can enable or disable message filters by faction or category.</MarkupText>
+        <RelatedControlNames>
+          <string>MessageLogButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Galactopedia</StepTitle>
+        <MarkupText>The Galactopedia provides comprehensive help about every item in the game.
+        
+This includes topics in the following areas:
+[ULI]Game Concepts[/ULI]
+[ULI]Game Screens[/ULI]
+[ULI]Star and Planet types[/ULI]
+[ULI]Mineable Resources[/ULI]
+[ULI]Space Creatures[/ULI]
+[ULI]Alien Species[/ULI]
+[ULI]Government styles[/ULI]
+[ULI]Ship componentry[/ULI]
+[ULI]Planetary Facilities[/ULI]
+
+Navigate the Galactopedia by expanding and clicking topics in the area at the right of the Galactopedia screen.
+
+[H3]Game Concepts[/H3]
+You should especially examine the topics under Game Concepts for a better understanding of how Distant Worlds 2 works.
+
+These topics will help you to expand your empire more effectively. They also provide tips to optimize your play, even for experienced players.</MarkupText>
+        <RelatedControlNames>
+          <string>GalactopediaButton</string>
+          <string>GalactopediaDialog</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Complete!</StepTitle>
+        <MarkupText>Thanks for taking the Basic Tour of Distant Worlds 2!
+        
+You can take this Basic Tour again at any time from the Tours screen off the Game Menu (Escape key).
+
+Other Tours are also available by clicking the 'Launch Tour' button in each area of the user interface.
+        
+You should also browse the Galactopedia for detailed information on all elements of the game.
+
+Explore, Expand and Conquer!</MarkupText>
+        <RelatedControlNames>
+          <string></string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+  
+  <TourItem>
+    <Title>Your Empire</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Economy</StepTitle>
+        <MarkupText>This screen shows a breakdown of both your State and Private economies.
+
+Each type of income and expense is listed for the current and previous year, as well as a projection of the expected amounts for each of these for the current year. You can hover over each amount for more information.
+
+[H3]State Economy[/H3]
+The top section of your State Economy shows regular anticipated income and expenses. These amounts change slowly over time as your empire grows.
+
+The bottom section of your State Economy shows irregular bonus income. These amounts can vary widely, often being comprised of private ship building income, where the private sector of your empire buys new ships.
+          
+[H3]Private Economy[/H3]
+The Private Economy section shows the income and expenses of the private sector of your empire. You have no direct control over how the private sector earns or spends money.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireEconomy_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Empire Funding Levels</StepTitle>
+        <MarkupText>If you choose, you can fine-tune how your income is spent in the Bonus Funding Levels screen. Hover over each value for a detailed explanation.
+
+Note that Empire Funding levels are automatically handled by your advisors. Controlling these levels manually is an advanced option. To turn off automation and control funding levels yourself visit the 'Economy' section in the Empire Policy screen.
+
+[H3]Allocate Maintenance Funding[/H3]
+If you choose to manually control funding levels, in this screen you can set percentage values for each of your main regular expense areas: Ship and Base Maintenance, Troop Maintenance and Facility Maintenance. These percentages will limit how much your advisors are willing to spend in each area.
+
+Thus if you allocate 50% of your income to Ship Maintenance, then your advisors will be willing to build ships and bases up to a maintenance limit of 50% of your economy. But they will not recommend new ships once you reach the specified limit.
+
+Limiting spending in each area allows more even apportionment of your income to all the areas of your economy, preventing overspending in one area.
+
+You can also specify a percentage of your income that is left unspent, thus building up a cash stockpile that can be used for purchases and other expenses.
+
+[H3]Excess Funding for Colony Growth and Research[/H3]
+Any Excess income can be directed to either Colony Growth or Research. Allocating funding for these 2 areas will increase the rate of Colony Growth or the speed of Research your empire can perform.
+
+If you automate Funding Levels (the default setting) then your economic advisors will use any excess income to maintain full Research speed while directing the remainder to Colony Growth rates.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireFundingLevels_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Maintenance</StepTitle>
+        <MarkupText>This screen shows the Ship Maintenance costs for all ships and bases in your empire, whether state- or privately-owned.
+
+The Military section shows the number and total maintenance of military ships for each role.
+
+The Other State section shows the number and total maintenance of other state ships and bases for each role.
+
+The Private section shows the number and total maintenance of private ships and bases for each role.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireMaintenance_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Government</StepTitle>
+        <MarkupText>This screen shows the details about your current Government and a summary of all the empire-wide bonuses for your empire.
+
+[H3]Changing your Government[/H3]
+You can change your government by selecting another type of government from the dropdown list at the top of the section.
+
+After comparing the stats between your current government and the selected one, you can change to the new government by clicking the 'Have Revolution' button at the bottom of this section.
+
+[H3]Empire Bonuses[/H3]
+The section 'Empire Bonuses from all sources' provides a list of all your bonuses. Hovering over each line gives a complete breakdown of the various factors that add to each bonus type.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireGovernment_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Leader</StepTitle>
+        <MarkupText>Your empire's leader is shown here. Your Leader is a very important character for your empire. Their skills apply across your entire empire, providing benefits or penalties in various areas.
+
+You can see the details of your leader by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change your Leader's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Leader Location[/H3]
+Your leader should be located at the capital of your empire. But if you wish you can transfer him to another location using the dropdown list and the Transfer button below.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that your leader has been involved with. Various events can improve or decrease your Leader's skills, or provide new character traits.
+
+[H3]Dismissing your Leader[/H3]
+If your leader has very poor skills you may decide to dismiss him using the button under his portrait. A new leader will eventually be selected to replace them.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersLeader_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Policy Settings</StepTitle>
+        <MarkupText>The Policy Settings screen allows you to control which parts of your empire are automated, which areas you want advisors to guide you with, and which areas you want to completely control for yourself.
+
+You can expand or collapse each section by clicking on the header bars. In addition to the high-level automation controls, each area also has many other settings that allow you to adjust things in more detail. Hover over each setting for an explanation.
+
+The top section 'Advisors and Automation' summarizes all of the automation settings for your empire, providing a single centralized location to change which areas are automated, advisor-controlled or manually controlled. You can even select one of the preset configurations from the dropdown list at the top.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpirePolicy_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Diplomacy</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Diplomatic Relations</StepTitle>
+        <MarkupText>As you encounter other factions you can engage in diplomacy with them. Diplomacy involves establishing treaties, giving gifts and trade deals. When things don't go well, it can also include the declaration of war and the resolution of peace.
+
+At the start of the game you haven't met anyone yet. But if you re-run this tour once you have contacted another faction then more items described below will be visible.
+
+[H3]Relation List[/H3]
+This screen lists all your relations with other empires. Note that by default this excludes pirate factions and independent colonies. Check the various sort and filter options at the top of the panel.
+
+Each list item shows how the other empire feels towards you along with the trend of your relationship.
+
+Clicking a relation item in the list will select the faction capital, if known.
+
+[H3]Relation Detail Panel[/H3]
+Hovering over a list item shows the Relation detail panel to the right. Clicking the list item or the detail panel will lock it open.
+
+The detail panel provides a complete summary of your relationship with the selected empire. At the top are shown the empire flag and all of the races in the empire. Hover over each race for the total population in the empire and a summary of their characteristics.
+
+The style of government is shown underneath the empire name.
+
+Below this is the 'Speak' button that allows you to initiate a conversation with the other faction.
+
+[H3]Speaking with another Faction[/H3]
+Speaking with the other faction provides a number of options including offering treaties and gifts, and negotiating detailed trade deals. Click 'Goodbye' or the close button at top-right to end the conversation.
+
+[H3]Reputation[/H3]
+The empire's current Reputation indicates how others generally view this empire. An empire's reputation comes from its actions. Hover over the value for a list of the factors contributing to the empire's reputation.
+
+[H3]War Weariness[/H3]
+War Weariness grows over time whenever an empire is at war with another faction. It greatly increases when the empire suffers significant losses in battle. High war weariness leads to unhappiness and unrest at colonies. 
+Thus an empire will typically seek peace when their war weariness is high.
+
+However, sometimes an empire's war weariness value can actually be positive if they are the victims of an unjustified declaration of war by another faction. In this case they have additional motivation to fight against the aggressors.
+
+[H3]Strategy[/H3]
+The Strategy section shows how your empire plans to deal with the other faction. You can automate this setting, and thus let your advisors select an appropriate strategy.
+
+Alternatively you can manually control the strategy by turning off automation using the button at the left, and then selecting your desired strategy from the dropdown list at the right. Hover over the current strategy for an explanation of what it means when dealing with the other faction.
+
+[H3]Status and Treaties[/H3]
+Any current treaties are listed at the top of the Status section.
+
+The next part of the Status section shows the other factions feeling towards you. The value at the left is the overall value defining how they feel about you. A positive value shows they like you, a negative value shows they dislike you.
+
+This feeling is described by the text in the middle. Hovering over this text shows how your advisors feel about the other faction. The current relationship trend is shown at the right.
+
+Under the summarized total is a complete list of all the factors that contribute to the other factions evaluation of you. Some of these factors may be static and non-changing, whereas others may change over time, increasing or decreasing in value. Any trend for each factor is shown at the right.
+
+[H3]Other Info[/H3]
+The Empire Info section displays key information that you know about the other faction. Note that some of the information here may be incomplete, e.g. Known Military Strength only shows strength from the military ships that you have seen.
+
+The Resource Supply section shows any trade income with the other faction. This means the resources that you have bought and sold with them.
+
+This section also shows the unique resources that the other faction can supply you with (once you have a trade agreement). These are resources that you have shortage of, but the other empire can trade with you.
+
+[H3]Their relations with other factions[/H3]
+The Relationship With Others section shows the other faction's relations with all other empires that you have met, including any treaties and their feelings towards each other.
+
+Hover over the feeling description for details on how both sides feel towards each other.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyRelations_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Pirate Relations</StepTitle>
+        <MarkupText>Pirates are outlaw factions that live entirely in space, on ships or bases. They have no colonies. Pirates are generally unfriendly and hostile. They raid and pillage, taking what they want.
+
+However you can improve relations with pirates by accepting 'protection' agreements or offering them gifts. Alternatively you can simply build up your forces and wipe them out.
+
+[H3]Pirate Faction List[/H3]
+This screen lists all your relations with pirate factions. Check the various sort and filter options at the top of the panel.
+
+Each list item shows how the pirate faction feels towards you along with the trend of your relationship.
+
+Clicking a relation item in the list will select the faction pirate base, if known.
+
+[H3]Relation Detail Panel[/H3]
+Hovering over a list item shows the Relation detail panel to the right. Clicking the list item or the detail panel will lock it open.
+
+The detail panel provides a complete summary of your relationship with the selected pirate faction, with similar information to what you would see when interacting with another empire.
+
+[H3]Speaking with Pirates[/H3]
+You can converse with the pirates by clicking the 'Speak' button underneath their name in the detail panel. Discussions with pirates provides options like offering treaties and gifts, and negotiating detailed trade deals. 
+Pirates often have much secret information about the galaxy which they may be willing to sell to you if relations are friendly enough.
+
+Click 'Goodbye' or the close button at top-right to end the conversation.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyPirates_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Independent Colonies</StepTitle>
+        <MarkupText>Independent Colonies are populated worlds that do not belong to any faction. They are neutral worlds, and are largely undeveloped.
+
+You can befriend them by establishing trade treaties and offering them gifts. If they like you enough they may ask you to colonize them and join your empire. The large, already established populations of independent colonies can provide a big boost to your empire when it is still growing.
+
+Another strategy for dealing with independent colonies is to simply build up your troops and invade them. However doing this will harm your reputation with other factions.
+
+[H3]Independent Colony List[/H3]
+This screen lists all your relations with independent colonies. Check the various sort and filter options at the top of the panel.
+
+Independent colonies do not belong to any faction. You can trade with them for resources. You can also integrate them into your empire, either by force or through diplomacy.
+
+Each list item shows how the independent colony feels towards you along with the trend of your relationship.
+
+Clicking a relation item in the list will select the independent colony, if known.
+
+[H3]Relation Detail Panel[/H3]
+Hovering over a list item shows the Relation detail panel to the right. Clicking the list item or the detail panel will lock it open.
+
+The detail panel provides a complete summary of your relationship with the selected independent colony, with similar information to what you would see when interacting with another empire.
+
+[H3]Strategy[/H3]
+The Strategy section allows you to specify how you will interact with the colony. You can attempt to integrate them via gifts and diplomacy, eventually leading to an invitation to colonize. Or you can choose to invade and take the colony by force.
+
+[H3]Speaking with an Independent Colony[/H3]
+You can converse with the independent colony by clicking the 'Speak' button underneath their name in the detail panel. Discussions with independent colonies provides options like offering treaties and gifts, or even negotiating detailed trade deals.
+
+Independent colonies can often have knowledge about secret locations throughout the galaxy which they may be willing to sell to you if relations are friendly enough.
+
+Click 'Goodbye' or the close button at top-right to end the conversation.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyIndependentColonies_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Ambassadors</StepTitle>
+        <MarkupText>Any ambassador characters in your empire are shown in this list.
+
+You can see the details of each ambassador by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change an ambassador's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Ambassador Location[/H3]
+Ambassadors apply diplomatic and espionage benefits to your relationship with another faction. To assign an ambassador to a particular faction you should send them to the faction's capital.
+
+Use the location dropdown list and the 'Transfer' button to assign them to the desired faction.
+
+Alternatively you can automate the ambassador so that your diplomatic advisors will select the best location for them. Use the 'Automate' button under the ambassador portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the ambassador has been involved with. Various events can improve or decrease their skills, or provide new character traits.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersAmbassadors_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Spies</StepTitle>
+        <MarkupText>Any spy characters in your empire are shown in this list.
+
+You can see the details of each spy by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change a spy's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Intelligence Missions[/H3]
+Spies carry out intelligence missions against other factions, stealing maps and tech or sabotaging another faction in various ways.
+
+They can also perform counter-intelligence, protecting your empire from enemy spy missions.
+
+Each spy's skills strongly determine which types of missions they are best at.
+
+[H3]Assigning Missions[/H3]
+To assign a mission to a spy select the target empire, mission type, any specific mission target and the time to complete from the dropdown lists in the mission section, then click the 'Assign Mission' button.
+
+As you select different options the mission success chance is shown at the right. Be careful not to assign missions that are too difficult. Otherwise your spy could be intercepted and even captured, leading to serious diplomatic repercussions.
+
+If you want to completely automate which missions are assigned to a spy you can automate the spy using the 'Automate' button under the spy portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the spy has been involved with. Various events can improve or decrease their skills, or provide new character traits. Successfully completing intelligence missions can especially increase the skills of your spy.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacySpies_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Prisoners</StepTitle>
+        <MarkupText>Any captured characters from other factions are shown in this list.
+
+You can see the details of each imprisoned enemy character by hovering over the list entry and clicking to lock open the panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyPrisoners_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Characters</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Characters</StepTitle>
+        <MarkupText>Your empire's characters are shown in this list. By default this is filtered to show non-spy character roles. Check the various other sort and filter options at the top of the panel.
+
+You can see the details of each character by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change a character's name by clicking on their name under the portrait and typing a new one.
+
+Most characters start with their skills and traits unknown. As you use the character their skills and traits will be revealed, and then develop over time.
+
+[H3]Character Locations[/H3]
+Most characters apply their skills to their current location. For example, an Admiral applies his military skills to the fleet he is part of. Scientists apply their research skills to the Research Station where they are based.
+
+Your Leader applies his skills empire-wide, improving your whole empire in different ways. Conversely, when they have negative skill levels, they can be a detriment to your whole empire in those specific areas.
+
+To move a character to a specific location use the location dropdown list to select the location and then click the 'Transfer' button to move them there.
+
+If you want to completely automate where a character is located you can use the 'Automate' button under the character portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the character has been involved with. Various events can improve or decrease their skills, or provide new character traits.</MarkupText>
+        <RelatedControlNames>
+          <string>Characters_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Spies</StepTitle>
+        <MarkupText>Any spy characters in your empire are shown in this list.
+
+You can see the details of each spy by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change a spy's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Intelligence Missions[/H3]
+Spies carry out intelligence missions against other factions, stealing maps and tech or sabotaging another faction in various ways.
+
+They can also perform counter-intelligence, protecting your empire from enemy spy missions.
+
+Each spy's skills strongly determine which types of missions they are best at.
+
+[H3]Assigning Missions[/H3]
+To assign a mission to a spy select the target empire, mission type, any specific mission target and the time to complete from the dropdown lists in the mission section, then click the 'Assign Mission' button.
+
+As you select different options the mission success chance is shown at the right. Be careful not to assign missions that are too difficult. Otherwise your spy could be intercepted and even captured, leading to serious diplomatic repercussions.
+
+If you want to completely automate which missions are assigned to a spy you can automate the spy using the 'Automate' button under the spy portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the spy has been involved with. Various events can improve or decrease their skills, or provide new character traits. Successfully completing intelligence missions can especially increase the skills of your spy.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersSpies_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Prisoners</StepTitle>
+        <MarkupText>Any captured characters from other factions are shown in this list.
+
+You can see the details of each imprisoned enemy character by hovering over the list entry and clicking to lock open the panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>Prisoners_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Colonies</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Colonies</StepTitle>
+        <MarkupText>Colonies are the populated worlds in your empire. They provide most of the wealth and income of your empire. You take a portion of that income by taxing your colonies.
+
+Over time colonies grow in both population and development level. Larger, more developed colonies provide higher income.
+
+To grow your colonies faster and have them develop more, you should work to keep the population happy as well as providing them with abundant construction and luxury resources. You can also accelerate colony growth by allocating funding in the Funding Levels screen in Your Empire section.
+
+[H3]Colony List[/H3]
+This screen lists all of the colonized worlds in your empire. Check the various sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the colony locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the population level, approval rate, development level and tax income from each colony.
+
+Clicking a colony in the list will select the colony. It will also open the Colony Detail panel at the right. Double-clicking the colony will move the view to the colony. You can also open the Colony Detail panel by hovering over the arrow at the far-right of the list item.
+
+[H3]Colony Detail Panel[/H3]
+The Colony Detail panel provides a complete summary of your colony. It also has an expanded set of options for managing your colony.
+
+The top section shows the development and economy of the colony. Using the buttons below this section you can change the tax rate and decide to automate different areas of your colony. You can also assign a specific army template that determines what kind of defensive troop garrison the colony should have.
+
+[H3]Population[/H3]
+The Population section shows all of the races at the colony. Hovering over each race shows it's reproduction rate and assimilation level.
+
+Also listed in this section is the overall approval level of the colony towards you, along with a breakdown of all the factors that contribute to that approval rating.
+
+[H3]Troops and Characters[/H3]
+The Troops and Characters section shows all of the troop units and characters at the colony.
+
+You can recruit new troop units using the buttons below this section. Selecting individual troop units also allows disbanding or garrisoning the unit.
+
+[H3]Planetary Facilities[/H3]
+The Planetary Facilities section shows all of the facilities, wonders and ruins at the colony. 
+
+You can build new facilities using the buttons below this section. Selecting individual facilities also allows you to scrap the building.
+
+[H3]Construction[/H3]
+The Construction section shows any ships or bases currently under construction at the colony. You can build new ships or bases using the buttons below this section.
+
+Click the close button at the top-right of the panel to close it.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyColonies_SubSection</string>
+          <string>ColonyDetailPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Colonies</StepTitle>
+        <MarkupText>This screen lists all of the potential new colonies you can target. Check the extensive sort and filter options at the top of the panel. The filter options allow you to target specific suitability levels, alien races or planet types.
+
+When zoomed out to the galaxy- or system-level the new colony locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the size and colonization suitability of the planet or moon. Hovering over the suitability rating provides a detailed summary of how suitable the new colony is for each race in your empire.
+
+[H3]Colonizing Independent worlds[/H3]
+If the potential new colony is already inhabited by an independent alien race (an independent colony) then the race and population level is shown, along with the current chance of successfully colonizing the independent colony, i.e. how likely they are to welcome joining your empire.
+
+[H3]Queuing Colonization[/H3]
+The button at the right allows you to queue colonization of the planet or moon. This will build a new colony ship, fill it with colonists from one of your colonies and then send the new colony ship to the target world to colonize it.
+
+Alternatively, if a suitable colony ship already exists in your empire, this may instead be used to colonize the new world.
+
+[H3]Dangerous Locations[/H3]
+A red lightning bolt symbol will be shown next to the location name if the location is considered dangerous. A location is dangerous when there are uncleared threats present, like pirates or deadly space creatures.
+
+Non-military ships will not travel to a dangerous location. The threats must first be cleared by military ships or a fleet. This means that while you can queue construction of new colony at a dangerous location, colony ships will not travel there until the threats are cleared.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyNewColonies_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Colony Ships</StepTitle>
+        <MarkupText>Colony Ships are special transport ships that can load huge numbers of colonists that are sent to a colonize a new world for your empire.
+
+When colony ships reach their destination they are disassembled and the raw resources used in establishing the new colony. Thus colony ships can only be used to colonize a single world. You must build a new colony ship for each world you want to colonize.
+
+[H3]Colony Ship List[/H3]
+This screen lists all of the colony ships in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the colony ship locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the construction level, current mission and any loaded colonists onboard.
+
+[H3]Automation Status[/H3]
+You change the automation status of the colony ship using the button at the far-right of the list item.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyColonyShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Planetary Facilities</StepTitle>
+        <MarkupText>Planetary Facilities are built at colonies in your empire. They provide various bonuses or new capabilities for the colony.
+        
+Some facilities allow recruitment of new troop types. Others provide ground-based weapons to defend the colony. Other facilities give bonuses to governance, reducing corruption and improving happiness and thus increasing the income from the colony.
+
+New facilities are enabled through research: examine the projects in the research screen to see what facilities you can unlock.
+
+[H3]Building new Facilities[/H3]
+To build a new facility at a colony, select the Colony and use the 'Build Facilities' action button under the Selection Panel. This will present a list of buttons with all of the facilities that can be built at the colony. 
+Hover over each button for a summary of the facility. Click a button to pay the construction cost and begin building the facility.
+
+[H3]Facility List Items[/H3]
+This screen lists all of the planetary facilities, wonders and ruins at colonies in your empire. Check the sort and filter options at the top of the panel. The filter options allow you to focus on specific facility types, like weapon facilities, troop recruitment or governance buildings.
+
+When zoomed out to the galaxy- or system-level the facility locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Hovering over a list item opens a detailed summary of the facility in a panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyFacilities_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Artifacts</StepTitle>
+        <MarkupText>This screen lists all of the artifacts owned by your empire.
+
+Artifacts are objects that you can acquire through exploration. They typically provide bonuses to your empire or to their location. Sometimes artifacts must be at a colony or at your capital to provide their benefits.
+
+When zoomed out to the galaxy- or system-level the artifact locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Hovering over an artifact in the list will also show a detailed summary panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyArtifacts_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Exploration</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Exploration Ships</StepTitle>
+        <MarkupText>Exploration involves sending out exploration ships to visit unknown worlds, revealing their resources, colonization suitability, and any special bonuses. They may also encounter ancient ruins or abandoned ships or bases that can be investigated.
+
+Locations can be explored to varying levels. Initial exploration reveals more obvious data, like the quality of a planet or surface-level resources.
+
+But other items may be hidden at deeper levels of exploration. This can include bonuses, ancient ruins, resources or even rare artifacts.
+
+Exploring at a deeper level requires better components with a higher rating, either survey modules or exploration scanners.
+
+At each location the exploration ship sends out survey teams to inspect the planet. Surveying is slow and time-consuming.
+
+Higher tech levels unlock exploration scanner components that allow faster exploration. However slower survey teams can still be useful to explore a location more thoroughly and thus uncover deeply hidden items.
+
+[H3]Exploration Ship List[/H3]
+This screen lists all of the exploration ships in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the exploration ship locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+You change the automation status of the exploration ship using the button at the far-right of the list item.
+
+[H3]Exploration Map Overlay[/H3]
+When the Exploration Ships list is open, the exploration galaxy map overlay is auto-enabled, showing the exploration status for each system. Green systems are fully explored, while yellow systems are partially explored.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Known Ruins</StepTitle>
+        <MarkupText>Exploration may occasionally reveal ancient ruins at some locations. These ruins can hold secrets and other items of value.
+
+[H3]Known Ruins List[/H3]
+This screen lists all of the ruins you have encountered while exploring the galaxy.
+
+When zoomed out to the galaxy- or system-level the ruin locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+Each list item shows any relevant bonuses provided by the ruins. You can gain these bonuses for your empire by colonizing the planet where the ruins are. You can acquire research bonuses by building a research station at the location. You can acquire scenery bonuses by building a resort base at the location.
+
+Hovering over a ruin in the list will also show a detailed summary panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationRuins_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Abandoned Ships and Bases</StepTitle>
+        <MarkupText>Exploration may occasionally reveal abandoned ships or bases. These may hold important information that you can obtain when you board and investigate. They can usually also be salvaged by sending a construction ship to repair them.
+
+[H3]Abandoned Ships and Bases List[/H3]
+This screen lists all of the known abandoned ships and bases that you have encountered while exploring the galaxy.
+
+When zoomed out to the galaxy- or system-level the abandoned ship or base locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select the abandoned ship or base. Double-clicking the item will move the view to that location.
+
+The button at the right allows you to queue repair and investigation of the abandoned ship or base. This will send a construction ship to repair the item.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationAbandonedShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Special Locations</StepTitle>
+        <MarkupText>Sometimes exploration can reveal unusual locations. These may include fields of ship debris from ancient battles or other even stranger phenomena.
+
+[H3]Special Locations List[/H3]
+This screen lists all of the known special locations that you have encountered while exploring the galaxy.
+
+When zoomed out to the galaxy- or system-level the special locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select the location.
+
+Hovering over a special location in the list will also show a detailed summary panel at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationSpecialLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Resources and Mining</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Resources</StepTitle>
+        <MarkupText>Resources are the raw materials found at planets, moons and asteroids. These can include metallic ores, gases, minerals, textiles, foods, beverages, and many other items.
+
+You can mine these resources, extracting them for use in your empire.
+
+Some resources are used in constructing new ships and based and improving growth in your colonies. Other resources are used to raise the development of your colonies - these are luxury resources. And one resource (Caslon) is used as a universal reactor fuel.
+
+[H3]Resources List[/H3]
+This screen lists all of the resources in the galaxy.
+
+By default the resources are filtered to show only the fuel and construction resources that your empire is currently using. The default sort order prioritizes resources where your empire has a production shortage.
+
+Check the sort and filter settings at the top of the panel for more options. Other filter options include showing luxury resources that add to the development of your colonies. Sort options include mining rates, demand, number of sources, and stockpile levels in your empire.
+
+[H3]Resource Flow Map Overlay[/H3]
+When the Resources list is open, the Resource Flow galaxy map overlay is auto-enabled, showing the flow of resources between star systems in your empire. This helps you to visualize the flow of cargo being moved by freighters and mining ships between the colonies and bases in your empire.
+
+Clicking on a single resource in the list filters the Resource Flow map overlay to only show the cargo transport for the selected resource. All known source locations for the selected resource are also highlighted on the galaxy map. Clicking the resource again deselects it.
+
+Each list item shows the current stockpile, production rate and number of known and exploited sources for the resource.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesKnown_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Mining Locations</StepTitle>
+        <MarkupText>This screen lists all of the current mining locations in your empire. This includes colonies and mining stations. Check the sort and filter options at the top of the panel. You can filter by individual resources to quickly identify all of the locations for a particular resource in your empire.
+
+When zoomed out to the galaxy- or system-level the mining locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+Each list item shows all of the known resources being mined at that location, along with their abundances. If a resource has a production shortage it's image is surrounded by a dashed red border. Hover over each resource for more details, including any bonuses it provides.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesMiningStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Mining Locations</StepTitle>
+        <MarkupText>This screen lists potential new mining locations that you can target. These locations are where you should build new mining stations.
+
+Check the sort and filter options at the top of the panel. The filter options allow you to target specific resources. Yellow-colored filter items are construction resources used to build new ships and bases. Light blue filter items are luxury resources used to develop your colonies.
+
+When zoomed out to the galaxy- or system-level the new mining locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the known resources and abundance levels at the location. If your empire has a shortage of the resource it will be surrounded by a dashed red border. Hover over each resource for a full summary, including any bonuses it provides.
+
+[H3]Queuing New Mining Stations[/H3]
+The button at the right allows you to queue construction of a new mining station at the location. When the next construction ship becomes available it will build a mining station here. You can click the button again to cancel construction.
+
+If you cannot build at the location the Queue button will be disabled. A tooltip on the button will explain why you cannot build there.
+
+[H3]Dangerous Locations[/H3]
+A red lightning bolt symbol will be shown next to the location name if the location is considered dangerous. A location is dangerous when there are uncleared threats present, like pirates or deadly space creatures.
+
+Non-military ships will not travel to a dangerous location. The threats must first be cleared by military ships or a fleet. This means that while you can queue construction of new mining stations at a dangerous location, construction ships will not go there to build the new station until the threats are cleared.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesNewMiningLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Mining Ships</StepTitle>
+        <MarkupText>Mining Ships are mobile resource extraction ships. They travel to mining locations to mine resources there. Once they have a full load they then return the extracted resources to the nearest spaceport.
+
+Mining Ships are part of your civilian economy, so you cannot normally assign missions to them. Instead they seek out mining locations on their own, preferring resources that are in high demand in your empire.
+
+However some government styles allow you to directly assign missions to Mining Ships. You can then choose where each mining ship will mine by selecting it and right-clicking on the target mining location.
+
+[H3]Mining Ship List[/H3]
+This screen lists all of the Mining Ships in your empire. Check the sort and filter options at the top of the panel. You can filter by the types of resources that are being mined: fuel, construction or luxury resources.
+
+When zoomed out to the galaxy- or system-level the mining ships are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the resources that the mining ship is extracting and the current mission.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesMiningShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Fuel Tankers</StepTitle>
+        <MarkupText>Fuel Tankers travel around refuelling ships that are low on fuel. When you assign Fuel Tankers to a fleet they will give priority to refuelling ships in their fleet.
+
+They can mine fuel from any location with a fuel resource. But they prefer to load fuel from a spaceport or colony, because this is usually a quicker way to obtain fuel.
+
+[H3]Fuel Tanker List[/H3]
+This screen lists all of the Fuel Tankers in your empire.
+
+When zoomed out to the galaxy- or system-level the Fuel Tankers are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the current cargo and mission of the Fuel Tanker.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesFuelTankers_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Construction</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Ship Construction</StepTitle>
+        <MarkupText>This button opens the Designs List where you can see all of the ship and base designs for your empire.
+        
+From this list you can view or edit designs, or create new designs.
+
+Adding a new design involves selecting a Ship Hull and then adding components to the design in the Ship Design screen.</MarkupText>
+        <RelatedControlNames>
+          <string>ShipDesignScreenButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Construction Yards</StepTitle>
+        <MarkupText>Construction Yards are where you build new ships for your empire. This includes spaceports, which are usually the fastest way to build new ships. Your colonies can also build ships and bases.
+
+[H3]Construction Yard List[/H3]
+This screen lists all of the current construction yards in your empire. Check the sort and filter options at the top of the panel. You can sort by construction speed or current construction wait time.
+
+When zoomed out to the galaxy- or system-level the construction yards are highlighted on the map. System and Location badges also indicate spaceports using the yellow construction icon. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+[H3]Construction Queue and Wait Time[/H3]
+Each list item shows the current construction wait time. This is the time before any new construction will commence.
+
+Also shown are the ships or bases in the construction queue, including any ships incoming for repair or retrofit (not yet arrived). Hover over each ship or base for more details, including the construction progress percentage.
+
+Hovering over a list item will also display a summary panel at the right. This summary shows how many individual construction yards the location has. It also shows the current wait time and the build and repair speeds.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionSpaceports_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Construction Yard Locations</StepTitle>
+        <MarkupText>This screen lists colonies where you can build new spaceports. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the new spaceport locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+[H3]Queuing New Spaceports[/H3]
+The button at the right allows you to queue construction of a new spaceport at the colony.
+
+If you cannot build at the location the Queue button will be disabled. A tooltip on the button will explain why you cannot build there.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionNewSpaceportLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Construction Ships</StepTitle>
+        <MarkupText>Construction Ships are mobile construction yards. They build bases of various types: mining stations, research stations, resort bases, monitoring stations. They can also repair immobile damaged ships. They can even repair abandoned ships and bases encountered through exploration.
+
+Building a new base requires construction resources. So the first action a Construction Ships takes when assigned a construction mission is to travel to the nearest spaceport to load the required construction resources.
+
+[H3]Construction Ship List[/H3]
+This screen lists all of the Construction Ships in your empire.
+
+When zoomed out to the galaxy- or system-level the Construction Ships are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the current mission of the Construction Ship.
+
+[H3]Automation Status[/H3]
+The small button at the right allows you to change the automation status of the ship. Thus you can manually control the construction ship or fully automate it, allowing it to select it's own missions.
+
+Or you can have more specific automation, where the construction ship will only build mining stations, research stations, monitoring stations, resort bases or salvage abandoned ships and bases.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Build Order</StepTitle>
+        <MarkupText>The Build Order screen provides a quick way to build a large number of ships. Each row lists a single ship role along with an amount field. Change the amount to build in the numeric field. You can also select the specific design to build for each role from the dropdown list in the center of each row.
+
+Once you have set the amount and design you want to build for each role, click the Purchase button at the top of the panel to buy the new ships and begin construction. The new ships will be built at the best available construction yard in your empire. Often this means using multiple construction yards spread throughout your empire.
+
+[H3]Per Role Map Overlay[/H3]
+If you click on a role row you can then specify the amount and build location of each new ship by left-clicking on the yellow construction yard badges shown at the galaxy level.
+
+Left-clicking once on a construction yard badge will queue construction of a single ship for that role at that location. Right-clicking on the badge will remove construction of a single ship for that role at that location.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionBuildOrder_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Ship Design Screen</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Introduction</StepTitle>
+        <MarkupText>The Ship Design screen allows you to create a new design for a ship, base or fighter.
+
+You generate a new design by adding components to the bays in a hull.
+
+Your new design must meet many requirements to be considered valid. For example:
+[ULI]all designs must have a command center[/ULI]
+[ULI]all designs must store fuel to generate energy from a reactor[/ULI]
+[ULI]all ships must have engines to be mobile[/ULI]
+
+There are many more requirements specific to each role.
+
+[H3]Recommendations Button[/H3]
+Check the Recommendations button and popout panel as you add components to your design (at the top of the Design Summary panel). Some recommendations are optional (shown in yellow). Other recommendations are compulsory (shown in red).
+
+You cannot save your design until all the requirements are met.</MarkupText>
+        <RelatedControlNames>
+          <string>Warnings</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Available Components</StepTitle>
+        <MarkupText>The Available Components list shows all of the researched components that are available to add to the design.
+
+Only components that are valid for the role are shown. Thus fighters do not see any ship components, and vice versa. Components will also be excluded if they are too large for any bays in the hull.
+
+You can further filter the components using the dropdown list at the top-left of the panel. This allows you to filter by bay type, or to just show the latest component per category.
+
+You can sort the components using the dropdown list at the top-right of the panel. This allows you to sort by name, category, tech level or size.
+
+[H3]Component Summary[/H3]
+As you hover over each component a popup summary will appear at the right, outlining the component specs.</MarkupText>
+        <RelatedControlNames>
+          <string>AvailableComponentContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Design Bays</StepTitle>
+        <MarkupText>The Design Bays list shows all of the component bays in the hull.
+
+The components added to the Design Bays list is the core of the design. The components added here define the capabilities and behavior of the design.
+
+Each bay has a type and size. You can only place components in a bay when it is a matching type and when the component size fits within the bay.
+
+There are 6 component bay types. Each bay type only allows certain types of components:
+[ULI]General: command centers, crew quarters, fuel cells, reactors, hyperdrives, cargo bays, passenger compartments, troop compartments, mining engines, energy collectors and all others[/ULI]
+[ULI]Weapons: weapons or tractor beams[/ULI]
+[ULI]Engines: engines and vectoring engines[/ULI]
+[ULI]Defense: armor, shields or damage control[/ULI]
+[ULI]Hangars: docking bays, construction yards or fighter bays[/ULI]
+[ULI]Sensors: scanners, countermeasures, targeting computers, survey modules, scanner jammers[/ULI]
+
+To add a component to a bay:
+[OLI]select the desired component from the Available Components list[/OLI]
+[OLI]find a bay of the matching type and adequate size in the Design Bays list[/OLI]
+[OLI]left-click in the bay to place the component[/OLI]
+
+You can also do the following:
+[ULI]when you hover over a bay that already contains a component, a popup comparison window will be displayed. This allows you to quickly see the differences between them[/ULI]
+[ULI]right-click a bay to remove an existing component[/ULI]
+
+[H3]External Bays[/H3]
+Note that some component bays are external on the preview model. In other words, they can be seen on the exterior of the ship or base.
+
+External bays are shown in the Design Bays list by a 'view' icon at the left. You can click the view icon to rotate the preview to show the external bay.</MarkupText>
+        <RelatedControlNames>
+          <string>DesignComponentsContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Design Preview</StepTitle>
+        <MarkupText>The center of the screen shows a preview of the design.
+
+You can rotate the view by holding down the right-mouse-button and moving the mouse left/right and up/down.
+
+Use the mouse scroll wheel to zoom in or out from the preview.
+
+[H3]External Bay Markers[/H3]
+The external bays are shown on the preview by a spherical marker. The color of the marker matches the type of the bay.
+
+You can toggle the external bay markers on or off using the button at the right of the tactical settings area.
+
+You can place selected components directly into the external bays on the preview:
+[OLI]select a component in the Available Components list[/OLI]
+[OLI]the valid bays are then highlighted on the preview[/OLI]
+[OLI]left-click on a valid bay where you want to add the component[/OLI]
+
+You can also do the following:
+[ULI]right-click a bay position in the preview to remove an existing component from the external bay[/ULI]
+
+[H3]Engine Placement[/H3]
+Note that when you add engines to a ship design, the actual bay where the engine is added may be different to the bay you selected. This is because engines must remain symmetrical, and thus will always be added on alternating sides of the design.</MarkupText>
+        <RelatedControlNames>
+          <string></string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Design Overview</StepTitle>
+        <MarkupText>The Design Overview displays all of the current stats for your design. The values in this panel change as you add and remove components to the hull.
+
+There are many sections to the Design Overview showing data on various aspects of the design. Much of the data has further information when hovered over.
+
+At the top is the design name. Click here to type a new name.
+
+[H3]Recommendations[/H3]
+Next is the Recommendations button. This shows a summary of any warnings or errors in the current design. 
+
+Hover over the Recommendations button to popout a larger summary panel. Click the button to lock the recommendations panel open.
+
+The design is not valid (and cannot be saved) until any errors are resolved.
+
+[H3]Core Design Information[/H3]
+Next is a summary of the key design data. This includes information about the purchase and maintenance costs.
+
+It also outlines some important requirements:
+[ULI]the design cannot be larger than the maximum size allowed by the hull[/ULI]
+[ULI]there must be adequate crew for the design[/ULI]
+
+[H3]Rating[/H3]
+The Rating section summarizes data about the design in 4 key areas: Attack Strength, Defend Strength, Speed and Maneuvering, and Scanners.
+
+Hover over each value for a breakdown of the factors that contribute to the rating in each area.
+
+[H3]Energy[/H3]
+The Energy section summarizes the energy generation, storage and distribution in the design.
+
+It also shows graphs outlining how energy is consumed both at sublight speeds in combat and during hyperspace travel. For bases only one graph is shown.
+
+An important value is the reactor energy generation rate per unit of fuel. This shows the efficiency of the reactor fuel usage, which has a direct impact on how quickly a ship needs to refuel.
+
+[H3]Movement[/H3]
+This section is only relevant to ships. It shows the movement speed and energy usage at various levels.
+
+Also shown here is the hyperdrive jump range and overall fuel range.
+
+The hyperdrive jump accuracy indicates the minimum jump exit range when travelling to a location without a colony or base of your own, e.g. when attacking an enemy location.
+
+This means that the ship will exit the jump at approximately this range and then must travel at sub-light speed towards the destination.
+
+[H3]Weapons[/H3]
+The Weapons section outlines weapon ranges and damage rates per second across various weapon categories.
+
+Hovering over the weapon damage graphs reveals further information.
+
+Also shown are the fighter capacity and build rate.
+
+[H3]Defense[/H3]
+The Defense section shows the shield, armor and damage repair values for the design.
+
+Hovering over the shield and armor graphs reveals further information.
+
+Also shown are the boarding defense strength.
+
+[H3]Targeting and Countermeasures[/H3]
+This section shows the targeting and countermeasures bonuses.
+
+Improved targeting makes weapons more accurate and more likely to strike their target.
+
+Improved countermeasures makes a design more able to throw off enemy weapons and thus avoid damage.
+
+[H3]Sensors[/H3]
+The Sensors section outlines the strength and range of a variety of different scanner types:
+[ULI]general short- and long-range scanners for detecting distant ships[/ULI]
+[ULI]hyperjump tracking of enemy ships when they jump away from your location[/ULI]
+[ULI]trace scanning of internal information about nearby enemy vessels[/ULI]
+[ULI]scanner jamming that protects against scanning by enemies[/ULI]
+
+[H3]Industry[/H3]
+The Industry section has values for various industrial categories like cargo storage, docking bay throughput, mining, research and others.
+
+[H3]Bonuses[/H3]
+The Bonuses section summarizes any bonuses provided by the hull or any components in the design.
+
+[H3]Resources Required to Build[/H3]
+This section shows the total resources that are required to build a new copy of this design.
+
+This includes resources from the hull and all components on the design.</MarkupText>
+        <RelatedControlNames>
+          <string>DesignSummaryContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Tactical Settings</StepTitle>
+        <MarkupText>Use the tactical settings buttons to set the default tactics for the new design. These default tactics will be used for new ships and bases using the design.
+
+Once ships are built they can set their own tactics, but their initial tactics are from their design.</MarkupText>
+        <RelatedControlNames>
+          <string>TacticsButtonStrip</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Save and Exit</StepTitle>
+        <MarkupText>Once you have finished adding components to your design, and all of the requirements are met, click the Save and Exit button to return to the main view.
+
+Or you can click the Cancel button to return to the main view without saving the current design.</MarkupText>
+        <RelatedControlNames>
+          <string>Close</string>
+          <string>Save</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Research</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Research</StepTitle>
+        <MarkupText>Research unlocks new tech that you can use to improve your empire in various ways:
+[ULI]new ship hulls and components allow you to build bigger and better ships and bases[/ULI]
+[ULI]new planetary facilities help improve your colonies[/ULI]
+[ULI]improvements to your ability to colonize new worlds[/ULI]
+[ULI]improvements to your ground troops[/ULI]
+[ULI]provides various bonuses, including improving your diplomatic relations with other factions[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchSection_SectionHeader</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Research Screen and Output</StepTitle>
+        <MarkupText>This button opens the Research Screen where you can view the entire tech tree and select new projects to research.
+
+You can also accelerate research progress by paying to 'crash-research' a project.
+
+[H3]Concurrent Projects[/H3]
+When you have multiple research stations you can research more than one project at a time.
+
+You set the upper limit to how many projects to concurrently research using this value.
+
+[H3]Sources and Output[/H3]
+Research output comes from both the populations at your colonies and research stations that you build.
+
+To fully exploit your research output you should also spend excess funding on research. Fully-funded research means faster access to new technologies.
+
+You can allocate research funding in the Funding Levels screen (Ctrl-F2) in the Empire section.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchScreenButton</string>
+          <string>Research_MaximumConcurrentProjects</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Research Stations</StepTitle>
+        <MarkupText>This screen lists all of the current research locations in your empire. This includes research stations and any other bases with research labs. Check the sort and filter options at the top of the panel. You can filter by specific research bonuses to quickly identify all of the locations for a particular research area in your empire.
+
+When zoomed out to the galaxy- or system-level the research locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+[H3]Research Output[/H3]
+Each list item shows the research output amount for the location. Also listed are any research bonuses at the location. Hover over the bonus description for a complete summary of all research bonuses at the location, including where they come from. If there are any scientists onboard the base they are also shown here at the top-right.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchResearchStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Research Locations</StepTitle>
+        <MarkupText>This screen shows you locations you have explored that have special research bonuses. These locations are where you should build new research stations. Check the sort and filter options at the top of the panel. You can filter by specific research bonuses to quickly identify new locations for a particular research area.
+
+When zoomed out to the galaxy- or system-level the new research locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. This helps you to easily see where a location is in relation to others.
+
+Clicking a list item will select it. Double-clicking an item will move the view to that location.
+
+Each list item shows the research bonuses at the location. Hover over the bonus description for a complete summary of all research bonuses at the location, including where they come from. 
+
+[H3]Queuing New Research Stations[/H3]
+The button at the right allows you to queue construction of a new research station at the location. When the next construction ship becomes available it will build a research station here. You can click the button again to cancel construction.
+
+If you cannot build at the location the Queue button will be disabled. A tooltip on the button will explain why you cannot build there.
+
+[H3]Dangerous Locations[/H3]
+A red lightning bolt symbol will be shown next to the location name if the location is considered dangerous. A location is dangerous when there are uncleared threats present, like pirates or deadly space creatures.
+
+Non-military ships will not travel to a dangerous location. The threats must first be cleared by military ships or a fleet. This means that while you can queue construction of new research stations at a dangerous location, construction ships will not go there to build the new station until the threats are cleared.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchNewResearchLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Research Bonus Amounts</StepTitle>
+        <MarkupText>This screen lists all of the research bonuses in your empire split out by type. Research bonuses are important in two ways:
+[ULI]research speed is increased for projects with the matching bonus type, e.g. researching new Ship Hulls is accelerated when you have construction research bonuses[/ULI]
+[ULI]some research projects have extra requirements where they can only be initiated when you have sufficient research bonuses of a particular type, e.g. some high-end Shield projects require you to have a certain threshold of Shield research bonuses[/ULI]
+
+Hovering over each research bonus type displays a complete breakdown of all the sources for the bonus in a panel at the right.
+
+These sources can include locations where you have built a research station. They can also include scientists and other characters. Other sources might be race or government bonuses.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchBonusAmounts_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Scientists</StepTitle>
+        <MarkupText>Any scientist characters in your empire are shown in this list.
+
+You can see the details of each scientist by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change a scientist's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Scientist Locations[/H3]
+Scientists apply research benefits when they are onboard a research station. You should use the location dropdown list and the 'Transfer' button to assign them to a particular location.
+
+Alternatively you can automate the scientist so that your research advisors will select the best location for them. Use the 'Automate' button under the scientist portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the scientist has been involved with. Various events can improve or decrease their skills, or provide new character traits.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersScientists_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Research Screen</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Overview</StepTitle>
+        <MarkupText>The Research screen shows all of the research projects.
+
+Projects must be researched to unlock their benefits. Researching takes time. The speed of research is determined by the research output from your colonies and research stations.
+
+Research projects provide the following types of new tech that can improve your empire in various ways:
+[ULI]new ship hulls and components allow you to build bigger and better ships and bases[/ULI]
+[ULI]new planetary facilities help improve your colonies[/ULI]
+[ULI]improve your ability to colonize new worlds[/ULI]
+[ULI]improve your ground troops[/ULI]
+[ULI]provide various bonuses, including improving your diplomatic relations with other factions[/ULI]
+
+The left side of the screen is the lowest tech level. These are the techs that you have at the start of a new game.
+
+As you progress towards the right of the screen, the tech level increases. 
+
+[H3]Order of Research[/H3]
+Projects are linked together by paths. Parent projects must be researched before child projects. As you research one project, any child projects (usually to the right) are enabled for research.
+
+[H3]Blind versus Non-Blind Research[/H3]
+When your game has been set up to use blind research then you can only see the next available projects beyond those already researched.
+
+When your game has not been set up to use blind research then you can see all of the projects from the start of the game.</MarkupText>
+        <RelatedControlNames>
+          <string></string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navigating the Research Screen</StepTitle>
+        <MarkupText>You can move the view in the research screen by left-clicking and dragging with the mouse.
+
+The mouse scroll wheel will quickly move the view up or down.
+
+You can zoom in or out of the view to see more or less of the available projects. You can do this in 2 ways:
+[ULI]hold down the Ctrl key while using the mouse scroll wheel[/ULI]
+[ULI]click the Zoom In or Zoom Out buttons in the Control panel at the right[/ULI]
+
+You can also use the arrow keys to scroll up/down/left/right.
+
+To move the view quickly up or down use the PageUp and PageDown keys.</MarkupText>
+        <RelatedControlNames>
+          <string>Research_ZoomIn</string>
+          <string>Research_ZoomOut</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Viewing and Researching a Project</StepTitle>
+        <MarkupText>Hovering over a project will present a summary of the project, including the benefits it unlocks. As you hover longer, a more detailed summary is displayed, with comprehensive data on the project benefits.
+
+Note that you can also hover over projects in the research queue, and the 'Queue Suggested Project' button.
+
+[H3]Queuing a Project for Research[/H3]
+Left-click a project to queue it for research.
+
+Right-click a project to remove it from the research queue.
+
+[H3]Initiation Costs[/H3]
+Some projects require an initiation cost to be paid before research can begin. The cost may include money and resources.
+
+When you left-click to queue a project that has initiation costs, a prompt window will pop up asking you to approve payment of the costs.
+
+[H3]Extra Requirements[/H3]
+Some projects have extra research bonus requirements before you can begin researching them.
+
+This means that they can only be initiated when you have sufficient research bonuses of a particular type, e.g. some high-end Shield projects require you to have a certain threshold of Shield research bonuses.
+
+You can obtain research bonuses in specific areas by seeking out these locations through exploration. When you find an area with special research bonuses you can then build a research station there to obtain those bonuses for your empire.
+
+In addition you can also obtain research bonuses in other ways:
+[ULI]from your leader and scientist characters[/ULI]
+[ULI]some races have research bonuses in certain areas[/ULI]
+[ULI]some planetary facilities provide research bonuses[/ULI]
+
+[H3]Crash Research[/H3]
+You can accelerate research of an important project by 'crash-researching' it. This means spending money to double the research rate for that project.
+
+To crash research a project:
+[ULI]ensure the project is currently being researched, i.e. is the top project in the queue[/ULI]
+[ULI]click the project in the view[/ULI]
+[ULI]a prompt window will appear asking you to approve payment to crash research the project[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string></string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Control Panel</StepTitle>
+        <MarkupText>At the right of the screen is the research Control Panel. This panel provides a number of functions helpful for navigating the tech tree.
+
+[H3]Maximum Concurrent Projects[/H3]
+Near the top is an explanation of the maximum number of concurrent research projects. Hover this explanation for further details.
+
+[H3]Zoom In/Out[/H3]
+At the right are the Zoom In and Zoom Out buttons that allow you to see more or less of the available projects.
+
+[H3]Jump Buttons[/H3]
+Next are the Jump buttons. Clicking one of these buttons allows you to immediately move the view to the first row of projects for that category.
+
+For example, clicking the 'Hyperspace Tech' jump button will immediately move the view to show hyperdrive projects at the top of the screen.
+
+[H3]Filtering Projects[/H3]
+Below this is a dropdown list that allows filtering the projects that are shown. This allows you to focus exclusively in one category. Of course it also means that you cannot see the other projects. So be sure to revert back to 'All Projects'.
+
+[H3]Next Suggested Project[/H3]
+Next is the 'Queue Suggested Project' button. This button suggests the next project that your research advisors think you should research. Click the button to queue the suggested project.
+
+Hovering over the button will provide a summary of the suggested project. While hovering the button the project will also be 'pinged' in the view (you may need to zoom out to see where it is).
+
+[H3]Research Queue[/H3]
+Finally there is the research queue. This is all the projects that are currently queued for research. The top-most projects are currently being actively progressed (the number of concurrent projects), while the subsequent projects are waiting until the top projects are completed.
+
+You can remove projects from the queue by right-clicking them in the queue. You can also move projects up or down the queue using the arrows at the right.
+
+[H3]Exiting Research[/H3]
+At the top is the 'Exit Research' button. Clicking this button will close the Research screen and return to the game.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchNavigationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Military</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Military Ships</StepTitle>
+        <MarkupText>Military Ships defend your empire against enemy attacks. They can also be used to expand your empire through conquest, attacking enemy fleets and invading enemy colonies. Military Ships can also protect against marauding pirates and dangerous space creatures.
+
+Military Ships come in various sizes and roles. As your tech progresses you can research new military Ship Hulls that allow you to design and construct larger military ships.
+[ULI]Escort: the smallest military ship. Can fend off enemy raids, especially when have multiple Escorts at a location.[/ULI]
+[ULI]Frigate: fast ships well suited to intercepting enemy raiders, like pirates. Can also operate effectively as picket or escort ships in a fleet.[/ULI]
+[ULI]Destroyer: the smallest ship that is well-suited to offensive operations. Often have many stand-off weapons, enabling effective ranged attacks against fixed targets like enemy bases. May have fighter bays, although at a significant cost in space.[/ULI]
+[ULI]Cruiser: very strong and capable multi-role strike ships. Typically have a balanced array of weaponry, but usually lack more exotic equipment like area weapons or hyper deny components. May have fighter bays.[/ULI]
+[ULI]Battleship: the largest type of military ship. Typically loaded with a full array of weapon types: close-in, stand-off, intercept, area, ion, hyper deny. May also have fighter bays and long range scanners. The obvious choice for fleet lead ships. Also good ships on which to station your valuable admirals.[/ULI]
+[ULI]Carrier: specialized with multiple hangar bays to house many fighters. Typically avoid getting directly involved in combat, instead relying on their large fighter complements to engage the enemy. May also have long range scanners, and can be good fleet lead ships.[/ULI]
+[ULI]Troop Transport: specialized to transport large numbers of troops for invasion of enemy colonies, or reinforcement of your own colonies. Also have Assault Pod components to deploy troops for invasion. Typically part of a dedicated invasion fleet.[/ULI]
+[ULI]Fuel Tanker: supply fuel to other ships, increasing their range, especially when in enemy territory. Can mine their own fuel from gas planets. Not strictly a military ship, but often assigned to fleets as support ships.[/ULI]
+
+[H3]Assigning Missions[/H3]
+To assign missions to a military ship first select it by left-clicking in the list or directly in the main view. Then right-click over the target to assign the default mission.
+
+Holding down the right-click button will provide a list of all valid missions for the target. Select the desired mission type from the list.
+[ULI]Attack: initates an attack against an enemy target, whether a ship, base, colony or space creature. Note that assigning an Attack mission against an enemy colony to a ship carrying troops will initiate an invasion, with the ship attempting to land its troops at the colony.[/ULI]
+[ULI]Raid: attempts to lower the shields of the enemy base and then land raiding parties using assault pods. If the raiders defeat any defenders they may be able to loot the base, gaining money, resources or tech.[/ULI]
+[ULI]Capture: attempts to lower the shields of the enemy ship or base and then land boarding parties, attempting to take over the target. If the boarders defeat any defenders they acquire the ship or base for your empire.[/ULI]
+[ULI]Bombard: orbital bombardment of an enemy colony, reducing the defenses, troops, population or quality of the colony. Can be an effective way of softening a colony up before invasion. Bombard weapons are often specialized at destroying specific aspects of colony defenses.[/ULI]
+[ULI]Blockade: park at an enemy base or colony, preventing any ships from loading or unloading cargo or passengers. Will attack any ships attempting to run the blockade.[/ULI]
+[ULI]Escort: accompany a civilian ship, protecting it from attack by any threats.[/ULI]
+[ULI]Guard: park at a friendly base or colony, protecting it from attack by any threats.[/ULI]
+[ULI]Load Troops: load troops from one of your colonies onto a ship with spare troop capacity.[/ULI]
+[ULI]Unload Troops: unload troops from on of your ships to a colony.[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Military Ships</StepTitle>
+        <MarkupText>[H3]Military Ship List[/H3]
+This screen lists all of the Military Ships in your empire. Check the extensive sort and filter options at the top of the panel. You can sort by strength, size, fleet, role and troop attack strength. You can filter by role, fleet status, automation status and damage level.
+
+When zoomed out to the galaxy- or system-level the military ships are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the current mission for the ship. If the ship is part of a fleet the fleet name is shown in brackets after the ship name. Also shown are the combat strength of the ship and the attack strength of any troops onboard. Any characters onboard the ship are shown at the right, next to the mission description.
+
+Ships that are damaged or under construction have a red or orange background behind their image. Hover over the ship image to show the health level.
+
+Hovering over a list item displays a detailed summary in a panel at the right.
+
+[H3]Automation Status[/H3]
+The small button at the right allows you to change the automation status of the ship. Thus you can manually control the ship or fully automate it, allowing it to select its own missions.
+
+Or you can have more specific automation, where the ship will only assign missions for escort, guard, patrol or raid.
+
+[H3]Tactical Settings[/H3]
+Each ship has a full array of tactical settings that fine-tune how they operate. Open the tactical settings screen by selecting the ship and clicking the 'Set Tactics' button at the far-right under the Selection Panel.
+
+You can control how ships will respond to threats by setting the Engagement Range. For further details hover over each setting in the Tactical Settings screen.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Fleets</StepTitle>
+        <MarkupText>Fleets are groupings of military ships that act together to carry out missions.
+        
+They have a home base that defines their center of operations. They also have an engagement range that defines the area they will engage enemy targets, in a radius out from their home base.
+
+[H3]Fleets List[/H3]
+This screen lists all of the Fleets in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the fleets are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the current mission for the fleet. Also shown are the number of ships in the fleet, the combat strength of the fleet and the attack strength of any troops in the fleet. The fleet role icon is shown at the far-right. Any characters in the fleet are shown at the right, next to the mission description.
+
+Hovering over a list item displays a detailed summary in a panel at the right. This summary panel shows a complete breakdown of all ships in the fleet by ship role, damage level and fuel level. It also provides details on any admirals or generals in the fleet.
+
+[H3]Templates and Fleet Roles[/H3]
+As explained previously, fleets are based on a template. Fleets can have a specific role such as: Attack, Raid, Defend, or Invade. These fleets will select missions appropriate to their fleet role. 
+
+You can also choose to control a fleet manually by setting its role to Manual (Fleet Role button under Selection Panel) or by simply assigning a mission to the fleet (thus automatically changing it to a Manual fleet).
+
+[H3]Creating New Fleets[/H3]
+You can create a new fleet in a number of different ways:
+[ULI]select multiple ships in the main view by drag-selecting with the left mouse button held down or by ctrl-clicking each ship. Then click the 'Create New Fleet' button under the Selection Panel[/ULI]
+[ULI]select multiple ships in the Military Ships list by ctrl- and shift-clicking ships in the list. Then click the 'Create New Fleet' button under the Selection Panel[/ULI]
+[ULI]In the Fleet Templates screen, select the desired template and then click either the 'Form new fleet' or 'Build new fleet' buttons at the right[/ULI]
+
+You can also add individual ships to an existing fleet by selecting the ship and clicking the 'Join ship to fleet' button under the Selection Panel. This will pop up a list of all fleets that can be joined. Select the fleet you want the ship to join by clicking on it from the list.
+
+[H3]Tactical Settings[/H3]
+Fleets have a full array of tactical settings that fine-tune how they operate. Open the tactical settings screen by selecting the fleet and clicking the 'Set Tactics' button at the far-right under the Selection Panel.
+
+You can control how fleets will respond to threats by setting the Engagement Range. For further details hover over each setting in the Tactical Settings screen.
+
+Note that individual ships within a fleet also have their own tactical settings. You can tweak how the fleet and ship tactics interact in the section 'Fleet Ships - Tactical Overrides'.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryFleets_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Fleet Templates</StepTitle>
+        <MarkupText>Fleet Templates allow you to define the composition of your fleets, setting the amount of ships for each ship role. They also define a grouping of default tactical settings. You can then create new fleets based on a template.
+
+Fleets will attempt to include ships that match the roles and amounts outlined in their template. But if there are insufficient ships available for a desired role, the fleet will fall-back to using ships from other roles to fill out the overall number of ships.
+
+[H3]Fleet Template Types[/H3]
+Each fleet role has a default template: Attack, Raid, Defend, Invade. You can also manually create other templates for each fleet role.
+
+[H3]Creating Fleets using Fleet Templates[/H3]
+You can create new fleets by manually selecting ships and then forming a fleet with them. However the Fleet Templates screen provides a couple of quick ways of creating new fleets.
+
+In the Fleet Templates screen you can select the desired template and then click either the 'Form new fleet' or 'Build new fleet' buttons at the right.</MarkupText>
+        <RelatedControlNames>
+          <string>FleetTemplatesButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Troops</StepTitle>
+        <MarkupText>Troops are used to invade enemy colonies and to defend your colonies against invasion.
+
+Troop units are recruited at your colonies and take time to reach operational readiness. Larger colonies can train and recover troops faster than smaller colonies.
+
+New troop units can be unlocked through research. Higher level troop units can only be recruited when the required planetary facility is built at a colony.
+
+Troops can be garrisoned at colonies. This means that they are permanently stationed at the colony to defend it, and thus will not be picked up by Troop Transport ships.
+
+Troop units have a one-off monetary cost to recruit. They also have ongoing annual maintenance costs.
+
+Each troop also has a size: some are small (Infantry) whereas others are larger (Armored, Planetary Defense). Size is important when considering troop carrying capacity for Troop Transport ships and Invasion fleets.
+
+[H3]Troop Unit Types[/H3]
+There are 5 types of Troop units:
+[ULI]Infantry: the basic defensive troop unit. Infantry are available from the start of the game. Each race has its own unique infantry unit with various strengths and weaknesses.[/ULI]
+[ULI]Armored: the primary attack troop unit. Requires an Armor Barracks facility to recruit.[/ULI]
+[ULI]Planetary Defense: specialized defensive troop units that can intercept enemy troops as they travel from their landing ships to the planetary surface. Requires a Planetary Defense Center facility to recruit.[/ULI]
+[ULI]Special Forces: highly-trained infantry units that specialize in taking out colony defenses during an invasion (ground facilities, defending planetary defense units, enemy generals). Requires a Special Operations Barracks facility to recruit.[/ULI]
+[ULI]Titans: very strong high-end attack units. Requires a Titan Manufacturing Center facility to recruit.[/ULI]
+
+[H3]Troops List[/H3]
+This screen lists all of the troop units in your empire. Check the extensive sort and filter options at the top of the panel. You can sort by attack and defend strength, maintenance cost and location. You can filter by troop type, garrison status and location (colonies vs transports).
+
+When zoomed out to the galaxy- or system-level the troops are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the attack strength, defend strength and maintenance cost for the troop unit. Hovering over a list item displays a detailed summary in a panel at the right. Garrisoned troops are indicated by a blue line underneath their image.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryTroops_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Army Templates</StepTitle>
+        <MarkupText>Army Templates allow you to define the relative composition of troop types. Army Templates are used by fleets and colonies to specify how many of each type of troop they should have.
+
+[H3]Army Template Types[/H3]
+There are 4 basic types of Army Template:
+[ULI]Invasion: assigned to fleets to define which troops should be used when invading enemy colonies. These would typically include lots of Armor, some Special Forces, some Infantry and Titans (if available)[/ULI]
+[ULI]Major Colony Defense: assigned to major colonies (like your capital) to define which troops should be used to defend the colony from invading enemy troops. These would typically include all troops types, but especially lots of infantry and planetary defense units.[/ULI]
+[ULI]Border Colony Defense: assigned to vulnerable border colonies to define which troops should be used to defend the colony from invading enemy troops. These would typically include lots of infantry and some planetary defense units.[/ULI]
+[ULI]Standard Colony Defense: assigned to all other colonies to define which troops should be used to defend the colony from invading enemy troops. These would typically include lots of infantry.[/ULI]
+
+There is a default template for each type, but you can modify these, or create additional templates that match your needs.
+
+[H3]Assigning Army Templates[/H3]
+You can select an Army Template for a colony by selecting the colony and using the 'Set Colony Automation' > 'Army Template' buttons under the Selection Panel. This will pop up a list of all Army Templates that can be used. 
+Select the template you want to use for the colony by clicking on it from the list. The colony will then attempt to recruit defensive troops in the ratio outlined by the template.
+
+You can select an Army Template for a fleet by selecting the fleet and using the 'Army Template' button under the Selection Panel. This will pop up a list of all Army Templates that can be used. Select the template you want to use for the fleet by clicking on it from the list. The fleet will then attempt to load troops in the ratio outlined by the template.</MarkupText>
+        <RelatedControlNames>
+          <string>ArmyTemplatesButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Admirals and Generals</StepTitle>
+        <MarkupText>Any Admiral or General characters in your empire are shown in this list.
+
+You can see the details of each character by hovering over the list entry and clicking to lock open the panel at the right.
+
+You can change a character's name by clicking on their name under the portrait and typing a new one.
+
+[H3]Admiral and General Locations[/H3]
+Admirals apply their combat bonuses when they are onboard a military ship, and especially when they are in a fleet. You should use the location dropdown list and the 'Transfer' button to assign them to a particular fleet or other location.
+
+Admirals can also provide non-combat bonuses when stationed at spaceports, e.g. ship construction speed.
+
+Generals apply their ground combat bonuses when they are at a colony: either defending one of your own colonies or invading an enemy colony. You should use the location dropdown list and the 'Transfer' button to assign them to a particular fleet or colony.
+
+To use a General defensively you should place them at one of your colonies. To use them for attacking you should place them in one of your Invasion fleets.
+
+Generals can also provide non-combat bonuses when stationed at colonies, e.g. troop recruitment rate.
+
+Alternatively you can automate the admiral or general so that your military advisors will select the best location for them. Use the 'Automate' button under the character portrait at the right.
+
+[H3]Events[/H3]
+At the very bottom of the detail panel is a list of all the events that the admiral or general has been involved with. Various events can improve or decrease their skills, or provide new character traits.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersAdmiralsGenerals_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Defensive Bases</StepTitle>
+        <MarkupText>Defensive Bases are heavy weapons platforms that are used to defend important colonies. They are built in space around the colony and provide substantial firepower to combat attacking enemy forces.
+
+[H3]Defensive Base List[/H3]
+This screen lists all of the current Defensive Bases in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the defensive bases are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryDefensiveBases_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Monitoring Stations</StepTitle>
+        <MarkupText>Monitoring Stations are specialized bases that provide long range scanners to monitor strategic locations. They are built at quiet locations that are within range to monitor enemy targets.
+
+[H3]Monitoring Station List[/H3]
+This screen lists all of the current monitoring stations in your empire. Check the sort and filter options at the top of the panel.
+
+When zoomed out to the galaxy- or system-level the monitoring stations are highlighted on the map. System and Location badges also indicate spaceports using the yellow construction icon. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryMonitoringStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Monitoring Station Locations</StepTitle>
+        <MarkupText>This screen lists ideal locations where you should build new monitoring stations.
+
+When zoomed out to the galaxy- or system-level the new monitoring station locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+[H3]Queuing New Monitoring Stations[/H3]
+The button at the right allows you to queue construction of a new monitoring station at the location. You can click the button again to cancel construction.
+
+If you cannot build at the location the Queue button will be disabled. A tooltip on the button will explain why you cannot build there.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryNewMonitoringLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Enemy Targets</StepTitle>
+        <MarkupText>This screen lists known enemy targets that you can attack with your fleets. These include fixed targets like enemy bases (e.g. pirate bases) and colonies. It also includes enemy fleets for which we know the current location.
+
+When zoomed out to the galaxy- or system-level the enemy targets are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+Each list item shows the known enemy strength at the target location. For enemy bases it also shows the current health level of the target.
+
+[H3]Defending Strength[/H3]
+For enemy colonies it shows the known defending troop strength. Note that this can be an estimate when the colony is not directly visible, so caution is needed when considering whether to invade.
+
+[H3]Queuing Attacks[/H3]
+The button at the right allows you to queue an attack against the target. When the next appropriate fleet becomes available it will assign an attack mission against the target. You can click the button again to cancel the attack.
+
+If you cannot attack the target the Queue button will be disabled. A tooltip on the button will explain why you cannot attack.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryEnemyTargets_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Dangerous Locations</StepTitle>
+        <MarkupText>Some locations are dangerous because they have known hostile threats. These threats usually include mobile targets like pirate ships and deadly space creatures. These threats often move between locations, so this information is transitory and is updated often.
+
+Civilian ships will not travel to a location which has hostile threats present. This means that construction ships will not build bases there. Exploration ships will not explore further there. It also means that mining ships will not mine there, nor will freighters pick up or deliver cargo from there.
+
+[H3]Dangerous Locations List[/H3]
+This screen lists dangerous locations that have known hostile threats. Check the sort and filter options at the top of the panel. You can filter by each threat type, including specific types of space creature.
+
+When zoomed out to the galaxy- or system-level the dangerous locations are highlighted on the map. System and Location badges also indicate dangerous location using the red lightning bolt icon. Hovering over an item in the list will ping the location on the map. Clicking the item will select its location. Double-clicking the item will move the view to that location.
+
+Each list item shows the major threat at the location along with the total hostile strength. It also indicates when this information was last updated, and thus how accurate it is.
+
+[H3]Queuing Investigation[/H3]
+The button at the right allows you to queue an investigation and clearance of the dangerous location. When the next appropriate fleet becomes available it will move to the location and clear out any threats it finds there. 
+You can click the button again to cancel the investigation.
+
+If you cannot investigate the location the Queue button will be disabled. A tooltip on the button will explain why you cannot investigate.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryDangerousLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Civilian</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>All Civilian Ships</StepTitle>
+        <MarkupText>This screen lists all of the civilian ships in your empire. This includes freighters, passenger ships and mining ships.
+
+Civilian ships are part of your civilian economy, so you cannot normally assign missions to them. Instead they seek out their own missions: moving cargo, transporting tourists and migrants, and mining resources.
+
+When zoomed out to the galaxy- or system-level the civilian ships are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the ship's current mission. It also shows any cargo or passengers that the ship is carrying.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianShipsAll_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Freighters</StepTitle>
+        <MarkupText>This screen lists all of the freighters in your empire.
+
+Freighters are part of your civilian economy, so you cannot assign missions to them. Instead they seek out their own missions, transporting cargo between locations.
+
+Check the sort and filter options at the top of the panel. You can filter by the type of resources being transported: fuel, construction or luxury resources.
+
+When zoomed out to the galaxy- or system-level the freighters are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the ship's current mission. It also shows any cargo that the ship is carrying.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianFreighters_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Passenger Ships</StepTitle>
+        <MarkupText>This screen lists all of the passenger ships in your empire.
+
+Passenger ships are part of your civilian economy, so you cannot assign missions to them. Instead they seek out their own missions, transporting tourists and migrants between locations.
+
+Check the sort and filter options at the top of the panel. You can filter by the type of passengers being transported: tourists or migrants.
+
+When zoomed out to the galaxy- or system-level the passenger ships are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the ship's current mission. It also shows any passengers that the ship is carrying.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianPassengerShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Resort Bases</StepTitle>
+        <MarkupText>This screen lists all of the resort locations in your empire. Resorts are destinations for tourism. Passenger ships will transport tourists to resorts, earning income for your empire.
+
+When zoomed out to the galaxy- or system-level the resort bases are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the scenery bonuses at the location.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianResortBases_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>New Resort Locations</StepTitle>
+        <MarkupText>This screen lists potential new resort locations that you can target. These locations are where you should build new resort bases. Resorts are destinations for tourism. Passenger ships will transport tourists to resorts, earning income for your empire.
+
+Resorts are built at scenic locations in the galaxy. These locations usually have some natural scenic feature. Ancient ruins can also provide scenery bonuses that can be exploited by building a Resort Base there.
+
+When zoomed out to the galaxy- or system-level the new resort locations are highlighted on the map. Hovering over an item in the list will ping the location on the map. Clicking the item will select it. Double-clicking the item will move the view to that location.
+
+Each list item shows the known scenery bonuses at the location. Hover over the scenery bonus description for a full summary, including the natural feature that provides the bonus.
+
+[H3]Queuing New Resort Bases[/H3]
+The button at the right allows you to queue construction of a new resort base at the location. When the next construction ship becomes available it will build a resort base here. You can click the button again to cancel construction.
+
+If you cannot build at the location the Queue button will be disabled. A tooltip on the button will explain why you cannot build there.
+
+[H3]Dangerous Locations[/H3]
+A red lightning bolt symbol will be shown next to the location name if the location is considered dangerous. A location is dangerous when there are uncleared threats present, like pirates or deadly space creatures.
+
+Non-military ships will not travel to a dangerous location. The threats must first be cleared by military ships or a fleet. This means that while you can queue construction of new resort base at a dangerous location, construction ships will not go there to build the new base until the threats are cleared.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianNewResortLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+</ArrayOfTourItem>

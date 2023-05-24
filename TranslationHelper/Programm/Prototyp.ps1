@@ -2,40 +2,25 @@
 # - Dad needs the other program first -> check glossar (component def. + names of galactopedia files) against the "fließtexte" (galactopedia)
 # - Is not checking empty content really good?
 # - Comment nodes instead of text nodes & show both (all) at the same time?
-# - Hide prototypes, add batch file
 # - Out-Of-Scope FN variable usage !
 # - .txt-Dateien (GameText.txt)
 # - Optional rules (no invalid but "not found"?)
 # - German Config
+# - Use XDocument or XPathNavigator for Line Numbers? 
+# - - https://learn.microsoft.com/en-us/dotnet/standard/linq/xdocument-class-overview
+# - - https://stackoverflow.com/questions/1542073/xdocument-or-xmldocument
+# - - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/insert-xml-data-using-xpathnavigator
+# - - https://stackoverflow.com/questions/1504467/c-sharp-xml-read-write-xpath-without-using-xmldocument
+# - https://stackoverflow.com/questions/42107851/how-to-implement-using-statement-in-powershell
+# - Extra:
+# - - https://scoop.sh/
+# - - https://ohmyposh.dev/docs/installation/windows
+# - - https://github.com/dahlbyk/posh-git
 
-# - Wrong Newlines (<></> & <!-- -->)
-# $xml = [xml] (Get-Content '.\TranslationHelper\1 Englisch Neu\Governments.xml')
-# $settings = New-Object System.Xml.XmlWriterSettings
-# $settings.NewLineHandling = [System.Xml.NewLineHandling]::None
-# $settings.Indent = $true
-# $writer = [System.Xml.XmlTextWriter]::Create(".\TestWriter.xml", $settings)
-# $xml.Save($writer)
-# $writer.Dispose()
-# # See:
-# # https://stackoverflow.com/questions/53518785/save-xml-file-without-formatting
-# # https://stackoverflow.com/questions/29624215/using-c-sharp-xml-serializer-to-produce-custom-xml-format
-# # https://stackoverflow.com/questions/203528/what-is-the-simplest-way-to-get-indented-xml-with-line-breaks-from-xmldocument
-# # https://stackoverflow.com/questions/42107851/how-to-implement-using-statement-in-powershell
-
-# # https://learn.microsoft.com/en-us/dotnet/standard/linq/xdocument-class-overview
-# # https://stackoverflow.com/questions/1542073/xdocument-or-xmldocument
-# # https://learn.microsoft.com/en-us/dotnet/standard/data/xml/insert-xml-data-using-xpathnavigator
-# # https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document
-# # https://stackoverflow.com/questions/1555028/how-do-i-edit-xml-in-c-sharp-without-changing-format-spacing
-# # https://stackoverflow.com/questions/1504467/c-sharp-xml-read-write-xpath-without-using-xmldocument
-# # https://stackoverflow.com/questions/32149676/custom-xmlwriter-to-skip-a-certain-element
-# # https://stackoverflow.com/questions/32149676/custom-xmlwriter-to-skip-a-certain-element
-# # https://adamtheautomator.com/powershell-classes/
-# # https://scoop.sh/
-# # https://github.com/pester/Pester
-# # https://ohmyposh.dev/docs/installation/windows
-# # https://github.com/dahlbyk/posh-git
-# # https://github.com/jonmosco/kube-ps1 
+# References:
+# - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document
+# - https://adamtheautomator.com/powershell-classes/
+# - https://github.com/pester/Pester
 
 # << Erstes Programm - Zusammenführung von Englisch Neu <- Englisch Alt <- Deutsch Alt (Automatische Übernahme bei neuen Versionen). >>
 
@@ -55,6 +40,25 @@ $LogFn = {
 
     Write-Host -ForegroundColor $foregroundColor "$steps $rule -> $type. $info"
     $global:Log += "$type; $ruleSet; $file; $rule; $info"
+}
+
+$LoadFn = {
+    param($path)
+
+    # The files contain unusual white space (comment on same line for example) and we want to preserve the original formatting.
+    # Using [xml] doesn't do that.
+    # See:
+    # - https://stackoverflow.com/questions/53518785/save-xml-file-without-formatting
+    # - https://stackoverflow.com/questions/29624215/using-c-sharp-xml-serializer-to-produce-custom-xml-format
+    # - https://stackoverflow.com/questions/203528/what-is-the-simplest-way-to-get-indented-xml-with-line-breaks-from-xmldocument
+    # - https://stackoverflow.com/questions/1555028/how-do-i-edit-xml-in-c-sharp-without-changing-format-spacing
+    # - https://stackoverflow.com/questions/32149676/custom-xmlwriter-to-skip-a-certain-element
+
+    $xml = New-Object System.Xml.XmlDocument
+    $xml.PreserveWhitespace = $true
+    $xml.Load($path)
+
+    return $xml
 }
 
 $TranslateFn = {
@@ -139,20 +143,20 @@ foreach ($ruleSet in $RuleSets) {
     foreach ($file in $files) {
         Write-Host ">> Starte Verarbeitung von Datei: $file"        
 
-        $xmlEnNew = [xml](Get-Content "$($Config.FolderPathEnNew)\$file" -Encoding UTF8);
+        $xmlEnNew = $LoadFn.Invoke("$($Config.FolderPathEnNew)\$file")
         if ($null -eq $xmlEnNew) {
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Neu' nicht gefunden.", ">>>", "Red")
             continue
         }
 
-        $xmlEnOld = [xml](Get-Content "$($Config.FolderPathEnOld)\$file" -Encoding UTF8);
+        $xmlEnOld = $LoadFn.Invoke("$($Config.FolderPathEnOld)\$file")
         if ($null -eq $xmlEnOld) {
             Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathEnOld)\$file nicht gefunden."
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Alt' nicht gefunden.", ">>>", "Red")
             continue
         }
 
-        $xmlDe = [xml](Get-Content "$($Config.FolderPathDe)\$file" -Encoding UTF8);
+        $xmlDe = $LoadFn.Invoke("$($Config.FolderPathDe)\$file")
         if ($null -eq $xmlDe) {
             Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathDe)\$file nicht gefunden."
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Deutsch Alt' nicht gefunden.", ">>>", "Red")
@@ -174,7 +178,7 @@ foreach ($ruleSet in $RuleSets) {
             } 
 
             if ($elementsNewCount -eq 1) {
-                $ProcessFn.Invoke($elementsNew[0], $elementsOld[0], $elementsDe[0], $path)
+                $ProcessFn.Invoke($elementsNew, $elementsOld, $elementsDe, $path)
                 continue
             }
 

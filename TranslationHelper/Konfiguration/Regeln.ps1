@@ -57,88 +57,180 @@ $Nicht_Verwendetes_Beispiel = @(
 )
 ### [ENDE] Alles bis hier ist nur ein Beispiel und wird so nicht tatsächlich verwendet! ###
 
+# Hinweis: Der Name und die Gruppenaufteilung bezieht sich auf die bestehenden "Rules" Tabellen.
+
 @(
     @{
-        Name = "Army Templates"
+        Name = "Basic-Versionen #1 Nur Name"
         Dateien = @(
             "ArmyTemplates.xml"
+            "ComponentDefinitions.xml"
+            "FleetTemplates.xml"
+            "OrbTypes.xml"
+            "PlanetaryFacilityDefinitions.xml"
+            "ResearchProjectDefinitions.xml"
+            "ShipHulls.xml"
+            "ShipHulls_*.xml"
+            "SpaceItemDefinitions.xml"
+            "TroopDefinitions.xml"
+            "Artifacts_Dhayut.xml"
+            "Artifacts_Ikkuro.xml"
         )
         Pfade = @(
-            "/ArrayOfArmyTemplate/ArmyTemplate/Name"
+            "/*/*/Name"
         )
     }
     @{
-        Name = "Artifacts"
+        Name = "Basic-Versionen #2 Name + Description"
         Dateien = @(
             "Artifacts.xml"
-        )
-        Pfade = @(
-            "/ArrayOfArtifact/Artifact/Name"
-            "/ArrayOfArtifact/Artifact/Description"
-        )
-    }
-    @{
-        Name = "Colony Event Definitions"
-        Dateien = @(
             "ColonyEventDefinitions.xml"
+            "Resources.xml"
         )
         Pfade = @(
-            "/ArrayOfColonyEventDefinition/ColonyEventDefinition/Name"
-            "/ArrayOfColonyEventDefinition/ColonyEventDefinition/Description"
+            "/*/*/Name"
+            "/*/*/Description"
         )
     }
     @{
-        Name = "Component Definitions"
-        Dateien = @(
-            "ComponentDefinitions.xml"
-        )
-        Pfade = @(
-            "/ArrayOfComponentDefinition/ComponentDefinition/Name"
-        )
-    }
-    @{
-        Name = "Fleet Templates"
-        Dateien = @(
-            "FleetTemplates.xml"
-        )
-        Pfade = @(
-            "/ArrayOfFleetTemplate/FleetTemplate/Name"
-        )
-    }
-    @{
-        Name = "Game Events"
+        Name = "Basic-Versionen #3 Game Events"
         Dateien = @(
             "GameEvents.xml"
         )
         Pfade = @(
-            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/MessageTitle"
-            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/Description"
-            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/ChoiceButtonText"
-            "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/MessageTitle"
-            "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/Description"
-            "/ArrayOfGameEvent/GameEvent/TriggerActions/GameEventAction/ChoiceButtonText"
+            "/*/*/PlacementActions/GameEventAction/MessageTitle"
+            "/*/*/PlacementActions/GameEventAction/Description"
+            "/*/*/PlacementActions/GameEventAction/ChoiceButtonText"
+            "/*/*/TriggerActions/GameEventAction/MessageTitle"
+            "/*/*/TriggerActions/GameEventAction/Description"
+            "/*/*/TriggerActions/GameEventAction/ChoiceButtonText"
         )
     }
     @{
-        Name = "Game Events (Governments)"
+        Name = "Basic-Versionen #4 Game Events (Governments)"
         Dateien = @(
             "GameEvents_Governments.xml"
         )
         Pfade = @(
-            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/MessageTitle"
-            "/ArrayOfGameEvent/GameEvent/PlacementActions/GameEventAction/Description"
+            "/*/*/TriggerActions/GameEventAction/MessageTitle"
+            "/*/*/TriggerActions/GameEventAction/Description"
         )
     }
     @{
-        Name = "Governments"
+        Name = "Basic-Versionen #5 Governments"
         Dateien = @(
             "Governments.xml"
         )
         Pfade = @(
-            "/ArrayOfGovernment/Government/Name"
-            "/ArrayOfGovernment/Government/Description"
-            "/ArrayOfGovernment/Government/LeaderTitle"
-            "/ArrayOfGovernment/Government/CabinetTitle"
+            "/*/*/Name"
+            "/*/*/Description"
+            "/*/*/LeaderTitle"
+            "/*/*/CabinetTitle"
+            "/*/*/EmpireNameAdjectives/string"
+            "/*/*/EmpireNameNouns/string"
+        )
+    }
+    @{
+        Name = "Basic-Versionen #6 Races"
+        Dateien = @(
+            "Races.xml"
+        )
+        Pfade = @(
+            "/*/*/Description"
+        )
+    }
+    @{
+        Name = "Basic-Versionen #7 Tour Items"
+        Dateien = @(
+            "TourItems.xml"
+        )
+        Pfade = @(
+            "/*/*/Title"
+            "/*/*/Steps/TourStep/StepTitle"
+            "/*/*/Steps/TourStep/MarkupText"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #1 Nur Name"
+        Dateien = @(
+            "Artifacts_Dhayut.xml"
+            "Artifacts_Ikkuro.xml"
+            "ComponentDefinitions_Dhayut.xml"
+            "ComponentDefinitions_Ikkuro.xml"
+            "PlanetaryFacilityDefinitions_Dhayut.xml"
+            "PlanetaryFacilityDefinitions_Ikkuro.xml"
+            "ResearchProjectDefinitions_Dhayut.xml"
+            "ResearchProjectDefinitions_Ikkuro.xml"
+            "ShipHulls_Dhayut.xml"
+            "ShipHulls_Ikkuro.xml"
+            "TroopDefinitions_Dhayut.xml"
+            "TroopDefinitions_Ikkuro.xml"
+        )
+        Pfade = @(
+            "/*/*/Name"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #2 Name + Description"
+        Dateien = @(
+            "ColonyEventDefinitions_Dhayut.xml"
+            "ColonyEventDefinitions_Ikkuro.xml"
+        )
+        Pfade = @(
+            "/*/*/Name"
+            "/*/*/Description"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #3 Game Events"
+        Dateien = @(
+            "GameEvents_Dhayut.xml"
+            "GameEvents_Ikkuro.xml"
+        )
+        Pfade = @(
+            "/*/*/PlacementActions/GameEventAction/MessageTitle"
+            "/*/*/PlacementActions/GameEventAction/Description"
+            "/*/*/PlacementActions/GameEventAction/ChoiceButtonText"
+            "/*/*/TriggerActions/GameEventAction/MessageTitle"
+            "/*/*/TriggerActions/GameEventAction/Description"
+            "/*/*/TriggerActions/GameEventAction/ChoiceButtonText"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #4 Game Events (Governments)"
+        Dateien = @(
+            "GameEvents_HarmoniousUtopia_Governments.xml"
+            "GameEvents_SurveillanceOligarchy_Governments.xml"
+        )
+        Pfade = @(
+            "/*/*/TriggerActions/GameEventAction/MessageTitle"
+            "/*/*/TriggerActions/GameEventAction/Description"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #5 Governments"
+        Dateien = @(
+            "Governments_Dhayut.xml"
+            "Governments_Ikkuro.xml"
+        )
+        Pfade = @(
+            "/*/*/Name"
+            "/*/*/Description"
+            "/*/*/LeaderTitle"
+            "/*/*/CabinetTitle"
+            "/*/*/EmpireNameAdjectives/string"
+            "/*/*/EmpireNameNouns/string"
+        )
+    }
+    @{
+        Name = "DLC-Versionen #6 Races"
+        Dateien = @(
+            "Races_Dhayut.xml"
+            "Races_Ikkuro.xml"
+        )
+        Pfade = @(
+            "/*/*/Description"
+            "/*/*/FeatureExplanations/string"
         )
     }
 )

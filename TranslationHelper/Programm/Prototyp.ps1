@@ -17,6 +17,8 @@
 # - - https://ohmyposh.dev/docs/installation/windows
 # - - https://github.com/dahlbyk/posh-git
 # - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/set-strictmode?view=powershell-7.3
+# - Marker config (value, active (set), autotranslate, which one to set)
+# - Separate rule config files (for normla game and dlc needed)
 
 # References:
 # - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document
@@ -54,6 +56,11 @@ $LoadFn = {
     # - https://stackoverflow.com/questions/203528/what-is-the-simplest-way-to-get-indented-xml-with-line-breaks-from-xmldocument
     # - https://stackoverflow.com/questions/1555028/how-do-i-edit-xml-in-c-sharp-without-changing-format-spacing
     # - https://stackoverflow.com/questions/32149676/custom-xmlwriter-to-skip-a-certain-element
+
+    if (!([System.IO.File]::Exists($path))) {
+        # Null behaves weird here
+        return $false
+    }
 
     $xml = New-Object System.Xml.XmlDocument
     $xml.PreserveWhitespace = $true
@@ -107,8 +114,8 @@ $ProcessFn = {
         return
     }
     elseif (($elementNew.InnerText -eq $elementDe.InnerText) -and ($elementNew.InnerText -ne [String]::Empty)) {
-        $LogFn.Invoke($Config.MarkerNotYetTranslated, $ruleSetName, $file, $path, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.", ">>>>", "DarkCyan")
-        $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $TranslateFn.Invoke($elementNew."#text") : $elementNew."#text")
+        $LogFn.Invoke($Config.MarkerNoDifference, $ruleSetName, $file, $path, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.", ">>>>", "DarkCyan")
+        $elementNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNoDifference + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $TranslateFn.Invoke($elementNew."#text") : $elementNew."#text")
         return
     }
         
@@ -132,6 +139,10 @@ if ($Config.DebugOnlyRulesets.Count -gt 0) {
     Write-Host ""
 }
 
+Write-Host -ForegroundColor Green "Folgende Dateien werden verarbeitet (siehe Regeln):"
+$RuleSets | select -ExpandProperty Dateien | Out-Host
+Write-Host ""
+
 foreach ($ruleSet in $RuleSets) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
@@ -150,21 +161,19 @@ foreach ($ruleSet in $RuleSets) {
         Write-Host ">> Starte Verarbeitung von Datei: $file"        
 
         $xmlEnNew = $LoadFn.Invoke("$($Config.FolderPathEnNew)\$file")
-        if ($null -eq $xmlEnNew) {
+        if ($false -eq $xmlEnNew) {
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Neu' konnte nicht geladen werden.", ">>>", "Red")
             continue
         }
 
         $xmlEnOld = $LoadFn.Invoke("$($Config.FolderPathEnOld)\$file")
-        if ($null -eq $xmlEnOld) {
-            Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathEnOld)\$file nicht gefunden."
+        if ($false -eq $xmlEnOld) {
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.", ">>>", "Red")
             continue
         }
 
         $xmlDe = $LoadFn.Invoke("$($Config.FolderPathDe)\$file")
-        if ($null -eq $xmlDe) {
-            Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathDe)\$file nicht gefunden."
+        if ($false -eq $xmlDe) {
             $LogFn.Invoke($Config.MarkerInvalid, $ruleSetName, $file, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.", ">>>", "Red")
             continue
         }

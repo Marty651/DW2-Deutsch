@@ -17,6 +17,7 @@
     MarkerInvalid = "UNGÜLTIG"
     MarkerNew = "NEU"
     MarkerNotYetTranslated = "NOCH_NICHT_ÜBERSETZT"
+    MarkerNoDifference = "DEUTSCH_UND_ENGLISCH_GLEICH"
     MarkerOutdated = "VERALTET"
 
     FilePathRuleSets = "$PSScriptRoot\Regeln.ps1"

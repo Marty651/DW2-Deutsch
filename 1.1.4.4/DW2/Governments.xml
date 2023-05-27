@@ -4,14 +4,14 @@
     <GovernmentId>0</GovernmentId>
     <Name>Republik</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Republic)</string>
+		<string>Regierungsform initialisieren (Republik)</string>
 	</StartingGameEventNames>
-    <Description>Republiken sind Regierungen, die von einem Staatsoberhaupt geführt werden, das normalerweise gewählt wird. Das Staatsoberhaupt, oft als Präsident bezeichnet, dient für eine bestimmte Amtszeit, nach der ein neuer Präsident gewählt wird. Während der Präsident gewählt wird, kann dies auch indirekt geschehen, indem eine Art Rat vom Volk gewählt wird und dieser Rat dann den Präsidenten wählt. In vielerlei Hinsicht sind Republiken den Demokratien ähnlich und haben in der Regel vergleichbare Ideale.
+    <Description>Republiken sind Regierungen, die von einem Staatsoberhaupt geführt werden, das normalerweise gewählt wird. Das Staatsoberhaupt, oft als Präsident bezeichnet, dient für eine bestimmte Amtszeit, nach der ein neuer Präsident gewählt wird. Obwohl der Präsident gewählt wird, kann dies auch indirekt geschehen, indem eine Art Rat vom Volk gewählt wird und dieser Rat dann den Präsidenten wählt. In vielerlei Hinsicht sind Republiken den Demokratien ähnlich und haben in der Regel vergleichbare Ideale.
 
-Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürgerrechte. Republiken teilen die Regierungsgewalt immer sorgfältig zwischen Exekutive, Legislative und Judikative auf. Der Präsident kontrolliert den Bereich der Exekutive, während andere gewählte Vertreter den Bereich der Legislative kontrollieren. Die Gerichte kontrollieren den Bereich der Judikative.</Description>
+Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürgerrechte. Republiken teilen die Regierungsgewalt immer sorgfältig zwischen Exekutive, Legislative und Judikative auf. Der Präsident kontrolliert hierbei den Bereich der Exekutive, während andere gewählte Vertreter den Bereich der Legislative kontrollieren - und die Gerichte kontrollieren den Bereich der Judikative.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>President</LeaderTitle>
-    <CabinetTitle></CabinetTitle>
+    <LeaderTitle>Präsident</LeaderTitle>
+    <CabinetTitle>Kabinett</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float> <!-- Undefined, i.e. Unused -->
@@ -187,11 +187,11 @@ Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürger
     <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
     <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
     <EmpireNameAdjectives>
-      <string>Free</string>
-      <string>United</string>
-      <string>Combined</string>
-      <string>Imperial</string>
-      <string>Great</string>
+      <string>freie</string>
+      <string>vereinte</string>
+      <string>kombinierte</string>
+      <string>kaiserliche</string>
+      <string>große</string>
     </EmpireNameAdjectives>
     <EmpireNameNouns>
       <string>Reich</string>
@@ -207,17 +207,17 @@ Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürger
 
   <Government>
     <GovernmentId>1</GovernmentId>
-    <Name>Handelsgilde</Name>
+    <Name>Handels- und Wirtschaftsherrschaft</Name>
 
 	<StartingGameEventNames>
-		<string>Initialise Government (Mercantile Guild)</string>
+		<string>Regierungsform initialisieren (Handels- und Wirtschaftsherrschaft)</string>
 	</StartingGameEventNames>
-    <Description>Die Regierungen der Handelsgilde sind sehr stark auf Handel, Gewerbe und Industrie fokussiert. Die herrschende Struktur ist oft locker und informell - eine Sammlung von führenden Mitgliedern der Geschäftswelt trifft wichtige Entscheidungen, die alle Bürger betreffen.
+    <Description>Die Regierungen der Handels- und Wirtschaftsherrschaft sind sehr stark auf Handel, Gewerbe und Industrie fokussiert. Die herrschende Struktur ist oft locker und informell - eine Sammlung von führenden Mitgliedern der Geschäftswelt trifft wichtige Entscheidungen, die alle Bürger betreffen.
 
-Die Handelsgilde gewährt ihren Bürgern im Allgemeinen ein hohes Maß an Freiheit und Autonomie. Grundlegende Rechte und Freiheiten werden durch eine einfache Reihe von Gesetzen garantiert, die auf viele Situationen angewendet werden können. Unternehmerische Aktivitäten sind sehr verbreitet und schaffen ein dynamisches Geschäftsumfeld, in dem schnell ein hohes Maß an Wohlstand generiert wird.</Description>
+Die Handels- und Wirtschaftsherrschaft gewährt ihren Bürgern im Allgemeinen ein hohes Maß an Freiheit und Autonomie. Grundlegende Rechte und Freiheiten werden durch eine einfache Reihe von Gesetzen garantiert, die auf viele Situationen angewendet werden können. Unternehmerische Aktivitäten sind sehr verbreitet und schaffen ein dynamisches Geschäftsumfeld, in dem schnell ein hohes Maß an Wohlstand generiert wird.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Grand Merchant</LeaderTitle>
-    <CabinetTitle></CabinetTitle>
+    <LeaderTitle>Erster Vorstands-Vorsitzender</LeaderTitle>
+    <CabinetTitle>Vorstand</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float> <!-- Undefined, i.e. Unused -->
@@ -446,14 +446,14 @@ Die Handelsgilde gewährt ihren Bürgern im Allgemeinen ein hohes Maß an Freihe
     <GovernmentId>2</GovernmentId>
     <Name>Demokratie</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Democracy)</string>
+		<string>Regierungsform initialisieren (Demokratie)</string>
 	</StartingGameEventNames>
     <Description>Demokratische Regierungen beziehen ihre Macht von den Menschen, die unter ihnen leben. In umkämpften Wahlen werden Vertreter gewählt, die für einen bestimmten Zeitraum regieren.
 
-Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten und Bürgerrechte, darunter: politische Meinungsfreiheit, Redefreiheit und Pressefreiheit. Demokratische Regierungen halten typischerweise auch andere wichtige Prinzipien aufrecht, wie: Gleichheit vor dem Gesetz, ordnungsgemäße Verfahren und bürgerliche Freiheiten.</Description>
+Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten und Rechte; darunter: politische Meinungsfreiheit, Redefreiheit und Pressefreiheit. Demokratische Regierungen halten typischerweise auch andere wichtige Prinzipien aufrecht, wie: Gleichheit vor dem Gesetz, ordnungsgemäße Verfahren und bürgerliche Freiheiten.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Prime Minister</LeaderTitle>
-    <CabinetTitle>Cabinet</CabinetTitle>
+    <LeaderTitle>Kanzler</LeaderTitle>
+    <CabinetTitle>Regierungs-Kabinett</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -696,18 +696,18 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
 
   <Government>
     <GovernmentId>3</GovernmentId>
-    <Name>Feudalismus</Name>
+    <Name>Feudalherrschaft</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Feudalism)</string>
+		<string>Regierungsform initialisieren (Feudalherrschaft)</string>
 	</StartingGameEventNames>
-    <Description>Feudalherrschaften sind Regierungen, die sich auf eine Reihe von gegenseitigen rechtlichen und militärischen Verpflichtungen zwischen dem Krieger-Adel stützen. In seiner grundlegendsten Essenz ist der Feudalismus die Gewährung von Land und Rechten im Gegenzug für Militärdienst.
+    <Description>Feudalherrschaften sind Regierungen, die sich auf eine Reihe von gegenseitigen rechtlichen und militärischen Verpflichtungen innerhalb des herrschenden Adels stützen. In seiner grundlegendsten Essenz ist die Feudalherrschaft die Gewährung von Land und Rechten im Gegenzug für Militärdienst - auch bekannt als Feudalismus.
 
-Unter feudalistischen Regierungen bildet eine adlige Klasse effektiv einen herrschenden Rat. Sie gewähren dem einfachen Volk Rechte und Freiheiten im Austausch für dessen militärische Unterstützung.
+In einem feudalherrschaftlichen Systemen bildet eine adlige Klasse einen effektiv regierenden Rat. Dieser gewährt dem einfachen Volk Rechte und Freiheiten im Austausch für deren militärische Dienste.
 
-Feudalistische Gesellschaften legen großen Wert auf Hierarchie und Rang. Ihre sozialen Strukturen sind typischerweise sehr statisch. Jeder hat seinen vordefinierten Platz in der Gesellschaft - er unterwirft sich seinem lokalen Herrscher.</Description>
+Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und Rang. Ihre sozialen Strukturen sind typischerweise sehr statisch. Jeder hat seinen vordefinierten Platz in der Gesellschaft - und muss sich seinem lokalen Herrn unterwerfen.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>First Lord</LeaderTitle>
-    <CabinetTitle>Noble Council</CabinetTitle>
+    <LeaderTitle>Erster Lord</LeaderTitle>
+    <CabinetTitle>Adels-Rat</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -982,14 +982,15 @@ Feudalistische Gesellschaften legen großen Wert auf Hierarchie und Rang. Ihre s
     <GovernmentId>4</GovernmentId>
     <Name>Monarchie</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Monarchy)</string>
+		<string>Regierungsform initialisieren (>Monarchie)</string>
 	</StartingGameEventNames>
-    <Description>In Monarchien liegt die höchste Macht bei einer Person (dem Monarchen), die das Staatsoberhaupt ist, oft auf Lebenszeit oder bis zur Abdankung. Monarchien sind in der Regel erblich, wobei ein Kind des Monarchen die Macht nach dem Tod des Elternteils erbt.
+    <Description>In Monarchien liegt die höchste Macht bei einer Person, dem Monarchen oder König, der auch das Staatsoberhaupt ist - oft auf Lebenszeit oder bis zur Abdankung.
+Monarchien beinhalten in der Regel eine Erbfolge, durch welche ein Kind des Monarchen die Macht nach dessen Tod erbt.
 
-Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit einem regierenden Rat aus Adligen oder gewählten Volksvertretern teilen.</Description>
+Könige können mit absoluter Macht regieren, oder sie können die Macht mit einem regierenden Rat aus Adligen oder gewählten Volksvertretern teilen.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Emperor</LeaderTitle>
-    <CabinetTitle></CabinetTitle>
+    <LeaderTitle>König</LeaderTitle>
+    <CabinetTitle>Königlicher Rat</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1227,14 +1228,14 @@ Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit e
     <GovernmentId>5</GovernmentId>
     <Name>Militärdiktatur</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Military Dictatorship)</string>
+		<string>Regierungsform initialisieren (Militärdiktatur)</string>
 	</StartingGameEventNames>
     <Description>Die Militärdiktatur ist eine autokratische Form der absoluten Herrschaft, die nicht durch Gesetze, Verfassungen oder andere soziale und politische Faktoren eingeschränkt ist.
 
-Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Verhaltens ihrer Untertanen. Ihre politische, soziale und zivile Struktur ist auf militärische Belange und Kriegsführung ausgerichtet. Diese Arten von Regierungen sind typischerweise mit Eroberung und Expansion beschäftigt.</Description>
+Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Verhaltens ihrer Untertanen. Ihre politische, soziale und zivile Struktur ist auf militärische Belange und Kriegsführung ausgerichtet. Diese Arten von Regierungssystemen sind typischerweise auf Eroberung und Expansion fixiert.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Warlord</LeaderTitle>
-    <CabinetTitle>War Council</CabinetTitle>
+    <LeaderTitle>Oberster General</LeaderTitle>
+    <CabinetTitle>Generalstab</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1516,16 +1517,16 @@ Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Ver
     <GovernmentId>6</GovernmentId>
     <Name>Technokratie</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Technocracy)</string>
+		<string>Regierungsform initialisieren (Technokratie)</string>
 	</StartingGameEventNames>
-    <Description>Technokratische Regierungen setzen Ingenieure, Wissenschaftler und technische Experten an die Spitze. Die Entscheidungsträger werden auf der Grundlage ihrer Kenntnisse und Fähigkeiten ausgewählt.
+    <Description>Technokratische Regierungen setzen Ingenieure, Wissenschaftler und technische Experten an die Spitze des Staates. Entscheidungsträger werden danach ausgewählt, wie sachkundig und fähig sie sind.
 
-Technokratien sind in der Regel sehr effizient und frei von Korruption. Sie üben jedoch oft eine strenge Kontrolle über das Verhalten ihrer Bürger aus. Dieser Verlust an persönlicher Freiheit kann manchmal zu Unruhen führen.
+Technokratien sind in der Regel sehr effizient und frei von Korruption. Allerdings üben sie oft eine strenge Kontrolle über die Handlungen des restlichen Volkes aus. Dieser Verlust an persönlicher Freiheit kann manchmal zu Unruhen führen.
 
-Die Regierungsform der Technokratie ist nur für die Rassen Ackdarianer und Zenox verfügbar.</Description>
+Die Regierungsform der Technokratie ist nur für die Ackdarian und Zenox verfügbar.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Administrator</LeaderTitle>
-    <CabinetTitle>Panel of Experts</CabinetTitle>
+    <LeaderTitle>Oberster Wissenschaftsleiter</LeaderTitle>
+    <CabinetTitle>Wissenschafts-Rat</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1728,16 +1729,16 @@ Die Regierungsform der Technokratie ist nur für die Rassen Ackdarianer und Zeno
     <GovernmentId>7</GovernmentId>
     <Name>Schwarmintelligenz</Name>
 	<StartingGameEventNames>
-		<string>Initialise Government (Hive Mind)</string>
+		<string>Regierungsform initialisieren (Schwarmintelligenz)</string>
 	</StartingGameEventNames>
-    <Description>Regierungen mit Schwarmintelligenz können von außerirdischen Rassen gebildet werden, die eine natürliche telepathische Fähigkeit besitzen. Der oberste Wert ist die Loyalität gegenüber der Gemeinschaft als Ganzes - individueller Ausdruck und Freiheit werden für dieses größere Gemeinwohl unterdrückt.
+    <Description>Schwarmintelligenz-Regierungsformen können von außerirdischen Rassen geführt werden, die eine natürliche telepathische Fähigkeit besitzen. Der oberste Wert ist hierbei die Loyalität gegenüber der Gemeinschaft als Ganzes - individueller Ausdruck und Freiheit werden für das größere Gemeinwohl unterdrückt bzw. aufgegeben.
 
-In Schwarmintelligenz Regierungen ist die Arbeit unter verschiedenen sozialen Kasten aufgeteilt. Einige Kasten sind für die Nahrungsproduktion zuständig, andere für die Verteidigung, wieder andere kümmern sich um die Verwaltung. In einigen außerirdischen Gesellschaften ist sogar die Fortpflanzung auf eine kleine Kaste spezialisiert, wobei eine oder mehrere Königinnen jede neue Generation hervorbringen.
+In Schwarmintelligenz-Gesellschaften ist die Arbeit unter verschiedenen fest vorgegebenen bzw. zugewiesenen sozialen Gruppen aufgeteilt. Einige dieser Gruppen sind für die Nahrungsproduktion zuständig, andere für die Verteidigung, wieder andere kümmern sich um die Verwaltung. Bei einigen außerirdischen Völkern mit dieser Regierungsform ist sogar die Fortpflanzung auf eine kleine vorbestimmte Gruppe konzentriert, wobei in der Folge eine oder mehrere Königinnen jede neue Generation hervorbringen.
 
-Der Regierungstyp Schwarmintelligenz ist nur für die Rasse der Boskara verfügbar.</Description>
+Die Regierungsform Schwarmintelligenz ist nur für die Boskara verfügbar.</Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Great Overseer</LeaderTitle>
-    <CabinetTitle></CabinetTitle>
+    <LeaderTitle>Haupt-Aufseher</LeaderTitle>
+    <CabinetTitle>Dronen-Aufseher</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1999,8 +2000,8 @@ Der Regierungstyp Schwarmintelligenz ist nur für die Rasse der Boskara verfügb
     <Name>Weg der Dunkelheit</Name>
     <Description></Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Dark Lord</LeaderTitle>
-    <CabinetTitle></CabinetTitle>
+    <LeaderTitle>Dunkler Lord</LeaderTitle>
+    <CabinetTitle>Schatten-Rat</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -2245,8 +2246,8 @@ Der Regierungstyp Schwarmintelligenz ist nur für die Rasse der Boskara verfügb
     <Name>Weg der Ahnen</Name>
     <Description></Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Supreme Leader</LeaderTitle>
-    <CabinetTitle>Cabinet</CabinetTitle>
+    <LeaderTitle>Ältester</LeaderTitle>
+    <CabinetTitle>Rat der Ahnen</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -2471,8 +2472,8 @@ Der Regierungstyp Schwarmintelligenz ist nur für die Rasse der Boskara verfügb
     <Name>Pfad der Vorfahren</Name>
     <Description></Description>
     <ImageFilename></ImageFilename>
-    <LeaderTitle>Supreme Leader</LeaderTitle>
-    <CabinetTitle>Cabinet</CabinetTitle>
+    <LeaderTitle>Höchster Führer</LeaderTitle>
+    <CabinetTitle>Führer-Rat</CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>

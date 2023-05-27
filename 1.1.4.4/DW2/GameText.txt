@@ -1,9 +1,9 @@
 SYSTEM Asteroid Field		;{0} Asteroidenfeld
 Cloned		;Geklont
 Independent		;Unabhängig
-Standard Infantry		;Standard Infanterie
-Standard Militia		;Standard Miliz
-Standard Raider		;Standard Plünderer
+Standard Infantry		;Standard-Infanterie
+Standard Militia		;Standard-Miliz
+Standard Raider		;Standard-Plünderer
 Raider		;Plünderer
 Hive Raider		;Schwarm Plünderer
 
@@ -22,7 +22,7 @@ Medium Freighter		;Mittlerer Frachter
 Large Freighter		;Großer Frachter
 Mining Ship		;Bergbauschiff
 Fuel Tanker		;Treibstoff Tanker
-Construction Ship		;Bauschiff
+Construction Ship		;Konstruktions-Schiff
 Exploration Ship		;Erkundungsschiff
 Passenger Ship		;Passagierschiff
 Colony Ship		;Kolonieschiff
@@ -97,7 +97,7 @@ ShipMission Description Transport Migrants		;Transportiere Migranten von {0} nac
 ShipMission Description Transport Tourists		;Transportiere Touristen von {0} nach {1}
 ShipMission Description UnloadTroops		;Entlade Truppen bei {0}
 ShipMission Description UnloadPassengers		;Passagiere entladen bei {0}
-ShipMission Description ExitYard		;Bauwerft verlassen
+ShipMission Description ExitYard		;Schiffsbau-Werft verlassen
 
 SYSTEMNAME system		;{0} System
 Quality		;Qualität
@@ -266,9 +266,9 @@ GameTaskType BuildShips Single Short		;Baue {0} für {1} Credits
 GameTaskType BuildShips Single Short ROLE		;Baue {0} ({2}) für {1} Credits
 GameTaskType BuildShips Anywhere		;Baue Schiffe für {0} Credits
 GameTaskType BuildShips Anywhere List		;Baue Schiffe für {0} Credits:\n{1}
-GameTaskType BuildShips Single Multiple Designs		;{0} aus ausgewähltem Design bauen
+GameTaskType BuildShips Single Multiple Designs		;{0} aus ausgewählter Design-Vorlage bauen
 
-GameTaskType BuildShips Multiple Designs		;Mehrere {0} Designs verfügbar - zum Auswählen anklicken
+GameTaskType BuildShips Multiple Designs		;Mehrere {0} Design-Vorlagen verfügbar - zum Auswählen anklicken
 GameTaskType TransferTroopToShip Multiple		;Transferiere {0} zu nahegelegenem Transporter - zum Auswählen anklicken
 
 X x ROLE (DESIGN)		;{0} x {1} ({2})
@@ -288,7 +288,7 @@ GameTaskType ScrapShips		;Schiffe abwracken
 GameTaskType FighterBuildFighter		;Baue {0} ({1})
 GameTaskType FighterLaunchFighters		;Starte alle {0} von {1}
 GameTaskType FighterRetrieveFighters		;Hole alle {0}s zurück zu {1}
-GameTaskType FighterUpgradeAll		;Alle Jäger auf das neueste Designs aufrüsten ({0})
+GameTaskType FighterUpgradeAll		;Alle Jäger auf das neueste Design aufrüsten ({0})
 GameTaskType GenerateCharacter		;
 GameTaskType GiveShip		;Schenke {0} an {1}
 GameTaskType CancelShipConstruction		;Bau von {0} bei {1} abbrechen
@@ -321,7 +321,7 @@ GameTaskType RetrofitShip		;Zum neusten Design ({0} ({1})) umbauen, für {2} cre
 GameTaskType RetrofitShip Short		;Umbau auf {0} ({1}) für {2} Credits
 GameTaskType RetrofitShip Location		;Zum neusten Design ({0} ({1})) umrüsten, bei {2} für {3} credits
 GameTaskType RetrofitShip Multiple Designs		;Umbau auf das gewählte Design
-GameTaskType RetrofitMultipleShips		;Schiffe umbauen zu neusten Designs
+GameTaskType RetrofitMultipleShips		;Schiffe umbauen zu neuesten Designs
 GameTaskType RetrofitMultipleShips Location		;Schiffe umbauen zu neusten Designs bei {0}
 GameTaskType RetrofitFleet		;Flotte umbauen zu neusten Designs
 GameTaskType RetrofitFleet Location		;Flotte umbauen zu neusten Designs bei {0}
@@ -341,7 +341,7 @@ GameTaskType SetFleetAllowShipRoleReassignment			;Schiffsposition in der Flotte 
 GameTaskType SetFleetOverrideShipTacticsWithFleet		;Taktiken - Flotte oder Schiff benutzen: {0}
 GameTaskType SetFleetAllowShipRoleUpgrade			;Schiffsrolle Up/Downgrade: {0}
 GameTaskType SetFleetAllowTrimmingExcessShips			;Kürze Überschüssige Schiffe: {0}
-GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Upgrade Obsolete Spezifische Designs: {0}
+GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Flotte Auto-Upgrades für spezifische Designs erlauben: {0}
 GameTaskType SetCapital		;{0} als neues Reichshauptstadt festlegen
 GameTaskType SetColonyPopulationPolicy		;
 GameTaskType SetDiplomaticStrategy		;
@@ -442,9 +442,9 @@ GameTaskType Short RecruitTroops		;Rekrutiere Truppen
 GameTaskType Short RefuelAndRepair		;Betanken und reparieren
 GameTaskType Short RefuelAndRepair Location		;Betanken und reparieren
 GameTaskType Short RemoveCharacter		;Charakter entfernen
-GameTaskType Short RemoveDesign		;Design löschen
-GameTaskType Short RetrofitShip No Design		;Umbau
-GameTaskType Short RetrofitShip		;Umbau
+GameTaskType Short RemoveDesign		;Design-Vorlage löschen
+GameTaskType Short RetrofitShip No Design		;Kein Umrüsten
+GameTaskType Short RetrofitShip		;Umrüsten
 GameTaskType Short RetrofitShip Location		;Umbau
 GameTaskType Short RetrofitMultipleShips		;Schiffe umbauen
 GameTaskType Short RetrofitMultipleShips Location		;Schiffe umbauen
@@ -514,10 +514,10 @@ GameTaskType Short UI_CycleSelectionNext		;Nächste Geschichte auswählen
 GameTaskType Short UI_CycleSelectionPrevious		;Vorherige Geschichte auswählen
 GameTaskType Short UI_CycleColonies		;Zur nächsten Kolonie
 GameTaskType Short UI_CycleColoniesBack		;Zur vorherigen Kolonie
-GameTaskType Short UI_CycleConstructionYards		;Zu nächster Bauwerft wechseln
-GameTaskType Short UI_CycleConstructionYardsBack		;Zu vorheriger Bauwerft wechseln
-GameTaskType Short UI_CycleConstructionShips		;Nächstes Bauschiff wählen
-GameTaskType Short UI_CycleConstructionShipsBack		;Vorheriges Bauschiff wählen
+GameTaskType Short UI_CycleConstructionYards		;Zu nächster Schiffsbau-Werft wechseln
+GameTaskType Short UI_CycleConstructionYardsBack		;Zu vorheriger Schiffsbau-Werft wechseln
+GameTaskType Short UI_CycleConstructionShips		;Nächstes Konstruktions-Schiff wählen
+GameTaskType Short UI_CycleConstructionShipsBack		;Vorheriges Konstruktions-Schiff wählen
 GameTaskType Short UI_CycleMilitaryShips		;Nächstes Militärschiff wählen
 GameTaskType Short UI_CycleMilitaryShipsBack		;Vorheriges Militärschiff wählen
 GameTaskType Short UI_CycleExplorationShips		;Nächstes Erkundungsschiff wählen
@@ -658,7 +658,7 @@ Already have a base of this type here		;Du hast bereits eine Basis dieses Typs h
 Location is in another empires territory		;Standort befindet sich im Gebiet eines anderen Reiches
 No scenery bonus here		;Kein Landschaftsbonus hier
 No research bonuses here		;Keine Forschungsboni hier
-Construction Ship already building here		;Bauschiff '{0}' baut hier bereits {1}
+Construction Ship already building here		;Konstruktions-Schiff '{0}' baut hier bereits {1}
 Colony Ship already colonizing here		;Kolonieschiff '{0}' kolonisiert hier bereits
 Already have a facility of this type here		;Hier gibt es bereits eine Einrichtung dieser Art
 Planetary Facility Family Exclusive Explanation		;Sie können nur EINE der folgenden Einrichtungen in einer Kolonie bauen: {0}.\nDer Bau einer dieser Einrichtungen verhindert, dass die anderen gebaut werden
@@ -668,10 +668,10 @@ Cannot build this facility at this planet type		;Diese Einrichtung kann auf dies
 We have the wrong government to build this facility		;Wir haben die falsche Regierung, um diese Einrichtung zu bauen
 Cannot afford the cost to build this facility		;Die Kosten für diese Einrichtung können sich nicht leisten
 Already retrofitting		;Bereits umgebaut
-Already using latest design		;Bereits neuestes Design
-All Ships already using latest design		;Alle Schiffe benutzen bereits neustes Design
-No construction yard available		;Keine Bauwerft verfügbar
-No construction yard available with sufficient resources		;Keine Bauwerft mit ausreichend Rohstoffen vorhanden
+Already using latest design		;Bereits neueste Design-Vorlage verwendet
+All Ships already using latest design		;Alle Schiffe benutzen bereits neustes Design-Vorlage
+No construction yard available		;Keine Schiffsbau-Werft verfügbar
+No construction yard available with sufficient resources		;Keine Schiffsbau-Werft mit ausreichend Rohstoffen vorhanden
 Cannot retrofit until current construction finished		;Kann nicht umbauen, bis die aktuelle Konstruktion abgeschlossen ist
 No ships need retrofitting		;Keine Schiffe benötigen Umbau
 No fleets to join		;Keine Flotten zum beitreten
@@ -732,9 +732,9 @@ ComponentIonDefense		;Ionenabwehr für´s Bauteil
 ComponentTargetingBonus		;Waffen Zielerfassung
 ConstructionBuildSpeed		;Baugeschwindigkeit
 ConstructionRepairSpeed		;Reparatur Geschwindigkeit
-ConstructionYardCount		;Bauwerften
+ConstructionYardCount		;Schiffsbau-Werften
 CountermeasuresBonus		;Gegenmaßnahmen
-CountermeasuresFleetBonus		;Flotten Gegenmaßnahmen
+CountermeasuresFleetBonus		;Flotten-Gegenmaßnahmen
 CrewCapacity		;Crew Kapazität
 CrewRequirement		;Crew Bedarf
 DamageReduction		;Schadensreduzierung
@@ -749,8 +749,8 @@ EngineMainCruiseThrust		;Normalschub
 EngineMainCruiseThrustEnergyUsage		;Normalflug Energiebedarf
 EngineMainMaximumThrust		;Max. Schub
 EngineMainMaximumThrustEnergyUsage		;Max. Energiebedarf
-EngineVectoringEnergyUsage		;Vektor Energiebedarf
-EngineVectoringThrust		;Vektorschub
+EngineVectoringEnergyUsage		;Vektor-Energiebedarf
+EngineVectoringThrust		;Vektor-Schub
 ExtractionRate		;Bergbaurate
 ExtractionRangeAsteroid		;Bergbaureichw. Asteroiden
 RemoteFuelTransferRate		;Sprit Transferrate
@@ -759,9 +759,9 @@ FighterBayBuildRate		;Jäger Baurate
 FighterBayCapacity		;Jäger Kapazität
 FighterBayRepairRate		;Jäger Reparaturrate
 FuelStorageCapacity		;Sprit Kapazität
-HyperDenyEnergyUsage		;Hyperstop Energiebedarf
-HyperDenyRange		;Hyperstop Reichweite
-HyperDenyStrength		;Hyperstop Stärke
+HyperDenyEnergyUsage		;Hyperantriebs-Blockierer Energiebedarf
+HyperDenyRange		;Hyperantriebs-Blockierer Reichweite
+HyperDenyStrength		;Hyperantriebs-Blockierer Stärke
 HyperDriveBlockingInsulation		;Hypersprung-Blockschutz
 HyperDriveEnergyUsage		;Hyperantrieb Energiebedarf
 HyperDriveJumpInitiationTime		;Sprung Initiationszeit
@@ -769,8 +769,8 @@ HyperDriveJumpRange		;Sprungreichweite
 HyperDriveJumpAccuracy		;Sprunggenauigkeit
 HyperDriveRechargeTime		;Hyperantrieb Aufladezeit
 HyperDriveSpeed		;Hyperantriebstempo
-HyperStopRange		;HyperStop Bereich
-HyperStopStrength		;HyperStop Stärke
+HyperStopRange		;Hyperantriebs-Blockierer Bereich
+HyperStopStrength		;Hyperantriebs-Blockierer Stärke
 IonDamageDefense		;Ionenschaden Abwehr
 MedicalRating		;Medizinischer Wert
 PassengerCapacity		;Passagierkapazität
@@ -793,8 +793,8 @@ ScannerJumpTrackingChance		;Sprungverfolgung
 ScannerLongRange		;Scan Reichweite
 ScannerLongRangePower		;Scan Stärke
 ScannerRoleMaskingPower		;Rollen Verschleierungskraft
-ScannerTracePower		;Analysescanner Stärke
-ScannerTraceRange		;Analysescanner Reichweite
+ScannerTracePower		;Inhalts-Scanner Stärke
+ScannerTraceRange		;Inhalts-Scanner Reichweite
 ShieldPenetrationChance		;Schilddurchschlag Chance
 ShieldPenetrationRatio		;Schilddurchschlag Quote
 ShieldRechargeRate		;Schildaufladerate
@@ -905,10 +905,10 @@ BonusType PsyOps		;PsyOps
 BonusType RepairRate		;Reparaturrate
 
 BonusType ResearchAll		;Alle Forschungen
-BonusType ResearchArmor		;Panzerungsforschung
+BonusType ResearchArmor		;Panzerungs-Forschung
 BonusType ResearchTroops		;Truppenforschung
 BonusType ResearchConstruction		;Bauforschung
-BonusType ResearchEngines		;Antriebsforschung
+BonusType ResearchEngines		;Triebwerksforschung
 BonusType ResearchHyperDrive		;Hyperantriebsforschung
 BonusType ResearchReactor		;Reaktorforschung
 BonusType ResearchSensors		;Sensorforschung
@@ -982,21 +982,21 @@ BonusType PlagueCuring		;Seuchenheilung
 BonusType PlagueContainment		;Seucheneindämmung
 
 
-ComponentCategory AreaShieldRecharge		;Flächen-Schildaufladung
+ComponentCategory AreaShieldRecharge		;Umgebungs-Schildregenerierung
 ComponentCategory Armor		;Panzerung
 ComponentCategory AssaultPod		;Enterkapsel
-ComponentCategory CargoBay		;Frachtraum
+ComponentCategory CargoBay		;Fracht-Modul
 ComponentCategory Colonization		;Kolonisierung
-ComponentCategory CommandCenter		;Kommandozentrale
-ComponentCategory CommerceCenter		;Handelszentrum
+ComponentCategory CommandCenter		;Schiffs- u. Stationsbrücke
+ComponentCategory CommerceCenter		;Handelscenter-Modul
 ComponentCategory Construction		;Konstruktion
 ComponentCategory Countermeasures		;Gegenmaßnahmen
-ComponentCategory CountermeasuresFleet		;Flotten Gegenmaßnahmen
+ComponentCategory CountermeasuresFleet		;Flotten-Gegenmaßnahmen
 ComponentCategory CrewQuarters		;Crew Quartiere
 ComponentCategory DamageControl		;Schadenskontrolle
 ComponentCategory DockingBay		;Andockbucht
 ComponentCategory EnergyCollector		;Energiekollektor
-ComponentCategory EnergyToFuel		;Energie zu Sprit
+ComponentCategory EnergyToFuel		;Energie-kraftsoff-Konverter
 ComponentCategory Engine		;Triebwerk
 ComponentCategory EngineVectoring		;Vektortriebwerke
 ComponentCategory Extractor		;Extraktor
@@ -1008,10 +1008,10 @@ ComponentCategory HyperDeny		;Hyper Stop
 ComponentCategory HyperDrive		;Hyperantrieb
 ComponentCategory IonDefense		;Ionenabwehr
 ComponentCategory MedicalCenter		;Medizinstation
-ComponentCategory PassengerCompartment		;Passagierraum
+ComponentCategory PassengerCompartment		;Passagier-Modul
 ComponentCategory Reactor		;Reaktor
-ComponentCategory RecreationCenter		;Erholungszentrum
-ComponentCategory ResearchLab		;Forschungslabor
+ComponentCategory RecreationCenter		;Erholungs-Modul
+ComponentCategory ResearchLab		;Forschungs-Modul
 ComponentCategory ScannerEmpireMasking		;Reichs Verschleierungsstörsender
 ComponentCategory ScannerExploration		;Erkundungsscanner
 ComponentCategory ScannerExplorationSurvey		;Untersuchungsscanner
@@ -1020,14 +1020,14 @@ ComponentCategory ScannerJumpTracking		;Sprungverfolgungsscanner
 ComponentCategory ScannerLongRange		;Langstreckenscanner
 ComponentCategory ScannerShortRange		;Kurzstreckenscanner
 ComponentCategory ScannerRoleMasking		;Rollen Verschleierungsstörsender
-ComponentCategory ScannerTrace		;Analysescanner
+ComponentCategory ScannerTrace		;Inhalts-Scanner
 ComponentCategory Shields		;Schilde
 ComponentCategory ShieldEnhancement		;Schildverbesserung
 ComponentCategory Stealth		;Tarnung
 ComponentCategory TargetingComputer		;Zielerfassungs-Computer
 ComponentCategory TargetingComputerFleet		;Flottenzielerfassungs-Computer
 ComponentCategory TractorBeam		;Traktorstrahl
-ComponentCategory TroopCompartment		;Truppenraum
+ComponentCategory TroopCompartment		;Truppen-Modul
 ComponentCategory WeaponArea		;Flächenwaffe
 ComponentCategory WeaponBombard		;Bombardierungswaffe
 ComponentCategory WeaponCloseIn		;Nahbereichswaffe
@@ -1229,11 +1229,11 @@ Name		;Name
 Category		;Kategorie
 Ascending		;Aufsteigend
 Descending		;Absteigend
-Bay Type		;Schacht Typ
+Bay Type		;Einbaubucht-Typ
 Empty		;Leer
 VersusAbbreviation		;vs
-Bay Type, Name		;Schacht Typ, Name
-Bay Type, Category		;Schacht Typ, Kategorie
+Bay Type, Name		;Einbaubucht-Typ, Name
+Bay Type, Category		;Einbaubucht-Typ, Kategorie
 ;
 Crew		;Crew
 Highest Tech Level		;Höchsten Tech Level
@@ -1314,10 +1314,10 @@ Fuel Range		;Spritreichweite
 Shield Penetration Description		;{0} Chance auf {1} Durchdringung
 Shield Penetration		;Schilddurchschlag
 
-AreaShieldRecharge Range		;Flächen-Schildaufladung Reichweite
+AreaShieldRecharge Range		;Umgebungs-Schildregenerierungs-Reichweite
 AreaShieldRecharge Amount		;Flächen-Schildaufladebetrag
-Armor Rating		;Panzerungs Wert
-Reactive Armor Rating		;Reaktiver Panzerungs Wert
+Armor Rating		;Panzerungs-Wert
+Reactive Armor Rating		;Reaktiver Panzerungs-Wert
 Reactive Armor Description		;{0} (Hülle= {1})
 Distance		;Entfernung
 Static		;Statisch
@@ -1339,10 +1339,10 @@ Crew Strength		;Crew Stärke
 Targeting & Countermeasures		;Zielerfassung & Gegenmaßnahmen
 Industry		;Industrie
 
-Load Designs		;Designs laden
-Load Designs Explanation		;Wähle eine Designdatei zum Laden aus der Liste unten.
-Save Designs		;Designs speichern
-Save Designs Explanation		;Gib einen Dateinamen ein oder wähle einen aus, um die Designs zu speichern.
+Load Designs		;Design-Vorlagen laden
+Load Designs Explanation		;Wähle eine Design-Vorlagen-Datei zum Laden aus der Liste unten.
+Save Designs		;Design-Vorlagen speichern
+Save Designs Explanation		;Gib einen Dateinamen ein oder wähle einen aus, um die Design-Vorlagen zu speichern.
 Load		;Laden
 Save		;Speichern
 Save and Exit		;Speichern und Beenden
@@ -1360,18 +1360,18 @@ Auto Design		;Hülle Upgrade
 Status		;Status
 Edit		;Ändern
 
-All Designs		;Alle Designs
+All Designs		;Alle Design-Vorlagen
 All Types		;Alle Typen
-Latest Designs		;Neueste Designs
-Latest Buildable Designs		;Neueste baubare Designs
-Active Designs		;Aktive Designs
-Inactive Designs		;Inaktive Designs
-Active Buildable Designs		;Aktive baubare Designs
+Latest Designs		;Neueste Design-Vorlagen
+Latest Buildable Designs		;Neueste baubare Design-Vorlagen
+Active Designs		;Aktive Design-Vorlagen
+Inactive Designs		;Inaktive Design-Vorlagen
+Active Buildable Designs		;Aktive baubare Design-Vorlagen
 
-Latest Designs Per Role		;Lezte Designs Pro Rolle
-Latest Buildable Designs Per Role		;Lezte Baubare Designs Pro Rolle
-Latest Designs Per Hull		;Lezte Designs Pro Hülle
-Latest Buildable Designs Per Hull		;Lezte Baubare Designs Pro Hülle
+Latest Designs Per Role		;Lezte Design-Vorlagen Pro Rolle
+Latest Buildable Designs Per Role		;Lezte Baubare Design-Vorlagen Pro Rolle
+Latest Designs Per Hull		;Lezte Design-Vorlagen Pro Hülle
+Latest Buildable Designs Per Hull		;Lezte Baubare Design-Vorlagen Pro Hülle
 
 
 
@@ -1379,12 +1379,12 @@ State Ships		;Staatsschiffe
 State Bases		;Staatliche Basen
 Civilian Ships		;Zivilschiffe
 Civilian Bases		;Zivile Basen
-Designs		;Designs
-Designs Explanation		;Wähle ein Design zur Bearbeitung aus oder füge ein neues Design hinzu.
-Component Bays		;Komponentenschächte
+Designs		;Design-Vorlagen
+Designs Explanation		;Wähle eine Design-Vorlage zur Bearbeitung aus oder füge eine neue Design-Vorlage hinzu.
+Component Bays		;Komponenten-Einbaubuchten
 Select		;Auswählen
 Select Ship Hull		;Schiffshülle wählen
-Select Ship Hull Explanation		;Wähle eine Schiffshülle aus, auf der das neue Design basieren soll. Schiffshüllen definieren Schächte, zu denen man Komponenten wie Triebwerke, Waffen, Schilde usw. hinzufügen kann.
+Select Ship Hull Explanation		;Wähle eine Schiffshülle aus, auf der das neue Design basieren soll. Schiffshüllen definieren Einbaubuchten, zu denen man Komponenten wie Triebwerke, Waffen, Schilde usw. hinzufügen kann.
 Add New		;Neues hinzufügen
 Copy As New		;Als Neu kopieren
 Max Size		;Max Größe
@@ -1776,14 +1776,14 @@ Sort X		;Sortiere: {0}
 Filter X		;Filtere: {0}
 
 Ship Construction		;Schiffsbau
-Construction Yards		;Bauwerften
-New Construction Yard Locations		;Standorte neuer Bauwerften
-Construction Ships		;Bauschiffe
-Build Order		;Bauaufträge
+Construction Yards		;Schiffsbau-Werften
+New Construction Yard Locations		;Standorte neuer Schiffsbau-Werften
+Construction Ships		;Konstruktions-Schiffe
+Build Order		;Werft-Aufträge
 Construction Wait Time		;Bauwartezeit
 BASENAME already built here		;{0} wurde hier bereits gebaut
 SHIPROLE already under construction here		;{0} hier bereits im Bau
-Ship Designs		;Schiff Designs
+Ship Designs		;Schiff-Design-Vorlagen
 Unbuilt		;Nicht gebaut
 Normal		;Normal
 Destroyed		;Zerstört
@@ -1819,8 +1819,8 @@ X Debris Field		;{0} Trümmerfeld
 Secret Construction Project		;Geheimes Bauprojekt
 X Construction Project		;{0} Bauprojekt
 Special Location Discovered		;{0} Entdeckt
-Debris Field Encounter		;Wir haben ein [DISCOVERY]riesiges Feld von Weltraumtrümmern[/DISCOVERY], im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer epischen Schlacht zu handeln.\n\n Unter den Trümmern befinden sich viele mächtige Militärschiffe, die geborgen werden können. Wir sollten sofort Bauschiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifelsohne einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
-Debris Field Encounter Small		;Wir haben ein [DISCOVERY]Feld mit Weltraumtrümmern[/DISCOVERY] im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer Schlacht zu handeln.\n\nUnter den Trümmern befinden sich mächtige Militärschiffe, die noch zu retten sind. Wir sollten sofort Bauschiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifellos einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
+Debris Field Encounter		;Wir haben ein [DISCOVERY]riesiges Feld von Weltraumtrümmern[/DISCOVERY], im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer epischen Schlacht zu handeln.\n\n Unter den Trümmern befinden sich viele mächtige Militärschiffe, die geborgen werden können. Wir sollten sofort Konstruktions-Schiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifelsohne einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
+Debris Field Encounter Small		;Wir haben ein [DISCOVERY]Feld mit Weltraumtrümmern[/DISCOVERY] im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer Schlacht zu handeln.\n\nUnter den Trümmern befinden sich mächtige Militärschiffe, die noch zu retten sind. Wir sollten sofort Konstruktions-Schiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifellos einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
 Secret Construction Project Encounter		;Wir haben ein [DISCOVERY]riesiges unvollendetes Bauprojekt[/DISCOVERY] im [LOCATION]{0}-System[/LOCATION] entdeckt. Im Bau befindet sich eine riesige mobile Militärbasis, die eine Superwaffe beherbergt, die einen ganzen Planeten zerstören kann! Der Stützpunkt, der den Namen {1} trägt, scheint verlassen worden zu sein, als er nur halb fertiggestellt war.\n\nWenn dieser Stützpunkt fertiggestellt ist, würde er es dem Besitzer ermöglichen, die Galaxie zu beherrschen. Darüber hinaus würde die Erforschung der fortschrittlichen Technologie dieses Projekts unserem Reich zweifellos einen bedeutenden Forschungsbonus verschaffen.\n\nWir sollten uns beeilen, den Bau dieser enormen Waffe zu beenden!
 
 Fully Explored Systems		;Voll erkundete Systeme
@@ -1848,7 +1848,7 @@ Total Purchase Costs		;Gesamte Anschaffungskosten
 Total Maintenance Costs		;Gesamte Unterhaltskosten
 Available Money		;Verfügbares Geld
 Available Cashflow		;Verfügbares Saldo
-No construction yards can currently build this design		;Keine Bauwerften können dieses Design derzeit erstellen
+No construction yards can currently build this design		;Keine Schiffsbau-Werften können dieses Design derzeit erstellen
 Purchase Cost		;Kaufpreis
 Suggested Build Amount		;Vorgeschlagener Baubetrag
 X ROLES Queued		;{0} {1} in Warteschleife
@@ -1856,7 +1856,7 @@ Left-click to queue new ROLE		;Linksklick, um {0} in Warteschleife einzureihen
 Right-click to remove ROLE		;Rechtsklick, um {0} zu entfernen
 Cannot Build DESIGN here		;Kann {0} hier nicht bauen
 Cannot afford Purchase Cost		;Kaufpreis nicht leistbar
-Build Order Design Button Explanation		;Klicke, um ein Design für diese Rolle zu wählen
+Build Order Design Button Explanation		;Klicke, um eine Design-Vorlage für diese Rolle zu wählen
 Build Order Role Explanation		;Klicke, um diese Rolle auszuwählen. Sie können dann in der Galaxieansicht auf Systeme klicken, um Schiffe für den Bau in die Warteschleife zu reihen
 Off		;Aus
 On		;Ein
@@ -1919,17 +1919,17 @@ Must have Mining capability		;Muss Bergbaufähigkeit haben
 Must have Remote Fuel Transfer capability		;Muss Ferntanktransfer haben
 Must have Long Range Scanners		;Muss Langstreckenscanner haben
 Should have Long Range Scanners		;Erwägen Sie Langstreckenscanner hinzuzufügen
-Must have Research Labs		;Muss Forschungslabore haben
-Should have Research Labs		;Erwägen Sie das Hinzufügen von Forschungslaboren
+Must have Research Labs		;Muss Forschungs-Module haben
+Should have Research Labs		;Erwägen Sie das Hinzufügen von Forschungs-Modulen
 Must have Recreation capability		;Muss Plätze zur Erholung haben
 Should have Recreation capability		;Sollte über die Fähigkeit zur Freizeitbeschäftigung verfügen
 Should have Medical capability		;Sollte über medizinische Fähigkeiten verfügen
 Must have Passenger capacity		;Muss Passagierkapazität haben
-Should have Commerce Center		;Erwägen Sie das Hinzufügen eines Handelszentrums
+Should have Commerce Center		;Erwägen Sie das Hinzufügen eines Handelscenter-Moduls
 Must have Engines		;Muss Triebwerke haben
 Must have a Hyperdrive		;Muss einen Hyperantrieb haben
 Must have Fighter Bays with build and repair capability		;Muss Jägerbuchten mit Bau- und Reparaturfähigkeit haben
-Must have Construction Yards with build and repair capability		;Muss Bauwerften mit Bau- und Reparaturfähigkeit besitzen
+Must have Construction Yards with build and repair capability		;Muss Schiffsbau-Werften mit Bau- und Reparaturfähigkeit besitzen
 Must have Colonization Module		;Muss Kolonialisierungsmodul haben
 Must have Exploration scanning or survey capability		;Muss über Erkundungs oder Untersuchungs Scanner verfügen
 Must have Troop capacity		;Muss Truppenkapazität haben
@@ -1946,7 +1946,7 @@ Maneuvering turn rate is lower than average for fighters X		;Für Jäger ist die
 Top Speed is lower than average for non-military ships X		;Die Höchstgeschwindigkeit ist niedriger als der Durchschnitt für nicht-militärische Schiffe (der reichsweite Durchschnitt ist {0})
 Top Speed is lower than average for military ships X		;Die Höchstgeschwindigkeit ist niedriger als der Durchschnitt für Militärschiffe (der reichsweite Durchschnitt ist {0})
 Top Speed is lower than average for fighters X		;Für Jäger ist die Höchstgeschwindigkeit niedriger als der Durchschnitt (der reichsweite Durchschnitt ist {0})
-This design has no problems		;Dieses Design hat keine Probleme
+This design has no problems		;Diese Design-Vorlage hat keine Probleme
 X Recommendations		;{0} Empfehlungen
 X Defects		;{0} Defekte
 Defensive bases must have weapons or fighters		;Verteidigungsbasen müssen Waffen oder Jäger haben
@@ -1955,9 +1955,9 @@ Need more crew		;Brauchen mehr Crew
 Reactor power output inadequate to supply static energy requirements		;Reaktorleistung unzureichend zur Deckung des statischen Energiebedarfs
 Design must have a name		;Design muss einen Namen haben
 Your empire already has a design with this name		;Ihr Reich hat bereits ein Design mit diesem Namen
-External component bays should be completely filled before using internal component bays		;Externe Komponentenschächte sollten vollständig gefüllt sein, bevor interne Komponentenschächte verwendet werden
-Consider moving components from internal to external bays		;Erwägen Sie das Verschieben von Komponenten von internen zu externen Schächten
-External Bay		;Externer Schacht
+External component bays should be completely filled before using internal component bays		;Externe Komponenten-Einbaubuchten sollten vollständig gefüllt sein, bevor interne Komponenten-Einbaubuchten verwendet werden
+Consider moving components from internal to external bays		;Erwägen Sie das Verschieben von Komponenten von internen zu externen Einbaubuchten
+External Bay		;Externe Einbaubucht
 Only one Hyperdrive component is required		;Es wird nur eine Hyperantrieb Komponente benötigt
 
 Tactical Settings: ROLE should have retreat set to 'Never'		;Taktische Einstellungen: {0} sollte Rückzug auf 'Nie' setzen
@@ -2011,8 +2011,8 @@ Colonizer		;Kolonist
 Settler		;Siedler
 World Founder		;Weltgründer
 
-Manually create new Design using this Ship Hull		;Neues Design manuell mit dieser Schiffshülle erstellen
-Auto-generate new Design using this Ship Hull		;Neues Design automatisch mit dieser Schiffshülle erstellen
+Manually create new Design using this Ship Hull		;Neue Design-Vorlage manuell mit dieser Schiffshülle erstellen
+Auto-generate new Design using this Ship Hull		;Neue Design-Vorlage automatisch mit dieser Schiffshülle erstellen
 
 Unknown Ship		;Unbekanntes Schiff
 Unknown Empire		;Unbekanntes Reich
@@ -2098,7 +2098,7 @@ Galaxy Expansion Expanding		;Wachsend
 Galaxy Expansion Mature		;Alt
 Galaxy Expansion Old		;Sehr alt
 
-Galaxy Expansion Explanation Random		;Zufällige Startgröße, irgendwo von einer einzelnen Kolonie bis zu einem mächtigen Multisektor-Giganten.
+Galaxy Expansion Explanation Random		;Zufällige Startgröße, irgendwo von einer einzelnen Kolonie bis zu einem mächtigen Multi-Sektor-Giganten.
 Galaxy Expansion Explanation PreWarp		;Reiche beginnen mit einer einzigen kleinen Kolonie und minimaler Technologie. Hyperraumreisen sind noch nicht freigeschaltet.\n\nReiche beginnen mit einer langsamen Expansion über ihr Heimatsternsystem
 Galaxy Expansion Explanation Starting		;Reiche starten mit einer einzigen kleinen Kolonie und ohne Schiffe oder Basen.\n\nBauen Sie einen Raumhafen und beginnen Sie dann, in die umliegenden Sternensysteme zu expandieren
 Galaxy Expansion Explanation Young		;Reiche haben 2-4 Kolonien und haben die nahe gelegenen Systeme erforscht
@@ -2233,7 +2233,7 @@ Assimilation Rate Deferential		;Respektvoll?
 
 Feelings towards other Races		;Haltung gegenüber anderen Rassen
 Governments		;Regierungen
-Default Infantry		;Standard Infanterie
+Default Infantry		;Standard-Infanterie
 Empire Name		;Reichsname
 Empire Name Explanation		;Geben Sie einen Namen für Ihr Reich ein
 Primary Color		;Primärfarbe
@@ -2274,17 +2274,17 @@ Model Issue Military Ship Without Weapons		;Militärschiff Modell {0} hat keine 
 Model Issue Unrecognized Meshes		;Das Modell {0} hat die folgenden nicht erkannten Komponenten (diese könnten falsch benannt sein):
 Model Issue No Image File Set		;Das Modell {0} hat einen leeren Bilddateipfad
 Model Issue Missing Image File		;Das Modell {0} kann die angegebene Bilddatei {1} nicht finden
-Model Issue Engines Not Facing Backwards		;Einige Triebwerke sind nicht nach hinten gerichtet - die Richtung der Triebwerke sollte in der hinteren Hemisphäre des Modells liegen, d.h. sie sollten innerhalb von 90 Grad des Rückwärtsvektors liegen (d.h. XYZ = 0,0,1). Prüfen Sie die folgenden Triebwerke: {0}
+Model Issue Engines Not Facing Backwards		;Einige Triebwerke sind nicht nach hinten gerichtet - die Richtung der Triebwerke sollte in der hinteren Hemisphäre des Modells liegen, d.h. sie sollten innerhalb von 90 Grad des Rückwärts-Vektors liegen (d.h. XYZ = 0,0,1). Prüfen Sie die folgenden Triebwerke: {0}
 Model Issue Hangars Facing Same Direction		;Alle Hangarsysteme sind in die gleiche Richtung ausgerichtet - prüfen Sie, ob dies beabsichtigt ist
 Model Issue Weapons Facing Same Direction		;Alle Waffensysteme zeigen in die gleiche Richtung - prüfen Sie, ob dies beabsichtigt ist
-Model Issue Weapon Meshes In Same Bay Facing Different Directions		;Einige Waffensysteme im gleichen Komponentenschacht sind in UNTERSCHIEDLICHE Richtungen ausgerichtet. Alle Waffensysteme im selben Schacht sollten in die GLEICHE Richtung zeigen (z. B. VerticalLauncher, BarrelledTurrets, ShortTurrets, Standard- und große Größen). Überprüfen Sie die folgenden Waffennetze: {0}
+Model Issue Weapon Meshes In Same Bay Facing Different Directions		;Einige Waffensysteme in der gleichen Komponenten-Einbaubucht sind in UNTERSCHIEDLICHE Richtungen ausgerichtet. Alle Waffensysteme iin der selben Einbaubucht sollten in die GLEICHE Richtung zeigen (z. B. VerticalLauncher, BarrelledTurrets, ShortTurrets, Standard- und große Größen). Überprüfen Sie die folgenden Waffennetze: {0}
 Model Issue ShipHull Missing Meshes		;Einige Systeme, die in der Schiffshülle erwartet werden, fehlen im Modell: {0}
 Model Issues for model XXX		;Probleme gefunden mit Modell {0} verbunden mit Schiffshülle {1} bei {2}
 Model Issues Explanation		;Die folgenden Probleme wurden bei der Untersuchung des Modells gefunden. Beachten Sie, dass dies NICHT eine umfassende Liste aller möglichen Probleme ist. Stattdessen sind diese Probleme einfach die offensichtlichsten Probleme mit dem Modell.
 
-No Buildable Designs		;Keine baubaren Designs
-No Buildable Designs for ROLE		;Keine baubaren Designs für {0}
-No Buildable Designs Explanation		;Du musst zuerst eine Schiffshülle für diese Rolle erforschen und dann ein Design erstellen, das die Schiffshülle nutzt
+No Buildable Designs		;Keine für Bau verfügbaren Design-Vorlagen
+No Buildable Designs for ROLE		;Keine für Bau verfügbaren Design-Vorlagen für {0}
+No Buildable Designs Explanation		;Du musst zuerst eine Schiffshülle für diese Rolle erforschen und dann eine Design-Vorlage erstellen, das die Schiffshülle nutzt
 
 Cannot cancel crash programs		;Blitzforschungen können nicht abgebrochen werden
 Under Attack		;Unter Beschuss
@@ -2519,7 +2519,7 @@ Defensive Base Priority		;Verteidigungsbasis Priorität
 Monitoring Station Priority		;Überwachungsstation Priorität
 Military Ship Priority		;Militärschiff Priorität
 Exploration Ship Priority		;Erkundungsschiff Priorität
-Construction Ship Priority		;Bauschiff Priorität
+Construction Ship Priority		;Konstruktions-Schiff Priorität
 Build Ratio ROLE		;{0} Bauverhältnis
 Buy Ships instead of Build		;Schiffe kaufen statt bauen
 Repair Independent Ships		;Repariere unabhängige Schiffe
@@ -2551,9 +2551,9 @@ Abandoned Ship Colony		;Im Inneren des Kolonieschiffes befinden sich Millionen v
 
 Abandoned Ship Damaged Title		;Verlassenes Schiff gefunden
 Abandoned Base Damaged Title		;Verlassene Basis gefunden
-Abandoned Ship Damaged		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist leicht beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Bauschiff schicken, um es zu reparieren.
-Abandoned Ship Damaged Medium		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Bauschiff schicken, um es zu reparieren.
-Abandoned Ship Damaged Heavy		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist schwer beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Bauschiff schicken, um es zu reparieren.
+Abandoned Ship Damaged		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist leicht beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Konstruktions-Schiff schicken, um es zu reparieren.
+Abandoned Ship Damaged Medium		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Konstruktions-Schiff schicken, um es zu reparieren.
+Abandoned Ship Damaged Heavy		;Wir haben ein [DISCOVERY]verlassenes Schiff: {0}[/DISCOVERY] ({1}) bei {2} untersucht.\n\nDas Schiff: {0} ist schwer beschädigt und derzeit nicht funktionsfähig. Wir könnten es jedoch übernehmen, indem wir ein Konstruktions-Schiff schicken, um es zu reparieren.
 
 These ruins provide the following empire-wide bonuses		;Diese Ruinen bieten die folgenden reichsweiten Boni
 These ruins provide the following colony bonuses		;Diese Ruinen bieten folgende Kolonie Boni
@@ -2563,7 +2563,7 @@ We can acquire research bonuses by building a research station here		;Wir könne
 We can acquire scenery bonuses by building a resort base here		;Wir können Landschaftsboni erwerben, indem wir hier eine Erholungsbasis bauen
 Bonuses when Colonized		;Boni, wenn kolonisiert
 Bonuses from X		;Boni von {0}
-
+;
 GameEventActionType Nothing Ruins		;Es ist ruhig in den Ruinen
 GameEventActionType NavigationalCoordinates		;Navigationskoordinaten
 GameEventActionType CoordinatesLostColony		;Ort der verlorenen Kolonie enthüllt
@@ -2694,7 +2694,7 @@ AutomationCategory FleetTopup		;Flottenmanagement
 AutomationCategory MilitaryAttack		;Militärische Angriffe
 AutomationCategory Research		;Forschung
 AutomationCategory ResearchCrash		;Blitzforschung
-AutomationCategory ShipDesigns		;Schiffs & Basis Design
+AutomationCategory ShipDesigns		;Schiffs- & Basis-Design
 AutomationCategory TroopGeneration		;Truppenrekrutierung
 AutomationCategory FundingLevels		;Finanzielle Mittel
 
@@ -2711,7 +2711,7 @@ Not Investigated		;Nicht untersucht
 Default		;Standard
 
 Abandoned Ships and Bases		;Verlassene Schiffe und Basen
-Construction Ship already repairing		;Bauschiff repariert ({0})
+Construction Ship already repairing		;Konstruktions-Schiff repariert ({0})
 Exploration Ship already investigating		;Erkundungsschiff erforscht bereits ({0})
 Ship or base does not need repair		;Schiff oder Basis muss nicht repariert werden
 Ship or base belongs to another empire		;Schiff oder Basis gehört zu einem anderen Reich
@@ -3003,16 +3003,16 @@ Automate Population Policy		;Bevölkerungspolitik automatisieren
 Automate Resource Stock Levels		;Ressourcenlagerstand automatisieren
 Automate Tax Rates		;Steuersätze automatisieren
 
-Click to move view to bay		;Klicken Sie, um die Ansicht zum Schacht zu verschieben
-Toggle component bay indicators		;Komponenten Schachtanzeigen umschalten
+Click to move view to bay		;Klicken Sie, um die Ansicht zur Einbaubucht zu verschieben
+Toggle component bay indicators		;Komponenten-Einbaubucht-Markierungen umschalten
 Speed and Maneuverability		;Tempo und Wendigkeit
 Scanners		;Scanner
 Attack Strength Explanation		;Beinhaltet die folgenden Faktoren:\nStandard- und Ionenwaffen, modifiziert durch Zielboni\nJäger (Abfangjäger und Bomber)
-Defend Strength Explanation		;Beinhaltet die folgenden Faktoren:\nPunktverteidigungswaffen, modifiziert durch Zielboni\nAbfangjäger\nSchilde und Panzerung, modifiziert durch Gegenmaßnahmenboni
+Defend Strength Explanation		;Beinhaltet die folgenden Faktoren:\nPunktverteidigungswaffen, modifiziert durch Zielboni\nAbfangjäger\nSchilde und Panzerung, modifiziert durch Gegenmaßnahmen-Boni
 Speed and Maneuverability Explanation		;Beinhaltet die folgenden Faktoren:\nHöchstgeschwindigkeit \nWendegeschwindigkeit
-Scanners Explanation		;Umfasst die folgenden Faktoren:\nLangstreckenscanner\nAnalysescanner\nErkundungsscanner\nSprungverfolgungsscanner
+Scanners Explanation		;Umfasst die folgenden Faktoren:\nLangstreckenscanner\nInhalts-Scanner\nErkundungsscanner\nSprungverfolgungsscanner
 
-Engine Bay Design Explanation		;Die Triebwerke werden automatisch dem besten Schacht zugewiesen, um die Triebwerks Symmetrie zu gewährleisten
+Engine Bay Design Explanation		;Die Triebwerke werden automatisch der besten Einbaubucht zugewiesen, um die Triebwerks Symmetrie zu gewährleisten
 Industrial		;Industriell
 Command, Crew and Medical Systems		;Kommando, Crew und medizinische Systeme
 Targeting and Countermeasures		;Zielerfassung und Gegenmaßnahmen
@@ -3227,13 +3227,13 @@ Reloading content		;Inhalte neu laden
 
 Personality		;Persönlichkeit
 Capacity		;Kapazität
-Design Overview		;Design Übersicht
+Design Overview		;Design-Übersicht
 Reactor Output		;Reaktorleistung
 Output		;Leistung
 Rating		;Bewertung
 EnergyPerFuelExplanation		;Reaktoren erzeugen {0} Energie pro Spriteinheit
 Available Components		;Verfügbare Komponenten
-Design Bays		;Schächte designen
+Design Bays		;Einbaubuchten
 Large		;Groß
 
 Base Overview		;Basisübersicht
@@ -3274,7 +3274,7 @@ Show Spaceports		;Zeige Raumhäfen
 Show Other Bases		;Andere Basen anzeigen
 Show Exploration Ships		;Erkundungsschiffe anzeigen
 Show Colony Ships		;Kolonieschiffe anzeigen
-Show Construction Ships		;Zeige Bauschiffe
+Show Construction Ships		;Zeige Konstruktions-Schiffe
 Show Civilian Ships		;Zeige Zivilschiffe
 Show Unknown Ships		;Unbekannte Schiffe anzeigen
 Show Enemy Fleets		;Feindliche Flotten anzeigen
@@ -3907,7 +3907,7 @@ X years		;{0} Jahre
 Applies Empire-wide		;Gilt Reichsweit
 Applies only to Location		;Gilt nur für den Standort
 
-No buildable Colony Ship designs		;Keine baubaren Kolonieschiffs Designs
+No buildable Colony Ship designs		;Keine baubaren Kolonieschiffs-Design-Vorlagen
 
 Reactor Offline		;Reaktor Offline
 HyperDrive Offline		;Hyperantrieb Offline
@@ -4144,7 +4144,7 @@ Form new FLEETTEMPLATE from existing ships at		;Neue {0} aus vorhandenen Schiffe
 Build new FLEETTEMPLATE at		;Neue {0} bauen bei...
 Select a single Fleet Template to form a new fleet		;Wähle eine einzelne Flottenvorlage, um eine neue Flotte aus vorhandenen Schiffen zu bilden
 Select a single Fleet Template to build a new fleet		;Wähle eine einzelne Flottenvorlage, um eine neue Flotte zu erstellen
-Any construction yards in empire		;Alle Bauwerften im Reich
+Any construction yards in empire		;Alle Schiffsbau-Werften im Reich
 Load Fleet Templates		;Flottenvorlagen laden
 Load Fleet Templates Explanation		;Wähle eine Flottenvorlage zum Laden aus der Liste unten aus.
 Save Fleet Templates		;Flottenvorlagen speichern
@@ -4185,7 +4185,7 @@ X Chance		;{0} Erfolg
 X chance of successful colonization		;{0} Chance auf erfolgreiche Kolonisierung\nUnabhängige Kolonien werden sich der Kolonisierung widersetzen, wenn Ihre Beziehungen zu ihnen niedrig sind. Verbessern Sie die Beziehungen mit Handelsverträgen und Geschenken, bevor Sie die Kolonisierung versuchen
 
 TYPE Army		;{0} Armee
-ArmyTemplateType DefenseMinor		;Standard - Kolonieverteidigung
+ArmyTemplateType DefenseMinor		;Standard-Kolonieverteidigung
 ArmyTemplateType DefenseBorder		;Grenz - Kolonieverteidigung
 ArmyTemplateType DefenseMajor		;Große - Kolonieverteidigung
 ArmyTemplateType Invasion		;Invasion
@@ -4352,7 +4352,7 @@ Growth Rate		;Wachstumsrate
 Weapon Facilities		;Waffen Einrichtungen
 Fighter Base		;Jäger Basis
 Planetary Shields		;Planetenschilde
-HyperDeny		;Hyperstop
+HyperDeny		;Hyperantriebs-Blockierer
 Terraforming		;Terraformen
 Medical		;Medizinisch
 Governance		;Führung
@@ -4364,7 +4364,7 @@ Improve relations by X		;Verbessern Sie die Beziehungen um {0}
 We have already given a gift recently		;Wir haben kürzlich bereits ein Geschenk gemacht
 For maximum impact we should give another gift after DATE		;Für eine maximale Wirkung sollten wir nach dem {0} ein weiteres Geschenk machen
 
-Outside maximum Construction Ship fuel range		;Über die maximale Reichweite des Bauschiffes hinaus
+Outside maximum Construction Ship fuel range		;Über die maximale Reichweite des Konstruktions-Schiffes hinaus
 This Year		;Dieses Jahr
 Last Year		;Letztes Jahr
 X years ago		;Vor {0} Jahren
@@ -4382,8 +4382,8 @@ Hive Attack Description Base		;Die [FACTION]{0}[/FACTION] berichtet von einem An
 Savage Attack at LOCATION		;Wilder Angriff bei {0}
 The Hive Awakens		;Der Schwarm erwacht
 
-SHIP building mining station here		;Bauschiff '{0}' baut hier eine Bergbaustation
-SHIP building mining station at a nearby asteroid within mining range of this asteroid		;Bauschiff '{0}' baut eine Bergbaustation auf einem nahegelegenen Asteroiden in Abbau-Reichweite dieses Asteroiden
+SHIP building mining station here		;Konstruktions-Schiff '{0}' baut hier eine Bergbaustation
+SHIP building mining station at a nearby asteroid within mining range of this asteroid		;Konstruktions-Schiff '{0}' baut eine Bergbaustation auf einem nahegelegenen Asteroiden in Abbau-Reichweite dieses Asteroiden
 
 Traders tell us of nearby Colony		;Händler erzählen uns von einer nahen Kolonie
 Our recent contact with independent traders has revealed the location of an independent colony of RACE at PLANET in the nearby SYSTEM system		;Unser kürzlicher Kontakt mit unabhängigen Händlern hat die Lage einer unabhängigen Kolonie von {0} auf [LOCATION]{1}[/LOCATION] im nahegelegenen {2} System offenbart.\n\nDies wäre ein gutes Ziel, um es zu erforschen, sobald wir die notwendige Technologie haben, um zu diesem System zu reisen. Die Kolonie könnte sogar bereit sein, sich uns anzuschließen, wenn wir unsere Beziehungen zu ihnen pflegen.
@@ -4427,7 +4427,7 @@ Add Creature		;Kreatur hinzufügen
 Add Ship or Base		;Schiff oder Basis hinzufügen
 Add Star		;Stern hinzufügen
 Select Empire		;Reich wählen
-Select Design		;Design wählen
+Select Design		;Design-Vorlage wählen
 Select Empire to Edit		;Reich zum Bearbeiten wählen
 Exit Editor		;Editor verlassen
 Add Independent Colony		;Unabhängige Kolonie hinzufügen
@@ -4441,7 +4441,7 @@ Time to reenable		;Zeit für Reaktivierung
 
 Assign Fleet Investigate Dangerous Location		;Weisen Sie die {0} an, gemeldete Bedrohungen bei {1} zu untersuchen ({2} System)
 No ships available to form Fleet based on this template (FLEETTEMPLATE)		;Keine Schiffe zur Bildung einer Flotte basierend auf dieser Vorlage verfügbar ({0})
-No designs available to build Fleet based on this template (FLEETTEMPLATE)		;Keine Designs verfügbar, um Flotte basierend auf dieser Vorlage zu bauen ({0})
+No designs available to build Fleet based on this template (FLEETTEMPLATE)		;Keine Design-Vorlagen verfügbar, um Flotte basierend auf dieser Vorlage zu bauen ({0})
 Scuttle Ship		;Schiff abwracken
 Scuttle Base		;Schrottbasis
 SHIP will be permanently scuttled		;{0} wird abgewrackt werden
@@ -4517,61 +4517,61 @@ Native Locations		;Heimische Gebiete
 Common Bonuses		;Allgemeine Boni
 Common Resources		;Allgemeine Ressourcen
 
-ComponentCategory Description AreaShieldRecharge		;Die Komponente 'Flächen-Schildaufladung' lädt die Schilde anderer befreundeter Schiffe oder Basen in der Nähe wieder auf, indem sie ein schützendes Energiefeld auf sie projiziert.\n\nDies kann besonders im Kampf nützlich sein, um Schiffe mit schwächelnden Schilden zu verstärken.
+ComponentCategory Description AreaShieldRecharge		;Die Komponente 'Umgebungs-Schildregenerierung' lädt die Schilde anderer befreundeter Schiffe oder Basen in der Nähe wieder auf, indem sie ein schützendes Energiefeld auf sie projiziert.\n\nDies kann besonders im Kampf nützlich sein, um Schiffe mit schwächelnden Schilden zu verstärken.
 ComponentCategory Description Armor		;Die Panzerung absorbiert den Explosionsschaden von eingehendem Waffenfeuer.\n\nWenn der Waffenschaden geringer ist als der Reaktionswert der Panzerung, nimmt die Panzerkomponente keinen Schaden. Ist der Waffenschaden jedoch größer als der Reaktionswert der Panzerung, wird die Panzerung beschädigt oder zerstört.\n\nBeachte, dass die Panzerung nicht alles eintreffende Waffenfeuer abblockt - einige Waffenexplosionen werden unweigerlich die Panzerung überwinden und dem Schiff oder der Basis Schaden zufügen, selbst wenn der Waffenschaden geringer ist als der Reaktionswert der Panzerung.\n\nEinige Waffentypen sind besser in der Lage, die Schutzpanzerung zu umgehen und so dem Zielschiff oder der Basis Schaden zuzufügen.
 ComponentCategory Description AssaultPod		;Enterkapseln werden verwendet, um Entertrupps gegen nahegelegene feindliche Schiffe oder Basen zu entsenden, so dass Sie das Ziel überfallen oder erobern können. Die bewaffneten Entertrupps reisen eine kurze Strecke zum Ziel, entern das feindliche Schiff und kämpfen mit den Verteidigern.\n\nBitte beachten Sie, dass die Schilde des Zielschiffs oder -stützpunkts gesenkt sein müssen, bevor die Enterkapsel das Ziel erfolgreich entern kann.\n\nEnterkapseln dienen auch als Verteidigungskräfte, wenn ein Schiff oder eine Basis von einem Angreifer geentert wird.
-ComponentCategory Description CargoBay		;Frachtraumkomponenten dienen der Aufbewahrung von Gütern während des Transports oder der Lagerung.\n\nSie werden in der Regel in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nBauschiffe benötigen auch Frachtraumkomponenten, um beim Bau neuer Basen Ressourcen zwischenzulagern.
+ComponentCategory Description CargoBay		;Fracht-Modulkomponenten dienen der Aufbewahrung von Gütern während des Transports oder der Lagerung.\n\nSie werden in der Regel in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nKonstruktions-Schiffe benötigen auch Fracht-Modulkomponenten, um beim Bau neuer Basen Ressourcen zwischenzulagern.
 ComponentCategory Description Colonization		;Kolonisationsmodule enthalten alles, was für die Gründung einer Kolonie auf einem neuen Planeten notwendig ist.\n\nKolonisationsmodule sind sehr groß und benötigen viele Ressourcen für den Bau. Diese Ressourcen sind der Startschuss für die Siedler der neuen Kolonie.\n\nDie Siedler werden im Kolonisationsmodul in einen Stasis-Winterschlaf versetzt. Sie können unbegrenzt lange überleben, bis sie wiederbelebt werden, sobald sie die neue Kolonie erreichen.
-ComponentCategory Description CommandCenter		;Kommandozentralen sind das Kontrollzentrum eines Schiffes, einer Basis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nKommandozentralen können Boni und andere Modifikatoren bereitstellen, die die Fähigkeiten eines Schiffes verbessern.
+ComponentCategory Description CommandCenter		;Schiffs- u. Stationsbrücken sind das Kontrollzentrum eines Schiffes, einer Basis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nSchiffs- u. Stationsbrücken können Boni und andere Modifikatoren bereitstellen, die die Fähigkeiten eines Schiffes verbessern.
 ComponentCategory Description CommerceCenter		;Handelszentren machen eine Basis zu einem Handelszentrum, in dem Rohstoffe und Treibstoff ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Rohstoffe oder Treibstoff an dem Standort gehandelt werden.
-ComponentCategory Description Construction		;Bauwerften ermöglichen den Bau von neuen Schiffen und Basen. Sie bieten auch die Möglichkeit, bestehende Schiffe und Basen zu reparieren und umzubauen.\n\nBauwerftkomponenten werden normalerweise in Raumhäfen integriert.\n\nBauwerften mit höherer Technologie bauen und reparieren Schiffe in der Regel schneller. Einige Bauwerften können sogar mehrere Schiffe gleichzeitig bauen.
+ComponentCategory Description Construction		;Schiffsbau-Werften ermöglichen den Bau von neuen Schiffen und Basen. Sie bieten auch die Möglichkeit, bestehende Schiffe und Basen zu reparieren und umzubauen.\n\nWerft-Komponenten werden normalerweise in Raumhäfen integriert.\n\nSchiffsbau-Werften mit höherer Technologie bauen und reparieren Schiffe in der Regel schneller. Einige Werften können sogar mehrere Schiffe gleichzeitig bauen.
 ComponentCategory Description Countermeasures		;Komponenten für Gegenmaßnahmen erhöhen die Wahrscheinlichkeit, im Kampf dem Beschuss durch feindliche Waffen zu entgehen. Diese leistungsstarken elektronischen Gegenmaßnahmen lenken alle Arten von Waffen ab und ermöglichen es Ihnen, dem gegnerischen Waffenfeuer auszuweichen.
-ComponentCategory Description CountermeasuresFleet		;Flotten Gegenmaßnahmen kommen allen Schiffen einer Flotte zugute und ermöglichen es allen Schiffen der Flotte, dem feindlichen Waffenfeuer effektiver auszuweichen.
+ComponentCategory Description CountermeasuresFleet		;Flotten-Gegenmaßnahmen kommen allen Schiffen einer Flotte zugute und ermöglichen es allen Schiffen der Flotte, dem feindlichen Waffenfeuer effektiver auszuweichen.
 ComponentCategory Description CrewQuarters		;Crew Quartiere sind die Wohnräume für die Besatzung eines Schiffes oder einer Basis. Sie umfassen auch alle lebenswichtigen Systeme für das Überleben der Besatzung.\n\nAuf allen Schiffen und Stützpunkten werden ausreichend Mannschaftsquartiere benötigt, um den Mannschaftsbedarf für alle Komponenten der Konstruktion zu decken.
-ComponentCategory Description DamageControl		;Schadenskontrollkomponenten verringern den Schaden, der einem Schiff durch feindliches Waffenfeuer zugefügt wird. Dies hilft einem Schiff, im Kampf länger zu überleben, wenn seine Schilde und Panzerung durchdrungen wurden.\n\nEinige Schadenskontrollkomponenten bieten auch eine Reparaturfunktion, die es Ihren Schiffen ermöglicht, selbst im Kampf schnell grundlegende Reparaturen durchzuführen. Dies kann die Überlebensfähigkeit Ihrer Militärschiffe verbessern und ihre Lebensdauer im Gefecht verlängern.
+ComponentCategory Description DamageControl		;Schadenskontroll-Komponenten verringern den Schaden, der einem Schiff durch feindliches Waffenfeuer zugefügt wird. Dies hilft einem Schiff, im Kampf länger zu überleben, wenn seine Schilde und Panzerung durchdrungen wurden.\n\nEinige Schadenskontroll-Komponenten bieten auch eine Reparaturfunktion, die es Ihren Schiffen ermöglicht, selbst im Kampf schnell grundlegende Reparaturen durchzuführen. Dies kann die Überlebensfähigkeit Ihrer Militärschiffe verbessern und ihre Lebensdauer im Gefecht verlängern.
 ComponentCategory Description DockingBay		;Andockbuchten ermöglichen es einem Schiff, anzudocken und Fracht umzuladen oder aufzutanken.\n\nAndockbuchten werden im Spiel normalerweise als eine von außen sichtbare Hangarbucht dargestellt. Kleinere Schiffe und Raumjäger können in diese Hangarbuchten einfahren.
 ComponentCategory Description EnergyCollector		;Energiekollektorenkomponenten sammeln Energie von einem nahegelegenen Stern, wodurch die Notwendigkeit der Verbrennung von Brennstoff in einem Reaktor zur Energieerzeugung verringert oder sogar beseitigt wird.\n\nEnergiekollektoren können Energie aus einem großen Teil des elektromagnetischen Spektrums absorbieren.
-ComponentCategory Description EnergyToFuel		;Energie zu Sprit Konverter sammeln Energie von einem nahe gelegenen Stern und verwenden sie, um Treibstoff für Ihre Schiffe zu erzeugen. So können Sie an jedem beliebigen Ort Treibstoffdepots errichten, ohne auf einem Gasriesenplaneten Treibstoff abbauen zu müssen.\n\nEnergie-Treibstoff-Wandler sind sehr groß und funktionieren nur im stationären Betrieb. Sie eignen sich daher nur für den Einsatz auf festen Basen, nicht auf Schiffen.
+ComponentCategory Description EnergyToFuel		;Energie-kraftsoff-Konverter sammeln Energie von einem nahe gelegenen Stern und verwenden sie, um Treibstoff für Ihre Schiffe zu erzeugen. So können Sie an jedem beliebigen Ort Treibstoffdepots errichten, ohne auf einem Gasriesenplaneten Treibstoff abbauen zu müssen.\n\nEnergie-Treibstoff-Wandler sind sehr groß und funktionieren nur im stationären Betrieb. Sie eignen sich daher nur für den Einsatz auf festen Basen, nicht auf Schiffen.
 ComponentCategory Description Engine		;Triebwerke liefern den Unterlichtschub für die Bewegung des Schiffes. Jedes Triebwerk hat seine eigenen Eigenschaften, einschließlich der Schubleistung und des Treibstoffverbrauchs auf verschiedenen Leveln.
 ComponentCategory Description EngineVectoring		;Vektortriebwerke sorgen für Wendeschub, um ein Schiff zu manövrieren. Eine größere Wendigkeit ist besonders im Kampf nützlich.
 ComponentCategory Description Extractor		;Extraktoren ermöglichen den Abbau von Ressourcen auf Planeten, Monden oder Asteroiden. Diese Komponenten werden in der Regel in Bergbaustationen oder Bergbauschiffe eingebaut.\n\nBeim Abbau von Asteroiden können Extraktoren in der Regel auch mehrere andere Asteroiden in der Nähe abbauen und so die Rohstoffausbeute in einem Asteroidenfeld oder einem planetaren Asteroidenring erhöhen.
 ComponentCategory Description FighterBay		;Jägerbuchten bieten Einrichtungen für die Herstellung, Lagerung und Reparatur von Raumjägern an Bord von Schiffen oder Basen.\n\nSobald sie in ein Schiff oder eine Basis eingebaut sind, können Jägerbuchten neue Raumjäger bauen und vorhandene Raumjäger reparieren.\n\nIm Gegensatz zu den meisten Schiffen erfordert der Bau von Raumjägern keine zusätzlichen Ressourcen - Raumjäger können in einer funktionierenden Jägerbuchten unbegrenzt repariert und wiederaufgebaut werden.
 ComponentCategory Description FuelStorage		;Treibstofflagerkomponenten dienen der Lagerung von Treibstoff für den Betrieb eines Reaktors, der Energie erzeugt, die dann für eine Vielzahl von Aufgaben genutzt werden kann.\n\nEin ausreichender Treibstoffvorrat ist ein wichtiger Faktor bei der Bestimmung der effektiven Reichweite eines Schiffs.
-ComponentCategory Description HyperBlock		;Gravitationsquellengeneratoren erzeugen ein starkes Schwerkraftfeld, das feindliche Schiffe innerhalb eines bestimmten Bereichs aus dem Hyperraum zieht.\n\nDadurch entsteht eine Sicherheitszone, in der feindliche Schiffe mit Unterlichtgeschwindigkeit reisen müssen, wodurch mehr Zeit für die Ankunft von Verstärkungen als Reaktion auf einen Angriff zur Verfügung steht.\n\nDiese Komponenten sind sehr groß, so dass sie sich am besten für große Basen wie Raumhäfen eignen.\n\nGravitationsquellengeneratoren können bezwungen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als die Blockierungsstärke des Generators. In diesem Fall wird das Schiff nicht aus dem Hyperraum gezogen.
-ComponentCategory Description HyperDeny		;Hyperstop Komponenten verhindern, dass Schiffe in Reichweite einen Hypersprung durchführen können. Dies hindert feindliche Schiffe daran, aus dem Kampf zu entkommen, und ermöglicht es einem Angreifer, sie zu zerstören.\n\nHyperstop Komponenten können umgangen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als der Hyperstop Stärke. In diesem Fall kann das Schiff immer noch einen Sprung einleiten, selbst wenn es sich in Reichweite einer aktiven Hyperstop Komponente befindet.
+ComponentCategory Description HyperBlock		;Gravitationsquellen-Generatoren erzeugen ein starkes Schwerkraftfeld, das feindliche Schiffe innerhalb eines bestimmten Bereichs aus dem Hyperraum zieht.\n\nDadurch entsteht eine Sicherheitszone, in der feindliche Schiffe mit Unterlichtgeschwindigkeit reisen müssen, wodurch mehr Zeit für die Ankunft von Verstärkungen als Reaktion auf einen Angriff zur Verfügung steht.\n\nDiese Komponenten sind sehr groß, so dass sie sich am besten für große Basen wie Raumhäfen eignen.\n\nGravitationsquellen-Generatoren können bezwungen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als die Blockierungsstärke des Generators. In diesem Fall wird das Schiff nicht aus dem Hyperraum gezogen.
+ComponentCategory Description HyperDeny		;Hyperantriebs-Blockierer-Komponenten verhindern, dass Schiffe in Reichweite einen Hypersprung durchführen können. Dies hindert feindliche Schiffe daran, aus dem Kampf zu entkommen, und ermöglicht es einem Angreifer, sie zu zerstören.\n\nHyperantriebs-Blockierer-Komponenten können umgangen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als der Hyperantriebs-Blockierer-Stärke. In diesem Fall kann das Schiff immer noch einen Sprung einleiten, selbst wenn es sich in Reichweite einer aktiven Hyperantriebs-Blockierer-Komponente befindet.
 ComponentCategory Description HyperDrive		;Hyperantriebe ermöglichen Reisen durch den Hyperraum. Dies ermöglicht Hochgeschwindigkeitsreisen über die riesigen Entfernungen im tiefen Weltraum und zwischen Sternensystemen.\n\nJede Hyperantriebskomponente hat eine Reichweitenbegrenzung, wie weit sie in einem einzigen Sprung reisen kann. Daher müssen Schiffe oft mehrmals zwischen verschiedenen Sternensystemen springen, um ein weit entferntes Ziel zu erreichen.\n\nHyperantriebe haben eine Mindeststartzeit, bevor sie einen Sprung beginnen können. Sie haben auch eine Aufladezeit, bevor sie einen weiteren Sprung einleiten können.\n\nDie frühe Hyperantriebstechnologie ist recht begrenzt und erlaubt es Schiffen nicht, über ihr Heimatsternsystem hinaus zu reisen. Höher entwickelte Hyperantriebe ermöglichen es, große Entfernungen schnell und effizient zurückzulegen.\n\nHyperantriebe funktionieren nicht sehr gut innerhalb von Nebelwolken - die Reisegeschwindigkeit ist stark reduziert. Daher ist es in der Regel besser, Nebel zu umfliegen, wenn man einen Weg zu einem Ziel auf der anderen Seite einer Nebelwolke plant. Der Navicomputer des Hyperantriebs ermittelt automatisch den effizientesten Weg zu einem Ziel von der aktuellen Position aus.
 ComponentCategory Description IonDefense		;Ionenabwehrkomponenten schützen ein Schiff oder eine Basis gegen die zerstörerische Wirkung von Ionenwaffen.
 ComponentCategory Description MedicalCenter		;Die Komponenten der Medizinstation bieten eine fachkundige medizinische Versorgung. Diese Dienste können den Bürgern einer Kolonie zugute kommen, wenn sie Teil einer in der Kolonie errichteten Basis sind. Dies steigert die Zufriedenheit Ihrer Bürger.\n\nMedizinstationen bieten auch schnelle Heilung für alle Truppen an Bord des Schiffes oder der Basis.\n\nAußerdem können sie bei der Heilung von Seuchen helfen, die Ihre Kolonien befallen.
-ComponentCategory Description PassengerCompartment		;Passagierräume ermöglichen die Beförderung von Passagieren auf Sternenschiffen. Die Passagiere können entweder zum Zwecke der Migration oder des Tourismus reisen.\n\nPassagierraumkomponenten werden in Passagierschiffe und Erholungsbasen eingebaut.
+ComponentCategory Description PassengerCompartment		;Passagierräume ermöglichen die Beförderung von Passagieren auf Sternenschiffen. Die Passagiere können entweder zum Zwecke der Migration oder des Tourismus reisen.\n\nPassagier-Modulkomponenten werden in Passagierschiffe und Erholungsbasen eingebaut.
 ComponentCategory Description Reactor		;Reaktoren liefern Energie, um alle Komponenten eines Schiffes oder einer Basis zu betreiben.\n\nDie meisten Komponenten verbrauchen in irgendeiner Weise Energie, daher sind Reaktoren wichtige Komponenten für alle Schiffe und Basen. Manche Schiffskonstruktionen benötigen mehrere Reaktorkomponenten, um ihren Energiebedarf zu decken.\n\nReaktoren verbrauchen Treibstoff und geben Energie ab. Caslon ist der Standardbrennstoff für galaktische Reaktoren.
 ComponentCategory Description RecreationCenter		;Erholungszentren bieten anspruchsvolle Erholungseinrichtungen. Diese Dienste können den Bürgern einer Kolonie zugute kommen, wenn sie Teil einer in der Kolonie errichteten Basis sind. Dies erhöht die Zufriedenheit Ihrer Bürger.
 ComponentCategory Description RemoteFuelTransfer		;Komponenten für Ferntanktransfer ermöglichen die Übertragung von Treibstoff auf ein nahe gelegenes Schiff ohne Andocken.\n\nDies ist besonders nützlich für Tankschiffe, die den Treibstoff der Schiffe einer Flotte auffüllen.
-ComponentCategory Description ResearchLab		;Forschungslabore bieten Ihren Wissenschaftlern und Ingenieuren spezialisierte Einrichtungen zur Erforschung neuer Technologien und zur Entwicklung neuer Komponenten.\n\nForschungslabor Komponenten sind daher eine wesentliche Ausrüstung für Forschungsstationen.
+ComponentCategory Description ResearchLab		;Forschungs-Module bieten Ihren Wissenschaftlern und Ingenieuren spezialisierte Einrichtungen zur Erforschung neuer Technologien und zur Entwicklung neuer Komponenten.\n\nForschungs-Modul-Komponenten sind daher eine wesentliche Ausrüstung für Forschungsstationen.
 ComponentCategory Description ScannerEmpireMasking		;Reichs-Verschleierungsstörsender verbergen die Reichszugehörigkeit eines Schiffes oder einer Basis vor Langstreckenscannern. Dies ermöglicht es einem Schiff oder einer Basis, sich der Entdeckung zu entziehen oder als neutral zu erscheinen, anstatt zu einer feindlichen Fraktion zu gehören, z.B. einer Piratenfraktion.
 ComponentCategory Description ScannerExploration		;Erkundungsscanner scannen nahegelegene Planeten, Monde und Asteroiden, um ihre Ressourcenzusammensetzung und andere Eigenschaften zu bestimmen.\n\nSie können auch versteckte Objekte wie alte Ruinen, Artefakte und verlassene Schiffe aufspüren.
 ComponentCategory Description ScannerExplorationSurvey		;Mit Untersuchungsscannern kann ein Landungstrupp auf die Oberfläche von nahe gelegenen Planeten, Monden und Asteroiden geschickt werden, um diese im Detail zu erkunden.\n\nDies ermöglicht die Entdeckung von Ressourcen und versteckten Gegenständen wie alten Ruinen, Artefakten und verlassenen Schiffen.\n\nBei tief verborgenen Gegenständen kann die Untersuchungskomponente mehrere Untersuchungsdurchläufe benötigen, um die Entdeckungen vollständig aufzudecken. Dies kann einen längeren Zeitraum in Anspruch nehmen.\n\nUntersuchungsscanner sind das Low-Tech (aber gründlichere) Gegenstück zu Erkundungsscanner.
-ComponentCategory Description ScannerJammer		;Scanner-Störsender verhindern, dass ein Schiff oder eine Basis von anderen Schiffen mit Analysescanner Komponenten gescannt wird.\n\nScanner-Störsender haben eine bestimmte Störungsstärke. Das Scannen wird verhindert, wenn diese Störungsstärke höher ist als die Stärke des Analysescanner.
+ComponentCategory Description ScannerJammer		;Scanner-Störsender verhindern, dass ein Schiff oder eine Basis von anderen Schiffen mit Inhalts-Scanner Komponenten gescannt wird.\n\nScanner-Störsender haben eine bestimmte Störungsstärke. Das Scannen wird verhindert, wenn diese Störungsstärke höher ist als die Stärke des Inhalts-Scanner.
 ComponentCategory Description ScannerJumpTracking		;Sprungverfolgungsscanner ermöglichen es, ein Ziel zu verfolgen, wenn es in den Hyperraum springt. Dies verbessert die Fähigkeit, einen Feind zu verfolgen, wenn er aus dem Kampf flieht.
 ComponentCategory Description ScannerLongRange		;Langstreckenscanner scannen einen großen Bereich, so dass Sie alle Schiffe oder Basen in Reichweite sehen können.\n\nLangstreckenscanner können sogar in benachbarte Systeme sehen, so dass Sie die Aktivitäten dort im Auge behalten können, auch wenn Sie keine Schiffe oder Basen dort haben.\n\nAndere Komponenten (Verschleierungsscanner, Tarnung) können die Wirksamkeit von Langstreckenscannern einschränken. Dies kann Langstreckenscanner aushebeln, indem ein Schiff oder eine Basis so versteckt wird, dass es/sie nicht sichtbar ist, insbesondere bei größeren Entfernungen.\n\nNebelwolken schränken ebenfalls die Effektivität von Langstreckenscannern ein. Die Scan-Reichweite ist innerhalb einer Nebelwolke oder durch sie hindurch stark reduziert.\n\nGegenstände, die gescannt werden, können zwar entdeckt, aber möglicherweise nicht identifiziert werden: Ihre Rolle oder ihr Reich sind möglicherweise unbekannt. Dies gilt insbesondere dann, wenn sich die gescannten Objekte in der Nähe des Reichweitenlimits des Langstreckenscanners befinden.
 ComponentCategory Description ScannerShortRange		;Kurzstreckenscanner scannen einen lokalen Bereich, so dass Sie alle Schiffe oder Basen in Reichweite sehen können.\n\nKurzstreckenscanner sehen normalerweise nicht viel weiter als ein einzelnes System.\n\nAndere Komponenten (Scanner-Verschleierung, Tarnung) können die Wirksamkeit von Kurzstreckenscannern einschränken. Dies kann Kurzstreckenscanner aushebeln, indem ein Schiff oder eine Basis so versteckt wird, dass es/sie nicht sichtbar ist, insbesondere bei größeren Entfernungen.\n\nNebelwolken schränken die Wirksamkeit von Kurzstreckenscannern ebenfalls ein. Die Scan-Reichweite ist innerhalb einer Nebelwolke oder durch sie hindurch stark reduziert.\n\nGegenstände, die gescannt werden, können zwar entdeckt, aber möglicherweise nicht identifiziert werden: Ihre Rolle oder ihr Reich sind möglicherweise unbekannt. Dies gilt insbesondere dann, wenn sich die gescannten Objekte in der Nähe der Reichweitengrenze des Kurzstreckenscanners befinden.
 ComponentCategory Description ScannerRoleMasking		;Rollen-Verschleierungsstörsender verbergen den Typ des Schiffes oder der Basis vor Langstreckenscannern. Auf diese Weise kann sich ein Schiff oder eine Basis der Entdeckung entziehen oder als ein harmloser allgemeiner Schiffstyp erscheinen (z. B. anstelle seiner wahren Rolle als Militärschiff).
-ComponentCategory Description ScannerTrace		;Analysescanner ermöglichen es, ein anderes Schiff oder einen Stützpunkt in der Nähe zu scannen, um dessen Ladung, Truppen an Bord und Komponentenstatus zu ermitteln.\n\nAnalysescanner können durch Scannerblocker Komponenten ausgeschaltet werden, die das Scannen blockieren.
+ComponentCategory Description ScannerTrace		;Inhalts-Scanner ermöglichen es, ein anderes Schiff oder einen Stützpunkt in der Nähe zu scannen, um dessen Ladung, Truppen an Bord und Komponentenstatus zu ermitteln.\n\nInhalts-Scanner können durch Scannerblocker Komponenten ausgeschaltet werden, die das Scannen blockieren.
 ComponentCategory Description Shields		;Schilde sind defensive Energiebarrieren, die ein Schiff oder eine Basis vor eintreffendem Waffenfeuer schützen.\n\nSchilde können durch Schaden aus feindlichem Waffenfeuer allmählich reduziert werden. Alle Schildkomponenten haben eine inhärente Regenerationsrate - sie stellen ihre Stärke im Laufe der Zeit allmählich wieder her, wenn auch in der Regel mit einer viel geringeren Rate als feindlicher Waffenbeschuss.\n\nEinige Schildkomponenten können auch eine Widerstandsstufe haben, unterhalb derer feindlicher Schaden die Schilde nicht beeinträchtigt. Mit anderen Worten, der Schaden muss über dem Widerstandswert liegen, um die Schildstärke zu verringern.\n\nJede Art von Schildkomponente hat eine andere Spezialität: einige haben eine höhere Schutzstärke, während andere eher auf eine schnellere Regeneration ausgerichtet sind.\n\nSchilde sind oft nicht zu 100 % wirksam beim Abwehren von Waffenfeuer, ein Teil des Schadens kann 'durchdringen' und das Schiff oder die Basis treffen. Darüber hinaus haben einige Waffentypen die Fähigkeit, Schilde teilweise zu umgehen.
 ComponentCategory Description ShieldEnhancement		;Schildverbesserungen ergänzen die vollständigen Schildkomponenten, indem sie defensive Energiebarrieren bereitstellen, die ein Schiff oder eine Basis vor ankommendem Waffenfeuer schützen.\n\nSchildverbesserungen erhöhen in der Regel die Regenerationsrate der Schilde, bieten jedoch keine eigene Schildstärke.
 ComponentCategory Description Stealth		;Tarnkomponenten minimieren die Sichtbarkeit eines Schiffes und ermöglichen es ihm, sich der Entdeckung zu entziehen - insbesondere auf große Entfernung.\n\nBei Tarnkomponenten ist zu beachten, dass sie ein Schiff nicht vollständig unsichtbar machen. Sie verringern lediglich die Entdeckbarkeit durch feindliche Sensoren und erhöhen damit die Reichweite, in der es entdeckt werden kann.\n\nWird ein mit Tarnung ausgerüstetes Schiff oder eine Basis entdeckt, verringert die Tarnfähigkeit außerdem die Möglichkeit, die Rolle und die Reichszugehörigkeit des Schiffes oder der Basis zu identifizieren. So kann das Schiff oder die Basis einfach als unbekanntes Objekt erscheinen, besonders wenn es nahe des Reichweitenlimits des Scanners entdeckt wird.
 ComponentCategory Description TargetingComputer		;Zielerfassungskomponenten verbessern die Schussgenauigkeit von Waffen im Gefecht.\n\n Diese leistungsstarken Computer berechnen schnell die optimale Flugbahn, um ein feindliches Ziel zu treffen. Dadurch erhöht sich die Chance, einen Feind im Gefecht zu treffen.
 ComponentCategory Description TargetingComputerFleet		;Flottenzielerfassung wirkt sich auf eine ganze Flotte aus und erhöht die Zielgenauigkeit aller Schiffe in der Flotte.
 ComponentCategory Description TractorBeam		;Traktorstrahlen werden verwendet, um feindliche Schiffe ins eigene Angriffsfeuer zu ziehen oder um einen feindlichen Angreifer wegzustoßen.\n\nSie haben eine größere Wirkung auf kleinere, nahe gelegene Ziele. Mehrere Traktorstrahlen können eingesetzt werden, um eine größere Zug- oder Schubkraft zu erzielen.\n\nTraktorstrahlen sind besonders nützlich, um feindliche Schiffe zu entern und zu kapern. Sie sind auch wirksam, um fliehende Feinde an der Flucht zu hindern.\n\nBitte beachten Sie, dass Traktorstrahlen einem Ziel selbst keinen Schaden zufügen, sie ziehen oder schieben es lediglich.
-ComponentCategory Description TroopCompartment		;Truppenraumkomponenten bieten grundlegende Lebensbedingungen für Kampftruppen an Bord eines Schiffes oder einer Basis.\n\nSie müssen über genügend Truppenraum verfügen, um die Gesamtgröße aller Truppeneinheiten, die Sie auf einem Schiff transportieren wollen, aufzunehmen.
+ComponentCategory Description TroopCompartment		;Truppen-Modulkomponenten bieten grundlegende Lebensbedingungen für Kampftruppen an Bord eines Schiffes oder einer Basis.\n\nSie müssen über genügend Truppen-Module verfügen, um die Gesamtgröße aller Truppeneinheiten, die Sie auf einem Schiff transportieren wollen, aufzunehmen.
 ComponentCategory Description Troops		;N/A
 ComponentCategory Description Diplomacy		;N/A
 ComponentCategory Description AncientKnowledge		;N/A
 ComponentCategory Description WeaponArea		;Flächenwaffen senden von einem einzigen Punkt im Weltraum eine zerstörerische Druckwelle in alle Richtungen aus\n\n Die Druckwelle kann auf das feuernde Schiff zentriert sein, oder die Waffe bewegt sich zunächst zu einem Punkt in der Nähe des Ziels, detoniert dann und löst die Druckwelle aus.\n\nEinige Flächenwaffen sind auch Ionenwaffen und zielen daher auf elektronische Komponenten, ähnlich wie eine EMP-Waffe.
 ComponentCategory Description WeaponBombard		;Bombardierungswaffen werden eingesetzt, um die Infrastruktur und die Bevölkerung einer feindlichen Kolonie auszulöschen und den Planeten selbst zu beschädigen, um seine Qualität zu verringern.\n\nJede Bombardierungswaffe kann sich auf bestimmte Bereiche spezialisieren: Einige sind besser geeignet, um militärische Infrastruktur und Truppen anzugreifen, andere sind besser geeignet, um die Bevölkerung oder die Qualität des Planeten anzugreifen.
-ComponentCategory Description WeaponCloseIn		;Es gibt verschiedene Arten von Nahbereichswaffen, aber alle haben eine kürzere Reichweite und sind in der Regel schnell und haben eine hohe Feuerrate.\n\nDie verschiedenen Arten von Nahbereichswaffen haben unterschiedliche Stärken. Einige haben eine größere Reichweite, andere einen höheren Rohschaden und wieder andere eine höhere Feuerrate.\n\nZu den Nahbereichswaffen gehören: Energieblaster, Railguns, Phaserstrahlen, Laserkanonen, Gravitationswaffen und sogar einige Arten von Energietorpedos.
+ComponentCategory Description WeaponCloseIn		;Es gibt verschiedene Arten von Nahbereichswaffen, aber alle haben eine kürzere Reichweite und sind in der Regel schnell und haben eine hohe Feuerrate.\n\nDie verschiedenen Arten von Nahbereichswaffen haben unterschiedliche Stärken. Einige haben eine größere Reichweite, andere einen höheren Rohschaden und wieder andere eine höhere Feuerrate.\n\nZu den Nahbereichswaffen gehören: Energieblaster, Railguns, Phaserstrahlen, Laserkanonen, Gravitationswaffen und sogar einige Arten von Energie-Torpedos.
 ComponentCategory Description WeaponIntercept		;Abfangwaffen sind Nahbereichswaffen, die tödliche Feuerstöße auf ankommendes feindliches Waffenfeuer oder in der Nähe befindliche feindliche Raumjäger abfeuern und sie dadurch außer Gefecht setzen oder zerstören.\n\nAbfangwaffen sind eine unverzichtbare Ausrüstung für Militärschiffe, insbesondere wenn sie es mit feindlichen Raumjägern zu tun haben.\n\nAbfangwaffen können ihre Abfangfähigkeiten auf folgende Zielkategorien spezialisieren: Jäger, zielsuchende Waffen, Direktfeuerwaffen und Vollstrahlwaffen.
-ComponentCategory Description WeaponIon		;Ionenwaffen feuern ionisierte Partikel auf feindliche Ziele, die deren Waffen, Triebwerke oder andere Komponenten vorübergehend außer Gefecht setzen.\n\nEinige Ionenwaffen feuern einen einzelnen Deaktivierungsbolzen auf ihre Ziele (wie Strahlenwaffen), während andere Ionenwaffen eine omnidirektionale Druckwelle aussenden, die alles innerhalb der Reichweite außer Gefecht setzt (wie Flächenwaffen).\n\nIonenwaffen können ihre Deaktivierungseffekte auf die folgenden bestimmten Kategorien von Komponenten spezialisieren: Waffen, Triebwerke, Hyperantriebe, Schilde und Sensoren.
-ComponentCategory Description WeaponStandoff		;Distanzwaffen sind Fernwaffen, die es einem Angreifer ermöglichen, einen Feind aus der Ferne anzugreifen und so zu versuchen, Schaden von sich abzuwenden.\n\nEs handelt sich dabei in der Regel um zielsuchende Waffen, die sich drehen, um bewegte Ziel zu verfolgen. Sie bewegen sich oft auch langsamer und haben eine geringere Feuerrate als Nahkampfwaffen.\n\n Zu den Distanzwaffen gehören: Raketen, Energietorpedos, einige Arten von Phaserstrahlen und einige Arten von Gravitationswaffen.
+ComponentCategory Description WeaponIon		;Ionenwaffen feuern ionisierte Partikel auf feindliche Ziele, die deren Waffen, Triebwerke oder andere Komponenten vorübergehend außer Gefecht setzen.\n\nEinige Ionenwaffen feuern einen einzelnen Deaktivierungsbolzen auf ihre Ziele (wie Strahlenwaffen), während andere Ionenwaffen eine omni-direktionale Druckwelle aussenden, die alles innerhalb der Reichweite außer Gefecht setzt (wie Flächenwaffen).\n\nIonenwaffen können ihre Deaktivierungseffekte auf die folgenden bestimmten Kategorien von Komponenten spezialisieren: Waffen, Triebwerke, Hyperantriebe, Schilde und Sensoren.
+ComponentCategory Description WeaponStandoff		;Distanzwaffen sind Fernwaffen, die es einem Angreifer ermöglichen, einen Feind aus der Ferne anzugreifen und so zu versuchen, Schaden von sich abzuwenden.\n\nEs handelt sich dabei in der Regel um zielsuchende Waffen, die sich drehen, um bewegte Ziel zu verfolgen. Sie bewegen sich oft auch langsamer und haben eine geringere Feuerrate als Nahkampfwaffen.\n\n Zu den Distanzwaffen gehören: Raketen, Energie-Torpedos, einige Arten von Phaserstrahlen und einige Arten von Gravitationswaffen.
 
 Alien Races		;Außerirdische Rassen
 Star and Planet Types		;Stern- und Planetentypen
@@ -4648,8 +4648,8 @@ FleetAllowShipRoleUpgrade Manual		;The roles of the ships in the fleet are never
 FleetAllowTrimmingExcessShips Automate		;Trim excess ships in the fleet that do not precisely match template (wrong role/hull/design)
 FleetAllowTrimmingExcessShips Manual		;Allow non-matching ships in fleet to fill out total ship count, even when not precise match
 
-FleetTemplateAllowAutoUpgradingSpecificDesigns Automate		;Erlaube das automatische Upgrade von obsoleten spezifischen Designs zum nächsten nicht-obsoleten Design im Upgrade-Pfad
-FleetTemplateAllowAutoUpgradingSpecificDesigns Manual		;Spezifische Flotten-Designs werden nie automatisch geupgradet. Du musst spezifische Designs manuell upgraden, wenn neue Designs verfügbar werden.
+FleetTemplateAllowAutoUpgradingSpecificDesigns Automate		;Erlaube das automatische Upgrade von obsoleten spezifischen Design-Vorlagen zum nächsten nicht-obsoleten Design im Upgrade-Pfad
+FleetTemplateAllowAutoUpgradingSpecificDesigns Manual		;Spezifische Flotten-Design-Vorlagen werden nie automatisch geupgradet. Du musst spezifische Designs manuell upgraden, wenn neue Design-Vorlagen verfügbar werden.
 
 FleetOverrideShipTacticsWithFleet Fleet		;Flotten statt Schiffstaktiken verwenden
 FleetOverrideShipTacticsWithFleet Ship		;Schiffs statt Flottentaktiken verwenden
@@ -4694,7 +4694,7 @@ Tips		;Tipps
 Reset Tours		;Touren zurücksetzen
 Reenable All Tours		;Alle Touren wieder aktivieren
 Reenable All		;Alle wieder aktivieren
-Launch Basic Tour		;Basic Tour starten
+Launch Basic Tour		;Grundlagen-Tour starten
 
 No fleet with adequate attack strength to take on defending forces at location		;Keine Angriffs- oder Überfallflotte mit ausreichender Angriffsstärke, um die Verteidigungskräfte vor Ort anzugreifen
 No fleet with adequate troop attack strength to invade this colony		;Keine Invasionsflotte mit ausreichender Truppenstärke, um in diese Kolonie einzudringen
@@ -4827,7 +4827,7 @@ FLEET investigating		;{0} untersucht
 Multiple Fleets investigating		;Mehrere Flotten untersuchen
 No Attack or Raid fleets available		;Keine Angriffs- oder Plünderungsflotten verfügbar
 
-Can only have one Command Center		;Kann nur eine Kommandozentrale haben
+Can only have one Command Center		;Kann nur eine Schiffs- u. Stationsbrücke haben
 Ctrl-click for x5, Shift-click for x10		;Strg-Klick für x5, Shift-Klick für x10
 Construction Ship Repairing		;{0} repariert {1}
 Multiple Construction Ships repairing		;Mehrere Konstruktionsschiffe reparieren
@@ -4941,7 +4941,7 @@ PolicyExplanation AutomationFundingLevels		;Automatisieren Sie die Höhe der Fin
 PolicyExplanation TaxRateTargetApprovalSmallColonies		;Legt den Zielwert für den Kolonie Zustimmungslevel für kleine Kolonien (weniger als 10% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Zustimmungsrate zu erreichen: Senkung, um die Zustimmung und das Wachstum zu erhöhen, Erhöhung, um die Steuereinnahmen zu steigern.
 PolicyExplanation TaxRateTargetApprovalMediumColonies		;Legt den Zielwert für die Kolonie Zustimmungsrate für mittlere Kolonien (weniger als 50% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Genehmigungsstufe zu erreichen: Senken, um die Genehmigung und das Wachstum zu erhöhen, Erhöhen, um die Steuereinnahmen zu steigern.
 PolicyExplanation TaxRateTargetApprovalLargeColonies		;Legt den Zielwert für die Kolonie Zustimmungsrate für große Kolonien (über 50% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Zustimmungsrate zu erreichen: Senkung, um die Zustimmung und das Wachstum zu erhöhen, Erhöhung, um die Steuereinnahmen zu steigern.
-PolicyExplanation AutomationShipDesigns		;Automatisieren Sie das Design neuer Schiffe und Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell. Wenn durch die Forschung neue Komponenten und Hüllen verfügbar werden, sollten Ihre Schiffs- und Basisdesigns überarbeitet werden, um ihre Fähigkeiten zu verbessern.
+PolicyExplanation AutomationShipDesigns		;Automatisieren Sie die Design-Vorlage neuer Schiffe und Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell. Wenn durch die Forschung neue Komponenten und Hüllen verfügbar werden, sollten Ihre Schiffs- und Basisdesigns überarbeitet werden, um ihre Fähigkeiten zu verbessern.
 PolicyExplanation AutomationShipConstruction		;Automatisieren Sie den Bau neuer Schiffe für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationBaseConstruction		;Automatisieren Sie den Bau neuer Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationAbandonedConstruction		;Automatisieren Sie die Reparatur von verlassenen Schiffen oder Basen, die Sie entdecken, oder kontrollieren Sie diesen Bereich manuell.
@@ -4978,7 +4978,7 @@ PolicyExplanation CaptureTargetConditionBase		;Wenn feindliche Basen erobert sta
 PolicyExplanation CaptureEnlistMilitaryShip		;Die Möglichkeit, erbeutete Militärschiffe in das eigene Reich zu übernehmen oder sie für Technologie und Ressourcen zu verschrotten.
 PolicyExplanation CaptureDisassembleMilitaryShip		;Wie erbeutete Militärschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Werft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
 PolicyExplanation CaptureEnlistCivilianShip		;Die Möglichkeit, erbeutete Zivilschiffe in das eigene Reich aufzunehmen oder sie für Technologie und Ressourcen zu verschrotten.
-PolicyExplanation CaptureDisassembleCivilianShip		;Wie erbeutete Zivilschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Bauwerft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
+PolicyExplanation CaptureDisassembleCivilianShip		;Wie erbeutete Zivilschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Schiffsbau-Werft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
 PolicyExplanation CaptureEnlistBase		;Die Möglichkeit, eroberte Basen in das eigene Reich einzugliedern oder sie für Technologie und Ressourcen zu verschrotten.
 PolicyExplanation UpgradeEnlistedMilitaryShips		;Die Möglichkeit, erbeutete Militärschiffe, die in Ihr Reich aufgenommen werden, auch auf Ihr aktuelles Design für ihre Rolle umzurüsten.
 PolicyExplanation UpgradeEnlistedCivilianShips		;Die Möglichkeit, erbeutete Zivilschiffe, die in Ihr Reich aufgenommen werden, auch auf Ihr aktuelles Design für ihre Rolle umzurüsten.
@@ -5056,7 +5056,7 @@ Settings Explanation GalaxyViewDisplaySpacePorts		;Anzeige von Raumhafen-Symbole
 Settings Explanation GalaxyViewDisplayOtherBases		;Anzeige von Nicht-Raumhafen Basis Symbolen beim Herauszoomen auf die Galaxieebene.
 Settings Explanation GalaxyViewDisplayExplorationShips		;Anzeige von Symbolen für Erkundungsschiffe beim Herauszoomen auf die Galaxieebene.
 Settings Explanation GalaxyViewDisplayColonyShips		;Anzeige von Kolonieschiffssymbolen beim Herauszoomen auf die Galaxieebene.
-Settings Explanation GalaxyViewDisplayConstructionShips		;Anzeige von Bauschiffschiffsymbolen beim Herauszoomen auf die Galaxieebene.
+Settings Explanation GalaxyViewDisplayConstructionShips		;Anzeige von Konstruktions-Schiff-Schiffsymbolen beim Herauszoomen auf die Galaxieebene.
 Settings Explanation GalaxyViewDisplayCivilianShips		;Anzeige von Zivilschiffsymbolen beim Herauszoomen auf die Galaxieebene.
 Settings Explanation GalaxyViewDisplayUnknownShips		;Anzeige von Symbolen unbekannter Schiffe beim Herauszoomen auf die Galaxieebene.
 Settings Explanation GalaxyViewDisplayAlwaysEnemyFleets		;Ob feindliche Flottensymbole immer angezeigt werden sollen, wenn man auf die Galaxieebene herauszoomt.
@@ -5166,8 +5166,8 @@ All Resources - No Asteroids		;Alle Ressourcen - Keine Asteroiden
 You have reached X user-defined starting empires. This is the maximum number allowed		;Sie haben die Anzahl von {0} Startreichen erreicht. Dies ist die maximal zulässige Anzahl.
 You must reduce the number of starting empires		;Du musst die Anzahl von Startreichen auf {0} reduzieren (sowohl automatisch generierte als auch manuell definierte).
 
-AutoDesign Explanation		;Hier klicken, um zu ändern, wie alle Designs für diese Hülle aktualisiert werden. Entweder automatisch oder manuell
-AutoRetrofit Explanation		;Hier klicken, um einzuschalten, ob Schiffe oder Basen dieses Designs automatisch nachgerüstet werden, wenn neuere Designs verfügbar sind. Beachten Sie, dass Sie dies nur für staatliche Rollen einstellen können. Zivile Rollen werden bei Bedarf immer automatisch nachgerüstet.
+AutoDesign Explanation		;Hier klicken, um zu ändern, wie alle Design-Vorlagen für diese Hülle aktualisiert werden. Entweder automatisch oder manuell
+AutoRetrofit Explanation		;Hier klicken, um einzuschalten, ob Schiffe oder Basen dieses Designs automatisch nachgerüstet werden, wenn neuere Design-Vorlagen verfügbar sind. Beachten Sie, dass Sie dies nur für staatliche Rollen einstellen können. Zivile Rollen werden bei Bedarf immer automatisch nachgerüstet.
 DesignStatus Explanation		;Klicken Sie hier, um umzuschalten, ob dieses Design aktiv oder veraltet ist
 
 Particle Effects		;Partikeleffekte
@@ -5266,7 +5266,7 @@ Retrofit Path		;Retrofit Pfad
 Latest Design for Hull		;Letztes Hüllen-Design
 Latest Design for Largest Hull for Role		;Letztes Design für größte Hülle für Rolle
 View		;Betrachte
-Other Designs That Upgrade To This Design		;Andere Designs, die zu diesem Design upgraden
+Other Designs That Upgrade To This Design		;Andere Design-Vorlagen, die zu diesem Design upgraden
 Upgrades To		;Dieses Design upgradet zu
 Upgrades to DESIGN because latest for hull		;Upgradet zu '{0}', weil leztes für Hülle
 Upgrades to DESIGN because latest for role		;Upgradet zu '{0}', weil leztes für Rolle
@@ -5289,11 +5289,11 @@ We have been influenced to like you less		;Wir wurden beeinflusst, Dich weniger 
 
 Leader Change Disruption Colony Rebel		;Die Disruption, die durch unseren kürzlichen Führungswechsel verursacht wurde, hat zu einer Rebellion in unserer Kolonie {0} geführt
 Leader Change Coup Title		;Putsch ersetzt Anführer!
-Leader Change Coup		;Unser Anführer {0} wurde durch einen Staatsstreich abgesetzt!\n\n{1} hat als neuer Anführer die Kontrolle übernommen und ihre Verbündeten handeln schnell, um ihre Macht zu sichern.\n\nErwarten Sie eine Zeit des Umbruchs und Störungen, während sich unser Imperium an dieses neue Regime anpasst ...
-Leader Change Coup From Existing		;Unser Anführer {0} wurde durch einen Staatsstreich abgesetzt!\n\n{1}, ein bestehender {2}, hat als neuer Anführer die Kontrolle übernommen und ihre Verbündeten handeln schnell, um ihre Macht zu sichern.\n \nErwarten Sie eine Zeit des Umbruchs und der Störung, während sich unser Imperium an dieses neue Regime anpasst ...
+Leader Change Coup		;Our leader {0} has been deposed in a coup d'état!\n\n{1} has seized control as the new leader, and their allies are moving quickly to secure their power.\n\nExpect a period of upheaval and disruption as our empire adjusts to this new regime...
+Leader Change Coup From Existing		;Our leader {0} has been deposed in a coup d'état!\n\n{1}, an existing {2}, has seized control as the new leader, and their allies are moving quickly to secure their power.\n\nExpect a period of upheaval and disruption as our empire adjusts to this new regime...
 Leader Change Replaced Title		;Anführer ersetzt
-Leader Change Replaced		;Unser Anführer {0} wurde als inkompetent verdrängt!\n\n{1} wurde zum neuen Anführer ernannt und hat die sofortige Kontrolle übernommen.\n\nDieser Wechsel wird jedoch nicht ohne Umwälzungen erfolgen – rechnen Sie mit einer Phase der Störung Unser Imperium passt sich dieser neuen Führung an ...
-Leader Change Replaced From Existing		;Unser Anführer {0} wurde als inkompetent verdrängt!\n\n{1}, ein bestehender {2}, wurde zum neuen Anführer ernannt und hat die sofortige Kontrolle übernommen.\n\nDiese Änderung wird jedoch nicht ohne Umwälzungen erfolgen - Erwarten Sie eine Zeit des Umbruchs, während sich unser Imperium an diese neue Führung gewöhnt ...
+Leader Change Replaced		;Our leader {0} has been ousted as incompetent!\n\n{1} has been appointed as the new leader, and has assumed immediate control.\n\nHowever this change will not come without upheaval - expect a period of disruption as our empire adjusts to this new leadership...
+Leader Change Replaced From Existing		;Our leader {0} has been ousted as incompetent!\n\n{1}, an existing {2}, has been appointed as the new leader, and has assumed immediate control.\n\nHowever this change will not come without upheaval - expect a period of disruption as our empire adjusts to this new leadership...
 Leader Change Election Title		;Neuer Anführer gewählt
 Leader Change Election		;Unser Anführer {0} wurde in einer Reichs-weiten Wahl ersetzt\n\n{1} wurde zum neuen Leiter gewählt.\n\nDiese frische Führung hat eine Welle der Begeisterung durch unser Imperium geschickt, das Glück verbessert und die Kriegsmüdigkeit in all unseren Kolonien verringert
 Leader Change Election From Existing		;Unser Anführer {0} wurde in einer Reichs-weiten Wahl ersetzt\n\n{1}, heute ein {2}, wurde zum neuen Leiter gewählt.\n\nDiese frische Führung hat eine Welle der Begeisterung durch unser Imperium geschickt, das Glück verbessert und die Kriegsmüdigkeit in all unseren Kolonien verringert 
@@ -5378,8 +5378,8 @@ Character Mission Explanation Success InternalStabilization		;Als ein Ergebnis w
 
 Migration Factor Explanation		;Erhöht oder reduziert Migration zu den Kolonien eines Reiches, was sie mehr oder weniger anziehend für die Immigration von Bürgern von ausländischen Reichen macht.
 
-Ship Design Automation Explanation Manual		;Schiffsdesign ist momentan manuell kontrolliert. Neue Designs werden NICHT automatisch generiert. Neue Designs müssen manuell kreiert werden.
-Ship Design Automation Explanation Automated		;Schiffsdesign ist momentan automatisiert. Neue Designs werden für alle Hüllen automatisch generiert, außer für eine Hülle manuelles Upgrade eingestellt.
+Ship Design Automation Explanation Manual		;Schiffsdesign ist momentan manuell kontrolliert. Neue Design-Vorlagen werden NICHT automatisch generiert. Neue Design-Vorlagen müssen manuell kreiert werden.
+Ship Design Automation Explanation Automated		;Schiffsdesign ist momentan automatisiert. Neue Design-Vorlagen werden für alle Hüllen automatisch generiert, außer für eine Hülle manuelles Upgrade eingestellt.
 Ship Design is Automated		;Schiffsdesign ist automatisiert
 Ship Design is Manually-controlled		;Schiffsdesign ist manuell kontrolliert
 
@@ -5399,7 +5399,7 @@ Mark Selected As Manual Retrofit		;Markiere Auswahl als\nManuelles Retrofit
 Mark Selected As Auto Hull Upgrade		;Markiere Auswahl als\nAuto Hüllen-Upgrade
 Mark Selected As Manual Hull Upgrade		;Markiere Auswahl als\nManuelles Hüllen-Upgrade
 
-Manual Upgrade Designs		;Upgrade Designs manuell
+Manual Upgrade Designs		;Upgrade Design-Vorlagen manuell
 Free Form		;Freiform
 
 Suitability for COLONY		;Eignung für {0}

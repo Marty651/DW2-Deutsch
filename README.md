@@ -13,7 +13,7 @@ Deutsche Dateien für Release-Version 1.1.4.4:
 Deutsche Dateien für Release-Version 1.1.2.4:  
 [Deutsch 1.1.2.4 v1.1](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-(2023.05.13)/DW2-Deutsch_1.1.2.4_v1.1.zip)
 
-Deutsche Dateien für DLC Ikkuro & Dhayut:  
+Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.1.2.4):  
 [DLC I&D v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-(2023.05.13)/DW2-Deutsch_1.1.2.4_DLC_Ikkuro_and_Dhayut_v0.5.zip)
 
 

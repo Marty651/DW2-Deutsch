@@ -5,6 +5,11 @@ Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. M
 
 <h2>Download</h2>
 
+Deutsche Dateien für Release-Version 1.1.4.4:  
+[Deutsch 1.1.2.4 v1.2](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.4.4-(2023.05.27)/DW2-Deutsch_1.1.4.4_v1.2.zip)
+
+<h3>Downloads für Version 1.1.2.4:</h3>
+
 Deutsche Dateien für Release-Version 1.1.2.4:  
 [Deutsch 1.1.2.4 v1.1](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-(2023.05.13)/DW2-Deutsch_1.1.2.4_v1.1.zip)
 

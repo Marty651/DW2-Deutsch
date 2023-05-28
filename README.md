@@ -3,19 +3,17 @@
 
 Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames stellen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereit.
 
-<h2>Download</h2>
+<h2>Downloads für Version 1.1.4.4:</h2>
 
-Deutsche Dateien für Release-Version 1.1.4.4:  
-[Deutsch 1.1.4.4 v1.2](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.4.4-(2023.05.27)/DW2-Deutsch_1.1.4.4_v1.2.zip)
+Deutsche Dateien für Release-Version 1.1.4.4 (Hyperspeed Update):  
+[Deutsch 1.1.4.4 v1.3](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.1.4.4-(2023.05.28)/DW2-Deutsch_1.1.4.4_v1.3.zip)
 
-<h3>Downloads für Version 1.1.2.4:</h3>
+Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.1.2.4):
+[DLC I&D v0.6](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.1.4.4-(2023.05.28)/DW2-Deutsch_1.1.4.4_DLC_Ikkuro_and_Dhayut_v0.6.zip)
 
-Deutsche Dateien für Release-Version 1.1.2.4:  
-[Deutsch 1.1.2.4 v1.1](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-(2023.05.13)/DW2-Deutsch_1.1.2.4_v1.1.zip)
+<h3>Downloads ältere Versionen:</h3>
 
-Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.1.2.4):  
-[DLC I&D v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v1.1.2.4-(2023.05.13)/DW2-Deutsch_1.1.2.4_DLC_Ikkuro_and_Dhayut_v0.5.zip)
-
+Siehe rechts im Bereich "Releases".
 
 <h2>Installation</h2>
 

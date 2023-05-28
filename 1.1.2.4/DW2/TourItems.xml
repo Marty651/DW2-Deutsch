@@ -1312,6 +1312,213 @@ Oder Sie klicken auf die Schaltfläche Abbrechen, um zur Hauptansicht zurückzuk
   </TourItem>
 
   <TourItem>
+    <Title>Ship Design Screen</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Einführung</StepTitle>
+        <MarkupText>Im Bildschirm Schiffsdesign können Sie eine neue Design-Vorlage für ein Schiff, eine Basis oder einen Jäger erstellen.
+
+Sie erstellen eine neue Design-Vorlage, indem Sie Komponenten zu den Einbaubuchten einer Hülle hinzufügen.
+
+Ihre neue Design-Vorlage muss viele Anforderungen erfüllen, um als gültig zu gelten. Zum Beispiel:
+[ULI]alle Design-Vorlagen müssen eine Schiffs- u. Stationsbrücke haben[/ULI]
+[ULI]alle Design-Vorlagen müssen Treibstoff lagern, um Energie aus einem Reaktor zu erzeugen[/ULI]
+[ULI]alle Schiffe müssen über Triebwerke verfügen, um mobil zu sein[/ULI]
+
+Es gibt noch viele weitere Anforderungen, die für jede Rolle spezifisch sind.
+
+[H3]Schaltfläche Empfehlungen[/H3]
+Probieren Sie die Schaltfläche Empfehlungen sowie das Popup-Fenster aus, wenn Sie Komponenten zu Ihrer Design-Vorlage hinzufügen (oben im Fenster Design-Übersicht). Einige Empfehlungen sind optional (in gelb dargestellt). Andere Empfehlungen sind obligatorisch (in rot dargestellt).
+
+Sie können Ihren Entwurf erst dann speichern, wenn alle Anforderungen erfüllt sind.</MarkupText>
+        <RelatedControlNames>
+          <string>Warnings</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Verfügbare Komponenten</StepTitle>
+        <MarkupText>Die Liste verfügbare Komponenten zeigt alle erforschten Komponenten an, die Sie dem Entwurf hinzufügen können.
+
+Es werden nur Komponenten angezeigt, die für die jeweilige Rolle gültig sind. Jäger sehen also keine Schiffskomponenten, und umgekehrt. Komponenten werden auch ausgeschlossen, wenn sie zu groß für irgendwelche Einbaubuchten in der Hülle sind.
+
+Sie können die Komponenten mithilfe der Dropdown-Liste oben links im Fenster weiter filtern. So können Sie nach Einbaubucht-Typ filtern oder nur die neueste Komponente pro Kategorie anzeigen.
+
+Sie können die Komponenten mithilfe der Dropdown-Liste oben rechts im Fenster sortieren. So können Sie nach Name, Kategorie, Tech-Level oder Größe sortieren.
+
+[H3]Komponentenübersicht[/H3]
+Wenn Sie mit dem Mauszeiger über eine Komponente fahren, wird rechts eine Zusammenfassung mit den technischen Daten der Komponente angezeigt.</MarkupText>
+        <RelatedControlNames>
+          <string>AvailableComponentContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Einbaubuchten</StepTitle>
+        <MarkupText>Die Liste "Einbaubuchten" zeigt alle Komponenten-Einbaubuchten in der Hülle an.
+
+Die Komponenten, die Sie in der Liste "Einbaubuchten" hinzufügen, sind das Herzstück der Design-Vorlage. Die hier hinzugefügten Komponenten definieren die Fähigkeiten und das Verhalten des fertigen Designs.
+
+Jede Einbaubucht hat einen Typ und eine Größe. Sie können nur dann Komponenten in einer Einbaubucht platzieren, wenn es sich um einen passenden Typ handelt und wenn die Größe der Komponente in die Einbaubucht passt.
+
+Es gibt 6 Komponenten-Einbaubucht-Typen. Jeder Einbaubucht-Typ erlaubt nur bestimmte Arten von Komponenten:
+[ULI]Allgemein: Schiffs- u. Stationsbrücken, Mannschaftsquartiere, Kraftstoffzellen, Reaktoren, Hyperantriebe, Frachträume, Passagierräume, Truppenräume, Bergbaumaschinen, Energiekollektoren und alle anderen[/ULI]
+[ULI]Waffen: Waffen oder Traktorstrahlen[/ULI]
+[ULI]Triebwerke: Triebwerke und Vektortriebwerke[/ULI]
+[ULI]Verteidigung: Panzerung, Schilde oder Schadenskontrolle[/ULI]
+[ULI]Hangars: Andockbuchten, Schiffsbau-Werften oder Jägerbuchten[/ULI]
+[ULI]Sensoren: Scanner, Gegenmaßnahmen, Zielerfassungs-Computer, Erkundungsmodule, Scanner-Störsender[/ULI]
+
+So fügen Sie eine Komponente zu einem Feld hinzu:
+[OLI]wählen Sie die gewünschte Komponente aus der Liste "Verfügbare Komponenten"[/OLI]
+[OLI]suchen Sie in der Liste "Einbaubuchten" eine Einbaubucht des passenden Typs und der passenden Größe[/OLI]
+[OLI]klicken Sie mit der linken Maustaste auf die Einbaubucht, um die Komponente zu platzieren[/OLI]
+
+Sie können auch Folgendes tun:
+[ULI]Wenn Sie den Mauszeiger über ein Feld bewegen, das bereits eine Komponente enthält, wird ein Popup-Vergleichsfenster angezeigt. So können Sie schnell die Unterschiede zwischen den Komponenten sehen[/ULI]
+[ULI]Klicken Sie mit der rechten Maustaste auf ein Feld, um eine vorhandene Komponente zu entfernen[/ULI]
+
+[H3]Externe Einbaubuchten[/H3]
+Beachten Sie, dass einige Komponenten-Einbaubuchten im Vorschaumodell extern sind. Mit anderen Worten, sie sind an der Außenseite des Schiffes oder der Basis zu sehen.
+
+Externe Einbaubuchten werden in der Liste "Einbaubuchten" durch ein 'Ansicht'-Symbol auf der linken Seite angezeigt. Sie können auf das Ansichtssymbol klicken, um die Vorschau so zu drehen, dass das externe Feld angezeigt wird.</MarkupText>
+        <RelatedControlNames>
+          <string>DesignComponentsContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Design Vorschau</StepTitle>
+        <MarkupText>In der Mitte des Bildschirms sehen Sie eine Vorschau des gewählten Designs.
+
+Sie können die Ansicht drehen, indem Sie die rechte Maustaste gedrückt halten und die Maus nach links/rechts und oben/unten bewegen.
+
+Mit dem Scrollrad der Maus können Sie die Vorschau vergrößern oder verkleinern.
+
+[H3]Externe Einbaubucht-Markierungen[/H3]
+Die externen Einbaubuchten werden in der Vorschau durch eine kugelförmige Markierung angezeigt. Die Farbe der Markierung entspricht dem Typ des Feldes.
+
+Sie können die Markierungen für externe Einbaubuchten mit der Schaltfläche rechts neben dem Bereich für taktische Einstellungen ein- und ausschalten.
+
+Sie können ausgewählte Komponenten direkt in die externen Einbaubuchten in der Vorschau platzieren:
+[OLI]wählen Sie eine Komponente in der Liste Verfügbare Komponenten[/OLI]
+[OLI]die gültigen Einbaubuchten werden dann in der Vorschau hervorgehoben[/OLI]
+[OLI]klicken Sie mit der linken Maustaste auf eine gültige Einbaubucht, zu dem Sie die Komponente hinzufügen möchten[/OLI]
+
+Sie können auch wie folgt vorgehen:
+[ULI]Rechtsklick auf eine Feldposition in der Vorschau, um eine vorhandene Komponente aus dem externen Feld zu entfernen[/ULI]
+
+[H3]Triebwerksplatzierung[/H3]
+Beachten Sie, dass beim Hinzufügen von Triebwerken zu einem Schiffsentwurf die tatsächliche Einbaubucht, in der das Triebwerk hinzugefügt wird, von der von Ihnen ausgewählten Einbaubucht abweichen kann. Das liegt daran, dass Triebwerke symmetrisch bleiben müssen und daher immer auf abwechselnden Seiten des Designs hinzugefügt werden.</MarkupText>
+        <RelatedControlNames>
+          <string/>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Design-Übersicht</StepTitle>
+        <MarkupText>In der Design-Übersicht werden alle aktuellen Statistiken zu Ihrem Design angezeigt. Die Werte in diesem Bereich ändern sich, wenn Sie Komponenten zum Rumpf hinzufügen oder daraus entfernen.
+
+Die Design-Übersicht enthält viele Abschnitte, in denen Daten zu verschiedenen Aspekten des Designs angezeigt werden. Viele der Daten enthalten weitere Informationen, wenn Sie mit der Maus darüber fahren.
+
+Oben steht der Designname. Klicken Sie hier, um einen neuen Namen einzugeben.
+
+[H3]Empfehlungen[/H3]
+Als nächstes kommt die Schaltfläche „Empfehlungen“. Hier wird eine Zusammenfassung aller Warnungen oder Fehler im aktuellen Design angezeigt. 
+
+Bewegen Sie den Mauszeiger über die Schaltfläche „Empfehlungen“, um ein größeres Zusammenfassungsfenster einzublenden. Klicken Sie auf die Schaltfläche, um das Empfehlungsfenster zu sperren.
+
+Das Design ist ungültig (und kann nicht gespeichert werden), bis etwaige Fehler behoben sind.
+
+[H3]Kerninformationen zum Design[/H3]
+Als nächstes folgt eine Zusammenfassung der wichtigsten Design-Daten. Dazu gehören Informationen zu den Anschaffungs- und Wartungskosten.
+
+Außerdem werden einige wichtige Anforderungen aufgeführt:
+[ULI]Das Design darf nicht größer sein als die vom Rumpf maximal zulässige Größe[/ULI]
+[ULI]Es muss ausreichend Personal für den Entwurf vorhanden sein[/ULI]
+
+[H3]Bewertung[/H3]
+Der Abschnitt „Bewertung“ fasst Daten zum Design in vier Schlüsselbereichen zusammen: Angriffsstärke, Verteidigungsstärke, Geschwindigkeit und Manöver sowie Scanner.
+
+Bewegen Sie den Mauszeiger über jeden Wert, um eine Aufschlüsselung der Faktoren anzuzeigen, die zur Bewertung in jedem Bereich beitragen.
+
+[H3]Energie[/H3]
+Der Abschnitt „Energie“ fasst die Energieerzeugung, -speicherung und -verteilung im Entwurf zusammen.
+
+Außerdem werden Diagramme angezeigt, die zeigen, wie Energie sowohl bei Unterlichtgeschwindigkeit im Kampf als auch bei Reisen im Hyperraum verbraucht wird. Für Basen wird nur ein Diagramm angezeigt.
+
+Ein wichtiger Wert ist die Energieerzeugungsrate des Reaktors pro Brennstoffeinheit. Dies zeigt die Effizienz des Reaktorbrennstoffverbrauchs, die einen direkten Einfluss darauf hat, wie schnell ein Schiff nachtanken muss.
+
+[H3]Bewegung[/H3]
+Dieser Abschnitt ist nur für Schiffe relevant. Es zeigt die Bewegungsgeschwindigkeit und den Energieverbrauch auf verschiedenen Ebenen an.
+
+Hier werden auch die Sprungreichweite des Hyperantriebs und die Gesamtkraftstoffreichweite angezeigt.
+
+Die Sprunggenauigkeit des Hyperantriebs gibt die minimale Sprung-Ausgangsreichweite an, wenn Sie zu einem Ort reisen, an dem es keine eigene Kolonie oder Basis gibt, z.B. beim Angriff auf einen feindlichen Standort.
+
+Das bedeutet, dass das Schiff den Sprung in etwa dieser Entfernung verlässt und dann mit Unterlichtgeschwindigkeit zum Ziel fliegen muss.
+
+[H3]Waffen[/H3]
+Der Abschnitt „Waffen“ beschreibt die Waffenreichweiten und Schadensraten pro Sekunde für verschiedene Waffenkategorien.
+
+Wenn Sie mit der Maus über die Waffenschadensdiagramme fahren, werden weitere Informationen angezeigt.
+
+Außerdem werden die Kämpferkapazität und die Baurate angezeigt.
+
+[H3]Verteidigung[/H3]
+Im Abschnitt „Verteidigung“ werden die Schild-, Panzerungs- und Schadensreparaturwerte für das Design angezeigt.
+
+Wenn Sie mit der Maus über die Schild- und Panzerungsdiagramme fahren, werden weitere Informationen angezeigt.
+
+Außerdem wird die Stärke der Enterverteidigung angezeigt.
+
+[H3]Zielerfassung und Gegenmaßnahmen[/H3]
+In diesem Abschnitt werden die Ziel- und Gegenmaßnahmen-Boni aufgeführt.
+
+Durch die verbesserte Zielgenauigkeit werden Waffen präziser und treffen ihr Ziel mit größerer Wahrscheinlichkeit.
+
+Durch verbesserte Gegenmaßnahmen ist ein Design besser in der Lage, feindliche Waffen abzuwehren und so Schaden zu vermeiden.
+
+[H3]Sensoren[/H3]
+Der Abschnitt „Sensoren“ beschreibt die Stärke und Reichweite verschiedener Scannertypen:
+[ULI]Allgemeine Kurz- und Langstreckenscanner zur Erkennung entfernter Schiffe[/ULI]
+[ULI]Hyperjump-Verfolgung feindlicher Schiffe, wenn diese von Ihrem Standort wegspringen[/ULI]
+[ULI]Spurenscannen interner Informationen über feindliche Schiffe in der Nähe[/ULI]
+[ULI]Scanner-Störung, die vor dem Scannen durch Feinde schützt[/ULI]
+
+[H3]Industrie[/H3]
+Der Abschnitt „Industrie“ enthält Werte für verschiedene Industriekategorien wie Frachtlagerung, Durchsatz an Andockbuchten, Bergbau, Forschung und andere.
+
+[H3]Boni[/H3]
+Der Abschnitt „Boni“ fasst alle Boni zusammen, die der Rumpf oder Komponenten im Design bieten.
+
+[H3]Zum Bauen erforderliche Ressourcen[/H3]
+In diesem Abschnitt werden die Gesamtressourcen angezeigt, die zum Erstellen einer neuen Kopie dieses Entwurfs erforderlich sind.
+
+Dazu gehören Ressourcen aus dem Rumpf und allen Komponenten des Designs</MarkupText>
+        <RelatedControlNames>
+          <string>DesignSummaryContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Taktische Einstellungen</StepTitle>
+        <MarkupText>Verwenden Sie die Schaltflächen für die taktischen Einstellungen, um die Standardtaktiken für das neue Design festzulegen. Diese Standardtaktiken werden für neue Schiffe und Basen verwendet, die das Design verwenden.
+
+Sobald die Schiffe gebaut sind, können sie ihre eigene Taktik festlegen, aber ihre anfängliche Taktik stammt von ihrem Design.</MarkupText>
+        <RelatedControlNames>
+          <string>TacticsButtonStrip</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Speichern und Beenden</StepTitle>
+        <MarkupText>Wenn Sie alle Komponenten zu Ihrer Design-Vorlage hinzugefügt haben und alle Anforderungen erfüllt sind, klicken Sie auf die Schaltfläche Speichern und Beenden, um zur Hauptansicht zurückzukehren.
+
+Oder Sie klicken auf die Schaltfläche Abbrechen, um zur Hauptansicht zurückzukehren, ohne das aktuelle Design zu speichern.</MarkupText>
+        <RelatedControlNames>
+          <string>Close</string>
+          <string>Save</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
     <Title>Forschung</Title>
     <Steps>
       <TourStep>

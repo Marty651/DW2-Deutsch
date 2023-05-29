@@ -145,9 +145,8 @@ $Nicht_Verwendetes_Beispiel = @(
             "TourItems.xml"
         )
         Pfade = @(
-            "/*/*/Title"
-            "/*/*/Steps/TourStep/StepTitle"
-            "/*/*/Steps/TourStep/MarkupText"
+            "/*/*/Title/Steps/TourStep/StepTitle"
+            "/*/*/Title/Steps/TourStep/MarkupText"
         )
     }
     @{

@@ -48,10 +48,10 @@ ShipMission Description Bombard		;Bombardiere {0}
 ShipMission Description Bombard Prepare		;Bombardieren von {0}
 ShipMission Description Bombard Prepare Waypoint		;{0} bombardieren (Wegpunkt bei {1})
 ShipMission Description Bombard Prepare Refuel		;{0} bombardieren (tanke bei {1})
-ShipMission Description Build		;Baue {0} ({2}) bei {1}
-ShipMission Description BuildRepair		;Baue {0}
+ShipMission Description Build		;Konstruiert {0} ({2}) bei {1}
+ShipMission Description BuildRepair		;Konstruiert {0}
 ShipMission Description BuildRepair Detailed		;Komplettiere Konstruktion von {0} im System {1}
-ShipMission Description Build Coordinates		;Baue {0} ({1}) an diesen Koordinaten
+ShipMission Description Build Coordinates		;Konstruiert {0} ({1}) an diesen Koordinaten
 ShipMission Description Capture		;Erobere {0}
 ShipMission Description Capture Prepare		;Erobern von {0}
 ShipMission Description Capture Prepare Waypoint		;{0} erobern (Wegpunkt bei {1})
@@ -73,8 +73,8 @@ ShipMission Description LoadPopulation		;Lade Kolonisten bei {0}
 ShipMission Description LoadPopulation RACE		;Lade Kolonisten bei {0} ({1})
 ShipMission Description LoadCargo		;Treibstoff laden bei {0}
 ShipMission Description TransferFuel		;Transferiere Treibstoff zu {0}
-ShipMission Description Mine		;Baue {0} ab, lade es bei {1} ab
-ShipMission Description MineLoad		;Baue Treibstoff ab bei {0}
+ShipMission Description Mine		;Baut {0} ab, ladet es bei {1} ab
+ShipMission Description MineLoad		;Baut Treibstoff ab bei {0}
 ShipMission Description Move		;Bewege zu {0}
 ShipMission Description Move Coordinates		;Bewege zu {0}, {1}
 ShipMission Description Patrol		;Patrouilliere {0}
@@ -87,8 +87,8 @@ ShipMission Description Refuel		;Tanke auf bei {0}
 ShipMission Description Repair		;Repariere bei {0}
 ShipMission Description Retire Target		;Zurückziehen nach {0}
 ShipMission Description Retire		;Zurückziehen
-ShipMission Description Retrofit		;Umbauen bei {0}
-ShipMission Description Retrofit With Design		;Umbauen zu {1} at {0}
+ShipMission Description Retrofit		;Umrüsten bei {0}
+ShipMission Description Retrofit With Design		;Umrüsten zu {1} at {0}
 ShipMission Description Scout		;Spähe {0}
 ShipMission Description Scrap		;Verschrotte bei {0}
 ShipMission Description Transport		;Transportiere Fracht von {0} zu {1}
@@ -97,7 +97,7 @@ ShipMission Description Transport Migrants		;Transportiere Migranten von {0} nac
 ShipMission Description Transport Tourists		;Transportiere Touristen von {0} nach {1}
 ShipMission Description UnloadTroops		;Entlade Truppen bei {0}
 ShipMission Description UnloadPassengers		;Passagiere entladen bei {0}
-ShipMission Description ExitYard		;Schiffsbau-Werft verlassen
+ShipMission Description ExitYard		;Schiffs-Werft verlassen
 
 SYSTEMNAME system		;{0} System
 Quality		;Qualität
@@ -134,7 +134,7 @@ Ancient Ruins		;Antike Ruinen
 Recruiting TROOPNAME		;Rekrutiere {0}
 Garrisoned		;Garnisoniert
 complete		;vollständig
-Under Construction		;Im Bau
+Under Construction		;Wird konstruiert
 Size		;Größe
 Click for details		;Klicke für Details
 Click to select		;Klicke zum Auswählen
@@ -158,10 +158,10 @@ Range		;Reichweite
 Avg DPS		;mttl. DPS
 Min DPS		;Min DPS
 Fighters		;Jäger
-Building		;Baut
+Building		;Gebäude
 waiting		;warte
 Docked		;Angedockt
-Awaiting Construction		;Warte auf Bau
+Awaiting Construction		;Warte auf Konstruktion
 Onboard		;An Bord
 Components		;Komponenten
 destroyed		;zerstört
@@ -177,7 +177,7 @@ Asteroid		;Asteroid
 Population		;Bevölkerung
 Others		;Andere
 Total		;Gesamt
-Resources		;Rohstoffe
+Resources		;Ressourcen und deren Abbau
 Development		;Entwicklung
 Approval		;Zustimmung
 Revenue		;Einnahmen
@@ -238,37 +238,37 @@ Ship Automation AutoScout		;Auto-Spähe Systeme
 Ship Automation AutoSpy		;Auto-Spionage bei Feinden
 Ship Automation AutoMigration		;Auto-Migration
 Ship Automation AutoTourism		;Auto-Tourismus
-Ship Automation AutoBuildMiningStations		;Auto-Bergbaustationen bauen
-Ship Automation AutoBuildResearchStations		;Auto-Forschungsstationen bauen
-Ship Automation AutoBuildMonitoringStations		;Auto-Bau Überwachungsstation
-Ship Automation AutoBuildResortBases		;Auto-Erholungsbasis bauen
+Ship Automation AutoBuildMiningStations		;Auto-Bergbaustationen konstruieren
+Ship Automation AutoBuildResearchStations		;Auto-Forschungsstationen konstruieren
+Ship Automation AutoBuildMonitoringStations		;Auto-Konstruktion von Überwachungsstation
+Ship Automation AutoBuildResortBases		;Auto-Erholungsbasis konstruieren
 Ship Automation AutoSalvageShips		;Auto-Bergung
 Ship Automation FullyAutomate		;Voll automatisieren
 
 GameTaskType AssignCharacterMission		;
-GameTaskType QueueBase		;Baue {0} ({1}) um {2} für {3} Credits
-GameTaskType QueueBase Constructor		;Sende {4} um {0} ({1}) bei {2} für {3} Credits zu bauen
+GameTaskType QueueBase		;Konstruiert {0} ({1}) um {2} für {3} Credits
+GameTaskType QueueBase Constructor		;Sende {4} um {0} ({1}) bei {2} für {3} Credits zu konstruieren
 GameTaskType QueueRepairInvestigate		;Repariere und untersuche {0} ({1})
-GameTaskType QueueColonize		;Baue Kolonieschiff und kolonisiere {0}
-GameTaskType CancelQueueBase		;Bau {0} bei {1} abbrechen
+GameTaskType QueueColonize		;konstruiere Kolonieschiff und kolonisiere {0}
+GameTaskType CancelQueueBase		;Konstruktion {0} bei {1} abbrechen
 GameTaskType CancelQueueRepairInvestigate		;Reparieren und untersuchen {0} ({1}) abbrechen
 GameTaskType CancelQueueColonize		;Kolonisierung von {0} abbrechen
 GameTaskType QueueAttackTarget		;Angriff gegen {0} in Warteschleife einreihen
 GameTaskType CancelQueueAttackTarget		;Angriff gegen {0} abbrechen
 GameTaskType QueueClearDangerousLocation		;Warteschlange: Bedrohungsuntersuchung und Räumung bei {0}
 GameTaskType CancelQueueClearDangerousLocation		;Abbrechen: Bedrohungsuntersuchung und Räumung bei {0}
-GameTaskType BuildPlanetaryFacility		;Bauen Sie {0} bei {1} für {2} Credits
-GameTaskType BuildShips		;Baue Schiffe bei {0} für {1} Credits
-GameTaskType BuildShips List		;Baue Schiffe bei {0} für {1} Credits:\n{2}
-GameTaskType BuildShips Single		;Baue {0} ({1}) bei {2} für {3} Credits
-GameTaskType BuildShips Single Anywhere		;Baue {0} ({1}) für {2} Credits
-GameTaskType BuildShips Single Short		;Baue {0} für {1} Credits
-GameTaskType BuildShips Single Short ROLE		;Baue {0} ({2}) für {1} Credits
-GameTaskType BuildShips Anywhere		;Baue Schiffe für {0} Credits
-GameTaskType BuildShips Anywhere List		;Baue Schiffe für {0} Credits:\n{1}
-GameTaskType BuildShips Single Multiple Designs		;{0} aus ausgewählter Design-Vorlage bauen
+GameTaskType BuildPlanetaryFacility		;Baut {0} bei {1} für {2} Credits
+GameTaskType BuildShips		;Konstruiert Schiffe bei {0} für {1} Credits
+GameTaskType BuildShips List		;Konstruiert Schiffe bei {0} für {1} Credits:\n{2}
+GameTaskType BuildShips Single		;Konstruiert {0} ({1}) bei {2} für {3} Credits
+GameTaskType BuildShips Single Anywhere		;Konstruiert {0} ({1}) für {2} Credits
+GameTaskType BuildShips Single Short		;Konstruiert {0} für {1} Credits
+GameTaskType BuildShips Single Short ROLE		;Konstruiert {0} ({2}) für {1} Credits
+GameTaskType BuildShips Anywhere		;Konstruiert Schiffe für {0} Credits
+GameTaskType BuildShips Anywhere List		;Konstruiert Schiffe für {0} Credits:\n{1}
+GameTaskType BuildShips Single Multiple Designs		;{0} aus ausgewählter Designvorlage konstruieren
 
-GameTaskType BuildShips Multiple Designs		;Mehrere {0} Design-Vorlagen verfügbar - zum Auswählen anklicken
+GameTaskType BuildShips Multiple Designs		;Mehrere {0} Designvorlagen verfügbar - zum Auswählen anklicken
 GameTaskType TransferTroopToShip Multiple		;Transferiere {0} zu nahegelegenem Transporter - zum Auswählen anklicken
 
 X x ROLE (DESIGN)		;{0} x {1} ({2})
@@ -285,13 +285,13 @@ GameTaskType DisbandTroop		;Truppeneinheit auflösen ({0})
 GameTaskType DisbandTroop Multiple		;Truppen auflösen
 GameTaskType ScrapShip		;Scuttle {0}
 GameTaskType ScrapShips		;Schiffe abwracken
-GameTaskType FighterBuildFighter		;Baue {0} ({1})
+GameTaskType FighterBuildFighter		;Konstruiert {0} ({1})
 GameTaskType FighterLaunchFighters		;Starte alle {0} von {1}
 GameTaskType FighterRetrieveFighters		;Hole alle {0}s zurück zu {1}
 GameTaskType FighterUpgradeAll		;Alle Jäger auf das neueste Design aufrüsten ({0})
 GameTaskType GenerateCharacter		;
 GameTaskType GiveShip		;Schenke {0} an {1}
-GameTaskType CancelShipConstruction		;Bau von {0} bei {1} abbrechen
+GameTaskType CancelShipConstruction		;Konstruktion von {0} bei {1} abbrechen
 GameTaskType InfluenceForeignColony		;
 GameTaskType InitateContract		;
 GameTaskType InitiateCrashResearch		;Initiiere Blitzforschung in {0}
@@ -316,15 +316,15 @@ GameTaskType RefuelAndRepair		;Betanken und reparieren
 GameTaskType RefuelAndRepair Location		;Betanken und reparieren bei {0}
 GameTaskType RemoveCharacter		;
 GameTaskType RemoveDesign		;
-GameTaskType RetrofitShip No Design		;Umbauen zum letzten Design
-GameTaskType RetrofitShip		;Zum neusten Design ({0} ({1})) umbauen, für {2} credits
-GameTaskType RetrofitShip Short		;Umbau auf {0} ({1}) für {2} Credits
+GameTaskType RetrofitShip No Design		;Umrüsten zum letzten Design
+GameTaskType RetrofitShip		;Zum neusten Design ({0} ({1})) umrüsten, für {2} credits
+GameTaskType RetrofitShip Short		;Umrüsten auf {0} ({1}) für {2} Credits
 GameTaskType RetrofitShip Location		;Zum neusten Design ({0} ({1})) umrüsten, bei {2} für {3} credits
-GameTaskType RetrofitShip Multiple Designs		;Umbau auf das gewählte Design
-GameTaskType RetrofitMultipleShips		;Schiffe umbauen zu neuesten Designs
-GameTaskType RetrofitMultipleShips Location		;Schiffe umbauen zu neusten Designs bei {0}
-GameTaskType RetrofitFleet		;Flotte umbauen zu neusten Designs
-GameTaskType RetrofitFleet Location		;Flotte umbauen zu neusten Designs bei {0}
+GameTaskType RetrofitShip Multiple Designs		;Umrüsten auf das gewählte Design
+GameTaskType RetrofitMultipleShips		;Schiffe umrüsten zu neuesten Designs
+GameTaskType RetrofitMultipleShips Location		;Schiffe umrüsten zu neusten Designs bei {0}
+GameTaskType RetrofitFleet		;Flotte umrüsten zu neusten Designs
+GameTaskType RetrofitFleet Location		;Flotte umrüsten zu neusten Designs bei {0}
 GameTaskType RetireMultipleShips		;Schiffe ausmustern
 GameTaskType TopupFleet		;Flotte mit Schiffen aufstocken
 GameTaskType HonorDefenseTreaty		;Verteidigungsabkommen einhalten
@@ -366,11 +366,11 @@ GameTaskType SetTroopUngarrison Multiple		;Mobilisiere Truppen
 GameTaskType TradeItems		;
 GameTaskType TransferCharacter		;
 GameTaskType UI_ChangeZoom		;
-GameTaskType UI_ColonyBuildFacility		;Baue Einrichtungen auf {0}
+GameTaskType UI_ColonyBuildFacility		;Baut Einrichtungen auf {0}
 GameTaskType UI_GotoLocation		;
 GameTaskType UI_MoveView		;
 GameTaskType UI_ReturnToTop		;Zurück nach oben
-GameTaskType UI_ShowBuildOptions		;Baue neues Schiff oder Basis
+GameTaskType UI_ShowBuildOptions		;Konstruiere neues Schiff oder Basis
 GameTaskType UI_ShowFighterOptions		;Jäger verwalten
 GameTaskType UI_NextTasks		;Nächstes
 GameTaskType UI_PreviousTasks		;Vorheriges
@@ -386,21 +386,21 @@ GameTaskType Short AssignCharacterMission		;Mission zuweisen
 GameTaskType Short AssignFleetMission		;Mission zuweisen
 GameTaskType Short AssignShipMission		;Mission zuweisen
 GameTaskType Short ClearShipMission		;Stop
-GameTaskType Short QueueBase		;Basis bauen
+GameTaskType Short QueueBase		;Basis konstruieren
 GameTaskType Short QueueRepairInvestigate		;Schiff oder Basis reparieren und untersuchen
 GameTaskType Short QueueColonize		;Kolonisiere {0}
-GameTaskType Short CancelQueueBase		;Baubasis abbrechen
+GameTaskType Short CancelQueueBase		;Konstruktion von Basis abbrechen
 GameTaskType Short CancelQueueRepairInvestigate		;Reparatur und Untersuchung abbrechen
 GameTaskType Short CancelQueueColonize		;Kolonisierung abbrechen
 GameTaskType Short QueueAttackTarget		;Angriff in Warteschleife
 GameTaskType Short CancelQueueAttackTarget		;Angriff abbrechen
 GameTaskType Short QueueClearDangerousLocation		;Warteschlange: gefährliche Position löschen
 GameTaskType Short CancelQueueClearDangerousLocation		;Abbrechen: gefährliche Position löschen
-GameTaskType Short BuildPlanetaryFacility		;Baue {0}
-GameTaskType Short BuildShips		;Baue Schiffe
-GameTaskType Short BuildShips Single		;Baue Schiff
-GameTaskType Short BuildShips Base		;Basis bauen
-GameTaskType Short BuildShips Anywhere		;Baue Schiffe
+GameTaskType Short BuildPlanetaryFacility		;Baut {0}
+GameTaskType Short BuildShips		;Konstruiert Schiffe
+GameTaskType Short BuildShips Single		;Konstruiert Schiff
+GameTaskType Short BuildShips Base		;Basis konstruieren
+GameTaskType Short BuildShips Anywhere		;Konstruiert Schiffe
 GameTaskType Short ColonyTaxUp		;Erhöhe Steuersatz der Kolonie
 GameTaskType Short ColonyTaxDown		;Verringere Steuersatz der Kolonie
 GameTaskType Short CreateNewFleet		;Neue Flotte erstellen
@@ -416,13 +416,13 @@ GameTaskType Short DisbandTroop		;Truppe auflösen
 GameTaskType Short DisbandTroop Multiple		;Truppe auflösen
 GameTaskType Short ScrapShip		;Schiff abwracken
 GameTaskType Short ScrapShips		;Schiffe abwracken
-GameTaskType Short FighterBuildFighter		;Baue Jäger
+GameTaskType Short FighterBuildFighter		;Konstruiert Jäger
 GameTaskType Short FighterLaunchFighters		;Alle Jäger starten
 GameTaskType Short FighterRetrieveFighters		;Alle Jäger zurückholen
 GameTaskType Short FighterUpgradeAll		;Alle Jäger aufrüsten
 GameTaskType Short GenerateCharacter		;Charakter generieren
 GameTaskType Short GiveShip		;Schiff verschenken
-GameTaskType Short CancelShipConstruction		;Bau abbrechen
+GameTaskType Short CancelShipConstruction		;Konstruktion abbrechen
 GameTaskType Short InfluenceForeignColony		;Kolonie beeinflussen
 GameTaskType Short InitateContract		;Vertrag initiieren
 GameTaskType Short InitiateCrashResearch		;Initiiere Blitzforschung
@@ -442,14 +442,14 @@ GameTaskType Short RecruitTroops		;Rekrutiere Truppen
 GameTaskType Short RefuelAndRepair		;Betanken und reparieren
 GameTaskType Short RefuelAndRepair Location		;Betanken und reparieren
 GameTaskType Short RemoveCharacter		;Charakter entfernen
-GameTaskType Short RemoveDesign		;Design-Vorlage löschen
+GameTaskType Short RemoveDesign		;Designvorlage löschen
 GameTaskType Short RetrofitShip No Design		;Kein Umrüsten
 GameTaskType Short RetrofitShip		;Umrüsten
-GameTaskType Short RetrofitShip Location		;Umbau
-GameTaskType Short RetrofitMultipleShips		;Schiffe umbauen
-GameTaskType Short RetrofitMultipleShips Location		;Schiffe umbauen
-GameTaskType Short RetrofitFleet		;Flotte umbauen
-GameTaskType Short RetrofitFleet Location		;Flotte umbauen
+GameTaskType Short RetrofitShip Location		;Umrüsten
+GameTaskType Short RetrofitMultipleShips		;Schiffe umrüsten
+GameTaskType Short RetrofitMultipleShips Location		;Schiffe umrüsten
+GameTaskType Short RetrofitFleet		;Flotte umrüsten
+GameTaskType Short RetrofitFleet Location		;Flotte umrüsten
 GameTaskType Short RetireMultipleShips		;Schiffe ausmustern
 GameTaskType Short TopupFleet		;Flotte aufstocken
 GameTaskType Short HonorDefenseTreaty		;Verteidigungsabkommen einhalten
@@ -514,8 +514,8 @@ GameTaskType Short UI_CycleSelectionNext		;Nächste Geschichte auswählen
 GameTaskType Short UI_CycleSelectionPrevious		;Vorherige Geschichte auswählen
 GameTaskType Short UI_CycleColonies		;Zur nächsten Kolonie
 GameTaskType Short UI_CycleColoniesBack		;Zur vorherigen Kolonie
-GameTaskType Short UI_CycleConstructionYards		;Zu nächster Schiffsbau-Werft wechseln
-GameTaskType Short UI_CycleConstructionYardsBack		;Zu vorheriger Schiffsbau-Werft wechseln
+GameTaskType Short UI_CycleConstructionYards		;Zu nächster Schiffs-Werft wechseln
+GameTaskType Short UI_CycleConstructionYardsBack		;Zu vorheriger Schiffs-Werft wechseln
 GameTaskType Short UI_CycleConstructionShips		;Nächstes Konstruktions-Schiff wählen
 GameTaskType Short UI_CycleConstructionShipsBack		;Vorheriges Konstruktions-Schiff wählen
 GameTaskType Short UI_CycleMilitaryShips		;Nächstes Militärschiff wählen
@@ -651,14 +651,14 @@ TacticsRoleWithinFleet Attack		;Kern
 TacticsRoleWithinFleet CloseEscort		;Geleitschutz
 TacticsRoleWithinFleet Picket		;Wachposten
 
-No buildable facilities		;Keine baubaren Einrichtungen
+No buildable facilities		;Keine konstruierbaren Einrichtungen
 
-Another empire has already built a base here		;Ein anderes Reich hat hier bereits eine Basis gebaut
+Another empire has already built a base here		;Ein anderes Reich hat hier bereits eine Basis konstruiert
 Already have a base of this type here		;Du hast bereits eine Basis dieses Typs hier
 Location is in another empires territory		;Standort befindet sich im Gebiet eines anderen Reiches
 No scenery bonus here		;Kein Landschaftsbonus hier
 No research bonuses here		;Keine Forschungsboni hier
-Construction Ship already building here		;Konstruktions-Schiff '{0}' baut hier bereits {1}
+Construction Ship already building here		;Konstruktions-Schiff '{0}' konstruiert hier bereits {1}
 Colony Ship already colonizing here		;Kolonieschiff '{0}' kolonisiert hier bereits
 Already have a facility of this type here		;Hier gibt es bereits eine Einrichtung dieser Art
 Planetary Facility Family Exclusive Explanation		;Sie können nur EINE der folgenden Einrichtungen in einer Kolonie bauen: {0}.\nDer Bau einer dieser Einrichtungen verhindert, dass die anderen gebaut werden
@@ -667,13 +667,13 @@ Can only build X of these facilities in the galaxy		;Es kann nur {0} dieser Einr
 Cannot build this facility at this planet type		;Diese Einrichtung kann auf diesem Planetentyp nicht gebaut werden
 We have the wrong government to build this facility		;Wir haben die falsche Regierung, um diese Einrichtung zu bauen
 Cannot afford the cost to build this facility		;Die Kosten für diese Einrichtung können sich nicht leisten
-Already retrofitting		;Bereits umgebaut
-Already using latest design		;Bereits neueste Design-Vorlage verwendet
-All Ships already using latest design		;Alle Schiffe benutzen bereits neustes Design-Vorlage
-No construction yard available		;Keine Schiffsbau-Werft verfügbar
-No construction yard available with sufficient resources		;Keine Schiffsbau-Werft mit ausreichend Rohstoffen vorhanden
-Cannot retrofit until current construction finished		;Kann nicht umbauen, bis die aktuelle Konstruktion abgeschlossen ist
-No ships need retrofitting		;Keine Schiffe benötigen Umbau
+Already retrofitting		;Bereits umgerüstet
+Already using latest design		;Bereits neueste Designvorlage verwendet
+All Ships already using latest design		;Alle Schiffe benutzen bereits neustes Designvorlage
+No construction yard available		;Keine Schiffs-Werft verfügbar
+No construction yard available with sufficient resources		;Keine Schiffs-Werft mit ausreichend Rohstoffen vorhanden
+Cannot retrofit until current construction finished		;Kann nicht umrüsten, bis die aktuelle Konstruktion abgeschlossen ist
+No ships need retrofitting		;Keine Schiffe benötigen Umrüstung
 No fleets to join		;Keine Flotten zum beitreten
 Cannot afford recruitment cost for this troop		;Kann sich Rekrutierungskosten für diese Truppe nicht leisten
 Already lead ship for fleet		;Bereits Führungsschiff für Flotte
@@ -681,7 +681,7 @@ No X available for launch		;Keine {0}s zum Starten verfügbar
 No X available for returning		;Keine {0}s für die Rückkehr verfügbar
 No refuel location available		;Kein Standort zur Betankung verfügbar
 No repair location available		;Kein Standort zur Reparatur verfügbar
-Cannot afford to build		;Kann es sich nicht leisten zu bauen
+Cannot afford to build		;Kann es sich nicht leisten zu konstruieren
 Missing resources X		;Fehlende Rohstoffe: {0}
 Tax rate already zero		;Steuersatz ist bereits Null
 Tax rate already at maximum		;Steuersatz ist bereits maximal
@@ -699,14 +699,14 @@ Troops must be at a colony to be garrisoned		;Truppen müssen in einer Kolonie s
 Click for detailed approval breakdown		;Klicke für detaillierte Analyse der Zustimmung
 
 Queued for colonization		;In der Warteschleife für Kolonisierung
-BASEROLE queued to build here		;{0} in Warteschleife, um hier gebaut zu werden
+BASEROLE queued to build here		;{0} in Warteschleife, um hier konstruiert zu werden
 SHIP colonizing here		;{0} kolonisiert hier
-SHIP building BASEROLE here		;{0} baut {1} hier
+SHIP building BASEROLE here		;{0} konstruiert {1} hier
 Already at start		;Bereits am Anfang
 Already at end		;Bereits am Ende
-Move SHIP up construction wait queue		;Verschiebe {0} in der Bauwarteschleife nach vorne
-Move SHIP down construction wait queue		;Verschiebe {0} in der Bauwarteschleife nach hinten
-Move SHIP to top of construction wait queue		;{0} an den Anfang der Bauwarteschleife setzen
+Move SHIP up construction wait queue		;Verschiebe {0} in der Warteschleife nach vorne
+Move SHIP down construction wait queue		;Verschiebe {0} in der Warteschleife nach hinten
+Move SHIP to top of construction wait queue		;{0} an den Anfang der Warteschleife setzen
 Move ITEM up queue		;Bewege {0} rauf in Warteschleife
 Move ITEM down queue		;Bewege {0} runter in Warteschleife
 Move ITEM to top of queue		;{0} an den Anfang der Warteschleife setzen
@@ -728,11 +728,11 @@ ColonizationPopulationAmount		;Bevölkerungsanzahl
 CommandMaintenanceSavings		;Unterhaltseinsparungen
 CommerceTradeBonus		;Handelsbonus
 ComponentCountermeasuresBonus		;Waffen Gegenmaßnahmen
-ComponentIonDefense		;Ionenabwehr für´s Bauteil
+ComponentIonDefense		;Ionenabwehr der Komponente
 ComponentTargetingBonus		;Waffen Zielerfassung
-ConstructionBuildSpeed		;Baugeschwindigkeit
-ConstructionRepairSpeed		;Reparatur Geschwindigkeit
-ConstructionYardCount		;Schiffsbau-Werften
+ConstructionBuildSpeed		;Konstruktionsgeschwindigkeit
+ConstructionRepairSpeed		;Reparatur-Geschwindigkeit
+ConstructionYardCount		;Schiffs-Werften
 CountermeasuresBonus		;Gegenmaßnahmen
 CountermeasuresFleetBonus		;Flotten-Gegenmaßnahmen
 CrewCapacity		;Crew Kapazität
@@ -755,7 +755,7 @@ ExtractionRate		;Bergbaurate
 ExtractionRangeAsteroid		;Bergbaureichw. Asteroiden
 RemoteFuelTransferRate		;Sprit Transferrate
 RemoteFuelTransferRange		;Sprit Transferreichweite
-FighterBayBuildRate		;Jäger Baurate
+FighterBayBuildRate		;Jäger Konstruktionsrate
 FighterBayCapacity		;Jäger Kapazität
 FighterBayRepairRate		;Jäger Reparaturrate
 FuelStorageCapacity		;Sprit Kapazität
@@ -882,11 +882,11 @@ BonusType ShipMaintenanceCivilian		;Wartungsersparnis Zivilschiffe
 BonusType ShipMaintenanceMilitary		;Wartungsersparnis für Militärschiffe
 BonusType ShipMaintenanceBases		;Wartungsersparnis Basen
 BonusType ShipMaintenanceAll		;Wartungsersparnis Schiffe
-BonusType ConstructionSpeedAllShips		;Schiffsbaugeschwindigkeit
-BonusType ConstructionSpeedCivilian		;Baugeschwindigkeit Zivilschiffe
-BonusType ConstructionSpeedMilitary		;Baugeschwindigkeit Militärschiffe
-BonusType ConstructionSpeedColonyShip		;Baugeschwindigkeit Kolonieschiffe
-BonusType ConstructionSpeedFacility		;Baugeschwindigkeit Einrichtungen
+BonusType ConstructionSpeedAllShips		;Konstruktionsgeschwindigkeit Schiffe
+BonusType ConstructionSpeedCivilian		;Konstruktionsgeschwindigkeit Zivilschiffe
+BonusType ConstructionSpeedMilitary		;Konstruktionsgeschwindigkeit Militärschiffe
+BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschwindigkeit Kolonieschiffe
+BonusType ConstructionSpeedFacility		;Bau-Geschwindigkeit Einrichtungen
 BonusType ColonyCorruptionReduction		;Kolonie Korruptionsreduzierung
 BonusType ColonyHappiness		;Kolonie Zufriedenheit
 BonusType ColonyIncome		;Kolonie Einnahmen
@@ -906,16 +906,16 @@ BonusType RepairRate		;Reparaturrate
 
 BonusType ResearchAll		;Alle Forschungen
 BonusType ResearchArmor		;Panzerungs-Forschung
-BonusType ResearchTroops		;Truppenforschung
-BonusType ResearchConstruction		;Bauforschung
-BonusType ResearchEngines		;Triebwerksforschung
-BonusType ResearchHyperDrive		;Hyperantriebsforschung
-BonusType ResearchReactor		;Reaktorforschung
-BonusType ResearchSensors		;Sensorforschung
-BonusType ResearchShields		;Schildforschung
-BonusType ResearchWeapons		;Waffenforschung
-BonusType ResearchHighTech		;HighTech Forschung
-BonusType ResearchIndustrial		;Industrieforschung
+BonusType ResearchTroops		;Truppen-Forschung
+BonusType ResearchConstruction		;Konstruktions-Forschung
+BonusType ResearchEngines		;Triebwerks-Forschung
+BonusType ResearchHyperDrive		;Hyperantriebs-Forschung
+BonusType ResearchReactor		;Reaktor-Forschung
+BonusType ResearchSensors		;Sensor-Forschung
+BonusType ResearchShields		;Schild-Forschung
+BonusType ResearchWeapons		;Waffen-Forschung
+BonusType ResearchHighTech		;HighTech-Forschung
+BonusType ResearchIndustrial		;Industrie-Forschung
 
 BonusType ResearchThresholdAll		;Forschungsschwerpunkt - Alle Bereiche
 BonusType ResearchThresholdArmor		;Forschungsschwerpunkt - Panzerung
@@ -1037,7 +1037,7 @@ ComponentCategory WeaponStandoff		;Distanzwaffe
 
 Possess Artifacts		;Artefakte besitzen
 Government must be X		;Regierung muss {0} sein
-Built Facilities		;Gebaude Einrichtungen
+Built Facilities		;Gebaute Einrichtungen
 X% Y bonuses from Research locations		;{0} {1} Boni von Forschungsstandorten
 X% Y bonuses		;{0} {1} Boni
 X% Y bonuses from all sources		;{0} {1} Boni aus allen Quellen
@@ -1050,16 +1050,16 @@ Not RACE		;Nicht {0}
 
 Maintenance		;Unterhalt
 COST per year		;{0}/Jahr
-Build Cost		;Baukosten
-Can only build X per empire		;Kann nur {0} mal im Reich gebaut werden
-Can only build X per galaxy		;Kann nur {0} mal in der Galaxie gebaut werden
-Can only build at PLANETTYPES		;Kann nur bei {0} gebaut werden
-Can only build with GOVERNMENTS		;Kann nur mit {0} Regierungen gebaut werden
+Build Cost		;Konstruktionskosten
+Can only build X per empire		;Kann nur {0} mal im Reich konstruiert werden
+Can only build X per galaxy		;Kann nur {0} mal in der Galaxie konstruiert werden
+Can only build at PLANETTYPES		;Kann nur bei {0} konstruiert werden
+Can only build with GOVERNMENTS		;Kann nur mit {0} Regierungen konstruiert werden
 
 ColonyCorruptionReductionProjectionRange		;Korruption Reduzierungsreichweite
 ColonyIncomeDrainRatio		;Kolonie Einnahmen abschöpfen
-ColonyInfluenceLevelToBuild		;Einfluss zum Bau
-FighterBuildRate		;Jäger Baurate
+ColonyInfluenceLevelToBuild		;Einfluss auf Konstruktion
+FighterBuildRate		;Jäger-Konstruktionsrate
 FighterCapacity		;Jäger Kapazität
 FighterRepairRate		;Jäger Reparaturrate
 PlanetaryShieldMaximumDamageAbsorbed		;Schildschaden absorbiert
@@ -1131,7 +1131,7 @@ CRASH PROGRAM (X speed)		;BLITZFORSCHUNG ({0}x Geschwindigkeit)
 X% Complete		;{0} abgeschlossen
 Must first research PROJECTS		;{0} muss erst erforscht werden
 We have X		;Wir haben {0}
-Unbuilt Facilities		;Ungebaute Einrichtungen
+Unbuilt Facilities		;Nicht gebaute Einrichtungen
 Missing Artifacts		;Fehlende Artefakte
 Not enough money		;Nicht genug Geld
 Missing Resources		;Fehlende Rohstoffe
@@ -1164,7 +1164,7 @@ ComponentCategory CargoBay Short		;FRA
 ComponentCategory Colonization Short		;KOL
 ComponentCategory CommandCenter Short		;KMZ
 ComponentCategory CommerceCenter Short		;HAZ
-ComponentCategory Construction Short		;BAU
+ComponentCategory Construction Short		;KON
 ComponentCategory Countermeasures Short		;GMN
 ComponentCategory CountermeasuresFleet Short		;GMF
 ComponentCategory CrewQuarters Short		;CRW
@@ -1339,10 +1339,10 @@ Crew Strength		;Crew Stärke
 Targeting & Countermeasures		;Zielerfassung & Gegenmaßnahmen
 Industry		;Industrie
 
-Load Designs		;Design-Vorlagen laden
-Load Designs Explanation		;Wähle eine Design-Vorlagen-Datei zum Laden aus der Liste unten.
-Save Designs		;Design-Vorlagen speichern
-Save Designs Explanation		;Gib einen Dateinamen ein oder wähle einen aus, um die Design-Vorlagen zu speichern.
+Load Designs		;Designvorlagen laden
+Load Designs Explanation		;Wähle eine Designvorlagen-Datei zum Laden aus der Liste unten.
+Save Designs		;Designvorlagen speichern
+Save Designs Explanation		;Gib einen Dateinamen ein oder wähle einen aus, um die Designvorlagen zu speichern.
 Load		;Laden
 Save		;Speichern
 Save and Exit		;Speichern und Beenden
@@ -1360,27 +1360,27 @@ Auto Design		;Hülle Upgrade
 Status		;Status
 Edit		;Ändern
 
-All Designs		;Alle Design-Vorlagen
+All Designs		;Alle Designvorlagen
 All Types		;Alle Typen
-Latest Designs		;Neueste Design-Vorlagen
-Latest Buildable Designs		;Neueste baubare Design-Vorlagen
-Active Designs		;Aktive Design-Vorlagen
-Inactive Designs		;Inaktive Design-Vorlagen
-Active Buildable Designs		;Aktive baubare Design-Vorlagen
+Latest Designs		;Neueste Designvorlagen
+Latest Buildable Designs		;Neueste konstruierbare Designvorlagen
+Active Designs		;Aktive Designvorlagen
+Inactive Designs		;Inaktive Designvorlagen
+Active Buildable Designs		;Aktive konstruierbare Designvorlagen
 
-Latest Designs Per Role		;Lezte Design-Vorlagen Pro Rolle
-Latest Buildable Designs Per Role		;Lezte Baubare Design-Vorlagen Pro Rolle
-Latest Designs Per Hull		;Lezte Design-Vorlagen Pro Hülle
-Latest Buildable Designs Per Hull		;Lezte Baubare Design-Vorlagen Pro Hülle
+Latest Designs Per Role		;Lezte Designvorlagen Pro Rolle
+Latest Buildable Designs Per Role		;Lezte konstruierbare Designvorlagen Pro Rolle
+Latest Designs Per Hull		;Lezte Designvorlagen Pro Hülle
+Latest Buildable Designs Per Hull		;Lezte konstruierbare Designvorlagen Pro Hülle
 
 
 
-State Ships		;Staatsschiffe
+State Ships		;Staatliche Schiffe
 State Bases		;Staatliche Basen
-Civilian Ships		;Zivilschiffe
+Civilian Ships		;Zivile Schiffe
 Civilian Bases		;Zivile Basen
-Designs		;Design-Vorlagen
-Designs Explanation		;Wähle eine Design-Vorlage zur Bearbeitung aus oder füge eine neue Design-Vorlage hinzu.
+Designs		;Designvorlagen
+Designs Explanation		;Wähle eine Designvorlage zur Bearbeitung aus oder füge eine neue Designvorlage hinzu.
 Component Bays		;Komponenten-Einbaubuchten
 Select		;Auswählen
 Select Ship Hull		;Schiffshülle wählen
@@ -1388,7 +1388,7 @@ Select Ship Hull Explanation		;Wähle eine Schiffshülle aus, auf der das neue D
 Add New		;Neues hinzufügen
 Copy As New		;Als Neu kopieren
 Max Size		;Max Größe
-New ROLE		;Baue {0}
+New ROLE		;Neue {0}
 Select Ship Hull and create new Design		;Schiffshülle auswählen und neues Design erstellen
 Delete Selected		;Auswahl löschen
 Bonuses		;Boni
@@ -1406,7 +1406,7 @@ X Strike Force		;{0} Einsatzflotte
 X Defense Force		;{0} Verteidigungsflotte
 X Invasion Fleet		;{0} Invasionsflotte
 
-Retrofit		;Umbau
+Retrofit		;Umrüstung
 Tech Level X		;Tech Level {0}
 Regenerate Tech Tree - Visible		;Tech-Baum regenerieren - Sichtbar
 Regenerate Tech Tree - Blind		;Tech-Baum regenerieren - Blind
@@ -1463,25 +1463,25 @@ Reserved Abbreviation		;Rsrv
 Other		;Andere
 On Hand		;Vorrätig
 Maintain		;Lagern
-Construction		;Bau
+Construction		;Konstruktion
 Sources		;Quellen
 On Hand Explanation		;Die Menge dieser Ressource, die an diesem Ort verfügbar ist. 'Reservierte' Ressourcen sind hier nicht enthalten.
 Maintain Explanation		;Der Lagerbestand, der für diese Ressource an diesem Ort aufrechterhalten werden soll. Frachter werden automatisch Ressourcen hierher transportieren, um diesen Lagerbestand aufrechtzuerhalten.
 Reserved Explanation		;Die Menge dieser Ressource, die für den Bau oder andere Verwendungen an diesem Ort reserviert ist.
 Other Empires Explanation		;Die Menge dieser Ressource, die für die Abholung durch andere Reiche 'reserviert' ist, d.h. sie haben diese Ressourcen gekauft und ein Frachter wird diese bald zum Transport abholen.
-Sources Explanation		;Die Anzahl der ausgebeuteten Quellen, die unser Reich für diese Ressource hat, d.h. die Anzahl der verschiedenen Bergbaustationen und Kolonien, die diese Ressource produzieren. Außerdem wird die Anzahl der bekannten Quellen für die Ressource angezeigt.\n\nDazu gehören auch alle fremden Quellen durch Freihandelsabkommen oder Verträge zur Ressourcenversorgung.\n\nWenn die Anzahl der Quellen null ist, dann ist die einzige Möglichkeit, diese Ressource von Ihren mobilen Bergbauschiffen oder durch Handel mit unabhängigen Kolonien zu erhalten.
-Resource Stock Levels		;Rohstoff Lagerbestände
+Sources Explanation		;Die Anzahl der ausgebeuteten Quellen, die unser Reich für diese Ressource hat, d.h. die Anzahl der verschiedenen Bergbau-Stationen und Kolonien, die diese Ressource produzieren. Außerdem wird die Anzahl der bekannten Quellen für die Ressource angezeigt.\n\nDazu gehören auch alle fremden Quellen durch Freihandelsabkommen oder Verträge zur Ressourcenversorgung.\n\nWenn die Anzahl der Quellen null ist, dann ist die einzige Möglichkeit, diese Ressource von Ihren mobilen Bergbau-Schiffen oder durch Handel mit unabhängigen Kolonien zu erhalten.
+Resource Stock Levels		;Ressourcen-Lagerbestände
 
-Fuel Resources		;Treibstoffressourcen
-Construction Resources		;Baurohstoffe
-Luxury Resources		;Luxusrohstoffe
-Resources & Stock Levels		;Rohstoffe & Lagerbestände
-Show All Resources		;Alle Rohstoffe anzeigen
-Hide Unused Resources		;Ungenutzte Rohstoffe ausblenden
+Fuel Resources		;Treibstoff-Ressourcen
+Construction Resources		;Konstruktions-Resoucen
+Luxury Resources		;Luxus-Ressourcen
+Resources & Stock Levels		;Ressourcen & Lagerbestände
+Show All Resources		;Alle Ressourcen anzeigen
+Hide Unused Resources		;Ungenutzte Ressourcen ausblenden
 Amount Below Stock Level		;Anzahl unterhalb des Lagerbestands
 Amount Below Stock Level Explanation		;Der verfügbare Betrag für diese Ressource liegt derzeit unter dem Lagerbestand
 Mined Here		;Hier abgebaut
-Mined Here Explanation		;Dieser Rohstoff wird hier abgebaut
+Mined Here Explanation		;Diese Ressource wird hier abgebaut
 At Capacity Limit		;An Kapazitätsgrenze
 At Capacity Limit Explanation		;Diese Ressource ist an der Frachtkapazitätsgrenze für diesen Ort
 Resource Own Sources		;{0} Quellen
@@ -1522,8 +1522,8 @@ Mining		;Bergbau
 
 Mining Ships		;Bergbauschiffe
 Fuel Tankers		;Treibstofftanker
-New Mining Locations		;Neue Bergbau Standorte
-Mining Locations		;Bergbau Standorte
+New Mining Locations		;Neue Bergbau-Standorte
+Mining Locations		;Bergbau-Standorte
 
 Supply		;Versorgung
 Adequate		;Ausreichend
@@ -1541,8 +1541,8 @@ Number of resources with less than X months supply		;Anzahl der Rohstoffe mit we
 Required Rate		;Benötigte Rate
 Current		;Aktuell
 Required		;Benötigt
-Fuel and Construction Resources In Use		;Treibstoff und Baumaterialien Im Einsatz
-Resources In Use		;Genutzte Rohstoffe
+Fuel and Construction Resources In Use		;Treibstoff und Konstruktions-Materialien Im Einsatz
+Resources In Use		;Genutzte Ressource
 Demand		;Bedarf
 Production Shortage		;Produktionsengpass
 Idle Ships		;Untätige Schiffe
@@ -1578,7 +1578,7 @@ IncomeType Raiding		;Plünderungen
 IncomeType Missions		;Missionen
 IncomeType ColonyCrime		;Kolonie Kriminalität
 IncomeType Tourism		;Tourismus
-IncomeType ShipBuilding		;Schiffsbau
+IncomeType ShipBuilding		;Schiffskonstruktion
 IncomeType Discoveries		;Entdeckungen
 IncomeType TradeBonuses		;Handelsboni
 IncomeType PrivateColonyRevenue		;Private Kol. Einnahmen
@@ -1592,21 +1592,21 @@ IncomeType Raiding Explanation		;Geld, das durch Überfälle auf Kolonien oder B
 IncomeType Missions Explanation		;Geld, das durch erfolgreiche verdeckte Missionen verdient wurde
 IncomeType ColonyCrime Explanation		;Reichtum, der über kriminelle Aktivitäten aus Kolonien abgeschöpft wird. Je höher die Kontrollstufe einer Kolonie, desto mehr Geld wird gestohlen
 IncomeType Tourism Explanation		;Geld, das von Touristen verdient wird, die in Ihren Erholungsbasen übernachten
-IncomeType ShipBuilding Explanation		;Bau von Schiffen für andere Reiche, einschließlich unabhängiger Kolonien
+IncomeType ShipBuilding Explanation		;Konstruktion von Schiffen für andere Reiche, einschließlich unabhängiger Kolonien
 IncomeType Discoveries Explanation		;Geld, das in alten Ruinen und verlassenen Schiffen und Basen entdeckt wurde
 IncomeType TradeBonuses Explanation		;Bonuseinnahmen aus dem Gesamtvolumen des Handels mit anderen Reichen
 IncomeType PrivateColonyRevenue Explanation		;Private Einnahmen Ihrer Kolonien. Diese privaten Kolonieerträge werden besteuert, um Ihrem Reich Koloniesteuereinnahmen zu bescheren
 
 ExpenseType ColonyGrowthFunding		;Kol.Wachstum
 ExpenseType Research		;Forschung
-ExpenseType ShipMaintenance		;Schiff & Basen Unterhalt
-ExpenseType ShipMaintenance Short		;Schiff Unterhalt
-ExpenseType TroopMaintenance		;Truppen Unterhalt
-ExpenseType FacilityMaintenance		;Einrichtungen Unterhalt
-ExpenseType ShipBuilding		;Schiffsbau
-ExpenseType TroopRecruitment		;Truppenrekrutierung
-ExpenseType FacilityBuilding		;Einrichtungsbau
-ExpenseType ResourceTrading		;Ressourcenhandel
+ExpenseType ShipMaintenance		;Schiffs- u. Basen-Unterhalt
+ExpenseType ShipMaintenance Short		;Schiffs-Unterhalt
+ExpenseType TroopMaintenance		;Truppen-Unterhalt
+ExpenseType FacilityMaintenance		;Gebäude-Unterhalt
+ExpenseType ShipBuilding		;Schiffs-Konstruktion
+ExpenseType TroopRecruitment		;Truppen-Rekrutierung
+ExpenseType FacilityBuilding		;Einrichtungs-Bau
+ExpenseType ResourceTrading		;Ressourcen-Handel
 ExpenseType Fuel		;Spritkosten
 ExpenseType Information		;Informationen
 ExpenseType Tribute		;Tribut gezahlt
@@ -1616,7 +1616,7 @@ ExpenseType PrivateGeneralExpenditure		;Allgemeine Ausgaben
 ExpenseType PrivateColonyTax		;Kolonie Steuern
 ExpenseType PrivateShipMaintenance		;Unterhalt Privatschiffe
 ExpenseType PrivateTourism		;Privater Tourismus
-ExpenseType PrivateShipBuilding		;Privater Schiffsbau
+ExpenseType PrivateShipBuilding		;Private Schiffs-Konstruktion
 ExpenseType PrivateFuel		;Privater Sprit
 
 ExpenseType ColonyGrowthFunding Explanation		;Kolonien wachsen normalerweise langsam, aber Sie können ihr Wachstum beschleunigen, indem Sie Finanzmittel bereitstellen.
@@ -1624,7 +1624,7 @@ ExpenseType Research Explanation		;Die Forschungsgeschwindigkeit wird durch die 
 ExpenseType ShipMaintenance Explanation		;Unterhaltskosten für staatliche Schiffe und Basen
 ExpenseType TroopMaintenance Explanation		;Unterhaltskosten für Truppen
 ExpenseType FacilityMaintenance Explanation		;Unterhaltskosten für planetare Einrichtungen
-ExpenseType ShipBuilding Explanation		;Anschaffungskosten für den Bau neuer staatlicher Schiffe und Basen
+ExpenseType ShipBuilding Explanation		;Anschaffungskosten für die Konstruktion neuer staatlicher Schiffe und Basen
 ExpenseType TroopRecruitment Explanation		;Rekrutierungskosten für neue Truppen
 ExpenseType FacilityBuilding Explanation		;Baukosten für neue planetarische Einrichtungen
 ExpenseType ResourceTrading Explanation		;Kosten für den Kauf von Ressourcen von anderen Reichen. Andere Reiche verkaufen ihre überschüssigen Ressourcen an Sie, wenn Sie ein Freihandelsabkommen oder einen Ressourcenliefervertrag mit ihnen haben. Auch unabhängige Kolonien verkaufen ihre überschüssigen Ressourcen an jedes Reich.
@@ -1637,7 +1637,7 @@ ExpenseType PrivateGeneralExpenditure Explanation		;Allgemeine Ausgaben im priva
 ExpenseType PrivateColonyTax Explanation		;Koloniesteuern, die vom privaten Sektor Ihres Reiches gezahlt werden
 ExpenseType PrivateShipMaintenance Explanation		;Unterhaltskosten für private Schiffe und Basen
 ExpenseType PrivateTourism Explanation		;Geld, das von den Privatpersonen in Ihrem Reich für den Tourismus ausgegeben wird
-ExpenseType PrivateShipBuilding Explanation		;Anschaffungskosten für den Bau neuer privater Schiffe und Basen
+ExpenseType PrivateShipBuilding Explanation		;Anschaffungskosten für die Konstruktion neuer privater Schiffe und Basen
 ExpenseType PrivateFuel Explanation		;Treibstoffkosten für privat genutzte Schiffe in Ihrem Reich
 
 Previous		;Vorheriges
@@ -1697,7 +1697,7 @@ Importance		;Wichtigkeit
 Colonies Summary		;{0} Kolonien in {1} Systemen, {2} Gesamtbevölkerung
 Research Stations		;Forschungsstationen
 New Research Locations		;Neue Forschungsstandorte
-Research Screen		;Forschungsfenster
+Research Screen		;Forschungs-Bildschirm
 All Research Bonuses		;Alle Forschungsboni
 Research		;Forschung
 Maximum Potential Research		;Max. Forschungspotenzial
@@ -1722,7 +1722,7 @@ Tax Revenue		;Steuereinnahmen
 Research Output		;Forschungsleistung
 Research Bonus Amounts		;Menge der Forschungsboni
 
-Civilian		;Zivil
+Civilian		;Ziviler Sektor
 All Civilian Ships		;Alle Zivilschiffe
 Freighters		;Frachter
 Resort Bases		;Erholungsbasen
@@ -1775,16 +1775,16 @@ Passengers		;Passagiere
 Sort X		;Sortiere: {0}
 Filter X		;Filtere: {0}
 
-Ship Construction		;Schiffsbau
-Construction Yards		;Schiffsbau-Werften
-New Construction Yard Locations		;Standorte neuer Schiffsbau-Werften
+Ship Construction		;Konstruktion
+Construction Yards		;Schiffs-Werften
+New Construction Yard Locations		;Standorte neuer Schiffs-Werften
 Construction Ships		;Konstruktions-Schiffe
 Build Order		;Werft-Aufträge
-Construction Wait Time		;Bauwartezeit
-BASENAME already built here		;{0} wurde hier bereits gebaut
-SHIPROLE already under construction here		;{0} hier bereits im Bau
-Ship Designs		;Schiff-Design-Vorlagen
-Unbuilt		;Nicht gebaut
+Construction Wait Time		;Wartezeit für Konstruktion
+BASENAME already built here		;{0} wurde hier bereits konstruiert
+SHIPROLE already under construction here		;{0} wird hier bereits konstruiert
+Ship Designs		;Designvorlagen für Schiffe und Basen
+Unbuilt		;Nicht konstruiert
 Normal		;Normal
 Destroyed		;Zerstört
 Disabled		;Deaktiviert
@@ -1797,13 +1797,13 @@ Unfriendly Territory		;Feindliches Territorium
 Friendly Territory		;Befreundetes Territorium
 Total Size		;Gesamtgröße
 State		;Zustand
-Ships Under Construction		;Schiffe im Bau
+Ships Under Construction		;Schiffe in Konstruktion
 Idle Spaceport Yards		;Untätige Raumhäfen
-State Ships Under Construction		;Staatsschiffe im Bau
-Civilian Ships Under Construction		;Zivilschiffe im Bau
+State Ships Under Construction		;Staatsschiffe in Konstruktion
+Civilian Ships Under Construction		;Zivilschiffe in Konstruktion
 Spaceports		;Raumhäfen
 Wait Time		;Wartezeit
-Build Speed		;Baugeschwindigkeit
+Build Speed		;Konstruktions-Geschwindigkeit
 Repair Speed		;Reparaturgeschw.
 Bases		;Basen
 Target already part of our empire		;Ziel ist bereits Teil unseres Reiches
@@ -1816,12 +1816,12 @@ Known Ruins		;Bekannte Ruinen
 Special Locations		;Spezielle Orte
 Debris Field		;Trümmerfeld
 X Debris Field		;{0} Trümmerfeld
-Secret Construction Project		;Geheimes Bauprojekt
-X Construction Project		;{0} Bauprojekt
+Secret Construction Project		;Geheimes Konstruktions-Projekt
+X Construction Project		;{0} Konstruktions-Projekt
 Special Location Discovered		;{0} Entdeckt
 Debris Field Encounter		;Wir haben ein [DISCOVERY]riesiges Feld von Weltraumtrümmern[/DISCOVERY], im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer epischen Schlacht zu handeln.\n\n Unter den Trümmern befinden sich viele mächtige Militärschiffe, die geborgen werden können. Wir sollten sofort Konstruktions-Schiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifelsohne einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
 Debris Field Encounter Small		;Wir haben ein [DISCOVERY]Feld mit Weltraumtrümmern[/DISCOVERY] im [LOCATION]{0} System[/LOCATION] entdeckt. Es scheint sich um die Überreste einer Schlacht zu handeln.\n\nUnter den Trümmern befinden sich mächtige Militärschiffe, die noch zu retten sind. Wir sollten sofort Konstruktions-Schiffe zu diesem Ort schicken, um so viele dieser wertvollen Schiffe wie möglich zu reparieren und zu bergen.\n\nDie Reparatur der fortschrittlichen Technologie in diesen Schiffen würde unserem Reich zweifellos einen Forschungsbonus verschaffen.\n\nEs könnte auch klug sein, eine bewaffnete Eskorte mitzuschicken - wir wollen jeden anderen davon abhalten, diese Schiffe zu beanspruchen. Lasst uns diese Entdeckung für uns behalten...
-Secret Construction Project Encounter		;Wir haben ein [DISCOVERY]riesiges unvollendetes Bauprojekt[/DISCOVERY] im [LOCATION]{0}-System[/LOCATION] entdeckt. Im Bau befindet sich eine riesige mobile Militärbasis, die eine Superwaffe beherbergt, die einen ganzen Planeten zerstören kann! Der Stützpunkt, der den Namen {1} trägt, scheint verlassen worden zu sein, als er nur halb fertiggestellt war.\n\nWenn dieser Stützpunkt fertiggestellt ist, würde er es dem Besitzer ermöglichen, die Galaxie zu beherrschen. Darüber hinaus würde die Erforschung der fortschrittlichen Technologie dieses Projekts unserem Reich zweifellos einen bedeutenden Forschungsbonus verschaffen.\n\nWir sollten uns beeilen, den Bau dieser enormen Waffe zu beenden!
+Secret Construction Project Encounter		;Wir haben ein [DISCOVERY]riesiges unvollendetes Konstruktion-Projekt[/DISCOVERY] im [LOCATION]{0}-System[/LOCATION] entdeckt. In Konstruktion befindet sich eine riesige mobile Militärbasis, die eine Superwaffe beherbergt, die einen ganzen Planeten zerstören kann! Der Stützpunkt, der den Namen {1} trägt, scheint verlassen worden zu sein, als er nur halb fertiggestellt war.\n\nWenn dieser Stützpunkt fertiggestellt ist, würde er es dem Besitzer ermöglichen, die Galaxie zu beherrschen. Darüber hinaus würde die Erforschung der fortschrittlichen Technologie dieses Projekts unserem Reich zweifellos einen bedeutenden Forschungsbonus verschaffen.\n\nWir sollten uns beeilen, die Konstruktion dieser enormen Waffe zu beenden!
 
 Fully Explored Systems		;Voll erkundete Systeme
 Partially Explored Systems		;Teilweise erkundete Systeme
@@ -1830,12 +1830,12 @@ Fully Explored Systems Explanation		;Anzahl der Sternensysteme, in denen alle Pl
 Partially Explored Systems Explanation		;Anzahl der besuchten Sternsysteme und die Zusammensetzung der Planeten und Monde ist bekannt, aber nicht alle Objekte wurden erkundet
 Unknown Systems Explanation		;Anzahl der Sternsysteme, die noch nicht besucht wurden und somit völlig unbekannt sind
 
-Current Amount		;Aktueller Betrag
-Suggested Amount		;Empfohlener Betrag
-Build Amount		;Baubetrag
-Build Order Current Amount Explanation		;Die Anzahl der Schiffe für diese Rolle, die sich derzeit in unserem Reich befinden. Dies schließt Schiffe ein, die sich derzeit im Bau befinden
+Current Amount		;Aktuelle Menge
+Suggested Amount		;Empfohlene Menge
+Build Amount		;Konstruktions-Menge
+Build Order Current Amount Explanation		;Die Anzahl der Schiffe für diese Rolle, die sich derzeit in unserem Reich befinden. Dies schließt Schiffe ein, die sich derzeit in Konstruktion befinden
 Build Order Suggested Amount Explanation		;Die empfohlene Anzahl an Schiffen für diese Rolle
-Build Order Build Amount Explanation		;Die Anzahl der neuen Schiffe, die wir für diese Rolle bauen sollten
+Build Order Build Amount Explanation		;Die Anzahl der neuen Schiffe, die wir für diese Rolle konstruieren sollten
 Build Order Cost Explanation		;Die Gesamtkosten für alle neuen Schiffe für diese Rolle
 Build Order Maintenance Explanation		;Die gesamten jährlichen Instandhaltungskosten für alle neuen Schiffe dieser Rolle
 TOTAL Purchase and Maintenance Costs		;GESAMTE Anschaffungs- und Instandhaltungskosten
@@ -1843,21 +1843,21 @@ Available Money and Cashflow		;Verfügbares Geld und Geldfluss
 Purchase		;Kaufen
 Clear		;Löschen
 Suggest		;Vorschlag
-Build	;Bauen
+Build	;Konstruieren
 Total Purchase Costs		;Gesamte Anschaffungskosten
 Total Maintenance Costs		;Gesamte Unterhaltskosten
 Available Money		;Verfügbares Geld
 Available Cashflow		;Verfügbares Saldo
-No construction yards can currently build this design		;Keine Schiffsbau-Werften können dieses Design derzeit erstellen
+No construction yards can currently build this design		;Keine Schiffs-Werften können dieses Design derzeit erstellen
 Purchase Cost		;Kaufpreis
-Suggested Build Amount		;Vorgeschlagener Baubetrag
+Suggested Build Amount		;Vorgeschlagene Konstruktions-Menge
 X ROLES Queued		;{0} {1} in Warteschleife
 Left-click to queue new ROLE		;Linksklick, um {0} in Warteschleife einzureihen
 Right-click to remove ROLE		;Rechtsklick, um {0} zu entfernen
-Cannot Build DESIGN here		;Kann {0} hier nicht bauen
+Cannot Build DESIGN here		;Kann {0} hier nicht konstruieren
 Cannot afford Purchase Cost		;Kaufpreis nicht leistbar
-Build Order Design Button Explanation		;Klicke, um eine Design-Vorlage für diese Rolle zu wählen
-Build Order Role Explanation		;Klicke, um diese Rolle auszuwählen. Sie können dann in der Galaxieansicht auf Systeme klicken, um Schiffe für den Bau in die Warteschleife zu reihen
+Build Order Design Button Explanation		;Klicke, um eine Designvorlage für diese Rolle zu wählen
+Build Order Role Explanation		;Klicke, um diese Rolle auszuwählen. Sie können dann in der Galaxieansicht auf Systeme klicken, um Schiffe für die Konstruktion in die Warteschleife zu reihen
 Off		;Aus
 On		;Ein
 Overlay Off		;Overlay aus
@@ -1869,7 +1869,7 @@ Location Badges		;Standortsymbole
 Tourism Flow		;Fremdenverkehr
 Migration Flow		;Migrationsfluss
 Resource Flow		;Rohstofffluss
-Resources Required to Build		;Zum Bauen benötigte Rohstoffe
+Resources Required to Build		;Für Konstruktion benötigte Rohstoffe
 Funding Levels		;Finanzielle Mittel
 Amount for FUNDING based on current cashflow		;Betrag für {0} basierend auf dem aktuellen Saldo
 Amount for FUNDING based on current income		;Betrag für {0} basierend auf den aktuellen Einnahmen
@@ -1928,8 +1928,8 @@ Must have Passenger capacity		;Muss Passagierkapazität haben
 Should have Commerce Center		;Erwägen Sie das Hinzufügen eines Handelscenter-Moduls
 Must have Engines		;Muss Triebwerke haben
 Must have a Hyperdrive		;Muss einen Hyperantrieb haben
-Must have Fighter Bays with build and repair capability		;Muss Jägerbuchten mit Bau- und Reparaturfähigkeit haben
-Must have Construction Yards with build and repair capability		;Muss Schiffsbau-Werften mit Bau- und Reparaturfähigkeit besitzen
+Must have Fighter Bays with build and repair capability		;Muss Jägerbuchten mit Konstruktions- und Reparaturfähigkeit haben
+Must have Construction Yards with build and repair capability		;Muss Schiffs-Werften mit Konstruktions- und Reparaturfähigkeit besitzen
 Must have Colonization Module		;Muss Kolonialisierungsmodul haben
 Must have Exploration scanning or survey capability		;Muss über Erkundungs oder Untersuchungs Scanner verfügen
 Must have Troop capacity		;Muss Truppenkapazität haben
@@ -1946,7 +1946,7 @@ Maneuvering turn rate is lower than average for fighters X		;Für Jäger ist die
 Top Speed is lower than average for non-military ships X		;Die Höchstgeschwindigkeit ist niedriger als der Durchschnitt für nicht-militärische Schiffe (der reichsweite Durchschnitt ist {0})
 Top Speed is lower than average for military ships X		;Die Höchstgeschwindigkeit ist niedriger als der Durchschnitt für Militärschiffe (der reichsweite Durchschnitt ist {0})
 Top Speed is lower than average for fighters X		;Für Jäger ist die Höchstgeschwindigkeit niedriger als der Durchschnitt (der reichsweite Durchschnitt ist {0})
-This design has no problems		;Diese Design-Vorlage hat keine Probleme
+This design has no problems		;Diese Designvorlage hat keine Probleme
 X Recommendations		;{0} Empfehlungen
 X Defects		;{0} Defekte
 Defensive bases must have weapons or fighters		;Verteidigungsbasen müssen Waffen oder Jäger haben
@@ -2011,8 +2011,8 @@ Colonizer		;Kolonist
 Settler		;Siedler
 World Founder		;Weltgründer
 
-Manually create new Design using this Ship Hull		;Neue Design-Vorlage manuell mit dieser Schiffshülle erstellen
-Auto-generate new Design using this Ship Hull		;Neue Design-Vorlage automatisch mit dieser Schiffshülle erstellen
+Manually create new Design using this Ship Hull		;Neue Designvorlage manuell mit dieser Schiffshülle erstellen
+Auto-generate new Design using this Ship Hull		;Neue Designvorlage automatisch mit dieser Schiffshülle erstellen
 
 Unknown Ship		;Unbekanntes Schiff
 Unknown Empire		;Unbekanntes Reich
@@ -2059,7 +2059,7 @@ Your Empire Start Location Inner Rim		;Innerer Randbereich
 Your Empire Start Location Outer Rim		;Äußerer Randbereich
 Your Empire Start Location Ring		;Ringförmig
 Your Empire Start Location Center		;Zentrum
-Your Empire Start Location Void		;Void
+Your Empire Start Location Void		;Weltraum
 Your Empire Start Location Inner Ring		;Innerer Ring
 Your Empire Start Location Outer Ring		;Äußerer Ring
 Your Empire Start Location Edge		;Rand
@@ -2100,7 +2100,7 @@ Galaxy Expansion Old		;Sehr alt
 
 Galaxy Expansion Explanation Random		;Zufällige Startgröße, irgendwo von einer einzelnen Kolonie bis zu einem mächtigen Multi-Sektor-Giganten.
 Galaxy Expansion Explanation PreWarp		;Reiche beginnen mit einer einzigen kleinen Kolonie und minimaler Technologie. Hyperraumreisen sind noch nicht freigeschaltet.\n\nReiche beginnen mit einer langsamen Expansion über ihr Heimatsternsystem
-Galaxy Expansion Explanation Starting		;Reiche starten mit einer einzigen kleinen Kolonie und ohne Schiffe oder Basen.\n\nBauen Sie einen Raumhafen und beginnen Sie dann, in die umliegenden Sternensysteme zu expandieren
+Galaxy Expansion Explanation Starting		;Reiche starten mit einer einzigen kleinen Kolonie und ohne Schiffe oder Basen.\n\nKonstruieren Sie einen Raumhafen und beginnen Sie dann, in die umliegenden Sternensysteme zu expandieren
 Galaxy Expansion Explanation Young		;Reiche haben 2-4 Kolonien und haben die nahe gelegenen Systeme erforscht
 Galaxy Expansion Explanation Expanding		;Reiche sind auf 7-8 Kolonien angewachsen und haben die umliegenden Sektoren erforscht
 Galaxy Expansion Explanation Mature		;Reiche sind auf 12-15 Kolonien angewachsen und haben einen Großteil der Galaxie erforscht
@@ -2256,8 +2256,8 @@ Home System Explanation		;Wie lebenswert das Heimatsystem ist.\n\nDazu gehören 
 Your Empire Tech Level PreWarp		;VorWarp
 Your Empire Tech Level X		;Level {0}
 Tech Level		;Tech Level
-Your Empire Tech Level Explanation		;Wie weit die Forschung fortgeschritten ist.\n\nDies bestimmt, welche Schiffsrümpfe und Komponenten für den Bau von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Technologie erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
-Galaxy Tech Level Explanation		;Wie weit die Forschung für alle Reiche in der Galaxie fortgeschritten ist.\n\nDies bestimmt, welche Schiffshüllen und Komponenten für den Bau von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Tech erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
+Your Empire Tech Level Explanation		;Wie weit die Forschung fortgeschritten ist.\n\nDies bestimmt, welche Schiffsrümpfe und Komponenten für die Konstruktion von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Technologie erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
+Galaxy Tech Level Explanation		;Wie weit die Forschung für alle Reiche in der Galaxie fortgeschritten ist.\n\nDies bestimmt, welche Schiffshüllen und Komponenten für die Konstruktion von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Tech erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
 Starting Location		;Startposition
 Starting Location Explanation		;Die ungefähre Startposition Ihres Reiches innerhalb der Galaxie.\n\nDies ist keine präzise Einstellung. Sie legt lediglich den Bereich der Galaxie fest, in dem sich Ihr Heimatsystem befindet.\n\nDieser Bereich ist in der Galaxievorschau unten blau schattiert dargestellt.
 Starting Location Description		;{1} Startort in {0} Galaxie
@@ -2282,9 +2282,9 @@ Model Issue ShipHull Missing Meshes		;Einige Systeme, die in der Schiffshülle e
 Model Issues for model XXX		;Probleme gefunden mit Modell {0} verbunden mit Schiffshülle {1} bei {2}
 Model Issues Explanation		;Die folgenden Probleme wurden bei der Untersuchung des Modells gefunden. Beachten Sie, dass dies NICHT eine umfassende Liste aller möglichen Probleme ist. Stattdessen sind diese Probleme einfach die offensichtlichsten Probleme mit dem Modell.
 
-No Buildable Designs		;Keine für Bau verfügbaren Design-Vorlagen
-No Buildable Designs for ROLE		;Keine für Bau verfügbaren Design-Vorlagen für {0}
-No Buildable Designs Explanation		;Du musst zuerst eine Schiffshülle für diese Rolle erforschen und dann eine Design-Vorlage erstellen, das die Schiffshülle nutzt
+No Buildable Designs		;Keine für Konstruktion verfügbaren Designvorlagen
+No Buildable Designs for ROLE		;Keine für Konstruktion verfügbaren Designvorlagen für {0}
+No Buildable Designs Explanation		;Du musst zuerst eine Schiffshülle für diese Rolle erforschen und dann eine Designvorlage erstellen, das die Schiffshülle nutzt
 
 Cannot cancel crash programs		;Blitzforschungen können nicht abgebrochen werden
 Under Attack		;Unter Beschuss
@@ -2352,10 +2352,10 @@ Message Log		;Nachrichtenprotokoll
 
 MessageType Characters		;Charaktere
 MessageType Colonies		;Kolonien
-MessageType Construction State		;Staatlicher Bau
-MessageType Construction Civilian		;Ziviler Bau
-MessageType Retrofit State		;Staatliche Umbauten
-MessageType Retrofit Civilian		;Zivile Umbauten
+MessageType Construction State		;Staatliche Konstruktion
+MessageType Construction Civilian		;Zivile Konstruktion
+MessageType Retrofit State		;Staatliche Umrüstungen
+MessageType Retrofit Civilian		;Zivile Umrüstungen
 MessageType Diplomacy		;Diplomatie
 MessageType Economy		;Wirtschaft
 MessageType Exploration		;Erkundung
@@ -2416,10 +2416,10 @@ Facility Destroyed during Invasion		;{0} wurde während der Invasion zerstört
 Facility Destroyed during Invasion Description		;Die [FACILITY]{0}[/FACILITY] in unserer Kolonie [LOCATION]{1}[/LOCATION] wurde während eines Bodenkampfes von feindlichen Truppen angegriffen und zerstört.
 Character Killed during Invasion		;{0} wurde während der Invasion getötet
 Character Killed during Invasion Description		;Unser [CHARACTER]{0} {1}[/CHARACTER] wurde von feindlichen Truppen während eines Bodenkampfes auf [LOCATION]{2}[/LOCATION] getötet.
-New Ship Completed		;{0} Bau abgeschlossen
-New Ship Completed Description		;In [LOCATION]{1}[/LOCATION] wurde der Bau folgenden Schiffes abgeschlossen: {0}
-Retrofit Ship Completed		;Umbau von {0} Abgeschlossen
-Retrofit Ship Completed Description		;Der Umbau von {0} wurde in [LOCATION]{1}[/LOCATION] abgeschlossen.
+New Ship Completed		;{0} Konstruktion abgeschlossen
+New Ship Completed Description		;In [LOCATION]{1}[/LOCATION] wurde die Konstruktion folgenden Schiffes abgeschlossen: {0}
+Retrofit Ship Completed		;Umrüstung von {0} Abgeschlossen
+Retrofit Ship Completed Description		;Die Umrüstung von {0} wurde in [LOCATION]{1}[/LOCATION] abgeschlossen.
 Tech Bonus From Scrapping Ship		;Forschungsdurchbruch aus Verschrottung von {0}
 Tech Bonus From Scrapping Ship Description		;Wir haben einen Forschungsdurchbruch in [RESEARCH]{0}[/RESEARCH] erzielt, indem wir die fortgeschrittene Technologie von [LOCATION]{1} {2}[/LOCATION] zerlegt haben.
 Tech Bonus From Repairing Ship		;Forschungsdurchbruch durch Reparatur von {0}
@@ -2459,7 +2459,7 @@ Abandoned Base Repaired		;Verlassene Basis repariert
 
 ShipCaptureCondition Always		;Immer
 ShipCaptureCondition Never		;Niemals
-ShipCaptureCondition WhenHighTechOrLargerThanCanBuild		;Wenn HighTech oder größer als gebaut werden kann
+ShipCaptureCondition WhenHighTechOrLargerThanCanBuild		;Wenn HighTech oder größer als konstruiert werden kann
 ShipCaptureCondition WhenStrongerThanTarget		;Wenn stärker als das Ziel
 
 BaseCaptureCondition Always		;Immer
@@ -2470,12 +2470,12 @@ BaseCaptureCondition WhenStrongerThanTarget		;Wenn stärker als das Ziel
 
 ShipCaptureEnlistment Always		;Immer
 ShipCaptureEnlistment Never		;Niemals
-ShipCaptureEnlistment WhenHighTechOrLargerThanCanBuild		;Wenn HighTech oder größer als gebaut werden kann
-ShipCaptureEnlistment WhenNOTHighTechOrLargerThanCanBuild		;Wenn NICHT HighTech oder größer als gebaut werden kann
+ShipCaptureEnlistment WhenHighTechOrLargerThanCanBuild		;Wenn HighTech oder größer als konstruiert werden kann
+ShipCaptureEnlistment WhenNOTHighTechOrLargerThanCanBuild		;Wenn NICHT HighTech oder größer als konstruiert werden kann
 
 ShipCaptureDisassemble AlwaysDisassembleAtBaseForTechAndResources		;Immer an Basis demontieren für Technik und Rohstoffe
 ShipCaptureDisassemble AlwaysImmediatelyScrapForMoney		;Verschrotte immer sofort für Geld
-ShipCaptureDisassemble DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney		;Demontieren an Basis wenn HighTech oder größer als man bauen kann sonst für Geld verschrotten
+ShipCaptureDisassemble DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney		;Demontieren an Basis wenn HighTech oder größer als man konstruieren kann sonst für Geld verschrotten
 
 BaseCaptureEnlistment Always		;Immer
 BaseCaptureEnlistment Never		;Niemals
@@ -2498,17 +2498,17 @@ ExplorationInvestigateDiscoveries InvestigateReportMajor		;Untersuchungen nur Ha
 ExplorationInvestigateDiscoveries Never		;Niemals
 ExplorationInvestigateDiscoveries Prompt		;Sofort
 
-BuyShipsFromOtherEmpiresWhen CannotBuild		;Kann nicht gebaut werden
-BuyShipsFromOtherEmpiresWhen CannotBuildOrHigherTech		;Kann nicht bauen oder höhere Technologie
-BuyShipsFromOtherEmpiresWhen CannotBuildOrMuchHigherTech		;Kann nicht bauen oder viel höhere Technologie
+BuyShipsFromOtherEmpiresWhen CannotBuild		;Kann nicht konstruiert werden
+BuyShipsFromOtherEmpiresWhen CannotBuildOrHigherTech		;Kann nicht konstruieren oder höhere Tech-Stufe benötigt
+BuyShipsFromOtherEmpiresWhen CannotBuildOrMuchHigherTech		;Kann nicht konstruieren oder viel höhere Tech-Stufe benötigt
 BuyShipsFromOtherEmpiresWhen HigherTech		;Höhere Technologie
 BuyShipsFromOtherEmpiresWhen MuchHigherTech		;Viel höhere Technologie
 BuyShipsFromOtherEmpiresWhen Never		;Niemals
 
-Base Construction		;Basisbau
-Population to build Large Spaceport		;Bevölkerung zum Bau eines großen Raumhafens
-Population to build Medium Spaceport		;Bevölkerung zum Bau eines mittleren Raumhafens
-Population to build Small Spaceport		;Bevölkerung zum Bau eines kleinen Raumhafens
+Base Construction		;Basis-Konstruktion
+Population to build Large Spaceport		;Bevölkerung zur Konstruktion eines großen Raumhafens
+Population to build Medium Spaceport		;Bevölkerung zur Konstruktion eines mittleren Raumhafens
+Population to build Small Spaceport		;Bevölkerung zur Konstruktion eines kleinen Raumhafens
 Minimum Distance between Spaceports		;Mindestabstand zwischen Raumhäfen
 Priority Low		;Niedrig
 Priority Normal		;Normal
@@ -2520,10 +2520,10 @@ Monitoring Station Priority		;Überwachungsstation Priorität
 Military Ship Priority		;Militärschiff Priorität
 Exploration Ship Priority		;Erkundungsschiff Priorität
 Construction Ship Priority		;Konstruktions-Schiff Priorität
-Build Ratio ROLE		;{0} Bauverhältnis
-Buy Ships instead of Build		;Schiffe kaufen statt bauen
+Build Ratio ROLE		;{0} Konstruktions-Verhältnis
+Buy Ships instead of Build		;Schiffe kaufen statt konstruieren
 Repair Independent Ships		;Repariere unabhängige Schiffe
-Build Independent Ships		;Baue unabhängige Schiffe
+Build Independent Ships		;Konstruiere unabhängige Schiffe
 Yes		;Ja
 No		;Nein
 Send Survey Team when		;Untersuchungsteam senden wenn
@@ -2559,8 +2559,8 @@ These ruins provide the following empire-wide bonuses		;Diese Ruinen bieten die 
 These ruins provide the following colony bonuses		;Diese Ruinen bieten folgende Kolonie Boni
 We should colonize this planet to obtain these bonuses		;Wir sollten diesen Planeten kolonisieren, um diese Boni zu erhalten
 To obtain the other bonuses we should colonize this planet		;Um die anderen Boni zu erhalten, sollten wir diesen Planeten kolonisieren
-We can acquire research bonuses by building a research station here		;Wir können Forschungsboni erwerben, indem wir hier eine Forschungsstation bauen
-We can acquire scenery bonuses by building a resort base here		;Wir können Landschaftsboni erwerben, indem wir hier eine Erholungsbasis bauen
+We can acquire research bonuses by building a research station here		;Wir können Forschungsboni erwerben, indem wir hier eine Forschungsstation konstruieren
+We can acquire scenery bonuses by building a resort base here		;Wir können Landschaftsboni erwerben, indem wir hier eine Erholungsbasis konstruieren
 Bonuses when Colonized		;Boni, wenn kolonisiert
 Bonuses from X		;Boni von {0}
 ;
@@ -2599,7 +2599,7 @@ Destroy Event StellarObject		;Mit der Zerstörung von {0} haben wir eine seltsam
 Destroy Event Ruins		;Mit der Zerstörung von {1} bei {0} haben wir eine merkwürdige Entdeckung gemacht:
 
 Build Event Facility		;Der Aufbau der {0} bei {1} hat zu einer merkwürdigen Entdeckung geführt:
-Build Event Base		;Der Aufbau der {0} bei {1} hat zu einer merkwürdigen Entdeckung geführt:
+Build Event Base		;Die Konstruktion der {0} bei {1} hat zu einer merkwürdigen Entdeckung geführt:
 
 EmpireRelationChange Event FirstContact		;Unser erster Kontakt mit dem {0} hat zu einer merkwürdigen Entdeckung geführt:
 EmpireRelationChange Event		;Unsere kürzlich eingeleitete {0} mit der {1} hat zu einer merkwürdigen Entdeckung geführt:
@@ -2682,8 +2682,8 @@ AutomationCategory ColonyFacilities		;Kolonie Einrichtungen
 AutomationCategory ColonyPopulationPolicy		;Bevölkerungspolitik der Kolonie
 AutomationCategory ColonyStockLevels		;Lagerbestände der Kolonie
 AutomationCategory ColonyTaxRates		;Kolonie Steuersätze
-AutomationCategory ConstructionBases		;Basisbau
-AutomationCategory ConstructionShips		;Schiffsbau
+AutomationCategory ConstructionBases		;Basis-Konstruktion
+AutomationCategory ConstructionShips		;Schiffs-Konstruktion
 AutomationCategory ConstructionRepairAbandoned		;Repariere verlassene Schiffe und Basen
 AutomationCategory DiplomaticGifts		;Diplomatie - Geschenke
 AutomationCategory DiplomaticTreaties		;Diplomatie - Verträge
@@ -2783,15 +2783,15 @@ Victory Condition ResearchMostAdvanced		;Führen Sie die meiste Forschung in der
 Victory Condition ResearchMostCompletedBranches		;Habe die meisten abgeschlossenen Forschungszweige in der Galaxie
 Victory Condition ResearchMostCompletedBranchesByIndustry		;Die meisten abgeschlossenen {0} Forschungszweige in der Galaxie haben
 Victory Condition MineMostResourcesLuxury		;Baue die luxuriösesten Rohstoffe in der Galaxie ab
-Victory Condition MineMostResourcesConstruction		;Baue die meisten Baurohstoffe in der Galaxie ab
-Victory Condition MineMostResourcesFuel		;Baue die meisten Treibstoffressourcen in der Galaxie ab
-Victory Condition BuildMostMilitaryShips		;Bauen Sie die meisten Militärschiffe in der Galaxie
-Victory Condition BuildMostCivilianShips		;Baue die meisten Zivilschiffe in der Galaxie
-Victory Condition BuildMostBases		;Bauen Sie die meisten Basen in der Galaxie
+Victory Condition MineMostResourcesConstruction		;Baue die meisten Konstruktions-Resourcen in der Galaxie ab
+Victory Condition MineMostResourcesFuel		;Baue die meisten Treibstoff-Ressourcen in der Galaxie ab
+Victory Condition BuildMostMilitaryShips		;Konstruieren Sie die meisten Militärschiffe in der Galaxie
+Victory Condition BuildMostCivilianShips		;Konstruiere die meisten Zivilschiffe in der Galaxie
+Victory Condition BuildMostBases		;Konstruieren Sie die meisten Basen in der Galaxie
 
 Victory Condition PirateControlColoniesPercentage		;Kontrolliere {0}% aller von Piraten kontrollierten Kolonien in der Galaxie
-Victory Condition PirateBuildMostHiddenBases		;Bauen Sie die meisten versteckten Piratenbasen in der Galaxie
-Victory Condition PirateBuildHiddenFortress		;Bauen Sie eine versteckte Piratenfestung
+Victory Condition PirateBuildMostHiddenBases		;Konstruieren Sie die meisten versteckten Piratenbasen in der Galaxie
+Victory Condition PirateBuildHiddenFortress		;Konstruieren Sie eine versteckte Piratenfestung
 Victory Condition PirateBuildCriminalNetwork		;Aufbau eines kriminellen Piratennetzwerks
 Victory Condition PirateEliminateMostPirateFactions		;Eliminieren Sie die meisten Piratenfraktionen in der Galaxie
 Victory Condition PirateMostProtectionIncome		;Verdienen Sie das meiste Einkommen aus Piratenschutzabkommen in der Galaxie
@@ -2863,11 +2863,11 @@ Victory Condition Detail ResearchMostAdvanced		;Gesamte {0} Forschung abgeschlos
 Victory Condition Detail ResearchMostCompletedBranches		;{0} abgeschlossene Forschungszweige
 Victory Condition Detail ResearchMostCompletedBranchesByIndustry		;{0} abgeschlossene {1} Forschungszweige
 Victory Condition Detail MineMostResourcesLuxury		;{0} abgebaute Luxusrohstoffe
-Victory Condition Detail MineMostResourcesConstruction		;{0} Baurohstoffe abgebaut
+Victory Condition Detail MineMostResourcesConstruction		;{0} Konstruktions-Resourcen abgebaut
 Victory Condition Detail MineMostResourcesFuel		;{0} abgebaute Treibstoffressourcen
-Victory Condition Detail BuildMostMilitaryShips		;{0} Militärschiffe gebaut
-Victory Condition Detail BuildMostCivilianShips		;{0} Zivilschiffe gebaut
-Victory Condition Detail BuildMostBases		;{0} Basen gebaut
+Victory Condition Detail BuildMostMilitaryShips		;{0} Militärschiffe konstruiert
+Victory Condition Detail BuildMostCivilianShips		;{0} Zivilschiffe konstruiert
+Victory Condition Detail BuildMostBases		;{0} Basen konstruiert
 Victory Condition Detail PirateControlColoniesPercentage		;{0} kontrollierte Kolonien, {1} der Galaxie insgesamt
 Victory Condition Detail PirateBuildMostHiddenBases		;{0} versteckte Piratenbasen
 Victory Condition Detail PirateEliminateMostPirateFactions		;{0} Piratenfraktionen vernichtet
@@ -2952,7 +2952,7 @@ General Story Events		;Allgemeine Story-Events
 General Story Events Explanation		;Allgemeine Story-Events aktivieren: antike Ruinen, verlassene Schiffe und Basen, Trümmerfelder, etc.
 Colony Events		;Kolonie Events
 Colony Events Explanation		;Aktivieren Sie Kolonie Events im Spiel: Katastrophen, Seuchen, etc.
-Your Empire		;Ihr Reich
+Your Empire		;Euer Reich
 Progress		;Fortschritt
 Victory Conditions Explanation		;Wählen Sie links eine beliebige Kombination aus Gebiets-, Bevölkerungs-, Wirtschafts- oder rassenspezifischen Siegbedingungen aus.\n\nDann wählen Sie die prozentuale Siegschwelle aus: Dies ist der Anteil der ausgewählten Siegbedingungen, der für den Sieg erfüllt werden muss.\n\nLassen Sie für den Sandbox-Modus (offenes Spiel) alle Siegbedingungen unmarkiert.
 Other Story Events		;Andere Story-Events
@@ -3035,7 +3035,7 @@ Commerce and Recreation		;Handel und Freizeit
 Queue Suggested Project		;Empfohlenes Projekt in Warteschleife einreihen
 Click to queue research in X		;Klicke, um die Forschung in die Warteschleife in {0} zu geben
 Concurrent Research Explanation Short		;Sie können bis zu {0} gleichzeitige Projekte erforschen
-Concurrent Research Explanation		;Sie können bis zu {0} gleichzeitige Projekte erforschen. Der Forschungsfortschritt wird gleichmäßig auf alle gleichzeitigen Projekte aufgeteilt.\n\nBauen Sie mehr Forschungsstationen, um die maximale Anzahl der gleichzeitigen Forschungsprojekte zu erhöhen.\n\nSie können auch eine Obergrenze für gleichzeitige Forschungsprojekte im Bildschirm 'Reichs Politik Einstellungen' festlegen.
+Concurrent Research Explanation		;Sie können bis zu {0} gleichzeitige Projekte erforschen. Der Forschungsfortschritt wird gleichmäßig auf alle gleichzeitigen Projekte aufgeteilt.\n\nKonstruieren Sie mehr Forschungsstationen, um die maximale Anzahl der gleichzeitigen Forschungsprojekte zu erhöhen.\n\nSie können auch eine Obergrenze für gleichzeitige Forschungsprojekte im Bildschirm 'Reichs Politik Einstellungen' festlegen.
 
 Concurrent Research Explanation Detailed		;Sie können die Obergrenze festlegen, wie viele Projekte gleichzeitig erforscht werden können.\n\nBeachten Sie, dass Sie auch die entsprechende Anzahl von Forschungsstationen haben müssen, um diese Grenze zu erreichen. Wenn Sie also 3 Projekte gleichzeitig erforschen wollen, müssen Sie diesen Grenzwert auf 3 setzen und auch über 3 oder mehr Forschungsstationen verfügen.\n\nSie können diesen Wert auch verwenden, um die maximale Anzahl gleichzeitiger Forschungsprojekte zu reduzieren, wenn Sie viele Forschungsstationen haben.
 
@@ -3451,7 +3451,7 @@ Relation Level		;Beziehungs Level
 
 Starting Empires List Name Explanation		;Klicken Sie und geben Sie einen Namen für das Reich ein.\n\n Wenn Sie dies leer lassen, wird automatisch ein Name für das Reich generiert.
 Starting Empires List Race Explanation		;Wählen Sie eine Rasse für das Reich aus der Auswahlliste aus
-Starting Empires List TechLevel Explanation		;Wählen Sie eine Start-Tech-Stufe für das Reich aus der Dropdown-Liste.\n\nDies bestimmt, welche Schiffshüllen und Komponenten für den Bau von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Tech erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
+Starting Empires List TechLevel Explanation		;Wählen Sie eine Start-Tech-Stufe für das Reich aus der Dropdown-Liste.\n\nDies bestimmt, welche Schiffshüllen und Komponenten für die Konstruktion von Schiffen und Basen zur Verfügung stehen.\n\nPreWarp bedeutet, dass keine Tech erforscht ist.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
 Starting Empires List Expansion Explanation		;Wählen Sie eine Expansionsstufe für das Reich aus der Dropdown-Liste.\n\nDies gibt an, wie viele Kolonien, Schiffe und Basen das Reich hat.\n\nWenn die Galaxie-Entwicklung größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
 Starting Empires List Proximity Explanation		;Wählen Sie die ungefähre Entfernung dieses Reiches von Ihrem
 Starting Empires List Government Explanation		;Wählen Sie eine Regierung für das Reich aus der Auswahlliste aus
@@ -3478,11 +3478,11 @@ Character Event Description Change Location		;{0} zu {1}
 Character Event Description Appearance		;{0} bei {1}
 Character Event Description Death		;{0} bei {1}
 
-Character Event BuildBase		;Basisbau
-Character Event BuildCivilianShip		;Ziviler Schiffsbau
-Character Event BuildFacility		;Planetare Einrichtungskonstruktion
-Character Event BuildMilitaryShip		;Militärischer Schiffsbau
-Character Event BuildOtherState		;Bau eines Schiffes
+Character Event BuildBase		;Basis-Konstruktion
+Character Event BuildCivilianShip		;Zivile Schiffs-Konstruktion
+Character Event BuildFacility		;Planetare Einrichtungs-Konstruktion
+Character Event BuildMilitaryShip		;Militärische Schiffs-Konstruktion
+Character Event BuildOtherState		;Konstruktion eines Schiffes
 Character Event CaptureBase		;Basis kapern
 Character Event CaptureShipCivilian		;Zivilschiff kapern
 Character Event CaptureShipOtherState		;Schiff kapern
@@ -3526,10 +3526,10 @@ Character Event RaidColonyDefenderWin		;Feindlicher Überfall zurückgeschlagen
 Character Event ResearchBreakthrough		;Forschungsdurchbruch
 Character Event ResearchCriticalFailure		;Kritischer Forschungsfehlschlag
 Character Event ResearchCriticalSuccess		;Kritischer Forschungserfolg
-Character Event RetrofitBase		;Basis Umgebaut
-Character Event RetrofitShipCivilian		;Zivilschiff umgebaut
-Character Event RetrofitShipMilitary		;Militärschiff umgebaut
-Character Event RetrofitShipOtherState		;Schiff umgebaut
+Character Event RetrofitBase		;Basis Umgerüstet
+Character Event RetrofitShipCivilian		;Zivilschiff umgerüstet
+Character Event RetrofitShipMilitary		;Militärschiff umgerüstet
+Character Event RetrofitShipOtherState		;Schiff umgerüstet
 Character Event SalvageShip		;Schiff geborgen
 Character Event SkillProgressed		;Fähigkeit verbessert
 Character Event SpyRecruited		;Spion rekrutiert
@@ -3773,7 +3773,7 @@ Character Mission Outcome Success Sharing		;Unsere Verbündeten, die [FACTION]{0
 Ally Shares Intelligence Information		;Geheimdienstinformationen Alliierter
 
 Construction Sabotaged		;Konstruktion sabotiert
-Construction Sabotaged Description		;Die Bauarbeiten auf [LOCATION]{0}[/LOCATION] wurden durch eine Explosion zurückgeworfen!\n\nWir vermuten stark eine Sabotage durch ausländische Geheimagenten...
+Construction Sabotaged Description		;Die Konstruktions-Arbeiten auf [LOCATION]{0}[/LOCATION] wurden durch eine Explosion zurückgeworfen!\n\nWir vermuten stark eine Sabotage durch ausländische Geheimagenten...
 Agent Revolution		;Unsere Regierung ist durch eine Revolution gestürzt worden! Die Revolution hat zu Unruhen in unseren Kolonien geführt.\n\nWir vermuten stark eine fremde Beteiligung an dieser Revolution...
 Revolution		;Revolution
 Base Destroyed Sabotage		;Basis zerstört
@@ -3907,7 +3907,7 @@ X years		;{0} Jahre
 Applies Empire-wide		;Gilt Reichsweit
 Applies only to Location		;Gilt nur für den Standort
 
-No buildable Colony Ship designs		;Keine baubaren Kolonieschiffs-Design-Vorlagen
+No buildable Colony Ship designs		;Keine konstruierbaren Kolonieschiffs-Designvorlagen
 
 Reactor Offline		;Reaktor Offline
 HyperDrive Offline		;Hyperantrieb Offline
@@ -4141,10 +4141,10 @@ Edit Fleet Template		;Flottenvorlage bearbeiten
 Fleet Templates and Fleet Creation		;Flottenvorlagen und Flottenerstellung
 
 Form new FLEETTEMPLATE from existing ships at		;Neue {0} aus vorhandenen Schiffen bilden bei...
-Build new FLEETTEMPLATE at		;Neue {0} bauen bei...
+Build new FLEETTEMPLATE at		;Neue {0} konstruieren bei...
 Select a single Fleet Template to form a new fleet		;Wähle eine einzelne Flottenvorlage, um eine neue Flotte aus vorhandenen Schiffen zu bilden
 Select a single Fleet Template to build a new fleet		;Wähle eine einzelne Flottenvorlage, um eine neue Flotte zu erstellen
-Any construction yards in empire		;Alle Schiffsbau-Werften im Reich
+Any construction yards in empire		;Alle Schiffs-Werften im Reich
 Load Fleet Templates		;Flottenvorlagen laden
 Load Fleet Templates Explanation		;Wähle eine Flottenvorlage zum Laden aus der Liste unten aus.
 Save Fleet Templates		;Flottenvorlagen speichern
@@ -4167,7 +4167,7 @@ PLANET has the following research bonuses		;{0} hat die folgenden Forschungsboni
 PLANET has the following scenery bonuses		;{0} hat die folgenden Landschaftsboni
 
 Independent Colonization Minimum Success		;Minimaler Erfolg für Kolonisierung Unabhängiger
-Incoming for repair or retrofit		;Ankommend für Reparaturen oder Umbau
+Incoming for repair or retrofit		;Ankommend für Reparaturen oder Umrüstung
 Corruption Factors Explanation		;Die Korruption wird durch folgende Faktoren verstärkt:\n- große Bevölkerungsgröße\n- hohe Steuersätze (über 20 %)\n- kürzliche Piratenüberfälle\n- niedriger Entwicklungsstand für die Bevölkerungsgröße\n- nicht assimilierte Bevölkerungsgruppen
 Very high corruption reduces our happiness		;Sehr hohe Korruption reduziert unsere Zufriedenheit
 High corruption reduces our happiness		;Hohe Korruption reduziert unsere Zufriedenheit
@@ -4175,7 +4175,7 @@ Corruption reduces our happiness		;Korruption reduziert unsere Zufriedenheit
 
 Queued Projects		;Projekte in der Warteschleife
 Jump to X		;Springe zu {0}
-Exit Research		;Forschungsmenü verlassen
+Exit Research		;Forschungs-Bildschirm verlassen
 No Projects		;Keine Projekte
 Only Research Stations or Spaceports can have Research Labs		;Nur Forschungsstationen oder Raumhäfen können Forschungslabore haben
 
@@ -4223,8 +4223,8 @@ Who are the RACE		;Wer sind die {0}?
 Our analysts have learnt the following about the RACE		;Unsere Experten haben Folgendes über die {0} gelernt
 
 Galactopedia		;Galaktopedia
-Queue Build BASEROLE		;{0} in Warteschleife geben, um am ausgewählten Ort zu bauen
-Cancel Queue Build BASEROLE		;{0} aus Warteschleife nehmen, um am ausgewählten Ort zu bauen
+Queue Build BASEROLE		;{0} in Warteschleife geben, um am ausgewählten Ort zu konstruieren
+Cancel Queue Build BASEROLE		;{0} aus Warteschleife nehmen, um am ausgewählten Ort zu konstruieren
 Queue Colonization		;Kolonisierung in Warteschleife geben, am ausgewähltem Ort
 Cancel Queue Colonization		;Kolonisierung aus Warteschleife nehmen, am ausgewähltem Ort
 Cycle Automation settings		;Ändere Automatisierungseinstellungen
@@ -4276,23 +4276,23 @@ Ship cannot move		;Schiff kann sich nicht bewegen
 
 Automatically Refuel Manual Ships		;Automatisches Betanken von manuellen Schiffen
 Automatically Repair Manual Ships		;Manuelle Schiffe automatisch reparieren
-Automatically Retrofit Manual Ships		;Automatischer Umbau manueller Schiffe
+Automatically Retrofit Manual Ships		;Automatische Umrüstung manueller Schiffe
 Automatically Refuel Manual Fleets		;Automatisches Betanken von manuellen Flotten
 Automatically Repair Manual Fleets		;Manuelle Flotten automatisch reparieren
-Automatically Retrofit Manual Fleets		;Automatischer Umbau manueller Flotten
-Automatically Retrofit Automated Fleets		;Automatischer Umbau automatisierter Flotten
+Automatically Retrofit Manual Fleets		;Automatische Umrüstung manueller Flotten
+Automatically Retrofit Automated Fleets		;Automatische Umrüstung automatisierter Flotten
 NewShipsAutomatedMilitary		;Neue Militärschiffe werden automatisiert
 NewShipsAutomatedOtherState		;Neue Staatsschiffe werden automatisiert
-ConstructionPrioritizeStateShipsInQueue		;Priorisierung von Staatsschiffen in Bauwarteschleifen
+ConstructionPrioritizeStateShipsInQueue		;Priorisierung von Staatsschiffen in Konstruktions-Warteschleifen
 DockingPrioritizeStateShipsInQueue		;Priorisierung von Staatsschiffen in Andockwarteschleifen
 Prioritize		;Priorität
 
-Cannot build		;Kann nicht gebaut werden
+Cannot build		;Kann nicht gekonstruiert werden
 Advisors Reserving AMOUNT for PURPOSE		;Berater Reservierung von {0} Credits für: {1}
 When Colonization or Colony Facility Building is automated then Reserved cannot be less than X		;Wenn die Kolonisierung oder der Bau von Kolonieeinrichtungen automatisiert ist, können die 'reservierten Finanzen' nicht kleiner als {0} sein, so dass genügend Mittel für den Kauf teurer Kolonieschiffe und planetarischer Einrichtungen angesammelt werden können
 When Colonization is set to Automated or Suggest then Reserved Funding Level cannot be less than X		;Wenn Kolonisierung auf Automatisch oder Vorgeschlagen eingestellt ist, können die 'reservierten Finanzen' nicht kleiner als {0} sein, so dass genügend Mittel für den Kauf teurer Kolonieschiffe und planetarischer Einrichtungen angesammelt werden können.
 Reserved Funding Level will automatically be set to X when you change Colonization to Automated		;Die reservierten Finanziellen Mittel werden automatisch auf {0} (falls darunter) gesetzt, wenn Sie Kolonisierung auf Automatisch oder Vorgeschlagen ändern. Dadurch wird sichergestellt, dass genügend Mittel für den Kauf teurer Kolonieschiffe angesammelt werden können
-Reserved Funding Level will automatically be set to X when you change Colony Facility Building to Automated		;Die reservierten Finanziellen Mittel werden automatisch auf {0} (falls darunter) gesetzt, wenn Sie Kolonieeinrichtungsbau auf Automatisch oder Vorgeschlagen ändern. Dadurch wird sichergestellt, dass genügend Mittel für den Kauf teurer planetarischer Einrichtungen angesammelt werden können
+Reserved Funding Level will automatically be set to X when you change Colony Facility Building to Automated		;Die reservierten Finanziellen Mittel werden automatisch auf {0} (falls darunter) gesetzt, wenn Sie Kolonie-Einrichtungsbau auf Automatisch oder Vorgeschlagen ändern. Dadurch wird sichergestellt, dass genügend Mittel für den Kauf teurer planetarischer Einrichtungen angesammelt werden können
 Funding Levels are currently Automated. Any changes you make here may be overridden later		;'Finanzielle Mittel' sind derzeit automatisiert. Alle Änderungen, die Sie hier vornehmen, werden überschrieben.\n\nSie können stattdessen im Bildschirm 'Politik Einstellungen' festlegen, dass die 'Finanziellen Mittel' manuell gesteuert werden.
 
 RESOURCE provides the following bonuses		;{0} bietet die folgenden Boni
@@ -4314,7 +4314,7 @@ Add New Population		;Neue Bevölkerung hinzufügen
 Remove Population		;Bevölkerung entfernen
 Remove Resource		;Rohstoff entfernen
 Add New Resource		;Neuen Rohstoff hinzufügen
-Construction Progress		;Baufortschritt
+Construction Progress		;Konstruktions-Fortschritt
 Remove Planetary Facility		;Planetare Einrichtung entfernen
 Remove Ruins		;Ruinen entfernen
 Edit Ruins		;Ruinen bearbeiten
@@ -4382,8 +4382,8 @@ Hive Attack Description Base		;Die [FACTION]{0}[/FACTION] berichtet von einem An
 Savage Attack at LOCATION		;Wilder Angriff bei {0}
 The Hive Awakens		;Der Schwarm erwacht
 
-SHIP building mining station here		;Konstruktions-Schiff '{0}' baut hier eine Bergbaustation
-SHIP building mining station at a nearby asteroid within mining range of this asteroid		;Konstruktions-Schiff '{0}' baut eine Bergbaustation auf einem nahegelegenen Asteroiden in Abbau-Reichweite dieses Asteroiden
+SHIP building mining station here		;Konstruktions-Schiff '{0}' konstruiert hier eine Bergbaustation
+SHIP building mining station at a nearby asteroid within mining range of this asteroid		;Konstruktions-Schiff '{0}' konstruiert eine Bergbaustation auf einem nahegelegenen Asteroiden in Abbau-Reichweite dieses Asteroiden
 
 Traders tell us of nearby Colony		;Händler erzählen uns von einer nahen Kolonie
 Our recent contact with independent traders has revealed the location of an independent colony of RACE at PLANET in the nearby SYSTEM system		;Unser kürzlicher Kontakt mit unabhängigen Händlern hat die Lage einer unabhängigen Kolonie von {0} auf [LOCATION]{1}[/LOCATION] im nahegelegenen {2} System offenbart.\n\nDies wäre ein gutes Ziel, um es zu erforschen, sobald wir die notwendige Technologie haben, um zu diesem System zu reisen. Die Kolonie könnte sogar bereit sein, sich uns anzuschließen, wenn wir unsere Beziehungen zu ihnen pflegen.
@@ -4393,8 +4393,8 @@ Can manually control Mining Ships		;Kann Bergbauschiffe manuell steuern
 Low Fuel		;Wenig Sprit
 Upgrade		;Verbessern
 
-Cannot build Mining Stations at colonies		;Kann keine Bergbaustationen bei Kolonien bauen
-Cannot build Research Stations at own colonies		;Kann keine Forschungsstationen in eigenen Kolonien bauen
+Cannot build Mining Stations at colonies		;Kann keine Bergbaustationen bei Kolonien konstruieren
+Cannot build Research Stations at own colonies		;Kann keine Forschungsstationen in eigenen Kolonien konstruieren
 While salvaging a SPACEITEM in the SYSTEM system we have made the following discovery		;Bei der Bergung eines {0} im {1} System haben wir die folgende Entdeckung gemacht
 CHARACTERROLE Recovered		;{0} gefunden
 Enemy CHARACTERROLE Captured		;Feindlicher {0} gefangen genommen
@@ -4427,7 +4427,7 @@ Add Creature		;Kreatur hinzufügen
 Add Ship or Base		;Schiff oder Basis hinzufügen
 Add Star		;Stern hinzufügen
 Select Empire		;Reich wählen
-Select Design		;Design-Vorlage wählen
+Select Design		;Designvorlage wählen
 Select Empire to Edit		;Reich zum Bearbeiten wählen
 Exit Editor		;Editor verlassen
 Add Independent Colony		;Unabhängige Kolonie hinzufügen
@@ -4441,7 +4441,7 @@ Time to reenable		;Zeit für Reaktivierung
 
 Assign Fleet Investigate Dangerous Location		;Weisen Sie die {0} an, gemeldete Bedrohungen bei {1} zu untersuchen ({2} System)
 No ships available to form Fleet based on this template (FLEETTEMPLATE)		;Keine Schiffe zur Bildung einer Flotte basierend auf dieser Vorlage verfügbar ({0})
-No designs available to build Fleet based on this template (FLEETTEMPLATE)		;Keine Design-Vorlagen verfügbar, um Flotte basierend auf dieser Vorlage zu bauen ({0})
+No designs available to build Fleet based on this template (FLEETTEMPLATE)		;Keine Designvorlagen verfügbar, um Flotte basierend auf dieser Vorlage zu konstruieren ({0})
 Scuttle Ship		;Schiff abwracken
 Scuttle Base		;Schrottbasis
 SHIP will be permanently scuttled		;{0} wird abgewrackt werden
@@ -4520,11 +4520,11 @@ Common Resources		;Allgemeine Ressourcen
 ComponentCategory Description AreaShieldRecharge		;Die Komponente 'Umgebungs-Schildregenerierung' lädt die Schilde anderer befreundeter Schiffe oder Basen in der Nähe wieder auf, indem sie ein schützendes Energiefeld auf sie projiziert.\n\nDies kann besonders im Kampf nützlich sein, um Schiffe mit schwächelnden Schilden zu verstärken.
 ComponentCategory Description Armor		;Die Panzerung absorbiert den Explosionsschaden von eingehendem Waffenfeuer.\n\nWenn der Waffenschaden geringer ist als der Reaktionswert der Panzerung, nimmt die Panzerkomponente keinen Schaden. Ist der Waffenschaden jedoch größer als der Reaktionswert der Panzerung, wird die Panzerung beschädigt oder zerstört.\n\nBeachte, dass die Panzerung nicht alles eintreffende Waffenfeuer abblockt - einige Waffenexplosionen werden unweigerlich die Panzerung überwinden und dem Schiff oder der Basis Schaden zufügen, selbst wenn der Waffenschaden geringer ist als der Reaktionswert der Panzerung.\n\nEinige Waffentypen sind besser in der Lage, die Schutzpanzerung zu umgehen und so dem Zielschiff oder der Basis Schaden zuzufügen.
 ComponentCategory Description AssaultPod		;Enterkapseln werden verwendet, um Entertrupps gegen nahegelegene feindliche Schiffe oder Basen zu entsenden, so dass Sie das Ziel überfallen oder erobern können. Die bewaffneten Entertrupps reisen eine kurze Strecke zum Ziel, entern das feindliche Schiff und kämpfen mit den Verteidigern.\n\nBitte beachten Sie, dass die Schilde des Zielschiffs oder -stützpunkts gesenkt sein müssen, bevor die Enterkapsel das Ziel erfolgreich entern kann.\n\nEnterkapseln dienen auch als Verteidigungskräfte, wenn ein Schiff oder eine Basis von einem Angreifer geentert wird.
-ComponentCategory Description CargoBay		;Fracht-Modulkomponenten dienen der Aufbewahrung von Gütern während des Transports oder der Lagerung.\n\nSie werden in der Regel in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nKonstruktions-Schiffe benötigen auch Fracht-Modulkomponenten, um beim Bau neuer Basen Ressourcen zwischenzulagern.
-ComponentCategory Description Colonization		;Kolonisationsmodule enthalten alles, was für die Gründung einer Kolonie auf einem neuen Planeten notwendig ist.\n\nKolonisationsmodule sind sehr groß und benötigen viele Ressourcen für den Bau. Diese Ressourcen sind der Startschuss für die Siedler der neuen Kolonie.\n\nDie Siedler werden im Kolonisationsmodul in einen Stasis-Winterschlaf versetzt. Sie können unbegrenzt lange überleben, bis sie wiederbelebt werden, sobald sie die neue Kolonie erreichen.
+ComponentCategory Description CargoBay		;Fracht-Modulkomponenten dienen der Aufbewahrung von Gütern während des Transports oder der Lagerung.\n\nSie werden in der Regel in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nKonstruktions-Schiffe benötigen auch Fracht-Modulkomponenten, um bei der Konstruktion neuer Basen Ressourcen zwischenzulagern.
+ComponentCategory Description Colonization		;Kolonisationsmodule enthalten alles, was für die Gründung einer Kolonie auf einem neuen Planeten notwendig ist.\n\nKolonisationsmodule sind sehr groß und benötigen viele Ressourcen für die Konstruktion. Diese Ressourcen sind der Startschuss für die Siedler der neuen Kolonie.\n\nDie Siedler werden im Kolonisationsmodul in einen Stasis-Winterschlaf versetzt. Sie können unbegrenzt lange überleben, bis sie wiederbelebt werden, sobald sie die neue Kolonie erreichen.
 ComponentCategory Description CommandCenter		;Schiffs- u. Stationsbrücken sind das Kontrollzentrum eines Schiffes, einer Basis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nSchiffs- u. Stationsbrücken können Boni und andere Modifikatoren bereitstellen, die die Fähigkeiten eines Schiffes verbessern.
 ComponentCategory Description CommerceCenter		;Handelszentren machen eine Basis zu einem Handelszentrum, in dem Rohstoffe und Treibstoff ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Rohstoffe oder Treibstoff an dem Standort gehandelt werden.
-ComponentCategory Description Construction		;Schiffsbau-Werften ermöglichen den Bau von neuen Schiffen und Basen. Sie bieten auch die Möglichkeit, bestehende Schiffe und Basen zu reparieren und umzubauen.\n\nWerft-Komponenten werden normalerweise in Raumhäfen integriert.\n\nSchiffsbau-Werften mit höherer Technologie bauen und reparieren Schiffe in der Regel schneller. Einige Werften können sogar mehrere Schiffe gleichzeitig bauen.
+ComponentCategory Description Construction		;Schiffs-Werften ermöglichen die Konstruktion von neuen Schiffen und Basen. Sie bieten auch die Möglichkeit, bestehende Schiffe und Basen zu reparieren und umzurüsten.\n\nWerft-Komponenten werden normalerweise in Raumhäfen integriert.\n\nSchiffs-Werften mit höherer Technologie konstruieren und reparieren Schiffe in der Regel schneller. Einige Werften können sogar mehrere Schiffe gleichzeitig konstruieren.
 ComponentCategory Description Countermeasures		;Komponenten für Gegenmaßnahmen erhöhen die Wahrscheinlichkeit, im Kampf dem Beschuss durch feindliche Waffen zu entgehen. Diese leistungsstarken elektronischen Gegenmaßnahmen lenken alle Arten von Waffen ab und ermöglichen es Ihnen, dem gegnerischen Waffenfeuer auszuweichen.
 ComponentCategory Description CountermeasuresFleet		;Flotten-Gegenmaßnahmen kommen allen Schiffen einer Flotte zugute und ermöglichen es allen Schiffen der Flotte, dem feindlichen Waffenfeuer effektiver auszuweichen.
 ComponentCategory Description CrewQuarters		;Crew Quartiere sind die Wohnräume für die Besatzung eines Schiffes oder einer Basis. Sie umfassen auch alle lebenswichtigen Systeme für das Überleben der Besatzung.\n\nAuf allen Schiffen und Stützpunkten werden ausreichend Mannschaftsquartiere benötigt, um den Mannschaftsbedarf für alle Komponenten der Konstruktion zu decken.
@@ -4535,7 +4535,7 @@ ComponentCategory Description EnergyToFuel		;Energie-kraftsoff-Konverter sammeln
 ComponentCategory Description Engine		;Triebwerke liefern den Unterlichtschub für die Bewegung des Schiffes. Jedes Triebwerk hat seine eigenen Eigenschaften, einschließlich der Schubleistung und des Treibstoffverbrauchs auf verschiedenen Leveln.
 ComponentCategory Description EngineVectoring		;Vektortriebwerke sorgen für Wendeschub, um ein Schiff zu manövrieren. Eine größere Wendigkeit ist besonders im Kampf nützlich.
 ComponentCategory Description Extractor		;Extraktoren ermöglichen den Abbau von Ressourcen auf Planeten, Monden oder Asteroiden. Diese Komponenten werden in der Regel in Bergbaustationen oder Bergbauschiffe eingebaut.\n\nBeim Abbau von Asteroiden können Extraktoren in der Regel auch mehrere andere Asteroiden in der Nähe abbauen und so die Rohstoffausbeute in einem Asteroidenfeld oder einem planetaren Asteroidenring erhöhen.
-ComponentCategory Description FighterBay		;Jägerbuchten bieten Einrichtungen für die Herstellung, Lagerung und Reparatur von Raumjägern an Bord von Schiffen oder Basen.\n\nSobald sie in ein Schiff oder eine Basis eingebaut sind, können Jägerbuchten neue Raumjäger bauen und vorhandene Raumjäger reparieren.\n\nIm Gegensatz zu den meisten Schiffen erfordert der Bau von Raumjägern keine zusätzlichen Ressourcen - Raumjäger können in einer funktionierenden Jägerbuchten unbegrenzt repariert und wiederaufgebaut werden.
+ComponentCategory Description FighterBay		;Jägerbuchten bieten Einrichtungen für die Herstellung, Lagerung und Reparatur von Raumjägern an Bord von Schiffen oder Basen.\n\nSobald sie in ein Schiff oder eine Basis eingebaut sind, können Jägerbuchten neue Raumjäger konstruieren und vorhandene Raumjäger reparieren.\n\nIm Gegensatz zu den meisten Schiffen erfordert die Konstruktion von Raumjägern keine zusätzlichen Ressourcen - Raumjäger können in einer funktionierenden Jägerbuchten unbegrenzt repariert und wiederaufgebaut werden.
 ComponentCategory Description FuelStorage		;Treibstofflagerkomponenten dienen der Lagerung von Treibstoff für den Betrieb eines Reaktors, der Energie erzeugt, die dann für eine Vielzahl von Aufgaben genutzt werden kann.\n\nEin ausreichender Treibstoffvorrat ist ein wichtiger Faktor bei der Bestimmung der effektiven Reichweite eines Schiffs.
 ComponentCategory Description HyperBlock		;Gravitationsquellen-Generatoren erzeugen ein starkes Schwerkraftfeld, das feindliche Schiffe innerhalb eines bestimmten Bereichs aus dem Hyperraum zieht.\n\nDadurch entsteht eine Sicherheitszone, in der feindliche Schiffe mit Unterlichtgeschwindigkeit reisen müssen, wodurch mehr Zeit für die Ankunft von Verstärkungen als Reaktion auf einen Angriff zur Verfügung steht.\n\nDiese Komponenten sind sehr groß, so dass sie sich am besten für große Basen wie Raumhäfen eignen.\n\nGravitationsquellen-Generatoren können bezwungen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als die Blockierungsstärke des Generators. In diesem Fall wird das Schiff nicht aus dem Hyperraum gezogen.
 ComponentCategory Description HyperDeny		;Hyperantriebs-Blockierer-Komponenten verhindern, dass Schiffe in Reichweite einen Hypersprung durchführen können. Dies hindert feindliche Schiffe daran, aus dem Kampf zu entkommen, und ermöglicht es einem Angreifer, sie zu zerstören.\n\nHyperantriebs-Blockierer-Komponenten können umgangen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockschutz hat als der Hyperantriebs-Blockierer-Stärke. In diesem Fall kann das Schiff immer noch einen Sprung einleiten, selbst wenn es sich in Reichweite einer aktiven Hyperantriebs-Blockierer-Komponente befindet.
@@ -4648,8 +4648,8 @@ FleetAllowShipRoleUpgrade Manual		;The roles of the ships in the fleet are never
 FleetAllowTrimmingExcessShips Automate		;Trim excess ships in the fleet that do not precisely match template (wrong role/hull/design)
 FleetAllowTrimmingExcessShips Manual		;Allow non-matching ships in fleet to fill out total ship count, even when not precise match
 
-FleetTemplateAllowAutoUpgradingSpecificDesigns Automate		;Erlaube das automatische Upgrade von obsoleten spezifischen Design-Vorlagen zum nächsten nicht-obsoleten Design im Upgrade-Pfad
-FleetTemplateAllowAutoUpgradingSpecificDesigns Manual		;Spezifische Flotten-Design-Vorlagen werden nie automatisch geupgradet. Du musst spezifische Designs manuell upgraden, wenn neue Design-Vorlagen verfügbar werden.
+FleetTemplateAllowAutoUpgradingSpecificDesigns Automate		;Erlaube das automatische Upgrade von obsoleten spezifischen Designvorlagen zum nächsten nicht-obsoleten Design im Upgrade-Pfad
+FleetTemplateAllowAutoUpgradingSpecificDesigns Manual		;Spezifische Flotten-Designvorlagen werden nie automatisch geupgradet. Du musst spezifische Designs manuell upgraden, wenn neue Designvorlagen verfügbar werden.
 
 FleetOverrideShipTacticsWithFleet Fleet		;Flotten statt Schiffstaktiken verwenden
 FleetOverrideShipTacticsWithFleet Ship		;Schiffs statt Flottentaktiken verwenden
@@ -4847,7 +4847,7 @@ General Hive Reencounter Description		;Wir haben ein Schiff des tödlichen Schwa
 Hive Encounter Title		;Dringende Warnung von {0}
 Hive Encounter Description		;Eines unserer Schiffe hat berichtet, dass es ein antikes Schiff von immenser Größe entdeckt hat. Das Schiff ist mit etwas bedeckt, das aussieht wie Schichten aus organischem Chitin und Spinnweben.\n\nNachdem die Sensoren das Schiff gescannt hatten, entdeckten sie eine schnell ansteigende Energiesignatur. Es scheint aufzuwachen, und es scheint feindlich gesinnt zu sein!
 Hive Encounter Ship Destroyed Title		;Letzte Nachricht von {0}
-Hive Encounter Ship Destroyed Description		;Unser Schiff [LOCATION]{0}[/LOCATION] wurde von dem feindlichen antiken Schiff zerstört, das sie entdeckt haben!\n\nKurz vor ihrer Zerstörung haben sie eine letzte Übertragung gesendet. Vieles davon wurde durch eine Art von Störsender beschädigt, aber was durchkam, war ein Teil der Daten von der Begegnung.\n\nDie Übertragung deutet auf ein Energieniveau hin, das alles übersteigt, was wir bauen können. Sie enthüllte auch eine große Anzahl von Lebenssignaturen an Bord, die denen eines Kolonieschiffs entsprechen.\n\nUnsere Strategen und Wissenschaftler sind sich einig, dass dieses Schiff eine alarmierende Bedrohung darstellt. Wir sollten sofort mit den Vorkehrungen beginnen, um überhaupt eine Hoffnung auf ein Überleben zu haben!
+Hive Encounter Ship Destroyed Description		;Unser Schiff [LOCATION]{0}[/LOCATION] wurde von dem feindlichen antiken Schiff zerstört, das sie entdeckt haben!\n\nKurz vor ihrer Zerstörung haben sie eine letzte Übertragung gesendet. Vieles davon wurde durch eine Art von Störsender beschädigt, aber was durchkam, war ein Teil der Daten von der Begegnung.\n\nDie Übertragung deutet auf ein Energieniveau hin, das alles übersteigt, was wir konstruieren können. Sie enthüllte auch eine große Anzahl von Lebenssignaturen an Bord, die denen eines Kolonieschiffs entsprechen.\n\nUnsere Strategen und Wissenschaftler sind sich einig, dass dieses Schiff eine alarmierende Bedrohung darstellt. Wir sollten sofort mit den Vorkehrungen beginnen, um überhaupt eine Hoffnung auf ein Überleben zu haben!
 The Scourge of the Stars		;Die Geißel der Sterne
 Hive Pirates Offer Help Description		;Die [FACTION]{0}[/FACTION] senden eine dringende Nachricht: Seid gegrüßt, Dirtsider.\n\nUnsere Informanten sagen uns, dass Ihr möglicherweise den Schwarm erweckt habt. Wir sind zwar weder Freunde noch Verbündete, aber der erste Teil unseres Kodex sagt uns, dass wir vor allem den Schwarm bekämpfen und an der Seite derer kämpfen sollten, die ihn bekämpfen.\n\nDer Schwarm kommt in unseren ältesten Erzählungen vor. Vor langer Zeit, so heißt es, waren sie eine insektoide Spezies, die unter der Erde lebte und die Sterne bereiste. Ihr Geist wurde vom Uralten Feind versklavt, und als der Feind besiegt war, zerbrach der Geist des Schwarms. Sie kennen nichts als Krieg und Gemetzel. Ihr Hunger und ihr Hass sind alles verzehrend.\n\nUnsere Vorfahren kämpften jahrhundertelang gegen den Schwarm. Viele unserer Art wurden vernichtet, ebenso wie viele des Schwarms. Wir dachten, der Schwarm sei vollständig verschwunden - wir hatten seit mehreren hundert Jahren nichts mehr von ihm gehört. Aber es scheint, dass zumindest ein paar von ihnen übrig geblieben sind, die ruhen, sich reparieren und an Kraft gewinnen, um wieder anzugreifen.\n\nUnter all der organischen Materie befindet sich immer noch ein uraltes Schiff, das zerstört werden kann. Wenn Sie sie mit genügend Feuerkraft treffen, werden sie sterben. Aber man braucht eine Menge Schiffe, um ihre organische Panzerung und ihre Reparaturfähigkeit zu durchdringen. Unsere Vorfahren schlossen sich zu großen Flotten zusammen, wenn sie mit dem Schwarm konfrontiert wurden. Das war die einzige Möglichkeit, die mächtigen Schwarmschiffe zu besiegen.\n\nDie Schwarmschiffe setzen auch viele Drohnen ein, sowohl zur Zerstörung als auch zum Entern und Überfallen. Ohne eine angemessene Punkt- und Planetenverteidigung werden sie sowohl Ihre Schiffe zerfetzen als auch Ihre Leute verschlingen. Je schwächer Sie werden, desto stärker werden sie. Die Schwarmschiffe können sich selbst reparieren und auftanken, wenn Sie ihnen die Gelegenheit dazu geben. Ihr müsst in großer Zahl angreifen und den Kampf aufrechterhalten, bis der Schwarmträger zerstört ist.\n\nWenn ihr unsere Hilfe wollt, werden wir uns eurem Kampf anschließen, aber nur für einen Preis. Zahlt uns {1} Credits und ihr erhaltet alle Hilfe, die wir schicken können.
 Pay X credits for help against the Hive		;Bezahle {0} Credits für Hilfe gegen den Schwarm
@@ -4873,8 +4873,8 @@ Click to launch a tour of X		;Klicke, um eine {0} Tour zu starten
 Launch Tour		;Tour starten
 Tour already in progress		;Tour läuft bereits
 Resources and Mining		;Ressourcen und Bergbau
-Launch Tour of Ship Design		;Eine Tour durchs Schiffsdesign starten
-Launch Tour of Research Screen		;Forschungsbildschirm Tour starten
+Launch Tour of Ship Design		;Tour für Schiffsdesign starten
+Launch Tour of Research Screen		;Tour für Forschungs-Bildschirm starten
 Tours		;Touren
 Show Tours		;Touren anzeigen
 
@@ -4912,7 +4912,7 @@ We are pleased that you returned our ROLE NAME		;Wir freuen uns, dass Sie unsere
 Pay X credits		;Bezahle {0} Credits
 We have given you ROLE NAME		;Wir haben Ihnen {0} {1} gegeben
 
-Cargo Capacity for Bases Explanation		;Raumhäfen und andere Basen verfügen über eine erhöhte Frachtkapazität, die über die Gesamtzahl ihres Frachtraums hinausgeht. Wenn Basen in Kolonien gebaut werden, wird ihre Frachtkapazität sogar noch weiter erhöht.
+Cargo Capacity for Bases Explanation		;Raumhäfen und andere Basen verfügen über eine erhöhte Frachtkapazität, die über die Gesamtzahl ihres Frachtraums hinausgeht. Wenn Basen in Kolonien konstruiert werden, wird ihre Frachtkapazität sogar noch weiter erhöht.
 
 We have declared WAR on EMPIRE		;Wir haben KRIEG erklärt gegen {0}
 War against EMPIRE		;Krieg gegen {0}!
@@ -4941,32 +4941,32 @@ PolicyExplanation AutomationFundingLevels		;Automatisieren Sie die Höhe der Fin
 PolicyExplanation TaxRateTargetApprovalSmallColonies		;Legt den Zielwert für den Kolonie Zustimmungslevel für kleine Kolonien (weniger als 10% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Zustimmungsrate zu erreichen: Senkung, um die Zustimmung und das Wachstum zu erhöhen, Erhöhung, um die Steuereinnahmen zu steigern.
 PolicyExplanation TaxRateTargetApprovalMediumColonies		;Legt den Zielwert für die Kolonie Zustimmungsrate für mittlere Kolonien (weniger als 50% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Genehmigungsstufe zu erreichen: Senken, um die Genehmigung und das Wachstum zu erhöhen, Erhöhen, um die Steuereinnahmen zu steigern.
 PolicyExplanation TaxRateTargetApprovalLargeColonies		;Legt den Zielwert für die Kolonie Zustimmungsrate für große Kolonien (über 50% der maximalen Bevölkerung) fest, wenn die Steuersätze automatisiert werden. Die Steuersätze werden 'zielgerichtet' eingesetzt, um die angegebene Zustimmungsrate zu erreichen: Senkung, um die Zustimmung und das Wachstum zu erhöhen, Erhöhung, um die Steuereinnahmen zu steigern.
-PolicyExplanation AutomationShipDesigns		;Automatisieren Sie die Design-Vorlage neuer Schiffe und Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell. Wenn durch die Forschung neue Komponenten und Hüllen verfügbar werden, sollten Ihre Schiffs- und Basisdesigns überarbeitet werden, um ihre Fähigkeiten zu verbessern.
-PolicyExplanation AutomationShipConstruction		;Automatisieren Sie den Bau neuer Schiffe für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
-PolicyExplanation AutomationBaseConstruction		;Automatisieren Sie den Bau neuer Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
+PolicyExplanation AutomationShipDesigns		;Automatisieren Sie die Designvorlage neuer Schiffe und Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell. Wenn durch die Forschung neue Komponenten und Hüllen verfügbar werden, sollten Ihre Schiffs- und Basisdesigns überarbeitet werden, um ihre Fähigkeiten zu verbessern.
+PolicyExplanation AutomationShipConstruction		;Automatisieren Sie die Konstruktion neuer Schiffe für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
+PolicyExplanation AutomationBaseConstruction		;Automatisieren Sie die Konstruktion neuer Basen für Ihr Reich, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationAbandonedConstruction		;Automatisieren Sie die Reparatur von verlassenen Schiffen oder Basen, die Sie entdecken, oder kontrollieren Sie diesen Bereich manuell.
-PolicyExplanation ConstructionPrioritizeStateShipsInQueue		;Bei der Priorisierung werden Schiffe oder Basen in Staatsbesitz automatisch an die Spitze der Warteschlange gesetzt, um sicherzustellen, dass sie vor allen Schiffen oder Basen in Privatbesitz gebaut werden.
+PolicyExplanation ConstructionPrioritizeStateShipsInQueue		;Bei der Priorisierung werden Schiffe oder Basen in Staatsbesitz automatisch an die Spitze der Warteschlange gesetzt, um sicherzustellen, dass sie vor allen Schiffen oder Basen in Privatbesitz konstruiert werden.
 PolicyExplanation DockingPrioritizeStateShipsInQueue		;Bei der Priorisierung werden Schiffe oder Basen in Staatsbesitz automatisch an die Spitze der Docking-Warteschlangen gestellt, um sicherzustellen, dass sie vor allen anderen Schiffen oder Basen in Privatbesitz an Basen und Kolonien andocken.
-PolicyExplanation NewShipsAutomatedMilitary		;Neu gebaute Militärschiffe können zu Beginn entweder automatisiert (sie erhalten eigenständig Missionen) oder manuell gesteuert werden.
-PolicyExplanation NewShipsAutomatedOtherState		;Neu gebaute nicht-militärische Staatsschiffe (Erkundungs-, Bau- und Kolonieschiffe) können zu Beginn entweder automatisch (sie erhalten eigenständig Missionen) oder manuell gesteuert werden.
-PolicyExplanation ConstructionSpaceportLargePopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein großer Raumhafen gebaut werden kann.
-PolicyExplanation ConstructionSpaceportMediumPopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein mittlerer Raumhafen gebaut werden kann.
-PolicyExplanation ConstructionSpaceportSmallPopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein kleiner Raumhafen gebaut werden kann.
-PolicyExplanation ConstructionSpaceportNearestDistance		;Die geringste zulässige Entfernung zwischen automatisch gebauten Raumhäfen in Ihrem Reich.
-PolicyExplanation ConstructionLevelSpaceport		;Bauprioritätsstufe für den Bau neuer Raumhäfen in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Raumhäfen gebaut werden.
-PolicyExplanation ConstructionLevelDefensiveBases		;Bauprioritätsstufe für den Bau neuer Verteidigungsbasen in Ihrem Reich. Höhere Priorität bedeutet, dass mehr Verteidigungsbasen gebaut werden.
-PolicyExplanation ConstructionLevelMonitoring		;Bauprioritätsstufe für den Bau neuer Überwachungsstationen in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Überwachungsstationen gebaut werden.
-PolicyExplanation ConstructionLevelMilitary		;Bauprioritätsstufe für den Bau neuer Militärschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Militärschiffe gebaut werden.
-PolicyExplanation ConstructionLevelExploration		;Bauprioritätsstufe für den Bau neuer Erkundungsschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Erkundungsschiffe gebaut werden.
-PolicyExplanation ConstructionLevelConstruction		;Bauprioritätsstufe für den Bau neuer Konstruktionsschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Konstruktionsschiffe gebaut werden.
-PolicyExplanation ConstructionMilitaryBuildRatioEscort		;Anteil der Militärschiffen, die Eskorten sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioFrigate		;Anteil der Militärschiffen, die Fregatten sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioDestroyer		;Anteil der Militärschiffe, die Zerstörer sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioCruiser		;Anteil der Militärschiffe, die Kreuzer sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioCapitalShip		;Anteil der Militärschiffe, die Schlachtschiffe sein sollten. Die automatische Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten, wobei auch berücksichtigt wird, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioCarrier		;Anteil der Militärschiffe, die Trägerschiffe sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation ConstructionMilitaryBuildRatioTroopTransport		;Anteil der Militärschiffe, die Truppentransporter sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis beim Bau von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
-PolicyExplanation BuildIndependentShips		;Die Möglichkeit, neue Frachter für unabhängige Händler zu bauen. Dies kann Ihrem Reich ein kleines Zusatzeinkommen verschaffen.
+PolicyExplanation NewShipsAutomatedMilitary		;Neu konstruierte Militärschiffe können zu Beginn entweder automatisiert (sie erhalten eigenständig Missionen) oder manuell gesteuert werden.
+PolicyExplanation NewShipsAutomatedOtherState		;Neu konstruierte nicht-militärische Staatsschiffe (Erkundungs-, Konstruktions- und Kolonieschiffe) können zu Beginn entweder automatisch (sie erhalten eigenständig Missionen) oder manuell gesteuert werden.
+PolicyExplanation ConstructionSpaceportLargePopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein großer Raumhafen konstruiert werden kann.
+PolicyExplanation ConstructionSpaceportMediumPopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein mittlerer Raumhafen konstruiert werden kann.
+PolicyExplanation ConstructionSpaceportSmallPopulationRequired		;Bevölkerungszahl, die erforderlich ist, damit in einer Kolonie automatisch ein kleiner Raumhafen konstruiert werden kann.
+PolicyExplanation ConstructionSpaceportNearestDistance		;Die geringste zulässige Entfernung zwischen automatisch konstruierten Raumhäfen in Ihrem Reich.
+PolicyExplanation ConstructionLevelSpaceport		;Prioritätsstufe für die Konstruktion neuer Raumhäfen in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Raumhäfen konstruiert werden.
+PolicyExplanation ConstructionLevelDefensiveBases		;Prioritätsstufe für die Konstruktion neuer Verteidigungsbasen in Ihrem Reich. Höhere Priorität bedeutet, dass mehr Verteidigungsbasen konstruiert werden.
+PolicyExplanation ConstructionLevelMonitoring		;Prioritätsstufe für die Konstruktion neuer Überwachungsstationen in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Überwachungsstationen konstruiert werden.
+PolicyExplanation ConstructionLevelMilitary		;Prioritätsstufe für die Konstruktion neuer Militärschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Militärschiffe konstruiert werden.
+PolicyExplanation ConstructionLevelExploration		;Prioritätsstufe für die Konstruktion neuer Erkundungsschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Erkundungsschiffe konstruiert werden.
+PolicyExplanation ConstructionLevelConstruction		;Prioritätsstufe für die Konstruktion neuer Konstruktionsschiffe in Ihrem Reich. Eine höhere Priorität bedeutet, dass mehr Konstruktionsschiffe konstruiert werden.
+PolicyExplanation ConstructionMilitaryBuildRatioEscort		;Anteil der Militärschiffen, die Eskorten sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioFrigate		;Anteil der Militärschiffen, die Fregatten sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioDestroyer		;Anteil der Militärschiffe, die Zerstörer sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioCruiser		;Anteil der Militärschiffe, die Kreuzer sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioCapitalShip		;Anteil der Militärschiffe, die Schlachtschiffe sein sollten. Die automatische Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten, wobei auch berücksichtigt wird, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioCarrier		;Anteil der Militärschiffe, die Trägerschiffe sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation ConstructionMilitaryBuildRatioTroopTransport		;Anteil der Militärschiffe, die Truppentransporter sein sollten. Die automatisierte Konstruktion wird versuchen, dieses Verhältnis bei der Konstruktion von Militärschiffen einzuhalten und gleichzeitig zu berücksichtigen, welche Schiffsrollen von Flottenvorlagen benötigt werden.
+PolicyExplanation BuildIndependentShips		;Die Möglichkeit, neue Frachter für unabhängige Händler zu konstruieren. Dies kann Ihrem Reich ein kleines Zusatzeinkommen verschaffen.
 PolicyExplanation RepairIndependentShips		;Die Möglichkeit, Frachter von unabhängigen Händlern zu reparieren. Dies kann ein kleines zusätzliches Einkommen für Ihr Reich bringen.
 PolicyExplanation AutomationDiplomaticGifts		;Automatisieren Sie das Anbieten von diplomatischen Geschenken an andere Fraktionen, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationDiplomaticTreaties		;Automatisieren Sie die Aushandlung von diplomatischen Verträgen mit anderen Fraktionen oder kontrollieren Sie diesen Bereich manuell.
@@ -4978,7 +4978,7 @@ PolicyExplanation CaptureTargetConditionBase		;Wenn feindliche Basen erobert sta
 PolicyExplanation CaptureEnlistMilitaryShip		;Die Möglichkeit, erbeutete Militärschiffe in das eigene Reich zu übernehmen oder sie für Technologie und Ressourcen zu verschrotten.
 PolicyExplanation CaptureDisassembleMilitaryShip		;Wie erbeutete Militärschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Werft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
 PolicyExplanation CaptureEnlistCivilianShip		;Die Möglichkeit, erbeutete Zivilschiffe in das eigene Reich aufzunehmen oder sie für Technologie und Ressourcen zu verschrotten.
-PolicyExplanation CaptureDisassembleCivilianShip		;Wie erbeutete Zivilschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Schiffsbau-Werft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
+PolicyExplanation CaptureDisassembleCivilianShip		;Wie erbeutete Zivilschiffe abgewrackt werden sollten. Das Zerlegen des Schiffes in einer Schiffs-Werft kann Tech-Boni bringen, wenn das Schiff technisch fortgeschritten ist.
 PolicyExplanation CaptureEnlistBase		;Die Möglichkeit, eroberte Basen in das eigene Reich einzugliedern oder sie für Technologie und Ressourcen zu verschrotten.
 PolicyExplanation UpgradeEnlistedMilitaryShips		;Die Möglichkeit, erbeutete Militärschiffe, die in Ihr Reich aufgenommen werden, auch auf Ihr aktuelles Design für ihre Rolle umzurüsten.
 PolicyExplanation UpgradeEnlistedCivilianShips		;Die Möglichkeit, erbeutete Zivilschiffe, die in Ihr Reich aufgenommen werden, auch auf Ihr aktuelles Design für ihre Rolle umzurüsten.
@@ -4998,7 +4998,7 @@ PolicyExplanation AutomationTroopGeneration		;Automatisieren Sie die Rekrutierun
 PolicyExplanation ColonyTroopGarrisonLevel		;Die Stufe der Verteidigungsgarnisonen in Ihren Kolonien. Höhere Stufen bedeuten, dass Ihre Kolonien mehr Truppen rekrutieren und garnisonieren, um eine Invasion abzuwehren.
 PolicyExplanation AttackTroopLevel		;Die Stufe der rekrutierten Angriffstruppen. Höhere Stufen bedeuten, dass Ihre Kolonien mehr Angriffstruppen rekrutieren, um in feindliche Kolonien einzudringen.
 PolicyExplanation AutomationFleetFormation		;Automatisieren Sie die Aufstellung neuer Flotten, oder kontrollieren Sie diesen Bereich manuell.
-PolicyExplanation AutomationFleetTopup		;Automatisieren Sie die Aufstockung von Schiffen für bestehende Flotten, oder steuern Sie diesen Bereich manuell. Wenn diese Funktion aktiviert ist, bauen Flotten neue Schiffe entsprechend der in ihrer Flottenvorlage angegebenen Menge.
+PolicyExplanation AutomationFleetTopup		;Automatisieren Sie die Aufstockung von Schiffen für bestehende Flotten, oder steuern Sie diesen Bereich manuell. Wenn diese Funktion aktiviert ist, konstruieren Flotten neue Schiffe entsprechend der in ihrer Flottenvorlage angegebenen Menge.
 PolicyExplanation AutomationFleetPostures		;Automatisieren Sie die Zielauswahl von Heimatbasen, Gefechtsbereichen und Angriffszielen für Flotten, oder steuern Sie diesen Bereich manuell.
 PolicyExplanation MilitaryShipsNotInFleetRatio		;Legt den Anteil der Militärschiffe fest, die nicht einer Flotte zugewiesen werden sollen, sondern allein operieren und Eskort- und Wachaufgaben übernehmen sollen.
 PolicyExplanation AutomationResearch		;Automatisieren Sie die Auswahl neuer Forschungsprojekte, oder steuern Sie diesen Bereich manuell.
@@ -5166,8 +5166,8 @@ All Resources - No Asteroids		;Alle Ressourcen - Keine Asteroiden
 You have reached X user-defined starting empires. This is the maximum number allowed		;Sie haben die Anzahl von {0} Startreichen erreicht. Dies ist die maximal zulässige Anzahl.
 You must reduce the number of starting empires		;Du musst die Anzahl von Startreichen auf {0} reduzieren (sowohl automatisch generierte als auch manuell definierte).
 
-AutoDesign Explanation		;Hier klicken, um zu ändern, wie alle Design-Vorlagen für diese Hülle aktualisiert werden. Entweder automatisch oder manuell
-AutoRetrofit Explanation		;Hier klicken, um einzuschalten, ob Schiffe oder Basen dieses Designs automatisch nachgerüstet werden, wenn neuere Design-Vorlagen verfügbar sind. Beachten Sie, dass Sie dies nur für staatliche Rollen einstellen können. Zivile Rollen werden bei Bedarf immer automatisch nachgerüstet.
+AutoDesign Explanation		;Hier klicken, um zu ändern, wie alle Designvorlagen für diese Hülle aktualisiert werden. Entweder automatisch oder manuell
+AutoRetrofit Explanation		;Hier klicken, um einzuschalten, ob Schiffe oder Basen dieses Designs automatisch nachgerüstet werden, wenn neuere Designvorlagen verfügbar sind. Beachten Sie, dass Sie dies nur für staatliche Rollen einstellen können. Zivile Rollen werden bei Bedarf immer automatisch nachgerüstet.
 DesignStatus Explanation		;Klicken Sie hier, um umzuschalten, ob dieses Design aktiv oder veraltet ist
 
 Particle Effects		;Partikeleffekte
@@ -5175,7 +5175,7 @@ Settings Explanation ParticleEffectsEnabled		;Aktivieren Sie Partikeleffekte fü
 Weapon Effects		;Waffeneffekte
 Settings Explanation WeaponBillboardsEnabled		;Aktivieren Sie das Rendern von Waffeneffekten. Beachten Sie, dass die Deaktivierung bedeutet, dass Sie keine Waffen feuern sehen können, aber dies kann bei der Fehlersuche bei Rendering-Problemen nützlich sein.
 Unit Damage Overlay		;Einheitenschaden Overlay
-Settings Explanation DamageOverlayEnabled		;Aktivieren Sie Schadens- und Bauoberflächeneffekte für Schiffe, Basen und Kreaturen.
+Settings Explanation DamageOverlayEnabled		;Aktivieren Sie Schadens- und Konstruktions-Effekte für Schiffe, Basen und Kreaturen.
 
 Rendering Mode		;Rendering Modus
 Settings Explanation RenderingMode		;Die standardmäßige und empfohlene Rendering-Plattform ist DirectX 11. Wenn Sie jedoch Rendering-Probleme haben (z. B. Abstürze während Kämpfen), sollten Sie Vulkan/DXVK-Rendering ausprobieren.\n\nWenn Sie Vulkan/DXVK-Rendering verwenden, sollten Sie auch das Rendering-Format auf 'Standard Range Rendering' einstellen, um eine zu dunkle Anzeige zu vermeiden.\n\nHINWEIS: Distant Worlds 2 muss neu gestartet werden, um Änderungen am Rendering-Modus zu übernehmen.
@@ -5237,7 +5237,7 @@ No Ambassador assigned to our capital		;Sie müssen einen Botschafter in unsere 
 Diplomacy Factor Assimilation Rate Improvement		;Assimilationsrate der Bevölkerung
 
 You have no active ROLE design		;Sie haben kein aktives {0} Design
-Build base at LOCATION		;Baue Basis bei {0}
+Build base at LOCATION		;Konstruktione Basis bei {0}
 At Selected Location		;Am ausgewählten Standort
 
 Switch Empire		;Reich wechseln
@@ -5266,7 +5266,7 @@ Retrofit Path		;Retrofit Pfad
 Latest Design for Hull		;Letztes Hüllen-Design
 Latest Design for Largest Hull for Role		;Letztes Design für größte Hülle für Rolle
 View		;Betrachte
-Other Designs That Upgrade To This Design		;Andere Design-Vorlagen, die zu diesem Design upgraden
+Other Designs That Upgrade To This Design		;Andere Designvorlagen, die zu diesem Design upgraden
 Upgrades To		;Dieses Design upgradet zu
 Upgrades to DESIGN because latest for hull		;Upgradet zu '{0}', weil leztes für Hülle
 Upgrades to DESIGN because latest for role		;Upgradet zu '{0}', weil leztes für Rolle
@@ -5378,8 +5378,8 @@ Character Mission Explanation Success InternalStabilization		;Als ein Ergebnis w
 
 Migration Factor Explanation		;Erhöht oder reduziert Migration zu den Kolonien eines Reiches, was sie mehr oder weniger anziehend für die Immigration von Bürgern von ausländischen Reichen macht.
 
-Ship Design Automation Explanation Manual		;Schiffsdesign ist momentan manuell kontrolliert. Neue Design-Vorlagen werden NICHT automatisch generiert. Neue Design-Vorlagen müssen manuell kreiert werden.
-Ship Design Automation Explanation Automated		;Schiffsdesign ist momentan automatisiert. Neue Design-Vorlagen werden für alle Hüllen automatisch generiert, außer für eine Hülle manuelles Upgrade eingestellt.
+Ship Design Automation Explanation Manual		;Schiffsdesign ist momentan manuell kontrolliert. Neue Designvorlagen werden NICHT automatisch generiert. Neue Designvorlagen müssen manuell kreiert werden.
+Ship Design Automation Explanation Automated		;Schiffsdesign ist momentan automatisiert. Neue Designvorlagen werden für alle Hüllen automatisch generiert, außer für eine Hülle manuelles Upgrade eingestellt.
 Ship Design is Automated		;Schiffsdesign ist automatisiert
 Ship Design is Manually-controlled		;Schiffsdesign ist manuell kontrolliert
 
@@ -5399,7 +5399,7 @@ Mark Selected As Manual Retrofit		;Markiere Auswahl als\nManuelles Retrofit
 Mark Selected As Auto Hull Upgrade		;Markiere Auswahl als\nAuto Hüllen-Upgrade
 Mark Selected As Manual Hull Upgrade		;Markiere Auswahl als\nManuelles Hüllen-Upgrade
 
-Manual Upgrade Designs		;Upgrade Design-Vorlagen manuell
+Manual Upgrade Designs		;Upgrade Designvorlagen manuell
 Free Form		;Freiform
 
 Suitability for COLONY		;Eignung für {0}

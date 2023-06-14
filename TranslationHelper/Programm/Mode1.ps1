@@ -1,48 +1,18 @@
-# << Viertes Programm - Prüfung von Strukturänderungen einer Datei (Neu VS Alt). >>
-# First compare structure (scan)/****************************
+# << Modus 1 - Prüfung von Strukturänderungen einer Datei (Neu VS Alt). >>
 
-### Global Setup ###
-
-# @{ ... }
-$Config = @{
-    ShowGreen = $false
-
-    MarkerPreAndPostFix = "_____"
-    MarkerNew = "NEU"
-    MarkerDifferent = "UNTERSCHIEDLICH"
-    MarkerInvalid = "UNGÜLTIG"
-
-    FilePathRuleSets = "$PSScriptRoot\Konfiguration\Regeln.ps1"
-
-    FolderPathEnNew = "$PSScriptRoot\1 Englisch Neu"
-    FolderPathEnOld = "$PSScriptRoot\2 Englisch Alt"
-
-    FolderPathResult = "$PSScriptRoot\4 Deutsch Neu (Ergebnis)"
-    FilePathLog = "$PSScriptRoot\Logs\$($MyInvocation.MyCommand.Name).Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
-}
-
-# @{Name = "", Files = @(), Rules = @()}
-$RuleSets = . $Config.FilePathRuleSets
-
-$global:Log = @("TYP; REGELSET; DATEI; REGEL; INFO");
-$LogFn = {
-    param($type, $ruleSet, $file, $rule, $info, $steps, $foregroundColor)
-
-    Write-Host -ForegroundColor $foregroundColor "$steps $rule -> $type. $info"
-    $global:Log += "$type; $ruleSet; $file; $rule; $info"
-}
+param($LogFn, $LoadFn, $TranslateFn, $Config, $RuleSets)
 
 $ProcessTraversingFn = {
-    param($elementNew, $elementOld, $path)
+    param($elementNew, $elementOld, $rule)
 
     if ($null -eq $elementOld) {
-        $LogFn.Invoke($Config.MarkerNew, $name, $file, $path, "Kein Element gefunden in 'Englisch Alt'.", ">>>>", "DarkCyan")
+        $LogFn.Invoke(">>>>", "DarkCyan", $Config.MarkerNew, $name, $file, $rule, "Kein Element gefunden in 'Englisch Alt'.")
         $elementNew.SetAttribute($Config.MarkerNew, "yes")
         return $false
     }
 
     if ($elementNew.ToString() -ne $elementOld.ToString()) {
-        $LogFn.Invoke($Config.MarkerDifferent, $name, $file, $path, "Es wurde ein Element mit anderem Namen [$($elementOld.ToString())] gefunden in 'Englisch Alt'.", ">>>>", "DarkCyan")
+        $LogFn.Invoke(">>>>", "DarkCyan", $Config.MarkerDifferent, $name, $file, $rule, "Es wurde ein Element mit anderem Namen [$($elementOld.ToString())] gefunden in 'Englisch Alt'.")
         $elementNew.SetAttribute($Config.MarkerDifferent, "yes")
         return $false
     }
@@ -51,7 +21,7 @@ $ProcessTraversingFn = {
     $childrenOld = $elementOld.ChildNodes
 
     for ($i = 0; $i -lt $childrenNew.Count; $i++) {
-        $same = $ProcessTraversingFn.Invoke($childrenNew[$i], $childrenOld[$i], "$path[$($i+1)]/$($childrenNew[$i].ToString())")
+        $same = $ProcessTraversingFn.Invoke($childrenNew[$i], $childrenOld[$i], "$rule[$($i+1)]/$($childrenNew[$i].ToString())")
         if ($false -eq $same) {
             break
         }
@@ -59,7 +29,7 @@ $ProcessTraversingFn = {
 
     # Element in EN_NEW exists and is the same as in EN_OLD and not the same as in DE!
     if ($Config.ShowGreen) {
-        Write-Host -ForegroundColor DarkGreen ">>>> $path -> OK."
+        Write-Host -ForegroundColor DarkGreen ">>>> $rule -> OK."
     }
 
     return $true
@@ -67,8 +37,7 @@ $ProcessTraversingFn = {
 
 ### Main Program ###
 
-Write-Host -ForegroundColor Green "Starting $($MyInvocation.MyCommand.Name) with configuration:"
-$Config | Select-Object -Property ShowGreen | Format-List
+# TODO: Mode 1-3 could be just the inner part of a loop, with the outer part being the start itself (same all 3 times) but not all modes need all 3 files
 
 foreach ($ruleSet in $RuleSets) {
     $name = $ruleSet.Name

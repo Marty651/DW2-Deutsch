@@ -2,6 +2,12 @@
 # - Expects the structure to be identical
 # - 2 Files -> One MASTER one (slave) -> Check master for rules and if slave different -> MARKER
 
+<#
+    Modus 2: Zusammenführung von mehreren zeitgleichen Änderungen einer Datei (Aufzeigen von Konflikten).
+    -> Das kann zum Beispiel verwendet werden, wenn rxnnxs und frankycl an der gleichen Datei (versehentlich) arbeiten.
+#>
+
+
 ### Global Setup ###
 
 # @{ ... }

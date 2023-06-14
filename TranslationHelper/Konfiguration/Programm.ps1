@@ -13,12 +13,13 @@
 
     DebugOnlyRulesets = @()
 
-    MarkerPreAndPostFix = "#####"
+    MarkerPreAndPostFix = "_____"
     MarkerInvalid = "UNGÜLTIG"
     MarkerNew = "NEU"
     MarkerNotYetTranslated = "NOCH_NICHT_ÜBERSETZT"
     MarkerNoDifference = "DEUTSCH_UND_ENGLISCH_GLEICH"
     MarkerOutdated = "VERALTET"
+    MarkerDifferent = "UNTERSCHIEDLICH"
 
     FilePathRuleSets = "$PSScriptRoot\Regeln.ps1"
 
@@ -28,8 +29,10 @@
 
     FolderPathResult = "$PSScriptRoot\..\4 Deutsch Neu (Ergebnis)"
 
-    # FilePathLog = "$PSScriptRoot\..\Logs\Prototyp.Log.$(Get-Date -Format "yyyy-MM-dd_hh-mm-ss").csv"
-    FilePathLog = "$PSScriptRoot\..\Logs\Prototyp.Log.csv"
+    Logger = @{
+        FolderPath = "$PSScriptRoot\..\Logs"
+        IncludeDateTimeStamp = $false
+    }
 
     FilePathDeeplKey = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
     DeeplUrl = "https://api-free.deepl.com/v2/translate"

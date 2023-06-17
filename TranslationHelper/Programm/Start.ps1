@@ -1,3 +1,5 @@
+using module .\Helper.psm1
+
 param([int]$Mode)
 
 # Global Developer Settings
@@ -5,7 +7,7 @@ $global:ErrorActionPreference = "Stop"
 $global:DebugPreference = "Continue"
 
 # Imports
-Remove-Module "Helper" -ErrorAction Ignore ; Import-Module $PSScriptRoot\Helper.psm1
+Remove-Module "Helper.Real" -ErrorAction Ignore ; Import-Module $PSScriptRoot\Helper.Real.psm1
 
 # @{ ... }
 $Config = . $PSScriptRoot\..\Konfiguration\Programm.ps1
@@ -27,7 +29,7 @@ Write-Host -ForegroundColor Green "Folgende Dateien werden verarbeitet (siehe Re
 $RuleSets | Select-Object -ExpandProperty Dateien | Out-Host
 Write-Host ""
 
-$Helper = New-HelperClass -Config $Config
+[Helper]$Helper = New-HelperClass -Config $Config
 
 # Start Execution of the Mode
 & $PSScriptRoot\Mode$Mode.ps1 -Helper $Helper -Config $Config -RuleSets $RuleSets

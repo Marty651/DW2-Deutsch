@@ -2,7 +2,6 @@
 # - Dad needs the other program first -> check glossar (component def. + names of galactopedia files) against the "fließtexte" (galactopedia)
 # - Is not checking empty content really good?
 # - Comment nodes instead of text nodes & show both (all) at the same time?
-# - Out-Of-Scope FN variable usage !
 # - .txt-Dateien (GameText.txt)
 # - Optional rules (no invalid but "not found"?)
 # - German Config
@@ -19,7 +18,8 @@
 # - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/set-strictmode?view=powershell-7.3
 # - Marker config (value, active (set), autotranslate, which one to set)
 # - Separate rule config files (for normla game and dlc needed)
-# - Support Unix better (/ instead of \)
+# - XML Sorter Mode (with configuration (rules))
+# - Class for Config (?) might be better
 
 # References:
 # - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document

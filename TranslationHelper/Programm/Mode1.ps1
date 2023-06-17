@@ -1,6 +1,6 @@
-# << Modus 1 - Prüfung von Strukturänderungen einer Datei (Neu VS Alt). >>
+param($Helper, $Config, $RuleSets)
 
-param($LogFn, $LoadFn, $TranslateFn, $Config, $RuleSets)
+### Functions
 
 $ProcessTraversingFn = {
     param($elementNew, $elementOld, $rule)
@@ -35,9 +35,12 @@ $ProcessTraversingFn = {
     return $true
 }
 
-### Main Program ###
+### Main Program
 
-# TODO: Mode 1-3 could be just the inner part of a loop, with the outer part being the start itself (same all 3 times) but not all modes need all 3 files
+Write-Host -ForegroundColor Green "Starte Modus 1 - Prüfung von Strukturänderungen einer Datei (Neu VS Alt)"
+# Write-Host -ForegroundColor Green "Starte Modus 2 - Zusammenführung von mehreren zeitgleichen Änderungen einer Datei (Aufzeigen von Konflikten)."
+
+# Write-Host -ForegroundColor Green "Starte Hilfsmodus 11 - Prüfung der richtigen Verwendung der GameEvent Namen"
 
 foreach ($ruleSet in $RuleSets) {
     $name = $ruleSet.Name
@@ -45,7 +48,7 @@ foreach ($ruleSet in $RuleSets) {
     Write-Host "> Starte Verarbeitung von Regelset: $name"
 
     foreach ($file in $files) {
-        Write-Host ">> Starte Verarbeitung von Datei: $($Config.FolderPathEnNew)\$file"        
+        Write-Host ">> Starte Verarbeitung von Datei: $($Config.FolderPathEnNew)\$file"
 
         $xmlEnNew = [xml](Get-Content "$($Config.FolderPathEnNew)\$file" -Encoding UTF8);
         if ($null -eq $xmlEnNew) {
@@ -63,7 +66,7 @@ foreach ($ruleSet in $RuleSets) {
         Write-Host ">>> Alle 2 Dateien vorhanden. Starte Verarbeitung."
 
         $elementNew = $xmlEnNew.SelectSingleNode("/*[1]");
-        $elementOld = $xmlEnOld.SelectSingleNode("/*[1]");   
+        $elementOld = $xmlEnOld.SelectSingleNode("/*[1]");
         
         $ProcessTraversingFn.Invoke($elementNew, $elementOld, "/$($elementNew.ToString())") | Out-Null
 

@@ -3,7 +3,7 @@
 
     Diese Datei wird von PowerShell gestartet/ausgeführt und ausgelesen.
     Es gibt ein paar Stellschrauben, mit denen Man das Programm etwas anpassen kann.
-    In der Regel sind die empfohlenene Standardeinstellungen bereits gesetzt.
+    In der Regel sind die empfohlenen Standardeinstellungen bereits gesetzt.
 #>
 
 @{
@@ -11,7 +11,7 @@
     DryRun = $false
     ShowGreen = $false
 
-    DebugOnlyRulesets = @("Basic-Versionen #3 Game Events")
+    DebugOnlyRulesets =  @() #@("Basic-Versionen #2 Name + Description") #@("Basic-Versionen #3 Game Events")
 
     MarkerPreAndPostFix = "_____"
     MarkerInvalid = "UNGÜLTIG"

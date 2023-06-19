@@ -65,9 +65,9 @@ class RealHelper : Helper
     }
 
     [object] ResolveFileGlobs($FileNames, $FolderPath) 
-    {    
+    {
         $FolderPath = $this.ResolvePath($FolderPath)
-        
+
         return $FileNames | 
             ForEach-Object { Get-Item "$FolderPath/$_" -ErrorAction SilentlyContinue } |
             Select-Object -ExpandProperty Name
@@ -85,6 +85,21 @@ class RealHelper : Helper
 
         $Path = $Path -replace "\\","/"
         return [System.IO.Path]::GetFullPath($Path);
+    }
+
+    [object] IsDebug()
+    {
+        # See: https://stackoverflow.com/a/44442925/4629825
+
+        [switch]$IgnorePSBoundParameters = $false
+        [switch]$IgnoreDebugPreference = $false
+        [switch]$IgnorePSDebugContext = $false
+
+        return (
+            ((-not $IgnoreDebugPreference.IsPresent) -and ($global:DebugPreference -ne "SilentlyContinue")) -or
+            ((-not $IgnorePSBoundParameters.IsPresent) -and $global:PSBoundParameters.Debug.IsPresent) -or
+            ((-not $IgnorePSDebugContext.IsPresent) -and ($global:PSDebugContext))
+        )
     }
 }
 

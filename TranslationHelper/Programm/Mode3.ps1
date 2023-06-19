@@ -4,49 +4,99 @@ param([Helper]$Helper, $Config, $RuleSets)
 
 ### Functions
 
-function ProcessOne($Helper, $XmlEnNew, $ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $FileName, $Rule)
+function MarkOne($ElementEnNew, $Marker, $ElementEnNewText, $ElementEnOldText, $ElementDeText) 
+{
+    $text = "Typ: $($Config.MarkerPreAndPostFix)$Marker$($Config.MarkerPreAndPostFix)"
+
+    if ($null -ne $ElementEnNewText) {
+        $text += [Environment]::NewLine + [Environment]::NewLine + "Englisch Neu:" + [Environment]::NewLine + $ElementEnNewText + [Environment]::NewLine + " - - - - - "
+    }
+
+    if ($null -ne $ElementEnOldText) {
+        $text += [Environment]::NewLine + [Environment]::NewLine + "Englisch Alt:" + [Environment]::NewLine + $ElementEnOldText + [Environment]::NewLine + " - - - - - "
+    }
+
+    if ($null -ne $ElementDeText) {
+        $text += [Environment]::NewLine + [Environment]::NewLine + "Deutsch Alt:" + [Environment]::NewLine + $ElementDeText + [Environment]::NewLine + " - - - - - "
+    }
+
+    $document = $ElementEnNew.OwnerDocument
+
+    $comment = $document.CreateComment($text)
+    $ws = $document.CreateWhitespace("`r`n")
+
+    $ElementEnNew.ParentNode.InsertAfter($ws, $ElementEnNew.PreviousSibling.PreviousSibling) | Out-Null
+    $ElementEnNew.ParentNode.InsertAfter($comment, $ElementEnNew.PreviousSibling.PreviousSibling) | Out-Null
+}
+
+function SetOne($ElementEnNew, $ElementDeText) 
+{
+   # Note: For some reason, even though "#text" is here available, it's sometimes not settable.
+   $ElementEnNew.RemoveAll() | Out-Null
+   $document = $ElementEnNew.OwnerDocument
+   $text = $document.CreateTextNode($ElementDeText)
+   $ElementEnNew.AppendChild($text) | Out-Null
+}
+
+function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $FileName, $Rule)
 {
     if ($Config.DryRun) {
         Write-Host -ForegroundColor Magenta ">>>> $Rule"
         return
     }
 
-    # Workaround: Some "empty" elements are not recognized as such, so we add a text node if it doesn't exist.
-    # TODO: Maybe it's better to just ignore empty or throw a warning/error/invalid?
-    if (!($ElementEnNew | Get-Member "#text" -MemberType Property)) {
-        $ElementEnNew.AppendChild($XmlEnNew.CreateTextNode([String]::Empty)) | Out-Null
+    $elementEnNewText = ($ElementEnNew | Get-Member "#text" -MemberType Property) ? $ElementEnNew."#text" : $null
+
+    if ($null -eq $elementEnNewText) {
+        if ($Config.ShowGreen) {
+            Write-Host -ForegroundColor DarkGreen ">>>> $Rule -> Fertig, kein Text nötig."
+        }
+        return
     }
 
+    # Old one missing, so was never translated.
     if ($null -eq $ElementEnOld) {
         $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
-        $ElementEnNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $Helper.Translate($ElementEnNew."#text") : $ElementEnNew."#text")
-        return
-    }
-    elseif ($ElementEnOld.InnerText -ne $ElementEnNew.InnerText) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerOutdated, $RuleSetName, $File, $Rule, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.")
-        $ElementEnNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerOutdated + $Config.MarkerPreAndPostFix + " " + $ElementEnNew."#text"
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $null -ElementDeText $null
+        # TODO: Translate if wanted via SetOne
         return
     }
 
-    # Elements in EN_NEW and EN_OLD exist and text is equal!
+    $elementEnOldText = ($ElementEnOld | Get-Member "#text" -MemberType Property) ? $ElementEnOld."#text" : $null
 
+    # New one missing, so was never translated (should not happen but safety).
     if ($null -eq $ElementDe) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $File, $Rule, "Kein Element gefunden in 'Deutsch Alt'.")
-        $ElementEnNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNotYetTranslated + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $Helper.Translate($ElementEnNew."#text") : $ElementEnNew."#text")
+        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Deutsch Alt'.")
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $null
+        # TODO: Translate if wanted via SetOne
+        return
+    }    
+
+    $elementDeText = ($ElementDe | Get-Member "#text" -MemberType Property) ? $ElementDe."#text" : $null
+
+    # Old and New text are not the same -> Outdated.
+    if ($elementEnOldText -ne $elementEnNewText) {
+        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerOutdated, $RuleSetName, $FileName, $Rule, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.")
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerOutdated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
+       # TODO: Translate if wanted via SetOne
         return
     }
-    elseif (($ElementEnNew.InnerText -eq $ElementDe.InnerText) -and ($ElementEnNew.InnerText -ne [String]::Empty)) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNoDifference, $RuleSetName, $File, $Rule, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.")
-        $ElementEnNew."#text" = $Config.MarkerPreAndPostFix + $Config.MarkerNoDifference + $Config.MarkerPreAndPostFix + " " + ($Config.UseDeepl ? $Helper.Translate($ElementEnNew."#text") : $ElementEnNew."#text")
+
+    # Old and New text are the same -> No difference, probably not translated.
+    if ($elementDeText -eq $elementEnNewText) {
+        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNoDifference, $RuleSetName, $FileName, $Rule, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.")
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNoDifference -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
+        # TODO: Translate if wanted via SetOne
         return
     }
-        
-    # Element in EN_NEW exists and is the same as in EN_OLD and not the same as in DE!
+
     if ($Config.ShowGreen) {
         Write-Host -ForegroundColor DarkGreen ">>>> $Rule -> Fertig, bereits übersetzt."
+        Write-Host -ForegroundColor Green $elementDeText
     }
     
-    $ElementEnNew."#text" = $ElementDe."#text"
+    # Directly Use already translated text.
+    SetOne -ElementEnNew $ElementEnNew -ElementDeText $elementDeText
 }
 
 ### Main Program
@@ -54,6 +104,7 @@ function ProcessOne($Helper, $XmlEnNew, $ElementEnNew, $ElementEnOld, $ElementDe
 Write-Host -ForegroundColor Green "Starte Modus 3 - Der Hauptmodus."
 Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
 Write-Host -ForegroundColor Green "(Automatische Übernahme bei neuen Versionen)"
+Write-Host
 
 foreach ($ruleSet in $RuleSets) {
     $ruleSetName = $ruleSet.Name
@@ -64,8 +115,8 @@ foreach ($ruleSet in $RuleSets) {
     # We allow file globs, this resolves them and returns an array of file names for the next steps.
     $fileNames = $Helper.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
 
-    if ($fileNames.Count -eq 0) {
-        $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
+    if (($null -eq $fileNames) -or ($fileNames.Length -eq 0)) {
+        $Helper.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
         continue
     }
 
@@ -90,8 +141,8 @@ foreach ($ruleSet in $RuleSets) {
             continue
         }
 
-        Write-Host ">>> Alle 3 Dateien vorhanden. Starte Verarbeitung von Regeln."
-
+        Write-Debug ">>> Alle 3 Dateien vorhanden. Starte Verarbeitung von Regeln."
+        
         foreach ($rule in $rules) {
             $elementsEnNew = $xmlEnNew.SelectNodes($rule);
             $elementsEnOld = $xmlEnOld.SelectNodes($rule);
@@ -105,29 +156,24 @@ foreach ($ruleSet in $RuleSets) {
             } 
 
             if ($elementsEnNewCount -eq 1) {
-                ProcessOne  -Helper $Helper `
-                            -XmlEnNew $xmlEnNew `
-                            -ElementEnNew $elementsEnNew -ElementEnOld $elementsEnOld -ElementDe $elementsDe `
+                ProcessOne  -ElementEnNew $elementsEnNew -ElementEnOld $elementsEnOld -ElementDe $elementsDe `
                             -RuleSetName $ruleSetName -FileName $fileName -Rule $rule 
                 continue
             }
 
             for ($i = 0; $i -lt $elementsEnNewCount; $i++) {
-                ProcessOne  -Helper $Helper `
-                            -XmlEnNew $xmlEnNew `
-                            -ElementEnNew $elementsEnNew[$i] -ElementEnOld $elementsEnOld[$i] -ElementDe $elementsDe[$i] `
+                ProcessOne  -ElementEnNew $elementsEnNew[$i] -ElementEnOld $elementsEnOld[$i] -ElementDe $elementsDe[$i] `
                             -RuleSetName $ruleSetName -FileName $fileName -Rule "$rule ($i)"
             }   
         }
 
-        # Extra new line for better output
-        Write-Host ""
-
         if ($false -eq $Config.DryRun) {
+            Write-Debug "Saving"
             $Helper.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
         }
+
+        Write-Host
     }
 
-    # Extra new line for better output
-    Write-Host ""
+    Write-Host
 }

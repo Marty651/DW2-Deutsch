@@ -16,4 +16,6 @@ class Helper
 
     [object] ResolveFileGlobs($FileNames, $FolderPath) { return $null }
     [object] ResolvePath($Path) { return $null }
+
+    [object] IsDebug() { return $null }
 }

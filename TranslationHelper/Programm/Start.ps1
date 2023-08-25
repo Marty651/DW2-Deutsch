@@ -2,7 +2,7 @@ using module .\Helper.psm1
 
 param([int]$Mode)
 
-# Global Developer Settingsv
+# Global Developer Settings
 Set-StrictMode -Version 3.0
 $global:ErrorActionPreference = "Stop"
 $global:DebugPreference = "Continue"

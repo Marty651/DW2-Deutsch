@@ -11,7 +11,10 @@
     DryRun = $false
     ShowGreen = $false
 
-    DebugOnlyRulesets =  @() #@("Basic-Versionen #2 Name + Description") #@("Basic-Versionen #3 Game Events")
+    DebugOnlyRulesets = @() 
+    # DebugOnlyRulesets = @("DLC-Versionen #3 Game Events")
+    # DebugOnlyRulesets = @("Basic-Versionen #2 Name + Description")
+    # DebugOnlyRulesets = @("Basic-Versionen #3 Game Events")
 
     MarkerPreAndPostFix = "_____"
     MarkerInvalid = "UNGÜLTIG"

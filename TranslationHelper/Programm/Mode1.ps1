@@ -1,35 +1,80 @@
-param($Helper, $Config, $RuleSets)
+using module .\Helper.psm1
+
+param([Helper]$Helper, $Config, $RuleSets)
 
 ### Functions
 
-$ProcessTraversingFn = {
-    param($elementNew, $elementOld, $rule)
+function MarkOne($ElementEnNew, $Marker)
+{
+    $text = "Typ: $($Config.MarkerPreAndPostFix)$Marker$($Config.MarkerPreAndPostFix)"
 
-    if ($null -eq $elementOld) {
-        $LogFn.Invoke(">>>>", "DarkCyan", $Config.MarkerNew, $name, $file, $rule, "Kein Element gefunden in 'Englisch Alt'.")
-        $elementNew.SetAttribute($Config.MarkerNew, "yes")
+    $document = $ElementEnNew.OwnerDocument
+    $comment = $document.CreateComment($text)
+    
+    if ($ElementEnNew.GetType().FullName -eq "System.Xml.XmlText") {
+        $ElementEnNew.ParentNode.ParentNode.InsertBefore($comment, $ElementEnNew.ParentNode) | Out-Null
+    } else {
+        $ElementEnNew.ParentNode.InsertBefore($comment, $ElementEnNew) | Out-Null
+    }
+}
+
+function ProcessTraversing($ElementEnNew, $ElementEnOld, $RuleSetName, $FileName, $Rule, $I)
+{
+    # Returns
+    #   True: Same
+    #   False: Different
+
+    if ($null -eq $ElementEnNew) { return $true }
+    $Rule = "$Rule/$($ElementEnNew.ToString())$I"
+
+    if ($null -eq $ElementEnOld) {
+        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNew, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNew
         return $false
     }
 
-    if ($elementNew.ToString() -ne $elementOld.ToString()) {
-        $LogFn.Invoke(">>>>", "DarkCyan", $Config.MarkerDifferent, $name, $file, $rule, "Es wurde ein Element mit anderem Namen [$($elementOld.ToString())] gefunden in 'Englisch Alt'.")
-        $elementNew.SetAttribute($Config.MarkerDifferent, "yes")
+    if ($ElementEnOld.ToString() -ne $ElementEnNew.ToString()) {
+        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerDifferent, $RuleSetName, $FileName, $Rule, "Es wurde ein Element mit anderem Namen [$($ElementEnOld.ToString())] gefunden in 'Englisch Alt'.")
+        MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerDifferent
         return $false
     }
+    Set-StrictMode -Off
+    $elementEnNewChildren = $ElementEnNew.ChildNodes | ? { $_.GetType().FullName -ne "System.Xml.XmlWhiteSpace" }
+    $elementEnOldChildren = $ElementEnOld.ChildNodes | ? { $_.GetType().FullName -ne "System.Xml.XmlWhiteSpace" }
+    $elementEnNewChildrenCount = $elementEnNewChildren.Length
+    #$elementEnNewChildrenCount | Out-Host
 
-    $childrenNew = $elementNew.ChildNodes
-    $childrenOld = $elementOld.ChildNodes
-
-    for ($i = 0; $i -lt $childrenNew.Count; $i++) {
-        $same = $ProcessTraversingFn.Invoke($childrenNew[$i], $childrenOld[$i], "$rule[$($i+1)]/$($childrenNew[$i].ToString())")
+    if ($elementEnNewChildrenCount -eq 1) {
+        #Write-Host "T1"
+        $same = ProcessTraversing -ElementEnNew $elementEnNewChildren -ElementEnOld $elementEnOldChildren `
+                                  -RuleSetName $RuleSetName -FileName $FileName `
+                                  -Rule $Rule -I "[0]"
         if ($false -eq $same) {
-            break
+            Write-Host "BREAKKK"
+            return $false
+        }
+    } else {
+
+        for ($i = 0; $i -lt $elementEnNewChildrenCount ; $i++) {
+            if ($ElementEnNew.ToString() -eq "TriggerRaceIds") {
+                Write-Host "UHU"
+                $elementEnNewChildrenCount | Out-Host
+                Write-Host $elementEnNewChildren[$i].ToString()
+            }
+
+            #$i | Out-Host
+            $same = ProcessTraversing -ElementEnNew $elementEnNewChildren[$i] -ElementEnOld $elementEnOldChildren[$i] `
+                                    -RuleSetName $RuleSetName -FileName $FileName `
+                                    -Rule $Rule -I "[$i]"
+            if ($false -eq $same) {
+                Write-Host "BREAK"
+                break
+            }
         }
     }
 
-    # Element in EN_NEW exists and is the same as in EN_OLD and not the same as in DE!
     if ($Config.ShowGreen) {
-        Write-Host -ForegroundColor DarkGreen ">>>> $rule -> OK."
+        Write-Host -ForegroundColor DarkGreen ">>>> $Rule -> OK."
     }
 
     return $true
@@ -38,45 +83,53 @@ $ProcessTraversingFn = {
 ### Main Program
 
 Write-Host -ForegroundColor Green "Starte Modus 1 - Prüfung von Strukturänderungen einer Datei (Neu VS Alt)"
-# Write-Host -ForegroundColor Green "Starte Modus 2 - Zusammenführung von mehreren zeitgleichen Änderungen einer Datei (Aufzeigen von Konflikten)."
-
-# Write-Host -ForegroundColor Green "Starte Hilfsmodus 11 - Prüfung der richtigen Verwendung der GameEvent Namen"
+Write-Host
 
 foreach ($ruleSet in $RuleSets) {
-    $name = $ruleSet.Name
-    $files = $ruleSet.Files
-    Write-Host "> Starte Verarbeitung von Regelset: $name"
+    $ruleSetName = $ruleSet.Name
+    $fileNames = $ruleSet.Dateien
+    Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"
 
-    foreach ($file in $files) {
-        Write-Host ">> Starte Verarbeitung von Datei: $($Config.FolderPathEnNew)\$file"
+    # We allow file globs, this resolves them and returns an array of file names for the next steps.
+    $fileNames = $Helper.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
 
-        $xmlEnNew = [xml](Get-Content "$($Config.FolderPathEnNew)\$file" -Encoding UTF8);
-        if ($null -eq $xmlEnNew) {
-            $LogFn.Invoke($Config.MarkerInvalid, $name, $file, "", "Datei 'Englisch Neu' nicht gefunden.", ">>>", "Red")
-            continue
-        }
-
-        $xmlEnOld = [xml](Get-Content "$($Config.FolderPathEnOld)\$file" -Encoding UTF8);
-        if ($null -eq $xmlEnOld) {
-            Write-Host ">>> $($Config.MarkerInvalid). Datei $($Config.FolderPathEnOld)\$file nicht gefunden."
-            $LogFn.Invoke($Config.MarkerInvalid, $name, $file, "", "Datei 'Englisch Alt' nicht gefunden.", ">>>", "Red")
-            continue
-        }
-
-        Write-Host ">>> Alle 2 Dateien vorhanden. Starte Verarbeitung."
-
-        $elementNew = $xmlEnNew.SelectSingleNode("/*[1]");
-        $elementOld = $xmlEnOld.SelectSingleNode("/*[1]");
-        
-        $ProcessTraversingFn.Invoke($elementNew, $elementOld, "/$($elementNew.ToString())") | Out-Null
-
-        Write-Host ""
-
-        $xmlEnNew.Save("$($Config.FolderPathResult)\$file")
+    if (($null -eq $fileNames) -or ($fileNames.Length -eq 0)) {
+        $Helper.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
+        continue
     }
-    Write-Host ""
-}
 
-if ($false -eq $Config.DryRun) {
-    $log | Out-File -FilePath  $Config.FilePathLog -Encoding utf8BOM -Force
+    foreach ($fileName in $fileNames) {
+        Write-Host ">> Starte Verarbeitung von Datei: $fileName"        
+
+        $xmlEnNew = $Helper.Load("$($Config.FolderPathEnNew)\$fileName")
+        if ($false -eq $xmlEnNew) {
+            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
+            continue
+        }
+
+        $xmlEnOld = $Helper.Load("$($Config.FolderPathEnOld)\$fileName")
+        if ($false -eq $xmlEnOld) {
+            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
+            continue
+        }
+
+        Write-Debug ">>> Alle 2 Dateien vorhanden. Starte Vergleich."
+
+        $rootElementEnNew = $xmlEnNew.SelectSingleNode("/*[1]")
+        $rootElementEnOld = $xmlEnOld.SelectSingleNode("/*[1]")
+        
+        ProcessTraversing -ElementEnNew $rootElementEnNew -ElementEnOld $rootElementEnOld `
+                          -RuleSetName $ruleSetName -FileName $fileName `
+                          -Rule "/" -I "" `
+        | Out-Null
+
+        if ($false -eq $Config.DryRun) {
+            Write-Debug "Saving"
+            $Helper.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
+        }
+
+        Write-Host
+    }
+
+    Write-Host
 }

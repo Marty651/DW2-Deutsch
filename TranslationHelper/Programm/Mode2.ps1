@@ -7,6 +7,9 @@
     -> Das kann zum Beispiel verwendet werden, wenn rxnnxs und frankycl an der gleichen Datei (versehentlich) arbeiten.
 #>
 
+# Write-Host -ForegroundColor Green "Starte Modus 2 - Zusammenführung von mehreren zeitgleichen Änderungen einer Datei (Aufzeigen von Konflikten)."
+
+
 
 ### Global Setup ###
 

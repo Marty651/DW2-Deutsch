@@ -5,6 +5,8 @@
 # Then it searches for locations that could reference a game event and stores the found values.
 # Then it compares the found values with the possible values and shows the differences (GameEvents that arer eferenced but do not exist).
 
+# Write-Host -ForegroundColor Green "Starte Hilfsmodus 11 - Prüfung der richtigen Verwendung der GameEvent Namen"
+
 $files = @(
     "$PSScriptRoot/../1.1.2.4/DW2/GameEvents*"
     "$PSScriptRoot/../1.1.2.4/DLC Ikkuro and Dhayut/GameEvents*"

@@ -1,10 +1,14 @@
 
-class Helper
+<#
+    Worker that contains shared logic for the TranslationHelper program modes.
+    Also contains helper methods like logging, loading and saving files, resolving paths and globs, etc.
+#>
+class Worker
 {
     [object]$Config
     [object]$LogData
 
-    Helper($Config) { }
+    Worker($Config) { }
 
     [void] Log($Steps, $ForegroundColor, $Type, $RuleSet, $File, $Rule, $Info) { }
     [void] SaveLogData($FilePath) { }

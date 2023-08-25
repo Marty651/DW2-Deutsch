@@ -1,6 +1,6 @@
-using module .\Helper.psm1
+using module .\Worker.psm1
 
-param([Helper]$Helper, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSets)
 
 ### Functions
 
@@ -56,7 +56,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 
     # Old one missing, so was never translated.
     if ($null -eq $ElementEnOld) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $null -ElementDeText $null
         # TODO: Translate if wanted via SetOne
         return
@@ -66,7 +66,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 
     # New one missing, so was never translated (should not happen but safety).
     if ($null -eq $ElementDe) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Deutsch Alt'.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Deutsch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $null
         # TODO: Translate if wanted via SetOne
         return
@@ -76,7 +76,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 
     # Old and New text are not the same -> Outdated.
     if ($elementEnOldText -ne $elementEnNewText) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerOutdated, $RuleSetName, $FileName, $Rule, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerOutdated, $RuleSetName, $FileName, $Rule, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerOutdated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
        # TODO: Translate if wanted via SetOne
         return
@@ -84,7 +84,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 
     # Old and New text are the same -> No difference, probably not translated.
     if ($elementDeText -eq $elementEnNewText) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNoDifference, $RuleSetName, $FileName, $Rule, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNoDifference, $RuleSetName, $FileName, $Rule, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNoDifference -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
         # TODO: Translate if wanted via SetOne
         return
@@ -113,31 +113,31 @@ foreach ($ruleSet in $RuleSets) {
     Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"
 
     # We allow file globs, this resolves them and returns an array of file names for the next steps.
-    $fileNames = $Helper.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
+    $fileNames = $Worker.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
 
     if (($null -eq $fileNames) -or ($fileNames.Length -eq 0)) {
-        $Helper.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
+        $Worker.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
         continue
     }
 
     foreach ($fileName in $fileNames) {
         Write-Host ">> Starte Verarbeitung von Datei: $fileName"        
 
-        $xmlEnNew = $Helper.Load("$($Config.FolderPathEnNew)\$fileName")
+        $xmlEnNew = $Worker.Load("$($Config.FolderPathEnNew)\$fileName")
         if ($false -eq $xmlEnNew) {
-            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
             continue
         }
 
-        $xmlEnOld = $Helper.Load("$($Config.FolderPathEnOld)\$fileName")
+        $xmlEnOld = $Worker.Load("$($Config.FolderPathEnOld)\$fileName")
         if ($false -eq $xmlEnOld) {
-            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
             continue
         }
 
-        $xmlDe = $Helper.Load("$($Config.FolderPathDe)\$fileName")
+        $xmlDe = $Worker.Load("$($Config.FolderPathDe)\$fileName")
         if ($false -eq $xmlDe) {
-            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.")
             continue
         }
 
@@ -151,7 +151,7 @@ foreach ($ruleSet in $RuleSets) {
             $elementsEnNewCount = $elementsEnNew.Count
 
             if ($elementsEnNewCount -eq 0) {
-                $Helper.Log(">>>>", "DarkYellow", $Config.MarkerInvalid, $ruleSetName, $fileName, $rule, "Kein Element gefunden in 'Englisch Neu'.")
+                $Worker.Log(">>>>", "DarkYellow", $Config.MarkerInvalid, $ruleSetName, $fileName, $rule, "Kein Element gefunden in 'Englisch Neu'.")
                 continue;
             } 
 
@@ -169,7 +169,7 @@ foreach ($ruleSet in $RuleSets) {
 
         if ($false -eq $Config.DryRun) {
             Write-Debug "Saving"
-            $Helper.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
+            $Worker.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
         }
 
         Write-Host

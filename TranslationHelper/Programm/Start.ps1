@@ -1,28 +1,48 @@
-using module .\Helper.psm1
+using module .\Worker.psm1
 
-param([int]$Mode)
+param([string]$Mode)
 
 # Global Developer Settings
+#Requires -Version 7
 Set-StrictMode -Version 3.0
 $global:ErrorActionPreference = "Stop"
 $global:DebugPreference = "Continue"
+$global:VerbosePreference = "Continue"
+
+# Global Production Settings
+#$global:ErrorActionPreference = "Ignore"
+#$global:DebugPreference = "Ignore"
+#$global:VerbosePreference = "Ignore"
 
 # . $PSScriptRoot\Test.ps1
 # exit
 
 # Imports
-Remove-Module "Helper.Real" -ErrorAction Ignore ; Import-Module $PSScriptRoot\Helper.Real.psm1
+Remove-Module "Worker.Real" -ErrorAction Ignore ; Import-Module $PSScriptRoot\Worker.Real.psm1
 
 # @{ ... }
 $Config = . $PSScriptRoot\..\Konfiguration\Programm.ps1
 
-[Helper]$Helper = New-HelperClass -Config $Config
+[Worker]$Worker = New-Worker -Config $Config
 
 # @{Name = "", Dateien = @(), Regeln = @()}
 $RuleSets = . $Config.FilePathRuleSets
 
-if ($Helper.IsDebug()) {
-    Write-Host -ForegroundColor Green "Programm startet mit Konfiguration:"
+Write-Host -ForegroundColor Green "
+_______          _____        _____             _            _       _____      _       _     
+|  __ \ \        / /__ \      |  __ \           | |          | |     |  __ \    | |     | |    
+| |  | \ \  /\  / /   ) |_____| |  | | ___ _   _| |_ ___  ___| |__   | |__) |_ _| |_ ___| |__  
+| |  | |\ \/  \/ /   / /______| |  | |/ _ \ | | | __/ __|/ __| '_ \  |  ___/ _` | __/ __| '_ \ 
+| |__| | \  /\  /   / /_      | |__| |  __/ |_| | |_\__ \ (__| | | | | |  | (_| | || (__| | | |
+|_____/   \/  \/   |____|     |_____/ \___|\__,_|\__|___/\___|_| |_| |_|   \__,_|\__\___|_| |_|
+GitHub: https://github.com/Marty651/DW2-Deutsch
+
+Entwickler: Countryen (Pascal Schwarz) | c0@countryen.de
+Ausgeführt am $(Get-Date -Format "dd.MM.yyyy") mit PowerShell v$($PSVersionTable.PSVersion) ($($PSVersionTable.OS))
+"
+
+if ($Worker.IsDebug()) {
+    Write-Host -ForegroundColor Yellow "Programm startet mit Konfiguration:"
     $Config | Out-Host
 }
 
@@ -33,17 +53,17 @@ if ($Config.DebugOnlyRulesets.Count -gt 0) {
     Write-Host
 }
 
-if ($Helper.IsDebug()) {
-    Write-Host -ForegroundColor Green "Folgende Dateien werden verarbeitet (siehe Regeln):"
+if ($Worker.IsDebug()) {
+    Write-Host -ForegroundColor Yellow "Folgende Dateien werden verarbeitet (siehe Regeln):"
     $RuleSets | Select-Object -ExpandProperty Dateien | Out-Host
     Write-Host
 }
 
-# Start Execution of the Mode
-& $PSScriptRoot\Mode$Mode.ps1 -Helper $Helper -Config $Config -RuleSets $RuleSets
+# Start Main Execution of the Selected Program Mode
+& $PSScriptRoot\Mode$Mode.ps1 -Worker $Worker -Config $Config -RuleSets $RuleSets
 
-if ($false -eq $Config.DryRun) {
+if ($true -eq $Config.CreateLogs) {
     $dateTimeStamp = $Config.Logger.IncludeDateTimeStamp ? (Get-Date -Format "yyyy-MM-dd_hh-mm-ss") : "AKTUELL"
     $filePathLog = "$($Config.Logger.FolderPath)\Modus-$Mode.$dateTimestamp.Log.csv"
-    $Helper.SaveLogData($filePathLog)
+    $Worker.SaveLogData($filePathLog)
 }

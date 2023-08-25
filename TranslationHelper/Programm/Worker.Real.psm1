@@ -1,11 +1,11 @@
-using module .\Helper.psm1
+using module .\Worker.psm1
 
-class RealHelper : Helper
+class RealWorker : Worker
 {
     [object]$Config
     [object]$LogData = @("TYP; REGELSET; DATEI; PFAD; INFO")
 
-    RealHelper($Config) : base($Config)
+    RealWorker($Config) : base($Config)
     {
         $this.Config = $Config
     }
@@ -103,21 +103,21 @@ class RealHelper : Helper
     }
 }
 
-# Using classes has a flaw: Regardless of what used (. / &) the class is not hot-loaded, so changes are only loaded after a restart of PowerShell.
-# To work around this we use PSM1 files and load them via Import-Module. We can then remove them via Remove-Module in dev mode, this hot-loads them.
-# Problem is, that classes can not be exported. For this we export a function that creates the class and returns it.
-# Ah, bad but the type is also not known this way.
-
-function New-HelperClass
+function New-Worker
 { 
     param($Config)
+
+    # Using classes has a flaw: Regardless of what used (. / &) the class is not hot-loaded, so changes are only loaded after a restart of PowerShell.
+    # To work around this we use PSM1 files and load them via Import-Module. We can then remove them via Remove-Module in dev mode, this hot-loads them.
+    # Problem is, that classes can not be exported. For this we export a function that creates the class and returns it.
+    # Also the type is not known this way often, until you execute in your shell `using module .\xyz.psm1`.
 
     # https://github.com/PowerShell/PowerShell/issues/2505
     # https://stackoverflow.com/questions/31051103/how-to-export-a-class-in-a-powershell-v5-module
     # https://stackoverflow.com/questions/42838107/remove-class-from-memory-in-powershell/42878789#42878789
     # https://stackoverflow.com/questions/41037575/how-to-export-classes-from-modules-when-the-class-definition-is-dotsourced
 
-    return [RealHelper]::new($Config)
+    return [RealWorker]::new($Config)
 }
 
 ### Export all functions

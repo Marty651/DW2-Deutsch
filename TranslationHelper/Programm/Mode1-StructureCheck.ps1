@@ -1,6 +1,6 @@
-using module .\Helper.psm1
+using module .\Worker.psm1
 
-param([Helper]$Helper, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSets)
 
 ### Functions
 
@@ -28,13 +28,13 @@ function ProcessTraversing($ElementEnNew, $ElementEnOld, $RuleSetName, $FileName
     $Rule = "$Rule/$($ElementEnNew.ToString())$I"
 
     if ($null -eq $ElementEnOld) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerNew, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNew, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNew
         return $false
     }
 
     if ($ElementEnOld.ToString() -ne $ElementEnNew.ToString()) {
-        $Helper.Log(">>>>", "DarkCyan", $Config.MarkerDifferent, $RuleSetName, $FileName, $Rule, "Es wurde ein Element mit anderem Namen [$($ElementEnOld.ToString())] gefunden in 'Englisch Alt'.")
+        $Worker.Log(">>>>", "DarkCyan", $Config.MarkerDifferent, $RuleSetName, $FileName, $Rule, "Es wurde ein Element mit anderem Namen [$($ElementEnOld.ToString())] gefunden in 'Englisch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerDifferent
         return $false
     }
@@ -91,25 +91,25 @@ foreach ($ruleSet in $RuleSets) {
     Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"
 
     # We allow file globs, this resolves them and returns an array of file names for the next steps.
-    $fileNames = $Helper.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
+    $fileNames = $Worker.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
 
     if (($null -eq $fileNames) -or ($fileNames.Length -eq 0)) {
-        $Helper.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
+        $Worker.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
         continue
     }
 
     foreach ($fileName in $fileNames) {
         Write-Host ">> Starte Verarbeitung von Datei: $fileName"        
 
-        $xmlEnNew = $Helper.Load("$($Config.FolderPathEnNew)\$fileName")
+        $xmlEnNew = $Worker.Load("$($Config.FolderPathEnNew)\$fileName")
         if ($false -eq $xmlEnNew) {
-            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
             continue
         }
 
-        $xmlEnOld = $Helper.Load("$($Config.FolderPathEnOld)\$fileName")
+        $xmlEnOld = $Worker.Load("$($Config.FolderPathEnOld)\$fileName")
         if ($false -eq $xmlEnOld) {
-            $Helper.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
             continue
         }
 
@@ -125,7 +125,7 @@ foreach ($ruleSet in $RuleSets) {
 
         if ($false -eq $Config.DryRun) {
             Write-Debug "Saving"
-            $Helper.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
+            $Worker.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
         }
 
         Write-Host

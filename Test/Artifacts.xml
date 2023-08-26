@@ -1,0 +1,1082 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Artifact>
+    <ArtifactId>0</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyDefense</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>TroopGroundDefense</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Stele of Takdun</Name>
+    <Description>The Stele of Takdun is a 3-meter tall pillar of Hapek Obsidian marked with indecipherable inscriptions thought to contain important details of ancient galactic history. The Quameno deeply revere the stele and have an overwhelming, almost irrational commitment to protect it.</Description>
+    <ImageFilename>Artifacts/Stele of Takdun</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>1</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </BonusesToOwner>
+    <Name>Scroll of Generations</Name>
+    <Description>The Scroll of Generations is a lengthy parchment scroll covered in dense writing. The ancient scroll is unusual in that Atuuks have only recently acquired written language, and their modern script bears no resemblance to the writing on the scroll. Thus the Atuuks cannot read the scroll, but they presume it outlines their extensive tribal genealogies from times past.</Description>
+    <ImageFilename>Artifacts/Scroll of Generations</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>2</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchReactor</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </BonusesToOwner>
+    <Name>Rekarrun Crystal</Name>
+    <Description>The Rekarrun Crystal is a very large ancient green gemstone. The crystal has been very precisely cut to the atomic level and appears able to focus large amounts of energy. It has a constant faint glow and also emits pulses when bright light is shone on it. It's origins are lost in the mists of time - the Wekkarus do not know who made it, but assume that it is extra-terrestrial in nature.</Description>
+    <ImageFilename>Artifacts/Rekarrun Crystal</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>3</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>CharacterQualityScientist</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </BonusesToOwner>
+    <Name>Tablet of Aksorra</Name>
+    <Description>The Tablet of Aksorra is a 40cm tablet of Yotapian Onyx covered in complex angular markings. No one knows the meaning of the strange markings, but the amazing detail and precision of the stonework indicate that the information it contains is very important. Studying the markings on the tablet provides an inexplicable increase to the student's intelligence, even though the meaning of the tablet is not understood.</Description>
+    <ImageFilename>Artifacts/Tablet of Aksorra</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>4</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>TourismIncome</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Scenery</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Harp of Karidas</Name>
+    <Description>The Harp of Karidas is an enormous stringed musical instrument made from the finest Suculos Wood. The notes played on the harp cover a greater freqency range than most sentient species can hear. The notes also have an amazing and unique resonance that can only be fully appreciated in a live performance.</Description>
+    <ImageFilename>Artifacts/Harp of Karidas</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>5</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectCompleteIds>
+      <short>0</short>
+    </ResearchProjectCompleteIds>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Final Orders for 8th Fleet</Name>
+    <Description>A damaged partial recording of the final orders issued to the 8th Fleet of the human Solar Republic, which was engaged with enemy forces allied to something called the "Shaktur Axis".  The importance of 8th Fleet's area to the overall war effort is emphasized.    The gist of the surviving excerpt is that no further reinforcements can be expected due to a massive and hopefully decisive combined operation which is about to begin against the main Shakturi center of gravity.  Until this operation is completed, 8th Fleet is ordered to delay enemy allied operations and prevent bombardment or assault of key colonies within its area of operations, at all costs.  The Gizurean Hive is mentioned as one of the enemies facing 8th Fleet.</Description>
+    <ImageFilename>Artifacts/final orders for 8th fleet</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>6</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectCompleteIds>
+      <short>688</short>
+      <short>689</short>
+    </ResearchProjectCompleteIds>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>"The Frontier"</Name>
+    <Description>An ancient headset which includes a recording of a virtual reality masterpiece, telling the tale of Etan Wardo, veteran of a failed colonial rebellion on the frontier of the human Solar Republic.  His family is later murdered by marauding bands of rebels who have become bandits and he ends up working together with his former enemies, the Rangers of Terra, to save some of his surviving relatives.  A fascinating insight into ancient human culture, customs and the cruel nature of frontier justice.</Description>
+    <ImageFilename>Artifacts/the frontier</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>7</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+      <short>688</short>
+      <short>692</short>
+    </ResearchProjectCompleteIds>
+    <GovernmentUnlockIds>
+      <short>9</short>
+    </GovernmentUnlockIds>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Constitution Crystal (Solar Republic)</Name>
+    <Description>A crystalline storage device containing possibly the only surviving original copy of the Constitution of the ancient Freedom Alliance.  As the first charter to fully unite mulitple alien species under one government, it is a unique and priceless part of the history of the galaxy.  This copy was said to be stored on the ancient Human homeworld of Terra.</Description>
+    <ImageFilename>Artifacts/human constitution crystal</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>8</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchConstruction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>TroopMaintenance</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ShipMaintenanceAll</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>"Eternity and the Art of Maintenance"</Name>
+    <Description>An ancient Ackdarian holo-scroll with an unusually philosophical bent, focused on the beauty of properly maintained technology.  Filled with a great deal of lost practical knowledge, it also attempts to instill a reverence in the reader for keeping things working and even improving them, rather than discarding or replacing them.</Description>
+    <ImageFilename>Artifacts/eternity and the art of maintenance</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>9</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>Scenery</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CharacterQualityLeader</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Pearl of the Deep</Name>
+    <Description>An ancient Ucantium Pearl of perfect quality and extraordinary size.  A rare treasure of the ancient Ackdarians, it is said to somehow elevate the bearer to their full potential.</Description>
+    <ImageFilename>Artifacts/the pearl of the deep</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>10</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+      <short>688</short>
+      <short>692</short>
+    </ResearchProjectCompleteIds>
+    <GovernmentUnlockIds>
+      <short>9</short>
+    </GovernmentUnlockIds>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Constitution Crystal (Ackdara)</Name>
+    <Description>A crystalline storage device containing possibly the only surviving original copy of the Constitution of the ancient Freedom Alliance.  As the first charter to fully unite mulitple alien species under one government, it is a unique and priceless part of the history of the galaxy.  This copy was said to be stored on the ancient Ackdarian homeworld of Ackdara.</Description>
+    <ImageFilename>Artifacts/ackdarian constitution crystal</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>11</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchEngines</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>604</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Flux Drive</Name>
+    <Description>The remains of an experimental engine which the ancient Ackdarians appear to have been working on.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Ackdarian_ExperimentalFluxDrive</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>12</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CharacterQualityLeader</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>704</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Spear of the First King</Name>
+    <Description>An ancient powered pole-arm of remarkable size and sharpness, made from unusually strong alloys and still in nearly perfect condition.  According to its inscriptions, this was wielded by the first Monarch of the Mortalen and was passed down through the line of Mortalen Kings until the ancient cataclysm interrupted that chain.  Also inscribed on its shaft is the ancient Mortalen Code, uncorrupted by the passage of time.</Description>
+    <ImageFilename>Artifacts/the spear of the first king</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>13</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CharacterQualityTroopGeneral</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CharacterQualityFleetAdmiral</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Glaive of Mor</Name>
+    <Description>An unusual weapon, Mortalen in style but Zenox in manufacture and made of an extremely advanced alloy.  It consists of multiple angled blades around a central disc and seems designed and balanced for throwing.  As with other ancient Mortalen weapons, it also contains a miniature generator within, which both energizes the blades and accelerates the disc to its target as well as then returning it expeditiously to its wielder, who wears a matching bracer which interlocks with this weapon.  Something else about the energy field around this weapon also seems to increase aggression at a remarkable range, even to most of the surface of planet.</Description>
+    <ImageFilename>Artifacts/The Glaive of Mor</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>14</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchArmor</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>606</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Stellar Armor</Name>
+    <Description>The remains of an experimental armor alloy which the ancient Mortalen appear to have been working on.  Initial testing indicates that it requires heat equivalent to that of a star to be properly forged.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Mortalen_ExperimentalStellarArmor</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>15</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>249</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Planetary Exterminator</Name>
+    <Description>The remains of what appears to be an ancient weapon of mass destruction.  Initial testing indicates it is is terrifyingly potent and volatile.  It bears the hallmarks of the ancient Mortalen, who seem to have nearly completed it before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Mortalen_ExperimentalPlanetaryExterminator</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>16</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>247</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Supernova Torpedo</Name>
+    <Description>The remains of what appears to be an ancient experimental Mortalen energy torpedo weapon.  Initial testing shows an incredible level of plasma containment.  It looks like it was nearly completed it before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Mortalen_ExperimentalSupernovaTorpedo</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>17</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>242</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Death Ray</Name>
+    <Description>The remains of an experimental pulsed energy weapon of enormous power and range.  It is badly damaged and requires much study, but appears to have been engineered by the ancient Boskarans.</Description>
+    <ImageFilename>Environment/Components/Boskaran_ExperimentalDeathRay</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>18</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchHyperDrive</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>603</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Wormhole Drive</Name>
+    <Description>The remains of a hyperspace drive of unique and incredibly alien design.  It is badly damaged and requires much study, but markings suggest it was built by the ancient Boskarans.</Description>
+    <ImageFilename>Environment/Components/Boskaran_ExperimentalWormholeDrive</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>19</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchEngines</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>605</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Inertialess Thruster</Name>
+    <Description>The remains of an experimental thruster which the ancient Humans appear to have been working on.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Human_ExperimentalInertialessThruster</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>20</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+	<ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>688</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>University of Terra Databank</Name>
+    <Description>A databank, damaged but mostly functional, which contains a portion of the archives of the ancient human University of Terra.  While incomplete, there is still enough here to spark countless new discoveries.</Description>
+    <ImageFilename>Artifacts/university of terra databank</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>21</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>716</short>
+		<short>717</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Cube of Law</Name>
+    <Description>A data cube, made of some kind of virtually indestructible metallic crystal.  Within is a comprehensive treatise on every aspect of ancient Zenox law, including both concepts that seem alien as well as universally applicable principles, all explained with remarkable logic and clarity.</Description>
+    <ImageFilename>Artifacts/cube of law</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>22</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CounterEspionage</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>-0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>716</short>
+		<short>717</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>"The Epic of the Betrayal"</Name>
+    <Description>An ancient Zenox epic poem contained in a pyramid-shaped hologram projector, which when activated displays and recounts the tale in a dramatic audio-visual reading.  On the surface, it tells a tale of a great and ancient tragedy from two perspectives, in which a brother in dire circumstances betrays  and murders his sibling in order to save his own life.  The epic begins from the point of view of the murdered brother, but then explains in cold detail the reasoning of the betrayer in such a way that by the end, the listener finds themselves tied in a knot, no longer sure of who to trust or what is right.  To the ancient Zenox, this was high art because of its ability to capture the complexity and nuance they saw in morality and the interactions of sentient beings.</Description>
+    <ImageFilename>Artifacts/the epic of the betrayal</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>23</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>Scenery</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>HyperjumpSpeed</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ShipSpeed</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>696</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Wander Map</Name>
+    <Description>A cracked ancient data pad, still barely functional, which once beloged to an ancient Teekan trading clan.  It contains a map of the star systems through which they wandered as well as notes regarding the increased gravitic instability they encountered before the ancient cataclysm befell them.  The observations of these gravitic anomalies as well as detailed descriptions of how the ancient Teekans safely navigated around them are still invaluable to any hyperspace scientist or navigator today.</Description>
+    <ImageFilename>Artifacts/the wander map</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>24</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchHighTech</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>TradeIncome</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>696</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>"The Appraiser"</Name>
+    <Description>An ancient artificial intelligence, contained in an android built to resemble a Teekan.  Designed to be a brilliant administrator and assistant for all matters pertaining to Trade and Accounting, its programming does not extend much beyond those areas.</Description>
+    <ImageFilename>Artifacts/the appraiser</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>25</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>700</short>
+		<short>701</short>
+	</ResearchProjectCompleteIds>
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Monolith of Gastronomy and Guile</Name>
+    <Description>An ancient monolithic data storage device, weathered but functional.  The ancient Haakonish appear to have stored a significant portion of their cultural works on the subjects of preparing and eating fine food as well as artifice and subterfuge.  The Haakonish who wrote these works found that through the intersection of those two arts, they could find exploitable weaknesses in other inferior cultures through the analysis of their culinary preferences and customs.  Throughout these works, the superiority of Haakonish gastronomy, partly due to their superior biology, is often and repeatedly asserted as self-evident.  Perhaps most interesting, many of the finest Haakonish dishes make use of Korabbian Spice and several ancient locations where it may perhaps still be found are recorded herein.</Description>
+    <ImageFilename>Artifacts/the monolith of gastronomy and guile</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>26</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>TroopRecoveryRate</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ResearchHighTech</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>139</short>
+    </ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Cloning Chamber</Name>
+    <Description>A remarkably advanced genetic manipulation chamber, apparently engineered by the ancient Haakonish to suit their biology, but adaptable to other species.  It is capable of creating clones at a rapid rate as well as healing all but the most severe wounds.  The only downside is that something in the unalterable base code causes any individual who makes repeated use of the chamber to gradually take on more Haakonish characteristics.</Description>
+    <ImageFilename>Artifacts/cloning chamber</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>27</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds>
+		<short>712</short>
+	</ResearchProjectCompleteIds>	
+    <GovernmentUnlockIds>
+		<short>8</short>
+	</GovernmentUnlockIds>
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Altar of Darkness</Name>
+    <Description>A powerful ancient artifact in the shape of an altar made of some kind of alloy which absorbs light, except where purple "veins" of energy cris-cross the surface and pulse with energy.  It appears completely undamaged and anyone approaching the vicinity realizes that it is inhabited by some kind of consciousness with telepathic abilities.  Those who stay for more than a moment are psychically enslaved to a new ideology known as the Way oF Darkness.   Those who are slaves of the altar then act as conduits for its telepathy to reach others.  Without a method of psychic containment, its control can spread across an entire planet in short order.</Description>
+    <ImageFilename>Artifacts/altar of darkness</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>28</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchShields</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>602</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Citadel Shields</Name>
+    <Description>The remains of an experimental shield generator of incredible strength which the ancient Zenox appear to have been working on.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Zenox_ExperimentalCitadelShields</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>29</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchSensors</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>610</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Void Sensors</Name>
+    <Description>The remains of an experimental incredibly sensitive long range sensor of extraordinary power which the ancient Zenox appear to have been working on.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Zenox_ExperimentalVoidSensors</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>30</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>244</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Quantum Burst</Name>
+    <Description>The remains of an experimental incredibly powerful ion-based area weapon which the ancient Teekans appear to have been working on.  It looks like it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Teekan_ExperimentalQuantumBurst</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>31</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchSensors</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>609</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental i-Space Generator</Name>
+    <Description>The remains of an experimental generator which could hide a ship by shifting it partially into another dimension.  The ancient Haakonish appear to have been working on this and it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Haakonish_ExperimentalI-SpaceGenerator</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>32</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchWeapons</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds>
+		<short>246</short>
+	</ResearchProjectUnlockIds>
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Experimental Black Hole Projector</Name>
+    <Description>The remains of an experimental gravitic weapon so powerful that it can generate something equivalent to a black hole.  The ancient Haakonish appear to have been working on it and it appears that it was nearly completed before their research and engineering was interrupted.</Description>
+    <ImageFilename>Environment/Components/Haakonish_ExperimentalBlackHoleProjector</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>33</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>TradeIncome</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>The Book of Commerce</Name>
+    <Description>An ancient book describing the clever and deceptive trade practices that guided the ancient Haakonish Star Guild. The wisdom in these pages will grant readers strategies to outwit even the most cautious of trading partners.</Description>
+    <ImageFilename>Artifacts/The Book of Commerce</ImageFilename>
+  </Artifact>
+</ArrayOfArtifact>

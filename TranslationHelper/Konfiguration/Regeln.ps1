@@ -154,16 +154,6 @@ $Nicht_Verwendetes_Beispiel = @(
         )
     }
     @{
-        Name = "Basic-Versionen #8 MessageLog"
-        Dateien = @(
-            "MessageLog.xml"
-        )
-        Pfade = @(
-            "/*/*/Title"
-            "/*/*/Text"
-        )
-    }	
-    @{
         Name = "DLC-Versionen #1 Nur Name"
         Dateien = @(
             "Artifacts_Dhayut.xml"

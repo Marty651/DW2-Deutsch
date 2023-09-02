@@ -10,7 +10,7 @@
     UseDeepl = $false
     DryRun = $false
     ShowGreen = $false
-    CreateLogs = $false
+    CreateLogs = $true
 
     DebugOnlyRulesets = @() 
     # DebugOnlyRulesets = @("DLC-Versionen #3 Game Events")

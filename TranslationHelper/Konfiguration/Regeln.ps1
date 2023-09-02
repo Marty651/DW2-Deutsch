@@ -65,9 +65,11 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "ArmyTemplates.xml"
             "ComponentDefinitions.xml"
+			"CreatureTypes.xml"
             "FleetTemplates.xml"
             "OrbTypes.xml"
             "PlanetaryFacilityDefinitions.xml"
+	        "PlanetaryFacilityDefinitions_Ancient_Guardian_Vaults.xml"
             "ResearchProjectDefinitions.xml"
             "ShipHulls.xml"
             "ShipHulls_*.xml"
@@ -84,6 +86,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Name = "Basic-Versionen #2 Name + Description"
         Dateien = @(
             "Artifacts.xml"
+			"Artifacts_AncientGuardianVaults.xml"
             "ColonyEventDefinitions.xml"
             "Resources.xml"
         )
@@ -96,6 +99,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Name = "Basic-Versionen #3 Game Events"
         Dateien = @(
             "GameEvents.xml"
+			"GameEvents_Ancient_Guardian_Vaults.xml"
         )
         Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"
@@ -145,8 +149,8 @@ $Nicht_Verwendetes_Beispiel = @(
             "TourItems.xml"
         )
         Regeln = @(
-            "/*/*/Title/Steps/TourStep/StepTitle"
-            "/*/*/Title/Steps/TourStep/MarkupText"
+            "/*/*/Steps/TourStep/StepTitle"
+            "/*/*/Steps/TourStep/MarkupText"
         )
     }
     @{
@@ -185,6 +189,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "GameEvents_Dhayut.xml"
             "GameEvents_Ikkuro.xml"
+			"GameEvents_Ikkuro_RaceEvents.xml"
         )
         Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"

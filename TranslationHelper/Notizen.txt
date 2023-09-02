@@ -1,0 +1,26 @@
+# Notes / TODO: 
+# - Usually started by: $DebugPreference = "Continue"; .\TranslationHelper\Programm\Start.ps1
+# - Dad needs the other program first -> check glossar (component def. + names of galactopedia files) against the "fließtexte" (galactopedia)
+# - Is not checking empty content really good?
+# - .txt-Dateien (GameText.txt)
+# - German Config
+# - Use XDocument or XPathNavigator for Line Numbers? 
+# - - https://learn.microsoft.com/en-us/dotnet/standard/linq/xdocument-class-overview
+# - - https://stackoverflow.com/questions/1542073/xdocument-or-xmldocument
+# - - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/insert-xml-data-using-xpathnavigator
+# - - https://stackoverflow.com/questions/1504467/c-sharp-xml-read-write-xpath-without-using-xmldocument
+# - https://stackoverflow.com/questions/42107851/how-to-implement-using-statement-in-powershell
+# - Extra:
+# - - https://scoop.sh/
+# - - https://ohmyposh.dev/docs/installation/windows
+# - - https://github.com/dahlbyk/posh-git
+# - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/set-strictmode?view=powershell-7.3
+# - Marker config (value, active (set), autotranslate, which one to set)
+# - Separate rule config files (for normla game and dlc needed)
+# - XML Sorter Mode (with configuration (rules))
+# - Class for Config (?) might be better
+
+# References:
+# - https://learn.microsoft.com/en-us/dotnet/standard/data/xml/saving-and-writing-a-document
+# - https://adamtheautomator.com/powershell-classes/
+# - https://github.com/pester/Pester

@@ -30,21 +30,23 @@ if ($null -eq ($xml.ArrayOfResearchProjectDefinition | Get-Member "_OriginalIds_
     $sortedDefinitions = $definitions | Sort-Object -Property Row, Column
     
     $sortedRoot = $xml.ArrayOfResearchProjectDefinition.CloneNode($false)
-    $sortedDefinitions | % { $sortedRoot.AppendChild($_.Element) | Out-Null }
-    $xml.ReplaceChild($sortedRoot, $xml.ArrayOfResearchProjectDefinition) | Out-Null
-
+    $sortedDefinitions | % { $Worker.Append($xml, $sortedRoot, $_.Element) }
+    
     # Can also be used instead of the named document root: $xml.DocumentElement
 
-    $originalIdsNode = $xml.ArrayOfResearchProjectDefinition.AppendChild($xml.CreateNode("element", "_OriginalIds_", ""))
-    $xml.ArrayOfResearchProjectDefinition.AppendChild($xml.CreateWhitespace("`r`n")) | Out-Null
+    $originalIdsNode = $xml.CreateNode("element", "_OriginalIds_", "")
     $originalIdsNode.InnerText = $originalIds
+    $Worker.Append($xml, $sortedRoot, $originalIdsNode)
+    $sortedRoot.AppendChild($xml.CreateWhitespace("`r`n")) | Out-Null
+
+    $xml.ReplaceChild($sortedRoot, $xml.ArrayOfResearchProjectDefinition) | Out-Null
 
     $sortedIds = $xml.ArrayOfResearchProjectDefinition.ResearchProjectDefinition.ResearchProjectId
 
     Write-Host "> Davor: Originale ID Reihenfolge: $originalIds"
     Write-Host "> Jetzt: Sortierte ID Reihenfolge: $sortedIds"
 
-    $Worker.Save($xml, $file);
+    $Worker.Save($xml, $file)
 } else {
     Write-Host "B: Von Sortiert zu Original"
     [int[]]$originalIds = $xml.ArrayOfResearchProjectDefinition._OriginalIds_.Split(" ")
@@ -55,7 +57,7 @@ if ($null -eq ($xml.ArrayOfResearchProjectDefinition | Get-Member "_OriginalIds_
     $originalDefinitions = $originalIds | % { $id = $_; $definitions | ? { $_.ID -eq $id } }
 
     $originalRoot = $xml.ArrayOfResearchProjectDefinition.CloneNode($false)
-    $originalDefinitions | % { $originalRoot.AppendChild($_.Element) | Out-Null }
+    $originalDefinitions | % { $Worker.Append($xml, $originalRoot, $_.Element) }
     $xml.ReplaceChild($originalRoot, $xml.ArrayOfResearchProjectDefinition) | Out-Null
 
     # _OriginalIds_ is automatically removed by removing all children of ArrayOfResearchProjectDefinition
@@ -64,5 +66,5 @@ if ($null -eq ($xml.ArrayOfResearchProjectDefinition | Get-Member "_OriginalIds_
     Write-Host "> Davor: Sortierte ID Reihenfolge: $sortedIds"
     Write-Host "> Jetzt: Originale ID Reihenfolge: $originalIds"
 
-    $Worker.Save($xml, $file);
+    $Worker.Save($xml, $file)
 }

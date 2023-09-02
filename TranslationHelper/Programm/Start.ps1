@@ -10,9 +10,9 @@ $global:DebugPreference = "Continue"
 $global:VerbosePreference = "Continue"
 
 # Global Production Settings
-$global:ErrorActionPreference = "Stop"
-$global:DebugPreference = "Ignore"
-$global:VerbosePreference = "Ignore"
+#$global:ErrorActionPreference = "Stop"
+#$global:DebugPreference = "Ignore"
+#$global:VerbosePreference = "Ignore"
 
 # . $PSScriptRoot\Test.ps1
 # exit
@@ -37,7 +37,7 @@ _______          _____        _____             _            _       _____      
 |_____/   \/  \/   |____|     |_____/ \___|\__,_|\__|___/\___|_| |_| |_|   \__,_|\__\___|_| |_|
 GitHub: https://github.com/Marty651/DW2-Deutsch
 
-Entwickler: Countryen (Pascal Schwarz) | c0@countryen.de
+Entwickler vom Translation-Helper: Countryen (Pascal Schwarz) | c0@countryen.de
 Ausgeführt am $(Get-Date -Format "dd.MM.yyyy") mit PowerShell v$($PSVersionTable.PSVersion) ($($PSVersionTable.OS))
 "
 

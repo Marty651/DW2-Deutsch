@@ -15,6 +15,8 @@ class Worker
 
     [object] Load($Path) { return $null }
     [void] Save($Xml, $Path) { }
+    [void] SaveFormatted($Xml, $Path) { }
+    [void] Append($Xml, $AnchorElement, $ElementToAppend) { }
 
     [object] Translate($Text) { return $null }
 
@@ -22,4 +24,5 @@ class Worker
     [object] ResolvePath($Path) { return $null }
 
     [object] IsDebug() { return $null }
+    [object] DebugType($Object) { return $null }
 }

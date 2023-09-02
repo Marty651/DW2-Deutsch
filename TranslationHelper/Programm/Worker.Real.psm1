@@ -47,10 +47,45 @@ class RealWorker : Worker
         return $xml
     }
 
-    [void] Save($Xml, $Path) 
+    [void] Save($Xml, $Path)
     {
+        # Saves the file as-is without changing the format.
+
         $Path = $this.ResolvePath($Path)
         $Xml.Save($Path)
+    }
+
+    [void] SaveFormatted($Xml, $Path)
+    {
+        # Saves the file with format.
+
+        $Path = $this.ResolvePath($Path)
+        
+        $settings = New-Object System.Xml.XmlWriterSettings
+        $settings.Indent = $true
+        $writer = [System.Xml.XmlWriter]::Create($Path, $settings)
+        $Xml.Save($writer)
+        $writer.Dispose()
+    }
+
+    [void] Append($Xml, $AnchorElement, $ElementToAppend)
+    {
+        $indentationSymbol = " "
+        $indentationAmount = 2
+        function getDepth($node) {
+            $parents = 0
+            while ($node.ParentNode) {
+                $parents++
+                $node = $node.ParentNode
+            }
+            return $parents
+        }
+
+        $depth = getDepth -node $AnchorElement
+    
+        $indentation = $indentationSymbol * ($indentationAmount * ($depth + 1))
+        $AnchorElement.AppendChild($Xml.CreateWhitespace("`r`n" + $indentation)) | Out-Null
+        $AnchorElement.AppendChild($ElementToAppend) | Out-Null
     }
 
     [object] Translate($Text) 
@@ -100,6 +135,29 @@ class RealWorker : Worker
             ((-not $IgnorePSBoundParameters.IsPresent) -and $global:PSBoundParameters.Debug.IsPresent) -or
             ((-not $IgnorePSDebugContext.IsPresent) -and ($global:PSDebugContext))
         )
+    }
+
+    [object] DebugType($Object)
+    {
+        if (-not $this.IsDebug()) { return $null }
+
+        # Get BaseType of type recursively
+        $baseTypes = @()
+        $type = $Object.GetType()
+        while ($type) {
+            if ($type.BaseType) {
+                $baseTypes += $type.BaseType
+            }
+            $type = $type.BaseType
+        }
+
+        return [pscustomobject]@{
+            "GM" = $Object | Get-Member
+            "Type" = $Object.GetType()
+            "DirectProperties" = $Object.GetType().GetProperties()
+            "BaseTypes" = $baseTypes
+            "AllProperties" = $baseTypes | % { $_.GetProperties() }
+        }
     }
 }
 

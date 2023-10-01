@@ -177,7 +177,7 @@ Asteroid		;Asteroid
 Population		;Bevölkerung
 Others		;Andere
 Total		;Gesamt
-Resources		;Ressourcen und deren Abbau
+Resources		;Ressourcen
 Development		;Entwicklung
 Approval		;Zustimmung
 Revenue		;Einnahmen
@@ -1560,7 +1560,7 @@ Economy		;Wirtschaft
 Cash		;Vermögen
 Cashflow		;Saldo
 Bonus Income		;Bonuseinkünfte
-Colony Approval		;Kolonie Zustimmung
+Colony Approval		;Zustimmung
 War Weariness		;Kriegsmüdigkeit
 
 Private Cash		;Privatvermögen
@@ -1604,7 +1604,7 @@ IncomeType PrivateColonyRevenue Explanation		;Private Einnahmen Eurer Kolonien. 
 
 ExpenseType ColonyGrowthFunding		;Kolonie-Wachstum
 ExpenseType Research		;Forschung
-ExpenseType ShipMaintenance		;Schiffs- u. Raumbasen-Unterhalt
+ExpenseType ShipMaintenance		;Schiffs-/Raumbasen-Unterhalt
 ExpenseType ShipMaintenance Short		;Schiffs-Unterhalt
 ExpenseType TroopMaintenance		;Truppen-Unterhalt
 ExpenseType FacilityMaintenance		;Gebäude-Unterhalt
@@ -2089,7 +2089,7 @@ StartNewGame_GalaxySettings		;Galaxie Einstellungen
 StartNewGame_Threats		;Bedrohungen
 StartNewGame_Colonization		;Kolonisierung
 StartNewGame_YourRace		;Eure Spezies
-StartNewGame_YourEmpire		;Euer Herrschaftsgebiet und Eure Regierung
+StartNewGame_YourEmpire		;Euer Gebiet und Eure Regierung
 StartNewGame_YourStartingSituation		;Eure Startsituation
 StartNewGame_OtherEmpires		;Andere Völker
 StartNewGame_VictoryConditions		;Siegbedingungen
@@ -3843,15 +3843,15 @@ completed DATE		;{0} abgeschlossen
 Transferring to DESTINATION		;Transferiere nach {0}
 Expected Arrival		;ETA: {0}
 Leading invasion of LOCATION		;Invasion auf {0} anführen
-Commanding FLEETNAME		;Kommandiere {0}
-Commanding FLEETNAME from SHIP		;Kommandiere {0} von {1} aus
-Commanding SHIPNAME		;Kommandiere {0}
+Commanding FLEETNAME		;Kommandiert {0}
+Commanding FLEETNAME from SHIP		;Kommandiert {0} von {1} aus
+Commanding SHIPNAME		;Kommandiert {0}
 Onboard SHIPNAME		;An Bord {0}
-Waiting at X		;Warte bei {0}
+Waiting at X		;Wartet bei {0}
 Ambassador to EMPIRE at COLONY		;Botschafter zu {0} bei {1}
-Governing COLONY		;Verwalte {0}
-Ruling from COLONY		;Herrsche über {0}
-Researching at X		;Forsche auf {0}
+Governing COLONY		;Verwaltet {0}
+Ruling from COLONY		;Herrscht über {0}
+Researching at X		;Forscht auf {0}
 Prisoners		;Gefangene
 Imprisoned by EMPIRE		;Inhaftiert von {0}
 Imprisoned by EMPIRE LOCATION		;Inhaftiert von {0} bei {1}
@@ -4617,7 +4617,7 @@ Independent Colony Strategy Explanation Invasion		;Wenn militärische Angriffe a
 Admirals		;Admiräle
 Generals		;Generäle
 Spies CounterIntel		;Spione für Gegenspionage
-Spies Missions		;Spione für Spionagemissionen
+Spies Missions		;Spione für Missionen
 Ambassadors		;Botschafter
 Scientists		;Wissenschaftler
 Admirals and Generals		;Admiräle und Generäle
@@ -5522,7 +5522,7 @@ Allow Any Government Explanation		;Erlaubt die Auswahl jeder Art von Regierung.\
 YourEmpireGovernmentAllowAnyGovernment Yes		;Alles erlauben
 YourEmpireGovernmentAllowAnyGovernment Yes Title		;Jede Regierungsform erlauben
 YourEmpireGovernmentAllowAnyGovernment Yes Explanation		;Eine Regierungsform für Euer Volk aus allen verfügbaren Möglichkeiten wählen.
-YourEmpireGovernmentAllowAnyGovernment No		;Nur Volks-spezifische erlauben
+YourEmpireGovernmentAllowAnyGovernment No		;Nur Volks-spezifisch
 YourEmpireGovernmentAllowAnyGovernment No Title		;Nur Volks-spezifische Regierungsformen erlauben
 YourEmpireGovernmentAllowAnyGovernment No Explanation		;Nur Regierungsformen für Euer Volk erlauben, die für Eure gewählte Spezies vorgegeben sind.
 

@@ -14,6 +14,8 @@ Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.1.6.7):
 Deutsche Dateien für DLC Quameno & Gizurean (Release-Version 1.1.6.7):
 [DLC Q&G v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.1.6.7-(2023.10.01)/DW2-Deutsch_1.1.6.7_DLC_Quameno_and_Gizureans_v0.5.zip)
 
+Hinweis: Vor allem bei den DLC wurden Maschinenübersetzungen verwendet. Kann gut sein, dass da mal etwas gar nicht passt. Seid bitte nicht zu streng. :-)
+
 <h3>Downloads ältere Versionen:</h3>
 
 Siehe rechts im Bereich "Releases".

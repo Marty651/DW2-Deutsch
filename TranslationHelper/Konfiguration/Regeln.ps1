@@ -190,6 +190,9 @@ $Nicht_Verwendetes_Beispiel = @(
             "GameEvents_Dhayut.xml"
             "GameEvents_Ikkuro.xml"
 			"GameEvents_Ikkuro_RaceEvents.xml"
+            "GameEvents_Ancient_Guardian_Vaults.xml"
+            "GameEvents_Gizurean.xml"
+            "GameEvents_Quameno.xml"
         )
         Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"

@@ -162,7 +162,6 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "GameEvents_Dhayut.xml"
             "GameEvents_Ikkuro.xml"
-	    "GameEvents_Ikkuro_RaceEvents.xml"
             "GameEvents_Gizurean.xml"
             "GameEvents_Quameno.xml"
         )

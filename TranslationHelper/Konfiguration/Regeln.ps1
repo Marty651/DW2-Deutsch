@@ -61,33 +61,35 @@ $Nicht_Verwendetes_Beispiel = @(
 
 @(
     @{
-        Name = "Basic-Versionen #1 Nur Name"
+        Name = "#1 Nur Name"
         Dateien = @(
             "ArmyTemplates.xml"
             "ComponentDefinitions.xml"
-			"CreatureTypes.xml"
+	    "ComponentDefinitions_*.xml"
+	    "CreatureTypes.xml"
             "FleetTemplates.xml"
             "OrbTypes.xml"
             "PlanetaryFacilityDefinitions.xml"
-	        "PlanetaryFacilityDefinitions_Ancient_Guardian_Vaults.xml"
+	    "PlanetaryFacilityDefinitions_*.xml"
             "ResearchProjectDefinitions.xml"
+	    "ResearchProjectDefinitions_*.xml"
             "ShipHulls.xml"
             "ShipHulls_*.xml"
             "SpaceItemDefinitions.xml"
             "TroopDefinitions.xml"
-            "Artifacts_Dhayut.xml"
-            "Artifacts_Ikkuro.xml"
+	    "TroopDefinitions_*.xml"
         )
         Regeln = @(
             "/*/*/Name"
         )
     }
     @{
-        Name = "Basic-Versionen #2 Name + Description"
+        Name = "#2 Name + Description"
         Dateien = @(
             "Artifacts.xml"
-			"Artifacts_AncientGuardianVaults.xml"
+	    "Artifacts_*.xml"
             "ColonyEventDefinitions.xml"
+	    "ColonyEventDefinitions_*.xml"
             "Resources.xml"
         )
         Regeln = @(
@@ -99,7 +101,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Name = "Basic-Versionen #3 Game Events"
         Dateien = @(
             "GameEvents.xml"
-			"GameEvents_Ancient_Guardian_Vaults.xml"
+	    "GameEvents_Ancient _Guardian_Vaults.xml"
         )
         Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"
@@ -121,9 +123,10 @@ $Nicht_Verwendetes_Beispiel = @(
         )
     }
     @{
-        Name = "Basic-Versionen #5 Governments"
+        Name = "#5 Governments"
         Dateien = @(
             "Governments.xml"
+	    "Governments_*.xml"
         )
         Regeln = @(
             "/*/*/Name"
@@ -135,9 +138,10 @@ $Nicht_Verwendetes_Beispiel = @(
         )
     }
     @{
-        Name = "Basic-Versionen #6 Races"
+        Name = "#6 Races"
         Dateien = @(
             "Races.xml"
+	    "Races_*.xml"
         )
         Regeln = @(
             "/*/*/Description"
@@ -154,43 +158,10 @@ $Nicht_Verwendetes_Beispiel = @(
         )
     }
     @{
-        Name = "DLC-Versionen #1 Nur Name"
-        Dateien = @(
-            "Artifacts_Dhayut.xml"
-            "Artifacts_Ikkuro.xml"
-            "ComponentDefinitions_Dhayut.xml"
-            "ComponentDefinitions_Ikkuro.xml"
-            "PlanetaryFacilityDefinitions_Dhayut.xml"
-            "PlanetaryFacilityDefinitions_Ikkuro.xml"
-            "ResearchProjectDefinitions_Dhayut.xml"
-            "ResearchProjectDefinitions_Ikkuro.xml"
-            "ShipHulls_Dhayut.xml"
-            "ShipHulls_Ikkuro.xml"
-            "TroopDefinitions_Dhayut.xml"
-            "TroopDefinitions_Ikkuro.xml"
-        )
-        Regeln = @(
-            "/*/*/Name"
-        )
-    }
-    @{
-        Name = "DLC-Versionen #2 Name + Description"
-        Dateien = @(
-            "ColonyEventDefinitions_Dhayut.xml"
-            "ColonyEventDefinitions_Ikkuro.xml"
-        )
-        Regeln = @(
-            "/*/*/Name"
-            "/*/*/Description"
-        )
-    }
-    @{
-        Name = "DLC-Versionen #3 Game Events"
+        Name = "DLC-Versionen #1 Game Events"
         Dateien = @(
             "GameEvents_Dhayut.xml"
             "GameEvents_Ikkuro.xml"
-			"GameEvents_Ikkuro_RaceEvents.xml"
-            "GameEvents_Ancient_Guardian_Vaults.xml"
             "GameEvents_Gizurean.xml"
             "GameEvents_Quameno.xml"
         )
@@ -204,40 +175,16 @@ $Nicht_Verwendetes_Beispiel = @(
         )
     }
     @{
-        Name = "DLC-Versionen #4 Game Events (Governments)"
+        Name = "DLC-Versionen #2 Game Events (Governments)"
         Dateien = @(
-            "GameEvents_HarmoniousUtopia_Governments.xml"
-            "GameEvents_SurveillanceOligarchy_Governments.xml"
+            "GameEvents_HarmoniousUtopia_Government.xml"
+            "GameEvents_SurveillanceOligarchy_Government.xml"
+	    "GameEvents_Cell_Hegemony_Government.xml"
+            "GameEvents_Geniocracy_Government.xml"
         )
         Regeln = @(
             "/*/*/TriggerActions/GameEventAction/MessageTitle"
             "/*/*/TriggerActions/GameEventAction/Description"
-        )
-    }
-    @{
-        Name = "DLC-Versionen #5 Governments"
-        Dateien = @(
-            "Governments_Dhayut.xml"
-            "Governments_Ikkuro.xml"
-        )
-        Regeln = @(
-            "/*/*/Name"
-            "/*/*/Description"
-            "/*/*/LeaderTitle"
-            "/*/*/CabinetTitle"
-            "/*/*/EmpireNameAdjectives/string"
-            "/*/*/EmpireNameNouns/string"
-        )
-    }
-    @{
-        Name = "DLC-Versionen #6 Races"
-        Dateien = @(
-            "Races_Dhayut.xml"
-            "Races_Ikkuro.xml"
-        )
-        Regeln = @(
-            "/*/*/Description"
-            "/*/*/FeatureExplanations/string"
         )
     }
 )

@@ -6,6 +6,7 @@ Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. M
 <h2>Downloads für Version 1.1.8.7 Beta:</h2>
 Diese Dateien sollten auch für Version 1.1.8.1 funktionieren.
 
+
 Deutsche Dateien für Release-Version 1.1.8.7 Beta:
 [Deutsch 1.1.8.1 v1.7](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.1.8.7Beta-(2024.01.04)/DW2-Deutsch_1.1.8.7Beta_v1.7.zip)
 

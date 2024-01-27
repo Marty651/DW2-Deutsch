@@ -2674,6 +2674,7 @@ GameEventActionType HiveAmbush		;Schwarm-Überfall
 GameEventActionType PopulationAwoken Ruins		;Schlafende Alien-Spezies erwacht
 GameEventActionType ResearchProgress		;Technologie gefunden
 GameEventActionType ResearchBreakthrough		;Forschungsdurchbruch
+GameEventActionType ResearchBreakthroughFromColonyConquest		;Forschungsdurchbruch durch Kolonieeroberung
 GameEventActionType RefugeeFleet		;Flüchtlingsflotte
 GameEventActionType ResearchProjectEnable		;Forschung freigeschaltet
 GameEventActionType ShipExplodes		;{0} explodiert!
@@ -2718,6 +2719,7 @@ GameEventActionType Description HiveAmbush		;Als Euer Enterteam sich dem Schiff 
 GameEventActionType Description PopulationAwoken Ruins		;Bei der Untersuchung der [DISCOVERY]{0}[/DISCOVERY] fand unser Erkundungsteam eine [DISCOVERY]riesige Stasis-Winterschlafkammer[/DISCOVERY], die unter den Ruinen versteckt ist. Die kolossale Kammer enthält [DISCOVERY]Millionen von schlafenden {1}[/DISCOVERY].\n\nUnser Team hat aber versehentlich den Mechanismus ausgelöst, der die schlafenden {1} aufweckt, und die aufgeweckten Aliens haben nun die Kontrolle über die {2} übernommen.\n\nDie {1} erklären, dass sie sich im Winterschlaf versteckten, als ein bösartiges Volk vor langer Zeit die gesamte Galaxie brutal versklavte. Die erwachten {1} haben immer noch Angst, dass diese furchterregenden Herrscher, die sie 'Die Dunklen' nennen, wieder zurückkehren könnten.
 GameEventActionType Description ResearchProgress		;Wir haben eine Technologie gefunden, die unser Verständnis von [RESEARCH]{0}[/RESEARCH] verbessert hat.
 GameEventActionType Description ResearchBreakthrough		;Wir haben eine Technologie gefunden, die uns einen Forschungsdurchbruch in [RESEARCH]{0}[/RESEARCH] beschert hat.
+GameEventActionType Description ResearchBreakthroughFromColonyConquest		;Während unserer jüngsten Eroberung von {1} haben wir eine Technologie erworben, die uns einen Forschungsdurchbruch in [RESEARCH]{0}[/RESEARCH] beschert hat.
 GameEventActionType Description RefugeeFleet		;Unser Expeditionsteam hat eine starke Sendeanlage gefunden und [DISCOVERY]aktivierte den Sender[/DISCOVERY], dessen Ortungssignal von einer [DISCOVERY]Flotte aus {1} Schiffen[/DISCOVERY] registriert wurde, die gerade in das System {3} gesprungen waren!\n\nEine Nachricht von der Flotte erklärt: 'Seid gegrüßt! Wir sind {0} Flüchtlinge aus einer weit entfernten Galaxie. Wir wurden von einer grausamen außerirdischen Spezies, die uns in einem brutalen Krieg verfolgte, aus unserer Heimat vertrieben. Wir suchen Zuflucht bei euch und möchten uns eurem Reich anschließen. Im Gegenzug bieten wir euch unsere Schiffsflotte an.'\n\nDie Flotte besteht aus einigen Kolonieschiffen und einer kleinen Eskorte von Militärschiffen. Die Schiffe scheinen recht fortschrittlich zu sein.\n\nWenn wir diese Flüchtlinge in unser Reich aufnehmen und ihre Schiffe beanspruchen wollen, dann sollten wir uns ihrer Flotte bei {2} nähern.
 GameEventActionType Description ResearchProjectEnable		;Wir haben eine Technologie gefunden, die die Forschung in [RESEARCH]{0}[/RESEARCH] ermöglicht.\n\nWir sollten uns beeilen, dieses Projekt zu erforschen und seine Vorteile zu nutzen!
 GameEventActionType Description ShipExplodes		;Das Schiff {0} explodiert in einem [DISCOVERY]gewaltigen Feuerball[/DISCOVERY] - es war eine Falle!\n\nDie enorme Explosion hat auch unser Schiff beschädigt!
@@ -4706,6 +4708,7 @@ Maximum Queued Research Projects		;Maximale Forschungsprojekte in Warteschleife
 Maximum Queued Research Projects Explanation		;Ihr könnt nicht mehr als {0} Forschungsprojekte in die Warteschlange stellen
 
 In addition we also offer the following		;Darüber hinaus bieten wir auch Folgendes an
+In exchange for this peace however we demand that you give us the following		;Als Gegenleistung für diesen Frieden verlangen wir jedoch, dass Sie uns Folgendes geben
 
 Strategy		;Strategie
 Invasion		;Invasion

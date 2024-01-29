@@ -414,7 +414,7 @@ GameTaskType SetResearchQueue		;Forschungs-Verlauf festlegen
 GameTaskType SetShipAutomation		;Schiffs-/Raumbasen-Automatisierung: {0}
 GameTaskType SetShipRetreatOptions		;Rückzug wenn: {0}
 GameTaskType SetShipRoleInFleet		;Position innerhalb der Flotte: {0}
-GameTaskType SetStockLevel		;Resourcen-Menge festlegen
+GameTaskType SetStockLevel		;Ressourcen-Menge festlegen
 GameTaskType SetTargetStickinessFactor		;Ziel-Beibehaltungspriorität festlegen
 GameTaskType SetTroopGarrison		;Garnisonstruppe {0} stationieren
 GameTaskType SetTroopUngarrison		;Garnisonstruppe {0} auflösen
@@ -492,7 +492,7 @@ GameTaskType Short TransferTroopToShip		;Transferiert {0} zu {1}
 GameTaskType Short JoinFleet		;Flotte beitreten
 GameTaskType Short JoinFleet None		;Flotte beitreten
 GameTaskType Short LeaveFleet		;Flotte verlassen
-GameTaskType Short OrderResource		;Resourcen bestellen
+GameTaskType Short OrderResource		;Ressourcen bestellen
 GameTaskType Short PerformExpense		;Ausgaben
 GameTaskType Short PerformIncome		;Einkommen
 GameTaskType Short RecruitTroops		;Rekrutiert Truppen
@@ -627,7 +627,7 @@ EmpireRelationType PirateProtection		;Schutzabkommen
 EmpireRelationType NonAggression		;Nichtangriffsabkommen
 EmpireRelationType OperationsMapSharing		;Operationskarte teilen
 EmpireRelationType Research		;Forschungsabkommen
-EmpireRelationType ResourceSupply		;Resourcen-Liefervertrag
+EmpireRelationType ResourceSupply		;Ressourcen-Liefervertrag
 EmpireRelationType Subjugation		;Unterworfener Vasall
 EmpireRelationType Subjugation Detailed		;Anbieten, unterworfener Vasall zu werden
 EmpireRelationType War		;Krieg
@@ -649,7 +649,7 @@ EmpireRelationType Short PirateProtection		;Schutz
 EmpireRelationType Short NonAggression		;NieAng
 EmpireRelationType Short OperationsMapSharing		;OpKarte
 EmpireRelationType Short Research		;Forschung
-EmpireRelationType Short ResourceSupply		;Resourcen
+EmpireRelationType Short ResourceSupply		;Ressourcen
 EmpireRelationType Short Subjugation		;Vasall
 EmpireRelationType Short War		;Krieg
 EmpireRelationType Short Peace		;Frieden
@@ -729,7 +729,7 @@ Already retrofitting		;Bereits umgerüstet
 Already using latest design		;Bereits neueste Designvorlage verwendet
 All Ships already using latest design		;Alle Schiffe benutzen bereits die neuste Designvorlage
 No construction yard available		;Keine Schiffs-Werft verfügbar
-No construction yard available with sufficient resources		;Keine Schiffs-Werft mit ausreichend Resourcen vorhanden
+No construction yard available with sufficient resources		;Keine Schiffs-Werft mit ausreichend Ressourcen vorhanden
 Cannot retrofit until current construction finished		;Kann nicht umrüsten, bis die aktuelle Konstruktion abgeschlossen ist
 No ships need retrofitting		;Keine Schiffe benötigen Umrüstung
 No fleets to join		;Keine Flotten zum beitreten
@@ -740,7 +740,7 @@ No X available for returning		;Keine {0} für die Rückkehr verfügbar
 No refuel location available		;Kein Standort für Betankung verfügbar
 No repair location available		;Kein Standort für Reparatur verfügbar
 Cannot afford to build		;Kann es sich nicht leisten zu konstruieren
-Missing resources X		;Fehlende Resourcen: {0}
+Missing resources X		;Fehlende Ressourcen: {0}
 Tax rate already zero		;Steuersatz ist bereits Null
 Tax rate already at maximum		;Steuersatz ist bereits maximal
 Suitability With Race		;Kolonisieren mit {0}, Tauglichkeit: {1}
@@ -1217,7 +1217,7 @@ We have X		;Wir haben {0}
 Unbuilt Facilities		;Nicht gebaute Einrichtungen
 Missing Artifacts		;Fehlende Artefakte
 Not enough money		;Nicht genug Geld
-Missing Resources		;Fehlende Resourcen
+Missing Resources		;Fehlende Ressourcen
 Project is disabled		;Projekt ist deaktiviert
 Cannot Research		;Kann nicht erforscht werden
 
@@ -1541,10 +1541,10 @@ here	;hier
 Right-click to X		;Rechtsklick zum {0}
 
 Cargo		;Fracht
-Resource		;Resourcen
+Resource		;Ressourcen
 Stock		;Lager
-Resources Below Stock		;Resourcen unterhalb des Lagerbestandes
-Resource Shortages		;Resourcenmangel
+Resources Below Stock		;Ressourcen unterhalb des Lagerbestandes
+Resource Shortages		;Ressourcenmangel
 Reserved		;Reserviert
 Other Empires		;Andere Völker
 Reserved Abbreviation		;Rsrv
@@ -1561,7 +1561,7 @@ Sources Explanation		;Die Anzahl der ausgebeuteten Quellen, die unser Herrschaft
 Resource Stock Levels		;Ressourcen-Lagerbestände
 
 Fuel Resources		;Treibstoff-Ressourcen
-Construction Resources		;Konstruktions-Resoucen
+Construction Resources		;Konstruktions-Ressourcen
 Luxury Resources		;Luxus-Ressourcen
 Resources & Stock Levels		;Ressourcen & Lagerbestände
 Show All Resources		;Alle Ressourcen anzeigen
@@ -1596,7 +1596,7 @@ Stockpile		;Lagerbestand
 Distance from Spaceport		;Entfernung zum Raumhafen
 Distance from Selected Item or Capital		;Entfernung zu Objekt oder Hauptwelt
 Priority		;Priorität
-All Resources		;Alle Resourcen
+All Resources		;Alle Ressourcen
 Production Rate		;Produktionsrate
 Mining Rate		;Bergbaurate
 
@@ -1618,13 +1618,13 @@ Adequate		;Ausreichend
 Abundant		;Reichlich
 Low		;Niedrig
 Critical		;Kritisch
-Number of resources where production is higher than demand		;Anzahl der Resourcen, bei denen die Produktion höher ist als der Bedarf
-Number of resources where demand is higher than production		;Anzahl der Resourcen, bei denen der Bedarf höher ist als die Produktion
-Number of resources with no production		;Anzahl der Resourcen ohne Produktion
+Number of resources where production is higher than demand		;Anzahl der Ressourcen, bei denen die Produktion höher ist als der Bedarf
+Number of resources where demand is higher than production		;Anzahl der Ressourcen, bei denen der Bedarf höher ist als die Produktion
+Number of resources with no production		;Anzahl der Ressourcen ohne Produktion
 
-Number of resources with more than one years supply		;Anzahl der Resourcen mit mehr als einem Jahr Vorrat
-Number of resources with less than one years supply		;Anzahl der Resourcen mit weniger als einem Jahr Vorrat
-Number of resources with less than X months supply		;Anzahl der Resourcen mit weniger als {0} Monaten Vorrat
+Number of resources with more than one years supply		;Anzahl der Ressourcen mit mehr als einem Jahr Vorrat
+Number of resources with less than one years supply		;Anzahl der Ressourcen mit weniger als einem Jahr Vorrat
+Number of resources with less than X months supply		;Anzahl der Ressourcen mit weniger als {0} Monaten Vorrat
 
 Required Rate		;Benötigte Rate
 Current		;Aktuell
@@ -1673,7 +1673,7 @@ IncomeType PrivateColonyRevenue		;Private Kolonie-Einnahmen
 
 IncomeType ColonyTax Explanation		;Die Steuersätze werden für einzelne Kolonien festgelegt. Die Steuereinnahmen werden von den privaten Einkünften der Kolonie zum festgelegten Satz erhoben. Hohe Steuersätze verringern die Zufriedenheit und verlangsamen das Wachstum der Kolonie. Niedrige Steuersätze erhöhen die Zufriedenheit und fördern das Wachstum
 IncomeType ResourceTrading Explanation		;Euer Staat wird automatisch überschüssige Ressourcen an andere Völker verkaufen, wenn Ihr ein limitiertes, beschränktes oder freies Handelsabkommen mit ihnen habt. Unabhängige Kolonien und Händler werden ebenfalls überschüssige Ressourcen von Euch kaufen
-IncomeType Fuel Explanation		;Euer Staat wird Treibstoff-Resoucen an andere Völker verkaufen, wenn deren Schiffe an Euren Raumbasen oder Kolonien andocken
+IncomeType Fuel Explanation		;Euer Staat wird Treibstoff-Ressourcen an andere Völker verkaufen, wenn deren Schiffe an Euren Raumbasen oder Kolonien andocken
 IncomeType Information Explanation		;Informationen können über die Haupt-Kategorie 'Diplomatie' an andere Völker verkauft werden. Dazu gehören Karten, Technologie, geheime Orte und andere Informationen
 IncomeType Tribute Explanation		;Tribut, den andere Völker als Teil eines diplomatischen Abkommens an Euch zahlen. Tribut wird normalerweise vom Sieger eines Krieges einem besiegten Feind auferlegt
 IncomeType Raiding Explanation		;Geld, das durch Überfälle auf Kolonien oder Raumbasen anderer Völker gewonnen wurde
@@ -1716,7 +1716,7 @@ ExpenseType ShipBuilding Explanation		;Anschaffungskosten für die Konstruktion 
 ExpenseType TroopRecruitment Explanation		;Rekrutierungskosten für neue Truppen
 ExpenseType FacilityBuilding Explanation		;Baukosten für neue planetarische Einrichtungen
 ExpenseType ResourceTrading Explanation		;Kosten für den Kauf von Ressourcen von anderen Völkern. Andere Völker verkaufen ihre überschüssigen Ressourcen an Euch, wenn Ihr ein Freihandelsabkommen oder einen Ressourcenliefervertrag mit ihnen habt. Auch unabhängige Kolonien verkaufen ihre überschüssigen Ressourcen an jedes Volk oder Fraktion.
-ExpenseType Fuel Explanation		;Euer Staat wird Treibstoff-Resourcen von anderen Völkern kaufen, wenn Eure Schiffe an deren Raumbasen oder Kolonien andocken
+ExpenseType Fuel Explanation		;Euer Staat wird Treibstoff-Ressourcen von anderen Völkern kaufen, wenn Eure Schiffe an deren Raumbasen oder Kolonien andocken
 ExpenseType Information Explanation		;In der Haupt-Kategorie 'Diplomatie' können Informationen von anderen Völkern gekauft werden. Dazu gehören Karten, Technologie, geheime Orte und andere Informationen
 ExpenseType Tribute Explanation		;Tribut, den Ihr an andere Völker zahlt. Dabei handelt es sich in der Regel um Schutzabkommen mit Piratenfraktionen oder Geldgeschenke an andere Völker.
 ExpenseType Missions Explanation		;Ausgegebenes Geld für verdeckte Missionen
@@ -1953,11 +1953,11 @@ All Races		;Alle Spezies
 Selected Ship Only		;Nur ausgewähltes Schiff
 Ship Travel Vectors		;Schiffsverkehr
 Long Range Scanners		;Langstreckenscanner
-Location Badges		;System-/Kolonien+Resourcen-Übersicht
+Location Badges		;System-/Kolonien+Ressourcen-Übersicht
 Tourism Flow		;Tourismus
 Migration Flow		;Migration
-Resource Flow		;Resourcen
-Resources Required to Build		;Für Konstruktion benötigte Resourcen
+Resource Flow		;Ressourcen
+Resources Required to Build		;Für Konstruktion benötigte Ressourcen
 Funding Levels		;Finanzielle Mittel
 Amount for FUNDING based on current cashflow		;Betrag für {0} basierend auf dem aktuellen Saldo
 Amount for FUNDING based on current income		;Betrag für {0} basierend auf den aktuellen Einnahmen
@@ -2299,7 +2299,7 @@ Pirates Explanation		;Wie viele Piraten es in der Galaxie gibt.\n\nPiraten könn
 Pirate Strength Explanation		;Wie stark Piraten sind und wie schnell sie sich entwickeln.
 Pirate Proximity Explanation		;Wie nah Piratenfraktionen an kolonisierten Systemen von anderen Völkern starten.
 Pirates Respawn Explanation		;Ob Piratenfraktionen nach der Eliminierung an anderen Orten neu auferstehen und wieder angreifen.
-Space Creatures Explanation		;Wie viele Weltraum Kreaturen in der Galaxie vorhanden sind.\n\nViele Weltraum Kreaturen sind gefährlich und können eine Bedrohung für Eure Schiffe und Raumbasen darstellen.\n\nSie können Euch aber auch Resourcen liefern, die Ihr nutzen könnt.
+Space Creatures Explanation		;Wie viele Weltraum Kreaturen in der Galaxie vorhanden sind.\n\nViele Weltraum Kreaturen sind gefährlich und können eine Bedrohung für Eure Schiffe und Raumbasen darstellen.\n\nSie können Euch aber auch Ressourcen liefern, die Ihr nutzen könnt.
 Colony Prevalence Explanation		;Beeinflusst die allgemeine Qualität der Planeten und Monde in der Galaxie und bestimmt damit die Anzahl der potentiell kolonisierbaren Himmelskörper.\n\nHöherwertige Planeten oder Monde unterstützen größere Bevölkerungszahlen und bieten mehr Einnahmen, wenn sie kolonisiert werden.
 Independent Colonies Explanation		;Unabhängige Alien-Populationen sind zu Beginn des Spiels über die gesamte Galaxie verteilt.\n\nDiese Einstellung bestimmt, wie viele dieser Alien-Bevölkerungsgruppen in der Galaxie existieren und wie groß jede von ihnen ist, aber diese sind nicht dazu in der lage, ihr Heimatsystem zu verlassen.
 Colony Influence Range Explanation		;Die Größe des Einflussbereiches, der von Kolonien ausgeht.\n\nDer Kolonieeinfluss bestimmt Euer Herrschafts-Territorium, d.h. welche Sternensysteme zu Eurem Herrschaftsgebiet gehören.
@@ -2308,7 +2308,7 @@ Race Explanation		;Die dominante Spezies der Hauptwelt Eures Herrschaftsgebietes
 
 Colonization Modifiers		;Kolonialisierungs Modifikatoren
 Colonization Minimum Quality		;Mindestqualität für Kolonisierung
-Colony Growth Resources		;Resourcen für Koloniewachstum
+Colony Growth Resources		;Ressourcen für Koloniewachstum
 Reproduction Rate		;Fortpflanzungsrate
 Migration Tendency		;Migrationstendenz
 Migration Factor Unmoving		;Unverändert
@@ -2349,7 +2349,7 @@ Your Empire Home System Agreeable		;Angenehm
 Your Empire Home System Excellent		;Exzellent
 
 Home System		;Hauptsystem
-Home System Explanation		;Wie lebenswert das Hauptsystem ist.\n\nDazu gehören Faktoren wie: Resourcenvorkommen, Bevölkerungsgrad der Hauptwelt und das Vorhandensein weiterer lebenswerter Planeten im System.
+Home System Explanation		;Wie lebenswert das Hauptsystem ist.\n\nDazu gehören Faktoren wie: Ressourcenvorkommen, Bevölkerungsgrad der Hauptwelt und das Vorhandensein weiterer lebenswerter Planeten im System.
 Your Empire Tech Level PreWarp		;Vor Hyperraum
 Your Empire Tech Level X		;Level {0}
 Tech Level		;Tech-Level
@@ -2459,7 +2459,7 @@ MessageType Exploration		;Erkundung
 MessageType GalaxyNews		;Galaxie Nachrichten
 MessageType Military		;Militär
 MessageType Research		;Forschung
-MessageType Resources		;Resourcen
+MessageType Resources		;Ressourcen
 MessageType Story		;Story-Ereignisse
 MessageType UnderAttack		;Unter Beschuss
 
@@ -2570,7 +2570,7 @@ ShipCaptureEnlistment Never		;Niemals
 ShipCaptureEnlistment WhenHighTechOrLargerThanCanBuild		;Wenn wertvolle Technologie enthalten ist oder wenn es größer ist, als alles, was wir bislang konstruieren können
 ShipCaptureEnlistment WhenNOTHighTechOrLargerThanCanBuild		;Wenn NICHT wertvolle Technologie enthalten ist oder wenn es größer ist, als alles, was wir bislang konstruieren können
 
-ShipCaptureDisassemble AlwaysDisassembleAtBaseForTechAndResources		;Immer in Raumbasis demontieren für Technologie und Resourcen
+ShipCaptureDisassemble AlwaysDisassembleAtBaseForTechAndResources		;Immer in Raumbasis demontieren für Technologie und Ressourcen
 ShipCaptureDisassemble AlwaysImmediatelyScrapForMoney		;Immer sofort für Geld verschrotten
 ShipCaptureDisassemble DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney		;Demontieren in Raumbasis wenn wertvolle Technologie enthalten ist oder wenn es größer ist, als alles, was wir bislang konstruieren können; - sonst für Geld verschrotten
 
@@ -2830,7 +2830,7 @@ Victory Condition ControlHomeworld		;Kontrolliert Eure Hauptwelt {0}
 Victory Condition ControlLargestColoniesByType		;Kontrolliert die {0} größten {1} Kolonien in der Galaxie
 Victory Condition ControlMostRuins		;Kontrolliert die meisten Ruinen in der Galaxie
 Victory Condition ControlPlanetTypePercentage		;Kontrolliert {0} aller {1} Kolonien in der Galaxie
-Victory Condition ControlRestrictedResourceSupply		;Kontrolle von {0} Ort(en), die hochwertige Resourcen liefern ({1})
+Victory Condition ControlRestrictedResourceSupply		;Kontrolle von {0} Ort(en), die hochwertige Ressourcen liefern ({1})
 Victory Condition DestroyMoreEnemyTroopsThanLoseTimesFactor		;Zerstört {0} mal mehr gegnerische Truppen als Ihr verliert
 Victory Condition DestroyMoreEnemyTroopsThanLoseTimesFactorSingle		;Zerstört mehr feindliche Truppen als Ihr verliert
 Victory Condition DestroyMoreShipsBySizeThanLoseTimesFactor		;Zerstört {0} mal mehr feindliche Schiffsmasse, als Ihr verliert
@@ -2882,8 +2882,8 @@ Victory Condition ResearchLeastAdvanced		;Führt die geringste Forschung in der 
 Victory Condition ResearchMostAdvanced		;Führt die meiste Forschung in der Galaxie durch
 Victory Condition ResearchMostCompletedBranches		;Habt die meisten abgeschlossenen Forschungszweige in der Galaxie
 Victory Condition ResearchMostCompletedBranchesByIndustry		;Habt die meisten abgeschlossenen {0} Forschungszweige in der Galaxie
-Victory Condition MineMostResourcesLuxury		;Baut die luxuriösesten Resourcen in der Galaxie ab
-Victory Condition MineMostResourcesConstruction		;Baut die meisten Konstruktions-Resourcen in der Galaxie ab
+Victory Condition MineMostResourcesLuxury		;Baut die luxuriösesten Ressourcen in der Galaxie ab
+Victory Condition MineMostResourcesConstruction		;Baut die meisten Konstruktions-Ressourcen in der Galaxie ab
 Victory Condition MineMostResourcesFuel		;Baut die meisten Treibstoff-Ressourcen in der Galaxie ab
 Victory Condition BuildMostMilitaryShips		;Konstruiert die meisten Militärschiffe in der Galaxie
 Victory Condition BuildMostCivilianShips		;Konstruiert die meisten Zivilschiffe in der Galaxie
@@ -2966,7 +2966,7 @@ Victory Condition Detail ResearchMostAdvanced		;Gesamte {0} Forschung abgeschlos
 Victory Condition Detail ResearchMostCompletedBranches		;{0} abgeschlossene Forschungszweige
 Victory Condition Detail ResearchMostCompletedBranchesByIndustry		;{0} abgeschlossene {1} Forschungszweige
 Victory Condition Detail MineMostResourcesLuxury		;{0} abgebaute Luxusrohstoffe
-Victory Condition Detail MineMostResourcesConstruction		;{0} Konstruktions-Resourcen abgebaut
+Victory Condition Detail MineMostResourcesConstruction		;{0} Konstruktions-Ressourcen abgebaut
 Victory Condition Detail MineMostResourcesFuel		;{0} abgebaute Treibstoff-Ressourcen
 Victory Condition Detail BuildMostMilitaryShips		;{0} Militärschiffe konstruiert
 Victory Condition Detail BuildMostCivilianShips		;{0} Zivilschiffe konstruiert
@@ -3462,10 +3462,10 @@ Significant		;Signifikant
 Serious		;Ernsthaft
 Rampant		;Blindwütig
 
-This faction can supply our resource shortages		;Diese Fraktion kann unsere Resourcenknappheit mindern
+This faction can supply our resource shortages		;Diese Fraktion kann unsere Ressourcenknappheit mindern
 Evaluation		;Evaluierung
 Known Colonies		;Bekannte Kolonien
-Resource Supply		;Resourcenbelieferung
+Resource Supply		;Ressourcenbelieferung
 Relationship With Us		;Beziehung zu uns
 Relationship With Others		;Beziehung zu anderen
 No Treaties		;Keine Verträge
@@ -3483,7 +3483,7 @@ TradeOfferItemType MapTerritory		;Gebietskarte
 TradeOfferItemType SystemMaps		;Systemkarten
 TradeOfferItemType Money		;Geld
 TradeOfferItemType ResearchProjects		;Technologie
-TradeOfferItemType Resources		;Resourcen
+TradeOfferItemType Resources		;Ressourcen
 TradeOfferItemType Ships		;Schiffe
 TradeOfferItemType SpecialLocations		;Spezielle Orte
 TradeOfferItemType Ruins		;Uralte Ruinen
@@ -3560,7 +3560,7 @@ Starting Empires List TechLevel Explanation		;Wählt eine Start-Forschungsstufe 
 Starting Empires List Expansion Explanation		;Wählt eine Expansionsstufe für das Volk aus der Dropdown-Liste.\n\nDies gibt an, wie viele Kolonien, Schiffe und Raumbasen das Volk hat.\n\nWenn der 'Entwicklungszustand der Galaxie' größer als 'Entstehend' ist, muss die Technologie-Stufe mindestens 1 sein.
 Starting Empires List Proximity Explanation		;Wählt die ungefähre Entfernung dieses Volkes von dem Eurigem
 Starting Empires List Government Explanation		;Wählt eine Regierung für das Volk aus der Auswahlliste aus
-Starting Empires List HomeSystem Explanation		;Gebt an, wie lebenswert das Hauptsystem sein soll.\n\nDazu gehören Faktoren wie: Resourcenvorkommen, Bevölkerungsstand der Hauptwelt und das Vorhandensein weiterer lebenswerter Planeten oder Monde im System.
+Starting Empires List HomeSystem Explanation		;Gebt an, wie lebenswert das Hauptsystem sein soll.\n\nDazu gehören Faktoren wie: Ressourcenvorkommen, Bevölkerungsstand der Hauptwelt und das Vorhandensein weiterer lebenswerter Planeten oder Monde im System.
 Starting Empires List RelationLevel Explanation		;Wählt einen anfänglichen Beziehungs Level zwischen dem Spieler-Volk und diesem Volk.\n\nDie Angaben eines Vertrags-Levels (Nichtangriffspakt oder höher) aktiviert alle Vertragstypen auf dieser Stufe oder darunter.
 Starting Empires List Remove Explanation		;Klickt, um dieses Volk zu entfernen
 
@@ -4024,7 +4024,7 @@ No buildable Colony Ship designs		;Keine konstruierbaren Kolonieschiffs-Designvo
 Reactor Offline		;Reaktor Offline
 HyperDrive Offline		;Hyperantrieb Offline
 
-from Resources		;von Resourcen
+from Resources		;von Ressourcen
 from Population		;aus Bevölkerung
 static		;gleichbleibend
 growing		;wachsend
@@ -4274,7 +4274,7 @@ Cannot change role because this is the only fleet template for this role		;Flott
 Waiting for fuel tanker		;Warte auf Tanker
 Private economy expense		;Privatwirtschaftliche Ausgaben
 Send SHIP to MISSION		;Sende {0} zu {1}
-PLANET has the following resources and abundances		;{0} hat die folgenden Resourcen und Reichtümer
+PLANET has the following resources and abundances		;{0} hat die folgenden Ressourcen und Reichtümer
 PLANET has the following research bonuses		;{0} hat die folgenden Forschungsboni
 PLANET has the following scenery bonuses		;{0} hat die folgenden Landschaftsboni
 
@@ -4635,7 +4635,7 @@ ComponentCategory Description AssaultPod		;Komponenten aus der Kategorie 'Enterk
 ComponentCategory Description CargoBay		;Komponenten aus der Kategorie 'Fracht-Module' dienen der Aufbewahrung von Gütern während des Transports oder zur Lagerung derselben.\n\nSie werden meist in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nKonstruktions-Schiffe benötigen auch Fracht-Modulkomponenten, um bei der Konstruktion neuer Raumbasen Ressourcen zwischenzulagern.
 ComponentCategory Description Colonization		;Komponenten aus der Kategorie 'Kolonisierung' enthalten alles, was für die Gründung einer Kolonie auf einem neuen Planeten notwendig ist.\n\nKolonisationsmodule sind sehr groß und benötigen viele Ressourcen für die Konstruktion. Diese Ressourcen sind der Startbonus für die Siedler der neuen Kolonie.\n\nDie Siedler werden im Kolonisationsmodul in einen Stasis-Schlaf versetzt und können unbegrenzt lange überleben, bis sie wieder aufgewckt werden, sobald sie die neue Kolonie erreichen.
 ComponentCategory Description CommandCenter		;Komponenten aus der Kategorie 'Schiffs- u. Stationsbrücken' sind das Kontrollzentrum eines Schiffes, einer Raumbasis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nSchiffs- u. Stationsbrücken können Boni und andere Modifikatoren bereitstellen, die die Eigenschaften eines Schiffes verbessern.
-ComponentCategory Description CommerceCenter		;Komponenten aus der Kategorie 'Handelscenter-Module' machen eine Raumbasis zu einem Handelszentrum, in welchem Resourcen ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Resourcen diesem Standort gehandelt werden.
+ComponentCategory Description CommerceCenter		;Komponenten aus der Kategorie 'Handelscenter-Module' machen eine Raumbasis zu einem Handelszentrum, in welchem Ressourcen ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Ressourcen diesem Standort gehandelt werden.
 ComponentCategory Description Construction		;Komponenten aus der Kategorie 'Konstruktion' ermöglichen die Konstruktion von neuen Schiffen und Raumbasen. Diese bieten auch die Möglichkeit, bestehende Schiffe und Raumbasen zu reparieren und umzurüsten.\n\nSchiffswerft-Komponenten werden normalerweise in Raumhäfen integriert und Werften mit höherer Technologie-Stufe konstruieren und reparieren Schiffe in der Regel schneller. Einige Werften können sogar mehrere Schiffe gleichzeitig konstruieren.
 ComponentCategory Description Countermeasures		;Komponenten aus der Kategorie 'Gegenmaßnahmen' erhöhen die Wahrscheinlichkeit, im Kampf dem Beschuss durch feindliche Waffen zu entgehen. Diese leistungsstarken elektronischen Gegenmaßnahmen lenken viele Arten von Waffen ab und ermöglichen es Euch, dem gegnerischen Waffenfeuer auszuweichen.
 ComponentCategory Description CountermeasuresFleet		;Komponenten aus der Kategorie 'Flotten-Gegenmaßnahmen' kommen allen Schiffen einer Flotte zugute und ermöglichen es allen Schiffen der Flotte, dem feindlichen Waffenfeuer effektiver auszuweichen.
@@ -4643,10 +4643,10 @@ ComponentCategory Description CrewQuarters		;Komponenten aus der Kategorie 'Crew
 ComponentCategory Description DamageControl		;Komponenten aus der Kategorie 'Schadenskontrolle' verringern den Schaden, der einem Schiff durch feindliches Waffenfeuer zugefügt wird. Dies hilft einem Schiff, im Kampf länger zu überleben, wenn seine Schilde und Panzerung durchdrungen wurden.\n\nEinige Schadenskontroll-Komponenten bieten auch eine Reparaturfunktion, die es Euren Schiffen ermöglicht, sogar im Kampf grundlegende Reparaturen durchzuführen. Dies kann die Überlebensfähigkeit Eurer Militärschiffe verbessern und ihre Lebensdauer im Gefecht verlängern.
 ComponentCategory Description DockingBay		;Komponenten aus der Kategorie 'Andockstellen' ermöglichen es einem Schiff, anzudocken und Fracht umzuladen oder aufzutanken.\n\nAndockstellen werden im Spiel normalerweise als eine von außen sichtbare Hangarbucht dargestellt. Kleinere Schiffe und Raumjäger können in diese Hangarbuchten ein- bzw. ausfahren.
 ComponentCategory Description EnergyCollector		;Komponenten aus der Kategorie 'Energiekollektoren' sammeln Energie von einem nahegelegenen Stern, wodurch die Notwendigkeit der Verbrennung von Treibstoff in einem Reaktor zur Energieerzeugung verringert oder sogar beseitigt wird.\n\nEnergiekollektoren können Energie aus einem großen Teil des elektromagnetischen Spektrums absorbieren.
-ComponentCategory Description EnergyToFuel		;Komponenten aus der Kategorie 'Energie-Kraftsoffkonverter' sammeln Energie von einem nahe gelegenen Stern und verwenden sie, um Treibstoff für Eure Schiffe zu erzeugen. So könnt Ihr an jedem beliebigen Ort Treibstoffdepots errichten, ohne auf einem Gasriesenplaneten Treibstoff-Resoucen abbauen zu müssen.\n\nEnergie-Treibstoff-Wandler sind sehr groß und funktionieren nur im stationären Betrieb. Sie eignen sich daher nur für den Einsatz auf Raumbasen, nicht aber auf Schiffen.
+ComponentCategory Description EnergyToFuel		;Komponenten aus der Kategorie 'Energie-Kraftsoffkonverter' sammeln Energie von einem nahe gelegenen Stern und verwenden sie, um Treibstoff für Eure Schiffe zu erzeugen. So könnt Ihr an jedem beliebigen Ort Treibstoffdepots errichten, ohne auf einem Gasriesenplaneten Treibstoff-Ressourcen abbauen zu müssen.\n\nEnergie-Treibstoff-Wandler sind sehr groß und funktionieren nur im stationären Betrieb. Sie eignen sich daher nur für den Einsatz auf Raumbasen, nicht aber auf Schiffen.
 ComponentCategory Description Engine		;Komponenten aus der Kategorie 'Triebwerke' liefern den Unterlichtschub für die Bewegung eines Schiffes. Jeder Triebwerks-Typ hat dabei seine eigenen individuellen Eigenschaften, einschließlich der verschiedenen Level bezüglich Schubleistung und Treibstoffverbrauch.
 ComponentCategory Description EngineVectoring		;Komponenten aus der Kategorie 'Vektortriebwerke' sorgen für Wende- oder Seitwärtsschub, um ein Schiff zu manövrieren. Eine größere Wendigkeit ist besonders im Kampf nützlich.
-ComponentCategory Description Extractor		;Komponenten aus der Kategorie 'Extraktoren' ermöglichen den Abbau von Ressourcen auf Planeten, Monden oder Asteroiden. Diese Komponenten werden in der Regel in Bergbaustationen oder Bergbauschiffe eingebaut.\n\nBeim Abbau von Asteroiden können Extraktoren in der Regel auch mehrere andere Asteroiden in der Nähe abbauen und so die Resourcenausbeute in einem Asteroidenfeld oder einem planetaren Asteroidenring erhöhen.
+ComponentCategory Description Extractor		;Komponenten aus der Kategorie 'Extraktoren' ermöglichen den Abbau von Ressourcen auf Planeten, Monden oder Asteroiden. Diese Komponenten werden in der Regel in Bergbaustationen oder Bergbauschiffe eingebaut.\n\nBeim Abbau von Asteroiden können Extraktoren in der Regel auch mehrere andere Asteroiden in der Nähe abbauen und so die Ressourcenausbeute in einem Asteroidenfeld oder einem planetaren Asteroidenring erhöhen.
 ComponentCategory Description FighterBay		;Komponenten aus der Kategorie 'Jägerbuchten' bieten Einrichtungen für die Herstellung, Lagerung, Reparatur und An- bzw Abflug von Raumjägern an Bord von Schiffen oder Raumbasen.\n\nSobald sie in ein Schiff oder eine Raumbasis eingebaut sind, können in Jägerbuchten neue Raumjäger konstruiert und vorhandene Raumjäger repariert werden.\n\nIm Gegensatz zu den meisten Schiffen erfordert die Konstruktion von Raumjägern keine zusätzlichen Ressourcen - Raumjäger können in einer funktionierenden Jägerbucht unbegrenzt repariert und wiederhergestellt werden.
 ComponentCategory Description FuelStorage		;Komponenten aus der Kategorie 'Treibstofflager' dienen der Lagerung von Treibstoff für den Betrieb eines Reaktors, der Energie erzeugt, die dann für eine Vielzahl von Aufgaben genutzt werden kann.\n\nEin ausreichender Treibstoffvorrat ist ein wichtiger Faktor bei der Bestimmung der effektiven Reichweite eines Schiffs.
 ComponentCategory Description HyperBlock		;Komponenten aus der Kategorie 'Gravitationsquellen-Generatoren' erzeugen ein starkes Schwerkraftfeld, das feindliche Schiffe innerhalb eines bestimmten Bereichs aus dem Hyperraum zieht.\n\nDadurch entsteht eine Sicherheitszone, in der feindliche Schiffe mit Unterlichtgeschwindigkeit reisen müssen, wodurch mehr Zeit für die Ankunft von Verstärkungen z.B. als Reaktion auf einen Angriff zur Verfügung steht.\n\nDiese Komponenten sind sehr groß, so dass sie sich am besten für große Raumbasen wie Raumhäfen eignen.\n\nGravitationsquellen-Generatoren können bezwungen werden, wenn ein Hyperantrieb einen höheren Hypersprung-Blockierungsschutz hat, als die Gravitationsstärke des Generators. In diesem Fall wird das Schiff nicht aus dem Hyperraum gezogen.
@@ -4981,7 +4981,7 @@ You have conquered an independent colony in our territory		;Ihr habt eine unabh�
 
 Character ROLE Dismissed		;{0} entlassen
 
-A tour is available for X		;Eine Tutorial ist für {0} verfügbar.\nKlickt auf das Fragezeichen, um das Tutorial zu starten
+A tour is available for X		;Ein Tutorial ist für {0} verfügbar.\nKlickt auf das Fragezeichen, um das Tutorial zu starten
 Click to launch a tour of X		;Klicke, um ein {0} Tutorial zu starten
 Launch Tour		;Tutorial starten
 Tour already in progress		;Tutorial bereits aktiviert

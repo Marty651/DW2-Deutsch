@@ -25,6 +25,7 @@ Siehe rechts im Bereich "Releases".
 <h2>Installation</h2>
 
 In den ZIP-Dateien befinden sich die deutschen Dateien, mit denen die jeweiligen englischen Dateien in ...\\\<DW2-Spieleverzeichnis\>\\data\\ überschrieben werden müssen. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
+Alternativ kann auch das Batch-File "DW2-Deutsch-Patch.bat" gestartet werden. Dazu zuerst den DW2-Ordner aus dem Download in den data-Ordner des Spieleverzeichnisses kopieren. Dann das Batch-File durch Doppelklick starten. Das Batch-File legt von den vorigen Dateien ein Backup an und überschreibt dann die notwendigen Dateien. Benutzung auf eigene Gefahr!
 
 Falls man den DLC besitzt, kann man die Dateien des entsprechenden ZIP-Files in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
 

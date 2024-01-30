@@ -1,0 +1,16 @@
+Die Hilfepopups haben keine detaillierte Beschreibung mehr.
+Nur die Grundinfos werden angezeigt.
+Sehr angenehm wie ich finde.
+
+Umsetzung über Notepad++ für zukünftige Versionen oder nach jeder erneuten Ergänzung:
+
+In der regex suche:
+
+suchen nach:
+(.*Explanation.*);(.*$)
+
+ersetzen durch:
+\1;
+
+es wird nach allen Explanation stellen gesucht.
+ersetzt wird der gefundene Text, hinter dem semikolon wird nichts hingeschrieben

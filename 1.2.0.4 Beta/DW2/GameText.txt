@@ -607,8 +607,8 @@ Show		;Zeigen
 Leave the Ruins Alone		;Die Ruinen ignorieren
 Leave the Base Alone		;Die Raumbasis ignorieren
 Leave the Ship Alone		;Das Schiff ignorieren
-Show Me		;Ansehen
-Dismiss		;Verwerfen
+Show Me		;Zeigen
+Dismiss		;Danke, wegtreten.
 
 
 EmpireRelationType FirstContact		;Erster Kontakt
@@ -956,10 +956,10 @@ BonusType ShipMaintenanceMilitary		;Wartungskosten-Ersparnis für Militärschiff
 BonusType ShipMaintenanceBases		;Basen-Wartung (Ersparnis) 
 BonusType ShipMaintenanceAll		;Schiffs-Wartung (Ersparnis)
 BonusType ConstructionSpeedAllShips		;Schiffs-Bau (Schnelligkeit)
-BonusType ConstructionSpeedCivilian		;Konstruktionsgeschwindigkeit für Zivilschiffe
-BonusType ConstructionSpeedMilitary		;Konstruktionsgeschwindigkeit für Militärschiffe
-BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschwindigkeit für Kolonieschiffe
-BonusType ConstructionSpeedFacility		;Baugeschwindigkeit für Einrichtungen
+BonusType ConstructionSpeedCivilian		;Konstruktionszeit für Zivilschiffe
+BonusType ConstructionSpeedMilitary		;Konstruktionszeit für Militärschiffe
+BonusType ConstructionSpeedColonyShip		;Konstruktionszeit für Kolonieschiffe
+BonusType ConstructionSpeedFacility		;Konstruktionszeit für Einrichtungen
 BonusType ColonyCorruptionReduction		;Kolonie-Korruptionsreduzierung
 BonusType ColonyHappiness		;Kolonie-Zufriedenheit
 BonusType ColonyIncome		;Kolonie-Einnahmen

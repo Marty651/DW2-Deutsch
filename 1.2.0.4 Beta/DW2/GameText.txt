@@ -214,7 +214,7 @@ Range		;Reichweite
 Avg DPS		;mttl. DPS
 Min DPS		;Min. DPS
 Fighters		;Jäger
-Building		;Gebäude
+Building		;Baustapel
 waiting		;warte
 Docked		;Angedockt
 Awaiting Construction		;Warte auf Konstruktion
@@ -788,7 +788,7 @@ CommerceTradeBonus		;Handelsbonus
 ComponentCountermeasuresBonus		;Waffen Gegenmaßnahmen
 ComponentIonDefense		;Ionenabwehr der Komponente
 ComponentTargetingBonus		;Waffen Zielerfassung
-ConstructionBuildSpeed		;Konstruktionsgeschwindigkeit
+ConstructionBuildSpeed		;Konstruktionsgeschw.
 ConstructionRepairSpeed		;Reparatur-Geschwindigkeit
 ConstructionYardCount		;Schiffs-Werften
 CountermeasuresBonus		;Gegenmaßnahmen
@@ -956,10 +956,10 @@ BonusType ShipMaintenanceMilitary		;Wartungskosten-Ersparnis für Militärschiff
 BonusType ShipMaintenanceBases		;Basen-Wartung (Ersparnis) 
 BonusType ShipMaintenanceAll		;Schiffs-Wartung (Ersparnis)
 BonusType ConstructionSpeedAllShips		;Schiffs-Bau (Schnelligkeit)
-BonusType ConstructionSpeedCivilian		;Konstruktionsgeschwindigkeit für Zivilschiffe
-BonusType ConstructionSpeedMilitary		;Konstruktionsgeschwindigkeit für Militärschiffe
-BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschwindigkeit für Kolonieschiffe
-BonusType ConstructionSpeedFacility		;Baugeschwindigkeit für Einrichtungen
+BonusType ConstructionSpeedCivilian		;Konstruktionszeit für Zivilschiffe
+BonusType ConstructionSpeedMilitary		;Konstruktionszeit für Militärschiffe
+BonusType ConstructionSpeedColonyShip		;Konstruktionszeit für Kolonieschiffe
+BonusType ConstructionSpeedFacility		;Konstruktionszeit für Einrichtungen
 BonusType ColonyCorruptionReduction		;Kolonie-Korruptionsreduzierung
 BonusType ColonyHappiness		;Kolonie-Zufriedenheit
 BonusType ColonyIncome		;Kolonie-Einnahmen
@@ -1891,7 +1891,7 @@ State Ships Under Construction		;Staatsschiffe in Konstruktion
 Civilian Ships Under Construction		;Zivilschiffe in Konstruktion
 Spaceports		;Raumhäfen
 Wait Time		;Wartezeit
-Build Speed		;Konstruktions-Geschwindigkeit
+Build Speed		;Konstruktionsgeschw.
 Repair Speed		;Reparaturgeschw.
 Bases		;Raumbasen
 Target already part of our empire		;Ziel ist bereits Teil unseres Herrschaftsgebietes
@@ -4162,7 +4162,7 @@ Screen Edge Panning		;Am Bildschirmrand verschieben
 DiplomacyAutoMoveToFaction		;Automatische Verschiebung der Ansicht zur ausgewählten Fraktion in Diplomatie
 
 Exploration Level		;Erkundungslevel
-Unknown items present		;Unbekannte Gegenstände vorhanden
+Unknown items present		;Unbekannte Gegenstände vorh.
 Unknown items are present at this location		;Unbekannte Gegenstände sind an diesem Ort vorhanden. Durchsucht oder scannt auf höherem Niveau, um sie aufzudecken
 
 Map Overlay Exploration Key Explanation		;Grün = alle Orte im System bis zur Grundstufe erkundet\nGelb = einige Orte im System nicht erkundet\nAlle anderen = System völlig unerkundet

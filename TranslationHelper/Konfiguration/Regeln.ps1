@@ -71,8 +71,6 @@ $Nicht_Verwendetes_Beispiel = @(
             "OrbTypes.xml"
             "PlanetaryFacilityDefinitions.xml"
 	    "PlanetaryFacilityDefinitions_*.xml"
-            "ResearchProjectDefinitions.xml"
-	    "ResearchProjectDefinitions_*.xml"
             "ShipHulls.xml"
             "ShipHulls_*.xml"
             "SpaceItemDefinitions.xml"
@@ -91,10 +89,13 @@ $Nicht_Verwendetes_Beispiel = @(
             "ColonyEventDefinitions.xml"
 	    "ColonyEventDefinitions_*.xml"
             "Resources.xml"
+            "ResearchProjectDefinitions.xml"
+	    "ResearchProjectDefinitions_*.xml"
         )
         Regeln = @(
             "/*/*/Name"
             "/*/*/Description"
+            "/*/*/DiplomacyFactors/EmpireIncidentFactor/Description"			
         )
     }
     @{

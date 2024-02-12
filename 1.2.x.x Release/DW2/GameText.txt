@@ -225,7 +225,7 @@ disabled		;deaktiviert
 All components normal		;Alle Komponenten normal
 Fleet		;Flotte
 
-Star		;Stern
+Star		;
 Planet		;Planet
 Moon		;Mond
 Asteroid		;Asteroid
@@ -258,7 +258,7 @@ Our colony has a high level of development		;Unsere Kolonie hat ein hohes Entwic
 Our colony has a reasonable level of development		;Unsere Kolonie hat ein akzeptables Entwicklungsniveau
 Our colony is developing		;Unsere Kolonie entwickelt sich
 Our colony is mostly undeveloped		;Unsere Kolonie ist größtenteils unterentwickelt
-We approve of the current tax rate		;Wir genehmigen den aktuellen Steuersatz
+We approve of the current tax rate		;Wir akzeptieren den aktuellen Steuersatz
 The current tax rate is too high!		;Der aktuelle Steuersatz ist zu hoch!
 We are happy that our empire is at peace		;Wir sind glücklich, dass unser Volk in Frieden lebt
 We tire of our empire's wars		;Wir sind die Kriege unserer Regierung leid
@@ -746,7 +746,7 @@ Tax rate already at maximum		;Steuersatz ist bereits maximal
 Suitability With Race		;Kolonisieren mit {0}, Tauglichkeit: {1}
 Suitability		;Tauglichkeit
 Suitability X		;Tauglichkeit {0}
-Colonization Suitability		;Kolonisations Tauglichkeit
+Colonization Suitability		;Kolonisationstauglichkeit
 No race can colonize		;Keine Spezies kann kolonisieren
 Can colonize with SHIP containing RACE		;Kann mit Kolonieschiff '{0}' kolonisieren, enthält {1}
 Unknown		;Unbekannt
@@ -1752,7 +1752,7 @@ Comparing with X		;Vergleiche mit {0}
 Have Revolution and switch government		;Revolution auslösen und Regierungsform wechseln
 Have Revolution and switch government to X		;Revolution auslösen und Regierungsform wechseln zu {0}
 Total population at all of your colonies X		;Gesamtbevölkerung in allen Euren Kolonien: {0}
-billion		;Milliarde
+billion		;Milliarden
 
 from		;von
 Bonus Source Description		;{0} von {1}
@@ -2337,7 +2337,7 @@ Primary Color		;Primärfarbe
 Secondary Color		;Sekundärfarbe
 Primary Color Explanation		;Die Hauptfarbe für Euer Volk. Diese Farbe wird verwendet, um die Sternensysteme und das Herrschaftsgebiet Eures Volkes in der Galaxie anzuzeigen
 Secondary Color Explanation		;Die Sekundärfarbe für Euer Volk.
-Empire Flag		;Herrschaftsflagge
+Empire Flag		;Flagge
 Empire Flag Explanation		;Die Flagge zur Repräsentation Eures Volkes
 Preferred Governments		;Bevorzugte Regierungen
 Allowed Governments		;Erlaubte Regierungen
@@ -4187,12 +4187,12 @@ The RACE are naturally FEELING towards us		;Die {0} sind uns gegenüber naturgem
 This empire is predominantly composed of SAME RACE		;Dieses Volk besteht überwiegend aus {0}, genau wie unser Volk.
 This pirate faction is predominantly composed of SAME RACE		;Diese Piratenfraktion besteht überwiegend aus {0}, genau wie unser Volk.
 They would likely be favourable towards a treaty with us		;Sie würden wahrscheinlich irgendwann in der Zukunft einem Abkommen mit uns wohlwollend gegenüberstehen
-This empire is predominantly composed of RACE		;Dieses Volk besteht überwiegend aus Spezies {0}.
-This pirate faction is predominantly composed of RACE		;Diese Piratenfraktion besteht überwiegend aus Spezies {0}.
+This empire is predominantly composed of RACE		;Dieses Volk besteht überwiegend aus der Spezies {0}.
+This pirate faction is predominantly composed of RACE		;Diese Piratenfraktion besteht überwiegend aus der Spezies {0}.
 EMPIRE encountered		;{0} entdeckt
 Independent Colony of RACE encountered		;Unabhängige Kolonie mit {0}-Spezies entdeckt
 They could prove useful allies if handled properly		;Obwohl sie Piraten sind, könnten sie sich beim richtigen Umgang mit diesen als nützliche Verbündete erweisen
-They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sind
+They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sein werden
 Research projects are available on our tech tree that can improve our understanding of the RACE		;In unserem Technologie-Baum sind Forschungsprojekte verfügbar, die unser Verständnis für die {0}-Spezies verbessern können. Wir sollten diese Projekte erforschen, um die Beziehungen zu den {0} zu verbessern.
 Independent Colony Friendly		;Diese Kolonie wird uns möglicherweise erlauben, sie zu kolonisieren, oder sie werden sich uns sogar anschließen, wenn wir sie richtig behandeln.
 Independent Colony Hostile		;Wir können die Kolonie einfallen und sie durch die Landung von Truppen übernehmen. Oder wir könnten versuchen, sie zu kolonisieren, indem wir ein Kolonieschiff schicken, obwohl dies aufgrund ihrer negativen Sicht auf uns wahrscheinlich nicht gelingen wird.
@@ -5626,7 +5626,7 @@ Allow Any Government Explanation		;Erlaubt die Auswahl jeder Art von Regierung.\
 YourEmpireGovernmentAllowAnyGovernment Yes		;Alles erlauben
 YourEmpireGovernmentAllowAnyGovernment Yes Title		;Jede Regierungsform erlauben
 YourEmpireGovernmentAllowAnyGovernment Yes Explanation		;Eine Regierungsform für Euer Volk aus allen verfügbaren Möglichkeiten wählen.
-YourEmpireGovernmentAllowAnyGovernment No		;Nur Volks-spezifische erlauben
+YourEmpireGovernmentAllowAnyGovernment No		;Nur Volksspezifische
 YourEmpireGovernmentAllowAnyGovernment No Title		;Nur Volks-spezifische Regierungsformen erlauben
 YourEmpireGovernmentAllowAnyGovernment No Explanation		;Nur Regierungsformen für Euer Volk erlauben, die für Eure gewählte Spezies vorgegeben sind.
 

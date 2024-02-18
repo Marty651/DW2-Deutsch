@@ -2,6 +2,11 @@ using module .\Worker.psm1
 
 param([Worker]$Worker, $Config, $RuleSets)
 
+Write-Host -ForegroundColor Green "Starte Modus 3 - Der Hauptmodus."
+Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
+Write-Host -ForegroundColor Green "(Automatische Übernahme bei neuen Versionen)"
+Write-Host
+
 ### Functions
 
 function MarkOne($ElementEnNew, $Marker, $ElementEnNewText, $ElementEnOldText, $ElementDeText) 
@@ -29,13 +34,33 @@ function MarkOne($ElementEnNew, $Marker, $ElementEnNewText, $ElementEnOldText, $
     $ElementEnNew.ParentNode.InsertAfter($comment, $ElementEnNew.PreviousSibling.PreviousSibling) | Out-Null
 }
 
-function SetOne($ElementEnNew, $ElementDeText) 
+function SetOne($ElementEnNew, $text) 
 {
    # Note: For some reason, even though "#text" is here available, it's sometimes not settable.
    $ElementEnNew.RemoveAll() | Out-Null
    $document = $ElementEnNew.OwnerDocument
-   $text = $document.CreateTextNode($ElementDeText)
-   $ElementEnNew.AppendChild($text) | Out-Null
+   $textNode = $document.CreateTextNode($text)
+   $ElementEnNew.AppendChild($textNode) | Out-Null
+}
+
+function TranslateOne($ElementEnNew, $Text) 
+{
+    if ($Config.Deepl.Enabled -eq $false) { return }
+
+    $wordCount = ($Text -split " ").Length
+    if ($wordCount -lt $Config.Deepl.MinWords) { return }
+
+    if ($Config.Deepl.ShowGreen) {
+        Write-Host -ForegroundColor DarkGreen ">>>> $Rule -> Übersetze Text [$wordCount Wörter] mit Deepl:"
+    }
+
+    $translatedText =  $Worker.Translate($Text)
+
+    if ($Config.Deepl.ShowGreen) {
+        Write-Host -ForegroundColor DarkGreen ">>>>> $translatedText"
+    }    
+
+    SetOne -ElementEnNew $ElementEnNew -text $translatedText
 }
 
 function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $FileName, $Rule)
@@ -54,39 +79,39 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
         return
     }
 
-    # Old one missing, so was never translated.
+    # Old english node missing, so was new and thus never german translated.
     if ($null -eq $ElementEnOld) {
         $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Englisch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $null -ElementDeText $null
-        # TODO: Translate if wanted via SetOne
+        TranslateOne -ElementEnNew $ElementEnNew -Text $elementEnNewText
         return
     }
 
     $elementEnOldText = ($ElementEnOld | Get-Member "#text" -MemberType Property) ? $ElementEnOld."#text" : $null
 
-    # New one missing, so was never translated (should not happen but safety).
+    # Old german node missing, so was never translated (should not happen but safety).
     if ($null -eq $ElementDe) {
         $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNotYetTranslated, $RuleSetName, $FileName, $Rule, "Kein Element gefunden in 'Deutsch Alt'.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNotYetTranslated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $null
-        # TODO: Translate if wanted via SetOne
+        TranslateOne -ElementEnNew $ElementEnNew -Text $elementEnNewText
         return
     }    
 
     $elementDeText = ($ElementDe | Get-Member "#text" -MemberType Property) ? $ElementDe."#text" : $null
 
-    # Old and New text are not the same -> Outdated.
+    # Old english and new english nodes are not the same -> Outdated.
     if ($elementEnOldText -ne $elementEnNewText) {
         $Worker.Log(">>>>", "DarkCyan", $Config.MarkerOutdated, $RuleSetName, $FileName, $Rule, "Neuen Text in 'Englisch Neu' gefunden, der nicht genau gleich in 'Englisch Alt' existiert.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerOutdated -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
-       # TODO: Translate if wanted via SetOne
+        TranslateOne -ElementEnNew $ElementEnNew -Text $elementEnNewText
         return
     }
 
-    # Old and New text are the same -> No difference, probably not translated.
+    # Old english and new english nodes are the same, but the old german node is also the same -> No difference (still english), probably not translated.
     if ($elementDeText -eq $elementEnNewText) {
         $Worker.Log(">>>>", "DarkCyan", $Config.MarkerNoDifference, $RuleSetName, $FileName, $Rule, "Texte von 'Englisch Neu' bzw. 'Englisch Alt' stimmen mit dem Text in 'Deutsch Alt' überein.")
         MarkOne -ElementEnNew $ElementEnNew -Marker $Config.MarkerNoDifference -ElementEnNewText $elementEnNewText -ElementEnOldText $elementEnOldText -ElementDeText $elementDeText
-        # TODO: Translate if wanted via SetOne
+        TranslateOne -ElementEnNew $ElementEnNew -Text $elementEnNewText
         return
     }
 
@@ -95,16 +120,11 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
         Write-Host -ForegroundColor Green $elementDeText
     }
     
-    # Directly Use already translated text.
+    # Directly use already translated text.
     SetOne -ElementEnNew $ElementEnNew -ElementDeText $elementDeText
 }
 
 ### Main Program
-
-Write-Host -ForegroundColor Green "Starte Modus 3 - Der Hauptmodus."
-Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
-Write-Host -ForegroundColor Green "(Automatische Übernahme bei neuen Versionen)"
-Write-Host
 
 foreach ($ruleSet in $RuleSets) {
     $ruleSetName = $ruleSet.Name

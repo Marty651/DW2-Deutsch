@@ -7,12 +7,12 @@
 #>
 
 @{
-    UseDeepl = $false
     DryRun = $false
     ShowGreen = $false
     CreateLogs = $true
 
-    DebugOnlyRulesets = @() 
+    DebugOnlyRulesets = @()
+    # DebugOnlyRulesets = @("DLC-Versionen #1 Game Events")
     # DebugOnlyRulesets = @("DLC-Versionen #3 Game Events")
     # DebugOnlyRulesets = @("Basic-Versionen #2 Name + Description")
     # DebugOnlyRulesets = @("Basic-Versionen #3 Game Events")
@@ -38,6 +38,11 @@
         IncludeDateTimeStamp = $false
     }
 
-    FilePathDeeplKey = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
-    DeeplUrl = "https://api-free.deepl.com/v2/translate"
+    Deepl = @{
+        Enabled = $true
+        ShowGreen = $false
+        KeyFilePath = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
+        Url = "https://api-free.deepl.com/v2/translate"
+        MinWords = 3
+    }
 }

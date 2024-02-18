@@ -90,12 +90,21 @@ class RealWorker : Worker
 
     [object] Translate($Text) 
     {
+        # https://www.deepl.com/docs-api/translate-text/translate-text
         $params = @{
-            auth_key = Get-Content $this.Config.FilePathDeeplKey
-            text = $Text
+            auth_key = Get-Content $this.Config.Deepl.KeyFilePath
             target_lang = "DE"
+            source_lang = "EN"
+            formality = "prefer_more"
+            text = $Text
         }
-        $response = Invoke-RestMethod -Uri $this.Config.DeeplUrl -Method Post -Body $params
+        try {
+            $response = Invoke-RestMethod -Uri $this.Config.Deepl.Url -Method Post -Body $params
+        }
+        catch {
+            return "ERROR: " + $_.Exception.Message
+        }
+        
         return $response.translations.text
     }
 

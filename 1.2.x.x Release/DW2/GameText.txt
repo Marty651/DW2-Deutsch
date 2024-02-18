@@ -951,15 +951,15 @@ WeaponFireType Seeking		;Zielsuchend
 WeaponFireType FullLengthBeam		;Vollstrahl
 
 BonusType Assassination		;Attentat
-BonusType ShipMaintenanceCivilian		;Wartungskosten-Ersparnis für Zivilschiffe
-BonusType ShipMaintenanceMilitary		;Wartungskosten-Ersparnis für Militärschiffe
+BonusType ShipMaintenanceCivilian		;Wartungskosten-Ersparnis Zivilschiffe
+BonusType ShipMaintenanceMilitary		;Wartungskosten-Ersparnis Militärschiffe
 BonusType ShipMaintenanceBases		;Basen-Wartung (Ersparnis) 
 BonusType ShipMaintenanceAll		;Schiffs-Wartung (Ersparnis)
 BonusType ConstructionSpeedAllShips		;Schiffs-Bau (Schnelligkeit)
-BonusType ConstructionSpeedCivilian		;Konstruktionszeit für Zivilschiffe
-BonusType ConstructionSpeedMilitary		;Konstruktionszeit für Militärschiffe
-BonusType ConstructionSpeedColonyShip		;Konstruktionszeit für Kolonieschiffe
-BonusType ConstructionSpeedFacility		;Konstruktionszeit für Einrichtungen
+BonusType ConstructionSpeedCivilian		;Konstruktionsgeschw. für Zivilschiffe
+BonusType ConstructionSpeedMilitary		;Konstruktionsgeschw. für Militärschiffe
+BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschw. für Kolonieschiffe
+BonusType ConstructionSpeedFacility		;Konstruktionsgeschw. für Einrichtungen
 BonusType ColonyCorruptionReduction		;Kolonie-Korruptionsreduzierung
 BonusType ColonyHappiness		;Kolonie-Zufriedenheit
 BonusType ColonyIncome		;Kolonie-Einnahmen
@@ -2156,7 +2156,7 @@ Your Empire Start Location Far Regions		;Äußere Gebiete
 Stars		;Sterne
 Galaxy Size		;Galaxiegröße
 Random Seed		;Zufälliger Startwert
-Very Sparse		;Sehr Spärlich
+Very Sparse		;Dünn
 Sparse		;Spärlich
 Dense		;Dicht
 Nebula Density		;Nebeldichte
@@ -2179,7 +2179,7 @@ StartNewGame_VictoryConditions		;Siegbedingungen
 StartNewGame_StartGame		;Spiel starten
 
 Galaxy Expansion Random		;Zufällig
-Galaxy Expansion PreWarp		;Vor Hyperraum
+Galaxy Expansion PreWarp		;Raketen- Zeitalter
 Galaxy Expansion Starting		;Entstehend
 Galaxy Expansion Young		;Jung
 Galaxy Expansion Expanding		;Wachsend
@@ -2211,7 +2211,7 @@ Galaxy Difficulty Extreme		;Extrem
 
 Galaxy NearbyHostileRaces Normal		;Normal
 Galaxy NearbyHostileRaces Some		;Einige
-Galaxy NearbyHostileRaces Hard		;Einige mehr
+Galaxy NearbyHostileRaces Hard		;Etwas mehr
 Galaxy NearbyHostileRaces Very Hard		;Viele
 Galaxy NearbyHostileRaces Extreme		;Extrem viele
 
@@ -2331,7 +2331,7 @@ Assimilation Rate Deferential		;Dienstwillig
 Feelings towards other Races		;Haltung gegenüber anderen Spezies
 Governments		;Regierungen
 Default Infantry		;Standard-Infanterie
-Empire Name		;Herrschaftsname
+Empire Name		;Reich
 Empire Name Explanation		;Gebt einen Namen für Euer Volk ein
 Primary Color		;Primärfarbe
 Secondary Color		;Sekundärfarbe
@@ -2350,7 +2350,7 @@ Your Empire Home System Excellent		;Exzellent
 
 Home System		;Hauptsystem
 Home System Explanation		;Wie lebenswert das Hauptsystem ist.\n\nDazu gehören Faktoren wie: Ressourcenvorkommen, Bevölkerungsgrad der Hauptwelt und das Vorhandensein weiterer lebenswerter Planeten im System.
-Your Empire Tech Level PreWarp		;Vor Hyperraum
+Your Empire Tech Level PreWarp		;Raketen- Zeitalter
 Your Empire Tech Level X		;Level {0}
 Tech Level		;Tech-Level
 Your Empire Tech Level Explanation		;Wie weit Eure Forschung bereits beim Spielstart fortgeschritten ist.\n\nDies bestimmt unter anderem, welche Schiffsrümpfe und Komponenten für die Konstruktion von Schiffen und Raumbasen EUch zur Verfügung stehen.\n\n'Vor Hyperraum' bedeutet, dass noch keine Technologie erforscht ist, um schneller als Licht reisen zu können, und auch sonst nur sehr wenige, grundlegende Forschungen bereits abgeschlossen sind.\n\nWenn der 'Entwicklungszustand der Galaxie' größer als 'Entstehend' ist, muss die Tech-Stufe mindestens Stufe 1 sein.
@@ -3977,7 +3977,7 @@ Character Mission Success Chance Explanation Unknown		;Wählt weitere Missionspa
 Character Mission Success Chance Other Empire		;Ihr könnt keine Missionen an Charaktere anderer Völker vergeben
 
 No Location		;Kein Standort
-Transfer to new location		;Transferiert zu neuem Standort
+Transfer to new location		;An obigen Standort versetzen
 Dismiss ROLE		;Entlasse {0}
 Dismiss Character Warning ROLE NAME		;Ihr seid im Begriff, Euren {0} {1} dauerhaft zu entlassen. Diese Aktion kann nicht rückgängig gemacht werden.\n\nSeid Ihr sicher, dass Ihr {1} entlassen wollt?
 Keep		;Behalten
@@ -3989,7 +3989,7 @@ Skills		;Fähigkeiten
 Character untested - skill levels and traits unknown		;Charakter ungetestet - Fähigkeitsstufen und Eigenschaften unbekannt
 X progress towards next skill level increase		;{0} Fortschritt zum nächsten Fähigkeits-Stufenanstieg
 Mission		;Mission
-Location		;Nah-Ansicht
+Location		;Einsatzort
 Events		;Ereignisse
 from Trait		;von Eigenschaft
 No known targets		;Keine bekannten Ziele
@@ -5717,11 +5717,11 @@ Hive Board Attempt		;Während wir versuchten, das verlassene Schiff {0} zu enter
 
 AreaShieldRecharge Rate		;Umgebungs-Schildregenerierungs-Rate
 
-Default Event PreWarp Homesystem		;Vor Hyperraum Haupt-System
-Default Event Abandoned Ships		;Zurückgelassene Schiffe
+Default Event PreWarp Homesystem		;Raketen- Zeitalter
+Default Event Abandoned Ships		;Herrenlose Schiffe
 Default Event Abandoned Bases		;Verlassene Raumbasen
-Default Event Debris Fields		;Trümmer-Felder
-Default Event Gravitic Locations		;Gravitations-Sturm Orte
+Default Event Debris Fields		;Trümmer- Felder
+Default Event Gravitic Locations		;Gravitations- Stürme
 Default Event Major Threats		;Große Bedrohungen
 
 Default Event PreWarp Homesystem Explanation		;Enthält verschiedene Ruinen, verlassene Schiffe und Stützpunkte sowie andere Ereignisse, die in PreWarp-Spielen zufällig zum Heimatsystem jeder Fraktion hinzugefügt werden

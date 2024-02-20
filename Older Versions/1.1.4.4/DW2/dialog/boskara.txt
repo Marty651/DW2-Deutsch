@@ -1,0 +1,68 @@
+GREETING_INTRODUCTION ;Wir sind die {0}.\n\nWir streben die totale Herrschaft über alles an.\n\nWillst Du Dich vor uns verneigen oder musst Du erobert werden?
+GREETING_FRIENDLY ;Welchen Plan zur Eroberung wollen Sie mit uns teilen, Freund?
+GREETING_NEUTRAL ;Erklären Sie Ihre Präsenz vor uns
+GREETING_ANGRY ;Ihr wollt mit uns sprechen, Feind?\n\nWas für ein versöhnliches Angebot habt Ihr für uns?
+
+
+OFFER_DEAL ;Würden Sie diesen Handel annehmen?
+OFFER_DEAL_RESPONSE ;Welche Art von Handel bieten Sie an?
+
+PIRATEPROTECTION_DEAL ;Der Weltraum ist ein kalter und gefährlicher Ort. Es wäre eine Schande, wenn einem Ihrer Schiffe oder Basen etwas zustoßen würde...\n\nFür die geringe monatliche Gebühr von {0} Credits können wir garantieren, dass keines Ihrer Schiffe einen 'unglücklichen Unfall' erleiden wird.\n\nZumindest nicht, bis unsere nächste Gebühr fällig ist...
+
+DEAL_BEGIN ;Ein Deal? Dann lassen Sie mal hören
+DEAL_ACCEPT ;Wir akzeptieren Ihren Vorschlag
+DEAL_ACCEPT_RESPONSE ;Ein ausgezeichnetes Ergebnis!
+DEAL_REJECT_RESPONSE ;Das ist sehr enttäuschend...
+DEAL_REJECT ;Dieser Vorschlag ist wertlos - kein Deal
+
+SWAP_MAPS ;Welche Art von Karte wollten Sie tauschen?
+
+WAR_END_ACCEPT ;Ausnahmsweise stimmen wir mit Ihnen überein - dieser Krieg sollte beendet werden.\n\nUnsere Streitkräfte ziehen sich zurück.
+WAR_END_REJECT ;Den Krieg beenden?!\n\nNur die Schwachen sehnen sich nach Erleichterung über ihre Verluste. Die Starken drängen auf Eroberung. Sie sind die Schwachen und wir sind die Starken.\n\nDieser Krieg ist noch nicht vorbei.
+
+TREATY_ACCEPT ;Wir akzeptieren Ihr Angebot an einem {0}
+TREATY_REJECT ;Nein, wir sind nicht interessiert an einem {0}
+TREATY_REJECT_TOOSOON_NEUTRAL ;Nein, wir haben kein Interesse an einem {0}. Es ist zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_ANGRY ;Wir haben kein Interesse an einem {0} mit Ihnen! Außerdem ist es noch zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_FRIENDLY ;Wir sind jetzt nicht an einem {0} interessiert. Es ist noch zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_ACCEPT_NEUTRAL ;Wir akzeptieren Ihr Angebot an einem {0}
+TREATY_REJECT_NEUTRAL ;Nein, wir sind zur Zeit nicht an einem {0} interessiert
+TREATY_ACCEPT_ANGRY ;Wir akzeptieren Ihr Angebot an einem {0}
+TREATY_REJECT_ANGRY ;Wir haben kein Interesse an einem {0} mit Ihnen!
+TREATY_ACCEPT_FRIENDLY ;Wir nehmen Ihr Angebot an einem {0} gerne an!
+TREATY_REJECT_FRIENDLY ;Wir sind zur Zeit nicht an einem {0} interessiert
+
+PROTECTION_ACCEPT ;Wir akzeptieren Ihre Anfrage nach Schutz. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_NEUTRAL ;Wir akzeptieren Ihren Antrag auf Schutz. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_ANGRY ;Ihre erbärmliche Schwäche wurde zur Kenntnis genommen. Unser 'Schutz' wird Sie {0} Credits pro Monat kosten. Sie können jetzt gehen
+PROTECTION_ACCEPT_FRIENDLY ;Wir akzeptieren Ihre Bitte um Schutz. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_REJECT ;Nein, wir sind nicht daran interessiert, Sie zu schützen
+PROTECTION_REJECT_NEUTRAL ;Nein, wir möchten keinen Schutz mit Ihnen vereinbaren
+PROTECTION_REJECT_ANGRY ;Nein, wir wollen Ihr wertloses Reich nicht beschützen! Vielleicht werden wir es stattdessen erobern...
+PROTECTION_REJECT_FRIENDLY ;Nein, wir wollen kein Schutzabkommen mit Ihnen
+
+CANCELTREATY ;Unser {0} mit Ihnen ist nun terminiert.\n\n"Terminiert" - wie wir dieses Wort lieben! Es hat so einen schönen Klang, finden Sie nicht auch?
+CANCELTREATY_RESPONSE_FRIENDLY ;Wir haben Sie mal gemocht.\n\nAber vielleicht haben wir die Dinge falsch eingeschätzt...
+CANCELTREATY_RESPONSE_NEUTRAL ;Nun gut. Wir haben Ihre Beleidigung zur Kenntnis genommen.
+CANCELTREATY_RESPONSE_ANGRY ;Gut, gut. Dieser Vertrag war ohnehin ein Hindernis für unsere Pläne.
+
+CANCELPROTECTION_RESPONSE_FRIENDLY ;Eine überraschende Entscheidung. Aber vielleicht ist es so das Beste.
+CANCELPROTECTION_RESPONSE_NEUTRAL ;Wie schade. Wir werden diese monatlichen Einnahmen vermissen. Vielleicht finden wir andere Wege, sie zu erhalten...
+CANCELPROTECTION_RESPONSE_ANGRY ;Dummkopf! Glauben Sie wirklich, dass Sie ohne unseren 'Schutz' überleben können?!
+
+TREATY_PROPOSAL ;Was genau schlagen Sie denn vor?
+TREATY_ACCEPTRESPONSE ;Ausgezeichnet!\n\nWir hoffen, dass Sie gefügige und unterwürfige Verbündete sind. Sind Sie das?
+TREATY_REJECTRESPONSE ;Wie eigenmächtig von Ihnen.\n\nDas ist keine Eigenschaft, die wir mögen.
+
+PROTECTION_ACCEPTRESPONSE ;Eine kluge Entscheidung! Wir freuen uns auf Ihre monatlichen Zahlungen
+PROTECTION_REJECTRESPONSE ;Was für eine dumme Entscheidung! Am Ende werden Sie dafür bezahlen...
+
+GIFT_GIVE ;Wir haben ein Geschenk für Sie in Höhe von {0} Credits.\n\nEs liegt nicht in unserer Natur, so freundlich zu sein.\n\nSie wären also gut beraten, dies als zynische Masche zu betrachten
+GIFT_THANKS_ANGRY ;Ihr geiziges Geschenk wurde registriert
+GIFT_THANKS_NEUTRAL ;Vielen Dank für Ihr bescheidenes Geschenk
+GIFT_THANKS_FRIENDLY ;Wir freuen uns über Ihr sehr zufriedenstellendes Geschenk!
+GIFT_PROPOSE ;Was für ein Geschenk hatten Sie im Sinn?
+
+WAR_DECLARE_RESPONSE_ANGRY ;Wie ironisch - wir waren gerade dabei, Ihnen den Krieg zu erklären! Wie praktisch.\n\nUnd jetzt müssen Sie sterben...
+WAR_DECLARE_RESPONSE_NEUTRAL ;Wie mutig von Ihnen, sich mit uns anzulegen!\n\nNatürlich sind Mut und Dummheit eng miteinander verbunden.\n\nSehr eng, in diesem Fall
+WAR_DECLARE_RESPONSE_FRIENDLY ;Sie stecken voller Überraschungen!\n\nAber wir freuen uns immer über einen guten Kampf.\n\nSo siegt der Starke! - das sind natürlich wir

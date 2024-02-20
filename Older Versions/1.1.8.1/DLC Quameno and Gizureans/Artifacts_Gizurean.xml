@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Artifact>
+    <ArtifactId>45</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ColonyDefense</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WeaponsRange</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WeaponsDamage</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Countermeasures</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Taktischer Balance-Datenkern</Name>
+    <Description>A compendium of observations and strategies compiled by the ancient Gizureans detailing both offensive and defensive strategies. Much of the content is written in the clipped style typical of the ancient Gizureans, but there are annotations that suggest the content may have included input from at least one tactician of another species.</Description>
+    <ImageFilename>Artifacts/tactical balance datacore</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>46</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>ResearchConstruction</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ConstructionSpeedAllShips</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Bauplan der Gizureanischen Werft</Name>
+    <Description>A manual composed by the ancient Gizureans outlining best practices for shipbuilding and ship maintenance. Some references in the text suggest the document was compiled in the final days of the Shakturi War as the galaxy's hive mind species found themselves fighting for survival against their former allies. The tone of desperation is somewhat… unnerving.</Description>
+    <ImageFilename>Artifacts/gizurean shipyard schematic</ImageFilename>
+  </Artifact>
+  <Artifact>
+    <ArtifactId>47</ArtifactId>
+    <DiscoveryLevel>0</DiscoveryLevel>
+    <BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+    <BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+    <BonusesToOwner>
+      <Bonus>
+        <Type>BoardingAssault</Type>
+        <Amount>0.25</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </BonusesToOwner>
+    <ResearchProjectUnlockIds />
+    <ResearchProjectCompleteIds />
+    <GovernmentUnlockIds />
+    <ResearchProjectsUnlockDescription />
+    <ResearchProjectsCompleteDescription />
+    <GovernmentsUnlockDescription />
+    <Name>Kompendium der Schwarmflotte</Name>
+    <Description>An analysis of Hive ships completed by the Ancient Gizureans during the time of the Cataclysm. It is particularly focused on Hive techniques for rapidly boarding enemy vessels.</Description>
+    <ImageFilename>Artifacts/hive fleet compendium</ImageFilename>
+  </Artifact>
+</ArrayOfArtifact>

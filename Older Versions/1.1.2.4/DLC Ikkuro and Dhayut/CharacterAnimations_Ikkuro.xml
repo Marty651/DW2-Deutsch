@@ -1,0 +1,254 @@
+<ArrayOfCharacterAnimation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<CharacterAnimation>
+		<CharacterAnimationId>49</CharacterAnimationId>
+		<Role>Leader</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Leader</SkinName>
+		<ImagePath>Characters/Ikkuro_Leader</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Neutral_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Neutral_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Neutral_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Happy_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Happy_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Happy_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleHappy>
+		<AnimationNamesIdleAngry>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Angry_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Angry_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Idle_Angry_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleAngry>
+		<AnimationNamesIncidentHappy>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Incident_Happy1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Incident_Happy2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentHappy>
+		<AnimationNamesIncidentAngry>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Incident_Angry1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Leader_Incident_Angry2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentAngry>
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>50</CharacterAnimationId>
+		<Role>Pirate</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Pirate</SkinName>
+		<ImagePath>Characters/Ikkuro_Pirate</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Neutral_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Neutral_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Neutral_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Happy_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Happy_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Happy_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleHappy>
+		<AnimationNamesIdleAngry>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Angry_1</Text>
+				<Value>0.7</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Angry_2</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Idle_Angry_3</Text>
+				<Value>0.15</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleAngry>
+		<AnimationNamesIncidentHappy>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Incident_Happy1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Incident_Happy2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentHappy>
+		<AnimationNamesIncidentAngry>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Incident_Angry1</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+			<SortableTextValue>
+				<Text>Ikkuro_Pirate_Incident_Angry2</Text>
+				<Value>0.5</Value>
+			</SortableTextValue>
+		</AnimationNamesIncidentAngry>
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>51</CharacterAnimationId>
+		<Role>Ambassador</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Ambassador</SkinName>
+		<ImagePath>Characters/Ikkuro_Ambassador</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Ambassador_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>52</CharacterAnimationId>
+		<Role>FleetAdmiral</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Admiral</SkinName>
+		<ImagePath>Characters/Ikkuro_Admiral</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Admiral_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>53</CharacterAnimationId>
+		<Role>TroopGeneral</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>General</SkinName>
+		<ImagePath>Characters/Ikkuro_General</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_General_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>54</CharacterAnimationId>
+		<Role>Scientist</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Scientist</SkinName>
+		<ImagePath>Characters/Ikkuro_Scientist</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Scientist_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+	<CharacterAnimation>
+		<CharacterAnimationId>55</CharacterAnimationId>
+		<Role>Spy</Role>
+		<RaceId>5</RaceId>
+		<DataPath>data\CharacterAnimations\Ikkuro\Ikkuro</DataPath>
+		<SkinName>Spy</SkinName>
+		<ImagePath>Characters/Ikkuro_Spy</ImagePath>
+		<AnimationNamesIdleNeutral>
+			<SortableTextValue>
+				<Text>Ikkuro_Spy_Idle</Text>
+				<Value>1</Value>
+			</SortableTextValue>
+		</AnimationNamesIdleNeutral>
+		<AnimationNamesIdleHappy />
+		<AnimationNamesIdleAngry />
+		<AnimationNamesIncidentHappy />
+		<AnimationNamesIncidentAngry />
+		<Scale>1.1</Scale>
+		<BottomCropRatio>0.01</BottomCropRatio>
+		<CharacterRoomId>10</CharacterRoomId>
+	</CharacterAnimation>
+
+</ArrayOfCharacterAnimation>

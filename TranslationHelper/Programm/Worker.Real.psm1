@@ -91,18 +91,20 @@ class RealWorker : Worker
     [object] Translate($Text) 
     {
         # https://www.deepl.com/docs-api/translate-text/translate-text
+        $url = $this.Config.Deepl.Url.TrimEnd("/") + "/translate"
         $params = @{
             auth_key = Get-Content $this.Config.Deepl.KeyFilePath
             target_lang = "DE"
             source_lang = "EN"
             formality = "prefer_more"
             text = $Text
+            glossary_id = $this.Config.Deepl.TranslateGlossaryId
         }
         try {
-            $response = Invoke-RestMethod -Uri $this.Config.Deepl.Url -Method Post -Body $params
+            $response = Invoke-RestMethod -Uri $url -Method Post -Body $params
         }
         catch {
-            return "ERROR: " + $_.Exception.Message
+            return ("ERROR: " + $_.Exception.Message)
         }
         
         return $response.translations.text
@@ -135,14 +137,10 @@ class RealWorker : Worker
     {
         # See: https://stackoverflow.com/a/44442925/4629825
 
-        [switch]$IgnorePSBoundParameters = $false
-        [switch]$IgnoreDebugPreference = $false
-        [switch]$IgnorePSDebugContext = $false
-
         return (
-            ((-not $IgnoreDebugPreference.IsPresent) -and ($global:DebugPreference -ne "SilentlyContinue")) -or
-            ((-not $IgnorePSBoundParameters.IsPresent) -and $global:PSBoundParameters.Debug.IsPresent) -or
-            ((-not $IgnorePSDebugContext.IsPresent) -and ($global:PSDebugContext))
+            $global:DebugPreference -ne "SilentlyContinue" -or
+            $global:PSBoundParameters.Debug.IsPresent -or
+            $global:PSDebugContext
         )
     }
 

@@ -11,7 +11,7 @@ $global:VerbosePreference = "Continue"
 
 # Global Production Settings
 $global:ErrorActionPreference = "Stop"
-$global:DebugPreference = "Ignore"
+$global:DebugPreference = "SilentlyContinue"
 $global:VerbosePreference = "Ignore"
 
 # . $PSScriptRoot\Test.ps1

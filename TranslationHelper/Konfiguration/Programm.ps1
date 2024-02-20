@@ -42,7 +42,9 @@
         Enabled = $true
         ShowGreen = $false
         KeyFilePath = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
-        Url = "https://api-free.deepl.com/v2/translate"
+        GlossaryFilePath = "$PSScriptRoot\Glossar.csv"
+        Url = "https://api-free.deepl.com/v2/"
+        TranslateGlossaryId = ""
         MinWords = 3
     }
 }

@@ -141,7 +141,7 @@ if ($choice -eq "3") {
     }
 
     try {
-        $response = Invoke-RestMethod -Uri $url -Headers $headers -Method DELETE -Body $params 
+        $response = Invoke-RestMethod -Uri $url -Headers $headers -Method DELETE
         if ($Worker.IsDebug()) {
             Write-Host -ForegroundColor Yellow "HTTP Response: $url"
             $response | Out-Host
@@ -184,6 +184,7 @@ if ($choice -eq "4") {
         formality = "prefer_more"
         glossary_id = $id
         text = $textEn
+        context = "You are many"
     } 
 
     if ($Worker.IsDebug()) {

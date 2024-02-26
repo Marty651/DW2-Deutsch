@@ -11,7 +11,7 @@
 Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürgerrechte. Republiken teilen die Regierungsgewalt immer sorgfältig zwischen Exekutive, Legislative und Judikative auf. Der Präsident kontrolliert hierbei den Bereich der Exekutive, während andere gewählte Vertreter den Bereich der Legislative kontrollieren - und die Gerichte kontrollieren den Bereich der Judikative.\n\nDie Regierungsform 'Republik' ist für alle Spezies verfügbar, außer den Dhayut und Ikkuro.</Description>
     <ImageFilename></ImageFilename>
     <LeaderTitle>Präsident</LeaderTitle>
-    <CabinetTitle>Kabinett</CabinetTitle>
+    <CabinetTitle></CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float> <!-- Undefined, i.e. Unused -->
@@ -171,6 +171,37 @@ Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürger
         <Description />
       </Bonus>
     </Bonuses>
+
+	  <BonusesPerTreatyTypeTreaties>
+		  <EmpireRelationType>RestrictedTrade</EmpireRelationType>
+		  <EmpireRelationType>LimitedTrade</EmpireRelationType>
+		  <EmpireRelationType>FreeTrade</EmpireRelationType>
+	  </BonusesPerTreatyTypeTreaties>
+	  
+	  <BonusesPerTreatyType>
+		  <ArrayOfBonus>
+			  <Bonus>
+				  <Type>ColonyIncome</Type>
+                  <Amount>0.01</Amount>
+                  <AppliesTo>Empire</AppliesTo>
+			  </Bonus>
+		  </ArrayOfBonus>
+		  <ArrayOfBonus>
+			  <Bonus>
+				  <Type>ColonyIncome</Type>
+                  <Amount>0.02</Amount>
+                  <AppliesTo>Empire</AppliesTo>
+			  </Bonus>
+		  </ArrayOfBonus>
+		  <ArrayOfBonus>
+			  <Bonus>
+				  <Type>ColonyIncome</Type>
+                  <Amount>0.03</Amount>
+                  <AppliesTo>Empire</AppliesTo>
+			  </Bonus>
+		  </ArrayOfBonus>
+	  </BonusesPerTreatyType>
+	  
 	<LeaderReplacementTypicalPeriod>8</LeaderReplacementTypicalPeriod>
     <LeaderReplacementDisruption>0</LeaderReplacementDisruption>
     <LeaderReplacementBoost>10</LeaderReplacementBoost>
@@ -217,7 +248,7 @@ Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürger
 Die Handels- und Wirtschaftsherrschaft gewährt ihren Bürgern im Allgemeinen ein hohes Maß an Freiheit und Autonomie. Grundlegende Rechte und Freiheiten werden durch eine einfache Reihe von Gesetzen garantiert, die auf viele Situationen angewendet werden können. Unternehmerische Aktivitäten sind sehr verbreitet und schaffen ein dynamisches Geschäftsumfeld, in dem schnell ein hohes Maß an Wohlstand generiert wird.\n\nDie Regierungsform 'Handels- und Wirtschaftsherrschaft' ist nur für die Haakonish und Teekan verfügbar.</Description>
     <ImageFilename></ImageFilename>
     <LeaderTitle>Erster Vorstands-Vorsitzender</LeaderTitle>
-    <CabinetTitle>Vorstand</CabinetTitle>
+    <CabinetTitle></CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float> <!-- Undefined, i.e. Unused -->
@@ -414,6 +445,11 @@ Die Handels- und Wirtschaftsherrschaft gewährt ihren Bürgern im Allgemeinen ei
         <Description />
       </Bonus>
     </Bonuses>
+	  
+	  <TradeIncomePerYearPerRestrictedTradeTreaty>1000</TradeIncomePerYearPerRestrictedTradeTreaty>
+	  <TradeIncomePerYearPerLimitedTradeTreaty>3000</TradeIncomePerYearPerLimitedTradeTreaty>
+	  <TradeIncomePerYearPerFreeTradeTreaty>5000</TradeIncomePerYearPerFreeTradeTreaty>
+
 	  <LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>0</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>10</LeaderReplacementBoost>
@@ -436,7 +472,7 @@ Die Handels- und Wirtschaftsherrschaft gewährt ihren Bürgern im Allgemeinen ei
       <string>Syndikat</string>
       <string>Konsortium</string>
       <string>Konzern</string>
-      <string>Industries</string>
+      <string>Industrien</string>
       <string>Gilden</string>
     </EmpireNameNouns>
     <AllowControlMiningShips>true</AllowControlMiningShips>
@@ -665,6 +701,9 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
 	  <LeaderReplacementBoost>10</LeaderReplacementBoost>
 	  <LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 	  <LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+
+	  <LeaderReplacementCharacterDismissChance>0.1</LeaderReplacementCharacterDismissChance>
+	  
 	  <Stability>1.1</Stability>
     <ConcernForOwnReputation>1.7</ConcernForOwnReputation>
     <ImportanceOfOthersReputations>2</ImportanceOfOthersReputations>
@@ -675,6 +714,11 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
     <CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
     <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
     <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+
+	  <FeatureExplanations>
+		  <string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 10 years on average</string>
+	  </FeatureExplanations>
+		  
     <EmpireNameAdjectives>
       <string>freie</string>
       <string>vereinte</string>
@@ -905,7 +949,15 @@ Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und R
         <DiscoveryLevel>0</DiscoveryLevel>
         <Description />
       </Bonus>
-      <Bonus>
+		<Bonus>
+			<Type>TroopExperienceGain</Type>
+			<Amount>0.25</Amount>
+			<AppliesTo>Empire</AppliesTo>
+			<FilterId>0</FilterId>
+			<DiscoveryLevel>0</DiscoveryLevel>
+			<Description />
+		</Bonus>
+		<Bonus>
         <Type>TroopMaintenance</Type>
         <Amount>0.5</Amount>
         <AppliesTo>Empire</AppliesTo>
@@ -946,6 +998,19 @@ Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und R
         <Description />
       </Bonus>
     </Bonuses>
+
+	  <MilitiaTroopDefinitionId>32700</MilitiaTroopDefinitionId>
+	  <WarStartColonyEventDefinitionId>90</WarStartColonyEventDefinitionId>
+	  <MilitaryShipRolesBuiltByPrivateSector>
+		  <ShipRole>Escort</ShipRole>
+	  </MilitaryShipRolesBuiltByPrivateSector>
+	  
+	  <FeatureExplanations>
+		  <string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
+		  <string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
+		  <string>[HL]Privateer Navy:[/HL] Nobles within your empire will fund construction and operation of a small number of Escorts to defend civilian shipping. These ships are funded from your private economy (purchase and maintenance). They cannot be manually controlled</string>
+	  </FeatureExplanations>
+
 	  <LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>20</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>0</LeaderReplacementBoost>
@@ -984,13 +1049,12 @@ Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und R
 	<StartingGameEventNames>
 		<string>Initialise Government (Monarchy)</string>
 	</StartingGameEventNames>
-    <Description>In Monarchien liegt die höchste Macht bei einer Person, dem Monarchen oder König, der auch das Staatsoberhaupt ist - oft auf Lebenszeit oder bis zur Abdankung.
-Monarchien beinhalten in der Regel eine Erbfolge, durch welche ein Kind des Monarchen die Macht nach dessen Tod erbt.
+    <Description>In Monarchien liegt die höchste Macht bei einer Person, dem Monarchen oder König, der auch das Staatsoberhaupt ist - oft auf Lebenszeit oder bis zur Abdankung. Monarchien beinhalten in der Regel eine Erbfolge, durch welche ein Kind des Monarchen die Macht nach dessen Tod erbt.
 
 Könige können mit absoluter Macht regieren, oder sie können die Macht mit einem regierenden Rat aus Adligen oder gewählten Volksvertretern teilen.\n\nDie Regierungsform 'Monarchie' ist für alle Spezies verfügbar, außer den Dhayut und Ikkuro.</Description>
     <ImageFilename></ImageFilename>
     <LeaderTitle>König</LeaderTitle>
-    <CabinetTitle>Königlicher Rat</CabinetTitle>
+    <CabinetTitle></CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1194,6 +1258,17 @@ Könige können mit absoluter Macht regieren, oder sie können die Macht mit ein
         <Description />
       </Bonus>
     </Bonuses>
+
+	  <UseFlagShip>true</UseFlagShip>
+	  <FlagShipDestroyedColonyEventDefinitionId>87</FlagShipDestroyedColonyEventDefinitionId>
+	  <FlagShipPrevailsColonyEventDefinitionId>88</FlagShipPrevailsColonyEventDefinitionId>
+	  <UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+
+	  <FeatureExplanations>
+		  <string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
+		  <string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
+	  </FeatureExplanations>
+
 	  <LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>7</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>0</LeaderReplacementBoost>
@@ -1479,6 +1554,14 @@ Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Ver
         <Description />
       </Bonus>
     </Bonuses>
+	  
+	  <FeatureExplanations>
+		  <string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
+		  <string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+	  </FeatureExplanations>
+
+	  <HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
+	  
 	  <LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>18</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>0</LeaderReplacementBoost>
@@ -1697,7 +1780,65 @@ Die Regierungsform 'Technokratie' ist nur für die Ackdarian und Zenox verfügba
         <DiscoveryLevel>0</DiscoveryLevel>
         <Description />
       </Bonus>
-    </Bonuses>
+
+		<Bonus>
+			<Type>CharacterAppearanceAmbassador</Type>
+			<Amount>0.4</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterAppearanceFleetAdmiral</Type>
+			<Amount>0.4</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterAppearanceTroopGeneral</Type>
+			<Amount>0.4</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterAppearanceScientist</Type>
+			<Amount>0.4</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterAppearanceIntelligenceAgent</Type>
+			<Amount>0.4</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+
+		<Bonus>
+			<Type>CharacterQualityLeader</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterQualityAmbassador</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterQualityFleetAdmiral</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterQualityTroopGeneral</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterQualityScientist</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+		<Bonus>
+			<Type>CharacterQualityIntelligenceAgent</Type>
+			<Amount>0.2</Amount>
+			<AppliesTo>Empire</AppliesTo>
+		</Bonus>
+
+	</Bonuses>
 	  <LeaderReplacementTypicalPeriod>80</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>10</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>0</LeaderReplacementBoost>
@@ -1727,7 +1868,7 @@ Die Regierungsform 'Technokratie' ist nur für die Ackdarian und Zenox verfügba
 
   <Government>
     <GovernmentId>7</GovernmentId>
-    <Name>Schwarm- Intelligenz</Name>
+    <Name>Schwarm-Intelligenz</Name>
 	<StartingGameEventNames>
 		<string>Initialise Government (Hive Mind)</string>
 	</StartingGameEventNames>
@@ -1738,7 +1879,7 @@ In Schwarmintelligenz-Gesellschaften ist die Arbeit unter verschiedenen fest vor
 Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verfügbar.</Description>
     <ImageFilename></ImageFilename>
     <LeaderTitle>Haupt-Aufseher</LeaderTitle>
-    <CabinetTitle>Dronen-Aufseher</CabinetTitle>
+    <CabinetTitle></CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>
@@ -1968,7 +2109,16 @@ Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verf
         <DiscoveryLevel>0</DiscoveryLevel>
         <Description />
       </Bonus>
-    </Bonuses>
+	</Bonuses>
+
+	  <HyperjumpAccuracyEmpireLocationModifier>0.5</HyperjumpAccuracyEmpireLocationModifier>
+	  <WartimeColonyEventDefinitionId>89</WartimeColonyEventDefinitionId>
+
+	  <FeatureExplanations>
+		  <string>[HL]Intuitive Jumps:[/HL] Hyperjump accuracy doubled when exiting a jump at a location where your empire has an established presence (colony or base)</string>
+		  <string>[HL]War Spawning:[/HL] Population growth rate increases by +50% during war time</string>
+	  </FeatureExplanations>
+
 	  <LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
 	  <LeaderReplacementDisruption>10</LeaderReplacementDisruption>
 	  <LeaderReplacementBoost>0</LeaderReplacementBoost>
@@ -1985,7 +2135,7 @@ Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verf
     <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
     <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
     <EmpireNameAdjectives>
-      <string>Great</string>
+      <string>Großartig</string>
     </EmpireNameAdjectives>
     <EmpireNameNouns>
       <string>Schwarm</string>
@@ -2001,7 +2151,7 @@ Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verf
     <Description></Description>
     <ImageFilename></ImageFilename>
     <LeaderTitle>Dunkler Lord</LeaderTitle>
-    <CabinetTitle>Schatten-Rat</CabinetTitle>
+    <CabinetTitle></CabinetTitle>
     <EconomicFactors>
       <IncomeFactors>
         <float>1</float>

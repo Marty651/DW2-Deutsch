@@ -4,25 +4,25 @@
     <ShipHullId>111</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>7</Level>
+    <Level>2</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>19</Size>
-    <MaximumSize>65</MaximumSize>
-    <DisplaySize>14</DisplaySize>
+    <Size>18</Size>
+    <MaximumSize>58</MaximumSize>
+    <DisplaySize>12</DisplaySize>
     <ModelName>Ships/Human/human_interceptor</ModelName>
     <CockpitImageFilename />
-    <BaseCost>200</BaseCost>
-    <ArmorReactiveRating>2</ArmorReactiveRating>
-    <IonDefense>2</IonDefense>
-    <EngineLimit>2</EngineLimit>
-    <CountermeasuresBonus>0.4</CountermeasuresBonus>
-    <TargetingBonus>0.45</TargetingBonus>
+    <BaseCost>100</BaseCost>
+    <ArmorReactiveRating>1</ArmorReactiveRating>
+    <IonDefense>1</IonDefense>
+    <EngineLimit>-1</EngineLimit>
+    <CountermeasuresBonus>0.37</CountermeasuresBonus>
+    <TargetingBonus>0.35</TargetingBonus>
     <TurnRollRate>0.9</TurnRollRate>
     <MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
     <Bonuses>
       <Bonus>
         <Type>ShipManeuvering</Type>
-        <Amount>0.34</Amount>
+        <Amount>0.24</Amount>
         <AppliesTo>Item</AppliesTo>
         <FilterId>0</FilterId>
         <DiscoveryLevel>0</DiscoveryLevel>
@@ -137,7 +137,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>General</Type>
+        <Type>Defense</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -183,22 +183,38 @@
           <Z>0</Z>
         </DisplayEffectOffset>
       </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>9</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
     </ComponentBays>
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>27</Amount>
+        <Amount>11</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>13</Amount>
+        <Amount>11</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>13</Amount>
+        <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Gyrfalcon Interceptor</Name>
+    <Name>Gyrfalcon-Abfangjäger</Name>
     <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -346,22 +362,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <MeshName>#defense0</MeshName>
@@ -378,8 +378,24 @@
         </DisplayEffectOffset>
       </ComponentBay>
       <ComponentBay>
-        <ComponentBayId>8</ComponentBayId>
+        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
+        <MaximumComponentSize>50</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>8</ComponentBayId>
+        <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -507,38 +523,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>16</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>17</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>18</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -2563,7 +2547,7 @@
     <BaseCost>1500</BaseCost>
     <ArmorReactiveRating>2</ArmorReactiveRating>
     <IonDefense>0</IonDefense>
-    <EngineLimit>3</EngineLimit>
+    <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>0.1</CountermeasuresBonus>
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
@@ -3158,7 +3142,7 @@
     <BaseCost>1000</BaseCost>
     <ArmorReactiveRating>2</ArmorReactiveRating>
     <IonDefense>0</IonDefense>
-    <EngineLimit>2</EngineLimit>
+    <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>0</CountermeasuresBonus>
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
@@ -5551,22 +5535,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <MeshName>#defense0</MeshName>
@@ -5583,8 +5551,24 @@
         </DisplayEffectOffset>
       </ComponentBay>
       <ComponentBay>
-        <ComponentBayId>8</ComponentBayId>
+        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
+        <MaximumComponentSize>50</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>8</ComponentBayId>
+        <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -5728,38 +5712,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>17</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>18</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>19</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -5933,22 +5885,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <MeshName>#defense0</MeshName>
@@ -5965,8 +5901,24 @@
         </DisplayEffectOffset>
       </ComponentBay>
       <ComponentBay>
-        <ComponentBayId>8</ComponentBayId>
+        <ComponentBayId>7</ComponentBayId>
         <Type>Defense</Type>
+        <MaximumComponentSize>50</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>8</ComponentBayId>
+        <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -6110,38 +6062,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>17</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>18</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>19</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -12406,7 +12326,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>17</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -12582,22 +12502,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>28</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>29</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -20952,7 +20856,7 @@
     <BaseCost>1300</BaseCost>
     <ArmorReactiveRating>2</ArmorReactiveRating>
     <IonDefense>0</IonDefense>
-    <EngineLimit>4</EngineLimit>
+    <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>0</CountermeasuresBonus>
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
@@ -28617,7 +28521,7 @@
     <ShipHullId>165</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>2</Level>
+    <Level>3</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>18</Size>
     <MaximumSize>69</MaximumSize>
@@ -28750,7 +28654,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -28796,22 +28700,6 @@
           <Z>0</Z>
         </DisplayEffectOffset>
       </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>9</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
     </ComponentBays>
     <ResourcesRequired>
       <ResourceQuantity>
@@ -28834,7 +28722,7 @@
     <ShipHullId>166</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>3</Level>
+    <Level>4</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>18</Size>
     <MaximumSize>64</MaximumSize>
@@ -29252,7 +29140,7 @@
     <ShipHullId>168</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>4</Level>
+    <Level>5</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>20</Size>
     <MaximumSize>77</MaximumSize>
@@ -30790,7 +30678,7 @@
     <Level>0</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>400</Size>
-    <MaximumSize>1200</MaximumSize>
+    <MaximumSize>1250</MaximumSize>
     <DisplaySize>625</DisplaySize>
     <ModelName>Ships/Human/human_carrier</ModelName>
     <CockpitImageFilename />
@@ -35139,7 +35027,7 @@
     <BaseCost>6000</BaseCost>
     <ArmorReactiveRating>6</ArmorReactiveRating>
     <IonDefense>4</IonDefense>
-    <EngineLimit>6</EngineLimit>
+    <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>0</CountermeasuresBonus>
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
@@ -37291,7 +37179,7 @@
     <Level>1</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>425</Size>
-    <MaximumSize>1300</MaximumSize>
+    <MaximumSize>1350</MaximumSize>
     <DisplaySize>658</DisplaySize>
     <ModelName>Ships/Human/human_carrier</ModelName>
     <CockpitImageFilename />
@@ -38924,8 +38812,9 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>22</ComponentBayId>
-        <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
+        <Type>Defense</Type>
+        <MaximumComponentSize>50</MaximumComponentSize>
+        <MeshName>#defense0</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
@@ -38942,7 +38831,6 @@
         <ComponentBayId>23</ComponentBayId>
         <Type>Defense</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
-        <MeshName>#defense0</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
@@ -39037,7 +38925,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>29</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -39309,22 +39197,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>46</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>47</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -41858,38 +41730,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>45</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>46</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>50</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>47</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -46503,7 +46343,7 @@
     <Level>2</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>500</Size>
-    <MaximumSize>1500</MaximumSize>
+    <MaximumSize>1550</MaximumSize>
     <DisplaySize>700</DisplaySize>
     <ModelName>Ships/Human/human_carrier</ModelName>
     <CockpitImageFilename />
@@ -50953,7 +50793,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Dreadnought</Name>
+    <Name>Super-Schlachtschiff</Name>
     <Description>Weapon 9 and 10 not present in hull</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
@@ -50964,7 +50804,7 @@
     <Level>3</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>600</Size>
-    <MaximumSize>1800</MaximumSize>
+    <MaximumSize>1850</MaximumSize>
     <DisplaySize>767</DisplaySize>
     <ModelName>Ships/Human/human_carrier</ModelName>
     <CockpitImageFilename />
@@ -53895,7 +53735,7 @@
     <ShipHullId>386</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>8</Level>
+    <Level>9</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>20</Size>
     <MaximumSize>66</MaximumSize>
@@ -54100,7 +53940,7 @@
     <ShipHullId>387</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>9</Level>
+    <Level>10</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>24</Size>
     <MaximumSize>81</MaximumSize>
@@ -54233,6 +54073,211 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>7</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>8</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+    </ComponentBays>
+    <ResourcesRequired>
+      <ResourceQuantity>
+        <ResourceId>8</ResourceId>
+        <Amount>17</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>12</ResourceId>
+        <Amount>17</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>10</ResourceId>
+        <Amount>34</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>78</ResourceId>
+        <Amount>34</Amount>
+      </ResourceQuantity>
+    </ResourcesRequired>
+    <Name>Sturmjäger</Name>
+    <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
+  </ShipHull>
+  <ShipHull>
+    <ShipHullId>388</ShipHullId>
+    <RaceId>0</RaceId>
+    <Role>FighterInterceptor</Role>
+    <Level>8</Level>
+    <DesignTemplateId>-1</DesignTemplateId>
+    <Size>19</Size>
+    <MaximumSize>65</MaximumSize>
+    <DisplaySize>14</DisplaySize>
+    <ModelName>Ships/Human/human_interceptor</ModelName>
+    <CockpitImageFilename />
+    <BaseCost>200</BaseCost>
+    <ArmorReactiveRating>2</ArmorReactiveRating>
+    <IonDefense>2</IonDefense>
+    <EngineLimit>2</EngineLimit>
+    <CountermeasuresBonus>0.4</CountermeasuresBonus>
+    <TargetingBonus>0.35</TargetingBonus>
+    <TurnRollRate>0.9</TurnRollRate>
+    <MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+    <Bonuses>
+      <Bonus>
+        <Type>ShipManeuvering</Type>
+        <Amount>0.34</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ModelSize>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+    </ModelSize>
+    <ComponentBays>
+      <ComponentBay>
+        <ComponentBayId>0</ComponentBayId>
+        <Type>Weapon</Type>
+        <MaximumComponentSize>5</MaximumComponentSize>
+        <MeshName>#weapon0</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>1</ComponentBayId>
+        <Type>Weapon</Type>
+        <MaximumComponentSize>5</MaximumComponentSize>
+        <MeshName>#weapon1</MeshName>
+        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>2</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine0</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>3</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine1</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>4</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine2</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>5</ComponentBayId>
+        <Type>Defense</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>6</ComponentBayId>
         <Type>Defense</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -54299,29 +54344,25 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>17</Amount>
+        <Amount>27</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>17</Amount>
+        <Amount>13</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>34</Amount>
-      </ResourceQuantity>
-      <ResourceQuantity>
-        <ResourceId>78</ResourceId>
-        <Amount>34</Amount>
+        <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Sturmjäger</Name>
+    <Name>Gyrfalcon-Abfangjäger</Name>
     <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
-    <ShipHullId>388</ShipHullId>
+    <ShipHullId>389</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>11</Level>
+    <Level>12</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>20</Size>
     <MaximumSize>72</MaximumSize>
@@ -54331,7 +54372,7 @@
     <BaseCost>300</BaseCost>
     <ArmorReactiveRating>3</ArmorReactiveRating>
     <IonDefense>3</IonDefense>
-    <EngineLimit>-1</EngineLimit>
+    <EngineLimit>2</EngineLimit>
     <CountermeasuresBonus>0.5</CountermeasuresBonus>
     <TargetingBonus>0.65</TargetingBonus>
     <TurnRollRate>0.9</TurnRollRate>
@@ -54454,213 +54495,8 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>7</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>8</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-    </ComponentBays>
-    <ResourcesRequired>
-      <ResourceQuantity>
-        <ResourceId>8</ResourceId>
-        <Amount>16</Amount>
-      </ResourceQuantity>
-      <ResourceQuantity>
-        <ResourceId>12</ResourceId>
-        <Amount>16</Amount>
-      </ResourceQuantity>
-      <ResourceQuantity>
-        <ResourceId>10</ResourceId>
-        <Amount>32</Amount>
-      </ResourceQuantity>
-      <ResourceQuantity>
-        <ResourceId>78</ResourceId>
-        <Amount>32</Amount>
-      </ResourceQuantity>
-    </ResourcesRequired>
-    <Name>Gyrfalcon Interceptor</Name>
-    <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
-  </ShipHull>
-  <ShipHull>
-    <ShipHullId>389</ShipHullId>
-    <RaceId>0</RaceId>
-    <Role>FighterInterceptor</Role>
-    <Level>12</Level>
-    <DesignTemplateId>-1</DesignTemplateId>
-    <Size>22</Size>
-    <MaximumSize>74</MaximumSize>
-    <DisplaySize>16</DisplaySize>
-    <ModelName>Ships/Human/human_interceptor</ModelName>
-    <CockpitImageFilename />
-    <BaseCost>350</BaseCost>
-    <ArmorReactiveRating>3</ArmorReactiveRating>
-    <IonDefense>3</IonDefense>
-    <EngineLimit>-1</EngineLimit>
-    <CountermeasuresBonus>0.54</CountermeasuresBonus>
-    <TargetingBonus>0.8</TargetingBonus>
-    <TurnRollRate>0.9</TurnRollRate>
-    <MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
-    <Bonuses>
-      <Bonus>
-        <Type>ShipManeuvering</Type>
-        <Amount>0.48</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </Bonuses>
-    <ModelSize>
-      <X>1</X>
-      <Y>1</Y>
-      <Z>1</Z>
-    </ModelSize>
-    <ComponentBays>
-      <ComponentBay>
-        <ComponentBayId>0</ComponentBayId>
-        <Type>Weapon</Type>
-        <MaximumComponentSize>5</MaximumComponentSize>
-        <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>1</ComponentBayId>
-        <Type>Weapon</Type>
-        <MaximumComponentSize>5</MaximumComponentSize>
-        <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>2</ComponentBayId>
-        <Type>Engine</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <MeshName>#engine0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>1</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>3</ComponentBayId>
-        <Type>Engine</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <MeshName>#engine1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>1</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>4</ComponentBayId>
-        <Type>Engine</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <MeshName>#engine2</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>1</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>5</ComponentBayId>
         <Type>Defense</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>6</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
+        <MaximumComponentSize>50</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
@@ -54705,33 +54541,49 @@
           <Z>0</Z>
         </DisplayEffectOffset>
       </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>9</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
     </ComponentBays>
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>18</Amount>
+        <Amount>16</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>18</Amount>
+        <Amount>16</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>35</Amount>
+        <Amount>32</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>78</ResourceId>
-        <Amount>35</Amount>
+        <Amount>32</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Gyrfalcon Interceptor</Name>
+    <Name>Gyrfalcon-Abfangjäger</Name>
     <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
     <ShipHullId>390</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>13</Level>
+    <Level>14</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>25</Size>
     <MaximumSize>88</MaximumSize>
@@ -54864,7 +54716,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -54910,22 +54762,6 @@
           <Z>0</Z>
         </DisplayEffectOffset>
       </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>9</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
     </ComponentBays>
     <ResourcesRequired>
       <ResourceQuantity>
@@ -54952,7 +54788,7 @@
     <ShipHullId>391</ShipHullId>
     <RaceId>0</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>15</Level>
+    <Level>16</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>26</Size>
     <MaximumSize>89</MaximumSize>
@@ -56421,5 +56257,210 @@
     </ResourcesRequired>
     <Name>Mittlerer Treibstofftanker</Name>
     <ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
+  </ShipHull>
+  <ShipHull>
+    <ShipHullId>1209</ShipHullId>
+    <RaceId>0</RaceId>
+    <Role>FighterInterceptor</Role>
+    <Level>13</Level>
+    <DesignTemplateId>-1</DesignTemplateId>
+    <Size>22</Size>
+    <MaximumSize>74</MaximumSize>
+    <DisplaySize>16</DisplaySize>
+    <ModelName>Ships/Human/human_interceptor</ModelName>
+    <CockpitImageFilename />
+    <BaseCost>350</BaseCost>
+    <ArmorReactiveRating>3</ArmorReactiveRating>
+    <IonDefense>3</IonDefense>
+    <EngineLimit>2</EngineLimit>
+    <CountermeasuresBonus>0.54</CountermeasuresBonus>
+    <TargetingBonus>0.8</TargetingBonus>
+    <TurnRollRate>0.9</TurnRollRate>
+    <MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+    <Bonuses>
+      <Bonus>
+        <Type>ShipManeuvering</Type>
+        <Amount>0.48</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </Bonuses>
+    <ModelSize>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+    </ModelSize>
+    <ComponentBays>
+      <ComponentBay>
+        <ComponentBayId>0</ComponentBayId>
+        <Type>Weapon</Type>
+        <MaximumComponentSize>5</MaximumComponentSize>
+        <MeshName>#weapon0</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>1</ComponentBayId>
+        <Type>Weapon</Type>
+        <MaximumComponentSize>5</MaximumComponentSize>
+        <MeshName>#weapon1</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>2</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine0</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>3</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine1</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>4</ComponentBayId>
+        <Type>Engine</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <MeshName>#engine2</MeshName>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>1</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>5</ComponentBayId>
+        <Type>Defense</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>6</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>7</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+      <ComponentBay>
+        <ComponentBayId>8</ComponentBayId>
+        <Type>General</Type>
+        <MaximumComponentSize>10</MaximumComponentSize>
+        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <DisplayEffectRescaleFactor>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectRescaleFactor>
+        <DisplayEffectOffset>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </DisplayEffectOffset>
+      </ComponentBay>
+    </ComponentBays>
+    <ResourcesRequired>
+      <ResourceQuantity>
+        <ResourceId>8</ResourceId>
+        <Amount>18</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>12</ResourceId>
+        <Amount>18</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>10</ResourceId>
+        <Amount>35</Amount>
+      </ResourceQuantity>
+      <ResourceQuantity>
+        <ResourceId>78</ResourceId>
+        <Amount>35</Amount>
+      </ResourceQuantity>
+    </ResourcesRequired>
+    <Name>Gyrfalcon-Abfangjäger</Name>
+    <ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
   </ShipHull>
 </ArrayOfShipHull>

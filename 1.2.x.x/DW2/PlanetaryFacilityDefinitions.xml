@@ -2795,4 +2795,41 @@
     <Name>Planetarer Palast</Name>
     <ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
   </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>108</PlanetaryFacilityDefinitionId>
+    <EmpireBonuses>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>Espionage</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>TradeIncome</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </EmpireBonuses>
+    <BuildCost>
+      <Money>50000</Money>
+    </BuildCost>
+    <MaintenanceCost>1000</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <FacilityFamilyId>59</FacilityFamilyId>
+    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+    <QualityBoost>0</QualityBoost>
+    <Name>Stiftung für Galaktische Zusammenarbeit</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Foundation for Galactic Cooperation</ImageFilename>
+  </PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

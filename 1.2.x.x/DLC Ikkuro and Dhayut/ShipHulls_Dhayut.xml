@@ -709,7 +709,7 @@
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
         <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
+        <MaximumComponentSize>120</MaximumComponentSize>
         <MeshName>#sensor0</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -743,7 +743,7 @@
       <ComponentBay>
         <ComponentBayId>8</ComponentBayId>
         <Type>Sensor</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>19</MaximumComponentSize>
         <MeshName>#sensor2</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -20076,7 +20076,7 @@
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
         <Type>Sensor</Type>
-        <MaximumComponentSize>19</MaximumComponentSize>
+        <MaximumComponentSize>120</MaximumComponentSize>
         <MeshName>#sensor0</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -20110,7 +20110,7 @@
       <ComponentBay>
         <ComponentBayId>8</ComponentBayId>
         <Type>Sensor</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>19</MaximumComponentSize>
         <MeshName>#sensor2</MeshName>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -79804,7 +79804,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Dreadnought</Name>
+    <Name>Super-Schlachtschiff</Name>
     <ImageFilename>Ships/Dhayut/Images/SM_Battelship_01</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -86006,7 +86006,7 @@
     <ShipHullId>927</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>2</Level>
+    <Level>3</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>18</Size>
     <MaximumSize>69</MaximumSize>
@@ -86207,7 +86207,7 @@
     <ShipHullId>928</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>3</Level>
+    <Level>4</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>18</Size>
     <MaximumSize>64</MaximumSize>
@@ -86625,7 +86625,7 @@
     <ShipHullId>930</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>4</Level>
+    <Level>5</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>20</Size>
     <MaximumSize>77</MaximumSize>
@@ -86842,7 +86842,7 @@
     <ShipHullId>931</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>8</Level>
+    <Level>9</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>20</Size>
     <MaximumSize>66</MaximumSize>
@@ -87284,7 +87284,7 @@
     <ShipHullId>933</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>9</Level>
+    <Level>10</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>24</Size>
     <MaximumSize>81</MaximumSize>
@@ -87417,7 +87417,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -87449,22 +87449,6 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>8</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>9</ComponentBayId>
         <Type>General</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
@@ -87758,7 +87742,7 @@
     <ShipHullId>935</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>13</Level>
+    <Level>14</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>25</Size>
     <MaximumSize>88</MaximumSize>
@@ -87891,7 +87875,7 @@
       </ComponentBay>
       <ComponentBay>
         <ComponentBayId>6</ComponentBayId>
-        <Type>Defense</Type>
+        <Type>General</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <RotationHalfArcRange>0</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -87937,22 +87921,6 @@
           <Z>0</Z>
         </DisplayEffectOffset>
       </ComponentBay>
-      <ComponentBay>
-        <ComponentBayId>9</ComponentBayId>
-        <Type>General</Type>
-        <MaximumComponentSize>10</MaximumComponentSize>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
-        <DisplayEffectRescaleFactor>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectRescaleFactor>
-        <DisplayEffectOffset>
-          <X>0</X>
-          <Y>0</Y>
-          <Z>0</Z>
-        </DisplayEffectOffset>
-      </ComponentBay>
     </ComponentBays>
     <ResourcesRequired>
       <ResourceQuantity>
@@ -87979,7 +87947,7 @@
     <ShipHullId>936</ShipHullId>
     <RaceId>10</RaceId>
     <Role>FighterInterceptor</Role>
-    <Level>15</Level>
+    <Level>16</Level>
     <DesignTemplateId>-1</DesignTemplateId>
     <Size>26</Size>
     <MaximumSize>89</MaximumSize>

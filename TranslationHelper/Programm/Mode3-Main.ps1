@@ -34,12 +34,12 @@ function MarkOne($ElementEnNew, $Marker, $ElementEnNewText, $ElementEnOldText, $
     $ElementEnNew.ParentNode.InsertAfter($comment, $ElementEnNew.PreviousSibling.PreviousSibling) | Out-Null
 }
 
-function SetOne($ElementEnNew, $text) 
+function SetOne($ElementEnNew, $Text) 
 {
    # Note: For some reason, even though "#text" is here available, it's sometimes not settable.
    $ElementEnNew.RemoveAll() | Out-Null
    $document = $ElementEnNew.OwnerDocument
-   $textNode = $document.CreateTextNode($text)
+   $textNode = $document.CreateTextNode($Text)
    $ElementEnNew.AppendChild($textNode) | Out-Null
 }
 
@@ -60,7 +60,7 @@ function TranslateOne($ElementEnNew, $Text)
         Write-Host -ForegroundColor DarkGreen ">>>>> $translatedText"
     }    
 
-    SetOne -ElementEnNew $ElementEnNew -text $translatedText
+    SetOne -ElementEnNew $ElementEnNew -Text $translatedText
 }
 
 function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $FileName, $Rule)
@@ -121,7 +121,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
     }
     
     # Directly use already translated text.
-    SetOne -ElementEnNew $ElementEnNew -ElementDeText $elementDeText
+    SetOne -ElementEnNew $ElementEnNew -Text $elementDeText
 }
 
 ### Main Program

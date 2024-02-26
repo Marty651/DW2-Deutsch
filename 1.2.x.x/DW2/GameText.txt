@@ -388,7 +388,7 @@ GameTaskType HonorDefenseTreaty		;Verteidigungsabkommen einhalten
 GameTaskType DishonorDefenseTreaty		;Verteidigungsabkommen nicht einhalten
 GameTaskType ScrapPlanetaryFacility		;Verschrotte {0} bei {1}
 GameTaskType SetAsFleetLeadShip		;Schiff {0} als Führung für Flotte ({1}) festlegen
-GameTaskType SetEmpireFlagShip		;{0} als Flagschiff des Reiches festlegen
+GameTaskType SetEmpireFlagShip		;{0} als Flaggschiff des Reiches festlegen
 GameTaskType SetAttackRangeWeaker		;Angriffspriorität gegen schwächere Ziele: {0}
 GameTaskType SetAttackRangeStronger		;Angriffspriorität gegen stärkere Ziele: {0}
 GameTaskType SetFleetStance		;Angriffspriorität: {0}
@@ -515,7 +515,7 @@ GameTaskType Short HonorDefenseTreaty		;Verteidigungsabkommen respektieren
 GameTaskType Short DishonorDefenseTreaty		;Verteidigungsabkommen nicht respektieren
 GameTaskType Short ScrapPlanetaryFacility		;Verschrottet {0} bei {1}
 GameTaskType Short SetAsFleetLeadShip		;Führungsschiff festlegen
-GameTaskType Short SetEmpireFlagShip		;Flagschiff des Reiches festlegen
+GameTaskType Short SetEmpireFlagShip		;Flaggschiff des Reiches festlegen
 GameTaskType Short SetAttackRangeWeaker		;Angriffspriorität 'schwach' festlegen
 GameTaskType Short SetAttackRangeStronger		;Angriffspriorität 'stark' festlegen
 GameTaskType Short SetFleetStance		;Angriffspriorität festlegen

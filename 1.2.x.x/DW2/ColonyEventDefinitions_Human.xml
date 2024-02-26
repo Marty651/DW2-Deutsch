@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>74</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>0</PopulationAmount>
+		<DevelopmentChange>0</DevelopmentChange>
+		<DamageRepair>0</DamageRepair>
+		<MigrationFactor>0</MigrationFactor>
+		<ResourceAbundance>0</ResourceAbundance>
+		<ColonyHappiness>0</ColonyHappiness>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0</RandomInitiationChance>
+		<RaceFilterIds>
+		</RaceFilterIds>
+		<OrbTypeFilters>
+		</OrbTypeFilters>
+		<Bonuses>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Interne Debatten</Name>
+		<Description>Unsere jüngste Unterzeichnung eines Verteidigungsvertrags hat in unserer Bevölkerung Besorgnis ausgelöst und Debatten dafür und dagegen ausgelöst. Dies hat die Zufriedenheit in unserem gesamten Reich verringert.</Description>
+		<ImageFilename>Characters/Internal Debates</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>75</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>0</PopulationAmount>
+		<DevelopmentChange>0</DevelopmentChange>
+		<DamageRepair>0</DamageRepair>
+		<MigrationFactor>0</MigrationFactor>
+		<ResourceAbundance>0</ResourceAbundance>
+		<ColonyHappiness>0</ColonyHappiness>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0</RandomInitiationChance>
+		<RaceFilterIds>
+		</RaceFilterIds>
+		<OrbTypeFilters>
+		</OrbTypeFilters>
+		<Bonuses>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Erhöhte Sicherheit</Name>
+		<Description>Die Spionageabwehr hat sich verbessert, aber die Zufriedenheit hat sich nach den jüngsten Bemühungen zur Verbesserung der inneren Sicherheit nach dem Erfolg einer ausländischen Geheimdienstmission gegen uns verschlechtert.</Description>
+		<ImageFilename>Characters/Heightened Security</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([string]$Mode)
+param([string]$Mode, [switch]$Debug)
 
 # Global Developer Settings
 #Requires -Version 7
@@ -10,9 +10,11 @@ $global:DebugPreference = "Continue"
 $global:VerbosePreference = "Continue"
 
 # Global Production Settings
-$global:ErrorActionPreference = "Stop"
-$global:DebugPreference = "SilentlyContinue"
-$global:VerbosePreference = "Ignore"
+if ($Debug.IsPresent -eq $false) {
+    $global:ErrorActionPreference = "Stop"
+    $global:DebugPreference = "SilentlyContinue"
+    $global:VerbosePreference = "Ignore"
+}
 
 # . $PSScriptRoot\Test.ps1
 # exit

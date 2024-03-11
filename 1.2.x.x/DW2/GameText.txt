@@ -671,8 +671,11 @@ TacticsEngagementType EngageWhenAttacked		;Angreifen wenn angegriffen
 TacticsEngagementType FuelRange33		;33% der Treibstoffreichweite
 TacticsEngagementType FuelRange50		;50 % der Treibstoffreichweite
 TacticsEngagementType Location		;Gleicher Standort
-TacticsEngagementType Nearby		;Nahe
-TacticsEngagementType SectorRange		;Sektorreichweite
+TacticsEngagementType Nearby		;Nahe (5000 Reichweite)
+TacticsEngagementType SectorRange		;100M Reichweite
+TacticsEngagementType Range50M		;50M Reichweite
+TacticsEngagementType Range200M		;200M Reichweite
+TacticsEngagementType Range300M		;300M Reichweite
 TacticsEngagementType System		;Gleiches System
 
 FleetRetreatOverwhelmed EnemyStrength100		;Feindstärke größer ist
@@ -1514,8 +1517,16 @@ ENGAGEMENT at same location		;am gleichen Standort
 ENGAGEMENT at same location as X		;am gleichen Standort wie {0}
 ENGAGEMENT in same system		;im selben System
 ENGAGEMENT in same system as X		;im selben System wie {0}
-ENGAGEMENT within sector range		;innerhalb der Sektorreichweite
-ENGAGEMENT within sector range of X		;innerhalb der Sektorreichweite von {0}
+ENGAGEMENT within sector range		;innerhalb 100M Reichweite
+ENGAGEMENT within sector range of X		;innerhalb 100M Reichweite von {0}
+
+ENGAGEMENT within 50M range		;innerhalb 50M Reichweite
+ENGAGEMENT within 50M range of X		;innerhalb 50M Reichweite von {0}
+ENGAGEMENT within 200M range		;innerhalb 200M Reichweite
+ENGAGEMENT within 200M range of X		;innerhalb 200M Reichweite von {0}
+ENGAGEMENT within 300M range		;innerhalb 300M Reichweite
+ENGAGEMENT within 300M range of X		;innerhalb 300M Reichweite von {0}
+
 ENGAGEMENT within 33% fuel range		;innerhalb von 33% Treibstoff-Reichweite
 ENGAGEMENT within 33% fuel range of X		;innerhalb von 33% Treibstoff-Reichweite von {0}
 ENGAGEMENT within 50% fuel range		;innerhalb von 50% Treibstoff-Reichweite
@@ -2853,7 +2864,7 @@ Victory Condition ExploreMostSystems		;Erkundet die meisten Systeme in der Galax
 Victory Condition ExterminateOrEnslaveMostPopulation		;Löscht die meiste Bevökerung in der Galaxie aus oder versklavt diese
 Victory Condition FreeTradeAgreementsFormedProportionAllEmpires		;Schließt Freihandelsabkommen mit {0} der Völker in der Galaxie
 Victory Condition HighestPrivateRevenue		;Erhaltet die höchsten privaten Einnahmen der Galaxie
-Victory Condition HighestTradeVolume		;Erhaltet die höchste Anzahl von Handelsboni in der Galaxie
+Victory Condition HighestTradeVolume		;Erhaltet das höchste Handelseinkommen in der Galaxie
 Victory Condition KeepLeaderAlive		;Haltet das Oberhaupt Eurer Regierung am Leben
 Victory Condition LargestMilitary		;Besitzt das größte Militär in der Galaxie
 Victory Condition LargestMilitaryNonAllied		Besitzt das größte Militär unter den nicht verbündeten Völkern
@@ -2876,7 +2887,7 @@ Victory Condition MostSpaceports		;Besitzt die meisten Raumhäfen in der Galaxie
 Victory Condition MostSubjugatedDominions		;Macht die meisten Völker in der Galaxie zu Vasallen
 Victory Condition MostTimeWarring		;Verbringt die meiste Zeit im Krieg in der Galaxie
 Victory Condition MostTourismIncome		;Verdient die meisten Touristeneinnahmen in der Galaxie
-Victory Condition MostTradeIncome		;Verdient die meisten Handelseinnahmen in der Galaxie
+Victory Condition MostTradeIncome		;Erhaltet die meisten Handelsboni in der Galaxie
 Victory Condition MostTroops		;Habt die meisten Truppen in der Galaxie
 Victory Condition MostTroopsNonAllied		;Habt die meisten Truppen unter den nicht verbündeten Völkern
 Victory Condition MutualDefensePactsFormedProportionAllEmpires		;Schließt Verteidigungsabkommen mit {0} der Völker in der Galaxie
@@ -5249,7 +5260,7 @@ Fleets Military Attacks Automation Explanation		;Flotten werden nicht automatisc
 
 EMPIRE reports		;{0} Berichte
 
-FleetEngagementRange Explanation		;Der 'Einsatz- und Angriffsbereich einer Flotte' legt fest, wann eine Flotte Ziele angreift.\n\n'Nicht angreifen': Die Flotte greift niemals Feinde an\n'Angreifen wenn angegriffen': Die Flotte greift Feinde nur an, wenn sie direkt von ihnen angegriffen wird\n'Nahe': greift nur feindliche Ziele an, die sich in der Nähe befinden\nGleicher Standort: greift feindliche Ziele an, die sich am gleichen Standort befinden (Planeten und Monde)\n'Gleiches System': greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n'Sektorreichweite': greift feindliche Ziele an, die sich innerhalb eines galaktischen Sektors befinden\n'33% der Treibstoffreichweite': greift feindliche Ziele an, die sich innerhalb von 33% der Treibstoffreichweite einer Flotte befinden\n'50% der Treibstoffreichweite': greift feindliche Ziele an, die sich innerhalb von 50% der Treibstoffreichweite einer Flotte befinden\n\nBeachtet, dass der Einsatz- und Angriffsbereich einer Flotte die Einsatz- und Angriffsbereiche der einzelnen Schiffe einer Flotte außer Kraft setzt. Wenn ein Schiff Teil einer Flotte ist, verwendet es den Einsatz- und Angriffsbereich einer Flotte, anstelle seines eigenen Einsatz- und Angriffsbereichs.\n\nManuell gesteuerte Flotten werden nicht automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren. Dies wird durch gelben Text für diese Einstellung angezeigt, wenn die Flotte manuell gesteuert wird. Um den Einsatz- und Angriffsbereich einer Flotte über das aktuelle Sternensystem hinaus zu aktivieren, solltet Ihr eine automatisierte Flotten-Rolle (Verteidigen, Angreifen, Überfall, Erobern) verwenden.\n\nFlotten greifen auch dann nicht automatisch Bedrohungen außerhalb ihres aktuellen Sternensystems an, wenn die militärischen Angriffe manuell gesteuert werden (siehe Abschnitt Militär in den Einstellungen der allgemeinen Spielregeln). Dies wird durch orangefarbenen Text für diese Einstellung angezeigt, wenn militärische Angriffe manuell gesteuert werden. Damit Flotten automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren können, solltet Ihr die Automatisierung von Militärangriffen aktivieren (Vollautomatisch oder Vorschlagen). Außerdem solltet Ihr automatisierte Flotten verwenden (nicht eine manuelle Flotten-Rolle), wenn Ihr wollt, dass Flotten automatisch Bedrohungen außerhalb ihres aktuellen Systems angreifen.
+FleetEngagementRange Explanation		;Der Flottenangriffsbereich gibt an, wann eine Flotte Ziele angreift. \n\nNicht angreifen: Die Flotte greift niemals Feinde an\nAngreifen, wenn angegriffen: Die Flotte greift Feinde nur an, wenn sie direkt von ihnen angegriffen werden\nNah: Die Flotte greift feindliche Ziele an, die sich in der Nähe befinden\nGleicher Standort: Die Flotte greift feindliche Ziele an, die sich am gleichen Standort (Planet und Monde) befinden\nGleiches System: Die Flotte greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n50M Reichweite: Die Flotte greift feindliche Ziele an, die sich innerhalb von 50 Millionen Einheiten befinden\n100M Reichweite: greift feindliche Ziele an, die sich innerhalb von 100 Millionen Einheiten befinden\n200M-Reichweite: greift feindliche Ziele an, die sich innerhalb von 200 Millionen Einheiten befinden\n300M-Reichweite: greift feindliche Ziele an, die sich innerhalb von 300 Millionen Einheiten befinden\n33% der Treibstoff-Reichweite: greift feindliche Ziele an, die sich innerhalb von 33% der Treibstoff-Reichweite der Flotte befinden\n50% der Treibstoff-Reichweite: greift feindliche Ziele an, die sich innerhalb von 50% der Treibstoff-Reichweite der Flotte befinden\n\nBeachtet, dass die Einsatzreichweite der Flotte die Einsatzreichweite der einzelnen Schiffe in der Flotte außer Kraft setzt. Wenn ein Schiff Teil einer Flotte ist, verwendet es die Flottenreichweite anstelle seiner eigenen Reichweite.\n\nManuell gesteuerte Flotten werden nicht automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren. Dies wird durch gelben Text für diese Einstellung angezeigt, wenn die Flotte manuell gesteuert wird. Um den Einsatzbereich der Flotte über das aktuelle Sternensystem hinaus zu aktivieren, solltet Ihr eine automatisierte Flottenrolle verwenden (Verteidigen, Angreifen, Überfall, Invasion).\n\nFlotten werden auch nicht automatisch Bedrohungen außerhalb ihres aktuellen Sternensystems angreifen, wenn Militärische Angriffe manuell gesteuert werden (siehe Abschnitt Militär in den Einstellungen der Imperiumspolitik). Dies wird durch orangefarbenen Text für diese Einstellung angezeigt, wenn militärische Angriffe manuell gesteuert werden. Damit Flotten automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren können, solltet ihr also die Automatisierung von Militärangriffen aktivieren (Vollautomatisch oder Vorschlagen). Außerdem solltet ihr automatisierte Flotten verwenden (nicht die manuelle Flottenrolle), wenn ihr wollt, dass sie automatisch Bedrohungen außerhalb ihres aktuellen Systems angreifen.
 FleetFormationCoherence Explanation		;Spezifiziert die Nähe von Geleitschutz und Wächter-Schiffen zu ihren eskortierten Kernschiffen in einer Flotte.
 FleetAllowShipRoleReassignment Explanation		;Hier wird festgelegt, ob Schiffen ihre 'Rolle innerhalb einer Flotte' automatisch neu zugewiesen werden kann oder nicht. Das bedeutet, dass jedes Mal, wenn ein neues Führungsschiff für die Flotte ausgewählt wird (z.B. wenn ein besseres Schiff zur Flotte stößt oder wenn das alte Führungsschiff verloren geht), können die Schiffe für den Flottenkern, zu nahem Geleitschutz und den Wächter-Schiffen wechseln.
 FleetRetreatOverwhelmed Explanation		;Legt fest, wann sich die gesamte Flotte aus einer Schlacht zurückziehen soll.
@@ -5711,6 +5722,7 @@ User Interface		;Benutzer-Oberfläche
 Rendering		;Rendern
 
 until DATE		;bis {0}
+Until DATE		;Bis {0}
 
 Troops and Characters Relocated to COLONY		;Verlegung von Truppen und Charakteren nach {0}
 Troops and Characters Relocated Explanation		;Nach der kürzlichen Ausrottung der gesamten Bevölkerung in unserer Kolonie {1} wurden unsere verbleibenden Truppen und Charaktere in unsere Kolonie {0} verlegt.
@@ -5887,3 +5899,19 @@ Only military ships can be the empire Flag ship		;Nur Militärschiffe können da
 
 Feudal Control		;Unter feudaler Kontrolle
 This military ship is privately owned and controlled GOVERNMENT		;Dieses Militärschiff befindet sich in Privatbesitz und wird von der Regierung {0} kontrolliert.
+
+Fleet Engagement Areas and Attack Paths		;Flotteneinsatzgebiete und Angriffswege
+Map Overlay Fleet Key Explanation		;Blau = Verteidigungsflotten\nRot = Angriffsflotten\nGelb = Invasionsflotten\nOrange = Überfallflotten
+
+GalaxyMapOpacity		;Galaxiekarte Element Opazität
+Settings Explanation GalaxyMapOpacity		;Ändert die Opazität von Elementen auf der Galaxiekarte und macht sie entweder undurchsichtiger oder transparenter. Dazu gehören Elemente wie Territorium und Grenzen des Imperiums, Markierungen für kolonisierte Systeme und Systemabzeichen.
+GalaxyMapOpacityFleetOverlay		;Opazität von Galaxienkartenelementen bei aktiviertem Flotten-Overlay
+Settings Explanation GalaxyMapOpacityFleetOverlay		;Ändert die Opazität von Elementen auf der Galaxiekarte, wenn das Flotten-Overlay aktiviert ist, und macht sie entweder undurchsichtiger oder transparenter. Dazu gehören Elemente wie Territorium und Grenzen des Imperiums, Markierungen für kolonisierte Systeme und Systemabzeichen.
+
+Invalid Game Data Explanation		;Dieses Savegame ist beschädigt und konnte nicht geladen werden.\n\nÜberprüfen Sie, dass der Speicherort, an dem Sie Spiele speichern, keine Schreibvorgänge zwischenspeichert. Auf dem Laufwerk sollte Write Flushing aktiviert sein.\n\nAußerdem solltet Ihr den Distant Worlds-Savegame-Ordner von allen Antivirus-Scans ausschließen, da dies das Write Flushing für Savegame-Dateien beeinträchtigen kann.
+Could not Load Savegame		;Savegame konnte nicht geladen werden
+
+Trade Bonus Level		;Handelsbonus-Stufe
+Selected Fleet		;Ausgewählte Flotte
+
+Game Speed Faster Warning		;Höhere Spielgeschwindigkeiten (x2, x4, x8) funktionieren im späten Spiel auf weniger leistungsfähigen Systemen möglicherweise nicht so gut. Reduziert bei Bedarf die Spielgeschwindigkeit.

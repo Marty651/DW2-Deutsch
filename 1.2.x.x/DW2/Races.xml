@@ -299,7 +299,7 @@
         <Id>0</Id>
       </VictoryCondition>
       <VictoryCondition>
-        <Type>MostTradeIncome</Type>
+        <Type>HighestTradeVolume</Type>
         <Proportion>0.1</Proportion>
         <Amount>1</Amount>
         <Id>0</Id>
@@ -1036,7 +1036,7 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
         <Id>0</Id>
       </VictoryCondition>
       <VictoryCondition>
-        <Type>MostTradeIncome</Type>
+        <Type>HighestTradeVolume</Type>
         <Proportion>0.3</Proportion>
         <Amount>1</Amount>
         <Id>0</Id>
@@ -1421,7 +1421,7 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
     </Biases>
     <VictoryConditions>
       <VictoryCondition>
-        <Type>MostTradeIncome</Type>
+        <Type>HighestTradeVolume</Type>
         <Proportion>0.5</Proportion>
         <Amount>1</Amount>
         <Id>0</Id>

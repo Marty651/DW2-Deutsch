@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfColonyEventDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<ColonyEventDefinition>
@@ -25,7 +25,7 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Interne Debatten</Name>
 		<Description>Unsere jüngste Unterzeichnung eines Verteidigungsvertrags hat in unserer Bevölkerung Besorgnis ausgelöst und Debatten dafür und dagegen ausgelöst. Dies hat die Zufriedenheit in unserem gesamten Reich verringert.</Description>
-		<ImageFilename>Characters/Internal Debates</ImageFilename>
+		<ImageFilename>Environment/Events/Internal Debates</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>75</ColonyEventDefinitionId>
@@ -58,7 +58,7 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Erhöhte Sicherheit</Name>
 		<Description>Die Spionageabwehr hat sich verbessert, aber die Zufriedenheit hat sich nach den jüngsten Bemühungen zur Verbesserung der inneren Sicherheit nach dem Erfolg einer ausländischen Geheimdienstmission gegen uns verschlechtert.</Description>
-		<ImageFilename>Characters/Heightened Security</ImageFilename>
+		<ImageFilename>Environment/Events/Heightened Security</ImageFilename>
 	</ColonyEventDefinition>
 
 </ArrayOfColonyEventDefinition>

@@ -1685,6 +1685,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>2</Column>
     <Row>39</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>15</ResearchProjectId>
@@ -1975,6 +1981,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>2</Column>
     <Row>50</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>19</ResearchProjectId>
@@ -2855,6 +2867,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>3</Column>
     <Row>39</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>38</ResearchProjectId>
@@ -3334,6 +3352,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>3</Column>
     <Row>50</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>44</ResearchProjectId>
@@ -3443,7 +3467,7 @@
       <ResearchPath>
         <ResearchProjectId>101</ResearchProjectId>
         <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-        <Priority>1</Priority>
+        <Priority>0</Priority>
         <RaceId>0</RaceId>
       </ResearchPath>
     </PrerequisiteProjects>
@@ -5013,7 +5037,7 @@
       </Component>
       <Component>
         <ComponentId>382</ComponentId>
-        <Level>0</Level>
+        <Level>1</Level>
       </Component>
     </Components>
     <RepeatableTechLimit>0</RepeatableTechLimit>
@@ -5049,6 +5073,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>4</Column>
     <Row>50</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>71</ResearchProjectId>
@@ -5125,6 +5155,12 @@
         <ResearchProjectId>102</ResearchProjectId>
         <PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
         <Priority>0</Priority>
+      </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>101</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+		<RaceId>0</RaceId>
       </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -6559,6 +6595,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>5</Column>
     <Row>39</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>62</ResearchProjectId>
@@ -8437,7 +8479,7 @@
       </Component>
       <Component>
         <ComponentId>382</ComponentId>
-        <Level>1</Level>
+        <Level>2</Level>
       </Component>
     </Components>
     <RepeatableTechLimit>0</RepeatableTechLimit>
@@ -9776,6 +9818,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>7</Column>
     <Row>39</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>128</ResearchProjectId>
@@ -22543,6 +22591,10 @@
     <Row>100</Row>
     <DisallowedRaceIds>
       <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+      <RaceProbability>
         <RaceId>11</RaceId>
         <Probability>1</Probability>
       </RaceProbability>
@@ -23673,6 +23725,12 @@
     <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
     <Column>5</Column>
     <Row>100</Row>
+    <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
+    </DisallowedRaceIds>
     <PrerequisiteProjects>
       <ResearchPath>
         <ResearchProjectId>840</ResearchProjectId>
@@ -23870,6 +23928,12 @@
         <ResearchProjectId>380</ResearchProjectId>
         <PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
         <Priority>1</Priority>
+      </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>378</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+		<RaceId>0</RaceId>
       </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -26229,6 +26293,10 @@
     <Column>3</Column>
     <Row>100</Row>
     <DisallowedRaceIds>
+      <RaceProbability>
+        <RaceId>0</RaceId>
+        <Probability>1</Probability>
+      </RaceProbability>
       <RaceProbability>
         <RaceId>11</RaceId>
         <Probability>1</Probability>
@@ -50014,6 +50082,12 @@
         <PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
         <Priority>1</Priority>
       </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>876</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+		<RaceId>4</RaceId>
+      </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
     <PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
@@ -50065,6 +50139,12 @@
         <ResearchProjectId>661</ResearchProjectId>
         <PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
         <Priority>1</Priority>
+      </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>877</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+		<RaceId>4</RaceId>
       </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -60104,9 +60184,15 @@
         <Priority>0</Priority>
         <RaceId>0</RaceId>
       </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>18</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+        <RaceId>0</RaceId>
+      </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-    <PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+    <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
     <Components>
       <Component>
         <ComponentId>45</ComponentId>
@@ -60114,6 +60200,10 @@
       </Component>
       <Component>
         <ComponentId>298</ComponentId>
+        <Level>0</Level>
+      </Component>
+      <Component>
+        <ComponentId>382</ComponentId>
         <Level>0</Level>
       </Component>
     </Components>
@@ -60170,9 +60260,15 @@
         <Priority>0</Priority>
         <RaceId>0</RaceId>
       </ResearchPath>
+      <ResearchPath>
+        <ResearchProjectId>15</ResearchProjectId>
+        <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+        <Priority>0</Priority>
+        <RaceId>0</RaceId>
+      </ResearchPath>
     </PrerequisiteProjects>
     <ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-    <PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+    <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
     <Components>
       <Component>
         <ComponentId>30</ComponentId>

@@ -4200,8 +4200,6 @@ Map Overlay Exploration Key Explanation		;Grün = alle Orte im System bis zur Gr
 Map Overlay Diplomacy Relations Key Explanation		;Grün = System im Besitz einer befreundeten Fraktion\nGelb = System im Besitz einer neutralen Fraktion\nRot = System im Besitz einer feindlichen Fraktion
 Map Overlay Nebula Boundaries Key Explanation		;Orange = Galaktischer Sturm\nViolett = Ionensturm\nGrün = Gravitonischer Sturm\nGelb = Strahlungszone
 
-Green = system owned by friendly faction\nYellow = system owned by neutral faction\nRed = system owned by enemy faction
-
 We have encountered a new empire		;Wir sind auf ein neues Volk gestoßen, [FACTION]{0}[/FACTION]]
 We have encountered a new empire SYSTEM		;Wir sind im System {0} auf ein neues Volk gestoßen, [FACTION]{1}[/FACTION]]
 We have encountered a new pirate faction		;Wir sind auf eine neue Piratenfraktion gestoßen, die [FACTION]{0}[/FACTION]
@@ -5915,3 +5913,22 @@ Trade Bonus Level		;Handelsbonus-Stufe
 Selected Fleet		;Ausgewählte Flotte
 
 Game Speed Faster Warning		;Höhere Spielgeschwindigkeiten (x2, x4, x8) funktionieren im späten Spiel auf weniger leistungsfähigen Systemen möglicherweise nicht so gut. Reduziert bei Bedarf die Spielgeschwindigkeit.
+
+X-Y months		;{0}-{1} Monate
+X-Y years		;{0}-{1} Jahre
+Typically lasts PERIOD		;Dauert typischerweise {0}
+Plague Curing Chance Description		;Heilungs-Chance: {0} pro Jahr
+
+Colony Event Plague Ends Title		;{0} Endet
+Colony Event Plague Ends Description		;Die {0}-Infektion ist in unserer Kolonie [LOCATION]{1}[/LOCATION] im {2}-System beendet.
+Colony Event Plague Cured Title		;{0} Geheilt!
+Colony Event Plague Cured Description		;Die {0}-Infektion wurde in unserer Kolonie [LOCATION]{1}[/LOCATION] im {2}-System geheilt.
+Colony Event Plague Cured Description Other Colonies		;Dieses Heilmittel wurde auch von allen unseren anderen mit dieser Seuche infizierten Kolonien übernommen
+
+Modified Plague Virulence		;Modifizierte Pestvirulenz
+Plague Susceptibility		;Pestanfälligkeit
+
+Defense Fleets		;Verteidigungsflotten
+Attack Fleets		;Angriffsflotten
+Invasion Fleets		;Invasionsflotten
+Raid Fleets		;Überfallflotten

@@ -2800,12 +2800,22 @@
     <EmpireBonuses>
       <Bonus>
         <Type>Diplomacy</Type>
-        <Amount>0.05</Amount>
+        <Amount>0.1</Amount>
         <AppliesTo>Empire</AppliesTo>
       </Bonus>
       <Bonus>
         <Type>Espionage</Type>
         <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PsyOps</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>Concealment</Type>
+        <Amount>0.1</Amount>
         <AppliesTo>Empire</AppliesTo>
       </Bonus>
       <Bonus>

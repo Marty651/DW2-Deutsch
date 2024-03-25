@@ -716,7 +716,7 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
     <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 
 	  <FeatureExplanations>
-		  <string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 10 years on average</string>
+		  <string>[HL]Unternehmergeist:[/HL] Chance auf ein periodisches zufälliges positives Ereignis, das Forschung, Diplomatie, Spionage oder das Militär vorübergehend verbessert.\nTritt durchschnittlich etwa alle 10 Jahre auf.</string>
 	  </FeatureExplanations>
 		  
     <EmpireNameAdjectives>
@@ -1006,9 +1006,9 @@ Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und R
 	  </MilitaryShipRolesBuiltByPrivateSector>
 	  
 	  <FeatureExplanations>
-		  <string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
-		  <string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
-		  <string>[HL]Privateer Navy:[/HL] Nobles within your empire will fund construction and operation of a small number of Escorts to defend civilian shipping. These ships are funded from your private economy (purchase and maintenance). They cannot be manually controlled</string>
+		  <string>[HL]Verbesserte Miliz:[/HL] Die verteidigenden Miliztruppen sind viel stärker als üblich und bieten eine bessere Verteidigung gegen Eindringlinge. Wenn eine Eurer Kolonien erobert wird, führt jeder Aufstand gegen die Eindringlinge auch zu stärkeren Miliztruppen, die versuchen, in Euer Reich zurückzukehren.</string>
+		  <string>[HL]Feudale Verpflichtung:[/HL] Truppenrekrutierungsrate für 2 Jahre nach Kriegsbeginn verdoppelt.</string>
+		  <string>[HL]Privatmarine:[/HL] Adlige in Eurem Reich werden den Bau und Betrieb einer kleinen Anzahl von Eskortschiffen finanzieren, um die zivile Schifffahrt zu verteidigen. Diese Schiffe werden aus Eurer Privatwirtschaft (Kauf und Wartung) finanziert. Sie können nicht manuell gesteuert werden.</string>
 	  </FeatureExplanations>
 
 	  <LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
@@ -1265,8 +1265,8 @@ Könige können mit absoluter Macht regieren, oder sie können die Macht mit ein
 	  <UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
 
 	  <FeatureExplanations>
-		  <string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
-		  <string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
+		  <string>[HL]Flaggschiff:[/HL] kann ein Militärschiff als Flaggschiff Eures Imperiums bestimmen. Flaggschiffe haben +10 % Zielgenauigkeit, Gegenmaßnahmen, Schiffsmanöver, Schiffsgeschwindigkeit und Schadenskontrolle. Wenn Euer Flaggschiff ein feindliches Militärschiff gleicher oder größerer Größe zerstört, erhält Euer Imperium einen einjährigen Glücksbonus. Wenn Euer Flaggschiff zerstört wird, erhält Euer Imperium eine einjährige Zufriedenheitsstrafe. Um ein Militärschiff als Euer Flaggschiff zuzuweisen, klickt mit der rechten Maustaste auf das Schiff, um eine Popup-Menüoption anzuzeigen.</string>
+		  <string>[HL]Immer gerechtfertigt:[/HL] Alle Kriege, die Ihr erklärt, werden von Eurer Bevölkerung immer als gerechtfertigt angesehen, wodurch die Wachstumsrate der Kriegsmüdigkeit verlangsamt wird.</string>
 	  </FeatureExplanations>
 
 	  <LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
@@ -1556,8 +1556,8 @@ Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Ver
     </Bonuses>
 	  
 	  <FeatureExplanations>
-		  <string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
-		  <string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+		  <string>[HL]Kriegswelt:[/HL] kann manuell ein vorübergehendes War World-Ereignis in einer Eurer Kolonien einleiten, um +100 % mehr Truppenrekrutierung, Schiffsbau und Anlagenbau zu erhalten, jedoch mit verringerter Koloniezufriedenheit. War World dauert zwei Jahre und kostet zum Starten 20.000 Credits.</string>
+		  <string>[HL]Beruhigende Sicherheit:[/HL] Eine hohe Truppenpräsenz in Euren Kolonien erhöht die Zufriedenheit um +5. Dieser Koloniegenehmigungsfaktor beginnt, wenn Ihr mindestens die Hälfte der erwarteten Truppenstärke habt, um die Kolonie zu verteidigen. Einzelheiten findet Ihr in den Koloniegenehmigungsfaktoren im Auswahlfenster.</string>
 	  </FeatureExplanations>
 
 	  <HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
@@ -2115,8 +2115,8 @@ Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verf
 	  <WartimeColonyEventDefinitionId>89</WartimeColonyEventDefinitionId>
 
 	  <FeatureExplanations>
-		  <string>[HL]Intuitive Jumps:[/HL] Hyperjump accuracy doubled when exiting a jump at a location where your empire has an established presence (colony or base)</string>
-		  <string>[HL]War Spawning:[/HL] Population growth rate increases by +50% during war time</string>
+		  <string>[HL]Intuitive Sprünge:[/HL] Die Hypersprung-Genauigkeit wurde verdoppelt, wenn Ihr einen Sprung an einem Ort verlasst, an dem Euer Imperium eine etablierte Präsenz hat (Kolonie oder Basis).</string>
+		  <string>[HL]Kriegsverbreitung:[/HL] Die Bevölkerungswachstumsrate steigt während des Krieges um +50%.</string>
 	  </FeatureExplanations>
 
 	  <LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>

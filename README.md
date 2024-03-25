@@ -3,6 +3,18 @@
 
 Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames stellen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereit.
 
+<h2>Downloads für Beta-Version 1.2.1.4:</h2>
+
+Deutsche Dateien für Beta-Version 1.2.1.4:
+[Deutsch 1.2.1.4 v2.0](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.1.4-(2024.03.20)/DW2-Deutsch_1.2.1.4_v2.0.zip)
+
+Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.2.0.5):
+[DLC I&D v1.3](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.1.4-(2024.03.20)/DW2-Deutsch_1.2.1.4_DLC_Ikkuro_and_Dhayut_v1.3.zip)
+
+Deutsche Dateien für DLC Quameno & Gizurean (Release-Version 1.2.0.5):
+[DLC Q&G v1.0](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.1.4-(2024.03.20)/DW2-Deutsch_1.2.1.4_DLC_Quameno_and_Gizureans_v1.0.zip)
+
+
 <h2>Downloads für Version 1.2.0.5:</h2>
 
 Diese Dateien sollten auch für Versionen ab 1.1.8.1 funktionieren.

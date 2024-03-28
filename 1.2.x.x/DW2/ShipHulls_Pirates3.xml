@@ -1316,13 +1316,13 @@
     <Role>SpaceportSmall</Role>
     <Level>0</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>350</Size>
-    <MaximumSize>850</MaximumSize>
+    <Size>250</Size>
+    <MaximumSize>750</MaximumSize>
     <DisplaySize>2200</DisplaySize>
     <ModelName>Ships/Pirates/Pirates_SpaceStaion_3</ModelName>
     <CockpitImageFilename />
     <BaseCost>7000</BaseCost>
-    <ArmorReactiveRating>4</ArmorReactiveRating>
+    <ArmorReactiveRating>3</ArmorReactiveRating>
     <IonDefense>1</IonDefense>
     <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>-0.1</CountermeasuresBonus>
@@ -3759,13 +3759,13 @@
     <Role>SpaceportSmall</Role>
     <Level>1</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>475</Size>
-    <MaximumSize>1200</MaximumSize>
+    <Size>375</Size>
+    <MaximumSize>1100</MaximumSize>
     <DisplaySize>2350</DisplaySize>
     <ModelName>Ships/Pirates/Pirates_SpaceStaion_3</ModelName>
     <CockpitImageFilename />
     <BaseCost>7700</BaseCost>
-    <ArmorReactiveRating>5</ArmorReactiveRating>
+    <ArmorReactiveRating>4</ArmorReactiveRating>
     <IonDefense>2</IonDefense>
     <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>-0.1</CountermeasuresBonus>
@@ -6229,13 +6229,13 @@
     <Role>SpaceportSmall</Role>
     <Level>2</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>550</Size>
-    <MaximumSize>1600</MaximumSize>
+    <Size>450</Size>
+    <MaximumSize>1350</MaximumSize>
     <DisplaySize>2383</DisplaySize>
     <ModelName>Ships/Pirates/Pirates_SpaceStaion_3</ModelName>
     <CockpitImageFilename />
     <BaseCost>8400</BaseCost>
-    <ArmorReactiveRating>5</ArmorReactiveRating>
+    <ArmorReactiveRating>4</ArmorReactiveRating>
     <IonDefense>2</IonDefense>
     <EngineLimit>-1</EngineLimit>
     <CountermeasuresBonus>-0.1</CountermeasuresBonus>
@@ -9975,7 +9975,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Weltraumbollwerk</Name>
+    <Name>Weltraumbollwerk v2</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -10504,7 +10504,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -10684,7 +10684,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -10701,7 +10701,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -10885,7 +10885,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -10902,7 +10902,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11086,7 +11086,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11103,7 +11103,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11287,7 +11287,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11304,7 +11304,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11504,7 +11504,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11521,7 +11521,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11709,7 +11709,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11726,7 +11726,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11930,7 +11930,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -11947,7 +11947,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12151,7 +12151,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12168,7 +12168,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12330,7 +12330,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Überlegener Jäger</Name>
+    <Name>Überlegener Jäger v2</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -12372,7 +12372,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12389,7 +12389,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12569,7 +12569,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12586,7 +12586,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12786,7 +12786,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -12803,7 +12803,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13003,7 +13003,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13020,7 +13020,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13240,7 +13240,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13257,7 +13257,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13493,7 +13493,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13510,7 +13510,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13527,7 +13527,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon2</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -13730,27 +13730,23 @@
     <Role>Cruiser</Role>
     <Level>0</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>300</Size>
-    <MaximumSize>900</MaximumSize>
-    <DisplaySize>442</DisplaySize>
+    <Size>250</Size>
+    <MaximumSize>750</MaximumSize>
+    <DisplaySize>410</DisplaySize>
     <ModelName>Ships/Pirates/Pirates_Cruiser_Ship_3</ModelName>
-    <BaseCost>6000</BaseCost>
-    <ArmorReactiveRating>7</ArmorReactiveRating>
-    <IonDefense>5</IonDefense>
+    <CockpitImageFilename />
+    <BaseCost>10000</BaseCost>
+    <ArmorReactiveRating>5</ArmorReactiveRating>
+    <IonDefense>3</IonDefense>
     <EngineLimit>-1</EngineLimit>
+    <CountermeasuresBonus>0</CountermeasuresBonus>
+    <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
     <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
     <BuildSpeedFactor>0.5</BuildSpeedFactor>
     <Bonuses>
       <Bonus>
         <Type>WeaponsRange</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ShipManeuvering</Type>
         <Amount>0.1</Amount>
         <AppliesTo>Item</AppliesTo>
         <FilterId>0</FilterId>
@@ -14624,19 +14620,15 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>240</Amount>
+        <Amount>350</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>240</Amount>
+        <Amount>175</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>480</Amount>
-      </ResourceQuantity>
-      <ResourceQuantity>
-        <ResourceId>78</ResourceId>
-        <Amount>480</Amount>
+        <Amount>175</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Kreuzer</Name>

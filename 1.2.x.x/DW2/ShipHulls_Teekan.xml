@@ -39,7 +39,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -56,7 +56,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -198,7 +198,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>ZimZip Attack Shuttle</Name>
+    <Name>ZimZip Angriffs-Shuttle</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -22628,7 +22628,7 @@
       <ComponentBay>
         <ComponentBayId>3</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon4</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -22645,7 +22645,7 @@
       <ComponentBay>
         <ComponentBayId>4</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon5</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -22730,7 +22730,7 @@
       <ComponentBay>
         <ComponentBayId>9</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon11</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -22747,7 +22747,7 @@
       <ComponentBay>
         <ComponentBayId>10</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon12</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -25969,6 +25969,7 @@
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
     <MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
+    <BuildSpeedFactor>0.5</BuildSpeedFactor>
     <ModelSize>
       <X>0</X>
       <Y>0</Y>
@@ -30051,7 +30052,7 @@
       <ComponentBay>
         <ComponentBayId>4</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon4</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -30068,7 +30069,7 @@
       <ComponentBay>
         <ComponentBayId>5</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon5</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -30170,7 +30171,7 @@
       <ComponentBay>
         <ComponentBayId>11</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon11</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -30187,7 +30188,7 @@
       <ComponentBay>
         <ComponentBayId>12</ComponentBayId>
         <Type>Weapon</Type>
-        <MaximumComponentSize>120</MaximumComponentSize>
+        <MaximumComponentSize>39</MaximumComponentSize>
         <MeshName>#weapon12</MeshName>
         <RotationHalfArcRange>1.571</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
@@ -33613,7 +33614,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Weltraumbollwerk</Name>
+    <Name>Weltraumbollwerk v2</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -35522,7 +35523,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -35702,7 +35703,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -35719,7 +35720,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -35899,7 +35900,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -35916,7 +35917,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36100,7 +36101,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36117,7 +36118,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36317,7 +36318,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36501,7 +36502,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36518,7 +36519,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36702,7 +36703,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36719,7 +36720,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36919,7 +36920,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -36936,7 +36937,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66207,7 +66208,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66224,7 +66225,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66412,7 +66413,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66429,7 +66430,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66617,7 +66618,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66634,7 +66635,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66796,7 +66797,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>ZimZip Attack Shuttle</Name>
+    <Name>ZimZip Angriffs-Shuttle</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -66838,7 +66839,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -66855,7 +66856,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -67043,7 +67044,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -67060,7 +67061,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -67222,7 +67223,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>ZimZip Attack Shuttle</Name>
+    <Name>ZimZip Angriffs-Shuttle</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -67264,7 +67265,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>0</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -67281,7 +67282,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -67443,7 +67444,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Überlegener Jäger</Name>
+    <Name>Überlegener Jäger v2</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -67485,7 +67486,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -67502,7 +67503,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -67722,7 +67723,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -67739,7 +67740,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -67975,7 +67976,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -67992,7 +67993,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>
@@ -68009,7 +68010,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon2</MeshName>
-        <RotationHalfArcRange>1.571</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>1</X>
           <Y>1</Y>

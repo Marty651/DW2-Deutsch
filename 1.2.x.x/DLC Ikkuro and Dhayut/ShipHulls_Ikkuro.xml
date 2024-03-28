@@ -12654,8 +12654,8 @@
     <Role>ColonyShip</Role>
     <Level>0</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>175</Size>
-    <MaximumSize>500</MaximumSize>
+    <Size>150</Size>
+    <MaximumSize>525</MaximumSize>
     <DisplaySize>500</DisplaySize>
     <ModelName>Ships/Ikkuro/Ikkuro Colony</ModelName>
     <CockpitImageFilename />
@@ -13513,11 +13513,11 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>88</Amount>
+        <Amount>75</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>88</Amount>
+        <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Kleines Kolonieschiff</Name>
@@ -34627,8 +34627,8 @@
     <Role>ColonyShip</Role>
     <Level>1</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>250</Size>
-    <MaximumSize>675</MaximumSize>
+    <Size>225</Size>
+    <MaximumSize>700</MaximumSize>
     <DisplaySize>600</DisplaySize>
     <ModelName>Ships/Ikkuro/Ikkuro Colony</ModelName>
     <CockpitImageFilename />
@@ -34640,6 +34640,7 @@
     <TargetingBonus>0</TargetingBonus>
     <TurnRollRate>0.25</TurnRollRate>
     <MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
+    <BuildSpeedFactor>0.5</BuildSpeedFactor>
     <ModelSize>
       <X>0</X>
       <Y>0</Y>
@@ -35568,15 +35569,15 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>300</Amount>
+        <Amount>270</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>150</Amount>
+        <Amount>135</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>150</Amount>
+        <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Mittleres Kolonieschiff</Name>
@@ -44593,7 +44594,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Weltraumbollwerk</Name>
+    <Name>Weltraumbollwerk v2</Name>
     <ImageFilename>Ships/Ikkuro/Images/Ikkuro Spaceport Small</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -46527,8 +46528,8 @@
     <Role>ColonyShip</Role>
     <Level>2</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>260</Size>
-    <MaximumSize>710</MaximumSize>
+    <Size>235</Size>
+    <MaximumSize>735</MaximumSize>
     <DisplaySize>700</DisplaySize>
     <ModelName>Ships/Ikkuro/Ikkuro Colony</ModelName>
     <CockpitImageFilename />
@@ -47501,15 +47502,15 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>364</Amount>
+        <Amount>329</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>182</Amount>
+        <Amount>164</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>182</Amount>
+        <Amount>164</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Großes Kolonieschiff</Name>
@@ -68330,8 +68331,8 @@
     <Role>ColonyShip</Role>
     <Level>3</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>450</Size>
-    <MaximumSize>1275</MaximumSize>
+    <Size>425</Size>
+    <MaximumSize>1300</MaximumSize>
     <DisplaySize>825</DisplaySize>
     <ModelName>Ships/Ikkuro/Ikkuro Colony</ModelName>
     <CockpitImageFilename />
@@ -69367,19 +69368,19 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>360</Amount>
+        <Amount>340</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>360</Amount>
+        <Amount>340</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>720</Amount>
+        <Amount>680</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>78</ResourceId>
-        <Amount>720</Amount>
+        <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Massives Kolonieschiff</Name>
@@ -73810,8 +73811,8 @@
     <Role>ColonyShip</Role>
     <Level>4</Level>
     <DesignTemplateId>-1</DesignTemplateId>
-    <Size>525</Size>
-    <MaximumSize>1500</MaximumSize>
+    <Size>500</Size>
+    <MaximumSize>1525</MaximumSize>
     <DisplaySize>875</DisplaySize>
     <ModelName>Ships/Ikkuro/Ikkuro Colony</ModelName>
     <CockpitImageFilename />
@@ -74880,19 +74881,19 @@
     <ResourcesRequired>
       <ResourceQuantity>
         <ResourceId>8</ResourceId>
-        <Amount>420</Amount>
+        <Amount>400</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>12</ResourceId>
-        <Amount>420</Amount>
+        <Amount>400</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>10</ResourceId>
-        <Amount>840</Amount>
+        <Amount>800</Amount>
       </ResourceQuantity>
       <ResourceQuantity>
         <ResourceId>78</ResourceId>
-        <Amount>840</Amount>
+        <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Weltschiff</Name>
@@ -82066,7 +82067,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82083,7 +82084,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82263,7 +82264,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82280,7 +82281,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82460,7 +82461,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82477,7 +82478,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82661,7 +82662,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82678,7 +82679,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82878,7 +82879,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -82895,7 +82896,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83079,7 +83080,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83096,7 +83097,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83280,7 +83281,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83297,7 +83298,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83497,7 +83498,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83514,7 +83515,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83714,7 +83715,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83731,7 +83732,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83919,7 +83920,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -83936,7 +83937,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84156,7 +84157,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84173,7 +84174,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84361,7 +84362,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84378,7 +84379,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84614,7 +84615,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84631,7 +84632,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84819,7 +84820,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84836,7 +84837,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -84998,7 +84999,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Überlegener Jäger</Name>
+    <Name>Überlegener Jäger v2</Name>
     <ImageFilename>Ships/Ikkuro/Images/Ikkuro Drone Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -85040,7 +85041,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon0</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -85057,7 +85058,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>10</MaximumComponentSize>
         <MeshName>#weapon1</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>
@@ -85074,7 +85075,7 @@
         <Type>Weapon</Type>
         <MaximumComponentSize>5</MaximumComponentSize>
         <MeshName>#weapon2</MeshName>
-        <RotationHalfArcRange>1.963</RotationHalfArcRange>
+        <RotationHalfArcRange>0.785</RotationHalfArcRange>
         <DisplayEffectRescaleFactor>
           <X>0</X>
           <Y>0</Y>

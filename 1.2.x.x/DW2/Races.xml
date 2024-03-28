@@ -189,16 +189,16 @@
 	</AdditionalCharacterTraits>
 
 	  <FeatureExplanations>
-		  <string>[HL]Großartige Kunstausstellung:[/HL] Wenn Ihr ein Freihandelsabkommen unterzeichnet oder eine neue Resortbasis errichtet, erhaltet Ihr für zwei Jahre eine Steigerung der Handels- und Tourismuseinnahmen in Eurem gesamten Reich sowie eine Steigerung der Kolonieeinnahmen und des Tourismus in der Kolonie, in der die Große Kunstausstellung stattfindet. Kann nicht mehr als einmal alle 5 Jahre ausgelöst werden.</string>
-		  <string>[HL]Held der Stunde:[/HL] Wenn der Krieg erklärt wird, wählt entweder einen neuen Admiral oder einen neuen General mit zwei positiven Eigenschaften.</string>
-		  <string>[HL]Interne Debatten:[/HL] Wenn Ihr einen neuen Verteidigungsvertrag unterzeichnet, erhaltet Ihr einen fähigen neuen Botschafter, aber auch eine zweijährige Verkürzung der Koloniezufriedenheit in Eurem gesamten Imperium.</string>
-		  <string>[HL]Erhöhte Sicherheit:[/HL] Wenn eine ausländische Geheimdienstmission gegen Euch erfolgreich ist (aber entdeckt wird), könnt Ihr einen Spion ausgeben, um einen 2-Jahres-Boost bei der Spionageabwehr zu erhalten und gleichzeitig die Koloniezufriedenheit in Eurem gesamten Imperium zu verringern.</string>
-		  <string>[HL]Neue Welten:[/HL] Wenn Ihr einen kontinentalen Planeten kolonisiert oder erobert, erhaltet Ihr einen kostenlosen, zufälligen Kolonisierungs-Technologievorschuss.</string>
-		  <string>[HL]Große Träger:[/HL] alle Trägerschiffrümpfe +50 Größe.</string>
-		  <string>[HL]Einzigartige Anführereigenschaft – Bündnisbauer:[/HL] +10 % Diplomatie.</string>
-		  <string>[HL]Einzigartige Botschaftereigenschaft – Unternehmer:[/HL] +10 % Handelseinkommen.</string>
-		  <string>[HL]Einzigartige Spionageeigenschaft – Industrieagent:[/HL] +5 % Spionage.</string>
-		  <string>[HL]Einzigartige Wissenschaftlereigenschaft – Zerstörerisch:[/HL] +10 % Waffenforschung.</string>
+		  <string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
+		  <string>[HL]Hero of the Hour:[/HL] When war is declared on you choose either a new Admiral or new General with two positive traits</string>
+		  <string>[HL]Internal Debates:[/HL] When you sign a new Defense treaty obtain a capable new Ambassador but also a 2 year decrease to Colony Happiness throughout your empire</string>
+		  <string>[HL]Heightened Security:[/HL] When a foreign intelligence mission against you succeeds (but is detected) you may choose to spend a Spy to gain a 2 year boost to Counter Espionage along with a decrease to Colony Happiness throughout your empire</string>
+		  <string>[HL]New Worlds:[/HL] When you colonize or conquer a Continental planet obtain a free random Colonization tech advance</string>
+		  <string>[HL]Large Carriers:[/HL] all Carrier ship hulls +50 size</string>
+		  <string>[HL]Unique Leader trait - Alliance Builder:[/HL] +10% Diplomacy</string>
+		  <string>[HL]Unique Ambassador trait - Entrepreneur:[/HL] +10% Trade Income</string>
+		  <string>[HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage</string>
+		  <string>[HL]Unique Scientist trait - Destructive:[/HL] +10% Weapons Research</string>
 	  </FeatureExplanations>
 
 	  <Biases>
@@ -432,19 +432,15 @@
     </SpaceportAmbientSoundEffectFilenames>
     <DefaultInfantryId>2</DefaultInfantryId>
     <Name>Human</Name>
-    <Description>Die Menschen sind große, weitgehend unbehaarte, zweibeinige Säugetiere.
-    
-Sie sind intelligent, gerissen und einfallsreich und haben sich über die ganze Galaxie verbreitet.
+    <Description>Der Mensch ist eine widersprüchliche Spezies, brutal im Krieg, aber dennoch offen für Gemeinschaft. Welchen Weg sie einschlagen, hängt möglicherweise von ihren Anführern ab und davon, welchen Gefahren oder Chancen sie bei ihrer Expansion in die Sterne ausgesetzt sind. Viele Arten sind Sklaven ihrer Natur, aber der Mensch ist bekanntermaßen schwer vorherzusagen.
 
-Menschen sind von Natur aus freundlich, aber andere betrachten sie manchmal als intrigant und manipulativ. Die Menschen schätzen politische Macht und Einfluss sehr und schwelgen oft in subtilen politischen Manövern und Intrigen, während sie immer mehr Kontrolle über ihre Opfer erlangen. Sie haben ein erstaunliches Talent für das Erkennen von Gelegenheiten zum politischen Aufstieg.
+Obwohl der Mensch nicht zu den forschungsorientiertesten galaktischen Rassen gehört, ist er von Natur aus neugierig und kreativ, was ihm bei seinen wissenschaftlichen Untersuchungen einen leichten Vorteil verschaffen kann. Sie sind auch geschickte Kaufleute und Händler. Aber ihre wahren Stärken liegen in der Diplomatie, der Spionage und (falls andere Optionen scheitern) in der Kriegsführung.
 
-Ihre natürlichen Fähigkeiten machen sie zu hervorragenden Diplomaten. Das Verhandlungsgeschick der Menschen ist berühmt - sie können fast jede scheinbar aussichtslose Situation zu ihrem Vorteil verändern.
+Menschen sind daran interessiert, ihre Kultur zu teilen und die Lebensweisen anderer Arten kennenzulernen, was sie dazu veranlasst, neue Partner für Handel und kulturellen Austausch zu suchen. Sie lieben es auch, zu expandieren, und die Besiedelung neuer Welten inspiriert sie dazu, noch weiter ins Unbekannte vorzudringen. Das ist vielleicht mehr als alles andere, was sie gefährlich macht, denn wenn Menschen erst einmal den Eindruck von Erfolg verspürt haben, werden sie sich nur noch nach mehr sehnen.
 
-Die Menschen haben zudem eine natürliche Neugierde, die ihnen einen Vorteil in der wissenschaftlichen Forschung verschafft. Ihre Wissenschaftler und Ingenieure erkennen schnell die Anwendung neuer Entdeckungen und erfinden neue Technologien, die auf diesem Wissen basieren.
+Wenn ein Krieg unvermeidbar (oder nur wünschenswert) wird, genießen sie die Vorteile ihrer riesigen Schiffe und erfahrenen Anführer, auf die sie angewiesen sind, um den Weg zum Sieg zu ebnen. Sie streben auch nach zahlenmäßiger Stärke und sind stets auf der Suche nach Partnern für Verteidigungsverträge.
 
-Menschen haben allerdings auch eine mysteriöse Vergangenheit, die in Dunkelheit gehüllt ist. Es ist unklar, woher sie ursprünglich stammen. Manche sagen, dass sie eigentlich Einwanderer aus einer anderen Galaxie sind und sie selbst nennen das sagenumwobene "Erste Sonnen-System" als ihr ursprüngliches Heimatsystem.
-
-Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- oder Graslandplaneten.</Description>
+Den Menschen fehlen vielleicht die charakteristischen Stärken mancher Weltraumarten, aber ihre Fähigkeit zu lernen, sich anzupassen, zu handeln und zu verhandeln, macht sie zu würdigen Verbündeten und gefährlichen Feinden. Sie sollten nicht unterschätzt werden.</Description>
     <ImageFilename>UserInterface/Races/Human</ImageFilename>
   </Race>
   <Race>
@@ -543,7 +539,7 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
     <ColonizationSuitabilityModifiers>
       <OrbTypeFactor>
         <OrbTypeId>9</OrbTypeId>
-        <Factor>0.2</Factor>
+        <Factor>0.3</Factor>
       </OrbTypeFactor>
 	  <OrbTypeFactor>
         <OrbTypeId>10</OrbTypeId>
@@ -559,7 +555,7 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
       </OrbTypeFactor>
       <OrbTypeFactor>
         <OrbTypeId>23</OrbTypeId>
-        <Factor>0.35</Factor>
+        <Factor>0.25</Factor>
       </OrbTypeFactor>
     </ColonizationSuitabilityModifiers>
     <MinimumSuitabilityForColonization>
@@ -1601,15 +1597,15 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 	  </AdditionalCharacterTraits>
 
 	  <FeatureExplanations>
-		  <string>[HL]Kriegerwelle:[/HL] Wenn Ihr den Krieg erklärt, erhaltet Ihr einen 2-Jahres-Boost für das Bevölkerungswachstum der Mortalen, zusammen mit Eurer Wahl zwischen einem großen Boost der Truppenrekrutierungsrate oder einem Boost der Truppenangriffsstärke.</string>
-		  <string>[HL]Patriotische Welle:[/HL] Wenn der Krieg erklärt wird, erhaltet Ihr einen 2-Jahres-Boost für das Bevölkerungswachstum der Mortalen, zusammen mit Eurer Wahl zwischen Kolonie-Korruptionsreduzierung oder Kriegsmüdigkeitsreduzierung.</string>
-		  <string>[HL]Kennt Euren Feind:[/HL] Wenn Ihr in eine feindliche Welt eindringt und sie erobert, wählt einen 2-Jahres-Boost entweder für Spionage und Gegenspionage oder für Zielerfassung und Gegenmaßnahmen.</string>
-		  <string>[HL]Beweist Euch selbst:[/HL] Wählt regelmäßig zwischen 2 Charakteren (Anführer, Admirale, Generäle), um sich einer Waffenprobe zu unterziehen. Bei Erfolg erhält der ausgewählte Charakter eine positive Eigenschaft, andernfalls eine negative Eigenschaft.</string>
-		  <string>[HL]Verstärkte Rümpfe:[/HL] Alle Schiffs- und Raumhafenrümpfe haben eine reaktive Panzerung von +1.</string>
-		  <string>[HL]Einzigartige Anführereigenschaft – Kriegsmeister:[/HL] +10 % Einsparungen bei der Truppenwartung, +20 % Einsparungen bei der Schiffswartung.</string>
-		  <string>[HL]Einzigartige Admiral-Eigenschaft – Großadmiral:[/HL] +10 % Waffenschaden, +10 % Zielen.</string>
-		  <string>[HL]Einzigartige allgemeine Eigenschaft – Jünger des Krieges:[/HL] +20 % Truppenangriffsstärke, +10 % Einsparungen bei der Truppenwartung.</string>
-		  <string>[HL]Einzigartige Botschaftereigenschaft – Einschüchternde Präsenz:[/HL] +10 % Diplomatie.</string>
+		  <string>[HL]Warrior Wave:[/HL] When you declare war obtain a 2 year boost to Mortalen Population Growth along with your choice of either a large Troop Recruitment Rate boost or a Troop Attack Strength boost</string>
+		  <string>[HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction</string>
+		  <string>[HL]Know Your Enemy:[/HL] When you invade and conquer an enemy world choose a 2 year boost to either Espionage and Counter Espionage or Targeting and Countermeasures</string>
+		  <string>[HL]Prove Yourself:[/HL] Periodically choose between 2 characters (from Leader, Admirals, Generals) to undergo a trial by arms. If successful the selected character gains a positive trait, otherwise a negative trait</string>
+		  <string>[HL]Reinforced Hulls:[/HL] all ship and spaceport hulls have +1 Reactive Armor rating</string>
+		  <string>[HL]Unique Leader trait - Warmaster:[/HL] +10% Troop Maintenance Savings, +20% Ship Maintenance Savings</string>
+		  <string>[HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting</string>
+		  <string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
+		  <string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
 	  </FeatureExplanations>
 
 	  <Bonuses>
@@ -1965,19 +1961,17 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
     </CharacterLastNames>
     <DefaultInfantryId>17</DefaultInfantryId>
     <Name>Mortalen</Name>
-    <Description>Die Mortalen sind eine wilde Spezies, halb Säugetier, halb Reptil. Sie haben extrem schnelle Reflexe; - eine Fähigkeit, die diejenigen überraschen kann, welche mit ihnen nicht vertraut sind.
+    <Description>Während einige Arten auf ihre Zukunft blicken, blicken die Mortalen auf ihre Vergangenheit, aber es wäre ein Fehler, ihre traditionellen Verhaltensweisen als Schwäche zu betrachten. Die Mortalen legen vor allem Wert auf Ehre, Loyalität und Sieg, was sie zu begehrenswerten Freunden und schrecklichen Feinden macht.
 
-Allerdings lassen sie sich auch leicht durch die kleinste Beleidigung provozieren und werden einen Feind unerbittlich verfolgen, bis sie Rache nehmen können.
+Da ihre Kultur fest in ihren alten Bräuchen verwurzelt ist, sind sie nun bereit, diese Traditionen zu den Sternen zu bringen. Zu ihren wichtigsten Werten gehört der Vorrang des Kampfes. Als Individuen streben die Mortalen nach Ehre in Willenskämpfen, bei der Jagd auf gefährliche Bestien und in tödlichen Wettbewerben.
 
-Die Mortalen sind hervorragend im Kampf - für dessen Perfektionierung sie viel Zeit aufwenden. Ihr legendärer Kriegerkodex ist hoch entwickelt und sie betrachten das Besiegen eines Feindes im Kampf als die höchstmögliche Leistung. Daher sind die Mortalen auch weithin als die besten Kämpfer der Galaxis bekannt.
+Als Gesellschaft leben die Mortalen von Wettbewerben, die ihnen die Möglichkeit bieten, das Können und die Disziplin ihrer Kultur unter Beweis zu stellen. Wenn sie einen Feind wählen, wird sich die gesamte Mortalen-Bevölkerung dem Sieg widmen. Bei den Mortalen ist die Wahrscheinlichkeit, dass sie konfliktüberdrüssig werden, weitaus geringer als bei anderen Arten. Sie geben niemals auf und werden kämpfen, auch wenn sie keinen Erfolg haben. Ein ruhmreicher Tod ist weitaus besser als ein schändliches Überleben.
 
-Auch haben die Mortalen ein besonderes Triebwerk entwickelt, das Vektortriebwerk. Diese fortschrittliche Antriebskomponente verleiht ihren Sternenschiffen eine deutlich erhöhte Agilität und Manövrierfähigkeit.
+Diese angeborene Kriegslust löst bei ihren Feinden Angst aus, ist jedoch innerhalb ihrer eigenen Kultur mit Kosten verbunden. Gemäß ihren alten Traditionen treten die Mortalen in Wettkämpfen um Geschicklichkeit und Mut gegeneinander an, und selbst hochrangige Anführer können sich persönlichen Rachefeldzügen hingeben.
 
-Mortalen führen meist ein ziemlich einfaches Leben und folgen vielen alten Traditionen, wobei sich diese hauptsächlich auf Ehre und Risikobereitschaft konzentrieren.
+Die Mortalen sind für ihre gut gepanzerten Schiffe bekannt, die einzigartig wendig sind. Dies sind die perfekten Werkzeuge, mit denen sie sich auf die Suche nach Eroberungen machen. Ihre Militärführer sehnen sich nach Fortschritt und Ehre und träumen von der galaktischen Herrschaft, der Eroberung weiterer Welten und der Unterwerfung von mehr Menschen als ihre Rivalen.
 
-Eine besondere Tradition verlangt von jedem Mann, der die Stammesführung anstrebt, einen der furchterregenden Mortaks zu jagen und zu töten. Mortaks sind furchterregende, große Monster, die die riesigen sandigen Wüstengebiete der Heimatwelten der Mortalen bewohnen. Der Name Mortalen bedeutet 'Schlächter der Mortaks'.
-
-Die Mortalen leben normalerweise in einfachen Blockbehausungen in den mit Gestrüpp bewachsenen Canyonböden der Savannen-Wüstenplaneten. Sie wurden aber auch schon des öfteren auf Sandwüsten-Planeten gefunden.</Description>
+Für die Mortalen steht Ehre an erster Stelle und die Galaxie selbst ist ihr Testgelände.</Description>
     <ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
   </Race>
   <Race>
@@ -2895,7 +2889,7 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
         <Type>BuildFacility</Type>
         <Proportion>0.2</Proportion>
         <Amount>1</Amount>
-        <Id>0</Id>
+        <Id>73</Id>
       </VictoryCondition>
       <VictoryCondition>
         <Type>LoseFewestShips</Type>

@@ -57,6 +57,7 @@ ShipMission Description Capture Prepare		;Erobern von {0}
 ShipMission Description Capture Prepare Waypoint		;{0} erobern (Wegpunkt bei {1})
 ShipMission Description Capture Prepare Refuel		;{0} erobern (tanke bei {1})
 ShipMission Description Colonize		;Kolonisiere {0}
+ShipMission Description Establish Outpost		;Errichte Außenposten bei {0}
 ShipMission Description Escape Target		;Flüchte vor {0}
 ShipMission Description Escape Destination		;Flucht nach {0}
 ShipMission Description Escape		;Flüchte
@@ -117,6 +118,7 @@ ShipMission Description With Distance Capture Prepare		;Bereite vor und Erobere 
 ShipMission Description With Distance Capture Prepare Waypoint		;Erobere {0} ({2} entfernt, Wegpunkt bei {1}, {3} entfernt)
 ShipMission Description With Distance Capture Prepare Refuel		;Erobere {0} ({2} entfernt, nachtanken bei {1}, {3} entfernt)
 ShipMission Description With Distance Colonize		;Kolonisiere {0} ({1} entfernt)
+ShipMission Description With Distance Establish Outpost		;Errichte Außenposten bei {0} ({1} entfernt)
 ShipMission Description With Distance Escape Target		;Entkomme von {0} ({1} entfernt)
 ShipMission Description With Distance Escape Destination		;Entkomme nach {0} ({1} entfernt)
 ShipMission Description With Distance Escort		;Eskortiere {0} ({1} entfernt)
@@ -150,8 +152,8 @@ ShipMission Description With Distance Scout		;Erkunde {0} ({1} entfernt)
 ShipMission Description With Distance Scrap		;Verschrotte bei {0} ({1} entfernt)
 ShipMission Description With Distance Transport		;Transportiere Fracht von {0} ({2} entfernt) nach {1} ({3} entfernt)
 ShipMission Description With Distance Transport Passengers		;Transportiere Passagiere von {0} ({2} entfernt) nach {1} ({3} entfernt)
-ShipMission Description With Distance Transport Migrants		;Transportier Migranten von {0} ({2} entfernt) nach {1} ({3} entfernt)
-ShipMission Description With Distance Transport Tourists		;TransportierTouristen von {0} ({2} entfernt) nach {1} ({3} entfernt)
+ShipMission Description With Distance Transport Migrants		;Transportiere Migranten von {0} ({2} entfernt) nach {1} ({3} entfernt)
+ShipMission Description With Distance Transport Tourists		;Transportiere Touristen von {0} ({2} entfernt) nach {1} ({3} entfernt)
 ShipMission Description With Distance UnloadTroops		;Lade Truppen bei {0} ab ({1} entfernt)
 ShipMission Description With Distance UnloadPassengers		;Lade Passagiere bei {0} ab ({1} entfernt)
 
@@ -306,9 +308,11 @@ GameTaskType QueueBase		;Konstruiert {0} ({1}) bei {2} für {3} Credits
 GameTaskType QueueBase Constructor		;Sendet {4} um {0} ({1}) bei {2} für {3} Credits zu konstruieren
 GameTaskType QueueRepairInvestigate		;Repariert und untersucht {0} ({1})
 GameTaskType QueueColonize		;Konstruiert Kolonieschiff und kolonisiert {0}
+GameTaskType QueueEstablishOutpost		;Konstruiert Kolonieschiff und errichtet Außenposten bei {0}
 GameTaskType CancelQueueBase		;Konstruktion {0} bei {1} abbrechen
 GameTaskType CancelQueueRepairInvestigate		;Reparieren und untersuchen {0} ({1}) abbrechen
 GameTaskType CancelQueueColonize		;Kolonisierung von {0} abbrechen
+GameTaskType CancelQueueEstablishOutpost		;Errichtung von Außenposten bei {0} abbrechen
 GameTaskType QueueAttackTarget		;Angriff gegen {0} in Warteschleife einreihen
 GameTaskType CancelQueueAttackTarget		;Angriff gegen {0} abbrechen
 GameTaskType QueueClearDangerousLocation		;Reihenfolge für Untersuchung gefährlicher Orte bei {0} festlegen
@@ -448,9 +452,11 @@ GameTaskType Short ClearShipMission		;Stop
 GameTaskType Short QueueBase		;Raumbasis-Reihenfolge festlegen
 GameTaskType Short QueueRepairInvestigate		;Schiff/Raumbasis reparieren und untersuchen
 GameTaskType Short QueueColonize		;Kolonisiert {0}
+GameTaskType Short QueueEstablishOutpost		;Errichtet Außenposten bei {0}
 GameTaskType Short CancelQueueBase		;Konstruktion von Raumbasis abbrechen
 GameTaskType Short CancelQueueRepairInvestigate		;Reparatur und Untersuchung abbrechen
 GameTaskType Short CancelQueueColonize		;Kolonisierung abbrechen
+GameTaskType Short CancelQueueEstablishOutpost		;Errichtung von Außenposten abbrechen
 GameTaskType Short QueueAttackTarget		;Angriffsreihenfolge festlegen 
 GameTaskType Short CancelQueueAttackTarget		;Angriff abbrechen
 GameTaskType Short QueueClearDangerousLocation		;Reihenfolge für gefährliche Orte festlegen
@@ -765,8 +771,11 @@ Troops must be at a colony to be garrisoned		;Truppen müssen in einer Kolonie s
 Click for detailed approval breakdown		;Klickt für detaillierte Analyse der Zustimmung
 
 Queued for colonization		;In der Warteschleife für Kolonisierung
+Queued for colonization or outpost		;In der Warteschleife Kolonisierung oder Außenposten
+Queued for outpost		;In der Warteschleife Außenposten
 BASEROLE queued to build here		;{0} in Warteschleife, um hier konstruiert zu werden
 SHIP colonizing here		;{0} kolonisiert hier
+SHIP establishing outpost here		;{0} errichtet hier einen Außenposten
 SHIP building BASEROLE here		;{0} konstruiert {1} hier
 Already at start		;Bereits am Anfang
 Already at end		;Bereits am Ende
@@ -4141,6 +4150,8 @@ Treaty Offer		;Vertragsangebot
 
 We have established a new colony at the TYPE CATEGORY NAME in the SYSTEM system		;Wir haben eine neue Kolonie bei {0} {1} [LOCATION]{2}[/LOCATION] im System {3} gegründet
 New Colony Founded		;Neue Kolonie gegründet
+We have established a new outpost at the TYPE CATEGORY NAME in the SYSTEM system		;Wir haben einen neuen Außenposten bei {0} {1} [LOCATION]{2}[/LOCATION] im {3}-System errichtet
+New Outpost Established		;Neuer Außenposten errichtet
 Independent Colony Resists Colonization		;Unabhängige Kolonie widersteht Kolonisierung
 The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;Die unabhängige Bevölkerung der {0} hat unserem Versuch widerstanden, {1} {2} [LOCATION]{3}[/LOCATION] im System {4} zu kolonisieren.\n\nUnser Kolonisierungsversuch hat sie verärgert und unsere Beziehungen zu ihnen beeinträchtigt.
 Colonization Success Chance		;Erfolgschance für Kolonisierung
@@ -4367,7 +4378,9 @@ Galactopedia		;Galaktopedia
 Queue Build BASEROLE		;{0} a. gewählten Ort in Bauliste einreihen
 Cancel Queue Build BASEROLE		;{0} a. gewählten Ort aus Bauliste nehmen
 Queue Colonization		;Kolonisierung a. gewähltem Ort Auftragsliste hinzufügen 
-Cancel Queue Colonization		;Kolonisierung a. gewähltem Ort aus Auftragsliste nehmen 
+Cancel Queue Colonization		;Kolonisierung a. gewähltem Ort aus Auftragsliste nehmen
+Queue Establish Outpost		;Warteschlange zur Errichtung eines Außenpostens am ausgewählten Ort
+Cancel Queue Establish Outpost		;Entferne den Außenposten am ausgewählten Ort aus der Warteschlange
 Cycle Automation settings		;Schalte durch Automatisierungseinstellungen
 Shift-KEY		;Umschalt-{0}
 Current Key Mapping for FUNCTION KEY		;Aktuelle Tastenbelegung für {0}: {1}
@@ -5068,6 +5081,8 @@ Charging Main Weapon		;Hauptwaffe wird hochgefahren
 Autosaving		;Automatisches Speichern
 Colonization Mission Aborted		;Kolonialisierungsmission abgebrochen
 Colonization Mission Aborted Explanation		;Unser Kolonieschiff [LOCATION]{0}[/LOCATION] hat seine Mission zur Kolonisierung von [LOCATION]{1}[/LOCATION] abgebrochen. Es wird angegriffen und musste aus dem Gebiet fliehen.
+Establish Outpost Mission Aborted		;Mission Außenposten errichten abgebrochen
+Establish Outpost Mission Aborted Explanation		;Unser Kolonieschiff [LOCATION]{0}[/LOCATION] hat seine Mission zur Errichtung eines Außenpostens in [LOCATION]{1}[/LOCATION] abgebrochen. Sie werden angegriffen und mussten aus dem Gebiet fliehen.
 
 PolicyExplanation ExplorationWhenSendSurveyTeam		;Bestimmt, wann Erkundungsschiffe einen Erkundungstrupp aussenden, um einen Ort gründlicher zu erkunden. Wenn Erkundungsschiffe über Ressourcenscanner verfügen, werden sie diese normalerweise zur Erkundung eines Planeten einsetzen, da sie schneller sind. Mit dieser Einstellung könnt Ihr dies jedoch in manchen Situationen außer Kraft setzen.
 PolicyExplanation ExplorationWhenInvestigateRuins		;Legt fest, wie Ruinen bei der Erkundung behandelt werden sollen. 'Fragen' bedeutet, dass Ihr gefragt werdet, ob Ihr eine Ruine untersuchen wollt. 'Immer untersuchen ohne Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden aber alle Entdeckungen stillschweigend an das Nachrichtenprotokoll gesendet werden. 'Immer untersuchen mit Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden und Entdeckungen in einer Popup-Meldung Euch gezeigt werden. 'Immer untersuchen, aber nur bei etwas Großem mit Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden und wichtige Entdeckungen in einer Popup-Meldung Euch gezeigt werden, während kleinere Entdeckungen stillschweigend an das Meldungsprotokoll gesendet werden. 'Niemals' bedeutet, dass Ruinen nie untersucht werden, es sei denn, ein Erkundungsschiff erhält den manuellen Befehl, dies zu tun.
@@ -5275,6 +5290,8 @@ InvasionTactics Explanation		;Hier wird festgelegt, wie ein Schiff bei einer Kol
 Upon acquiring SHIPNAME in the SYSTEM system we have made the following discovery		;Bei der Übernahme von [LOCATION]{0}[/LOCATION] im System {1} haben wir im Frachtraum folgende Entdeckung gemacht
 
 Warning - low suitability colony explanation		;WARNUNG: Kolonien mit einer Eignung von weniger als 20% (für die am meisten vorherschende Spezies) verursachen hohe Unterhaltskosten, was sie zu einer Belastung für Eure Wirtschaft machen kann.
+Warning - low suitability Outpost alternative		;Erwägt stattdessen die Errichtung eines Außenpostens an diesem Standort. Außenposten haben feste Unterhaltskosten, wachsen aber nicht und generieren kein Einkommen. Sie können jedoch nützlich sein, um an einem Standort Boni oder wertvolle Ressourcen zu erhalten
+Warning - low suitability no colony possible		;ACHTUNG: Eine Kolonisierung ist nicht möglich, wenn die Eignung unter Null liegt
 Low Suitability		;NIEDRIGE EIGNUNG!
 Suitability With Race LOW		;Mit {0} kolonisieren, NIEDRIGE EIGNUNG: {1}
 
@@ -5899,7 +5916,7 @@ Feudal Control		;Unter feudaler Kontrolle
 This military ship is privately owned and controlled GOVERNMENT		;Dieses Militärschiff befindet sich in Privatbesitz und wird von der Regierung {0} kontrolliert.
 
 Fleet Engagement Areas and Attack Paths		;Flotteneinsatzgebiete und Angriffswege
-Map Overlay Fleet Key Explanation		;Blau = Verteidigungsflotten\nRot = Angriffsflotten\nGelb = Invasionsflotten\nOrange = Überfallflotten
+Map Overlay Fleet Key Explanation		;Blau = Verteidigungsflotten\nRot = Angriffsflotten\nOrange = Invasionsflotten\nLila = Überfallflotten
 
 GalaxyMapOpacity		;Galaxiekarte Element Opazität
 Settings Explanation GalaxyMapOpacity		;Ändert die Opazität von Elementen auf der Galaxiekarte und macht sie entweder undurchsichtiger oder transparenter. Dazu gehören Elemente wie Territorium und Grenzen des Imperiums, Markierungen für kolonisierte Systeme und Systemabzeichen.
@@ -5932,3 +5949,25 @@ Defense Fleets		;Verteidigungsflotten
 Attack Fleets		;Angriffsflotten
 Invasion Fleets		;Invasionsflotten
 Raid Fleets		;Überfallflotten
+
+Creature Breeding		;Kreaturenzucht
+Creature Breed Rate		;Kreaturen-Zuchtrate
+
+Outposts do not have taxes		;Außenposten haben keine Steuern
+Colony Ship already establishing Outpost here		;Das Kolonieschiff errichtet hier bereits einen Außenposten
+Annual Outpost Support Cost		;Jährliche Außenposten-Supportkosten
+Annual Outpost Support Cost for RACE		;Jährliche Außenposten-Supportkosten für {0}
+Already queued to Establish Outpost here		;Bereits in der Warteschlange zur Errichtung eines Außenpostens hier
+Already queued to Colonize here		;Steht hier bereits in der Warteschlange zur Kolonisierung
+No race can establish outpost		;Keine Rasse kann einen Außenposten errichten
+Outpost Support Cost		;Kosten für den Außenposten-Support
+Outpost		;Außenposten
+Outposts		;Außenposten
+Outpost Explanation		;Außenposten sind kleine geschlossene Oberflächensiedlungen, die auf Planeten und Monden errichtet werden können.\n\nSie sind ideal für die Ansiedlung von Planeten, die sonst für eine Kolonisierung unwirtlich wären. Sie sind besonders nützlich, um wichtige Ruinen mit Imperiumsboni oder wertvollen Ressourcen zu erwerben.\n\nAußenposten wachsen nicht über ihre ursprüngliche Siedlungsbevölkerung hinaus und zahlen auch keine Steuern.\n\nFür Außenposten fallen Unterstützungskosten an, die mit der Eignung der Planetenbevölkerung korrelieren . Eine geringere Eignung erhöht die Unterstützungskosten, wohingegen eine bessere Eignung die Unterstützungskosten senkt.\n\nSomit sind Außenposten immer eine Belastung für Ihre Wirtschaft – sie verdienen nie Geld, aber es fallen immer Unterstützungskosten an.\n\nAußenposten beanspruchen auch ihr gesamtes System als Territorium Ihr Imperium.\n\nUm einen Außenposten zu errichten, muss ein Kolonieschiff zum Zielplaneten geschickt werden, aber anstatt eine 'Kolonisierungs'-Mission durchzuführen, führt das Schiff eine 'Außenposten errichten'-Mission durch.
+
+Colonies & Outposts		;Kolonien & Außenposten
+New Colonies & Outposts		;Neue Kolonien & Außenposten
+Existing population at independent colony is already suitable for this location		;Die vorhandene Population einer unabhängigen Kolonie ist für diesen Standort bereits geeignet
+
+Attack Point		;Angriffspunkt
+Not Set		;Nicht gesetzt

@@ -42,6 +42,6 @@ Alternativ kann auch das Batch-File "DW2-Deutsch-Patch.bat" gestartet werden. Da
 
 Falls man den DLC besitzt, kann man die Dateien des entsprechenden ZIP-Files in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
 
-Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anleitung findet sich im Github Hauptverzeichnis.
+Das Spiel ermöglicht es zum jetzigen Zeitpunkt auch teilweise, die Lokalisierung als Mod zu installieren. Eine entsprechende Anleitung findet sich im Github Hauptverzeichnis. Wer unter Steam spielt, kann dort auch im Workshop unseren "Deutsch-Community-Mod" abonnieren.
 
 Achtung: Bitte beachte, dass wir für die ordnungsgemäße Funktion der Dateien natürlich keine Gewährleistung geben können und wir übernehmen auch keine Verantwortung für irgendwelche Schäden durch deren Nutzung (siehe auch Disclaimer im Hauptverzeichnis)!

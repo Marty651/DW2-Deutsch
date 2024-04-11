@@ -15,7 +15,7 @@ Cruiser		;Kreuzer
 Capital Ship		;Schlachtschiff
 Planet Destroyer		;Planetenzerstörer
 Carrier		;Träger
-Troop Transport		;Truppen-Transporter
+Troop Transport		;Truppentransporter
 Freighter		;Frachter
 Small Freighter		;Kleiner Frachter
 Medium Freighter		;Mittlerer Frachter
@@ -800,7 +800,7 @@ AssaultPodShieldPenetration		;Schilddurchschlag
 AssaultPodStrength		;Angriffsstärke
 CargoCapacity		;Frachtkapazität
 ColonizationPopulationAmount		;Bevölkerungsanzahl
-CommandMaintenanceSavings		;Unterhaltseinsparungen
+CommandMaintenanceSavings		;Unterh.-Einsparungen
 CommerceTradeBonus		;Handelsbonus
 ComponentCountermeasuresBonus		;Waffen Gegenmaßnahmen
 ComponentIonDefense		;Ionenabwehr der Komponente
@@ -977,8 +977,8 @@ BonusType ConstructionSpeedCivilian		;Konstruktionsgeschw. für Zivilschiffe
 BonusType ConstructionSpeedMilitary		;Konstruktionsgeschw. für Militärschiffe
 BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschw. für Kolonieschiffe
 BonusType ConstructionSpeedFacility		;Konstruktionsgeschw. für Einrichtungen
-BonusType ColonyCorruptionReduction		;Kolonie-Korruptionsreduzierung
-BonusType ColonyHappiness		;Kolonie-Zufriedenheit
+BonusType ColonyCorruptionReduction		;Korruptions- Reduzierung
+BonusType ColonyHappiness		;Kolonie- Zufriedenheit
 BonusType ColonyIncome		;Kolonie-Einnahmen
 BonusType Concealment		;Verschleierung
 BonusType CounterEspionage		;Gegenspionage
@@ -990,7 +990,7 @@ BonusType HyperjumpSpeed		;Hypersprungtempo
 BonusType ShipSpeed		;Schiffsgeschwindigkeit
 BonusType ArmorStrength		;Panzerungsstärke
 BonusType MiningRate		;Bergbaurate
-BonusType ColonyPopulationGrowthRate		;Bevölkerungswachstum
+BonusType ColonyPopulationGrowthRate		;Bevölkerungs- Wachstum
 BonusType PsyOps		;PsyOps-Stärke
 BonusType RepairRate		;Reparaturrate
 
@@ -1026,14 +1026,14 @@ BonusType ShieldRechargeRate		;Schildaufladerate
 BonusType ShipEnergyUsage		;Energieeinsparung Schiffe
 BonusType ShipManeuvering		;Wendigkeit
 BonusType Targeting		;Zielerfassung
-BonusType TourismIncome		;Tourismus Einnahmen
+BonusType TourismIncome		;Tourismus- Einnahmen
 BonusType TradeIncome		;Handelseinnahmen
 BonusType TroopExperienceGain		;Erfahrungsgewinn der Truppe
 BonusType TroopGroundAttack		;Boden Angriffsstärke
 BonusType TroopGroundDefense		;Boden Verteidigungsstärke
-BonusType TroopMaintenance		;Unterhaltseinsparungen Truppen
-BonusType TroopRecoveryRate		;Truppenerholungsrate
-BonusType TroopRecruitment		;Truppenrekrutierungsrate
+BonusType TroopMaintenance		;Einsparungen Truppenunterhalt
+BonusType TroopRecoveryRate		;Erholungsrate
+BonusType TroopRecruitment		;Rekrutierungsrate
 BonusType WarWearinessReduction		;Reduktion Kriegsmüdigkeit
 BonusType WeaponsDamage		;Erhöhter Waffenschaden
 BonusType WeaponsRange		;Waffenreichweite erhöht
@@ -1067,7 +1067,7 @@ BonusType Scenery		;Landschaftsbild
 BonusType RaidIncome		;Plünder Einnahmen
 BonusType ScanEvasion		;Scan Ausweichen
 BonusType ScanFocusing		;Scan Fokussieren
-BonusType PlanetaryFacilityMaintenance		;Unterhaltseinsparungen Einrichtungen
+BonusType PlanetaryFacilityMaintenance		;Einsparungen Einrichtungs- Unterhalt
 BonusType PlagueCuring		;Seuchenheilung
 BonusType PlagueContainment		;Seucheneindämmung
 
@@ -1695,7 +1695,7 @@ IncomeType ShipBuilding		;Schiffskonstruktion
 IncomeType Discoveries		;Entdeckungen
 IncomeType TradeBonuses		;Handelsboni
 IncomeType TradeIncome		;Handelseinkommen
-IncomeType PrivateColonyRevenue		;Private Kolonie-Einnahmen
+IncomeType PrivateColonyRevenue		;Priv. Kolonie-Einnahmen
 
 IncomeType ColonyTax Explanation		;Die Steuersätze werden für einzelne Kolonien festgelegt. Die Steuereinnahmen werden von den privaten Einkünften der Kolonie zum festgelegten Satz erhoben. Hohe Steuersätze verringern die Zufriedenheit und verlangsamen das Wachstum der Kolonie. Niedrige Steuersätze erhöhen die Zufriedenheit und fördern das Wachstum
 IncomeType ResourceTrading Explanation		;Euer Staat wird automatisch überschüssige Ressourcen an andere Völker verkaufen, wenn Ihr ein limitiertes, beschränktes oder freies Handelsabkommen mit ihnen habt. Unabhängige Kolonien und Händler werden ebenfalls überschüssige Ressourcen von Euch kaufen
@@ -1712,13 +1712,13 @@ IncomeType TradeBonuses Explanation		;Bonuseinnahmen aus dem Gesamtvolumen des H
 IncomeType PrivateColonyRevenue Explanation		;Private Einnahmen Eurer Kolonien. Diese privaten Kolonieerträge werden besteuert, um Eurem Staat Koloniesteuereinnahmen zu bescheren
 IncomeType TradeIncome Explanation		;Zusätzliche Einnahmen aus Handelsverträgen mit anderen Imperien. Dieses Einkommen ist nur bei einigen Regierungstypen verfügbar. Es stellt für jedes Handelsabkommen (Freihandel, eingeschränkter Handel, eingeschränkter Handel) einen festen Betrag an Jahreseinkommen bereit.
 
-ExpenseType ColonyGrowthFunding		;Kolonie-Wachstum
+ExpenseType ColonyGrowthFunding		;Koloniewachstum
 ExpenseType Research		;Forschung
-ExpenseType ShipMaintenance		;Schiffs- u. Basen-Unterhalt
+ExpenseType ShipMaintenance		;Schiffs-/Basen-Unterhalt
 ExpenseType ShipMaintenance Short		;Schiffs-Unterhalt
 ExpenseType TroopMaintenance		;Truppen-Unterhalt
 ExpenseType FacilityMaintenance		;Gebäude-Unterhalt
-ExpenseType ShipBuilding		;Schiffs-Konstruktion
+ExpenseType ShipBuilding		;Schiffskonstruktion
 ExpenseType TroopRecruitment		;Truppen-Rekrutierung
 ExpenseType FacilityBuilding		;Einrichtungs-Bau
 ExpenseType ResourceTrading		;Ressourcen-Handel
@@ -1731,7 +1731,7 @@ ExpenseType PrivateGeneralExpenditure		;Allgemeine Ausgaben
 ExpenseType PrivateColonyTax		;Kolonie-Steuern
 ExpenseType PrivateShipMaintenance		;Unterhalt Privatschiffe
 ExpenseType PrivateTourism		;Privater Tourismus
-ExpenseType PrivateShipBuilding		;Private Schiffs-Konstruktion
+ExpenseType PrivateShipBuilding		;Privater Schiffsbau
 ExpenseType PrivateFuel		;Privater Treibstoff
 
 ExpenseType ColonyGrowthFunding Explanation		;Kolonien wachsen normalerweise langsam, aber Ihr könnt deren Wachstum beschleunigen, indem Ihr Finanzmittel bereitstellt.
@@ -1890,7 +1890,7 @@ Passengers		;Passagiere
 Sort X		;Sortiere: {0}
 Filter X		;Filtere: {0}
 
-Ship Construction		;Schiffs-Konstruktion
+Ship Construction		;Schiffskonstruktion
 Construction Yards		;Schiffs-Werften
 New Construction Yard Locations		;Standorte neuer Schiffs-Werften
 Construction Ships		;Konstruktions-Schiffe
@@ -2809,7 +2809,7 @@ AutomationCategory ColonyPopulationPolicy		;Bevölkerungspolitik der Kolonie
 AutomationCategory ColonyStockLevels		;Lagerbestände der Kolonie
 AutomationCategory ColonyTaxRates		;Kolonie Steuersätze
 AutomationCategory ConstructionBases		;Raumbasis-Konstruktion
-AutomationCategory ConstructionShips		;Schiffs-Konstruktion
+AutomationCategory ConstructionShips		;Schiffskonstruktion
 AutomationCategory ConstructionRepairAbandoned		;Repariere verlassene Schiffe und Raumbasen
 AutomationCategory DiplomaticGifts		;Diplomatie - Geschenke
 AutomationCategory DiplomaticTreaties		;Diplomatie - Verträge
@@ -3611,7 +3611,7 @@ Character Event Description Appearance		;{0} bei {1}
 Character Event Description Death		;{0} bei {1}
 
 Character Event BuildBase		;Konstruktion einer Raumbasis
-Character Event BuildCivilianShip		;Zivile Schiffs-Konstruktion
+Character Event BuildCivilianShip		;Zivile Schiffskonstruktion
 Character Event BuildFacility		;Konstruktion einer planetare Einrichtung
 Character Event BuildMilitaryShip		;Militärische Schiffs-Konstruktion
 Character Event BuildOtherState		;Konstruktion eines Schiffes
@@ -4272,7 +4272,7 @@ Colony Event Plague Title Other		;{0} sucht {1} heim!
 Colony Event Disaster Title		;{0}!
 Colony Event Disaster Title Other		;{0} auf {1}!
 Colony Event Plague Description		;Ein tödlicher Ausbruch von {0} hat unsere Kolonie auf [LOCATION]{1}[/LOCATION] im System {2} heimgesucht!
-Colony Event Plague Description Other		;Die [FACTION]{0}[/FACTION] wurden von einen tödlichen Ausbruch von {1} in ihrer Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} meimgesucht!
+Colony Event Plague Description Other		;Die [FACTION]{0}[/FACTION] wurden von einen tödlichen Ausbruch von {1} in ihrer Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} heimgesucht!
 Colony Event Plague Spreads Description		;Ein tödlicher Ausbruch von {0} hat sich von [LOCATION]{1}[/LOCATION] zu unsere Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} ausgebreitet!
 Colony Event Plague Spreads Description Other		;Ein tödlicher Ausbruch von {0} hat sich von [LOCATION]{1}[/LOCATION] auf [LOCATION]{2}[/LOCATION] ausgebreitet, eine Kolonie von [FACTION]{3}[/FACTION] im System {4}!
 Colony Event Disaster Description		;In unserer Kolonie auf [LOCATION]{1}[/LOCATION] im System {2} ist etwas verheerendes passiert: {0}!
@@ -4916,13 +4916,13 @@ Terraforming Improvement		;Terraforming-Verbesserung
 Terraforming Complete		;Terraforming abgeschlossen
 Terraforming Complete Explanation		;Die Qualität der Kolonie hat die maximale Terraforming Stufe erreicht. Ihr könnt diese Anlage verschrotten, wenn Ihr wollt
 
-ColonyHappiness		;Kolonie-Zufriedenheit
+ColonyHappiness		;Kolonie- Zufriedenheit
 DevelopmentChange		;Änderung der Entwicklung
 EmpireHappiness		;Volks-Zufriedenheit
 MigrationFactor		;Migrationsfaktor
 PopulationChange		;Bevölkerungsänderung
-PopulationChangePositive		;Bevölkerungswachstum
-PopulationChangeNegative		;Bevölkerungsverluste
+PopulationChangePositive		;Bevölkerungszunahme
+PopulationChangeNegative		;Bevölkerungsabnahme
 ResourceAbundance		;Ressourcenüberfluss
 
 Control Center List Sizing		;Listengröße der Haupt-Kategorien
@@ -5481,7 +5481,7 @@ THRESHOLD with MODIFIER		;{0} mit {1}
 Special Features		;Spezielle Features
 
 Typical Leader Term		;Typische Regierungszeit
-Leader Change Effect		;Führungswechsel-Effekt
+Leader Change Effect		;Effekt des Führungswechsels
 Large Boost		;Starke Steigerung
 Mild Boost		;Leichte Steigerung
 No effect		;Kein Effekt

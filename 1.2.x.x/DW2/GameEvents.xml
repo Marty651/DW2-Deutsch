@@ -11169,7 +11169,7 @@ Wir müssen Sie aber auch warnen, dass einige Mitglieder des Hohen Rates der Zen
           
 Es folgt eine Übersicht über die aktuellen Flottenpositionen und -stärken der Allianz.
           
-Dieser Nachricht ist auch eine Notiz beigefügt, die offenbar von dem diplomatischen Konsul der Ackdarian stammt, der die Überwachungsstation kommandiert. Die Notiz lautet: "Streng geheim, dringend an die Menschen weiterleiten, wir können nicht zulassen, dass diese gefährliche Situation anhält..."</Description>
+Dieser Nachricht ist auch eine Notiz beigefügt, die offenbar von dem diplomatischen Konsul der Ackdarian stammt, der die Ortungsstation kommandiert. Die Notiz lautet: "Streng geheim, dringend an die Menschen weiterleiten, wir können nicht zulassen, dass diese gefährliche Situation anhält..."</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11331,7 +11331,7 @@ Eine Nachricht scheint eine abgefangene interne Kommunikation des Bewusstseins d
 
 Daher werden wir unsere regelmäßigen Lieferungen von Zentabia Fluid einstellen, bis wir eine vernünftige Antwort von Euch erhalten.'
 
-An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem menschlichen diplomatischen Konsul, der die Überwachungsstation befehligt. Die Notiz lautet: 'Risse in der Shaktur-Achse? Eine vielversprechende Entwicklung. Weiterleitung an den Hohen Rat, um zu überlegen, wie dies ausgenutzt werden kann.'</Description>
+An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem menschlichen diplomatischen Konsul, der die Ortungsstation befehligt. Die Notiz lautet: 'Risse in der Shaktur-Achse? Eine vielversprechende Entwicklung. Weiterleitung an den Hohen Rat, um zu überlegen, wie dies ausgenutzt werden kann.'</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11413,7 +11413,7 @@ Eine Nachricht scheint eine abgefangene Übertragung vom Zentralkommando der Haa
           
 Wir bitten Sie dringend, so schnell wie möglich mit einem größeren Test fortzufahren. Wir wissen, dass wir uns nicht auf die schwächelnde Freiheitsallianz verlassen können, wenn es darum geht, die Shakturi zu stoppen, aber dieser Durchbruch wird eine ausfallsichere Option bieten, falls sich unsere Abmachung mit den Shakturi verschlechtern sollte."
 
-An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem diplomatischen Konsul der Zenox, der die Überwachungsstation kommandiert. Die Notiz lautet: "Wir wissen nur sehr wenig über dieses Projekt. Es klingt wichtig. Es sollte ein Top-Ziel für unser Geheimdienstnetzwerk sein."</Description>
+An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem diplomatischen Konsul der Zenox, der die Ortungsstation kommandiert. Die Notiz lautet: "Wir wissen nur sehr wenig über dieses Projekt. Es klingt wichtig. Es sollte ein Top-Ziel für unser Geheimdienstnetzwerk sein."</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11497,7 +11497,7 @@ Es scheint jedoch, dass das wahre Ziel unseres Angriffs geheim geblieben ist. Tr
 
 Wir müssen mit aller Eile an unserem letzten Vorhaben arbeiten.'
 
-An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem menschlichen diplomatischen Konsul, der die Überwachungsstation befehligt. Die Notiz lautet: 'Es scheint, wir haben die Situation falsch verstanden. Etwas war wichtig genug für die Mortalen, dass sie bereit waren, 4 Flotten zu verlieren, um es zu erhalten. Was geht hier vor?'</Description>
+An diese Nachricht wurde auch eine Notiz angehängt, offenbar von dem menschlichen diplomatischen Konsul, der die Ortungsstation befehligt. Die Notiz lautet: 'Es scheint, wir haben die Situation falsch verstanden. Etwas war wichtig genug für die Mortalen, dass sie bereit waren, 4 Flotten zu verlieren, um es zu erhalten. Was geht hier vor?'</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -30154,7 +30154,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
     <TriggerActions>
       <GameEventAction>
         <Type>ChangeShipEmpire</Type>
-        <MessageTitle>Automatisierte Überwachungsstation</MessageTitle>
+        <MessageTitle>Automatisierte Ortungsstation</MessageTitle>
         <Description>Erstaunlich! Seltsam! Eine uralte, automatisierte Station, eindeutig von Boskara entworfen. Und ein Truppentransporter, den wir uns nehmen können. Wir haben begonnen, auf den Pfaden derer zu wandeln, die vor uns kamen. Wir müssen diese Station befrieden und uns das zunutze machen, was wir finden. Wir werden expandieren, konsumieren, nehmen. Dabei werden wir entdecken, was die Vergangenheit uns lehrt.</Description>
         <ImageFilepath />
         <MusicFilepath />
@@ -30205,7 +30205,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Überwachungsstation erobert</MessageTitle>
+        <MessageTitle>Ortungsstation erobert</MessageTitle>
         <Description>So viel Zeit, so viel Schaden, aber trotzdem ist hier verlorenes Wissen. Hier gibt es Hinweise auf die Vergangenheit der Boskara. Diese Station, dieses System, befand sich einst am Rande des Boskara-Raums. Die Basis diente der Kommunikation mit Außerirdischen namens Shakturi. Sie waren unsere Verbündeten, vielleicht? Unsere Lakaien? Haben diese Shakturi gezittert, als sie den Namen Boskara hörten? Wahrscheinlich, denn wir haben erfahren, dass andere versklavte Wesen an der Seite der Boskara und gegen etwas namens 'Freiheitsallianz' gekämpft haben. Erbärmlicher Name! Schwache und abstoßende Kreaturen, die als 'Menschen' und 'Ackdarian' bekannt waren, wagten es, sich den Boskara und ihren Shakturi-Schergen zu widersetzen. Zweifellos wurden sie ausgelöscht und existieren nicht mehr.</Description>
         <ImageFilepath />
         <MusicFilepath />
@@ -30306,8 +30306,8 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Überwachungsstation zerstört</MessageTitle>
-        <Description>Die Station ist völlig zerstört, ebenso wie alles, was sich der Boskara-Flut entgegenstellt. Dennoch ist es unseren cleveren Wissenschaftlern gelungen, einige Datenfragmente zu bergen. Dieser Ort war einst eine Grenzüberwachungsstation für die alte Boskara-Supermacht. Eine Entdeckung! Aufzeichnungen über die Kommunikation mit Wesen namens Shakturi. Zweifellos unsere Untergebenen! Das Herrschaftsgebiet unserer Vorfahren war wirklich riesig. Die Leichtigkeit, mit der wir ihre automatischen Verteidigungsanlagen besiegt haben, beweist, dass wir mit ihrer Macht mithalten und sie sogar übertreffen können.</Description>
+        <MessageTitle>Ortungsstation zerstört</MessageTitle>
+        <Description>Die Station ist völlig zerstört, ebenso wie alles, was sich der Boskara-Flut entgegenstellt. Dennoch ist es unseren cleveren Wissenschaftlern gelungen, einige Datenfragmente zu bergen. Dieser Ort war einst eine Grenz-Ortungsstation für die alte Boskara-Supermacht. Eine Entdeckung! Aufzeichnungen über die Kommunikation mit Wesen namens Shakturi. Zweifellos unsere Untergebenen! Das Herrschaftsgebiet unserer Vorfahren war wirklich riesig. Die Leichtigkeit, mit der wir ihre automatischen Verteidigungsanlagen besiegt haben, beweist, dass wir mit ihrer Macht mithalten und sie sogar übertreffen können.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -30382,7 +30382,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
     <TriggerActions>
       <GameEventAction>
         <Type>ChangeShipEmpire</Type>
-        <MessageTitle>Automatisierte Überwachungsstation</MessageTitle>
+        <MessageTitle>Automatisierte Ortungsstation</MessageTitle>
         <Description />
         <ImageFilepath />
         <MusicFilepath />
@@ -49931,7 +49931,7 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
         <MessageTitle>Die 'Große Teekan-Zuflucht'</MessageTitle>
         <Description>Die Tragik ist kaum in Worte zu fassen. Eine kolonisierte Welt, mit vorhandener Infrastruktur, völlig verlassen. Hier hofften die damaligen Teekan, ihre Kultur zu bewahren, während sich ihre besten Köpfe vor dem Krieg versteckten, der die Galaxie verwüstete. Als die Shakturi jedoch vorrückten, glaubten die größten militärischen Köpfe unter den Teekan, dass der Standort der Zuflucht entdeckt worden war. Selbst wenn sie von der Zerstörung durch die Shakturi verschont bliebe, befürchteten die Alten, dass sie nach dem Krieg ein Ziel für diejenigen sein würde, die den Teekan den Handel mit ihren Feinden übel nahmen. Mit wenig Zeit zur Vorbereitung bestiegen die Teekan ihre Schiffe, starteten neue Karawanen und suchten andere Orte, um sich vor den Eindringlingen zu verstecken. 
 
-Automatisierte Überwachungsstationen, die mit den Kommandanten der verschiedenen Teekan-Karawanen koordiniert wurden, blieben jedoch aktiv. Sie berichten von Verwüstungen in der gesamten Galaxis. Die Freiheitsallianz setzte eine verheerende Waffe gegen die Shakturi ein, die ihre Wurmlochgeneratoren stören sollte. Eine andere Fraktion, die unseren Vorfahren unbekannt war, entwickelte im Geheimen eine andere Waffe und setzte sie zur gleichen Zeit ein, als die Freiheitsallianz ihre Waffe einsetzte. 
+Automatisierte Ortungsstationen, die mit den Kommandanten der verschiedenen Teekan-Karawanen koordiniert wurden, blieben jedoch aktiv. Sie berichten von Verwüstungen in der gesamten Galaxis. Die Freiheitsallianz setzte eine verheerende Waffe gegen die Shakturi ein, die ihre Wurmlochgeneratoren stören sollte. Eine andere Fraktion, die unseren Vorfahren unbekannt war, entwickelte im Geheimen eine andere Waffe und setzte sie zur gleichen Zeit ein, als die Freiheitsallianz ihre Waffe einsetzte. 
 
 Der letzte Eintrag spricht nur von massiven gravitischen Wellen, tektonischen Zerstörungen, die durch den Einsatz der beiden Waffen verursacht wurden. Ganze Karawanen gingen verloren. Es ist unmöglich zu berechnen, wie viele Wesen starben, da sowohl Schiffe als auch Welten zerstört wurden. Nur die wenigen Welten, die den Schäden standhielten, konnten überleben, auch wenn sie isoliert waren, ebenso wie einige Karawanenschiffe, die sich im Hyperraum befunden hatten. So schrecklich diese Waffen auch waren, sie scheinen die Galaxie gerettet zu haben, denn die Shakturi sind aus unserem Raum verschwunden. 
 
@@ -51394,7 +51394,7 @@ Da euer Ruf euch vorauseilt, wissen wir, dass ihr der Verlockung neuer Informati
     <TriggerActions>
       <GameEventAction>
         <Type>TriggerEvent</Type>
-        <MessageTitle>Eine alte Überwachungsstation</MessageTitle>
+        <MessageTitle>Eine alte Ortungsstation</MessageTitle>
         <Description>Wir sind auf eine alte Raumstation gestoßen, die eindeutig von den Zenox gebaut wurde. Die Welt unter uns zeigt Anzeichen schwerer seismischer Schäden.
 
 Die Basis ist durch Verteidigungssysteme geschützt. Es dürfte keine allzu große Herausforderung sein, diese Kräfte zu besiegen, obwohl unsere Wissenschaftler sagen, dass sie die Verteidigungssysteme außer Kraft setzen können. Das wird teuer werden, aber der Erfolg ist uns sicher. Militärische Operationen sind immer mit einem gewissen Risiko verbunden.</Description>

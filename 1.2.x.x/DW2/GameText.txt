@@ -298,7 +298,7 @@ Ship Automation AutoMigration		;Automatische Migration
 Ship Automation AutoTourism		;Automatischer Tourismus
 Ship Automation AutoBuildMiningStations		;Automatisch Bergbaustationen konstruieren
 Ship Automation AutoBuildResearchStations		;Automatisch Forschungsstationen konstruieren
-Ship Automation AutoBuildMonitoringStations		;Automatisch Überwachungsstationen konstruieren 
+Ship Automation AutoBuildMonitoringStations		;Automatisch Ortungsstationen konstruieren 
 Ship Automation AutoBuildResortBases		;Automatisch Erholungsbasen konstruieren
 Ship Automation AutoSalvageShips		;Automatische Bergung
 Ship Automation FullyAutomate		;Alles automatisieren
@@ -1846,8 +1846,8 @@ Passenger Ships		;Passagierschiffe
 
 Fleets		;Flotten
 Defensive Bases		;Verteidigungsbasen
-Monitoring Stations		;Überwachungsstationen
-New Monitoring Locations		;Neue Überwachungsstandorte
+Monitoring Stations		;Ortungsstationen
+New Monitoring Locations		;Neue Ortungsstandorte
 Enemy Targets		;Feindliche Ziele
 Dangerous Locations		;Gefährliche Gebiete
 X Ships		;{0} Schiffe
@@ -2640,7 +2640,7 @@ Priority High		;Hoch
 Priority Very High		;Sehr hoch
 Spaceport Priority		;Raumhafen-Priorität
 Defensive Base Priority		;Verteidigungsbasis-Priorität
-Monitoring Station Priority		;Überwachungsstation-Priorität
+Monitoring Station Priority		;Ortungsstation-Priorität
 Military Ship Priority		;Militärschiff-Priorität
 Exploration Ship Priority		;Erkundungsschiff-Priorität
 Construction Ship Priority		;Konstruktionsschiff-Priorität
@@ -5112,7 +5112,7 @@ PolicyExplanation ConstructionSpaceportSmallPopulationRequired		;Bevölkerungsza
 PolicyExplanation ConstructionSpaceportNearestDistance		;Die geringste zulässige Entfernung zwischen automatisch konstruierten Raumhäfen in Eurem Herrschaftsgebiet.
 PolicyExplanation ConstructionLevelSpaceport		;Prioritätsstufe für die Konstruktion neuer Raumhäfen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Raumhäfen konstruiert werden.
 PolicyExplanation ConstructionLevelDefensiveBases		;Prioritätsstufe für die Konstruktion neuer Verteidigungsbasen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Verteidigungsbasen konstruiert werden.
-PolicyExplanation ConstructionLevelMonitoring		;Prioritätsstufe für die Konstruktion neuer Überwachungsstationen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Überwachungsstationen konstruiert werden.
+PolicyExplanation ConstructionLevelMonitoring		;Prioritätsstufe für die Konstruktion neuer Ortungsstationen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Ortungsstationen konstruiert werden.
 PolicyExplanation ConstructionLevelMilitary		;Prioritätsstufe für die Konstruktion neuer Militärschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Militärschiffe konstruiert werden.
 PolicyExplanation ConstructionLevelExploration		;Prioritätsstufe für die Konstruktion neuer Erkundungsschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Erkundungsschiffe konstruiert werden.
 PolicyExplanation ConstructionLevelConstruction		;Prioritätsstufe für die Konstruktion neuer Konstruktionsschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Konstruktionsschiffe konstruiert werden.
@@ -5346,7 +5346,7 @@ Cannot retire any of these ships		;Keines dieser Schiffe kann ausgemustert werde
 
 Waiting for incoming invasion forces		;auf Invasionstruppen warten
 SentryOptOut ;Automatische Fehlerberichterstattung deaktivieren
-Explanation SentryOptOut ;Deaktiviert die automatische Übermittlung von anonymisierten Überwachungs-Fehlerberichten an Slitherine und Matrix Games
+Explanation SentryOptOut ;Deaktiviert die automatische Übermittlung von anonymisierten Ortungs-Fehlerberichten an Slitherine und Matrix Games
 
 Must first research X PROJECTS		;Muss zunächst {0} der folgenden Projekte erforschen: {1}
 Must first research SINGLE PROJECT		;{0} muss erst erforscht werden

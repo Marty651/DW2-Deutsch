@@ -3,6 +3,57 @@
     Bitte einfach ignorieren.
 #>
 
+. {
+    <#
+
+        Test: Neuer XML-Parser mit Zeilennummern und XPath-Entity-Selektor
+        - XmlDocument kann keine Zeilennummern anzeigen.
+        - XDocument/XElement/XContainer (System.Xml.Linq) kann Zeilennummern anzeigen.
+        - Zudem hat der Algorithmus ein Problem mit Strukturänderungen (z.B. Elemente fehlen).
+        - Geplante Lösung: XPath-Selektor für Entity-Selektion (z.B. /*/*/Id) und dann Attribut-Selektion (z.B. /*/*/[Id='1']/Name)
+
+        Referenzen:
+        - XPath-Beispiele: https://learn.microsoft.com/de-de/previous-versions/dotnet/netframework-4.0/ms256086(v=vs.100)
+        - [System.Xml.XPath]::XPathSelectElement: https://learn.microsoft.com/de-de/dotnet/api/system.xml.xpath.extensions.xpathselectelement?view=net-8.0
+        - https://stackoverflow.com/questions/6209841/how-to-use-xpath-with-xdocument
+        - http://www.java2s.com/example/csharp-book/cast-xelement-to-string.html
+        - https://stackoverflow.com/questions/1542073/xdocument-or-xmldocument
+        - https://learn.microsoft.com/en-us/dotnet/api/system.xml.linq.xdocument.load?view=net-8.0#system-xml-linq-xdocument-load(system-string-system-xml-linq-loadoptions)
+
+        Anmerkungen:
+        - XPathNavigator kann nicht verwendet werden, da dieser nicht mit XDocument zusammen arbeitet (älter).
+        - XDocument wird empfohlen, genau aus den oben genannten Gründen.
+        - XPathSelectElement/Elements ist eine Extension Method und muss daher statisch aufgerufen werden.
+        - Um an das XML zu kommen, kann man einfach das Xx nach [string] casten.
+        - Reading InnerXml: $reader = $xElement.CreateReader(); $reader.MoveToContent(); $reader.ReadInnerXml()
+    #>
+
+    function Load($Path) {
+        $xmlLoadOptions = [System.Xml.Linq.LoadOptions]::PreserveWhitespace -bor [System.Xml.Linq.LoadOptions]::SetLineInfo
+        $xml = [System.Xml.Linq.XDocument]::Load($Path, $xmlLoadOptions)
+        return $xml
+    }
+
+    $xmlEnNew = Load -Path "$PSScriptRoot\..\1 Englisch Neu\Artifacts_Dhayut.xml"
+    $xmlEnOld = Load -Path "$PSScriptRoot\..\2 Englisch Alt\Artifacts_Dhayut.xml"
+    $xmlDe = Load -Path "$PSScriptRoot\..\3 Deutsch Alt\Artifacts_Dhayut.xml"
+
+    [System.Xml.XPath.Extensions]::XPathSelectElements($xmlEnNew.Root, "/*/*/ArtifactId").Value
+    [System.Xml.XPath.Extensions]::XPathSelectElement($XmlEnOld, "/*/*[ArtifactId='38']/Name").Value #.LineNumber
+    [System.Xml.XPath.Extensions]::XPathSelectElement($xmlDe, "/*/*[ArtifactId='38']/Name").Value #.LineNumber
+
+    # [string]$xmlEnNew.Element("ArrayOfArtifact").Elements("Artifact")
+    # $xmlEnNew.Element("ArrayOfArtifact").Elements("Artifact")[0].LineNumber
+    # $xmlEnNew.Element("ArrayOfArtifact").Elements("Artifact").Count
+    # [string]$xmlEnNew.Element("ArrayOfArtifact").Elements("Artifact")[2]
+
+    # $xmlEnNew | Get-Member -Type Method
+    # [System.Xml.XPath.Extensions] | gm -Static -Type Method
+
+    exit
+}
+
+
 {
     exit
         function X($y) {

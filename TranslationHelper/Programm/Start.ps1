@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([string]$Mode, [switch]$Debug)
+param([string]$Mode, [switch]$Debug, [hashtable]$TestConfig)
 
 # Global Developer Settings
 #Requires -Version 7
@@ -23,12 +23,16 @@ if ($Debug.IsPresent -eq $false) {
 Remove-Module "Worker.Real" -ErrorAction Ignore ; Import-Module $PSScriptRoot\Worker.Real.psm1
 
 # @{ ... }
-$Config = . $PSScriptRoot\..\Konfiguration\Programm.ps1
+if ($TestConfig) {
+    $Config = $TestConfig
+} else {
+    $Config = . $PSScriptRoot\..\Konfiguration\Programm.ps1
+}
 
 [Worker]$Worker = New-Worker -Config $Config
 
 # @{Name = "", Dateien = @(), Regeln = @()}
-$RuleSets = . $Config.FilePathRuleSets
+$RuleSets = $Config.RuleSets
 
 Write-Host -ForegroundColor Green "
 _______          _____        _____             _            _       _____      _       _     

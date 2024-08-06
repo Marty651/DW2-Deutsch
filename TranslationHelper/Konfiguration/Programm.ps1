@@ -25,7 +25,7 @@
     MarkerOutdated = "VERALTET"
     MarkerDifferent = "UNTERSCHIEDLICH"
 
-    FilePathRuleSets = "$PSScriptRoot\Regeln.ps1"
+    RuleSets = (. "$PSScriptRoot\Regeln.ps1")
 
     FolderPathEnNew = "$PSScriptRoot\..\1 Englisch Neu"
     FolderPathEnOld = "$PSScriptRoot\..\2 Englisch Alt"
@@ -39,7 +39,7 @@
     }
 
     Deepl = @{
-        Enabled = $true
+        Enabled = $false
         ShowGreen = $false
         KeyFilePath = "$PSScriptRoot\..\Schlüssel\Deepl.txt"
         GlossaryFilePath = "$PSScriptRoot\Glossar.csv"

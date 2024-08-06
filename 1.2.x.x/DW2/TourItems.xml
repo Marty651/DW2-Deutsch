@@ -1068,7 +1068,7 @@ Wenn Sie an diesem Ort nicht bauen können, ist die Schaltfläche Warteschlange 
       </TourStep>
       <TourStep>
         <StepTitle>Konstruktions-Schiffe</StepTitle>
-        <MarkupText>Konstruktions-Schiffe sind mobile Werften. Sie bauen Basen verschiedener Art: Bergbaustationen, Forschungsstationen, Erholungsbasen, Überwachungsstationen. Sie können auch unbewegliche beschädigte Schiffe reparieren. Sie können sogar verlassene Schiffe und Basen reparieren, auf die Sie bei der Erkundung gestoßen sind.
+        <MarkupText>Konstruktions-Schiffe sind mobile Werften. Sie bauen Basen verschiedener Art: Bergbaustationen, Forschungsstationen, Erholungsbasen, Ortungsstationen. Sie können auch unbewegliche beschädigte Schiffe reparieren. Sie können sogar verlassene Schiffe und Basen reparieren, auf die Sie bei der Erkundung gestoßen sind.
 
 Für den Bau eines neuen Stützpunktes werden Baumaterialien benötigt. Die erste Aktion eines Konstruktions-Schiffs, das einen Konstruktions-Auftrag erhält, besteht also darin, zum nächstgelegenen Raumhafen zu reisen, um die benötigten Baumaterialien zu laden.
 
@@ -1082,7 +1082,7 @@ Jedes Listenelement zeigt die aktuelle Mission des Konstruktions-Schiffs an.
 [H3]Automatisierungsstatus[/H3]
 Mit der kleinen Schaltfläche auf der rechten Seite können Sie den Automatisierungsstatus des Schiffes ändern. So können Sie das Konstruktions-Schiff manuell steuern oder es vollständig automatisieren, so dass es seine eigenen Missionen auswählen kann.
 
-Oder Sie können eine spezifischere Automatisierung vornehmen, bei der das Konstruktions-Schiff nur Bergbaustationen, Forschungsstationen, Überwachungsstationen, Erholungsbasen baut oder verlassene Schiffe und Basen birgt.</MarkupText>
+Oder Sie können eine spezifischere Automatisierung vornehmen, bei der das Konstruktions-Schiff nur Bergbaustationen, Forschungsstationen, Ortungsstationen, Erholungsbasen baut oder verlassene Schiffe und Basen birgt.</MarkupText>
         <RelatedControlNames>
           <string>ConstructionShips_SubSection</string>
         </RelatedControlNames>
@@ -1754,25 +1754,25 @@ Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Verteidigung
         </RelatedControlNames>
       </TourStep>
       <TourStep>
-        <StepTitle>Überwachungsstationen</StepTitle>
-        <MarkupText>Überwachungsstationen sind spezialisierte Basen, die mit Langstreckenscannern ausgestattet sind, um strategische Gebiete zu überwachen. Sie werden an ruhigen Gebieten errichtet, die sich in Reichweite befinden, um feindliche Ziele zu überwachen.
+        <StepTitle>Ortungsstationen</StepTitle>
+        <MarkupText>Ortungsstationen sind spezialisierte Basen, die mit Langstreckenscannern ausgestattet sind, um strategische Gebiete zu überwachen. Sie werden an ruhigen Gebieten errichtet, die sich in Reichweite befinden, um feindliche Ziele zu überwachen.
 
-[H3]Liste der Überwachungsstationen[/H3]
-Dieser Bildschirm listet alle aktuellen Überwachungsstationen in Ihrem Reich auf. Probieren Sie die Sortier- und Filteroptionen am oberen Rand des Fensters aus.
+[H3]Liste der Ortungsstationen[/H3]
+Dieser Bildschirm listet alle aktuellen Ortungsstationen in Ihrem Reich auf. Probieren Sie die Sortier- und Filteroptionen am oberen Rand des Fensters aus.
 
-Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Überwachungsstationen auf der Karte hervorgehoben. System- und Standortsymbole zeigen auch Raumhäfen mit dem gelben Konstruktionssymbol an. Wenn Sie mit dem Mauszeiger auf ein Objekt in der Liste zeigen, wird das Gebiet auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird sein Gebiet ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht auf dieses Gebiet.</MarkupText>
+Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Ortungsstationen auf der Karte hervorgehoben. System- und Standortsymbole zeigen auch Raumhäfen mit dem gelben Konstruktionssymbol an. Wenn Sie mit dem Mauszeiger auf ein Objekt in der Liste zeigen, wird das Gebiet auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird sein Gebiet ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht auf dieses Gebiet.</MarkupText>
         <RelatedControlNames>
           <string>MilitaryMonitoringStations_SubSection</string>
         </RelatedControlNames>
       </TourStep>
       <TourStep>
-        <StepTitle>Neue Standorte für Überwachungsstationen</StepTitle>
-        <MarkupText>Dieser Bildschirm listet ideale Gebiete auf, in denen Sie neue Überwachungsstationen errichten sollten.
+        <StepTitle>Neue Standorte für Ortungsstationen</StepTitle>
+        <MarkupText>Dieser Bildschirm listet ideale Gebiete auf, in denen Sie neue Ortungsstationen errichten sollten.
 
-Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Gebiete der neuen Überwachungsstationen auf der Karte hervorgehoben. Wenn Sie mit dem Mauszeiger auf ein Objekt in der Liste zeigen, wird das Gebiet auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird es ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht auf dieses Gebiet.
+Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Gebiete der neuen Ortungsstationen auf der Karte hervorgehoben. Wenn Sie mit dem Mauszeiger auf ein Objekt in der Liste zeigen, wird das Gebiet auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird es ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht auf dieses Gebiet.
 
-[H3]Neue Überwachungsstationen in die Warteschlange stellen[/H3]
-Mit der Schaltfläche auf der rechten Seite können Sie den Bau einer neuen Überwachungsstation auf dem Gebiet in die Warteschlange stellen. Sie können die Schaltfläche erneut anklicken, um den Bau abzubrechen.
+[H3]Neue Ortungsstationen in die Warteschlange stellen[/H3]
+Mit der Schaltfläche auf der rechten Seite können Sie den Bau einer neuen Ortungsstation auf dem Gebiet in die Warteschlange stellen. Sie können die Schaltfläche erneut anklicken, um den Bau abzubrechen.
 
 Wenn Sie auf dem Gebiet nicht bauen können, wird die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie dort nicht bauen können.</MarkupText>
         <RelatedControlNames>

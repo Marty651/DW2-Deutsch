@@ -15,7 +15,7 @@ Cruiser		;Kreuzer
 Capital Ship		;Schlachtschiff
 Planet Destroyer		;Planetenzerstörer
 Carrier		;Träger
-Troop Transport		;Truppen-Transporter
+Troop Transport		;Truppentransport
 Freighter		;Frachter
 Small Freighter		;Kleiner Frachter
 Medium Freighter		;Mittlerer Frachter
@@ -28,12 +28,12 @@ Passenger Ship		;Passagierschiff
 Colony Ship		;Kolonieschiff
 Spaceport		;Raumhafen
 Small Spaceport		;Kleiner Raumhafen
-Medium Spaceport		;Mittlerer Raumhafen
+Medium Spaceport		;Mittl. Raumhafen
 Large Spaceport		;Großer Raumhafen
 Mining Station		;Bergbaustation
 Defensive Base		;Verteidigungsbasis
 Research Station		;Forschungsstation
-Monitoring Station		;Überwachungsstation
+Monitoring Station		;Ortungsstation
 Resort Base		;Erholungsbasis
 Interceptor		;Abfangjäger
 Bomber		;Bomber
@@ -57,6 +57,7 @@ ShipMission Description Capture Prepare		;Erobern von {0}
 ShipMission Description Capture Prepare Waypoint		;{0} erobern (Wegpunkt bei {1})
 ShipMission Description Capture Prepare Refuel		;{0} erobern (tanke bei {1})
 ShipMission Description Colonize		;Kolonisiere {0}
+ShipMission Description Establish Outpost		;Errichte Außenposten bei {0}
 ShipMission Description Escape Target		;Flüchte vor {0}
 ShipMission Description Escape Destination		;Flucht nach {0}
 ShipMission Description Escape		;Flüchte
@@ -85,8 +86,8 @@ ShipMission Description Raid Prepare Waypoint		;{0} überfallen (Wegpunkt bei {1
 ShipMission Description Raid Prepare Refuel		;{0} überfallen (tanke bei {1})
 ShipMission Description Refuel		;Auftanken bei {0}
 ShipMission Description Repair		;Reparieren bei {0}
-ShipMission Description Retire Target		;Zurückziehen nach {0}
-ShipMission Description Retire		;Zurückziehen
+ShipMission Description Retire Target		;Bei {0} ausmustern
+ShipMission Description Retire		;Ausmustern
 ShipMission Description Retrofit		;Umrüsten bei {0}
 ShipMission Description Retrofit With Design		;Umrüsten zu {1} bei {0}
 ShipMission Description Scout		;Spähe {0}
@@ -117,6 +118,7 @@ ShipMission Description With Distance Capture Prepare		;Bereite vor und Erobere 
 ShipMission Description With Distance Capture Prepare Waypoint		;Erobere {0} ({2} entfernt, Wegpunkt bei {1}, {3} entfernt)
 ShipMission Description With Distance Capture Prepare Refuel		;Erobere {0} ({2} entfernt, nachtanken bei {1}, {3} entfernt)
 ShipMission Description With Distance Colonize		;Kolonisiere {0} ({1} entfernt)
+ShipMission Description With Distance Establish Outpost		;Errichte Außenposten bei {0} ({1} entfernt)
 ShipMission Description With Distance Escape Target		;Entkomme von {0} ({1} entfernt)
 ShipMission Description With Distance Escape Destination		;Entkomme nach {0} ({1} entfernt)
 ShipMission Description With Distance Escort		;Eskortiere {0} ({1} entfernt)
@@ -150,8 +152,8 @@ ShipMission Description With Distance Scout		;Erkunde {0} ({1} entfernt)
 ShipMission Description With Distance Scrap		;Verschrotte bei {0} ({1} entfernt)
 ShipMission Description With Distance Transport		;Transportiere Fracht von {0} ({2} entfernt) nach {1} ({3} entfernt)
 ShipMission Description With Distance Transport Passengers		;Transportiere Passagiere von {0} ({2} entfernt) nach {1} ({3} entfernt)
-ShipMission Description With Distance Transport Migrants		;Transportier Migranten von {0} ({2} entfernt) nach {1} ({3} entfernt)
-ShipMission Description With Distance Transport Tourists		;TransportierTouristen von {0} ({2} entfernt) nach {1} ({3} entfernt)
+ShipMission Description With Distance Transport Migrants		;Transportiere Migranten von {0} ({2} entfernt) nach {1} ({3} entfernt)
+ShipMission Description With Distance Transport Tourists		;Transportiere Touristen von {0} ({2} entfernt) nach {1} ({3} entfernt)
 ShipMission Description With Distance UnloadTroops		;Lade Truppen bei {0} ab ({1} entfernt)
 ShipMission Description With Distance UnloadPassengers		;Lade Passagiere bei {0} ab ({1} entfernt)
 
@@ -225,7 +227,7 @@ disabled		;deaktiviert
 All components normal		;Alle Komponenten normal
 Fleet		;Flotte
 
-Star		;
+Star		;Stern
 Planet		;Planet
 Moon		;Mond
 Asteroid		;Asteroid
@@ -296,7 +298,7 @@ Ship Automation AutoMigration		;Automatische Migration
 Ship Automation AutoTourism		;Automatischer Tourismus
 Ship Automation AutoBuildMiningStations		;Automatisch Bergbaustationen konstruieren
 Ship Automation AutoBuildResearchStations		;Automatisch Forschungsstationen konstruieren
-Ship Automation AutoBuildMonitoringStations		;Automatisch Überwachungsstationen konstruieren 
+Ship Automation AutoBuildMonitoringStations		;Automatisch Ortungsstationen konstruieren 
 Ship Automation AutoBuildResortBases		;Automatisch Erholungsbasen konstruieren
 Ship Automation AutoSalvageShips		;Automatische Bergung
 Ship Automation FullyAutomate		;Alles automatisieren
@@ -306,14 +308,17 @@ GameTaskType QueueBase		;Konstruiert {0} ({1}) bei {2} für {3} Credits
 GameTaskType QueueBase Constructor		;Sendet {4} um {0} ({1}) bei {2} für {3} Credits zu konstruieren
 GameTaskType QueueRepairInvestigate		;Repariert und untersucht {0} ({1})
 GameTaskType QueueColonize		;Konstruiert Kolonieschiff und kolonisiert {0}
+GameTaskType QueueEstablishOutpost		;Konstruiert Kolonieschiff und errichtet Außenposten bei {0}
 GameTaskType CancelQueueBase		;Konstruktion {0} bei {1} abbrechen
 GameTaskType CancelQueueRepairInvestigate		;Reparieren und untersuchen {0} ({1}) abbrechen
 GameTaskType CancelQueueColonize		;Kolonisierung von {0} abbrechen
+GameTaskType CancelQueueEstablishOutpost		;Errichtung von Außenposten bei {0} abbrechen
 GameTaskType QueueAttackTarget		;Angriff gegen {0} in Warteschleife einreihen
 GameTaskType CancelQueueAttackTarget		;Angriff gegen {0} abbrechen
 GameTaskType QueueClearDangerousLocation		;Reihenfolge für Untersuchung gefährlicher Orte bei {0} festlegen
 GameTaskType CancelQueueClearDangerousLocation		;Untersuchung gefährlicher Orte bei {0} abbrechen
 GameTaskType BuildPlanetaryFacility		;Baut {0} bei {1} für {2} Credits
+GameTaskType StartColonyEvent		;Startet {0} bei {1} für {2} credits
 GameTaskType BuildShips		;Konstruiert Schiffe/Raumbasen bei {0} für {1} Credits
 GameTaskType BuildShips List		;Konstruiert Schiffe/Raumbasen bei {0} für {1} Credits:\n{2}
 GameTaskType BuildShips Single		;Konstruiert {0} ({1}) bei {2} für {3} Credits
@@ -387,6 +392,7 @@ GameTaskType HonorDefenseTreaty		;Verteidigungsabkommen einhalten
 GameTaskType DishonorDefenseTreaty		;Verteidigungsabkommen nicht einhalten
 GameTaskType ScrapPlanetaryFacility		;Verschrotte {0} bei {1}
 GameTaskType SetAsFleetLeadShip		;Schiff {0} als Führung für Flotte ({1}) festlegen
+GameTaskType SetEmpireFlagShip		;{0} als Flaggschiff des Reiches festlegen
 GameTaskType SetAttackRangeWeaker		;Angriffspriorität gegen schwächere Ziele: {0}
 GameTaskType SetAttackRangeStronger		;Angriffspriorität gegen stärkere Ziele: {0}
 GameTaskType SetFleetStance		;Angriffspriorität: {0}
@@ -423,7 +429,7 @@ GameTaskType SetTroopUngarrison Multiple		;Garnisonstruppen auflösen
 GameTaskType TradeItems		;Handel treiben
 GameTaskType TransferCharacter		;Charakter transferieren
 GameTaskType UI_ChangeZoom		;Zommlevel ändern
-GameTaskType UI_ColonyBuildFacility		;Baut Einrichtungen auf {0}
+GameTaskType UI_ColonyBuildFacility		;Baut Einrichtungen oder startet Ereignisse auf {0}
 GameTaskType UI_GotoLocation		;Zu disem Ort wechseln
 GameTaskType UI_MoveView		;Ansicht verschieben
 GameTaskType UI_ReturnToTop		;Zurück nach oben
@@ -446,9 +452,11 @@ GameTaskType Short ClearShipMission		;Stop
 GameTaskType Short QueueBase		;Raumbasis-Reihenfolge festlegen
 GameTaskType Short QueueRepairInvestigate		;Schiff/Raumbasis reparieren und untersuchen
 GameTaskType Short QueueColonize		;Kolonisiert {0}
+GameTaskType Short QueueEstablishOutpost		;Errichtet Außenposten bei {0}
 GameTaskType Short CancelQueueBase		;Konstruktion von Raumbasis abbrechen
 GameTaskType Short CancelQueueRepairInvestigate		;Reparatur und Untersuchung abbrechen
 GameTaskType Short CancelQueueColonize		;Kolonisierung abbrechen
+GameTaskType Short CancelQueueEstablishOutpost		;Errichtung von Außenposten abbrechen
 GameTaskType Short QueueAttackTarget		;Angriffsreihenfolge festlegen 
 GameTaskType Short CancelQueueAttackTarget		;Angriff abbrechen
 GameTaskType Short QueueClearDangerousLocation		;Reihenfolge für gefährliche Orte festlegen
@@ -513,6 +521,7 @@ GameTaskType Short HonorDefenseTreaty		;Verteidigungsabkommen respektieren
 GameTaskType Short DishonorDefenseTreaty		;Verteidigungsabkommen nicht respektieren
 GameTaskType Short ScrapPlanetaryFacility		;Verschrottet {0} bei {1}
 GameTaskType Short SetAsFleetLeadShip		;Führungsschiff festlegen
+GameTaskType Short SetEmpireFlagShip		;Flaggschiff des Reiches festlegen
 GameTaskType Short SetAttackRangeWeaker		;Angriffspriorität 'schwach' festlegen
 GameTaskType Short SetAttackRangeStronger		;Angriffspriorität 'stark' festlegen
 GameTaskType Short SetFleetStance		;Angriffspriorität festlegen
@@ -521,6 +530,7 @@ GameTaskType Short SetArmyTemplate		;Armeevorlage festlegen
 GameTaskType Short SetFleetFormationCoherence		;Flottenformation festlegen
 GameTaskType Short SetCapital		;Hauptwelt festlegen
 GameTaskType Short AbandonColony		;Gebt die Kolonie auf
+GameTaskType Short StartColonyEvent		;Startet Ereignis {0}
 GameTaskType Short SetColonyPopulationPolicy		;Bevölkerungspolitik festlegen
 GameTaskType Short SetDiplomaticStrategy		;Diplomatische Strategie festlegen
 GameTaskType Short SetEngagementRange		;Einsatzbereich festlegen
@@ -667,8 +677,11 @@ TacticsEngagementType EngageWhenAttacked		;Angreifen wenn angegriffen
 TacticsEngagementType FuelRange33		;33% der Treibstoffreichweite
 TacticsEngagementType FuelRange50		;50 % der Treibstoffreichweite
 TacticsEngagementType Location		;Gleicher Standort
-TacticsEngagementType Nearby		;Nahe
-TacticsEngagementType SectorRange		;Sektorreichweite
+TacticsEngagementType Nearby		;Nahe (5000 Reichweite)
+TacticsEngagementType SectorRange		;100M Reichweite
+TacticsEngagementType Range50M		;50M Reichweite
+TacticsEngagementType Range200M		;200M Reichweite
+TacticsEngagementType Range300M		;300M Reichweite
 TacticsEngagementType System		;Gleiches System
 
 FleetRetreatOverwhelmed EnemyStrength100		;Feindstärke größer ist
@@ -710,6 +723,7 @@ TacticsRoleWithinFleet CloseEscort		;Geleitschutz
 TacticsRoleWithinFleet Picket		;Wächter-Schiff
 
 No buildable facilities		;Keine konstruierbaren Einrichtungen
+No buildable facilities or events		;Keine konstruierbaren Einrichtungen oder Ereignisse
 
 Another empire has already built a base here		;Ein anderes Volk hat hier bereits eine Raumbasis konstruiert
 Already have a base of this type here		;Ihr habt bereits eine Raumbasis dieses Typs hier
@@ -757,8 +771,11 @@ Troops must be at a colony to be garrisoned		;Truppen müssen in einer Kolonie s
 Click for detailed approval breakdown		;Klickt für detaillierte Analyse der Zustimmung
 
 Queued for colonization		;In der Warteschleife für Kolonisierung
+Queued for colonization or outpost		;In der Warteschleife Kolonisierung oder Außenposten
+Queued for outpost		;In der Warteschleife Außenposten
 BASEROLE queued to build here		;{0} in Warteschleife, um hier konstruiert zu werden
 SHIP colonizing here		;{0} kolonisiert hier
+SHIP establishing outpost here		;{0} errichtet hier einen Außenposten
 SHIP building BASEROLE here		;{0} konstruiert {1} hier
 Already at start		;Bereits am Anfang
 Already at end		;Bereits am Ende
@@ -783,7 +800,7 @@ AssaultPodShieldPenetration		;Schilddurchschlag
 AssaultPodStrength		;Angriffsstärke
 CargoCapacity		;Frachtkapazität
 ColonizationPopulationAmount		;Bevölkerungsanzahl
-CommandMaintenanceSavings		;Unterhaltseinsparungen
+CommandMaintenanceSavings		;Unterh.-Einsparungen
 CommerceTradeBonus		;Handelsbonus
 ComponentCountermeasuresBonus		;Waffen Gegenmaßnahmen
 ComponentIonDefense		;Ionenabwehr der Komponente
@@ -960,8 +977,8 @@ BonusType ConstructionSpeedCivilian		;Konstruktionsgeschw. für Zivilschiffe
 BonusType ConstructionSpeedMilitary		;Konstruktionsgeschw. für Militärschiffe
 BonusType ConstructionSpeedColonyShip		;Konstruktionsgeschw. für Kolonieschiffe
 BonusType ConstructionSpeedFacility		;Konstruktionsgeschw. für Einrichtungen
-BonusType ColonyCorruptionReduction		;Kolonie-Korruptionsreduzierung
-BonusType ColonyHappiness		;Kolonie-Zufriedenheit
+BonusType ColonyCorruptionReduction		;Korruptions- Reduzierung
+BonusType ColonyHappiness		;Kolonie- Zufriedenheit
 BonusType ColonyIncome		;Kolonie-Einnahmen
 BonusType Concealment		;Verschleierung
 BonusType CounterEspionage		;Gegenspionage
@@ -973,14 +990,14 @@ BonusType HyperjumpSpeed		;Hypersprungtempo
 BonusType ShipSpeed		;Schiffsgeschwindigkeit
 BonusType ArmorStrength		;Panzerungsstärke
 BonusType MiningRate		;Bergbaurate
-BonusType ColonyPopulationGrowthRate		;Bevölkerungswachstum
+BonusType ColonyPopulationGrowthRate		;Bevölkerungs- Wachstum
 BonusType PsyOps		;PsyOps-Stärke
 BonusType RepairRate		;Reparaturrate
 
 BonusType ResearchAll		;Alle Forschungen
 BonusType ResearchArmor		;Panzerungs-Forschung
 BonusType ResearchTroops		;Truppen-Forschung
-BonusType ResearchConstruction		;Konstruktions-Forschung
+BonusType ResearchConstruction		;Konstruktions- Forschung
 BonusType ResearchEngines		;Triebwerks-Forschung
 BonusType ResearchHyperDrive		;Hyperantriebs-Forschung
 BonusType ResearchReactor		;Reaktor-Forschung
@@ -1009,14 +1026,14 @@ BonusType ShieldRechargeRate		;Schildaufladerate
 BonusType ShipEnergyUsage		;Energieeinsparung Schiffe
 BonusType ShipManeuvering		;Wendigkeit
 BonusType Targeting		;Zielerfassung
-BonusType TourismIncome		;Tourismus Einnahmen
+BonusType TourismIncome		;Tourismus- Einnahmen
 BonusType TradeIncome		;Handelseinnahmen
 BonusType TroopExperienceGain		;Erfahrungsgewinn der Truppe
 BonusType TroopGroundAttack		;Boden Angriffsstärke
 BonusType TroopGroundDefense		;Boden Verteidigungsstärke
-BonusType TroopMaintenance		;Unterhaltseinsparungen Truppen
-BonusType TroopRecoveryRate		;Truppenerholungsrate
-BonusType TroopRecruitment		;Truppenrekrutierungsrate
+BonusType TroopMaintenance		;Einsparungen Truppenunterhalt
+BonusType TroopRecoveryRate		;Erholungsrate
+BonusType TroopRecruitment		;Rekrutierungsrate
 BonusType WarWearinessReduction		;Reduktion Kriegsmüdigkeit
 BonusType WeaponsDamage		;Erhöhter Waffenschaden
 BonusType WeaponsRange		;Waffenreichweite erhöht
@@ -1050,7 +1067,7 @@ BonusType Scenery		;Landschaftsbild
 BonusType RaidIncome		;Plünder Einnahmen
 BonusType ScanEvasion		;Scan Ausweichen
 BonusType ScanFocusing		;Scan Fokussieren
-BonusType PlanetaryFacilityMaintenance		;Unterhaltseinsparungen Einrichtungen
+BonusType PlanetaryFacilityMaintenance		;Einsparungen Einrichtungs- Unterhalt
 BonusType PlagueCuring		;Seuchenheilung
 BonusType PlagueContainment		;Seucheneindämmung
 
@@ -1509,8 +1526,16 @@ ENGAGEMENT at same location		;am gleichen Standort
 ENGAGEMENT at same location as X		;am gleichen Standort wie {0}
 ENGAGEMENT in same system		;im selben System
 ENGAGEMENT in same system as X		;im selben System wie {0}
-ENGAGEMENT within sector range		;innerhalb der Sektorreichweite
-ENGAGEMENT within sector range of X		;innerhalb der Sektorreichweite von {0}
+ENGAGEMENT within sector range		;innerhalb 100M Reichweite
+ENGAGEMENT within sector range of X		;innerhalb 100M Reichweite von {0}
+
+ENGAGEMENT within 50M range		;innerhalb 50M Reichweite
+ENGAGEMENT within 50M range of X		;innerhalb 50M Reichweite von {0}
+ENGAGEMENT within 200M range		;innerhalb 200M Reichweite
+ENGAGEMENT within 200M range of X		;innerhalb 200M Reichweite von {0}
+ENGAGEMENT within 300M range		;innerhalb 300M Reichweite
+ENGAGEMENT within 300M range of X		;innerhalb 300M Reichweite von {0}
+
 ENGAGEMENT within 33% fuel range		;innerhalb von 33% Treibstoff-Reichweite
 ENGAGEMENT within 33% fuel range of X		;innerhalb von 33% Treibstoff-Reichweite von {0}
 ENGAGEMENT within 50% fuel range		;innerhalb von 50% Treibstoff-Reichweite
@@ -1669,7 +1694,8 @@ IncomeType Tourism		;Tourismus
 IncomeType ShipBuilding		;Schiffskonstruktion
 IncomeType Discoveries		;Entdeckungen
 IncomeType TradeBonuses		;Handelsboni
-IncomeType PrivateColonyRevenue		;Private Kolonie-Einnahmen
+IncomeType TradeIncome		;Handelseinkommen
+IncomeType PrivateColonyRevenue		;Priv. Kolonie-Einnahmen
 
 IncomeType ColonyTax Explanation		;Die Steuersätze werden für einzelne Kolonien festgelegt. Die Steuereinnahmen werden von den privaten Einkünften der Kolonie zum festgelegten Satz erhoben. Hohe Steuersätze verringern die Zufriedenheit und verlangsamen das Wachstum der Kolonie. Niedrige Steuersätze erhöhen die Zufriedenheit und fördern das Wachstum
 IncomeType ResourceTrading Explanation		;Euer Staat wird automatisch überschüssige Ressourcen an andere Völker verkaufen, wenn Ihr ein limitiertes, beschränktes oder freies Handelsabkommen mit ihnen habt. Unabhängige Kolonien und Händler werden ebenfalls überschüssige Ressourcen von Euch kaufen
@@ -1684,14 +1710,15 @@ IncomeType ShipBuilding Explanation		;Konstruktion von Schiffen für andere Völ
 IncomeType Discoveries Explanation		;Geld, das in alten Ruinen und verlassenen Schiffen und Raumbasen entdeckt wurde
 IncomeType TradeBonuses Explanation		;Bonuseinnahmen aus dem Gesamtvolumen des Handels mit anderen Völkern
 IncomeType PrivateColonyRevenue Explanation		;Private Einnahmen Eurer Kolonien. Diese privaten Kolonieerträge werden besteuert, um Eurem Staat Koloniesteuereinnahmen zu bescheren
+IncomeType TradeIncome Explanation		;Zusätzliche Einnahmen aus Handelsverträgen mit anderen Imperien. Dieses Einkommen ist nur bei einigen Regierungstypen verfügbar. Es stellt für jedes Handelsabkommen (Freihandel, eingeschränkter Handel, eingeschränkter Handel) einen festen Betrag an Jahreseinkommen bereit.
 
-ExpenseType ColonyGrowthFunding		;Kolonie-Wachstum
+ExpenseType ColonyGrowthFunding		;Koloniewachstum
 ExpenseType Research		;Forschung
-ExpenseType ShipMaintenance		;Schiffs- u. Basen-Unterhalt
+ExpenseType ShipMaintenance		;Schiffs-/Basen-Unterhalt
 ExpenseType ShipMaintenance Short		;Schiffs-Unterhalt
 ExpenseType TroopMaintenance		;Truppen-Unterhalt
 ExpenseType FacilityMaintenance		;Gebäude-Unterhalt
-ExpenseType ShipBuilding		;Schiffs-Konstruktion
+ExpenseType ShipBuilding		;Schiffskonstruktion
 ExpenseType TroopRecruitment		;Truppen-Rekrutierung
 ExpenseType FacilityBuilding		;Einrichtungs-Bau
 ExpenseType ResourceTrading		;Ressourcen-Handel
@@ -1704,7 +1731,7 @@ ExpenseType PrivateGeneralExpenditure		;Allgemeine Ausgaben
 ExpenseType PrivateColonyTax		;Kolonie-Steuern
 ExpenseType PrivateShipMaintenance		;Unterhalt Privatschiffe
 ExpenseType PrivateTourism		;Privater Tourismus
-ExpenseType PrivateShipBuilding		;Private Schiffs-Konstruktion
+ExpenseType PrivateShipBuilding		;Privater Schiffsbau
 ExpenseType PrivateFuel		;Privater Treibstoff
 
 ExpenseType ColonyGrowthFunding Explanation		;Kolonien wachsen normalerweise langsam, aber Ihr könnt deren Wachstum beschleunigen, indem Ihr Finanzmittel bereitstellt.
@@ -1819,8 +1846,8 @@ Passenger Ships		;Passagierschiffe
 
 Fleets		;Flotten
 Defensive Bases		;Verteidigungsbasen
-Monitoring Stations		;Überwachungsstationen
-New Monitoring Locations		;Neue Überwachungsstandorte
+Monitoring Stations		;Ortungsstationen
+New Monitoring Locations		;Neue Ortungsstandorte
 Enemy Targets		;Feindliche Ziele
 Dangerous Locations		;Gefährliche Gebiete
 X Ships		;{0} Schiffe
@@ -1863,7 +1890,7 @@ Passengers		;Passagiere
 Sort X		;Sortiere: {0}
 Filter X		;Filtere: {0}
 
-Ship Construction		;Konstruktion
+Ship Construction		;Schiffskonstruktion
 Construction Yards		;Schiffs-Werften
 New Construction Yard Locations		;Standorte neuer Schiffs-Werften
 Construction Ships		;Konstruktions-Schiffe
@@ -2613,7 +2640,7 @@ Priority High		;Hoch
 Priority Very High		;Sehr hoch
 Spaceport Priority		;Raumhafen-Priorität
 Defensive Base Priority		;Verteidigungsbasis-Priorität
-Monitoring Station Priority		;Überwachungsstation-Priorität
+Monitoring Station Priority		;Ortungsstation-Priorität
 Military Ship Priority		;Militärschiff-Priorität
 Exploration Ship Priority		;Erkundungsschiff-Priorität
 Construction Ship Priority		;Konstruktionsschiff-Priorität
@@ -2782,7 +2809,7 @@ AutomationCategory ColonyPopulationPolicy		;Bevölkerungspolitik der Kolonie
 AutomationCategory ColonyStockLevels		;Lagerbestände der Kolonie
 AutomationCategory ColonyTaxRates		;Kolonie Steuersätze
 AutomationCategory ConstructionBases		;Raumbasis-Konstruktion
-AutomationCategory ConstructionShips		;Schiffs-Konstruktion
+AutomationCategory ConstructionShips		;Schiffskonstruktion
 AutomationCategory ConstructionRepairAbandoned		;Repariere verlassene Schiffe und Raumbasen
 AutomationCategory DiplomaticGifts		;Diplomatie - Geschenke
 AutomationCategory DiplomaticTreaties		;Diplomatie - Verträge
@@ -2846,7 +2873,7 @@ Victory Condition ExploreMostSystems		;Erkundet die meisten Systeme in der Galax
 Victory Condition ExterminateOrEnslaveMostPopulation		;Löscht die meiste Bevökerung in der Galaxie aus oder versklavt diese
 Victory Condition FreeTradeAgreementsFormedProportionAllEmpires		;Schließt Freihandelsabkommen mit {0} der Völker in der Galaxie
 Victory Condition HighestPrivateRevenue		;Erhaltet die höchsten privaten Einnahmen der Galaxie
-Victory Condition HighestTradeVolume		;Erhaltet die höchste Anzahl von Handelsboni in der Galaxie
+Victory Condition HighestTradeVolume		;Erhaltet das höchste Handelseinkommen in der Galaxie
 Victory Condition KeepLeaderAlive		;Haltet das Oberhaupt Eurer Regierung am Leben
 Victory Condition LargestMilitary		;Besitzt das größte Militär in der Galaxie
 Victory Condition LargestMilitaryNonAllied		Besitzt das größte Militär unter den nicht verbündeten Völkern
@@ -2869,7 +2896,7 @@ Victory Condition MostSpaceports		;Besitzt die meisten Raumhäfen in der Galaxie
 Victory Condition MostSubjugatedDominions		;Macht die meisten Völker in der Galaxie zu Vasallen
 Victory Condition MostTimeWarring		;Verbringt die meiste Zeit im Krieg in der Galaxie
 Victory Condition MostTourismIncome		;Verdient die meisten Touristeneinnahmen in der Galaxie
-Victory Condition MostTradeIncome		;Verdient die meisten Handelseinnahmen in der Galaxie
+Victory Condition MostTradeIncome		;Erhaltet die meisten Handelsboni in der Galaxie
 Victory Condition MostTroops		;Habt die meisten Truppen in der Galaxie
 Victory Condition MostTroopsNonAllied		;Habt die meisten Truppen unter den nicht verbündeten Völkern
 Victory Condition MutualDefensePactsFormedProportionAllEmpires		;Schließt Verteidigungsabkommen mit {0} der Völker in der Galaxie
@@ -2943,8 +2970,8 @@ Victory Condition Detail LeastWars		;{0} Kriege
 Victory Condition Detail LoseFewestShipsBySize		;{0} Schiffsmasse Verluste
 Victory Condition Detail LoseFewestShips		;{0} Schiffe und Raumbasen verloren
 Victory Condition Detail LoseFewestTroops		;{0} Truppen verloren
-Victory Condition Detail MostExperiencedAdmiral		;Admiral {0}
-Victory Condition Detail MostExperiencedGeneral		;General {0}
+Victory Condition Detail MostExperiencedAdmiral		;Admiral {0} von {1}
+Victory Condition Detail MostExperiencedGeneral		;General {0} von {1}
 Victory Condition Detail MostHomeworlds		;{0} Hauptwelten
 Victory Condition Detail MostIntelligenceMissionsIntercepted		;{0} Missionen abgefangen
 Victory Condition Detail MostIntelligenceMissionsSucceed		;{0} Missionen erfolgreich
@@ -3584,7 +3611,7 @@ Character Event Description Appearance		;{0} bei {1}
 Character Event Description Death		;{0} bei {1}
 
 Character Event BuildBase		;Konstruktion einer Raumbasis
-Character Event BuildCivilianShip		;Zivile Schiffs-Konstruktion
+Character Event BuildCivilianShip		;Zivile Schiffskonstruktion
 Character Event BuildFacility		;Konstruktion einer planetare Einrichtung
 Character Event BuildMilitaryShip		;Militärische Schiffs-Konstruktion
 Character Event BuildOtherState		;Konstruktion eines Schiffes
@@ -3752,6 +3779,16 @@ Character Trait ControllingMind		;Kontroll-Genie
 Character Trait SwarmLord		;Schwarm-Leiter
 Character Trait LarvaOverseer		;Larven-Aufseher
 
+Character Trait AllianceBuilder		;Allianzbauer
+Character Trait Entrepreneur		;Unternehmer
+Character Trait IndustrialAgent		;Industrievertreter
+Character Trait Destructive		;Destruktiv
+
+Character Trait Warmaster		;Kriegsmeister
+Character Trait GrandAdmiral		;Großadmiral
+Character Trait DiscipleOfWar		;Schüler des Krieges
+Character Trait IntimidatingPresence		;Einschüchternde Präsenz
+
 Character Trait Description InspiringPresence		;Erhöht langsam die Fähigkeiten aller anderen Charaktere am gleichen Ort oder in der gleichen Flotte
 Character Trait Description Demoralizing		;Verringert langsam die Fähigkeiten aller anderen Charaktere am gleichen Ort oder in der gleichen Flotte
 Character Trait Description LocalDefenseTactics		;{0} auf Zielgenauigkeit und Gegenmaßnahmen, wenn sich die Flotte in der Nähe einer Kolonie oder Raumbasis Eures Herrschaftsgebietes befindet
@@ -3784,6 +3821,7 @@ Colony Leaves Empire Joins Us		;Die unterdrückten Einwohner von [LOCATION]{0}[/
 Colony Leaves Empire Independent		;Die Einwohner von [LOCATION]{0}[/LOCATION] sind unserer Herrschaft überdrüssig, haben unser Volk verlassen und ihre Unabhängigkeit ausgerufen!
 
 Character Death Description Generic		;Unser [CHARACTER]{0} {1}[/CHARACTER] ist bei [LOCATION]{2}[/LOCATION] gestorben!
+Character Death Description Dismissed		;Unser [CHARACTER]{0} {1}[/CHARACTER] wurde bei [LOCATION]{2}[/LOCATION] entlassen!
 Character Death Description Assassinated		;Unser [CHARACTER]{0} {1}[/CHARACTER] wurde von einem feindlichen Geheimagenten auf [LOCATION]{2}[/LOCATION] ermordet!
 Character Death Description Bombardment		;Unser [CHARACTER] {0} {1}[/CHARACTER] ist bei der orbitalen Bombardierung von [LOCATION]{2}[/LOCATION] getötet worden!
 Character Death Description ColonyDisaster		;Unser [CHARACTER]{0} {1}[/CHARACTER] ist bei einer Naturkatastrophe auf [LOCATION]{2}[/LOCATION] ums Leben gekommen!
@@ -3797,6 +3835,7 @@ Character Death Description ShipCapture		;Unser [CHARACTER]{0} {1}[/CHARACTER] w
 Character Death Description AgentExecuted		;Unser [CHARACTER] {0} {1}[/CHARACTER] wurde nach einem gescheiterten Einsatz gegen [FACTION]{2}[/FACTION] gefangen genommen und hingerichtet!
 
 Leader Other Death Description Generic		;[CHARACTER]{0}[/CHARACTER], Anführer von [FACTION]{1}[/FACTION], ist auf [LOCATION]{2}[/LOCATION] gestorben!
+Leader Other Death Description Dismissed		;[CHARACTER]{0}[/CHARACTER], Anführer von [FACTION]{1}[/FACTION], wurde bei [LOCATION]{2}[/LOCATION] entlassen!
 Leader Other Death Description Assassinated		;[CHARACTER] {0}[/CHARACTER], Anführer von [FACTION]{1}[/FACTION], wurde von einem feindlichen Geheimagenten auf [LOCATION]{2}[/LOCATION] ermordet!
 Leader Other Death Description Bombardment		;[CHARACTER]{0}[/CHARACTER], Anführer von [FACTION]{1}[/FACTION], wurde bei der orbitalen Bombardierung von [LOCATION]{2}[/LOCATION] getötet!
 Leader Other Death Description ColonyDisaster		;[CHARACTER]{0}[/CHARACTER], Anführer von [FACTION]{1}[/FACTION], ist bei einer Naturkatastrophe auf [LOCATION]{2}[/LOCATION] ums Leben gekommen!
@@ -3814,6 +3853,7 @@ Character ROLE Assassinated		;{0} Ermordet!
 
 Character LEADER Killed Other		;{0} Anführer getötet
 Character LEADER Assassinated Other		;{0} Anführer ermordet
+Character LEADER Dismissed Other		;{0} Anführer entlassen
 
 Character New Leader		;Ein neuer Anführer übernimmt die Herrschaft
 Character New Leader Description		;[CHARACTER]{0}[/CHARACTER] hat die Regierung als neuer Anführer unseres Volkes übernommen.
@@ -4110,6 +4150,8 @@ Treaty Offer		;Vertragsangebot
 
 We have established a new colony at the TYPE CATEGORY NAME in the SYSTEM system		;Wir haben eine neue Kolonie bei {0} {1} [LOCATION]{2}[/LOCATION] im System {3} gegründet
 New Colony Founded		;Neue Kolonie gegründet
+We have established a new outpost at the TYPE CATEGORY NAME in the SYSTEM system		;Wir haben einen neuen Außenposten bei {0} {1} [LOCATION]{2}[/LOCATION] im {3}-System errichtet
+New Outpost Established		;Neuer Außenposten errichtet
 Independent Colony Resists Colonization		;Unabhängige Kolonie widersteht Kolonisierung
 The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;Die unabhängige Bevölkerung der {0} hat unserem Versuch widerstanden, {1} {2} [LOCATION]{3}[/LOCATION] im System {4} zu kolonisieren.\n\nUnser Kolonisierungsversuch hat sie verärgert und unsere Beziehungen zu ihnen beeinträchtigt.
 Colonization Success Chance		;Erfolgschance für Kolonisierung
@@ -4168,8 +4210,6 @@ Unknown items are present at this location		;Unbekannte Gegenstände sind an die
 Map Overlay Exploration Key Explanation		;Grün = alle Orte im System bis zur Grundstufe erkundet\nGelb = einige Orte im System nicht erkundet\nAlle anderen = System völlig unerkundet
 Map Overlay Diplomacy Relations Key Explanation		;Grün = System im Besitz einer befreundeten Fraktion\nGelb = System im Besitz einer neutralen Fraktion\nRot = System im Besitz einer feindlichen Fraktion
 Map Overlay Nebula Boundaries Key Explanation		;Orange = Galaktischer Sturm\nViolett = Ionensturm\nGrün = Gravitonischer Sturm\nGelb = Strahlungszone
-
-Green = system owned by friendly faction\nYellow = system owned by neutral faction\nRed = system owned by enemy faction
 
 We have encountered a new empire		;Wir sind auf ein neues Volk gestoßen, [FACTION]{0}[/FACTION]]
 We have encountered a new empire SYSTEM		;Wir sind im System {0} auf ein neues Volk gestoßen, [FACTION]{1}[/FACTION]]
@@ -4232,7 +4272,7 @@ Colony Event Plague Title Other		;{0} sucht {1} heim!
 Colony Event Disaster Title		;{0}!
 Colony Event Disaster Title Other		;{0} auf {1}!
 Colony Event Plague Description		;Ein tödlicher Ausbruch von {0} hat unsere Kolonie auf [LOCATION]{1}[/LOCATION] im System {2} heimgesucht!
-Colony Event Plague Description Other		;Die [FACTION]{0}[/FACTION] wurden von einen tödlichen Ausbruch von {1} in ihrer Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} meimgesucht!
+Colony Event Plague Description Other		;Die [FACTION]{0}[/FACTION] wurden von einen tödlichen Ausbruch von {1} in ihrer Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} heimgesucht!
 Colony Event Plague Spreads Description		;Ein tödlicher Ausbruch von {0} hat sich von [LOCATION]{1}[/LOCATION] zu unsere Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} ausgebreitet!
 Colony Event Plague Spreads Description Other		;Ein tödlicher Ausbruch von {0} hat sich von [LOCATION]{1}[/LOCATION] auf [LOCATION]{2}[/LOCATION] ausgebreitet, eine Kolonie von [FACTION]{3}[/FACTION] im System {4}!
 Colony Event Disaster Description		;In unserer Kolonie auf [LOCATION]{1}[/LOCATION] im System {2} ist etwas verheerendes passiert: {0}!
@@ -4338,7 +4378,9 @@ Galactopedia		;Galaktopedia
 Queue Build BASEROLE		;{0} a. gewählten Ort in Bauliste einreihen
 Cancel Queue Build BASEROLE		;{0} a. gewählten Ort aus Bauliste nehmen
 Queue Colonization		;Kolonisierung a. gewähltem Ort Auftragsliste hinzufügen 
-Cancel Queue Colonization		;Kolonisierung a. gewähltem Ort aus Auftragsliste nehmen 
+Cancel Queue Colonization		;Kolonisierung a. gewähltem Ort aus Auftragsliste nehmen
+Queue Establish Outpost		;Warteschlange zur Errichtung eines Außenpostens am ausgewählten Ort
+Cancel Queue Establish Outpost		;Entferne den Außenposten am ausgewählten Ort aus der Warteschlange
 Cycle Automation settings		;Schalte durch Automatisierungseinstellungen
 Shift-KEY		;Umschalt-{0}
 Current Key Mapping for FUNCTION KEY		;Aktuelle Tastenbelegung für {0}: {1}
@@ -4874,13 +4916,13 @@ Terraforming Improvement		;Terraforming-Verbesserung
 Terraforming Complete		;Terraforming abgeschlossen
 Terraforming Complete Explanation		;Die Qualität der Kolonie hat die maximale Terraforming Stufe erreicht. Ihr könnt diese Anlage verschrotten, wenn Ihr wollt
 
-ColonyHappiness		;Kolonie-Zufriedenheit
+ColonyHappiness		;Kolonie- Zufriedenheit
 DevelopmentChange		;Änderung der Entwicklung
 EmpireHappiness		;Volks-Zufriedenheit
 MigrationFactor		;Migrationsfaktor
 PopulationChange		;Bevölkerungsänderung
-PopulationChangePositive		;Bevölkerungswachstum
-PopulationChangeNegative		;Bevölkerungsverluste
+PopulationChangePositive		;Bevölkerungszunahme
+PopulationChangeNegative		;Bevölkerungsabnahme
 ResourceAbundance		;Ressourcenüberfluss
 
 Control Center List Sizing		;Listengröße der Haupt-Kategorien
@@ -5039,6 +5081,8 @@ Charging Main Weapon		;Hauptwaffe wird hochgefahren
 Autosaving		;Automatisches Speichern
 Colonization Mission Aborted		;Kolonialisierungsmission abgebrochen
 Colonization Mission Aborted Explanation		;Unser Kolonieschiff [LOCATION]{0}[/LOCATION] hat seine Mission zur Kolonisierung von [LOCATION]{1}[/LOCATION] abgebrochen. Es wird angegriffen und musste aus dem Gebiet fliehen.
+Establish Outpost Mission Aborted		;Mission Außenposten errichten abgebrochen
+Establish Outpost Mission Aborted Explanation		;Unser Kolonieschiff [LOCATION]{0}[/LOCATION] hat seine Mission zur Errichtung eines Außenpostens in [LOCATION]{1}[/LOCATION] abgebrochen. Sie werden angegriffen und mussten aus dem Gebiet fliehen.
 
 PolicyExplanation ExplorationWhenSendSurveyTeam		;Bestimmt, wann Erkundungsschiffe einen Erkundungstrupp aussenden, um einen Ort gründlicher zu erkunden. Wenn Erkundungsschiffe über Ressourcenscanner verfügen, werden sie diese normalerweise zur Erkundung eines Planeten einsetzen, da sie schneller sind. Mit dieser Einstellung könnt Ihr dies jedoch in manchen Situationen außer Kraft setzen.
 PolicyExplanation ExplorationWhenInvestigateRuins		;Legt fest, wie Ruinen bei der Erkundung behandelt werden sollen. 'Fragen' bedeutet, dass Ihr gefragt werdet, ob Ihr eine Ruine untersuchen wollt. 'Immer untersuchen ohne Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden aber alle Entdeckungen stillschweigend an das Nachrichtenprotokoll gesendet werden. 'Immer untersuchen mit Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden und Entdeckungen in einer Popup-Meldung Euch gezeigt werden. 'Immer untersuchen, aber nur bei etwas Großem mit Bericht' bedeutet, dass Ruinen immer automatisch untersucht werden und wichtige Entdeckungen in einer Popup-Meldung Euch gezeigt werden, während kleinere Entdeckungen stillschweigend an das Meldungsprotokoll gesendet werden. 'Niemals' bedeutet, dass Ruinen nie untersucht werden, es sei denn, ein Erkundungsschiff erhält den manuellen Befehl, dies zu tun.
@@ -5068,7 +5112,7 @@ PolicyExplanation ConstructionSpaceportSmallPopulationRequired		;Bevölkerungsza
 PolicyExplanation ConstructionSpaceportNearestDistance		;Die geringste zulässige Entfernung zwischen automatisch konstruierten Raumhäfen in Eurem Herrschaftsgebiet.
 PolicyExplanation ConstructionLevelSpaceport		;Prioritätsstufe für die Konstruktion neuer Raumhäfen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Raumhäfen konstruiert werden.
 PolicyExplanation ConstructionLevelDefensiveBases		;Prioritätsstufe für die Konstruktion neuer Verteidigungsbasen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Verteidigungsbasen konstruiert werden.
-PolicyExplanation ConstructionLevelMonitoring		;Prioritätsstufe für die Konstruktion neuer Überwachungsstationen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Überwachungsstationen konstruiert werden.
+PolicyExplanation ConstructionLevelMonitoring		;Prioritätsstufe für die Konstruktion neuer Ortungsstationen in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Ortungsstationen konstruiert werden.
 PolicyExplanation ConstructionLevelMilitary		;Prioritätsstufe für die Konstruktion neuer Militärschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Militärschiffe konstruiert werden.
 PolicyExplanation ConstructionLevelExploration		;Prioritätsstufe für die Konstruktion neuer Erkundungsschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Erkundungsschiffe konstruiert werden.
 PolicyExplanation ConstructionLevelConstruction		;Prioritätsstufe für die Konstruktion neuer Konstruktionsschiffe in Eurem Herrschaftsgebiet. Eine höhere Priorität bedeutet, dass mehr Konstruktionsschiffe konstruiert werden.
@@ -5229,7 +5273,7 @@ Fleets Military Attacks Automation Explanation		;Flotten werden nicht automatisc
 
 EMPIRE reports		;{0} Berichte
 
-FleetEngagementRange Explanation		;Der 'Einsatz- und Angriffsbereich einer Flotte' legt fest, wann eine Flotte Ziele angreift.\n\n'Nicht angreifen': Die Flotte greift niemals Feinde an\n'Angreifen wenn angegriffen': Die Flotte greift Feinde nur an, wenn sie direkt von ihnen angegriffen wird\n'Nahe': greift nur feindliche Ziele an, die sich in der Nähe befinden\nGleicher Standort: greift feindliche Ziele an, die sich am gleichen Standort befinden (Planeten und Monde)\n'Gleiches System': greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n'Sektorreichweite': greift feindliche Ziele an, die sich innerhalb eines galaktischen Sektors befinden\n'33% der Treibstoffreichweite': greift feindliche Ziele an, die sich innerhalb von 33% der Treibstoffreichweite einer Flotte befinden\n'50% der Treibstoffreichweite': greift feindliche Ziele an, die sich innerhalb von 50% der Treibstoffreichweite einer Flotte befinden\n\nBeachtet, dass der Einsatz- und Angriffsbereich einer Flotte die Einsatz- und Angriffsbereiche der einzelnen Schiffe einer Flotte außer Kraft setzt. Wenn ein Schiff Teil einer Flotte ist, verwendet es den Einsatz- und Angriffsbereich einer Flotte, anstelle seines eigenen Einsatz- und Angriffsbereichs.\n\nManuell gesteuerte Flotten werden nicht automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren. Dies wird durch gelben Text für diese Einstellung angezeigt, wenn die Flotte manuell gesteuert wird. Um den Einsatz- und Angriffsbereich einer Flotte über das aktuelle Sternensystem hinaus zu aktivieren, solltet Ihr eine automatisierte Flotten-Rolle (Verteidigen, Angreifen, Überfall, Erobern) verwenden.\n\nFlotten greifen auch dann nicht automatisch Bedrohungen außerhalb ihres aktuellen Sternensystems an, wenn die militärischen Angriffe manuell gesteuert werden (siehe Abschnitt Militär in den Einstellungen der allgemeinen Spielregeln). Dies wird durch orangefarbenen Text für diese Einstellung angezeigt, wenn militärische Angriffe manuell gesteuert werden. Damit Flotten automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren können, solltet Ihr die Automatisierung von Militärangriffen aktivieren (Vollautomatisch oder Vorschlagen). Außerdem solltet Ihr automatisierte Flotten verwenden (nicht eine manuelle Flotten-Rolle), wenn Ihr wollt, dass Flotten automatisch Bedrohungen außerhalb ihres aktuellen Systems angreifen.
+FleetEngagementRange Explanation		;Der Flottenangriffsbereich gibt an, wann eine Flotte Ziele angreift. \n\nNicht angreifen: Die Flotte greift niemals Feinde an\nAngreifen, wenn angegriffen: Die Flotte greift Feinde nur an, wenn sie direkt von ihnen angegriffen werden\nNah: Die Flotte greift feindliche Ziele an, die sich in der Nähe befinden\nGleicher Standort: Die Flotte greift feindliche Ziele an, die sich am gleichen Standort (Planet und Monde) befinden\nGleiches System: Die Flotte greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n50M Reichweite: Die Flotte greift feindliche Ziele an, die sich innerhalb von 50 Millionen Einheiten befinden\n100M Reichweite: greift feindliche Ziele an, die sich innerhalb von 100 Millionen Einheiten befinden\n200M-Reichweite: greift feindliche Ziele an, die sich innerhalb von 200 Millionen Einheiten befinden\n300M-Reichweite: greift feindliche Ziele an, die sich innerhalb von 300 Millionen Einheiten befinden\n33% der Treibstoff-Reichweite: greift feindliche Ziele an, die sich innerhalb von 33% der Treibstoff-Reichweite der Flotte befinden\n50% der Treibstoff-Reichweite: greift feindliche Ziele an, die sich innerhalb von 50% der Treibstoff-Reichweite der Flotte befinden\n\nBeachtet, dass die Einsatzreichweite der Flotte die Einsatzreichweite der einzelnen Schiffe in der Flotte außer Kraft setzt. Wenn ein Schiff Teil einer Flotte ist, verwendet es die Flottenreichweite anstelle seiner eigenen Reichweite.\n\nManuell gesteuerte Flotten werden nicht automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren. Dies wird durch gelben Text für diese Einstellung angezeigt, wenn die Flotte manuell gesteuert wird. Um den Einsatzbereich der Flotte über das aktuelle Sternensystem hinaus zu aktivieren, solltet Ihr eine automatisierte Flottenrolle verwenden (Verteidigen, Angreifen, Überfall, Invasion).\n\nFlotten werden auch nicht automatisch Bedrohungen außerhalb ihres aktuellen Sternensystems angreifen, wenn Militärische Angriffe manuell gesteuert werden (siehe Abschnitt Militär in den Einstellungen der Imperiumspolitik). Dies wird durch orangefarbenen Text für diese Einstellung angezeigt, wenn militärische Angriffe manuell gesteuert werden. Damit Flotten automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems reagieren können, solltet ihr also die Automatisierung von Militärangriffen aktivieren (Vollautomatisch oder Vorschlagen). Außerdem solltet ihr automatisierte Flotten verwenden (nicht die manuelle Flottenrolle), wenn ihr wollt, dass sie automatisch Bedrohungen außerhalb ihres aktuellen Systems angreifen.
 FleetFormationCoherence Explanation		;Spezifiziert die Nähe von Geleitschutz und Wächter-Schiffen zu ihren eskortierten Kernschiffen in einer Flotte.
 FleetAllowShipRoleReassignment Explanation		;Hier wird festgelegt, ob Schiffen ihre 'Rolle innerhalb einer Flotte' automatisch neu zugewiesen werden kann oder nicht. Das bedeutet, dass jedes Mal, wenn ein neues Führungsschiff für die Flotte ausgewählt wird (z.B. wenn ein besseres Schiff zur Flotte stößt oder wenn das alte Führungsschiff verloren geht), können die Schiffe für den Flottenkern, zu nahem Geleitschutz und den Wächter-Schiffen wechseln.
 FleetRetreatOverwhelmed Explanation		;Legt fest, wann sich die gesamte Flotte aus einer Schlacht zurückziehen soll.
@@ -5246,6 +5290,8 @@ InvasionTactics Explanation		;Hier wird festgelegt, wie ein Schiff bei einer Kol
 Upon acquiring SHIPNAME in the SYSTEM system we have made the following discovery		;Bei der Übernahme von [LOCATION]{0}[/LOCATION] im System {1} haben wir im Frachtraum folgende Entdeckung gemacht
 
 Warning - low suitability colony explanation		;WARNUNG: Kolonien mit einer Eignung von weniger als 20% (für die am meisten vorherschende Spezies) verursachen hohe Unterhaltskosten, was sie zu einer Belastung für Eure Wirtschaft machen kann.
+Warning - low suitability Outpost alternative		;Erwägt stattdessen die Errichtung eines Außenpostens an diesem Standort. Außenposten haben feste Unterhaltskosten, wachsen aber nicht und generieren kein Einkommen. Sie können jedoch nützlich sein, um an einem Standort Boni oder wertvolle Ressourcen zu erhalten
+Warning - low suitability no colony possible		;ACHTUNG: Eine Kolonisierung ist nicht möglich, wenn die Eignung unter Null liegt
 Low Suitability		;NIEDRIGE EIGNUNG!
 Suitability With Race LOW		;Mit {0} kolonisieren, NIEDRIGE EIGNUNG: {1}
 
@@ -5300,7 +5346,7 @@ Cannot retire any of these ships		;Keines dieser Schiffe kann ausgemustert werde
 
 Waiting for incoming invasion forces		;auf Invasionstruppen warten
 SentryOptOut ;Automatische Fehlerberichterstattung deaktivieren
-Explanation SentryOptOut ;Deaktiviert die automatische Übermittlung von anonymisierten Überwachungs-Fehlerberichten an Slitherine und Matrix Games
+Explanation SentryOptOut ;Deaktiviert die automatische Übermittlung von anonymisierten Ortungs-Fehlerberichten an Slitherine und Matrix Games
 
 Must first research X PROJECTS		;Muss zunächst {0} der folgenden Projekte erforschen: {1}
 Must first research SINGLE PROJECT		;{0} muss erst erforscht werden
@@ -5435,7 +5481,7 @@ THRESHOLD with MODIFIER		;{0} mit {1}
 Special Features		;Spezielle Features
 
 Typical Leader Term		;Typische Regierungszeit
-Leader Change Effect		;Führungswechsel-Effekt
+Leader Change Effect		;Effekt des Führungswechsels
 Large Boost		;Starke Steigerung
 Mild Boost		;Leichte Steigerung
 No effect		;Kein Effekt
@@ -5691,6 +5737,7 @@ User Interface		;Benutzer-Oberfläche
 Rendering		;Rendern
 
 until DATE		;bis {0}
+Until DATE		;Bis {0}
 
 Troops and Characters Relocated to COLONY		;Verlegung von Truppen und Charakteren nach {0}
 Troops and Characters Relocated Explanation		;Nach der kürzlichen Ausrottung der gesamten Bevölkerung in unserer Kolonie {1} wurden unsere verbleibenden Truppen und Charaktere in unsere Kolonie {0} verlegt.
@@ -5830,3 +5877,99 @@ No Preference		;Keine Präferenz
 
 Known Population		;Bekannte Bevölkerung
 Known Revenue		;Bekannter Umsatz
+
+ColonyEvent ProveYourself Title		;Beweist euch selbst
+ColonyEvent ProveYourself Description		;Die Zeit ist gekommen für eine Waffenprobe für einen unserer Leute.\n\nSich im Kampf zu beweisen, kann einem Charakter eine neue vorteilhafte Eigenschaft verleihen. Es könnte aber auch ihre Fehler aufdecken und eine negative Eigenschaft hinzufügen.\n\nWir haben zwei Kandidaten für diesen Waffentest ausgewählt: [CHARACTER]{0}[/CHARACTER] und [CHARACTER]{1}[/CHARACTER]. Sie müssen auswählen, welcher Kandidat sich bewähren wird.\n\nWen wählen Sie aus?
+ColonyEvent ProveYourself Outcome		;{0} {1} hat eine neue Eigenschaft erhalten: {3}
+
+Government TradeIncomePerYearPerRestrictedTradeTreaty		;Eingeschränktes Handelsbonus-Jahreseinkommen
+Government TradeIncomePerYearPerRestrictedTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes eingeschränkte Handelsabkommen, das das Imperium mit anderen Fraktionen hat
+Government TradeIncomePerYearPerLimitedTradeTreaty		;Begrenztes Handelsabkommen mit Bonus-Jahreseinkommen
+Government TradeIncomePerYearPerLimitedTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes begrenzte Handelsabkommen, das das Imperium mit anderen Fraktionen hat
+Government TradeIncomePerYearPerFreeTradeTreaty		;Freihandelsabkommen Bonus-Jahreseinkommen
+Government TradeIncomePerYearPerFreeTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes Freihandelsabkommen, das das Imperium mit anderen Fraktionen hat
+
+Government BonusesPerTreatyType		;Vertragsboni
+Government BonusesPerTreatyType Explanation		;Besondere Boni für Verträge. Diese Boni gelten, wenn das Imperium die angegebene Art von Vertrag mit einer anderen Fraktion hat. Die Boni gelten für jeden Vertrag dieser Art, d. h. wenn das Imperium 2 Verträge dieser Art hat, erhält es das Doppelte der Bonusbeträge. Beachten Sie jedoch, dass die gesamten Bonusbeträge ab dem Vierfachen des Grundbetrags begrenzt werden.
+
+Chance of Positive Character Traits		;Chance auf positive Charaktereigenschaften bei einem Anführerwechsel
+Chance of Negative Character Traits		;Chance auf negative Charaktereigenschaften, wenn der Anführer wechselt
+Chance of Character Dismissal		;Chance auf Charakterentlassung, wenn der Anführer wechselt
+Leader Change Character Dismissals Title		;Andere gehen mit dem Anführer
+Leader Change Character Dismissals		;Der jüngste Führungswechsel hat bei einer Reihe von Charakteren, die dem vorherigen Anführer treu ergeben sind, zu Unzufriedenheit geführt.\n\nInfolgedessen sind die folgenden Charaktere gegangen
+
+This event can only be started once every X years. It was last started Y		;Dieses Ereignis kann nur einmal alle {0} Jahre gestartet werden. Es wurde zuletzt gestartet {1}
+
+Duration X		;Dauer: {0} Jahre
+Duration X-Y		;Dauer: {0}-{1} Jahre
+Location only		;Nur Standort
+X is already started here		;{0} ist hier bereits gestartet
+
+We are happy to have many troops to defend us		;Wir sind froh, viele Truppen zu haben, die uns verteidigen
+We are unhappy at the high troop level		;Wir sind mit der hohen Truppenstärke unzufrieden
+
+Empire Flag Ship		;Flaggschiff des Reiches
+Already flag ship for empire		;Bereits Flaggschiff des Reiches
+Only military ships can be the empire Flag ship		;Nur Militärschiffe können das Flaggschiff des Reiches sein
+
+Feudal Control		;Unter feudaler Kontrolle
+This military ship is privately owned and controlled GOVERNMENT		;Dieses Militärschiff befindet sich in Privatbesitz und wird von der Regierung {0} kontrolliert.
+
+Fleet Engagement Areas and Attack Paths		;Flotteneinsatzgebiete und Angriffswege
+Map Overlay Fleet Key Explanation		;Blau = Verteidigungsflotten\nRot = Angriffsflotten\nOrange = Invasionsflotten\nLila = Überfallflotten
+
+GalaxyMapOpacity		;Galaxiekarte Element Opazität
+Settings Explanation GalaxyMapOpacity		;Ändert die Opazität von Elementen auf der Galaxiekarte und macht sie entweder undurchsichtiger oder transparenter. Dazu gehören Elemente wie Territorium und Grenzen des Imperiums, Markierungen für kolonisierte Systeme und Systemabzeichen.
+GalaxyMapOpacityFleetOverlay		;Opazität von Galaxienkartenelementen bei aktiviertem Flotten-Overlay
+Settings Explanation GalaxyMapOpacityFleetOverlay		;Ändert die Opazität von Elementen auf der Galaxiekarte, wenn das Flotten-Overlay aktiviert ist, und macht sie entweder undurchsichtiger oder transparenter. Dazu gehören Elemente wie Territorium und Grenzen des Imperiums, Markierungen für kolonisierte Systeme und Systemabzeichen.
+
+Invalid Game Data Explanation		;Dieses Savegame ist beschädigt und konnte nicht geladen werden.\n\nÜberprüfen Sie, dass der Speicherort, an dem Sie Spiele speichern, keine Schreibvorgänge zwischenspeichert. Auf dem Laufwerk sollte Write Flushing aktiviert sein.\n\nAußerdem solltet Ihr den Distant Worlds-Savegame-Ordner von allen Antivirus-Scans ausschließen, da dies das Write Flushing für Savegame-Dateien beeinträchtigen kann.
+Could not Load Savegame		;Savegame konnte nicht geladen werden
+
+Trade Bonus Level		;Handelsbonus-Stufe
+Selected Fleet		;Ausgewählte Flotte
+
+Game Speed Faster Warning		;Höhere Spielgeschwindigkeiten (x2, x4, x8) funktionieren im späten Spiel auf weniger leistungsfähigen Systemen möglicherweise nicht so gut. Reduziert bei Bedarf die Spielgeschwindigkeit.
+
+X-Y months		;{0}-{1} Monate
+X-Y years		;{0}-{1} Jahre
+Typically lasts PERIOD		;Dauert typischerweise {0}
+Plague Curing Chance Description		;Heilungs-Chance: {0} pro Jahr
+
+Colony Event Plague Ends Title		;{0} Endet
+Colony Event Plague Ends Description		;Die {0}-Infektion ist in unserer Kolonie [LOCATION]{1}[/LOCATION] im {2}-System beendet.
+Colony Event Plague Cured Title		;{0} Geheilt!
+Colony Event Plague Cured Description		;Die {0}-Infektion wurde in unserer Kolonie [LOCATION]{1}[/LOCATION] im {2}-System geheilt.
+Colony Event Plague Cured Description Other Colonies		;Dieses Heilmittel wurde auch von allen unseren anderen mit dieser Seuche infizierten Kolonien übernommen
+
+Modified Plague Virulence		;Modifizierte Pestvirulenz
+Plague Susceptibility		;Pestanfälligkeit
+
+Defense Fleets		;Verteidigungsflotten
+Attack Fleets		;Angriffsflotten
+Invasion Fleets		;Invasionsflotten
+Raid Fleets		;Überfallflotten
+
+Creature Breeding		;Kreaturenzucht
+Creature Breed Rate		;Kreaturen-Zuchtrate
+
+Outposts do not have taxes		;Außenposten haben keine Steuern
+Colony Ship already establishing Outpost here		;Das Kolonieschiff errichtet hier bereits einen Außenposten
+Annual Outpost Support Cost		;Jährliche Außenposten-Supportkosten
+Annual Outpost Support Cost for RACE		;Jährliche Außenposten-Supportkosten für {0}
+Already queued to Establish Outpost here		;Bereits in der Warteschlange zur Errichtung eines Außenpostens hier
+Already queued to Colonize here		;Steht hier bereits in der Warteschlange zur Kolonisierung
+No race can establish outpost		;Keine Rasse kann einen Außenposten errichten
+Outpost Support Cost		;Kosten für den Außenposten-Support
+Outpost		;Außenposten
+Outposts		;Außenposten
+Outpost Explanation		;Außenposten sind kleine geschlossene Oberflächensiedlungen, die auf Planeten und Monden errichtet werden können.\n\nSie sind ideal für die Ansiedlung von Planeten, die sonst für eine Kolonisierung unwirtlich wären. Sie sind besonders nützlich, um wichtige Ruinen mit Imperiumsboni oder wertvollen Ressourcen zu erwerben.\n\nAußenposten wachsen nicht über ihre ursprüngliche Siedlungsbevölkerung hinaus und zahlen auch keine Steuern.\n\nFür Außenposten fallen Unterstützungskosten an, die mit der Eignung der Planetenbevölkerung korrelieren . Eine geringere Eignung erhöht die Unterstützungskosten, wohingegen eine bessere Eignung die Unterstützungskosten senkt.\n\nSomit sind Außenposten immer eine Belastung für Ihre Wirtschaft – sie verdienen nie Geld, aber es fallen immer Unterstützungskosten an.\n\nAußenposten beanspruchen auch ihr gesamtes System als Territorium Ihr Imperium.\n\nUm einen Außenposten zu errichten, muss ein Kolonieschiff zum Zielplaneten geschickt werden, aber anstatt eine 'Kolonisierungs'-Mission durchzuführen, führt das Schiff eine 'Außenposten errichten'-Mission durch.
+
+Colonies & Outposts		;Kolonien & Außenposten
+New Colonies & Outposts		;Neue Kolonien & Außenposten
+Existing population at independent colony is already suitable for this location		;Die vorhandene Population einer unabhängigen Kolonie ist für diesen Standort bereits geeignet
+
+Attack Point		;Angriffspunkt
+Not Set		;Nicht gesetzt
+
+Rift Refugees		;Rift-Flüchtlinge

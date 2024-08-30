@@ -47,4 +47,10 @@
         TranslateGlossaryId = ""
         MinWords = 3
     }
+
+    Mode6 = @{
+        FilePath = "$PSScriptRoot\..\1 Englisch Neu\GameText.txt"
+        Skip = 0
+        First = 10000
+    }
 }

@@ -6,12 +6,22 @@ BeforeAll {
     }
 }
 
-Describe 'Mode 3' {
-    It 'Works' {
-        Start-Test
+Describe 'After Mode 3 was executed' {
 
+    BeforeAll {
+        Start-Test
+    }
+
+    It 'Reference result 1 is matched' {
         $result = Get-Content "$PSScriptRoot\..\4 Deutsch Neu (Ergebnis)\Artifacts_Dhayut.xml"
         $reference = Get-Content "$PSScriptRoot\..\5 Deutsch Neu (Referenz)\Artifacts_Dhayut.xml"
+
+        $result | Should -Be $reference
+    }
+
+    It 'Reference result 2 is matched' {
+        $result = Get-Content "$PSScriptRoot\..\4 Deutsch Neu (Ergebnis)\GameEvents_Ancient_Guardian_Vaults.xml"
+        $reference = Get-Content "$PSScriptRoot\..\5 Deutsch Neu (Referenz)\GameEvents_Ancient_Guardian_Vaults.xml"
 
         $result | Should -Be $reference
     }

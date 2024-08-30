@@ -49,7 +49,8 @@
     }
 
     Mode6 = @{
-        FilePath = "$PSScriptRoot\..\1 Englisch Neu\GameText.txt"
+        FilePathIn = "$PSScriptRoot\..\1 Englisch Neu\GameText.txt"
+        FilePathOut = "$PSScriptRoot\..\1 Englisch Neu\GameText.txt"
         Skip = 0
         First = 10000
     }

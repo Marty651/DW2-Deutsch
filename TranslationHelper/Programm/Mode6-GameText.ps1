@@ -5,7 +5,7 @@ param([Worker]$Worker, $Config, $RuleSets)
 Write-Host -ForegroundColor Green "Starte Modus 6 - GameText Übersetzung mit Deepl."
 Write-Host
 
-$file = $Worker.ResolvePath($Config.Mode6.FilePath)
+$file = $Worker.ResolvePath($Config.Mode6.FilePathIn)
 Write-Host "Lese $file ein."
 $content = Get-Content $file
 $lines = $content.Length
@@ -42,7 +42,7 @@ for ($l = 0; $l -lt $length; $l++) {
     }
 
     if ($Config.Deepl.Enabled -eq $false) { 
-        $contentToProcess[$l] = $line.Replace($right, "Hier würde die Übersetzung stehen, wenn Deepl an wäre :)")
+        $contentToProcess[$l] = $line.Replace(";$right", ";Hier würde die Übersetzung stehen, wenn Deepl an wäre :)")
         continue 
     }
 
@@ -54,11 +54,12 @@ for ($l = 0; $l -lt $length; $l++) {
 
     $translated = $Worker.Translate($right)
 
-    $contentToProcess[$l] = $line.Replace($right, $translated)
+    $contentToProcess[$l] = $line.Replace(";$right", ";$translated")
     Write-Host -ForegroundColor Green ">> Übersetz: $translated"
 }
 
 if ($false -eq $Config.DryRun) {
-    Write-Debug "Speichere"
+    Write-Host -ForegroundColor DarkYellow "Speichere"
+    $file = $Worker.ResolvePath($Config.Mode6.FilePathOut)
     Set-Content -Path $file -Value $contentToProcess
 }

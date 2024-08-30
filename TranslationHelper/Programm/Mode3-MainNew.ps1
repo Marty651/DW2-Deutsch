@@ -2,11 +2,13 @@ using module .\Worker.psm1
 
 param([Worker]$Worker, $Config, $RuleSets)
 
-# TODO GIT
 Write-Host -ForegroundColor Green "Starte Modus 3 - Der (neue) Hauptmodus."
 Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
 Write-Host -ForegroundColor Green "(Automatische Übernahme bei neuen Versionen)"
-Write-Host -ForegroundColor Green "Jetzt mit Ausgabe von Zeilennummern und Berücksichtigung von Strukturänderungen"
+Write-Host -ForegroundColor Green "Neue Version:"
+Write-Host -ForegroundColor Green "- Mit Information zu Zeilennummern."
+Write-Host -ForegroundColor Green "- Benötigt nur gleiche Struktur innerhalb einer Entität. Reihenfolge/Einschübe machen keine Probleme."
+Write-Host -ForegroundColor Green "- Funktioniert mit den neuen Regeln (mit ID-Regel)."
 Write-Host
 
 ### Functions
@@ -149,9 +151,9 @@ foreach ($ruleSet in $RuleSets) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
     $rules = $ruleSet.Regeln
-    # TODO GIT
-    $idRule = $ruleSet.IdRegel # /*/*/ArtifactId
-    Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"
+    $idRule = $ruleSet.IdRegel
+
+    Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName (ID: $idRule)"
 
     # We allow file globs, this resolves them and returns an array of file names for the next steps.
     $fileNames = $Worker.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
@@ -162,7 +164,7 @@ foreach ($ruleSet in $RuleSets) {
     }
 
     foreach ($fileName in $fileNames) {
-        Write-Host ">> Starte Verarbeitung von Datei: $fileName"        
+        Write-Host ">> Starte Verarbeitung von Datei (EN-Neu): $fileName"        
 
         $xmlEnNew = $Worker.Load("$($Config.FolderPathEnNew)\$fileName")
         if ($false -eq $xmlEnNew) {
@@ -182,19 +184,29 @@ foreach ($ruleSet in $RuleSets) {
             continue
         }
 
-        Write-Debug ">>> Alle 3 Dateien vorhanden. Starte Verarbeitung von Regeln."
-
-        # TODO GIT
+        Write-Debug ">>> Alle 3 Dateien vorhanden. Starte Suche von Entitäten anhand ID."
+        
         $idElementsEnNew = $xmlEnNew.SelectNodes($idRule)
         $ids = $idElementsEnNew | ForEach-Object { $_."#text" }
         $idRuleTag = $idRule -split "/" | Select-Object -Last 1
 
+        Write-Debug ">>> Gefundene Entitäten mit Tag $idRuleTag" 
+        Write-Debug "IDs: $($ids -join ", ")"
+
         foreach ($id in $ids) {
-            $rulePrefix = $idRule -replace "/$idRuleTag", "[$idRuleTag='$id']"
-            foreach ($rule in $rules) {
-                $elementsEnNew = $xmlEnNew.SelectNodes("$rulePrefix/$rule")
-                $elementsEnOld = $xmlEnOld.SelectNodes("$rulePrefix/$rule")
-                $elementsDe = $xmlDe.SelectNodes("$rulePrefix/$rule")
+            # https://stackoverflow.com/questions/1091945/what-characters-do-i-need-to-escape-in-xml-documents/46637835#46637835
+            # https://stackoverflow.com/questions/37542773/how-to-use-apostrophe-in-xpath-while-finding-element-using-webdriver
+            $rulePrefix = if ($id.Contains("'")) {
+                $idRule -replace "/$idRuleTag", "[$idRuleTag=`"$id`"]"
+            } else { 
+                $idRule -replace "/$idRuleTag", "[$idRuleTag='$id']" 
+            }
+
+            foreach ($innerRule in $rules) {
+                $rule = "$rulePrefix/$innerRule"
+                $elementsEnNew = $xmlEnNew.SelectNodes($rule)
+                $elementsEnOld = $xmlEnOld.SelectNodes($rule)
+                $elementsDe = $xmlDe.SelectNodes($rule)
     
                 $elementsEnNewCount = $elementsEnNew.Count
     
@@ -202,24 +214,33 @@ foreach ($ruleSet in $RuleSets) {
                     $Worker.Log(">>>>", "DarkYellow", $Config.MarkerInvalid, $ruleSetName, $fileName, $rule, "Kein Element gefunden in 'Englisch Neu'.")
                     continue;
                 } 
-    
-                if ($elementsEnNewCount -eq 1) {
-                    ProcessOne  -ElementEnNew $elementsEnNew -ElementEnOld $elementsEnOld -ElementDe $elementsDe `
-                                -RuleSetName $ruleSetName -FileName $fileName -Rule "$rulePrefix/$rule" 
-                    continue
+
+                $ruleInfo = $rule;
+
+                try {
+                    if ($elementsEnNewCount -eq 1) {
+                        # TODO: ElementsNew is 1 but old is multiple so the array does not have #text!
+                        # Must be checked!
+                        ProcessOne  -ElementEnNew $elementsEnNew -ElementEnOld $elementsEnOld -ElementDe $elementsDe `
+                                    -RuleSetName $ruleSetName -FileName $fileName -Rule $rule 
+                        continue
+                    }
+        
+                    for ($i = 0; $i -lt $elementsEnNewCount; $i++) {
+                        $ruleInfo = "$rule ($i)"
+                        ProcessOne  -ElementEnNew $elementsEnNew[$i] -ElementEnOld $elementsEnOld[$i] -ElementDe $elementsDe[$i] `
+                                    -RuleSetName $ruleSetName -FileName $fileName -Rule "$rule ($i)"
+                    }   
                 }
-    
-                for ($i = 0; $i -lt $elementsEnNewCount; $i++) {
-                    ProcessOne  -ElementEnNew $elementsEnNew[$i] -ElementEnOld $elementsEnOld[$i] -ElementDe $elementsDe[$i] `
-                                -RuleSetName $ruleSetName -FileName $fileName -Rule "$rulePrefix/$rule ($i)"
-                }   
+                catch {
+                    Write-Error ("Fehler in Regel $($ruleInfo): " + $_.Exception.Message + $_.InvocationInfo.PositionMessage)
+                }
+                
             }
         }
-        
-        
 
         if ($false -eq $Config.DryRun) {
-            Write-Debug ">> Datei wird gespeichert: $fileName"
+            Write-Debug "Saving"
             $Worker.Save($xmlEnNew, "$($Config.FolderPathResult)\$fileName")
         }
 
@@ -228,3 +249,5 @@ foreach ($ruleSet in $RuleSets) {
 
     Write-Host
 }
+
+

@@ -1,14 +1,19 @@
 BeforeAll {
     $Config = . $PSScriptRoot\..\Konfiguration\Programm.ps1
+    $Config.ShowGreen = $false
 
     function Start-Test() {
-        & $PSScriptRoot\..\..\..\Programm\Start.ps1 -Mode 3-Main -TestConfig $Config -Debug
+        & $PSScriptRoot\..\..\..\Programm\Start.ps1 -Mode 3-MainNew -TestConfig $Config
     }
 }
-
+s
 Describe 'After Mode 3 was executed' {
 
     BeforeAll {
+        $global:ErrorActionPreference = "Stop"
+        $global:DebugPreference = "SilentlyContinue"
+        $global:VerbosePreference = "Ignore"
+
         Start-Test
     }
 

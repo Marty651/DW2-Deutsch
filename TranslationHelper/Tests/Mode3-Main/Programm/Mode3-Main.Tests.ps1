@@ -6,7 +6,7 @@ BeforeAll {
         & $PSScriptRoot\..\..\..\Programm\Start.ps1 -Mode 3-MainNew -TestConfig $Config
     }
 }
-s
+
 Describe 'After Mode 3 was executed' {
 
     BeforeAll {
@@ -28,6 +28,12 @@ Describe 'After Mode 3 was executed' {
         $result = Get-Content "$PSScriptRoot\..\4 Deutsch Neu (Ergebnis)\GameEvents_Ancient_Guardian_Vaults.xml"
         $reference = Get-Content "$PSScriptRoot\..\5 Deutsch Neu (Referenz)\GameEvents_Ancient_Guardian_Vaults.xml"
 
-        $result | Should -Be $reference
+        $resultLength = $result.Length
+        for ($l = 0; $l -lt $resultLength; $l++) {
+            $resultLine = $result[$l]
+            $referenceLine = $reference[$l]
+
+            $resultLine | Should -Be $referenceLine -Because "(error in line $l)"
+        }
     }
 }

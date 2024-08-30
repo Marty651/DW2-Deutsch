@@ -29,6 +29,10 @@ function MarkOne($ElementEnNew, $Marker, $ElementEnNewText, $ElementEnOldText, $
         $text += [Environment]::NewLine + [Environment]::NewLine + "Deutsch Alt:" + [Environment]::NewLine + $ElementDeText + [Environment]::NewLine + " - - - - - "
     }
 
+    if ($text.Contains("--")) {
+        $text = $text.Replace("--", "- -")
+     }
+
     $document = $ElementEnNew.OwnerDocument
 
     $comment = $document.CreateComment($text)
@@ -168,19 +172,19 @@ foreach ($ruleSet in $RuleSetsNew) {
 
         $xmlEnNew = $Worker.Load("$($Config.FolderPathEnNew)\$fileName")
         if ($false -eq $xmlEnNew) {
-            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerMissingFile, $ruleSetName, $fileName, "", "Datei 'Englisch Neu' konnte nicht geladen werden.")
             continue
         }
 
         $xmlEnOld = $Worker.Load("$($Config.FolderPathEnOld)\$fileName")
         if ($false -eq $xmlEnOld) {
-            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerMissingFile, $ruleSetName, $fileName, "", "Datei 'Englisch Alt' konnte nicht gefunden/geladen werden.")
             continue
         }
 
         $xmlDe = $Worker.Load("$($Config.FolderPathDe)\$fileName")
         if ($false -eq $xmlDe) {
-            $Worker.Log(">>>", "Red", $Config.MarkerInvalid, $ruleSetName, $fileName, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.")
+            $Worker.Log(">>>", "Red", $Config.MarkerMissingFile, $ruleSetName, $fileName, "", "Datei 'Deutsch Alt' konnte nicht gefunden/geladen werden.")
             continue
         }
 
@@ -204,14 +208,15 @@ foreach ($ruleSet in $RuleSetsNew) {
 
             foreach ($innerRule in $rules) {
                 $rule = "$rulePrefix/$innerRule"
-                $elementsEnNew = $xmlEnNew.SelectNodes($rule)
-                $elementsEnOld = $xmlEnOld.SelectNodes($rule)
-                $elementsDe = $xmlDe.SelectNodes($rule)
+
+                [array]$elementsEnNew = @($xmlEnNew.SelectNodes($rule))
+                [array]$elementsEnOld = @($xmlEnOld.SelectNodes($rule))
+                [array]$elementsDe = @($xmlDe.SelectNodes($rule))
     
                 $elementsEnNewCount = $elementsEnNew.Count
     
                 if ($elementsEnNewCount -eq 0) {
-                    $Worker.Log(">>>>", "DarkYellow", $Config.MarkerInvalid, $ruleSetName, $fileName, $rule, "Kein Element gefunden in 'Englisch Neu'.")
+                    $Worker.Log(">>>>", "DarkYellow", $Config.MarkerNoElements, $ruleSetName, $fileName, $rule, "Kein Element gefunden in 'Englisch Neu'.")
                     continue;
                 } 
 
@@ -219,8 +224,6 @@ foreach ($ruleSet in $RuleSetsNew) {
 
                 try {
                     if ($elementsEnNewCount -eq 1) {
-                        # TODO: ElementsNew is 1 but old is multiple so the array does not have #text!
-                        # Must be checked!
                         ProcessOne  -ElementEnNew $elementsEnNew -ElementEnOld $elementsEnOld -ElementDe $elementsDe `
                                     -RuleSetName $ruleSetName -FileName $fileName -Rule $rule 
                         continue
@@ -228,14 +231,17 @@ foreach ($ruleSet in $RuleSetsNew) {
         
                     for ($i = 0; $i -lt $elementsEnNewCount; $i++) {
                         $ruleInfo = "$rule ($i)"
-                        ProcessOne  -ElementEnNew $elementsEnNew[$i] -ElementEnOld $elementsEnOld[$i] -ElementDe $elementsDe[$i] `
+                        $elementEnNew = $elementsEnNew[$i]
+                        $elementEnOld = if ($elementsEnOld.Count -ge $i) { $null } else { $elementsEnOld[$i] }
+                        $elementDe = if ($elementsDe.Count -ge $i) { $null } else { $elementsDe[$i] }
+
+                        ProcessOne  -ElementEnNew $elementEnNew -ElementEnOld $elementEnOld -ElementDe $elementDe `
                                     -RuleSetName $ruleSetName -FileName $fileName -Rule "$rule ($i)"
                     }   
                 }
                 catch {
                     Write-Error ("Fehler in Regel $($ruleInfo): " + $_.Exception.Message + $_.InvocationInfo.PositionMessage)
                 }
-                
             }
         }
 

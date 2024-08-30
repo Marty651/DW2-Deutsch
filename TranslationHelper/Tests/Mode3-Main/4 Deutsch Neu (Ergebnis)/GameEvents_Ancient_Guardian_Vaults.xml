@@ -23,10 +23,22 @@
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Alte Wächtergewölbe</MessageTitle>
-        <Description>Dieses System enthält Ruinen aus der Zeit vor der Katastrophe. Es gibt Schriftfragmente in mehreren Sprachen, und obwohl nur noch sehr wenig davon erhalten ist, um gelesen zu werden, haben wir die Worte „Alter Wächter“ gefunden.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen. Wenn eine dieser Geschichten auch nur einen Funken Wahrheit enthält, könnte es sich lohnen, diese Ruinen zu untersuchen.</Description>
+Englisch Neu:
+Ancient Guardian Vaults
+ - - - - - -->
+        <MessageTitle>Ancient Guardian Vaults</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+This system contains ruins from the pre-Cataclysm era. There are fragments of writing in multiple languages, and while very little remains sufficiently intact to be read, we have gleaned the words "Ancient Guardian."
+
+We have heard rumors - - whispers and fragments from half-forgotten myths. If any of these stories contain even an element of truth, these ruins could be worth investigating.
+ - - - - - -->
+        <Description>This system contains ruins from the pre-Cataclysm era. There are fragments of writing in multiple languages, and while very little remains sufficiently intact to be read, we have gleaned the words "Ancient Guardian."
+
+We have heard rumors -- whispers and fragments from half-forgotten myths. If any of these stories contain even an element of truth, these ruins could be worth investigating.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -99,12 +111,26 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Alte Wächtergewölbe</MessageTitle>
-        <Description>Die künstliche Intelligenz in unserem Heimatsystem hat uns die Gewölbe der alten Wächter beschrieben. Es scheint, wir haben eines entdeckt.
-		
-Wer kann die Komplexität eines Maschinengeistes verstehen? Die Alten Wächter bewahrten Wissen aus der ganzen Galaxie auf, vermutlich für die Nutzung durch biologische Wesen, und dennoch machen sie den Zutritt zu diesen Gewölben zu einer Herausforderung.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt keine Rätsel, die der Quameno nicht lösen kann. Unsere klügsten Köpfe müssen beginnen, die Geheimnisse dieser Tresore zu erforschen. Erst dann wissen wir, wie es weitergeht.</Description>
+Englisch Neu:
+Ancient Guardian Vaults
+ - - - - - -->
+        <MessageTitle>Ancient Guardian Vaults</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The artificial intelligence in our home system described to us the Vaults of the Ancient Guardians. It seems we have discovered one.
+		
+Who can understand the complexities of a machine mind? The Ancient Guardians preserved knowledge from across the galaxy, presumably for biological beings to use, and yet they make these Vaults a challenge to enter.
+
+Perhaps they wish to test us with their puzzles? There are no puzzles the Quameno cannot master. Our greatest minds will have to begin researching the secrets of these vaults. Only then will we know how to proceed.
+ - - - - - -->
+        <Description>The artificial intelligence in our home system described to us the Vaults of the Ancient Guardians. It seems we have discovered one.
+		
+Who can understand the complexities of a machine mind? The Ancient Guardians preserved knowledge from across the galaxy, presumably for biological beings to use, and yet they make these Vaults a challenge to enter.
+
+Perhaps they wish to test us with their puzzles? There are no puzzles the Quameno cannot master. Our greatest minds will have to begin researching the secrets of these vaults. Only then will we know how to proceed.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -661,10 +687,22 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Führungsprioritäten</MessageTitle>
-        <Description>Die Außenseite des Ancient Guardian Vault auf {0} ist mit Symbolen und Markierungen bedeckt. Dabei kann es sich um Buchstaben oder Piktogramme oder um etwas handeln, das mit diesen Konzepten überhaupt nichts zu tun hat. Als sich unsere Entdecker nähern, hören sie eine Stimme: „Was bedeutet Governance für Ihre Gesellschaft oder für andere Gesellschaften? Welche Prinzipien überschreiten die Grenzen von Kultur und Spezies? Um die fortschrittlichste Weisheit zu verstehen, ist es zunächst notwendig, eine Grundlage zu haben.“ Sie haben diese Grundlage? Ich warte auf Ihre Antwort?“
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst über eine Intelligenz? Es gibt keine Möglichkeit, es zu wissen. Es ist wahrscheinlich, dass die Markierungen an der Außenseite des Tresors bestimmte Fragen aufwerfen und Hinweise auf die Antworten geben könnten. Einer unserer Wissenschaftler hat spekuliert, dass es sich dabei um Aufforderungen handelt, mit denen bestimmte Prinzipien oder Axiome beginnen, die wir dann beenden müssen. Um Zugang zum Tresorraum zu erhalten, müssen wir diese Markierungen entschlüsseln und ein gewisses Verständnis davon erlangen, wie die Alten Wächter das Konzept der Regierung verstanden haben.</Description>
+Englisch Neu:
+Priorities of Governance
+ - - - - - -->
+        <MessageTitle>Priorities of Governance</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The exterior of the Ancient Guardian Vault on {0} is covered with symbols and markings. They may be letters or pictograms or something completely unrelated to these concepts. As our explorers approach, they hear a voice: "What does governance mean for your society or for other societies? What principles transcend the limits of culture and species? To comprehend the most advanced wisdom, it is first necessary to have a foundation. Do you have this foundation? I await your reply?" 
+
+Is this voice part of an automated system? Does the Vault itself possess an intelligence? There is no way to know. It is likely that the markings upon the exterior of the Vault present certain questions and may hint at the answers. One of our scientists has speculated that they are prompts that begin certain principles or axioms that we must then finish. In order to gain access to the Vault, we will have to decipher these markings and gain some sort of understanding of how the Ancient Guardians understood the concept of governance.
+ - - - - - -->
+        <Description>The exterior of the Ancient Guardian Vault on {0} is covered with symbols and markings. They may be letters or pictograms or something completely unrelated to these concepts. As our explorers approach, they hear a voice: "What does governance mean for your society or for other societies? What principles transcend the limits of culture and species? To comprehend the most advanced wisdom, it is first necessary to have a foundation. Do you have this foundation? I await your reply?" 
+
+Is this voice part of an automated system? Does the Vault itself possess an intelligence? There is no way to know. It is likely that the markings upon the exterior of the Vault present certain questions and may hint at the answers. One of our scientists has speculated that they are prompts that begin certain principles or axioms that we must then finish. In order to gain access to the Vault, we will have to decipher these markings and gain some sort of understanding of how the Ancient Guardians understood the concept of governance.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -830,8 +868,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Ancient Guardian Civics nicht aus, um den Tresor zu öffnen. Wir müssen die politische Ökonomie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Civics was not sufficient to open the Vault. We will have to research Ancient Guardian Political Economy if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Civics was not sufficient to open the Vault. We will have to research Ancient Guardian Political Economy if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -919,8 +967,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der politischen Ökonomie des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen „Ancient Guardian Civics“ erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Political Economy was not sufficient to open the Vault. We will have to research Ancient Guardian Civics if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Political Economy was not sufficient to open the Vault. We will have to research Ancient Guardian Civics if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -973,8 +1031,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1093,8 +1161,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresorinhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1538,8 +1616,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Zenox Fruchtbarkeitsbehandlung</MessageTitle>
-        <Description>Das Gewölbe des alten Wächters auf {0} bleibt ein Rätsel. Wenn wir uns nähern, empfangen wir eine Art telepathische Kommunikation, die nicht in Worten, sondern in Ideen und Gefühlen dargestellt wird. Diese Empfindungen lassen sich am besten mit „Erklären Sie uns Ihre Überzeugungen und Vorgehensweisen“ übersetzen. Welche Überzeugungen und Vorgehensweisen müssen wir erklären? Und wie? Wir vermuten, dass die Antworten ebenso wie die Fragen telepathisch präsentiert werden können, aber wo sind die Antworten zu finden? Wir müssen die Ermittlungen fortsetzen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Zenox Fertility Treatment
+ - - - - - -->
+        <MessageTitle>Zenox Fertility Treatment</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Ancient Guardian Vault on {0} remains an enigma. As we approach, we receive some sort of telepathic communication, presented not in words but in ideas and feelings. These sensations can best be translated as "Explain to us your beliefs and procedures." What beliefs and procedures must we explain? And how? We suspect the answers can be presented telepathically, just like the questions, but where to find the answers? We must keep investigating.
+ - - - - - -->
+        <Description>The Ancient Guardian Vault on {0} remains an enigma. As we approach, we receive some sort of telepathic communication, presented not in words but in ideas and feelings. These sensations can best be translated as "Explain to us your beliefs and procedures." What beliefs and procedures must we explain? And how? We suspect the answers can be presented telepathically, just like the questions, but where to find the answers? We must keep investigating.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1643,8 +1731,18 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Zenox Fruchtbarkeitsbehandlung</MessageTitle>
-        <Description>Das Team von {0}, das das Gewölbe des alten Wächters untersucht, hat uns mit alarmierenden Neuigkeiten kontaktiert. Einer unserer Entdecker ist verschwunden. Es gibt keine Anzeichen für einen Kampf oder einen Unfall. Der Entdecker war in einem Moment da und im nächsten verschwunden. Wir müssen über die Evakuierung des gesamten Personals nachdenken, bis wir feststellen können, welchen Gefahren der Rest des Teams ausgesetzt sein könnte.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Zenox Fertility Treatment
+ - - - - - -->
+        <MessageTitle>Zenox Fertility Treatment</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The team on {0} examining the Ancient Guardian Vault has contacted us with some alarming news. One of our explorers has vanished. There is no sign of a struggle or accident. The explorer was there one moment and gone the next. We must consider evacuating all personnel until we can determine what dangers the rest of the team might face.
+ - - - - - -->
+        <Description>The team on {0} examining the Ancient Guardian Vault has contacted us with some alarming news. One of our explorers has vanished. There is no sign of a struggle or accident. The explorer was there one moment and gone the next. We must consider evacuating all personnel until we can determine what dangers the rest of the team might face.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1713,12 +1811,26 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Zenox Fruchtbarkeitsbehandlung</MessageTitle>
-        <Description>Die Situation auf {0} hat sich geändert. Unser Wissenschaftler ist zurückgekehrt, obwohl „zurückgekehrt“ vielleicht genauer wäre. Es scheint, dass er irgendwie von den Alten Wächtern oder einem Mechanismus im Tresorraum selbst entführt wurde. Er hat keine Erinnerung an seine Erlebnisse und ist unverletzt, es sei denn, es wurde ein Eingriff an ihm vorgenommen. Anders kann man es nicht sagen. Er wurde schwanger zu uns zurückgebracht.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-In ihm wächst ein mysteriöses embryonales Leben. Zuerst dachten wir, es handele sich um eine Art Geheimdienst, aber eine gründliche Untersuchung bringt etwas weitaus Komplizierteres ans Licht. Die Lebensform ist kein fühlendes Wesen, sondern vielmehr ein lebendiger Datenspeicher, vielleicht ein altes Wächtersystem zur Aufzeichnung und Übermittlung von Wissen. Unsere Ärzte konnten diese lebenden „Daten“ entfernen und aufrechterhalten, aber jetzt müssen wir ihren Zweck bestimmen.
+Englisch Neu:
+Zenox Fertility Treatment
+ - - - - - -->
+        <MessageTitle>Zenox Fertility Treatment</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlichen alten Wächter sowohl die Ethik als auch die Praktiken der biologischen Medizin verstanden haben. Wenn wir die in den genetischen Daten dieses lebenden Gewebes kodierten Informationen entschlüsseln können, sind wir vielleicht in der Lage, die Informationen, die die alten Wächter benötigen, telepathisch bereitzustellen.</Description>
+Englisch Neu:
+The situation on {0} has changed. Our scientist has returned, though "been returned" may be more accurate. It appears he was somehow abducted by the Ancient Guardians or some sort of mechanism within the Vault itself. He has no memory of his experiences, and he is unharmed except a… procedure has been performed upon him. There is no other way to say it. He has been returned to us pregnant.
+
+A mysterious embryonic life grows within him. Initially we thought it was some sort of intelligence, but a thorough examination reveals something far more complicated. The lifeform is not any sort of sentient being, but rather a living data repository, perhaps an Ancient Guardian system of recording and transmitting knowledge. Our doctors have been able to remove and sustain this living "data," but now we must determine its purpose. 
+
+Our best guess is that the data contains information on how the artificial Ancient Guardians understood both the ethics and practices of biological medicine. If we can decode the information encoded in genetic data of this living tissue, perhaps we will be able to telepathically provide the information the Ancient Guardians require.
+ - - - - - -->
+        <Description>The situation on {0} has changed. Our scientist has returned, though "been returned" may be more accurate. It appears he was somehow abducted by the Ancient Guardians or some sort of mechanism within the Vault itself. He has no memory of his experiences, and he is unharmed except a… procedure has been performed upon him. There is no other way to say it. He has been returned to us pregnant.
+
+A mysterious embryonic life grows within him. Initially we thought it was some sort of intelligence, but a thorough examination reveals something far more complicated. The lifeform is not any sort of sentient being, but rather a living data repository, perhaps an Ancient Guardian system of recording and transmitting knowledge. Our doctors have been able to remove and sustain this living "data," but now we must determine its purpose. 
+
+Our best guess is that the data contains information on how the artificial Ancient Guardians understood both the ethics and practices of biological medicine. If we can decode the information encoded in genetic data of this living tissue, perhaps we will be able to telepathically provide the information the Ancient Guardians require.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1849,8 +1961,18 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der medizinischen Ethik des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die medizinische Praxis des Alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Medical Ethics was not sufficient to open the Vault. We will have to research Ancient Guardian Medical Praxis if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Medical Ethics was not sufficient to open the Vault. We will have to research Ancient Guardian Medical Praxis if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1938,8 +2060,18 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der medizinischen Praxis des Alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die medizinische Ethik des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Medical Praxis was not sufficient to open the Vault. We will have to research Ancient Guardian Medical Ethics if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Medical Praxis was not sufficient to open the Vault. We will have to research Ancient Guardian Medical Ethics if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1992,8 +2124,18 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2112,8 +2254,18 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2557,12 +2709,26 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Kiraditus Prinzipien der Kolonialverteidigung</MessageTitle>
-        <Description>Unser Forscherteam hat uns von {0} aus mit alarmierenden Neuigkeiten kontaktiert. Sie sagen uns, dass sie irgendwohin transportiert wurden, sehr wahrscheinlich in das Innere des Alten Wächtergewölbes, das sie untersuchten. Darin haben sie ein riesiges Schlachtfeld gefunden, das in Hologrammen dargestellt ist. Die Kämpfer werden durch 6 verschiedenfarbige Zylinder dargestellt, die möglicherweise eine Art oder gar keine Art kennzeichnen sollen. In regelmäßigen Abständen treten die Zylinder in Kampfhandlungen ein – direkte Schlachten, Belagerungen, Gegenangriffe, Hinterhalte und so weiter. Verschiedene Mitglieder unseres Teams wurden aufgefordert, beide Seiten dieser Kampagnen zu leiten, bisher jedoch erfolglos.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Unsere Entdecker sagen, dass sie über ausreichend Nahrung und Wasser verfügen, um Monate oder sogar Jahre zu überleben. Dies deutet darauf hin, dass es ihnen nicht erlaubt sein wird, die Armeen zu verlassen, bis sie verstanden haben, wie sie die Zylinderarmeen zum Sieg führen können. Wir vermuten, dass dadurch das Gewölbe des Alten Wächters geöffnet wird, sodass unsere Entdecker das Gewölbe verlassen und wir den Inhalt betreten und untersuchen können.
+Englisch Neu:
+Kiraditu's Principles of Colonial Defense
+ - - - - - -->
+        <MessageTitle>Kiraditu's Principles of Colonial Defense</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten aufzuzeichnen und uns die Aufzeichnungen zu senden. Durch ihre Analyse glauben wir, dass wir nicht nur lernen können, wie man diese Schlachten gewinnt, sondern auch die fremden und unbekannten Strategien verstehen können, die für den Sieg erforderlich sind. Wir werden mehr Zeit brauchen, um vollständig zu verstehen, wie diese alten Wächter an Fragen der taktischen und strategischen Kriegsführung herangegangen sind.</Description>
+Englisch Neu:
+Our team of explorers have contacted us from {0} with alarming news. They tells us they have been transported somewhere, very likely the interior of the Ancient Guardian Vault they were investigating. Within they have found a massive battleground rendered in holograms. The combatants are represented by 6 different colored cylinders, perhaps meant to signify any species or no species at all. At regular intervals, the cylinders engage in combat - direct battles, sieges, counterattacks, ambushes, and so forth. Various members of our team have been prompted to lead either side of these campaigns, thus far unsuccessfully. 
+
+Our explorers say they have sufficient food and water to last them months or even years. This suggests that they will not be permitted to leave until they understand how to lead the cylinder armies to victory. Doing so, we suspect, will unlock the Ancient Guardian Vault, allowing our explorers to leave and allowing us to enter and examine the contents. 
+
+Fortunately, our explorers are able to record these hologram battles and send us the recordings. By analyzing them, we believe we can not only learn how to win these battles, but also understand the alien and unfamiliar strategies victory will require. We will need more time to fully understand how these Ancient Guardians approached matters of tactical and strategic warfare.
+ - - - - - -->
+        <Description>Our team of explorers have contacted us from {0} with alarming news. They tells us they have been transported somewhere, very likely the interior of the Ancient Guardian Vault they were investigating. Within they have found a massive battleground rendered in holograms. The combatants are represented by 6 different colored cylinders, perhaps meant to signify any species or no species at all. At regular intervals, the cylinders engage in combat - direct battles, sieges, counterattacks, ambushes, and so forth. Various members of our team have been prompted to lead either side of these campaigns, thus far unsuccessfully. 
+
+Our explorers say they have sufficient food and water to last them months or even years. This suggests that they will not be permitted to leave until they understand how to lead the cylinder armies to victory. Doing so, we suspect, will unlock the Ancient Guardian Vault, allowing our explorers to leave and allowing us to enter and examine the contents. 
+
+Fortunately, our explorers are able to record these hologram battles and send us the recordings. By analyzing them, we believe we can not only learn how to win these battles, but also understand the alien and unfamiliar strategies victory will require. We will need more time to fully understand how these Ancient Guardians approached matters of tactical and strategic warfare.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2728,8 +2894,18 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Taktiken des Alten Wächters nicht aus, um den Tresor zu öffnen. Wir müssen die Strategie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Tactics was not sufficient to open the Vault. We will have to research Ancient Guardian Strategy if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Tactics was not sufficient to open the Vault. We will have to research Ancient Guardian Strategy if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2817,8 +2993,18 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Strategie des alten Wächters nicht aus, um den Tresor zu öffnen. Wir müssen die Taktiken des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Strategy was not sufficient to open the Vault. We will have to research Ancient Guardian Tactics if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Strategy was not sufficient to open the Vault. We will have to research Ancient Guardian Tactics if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2871,8 +3057,18 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2991,8 +3187,18 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3436,10 +3642,22 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Lachen und Führung</MessageTitle>
-        <Description>Das Gewölbe des Alten Wächters auf {0} verfügt über eine offene Tür und scheint leicht zugänglich zu sein, wird jedoch von mehreren Dutzend sich ständig bewegenden Metallkugeln bewacht. Bei Annäherung übermitteln die Sphären telepathisch eine Botschaft, die eher impressionistischer als sprachlicher Natur ist, aber die meisten unserer Entdecker übersetzen sie mit „Führe uns!“ Dieser Führungsakt scheint zwingend erforderlich. Wenn sich ein Entdecker dem Eingang des Tresors nähert, feuert eine der Kugeln eine Energiewaffe auf ihn ab. Bei den anfänglichen Explosionen handelte es sich um sehr schwache und leicht schmerzhafte Warnungen, aber mit jedem Versuch werden die Explosionen stärker. Jede weitere Eskalation wird sie zweifellos tödlich machen.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort in der Bewegung der Kugeln liegen könnte. Diese Bewegungen können Symbole enthalten, die Informationen vermitteln. Die Entschlüsselung dieser Informationen wird wahrscheinlich die notwendigen Informationen liefern, um die Sphären zu „führen“. Dies ist eindeutig ein Test, und zwar ein äußerst komplizierter. Es kann einige Zeit dauern, herauszufinden, was die Alten Wächter von uns wollen.</Description>
+Englisch Neu:
+Laughter and Leadership
+ - - - - - -->
+        <MessageTitle>Laughter and Leadership</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Ancient Guardian Vault on {0} has an open doorway and appears easily accessible, but it is guarded by several dozen perpetually-moving metallic spheres. When approached, the spheres telepathically deliver a message that is more impressionistic than linguistic, but most of our explorers translate it as Lead us! This act of leadership appears to be mandatory. When an explorer approaches the entrance of the Vault, one of the spheres will fire an energy weapon at them. The initial blasts were very low power, mildly painful warnings, but with each attempt, the blasts become more powerful. Any further escalation will no doubt render them deadly.
+
+What does it mean to "lead" these spheres? We believe the answer may lie in the motion of the spheres. These movements may contain symbols which convey information. Deciphering this information will likely provide the necessary information for "leading" the spheres. This is clearly a test, and an extremely complicated one. It may take some time to puzzle out what the Ancient Guardians want from us.
+ - - - - - -->
+        <Description>The Ancient Guardian Vault on {0} has an open doorway and appears easily accessible, but it is guarded by several dozen perpetually-moving metallic spheres. When approached, the spheres telepathically deliver a message that is more impressionistic than linguistic, but most of our explorers translate it as Lead us! This act of leadership appears to be mandatory. When an explorer approaches the entrance of the Vault, one of the spheres will fire an energy weapon at them. The initial blasts were very low power, mildly painful warnings, but with each attempt, the blasts become more powerful. Any further escalation will no doubt render them deadly.
+
+What does it mean to "lead" these spheres? We believe the answer may lie in the motion of the spheres. These movements may contain symbols which convey information. Deciphering this information will likely provide the necessary information for "leading" the spheres. This is clearly a test, and an extremely complicated one. It may take some time to puzzle out what the Ancient Guardians want from us.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3605,8 +3823,18 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Führungstheorie der alten Wächter nicht aus, um den Tresorraum zu öffnen. Wir müssen die Beobachtungen der Anführer der Alten Wächter recherchieren, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Leadership Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Leadership Observations if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Leadership Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Leadership Observations if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3694,8 +3922,18 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Recherche zu den Beobachtungen der Anführer der alten Wächter nicht aus, um den Tresorraum zu öffnen. Wir müssen die Führungstheorie der alten Wächter erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Leadership Observations was not sufficient to open the Vault. We will have to research Ancient Guardian Leadership Theory if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Leadership Observations was not sufficient to open the Vault. We will have to research Ancient Guardian Leadership Theory if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3748,8 +3986,18 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3818,8 +4066,18 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4313,14 +4571,30 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Nachdenkliches Rückzugs-Archiv</MessageTitle>
-        <Description>Vor wenigen Augenblicken ist unser Forscherteam, das das Gewölbe der alten Wächter auf {0} untersucht, verschwunden. Wir empfangen jetzt eine Übertragung, die offenbar aus dem Tresorraum selbst kommt.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-„Biologische Wesenheiten, vielleicht sind Sie auf Ihren Reisen anderen alten Wächtern begegnet. Vielleicht auch nicht. Unabhängig davon ist es wichtig für Sie zu verstehen, dass wir nicht als einheitliches Ganzes funktionieren. Es gibt unter uns Fraktionen, die biologische Intelligenz unterschiedlich betrachten. Wir repräsentieren eine Fraktion, deren Namen Sie nicht verstehen konnten. Wichtig ist, dass Sie verstehen, dass wir dem Wert des biologischen Lebens weitaus skeptischer gegenüberstehen als viele unserer Art. Wir zweifeln an Ihrem Wert als Ganzes und sehen in Ihrer Existenz als Individuum wenig Sinn .
+Englisch Neu:
+Thoughtful Retreat Archives
+ - - - - - -->
+        <MessageTitle>Thoughtful Retreat Archives</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-„Wir sagen Ihnen das, damit Sie verstehen, dass Ihre Entdecker sterben werden, wenn Sie Ihren Wert nicht unter Beweis stellen können. Ihre Entdecker wurden auf ein Schiff gebracht, das weit außerhalb Ihrer Reichweite liegt, und sie werden niemals zurückkehren, es sei denn, Sie können eine Reihe von Fragen ausführlich beantworten. Die Triebwerkspläne werden wir Ihnen nun zusenden. Wenn Sie Ihr Volk retten können, erhalten Sie, wie Sie erklären, Zugang zum Tresor. Dies ist ein absichtlich grausamer Test, und das Leben Ihrer Entdecker hängt von Ihrer Fähigkeit ab, ihn zu bestehen ."
+Englisch Neu:
+Moments ago our team of explorers investigating the Ancient Guardian Vault on {0} vanished. We are now receiving a transmission that appears to be coming from within the Vault itself.
 
-Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden, was wir über die Mechanik und Hyperantriebstheorie des Alten Wächters verstehen können.</Description>
+"Biological entities, perhaps you have encountered other Ancient Guardians in your travels. Perhaps not. Regardless it is important for you to understand that we do not function as a unified whole. There are among us factions that view biological intelligence differently. We represent a faction whose name you could not comprehend. What is important is that you understand we are far more skeptical of the value of biological life than many of our kind. We doubt your worth as a whole, and we see little purpose in your existence as individuals. 
+
+"We tell you this so you will understand your explorers will die if you cannot demonstrate your worth. Your explorers have been placed on a ship far out of your reach, and they will never return unless you can answer in depth a series of questions about the engine schematics we will now send to you. If you are able to save your people, then you explain will be granted access to the Vault. This is an intentionally cruel test, and the lives of your explorers depend upon your ability to pass it."
+
+We will have to begin examining these schematics to see what we can understand about Ancient Guardian mechanical and hyperdrive theory.
+ - - - - - -->
+        <Description>Moments ago our team of explorers investigating the Ancient Guardian Vault on {0} vanished. We are now receiving a transmission that appears to be coming from within the Vault itself.
+
+"Biological entities, perhaps you have encountered other Ancient Guardians in your travels. Perhaps not. Regardless it is important for you to understand that we do not function as a unified whole. There are among us factions that view biological intelligence differently. We represent a faction whose name you could not comprehend. What is important is that you understand we are far more skeptical of the value of biological life than many of our kind. We doubt your worth as a whole, and we see little purpose in your existence as individuals. 
+
+"We tell you this so you will understand your explorers will die if you cannot demonstrate your worth. Your explorers have been placed on a ship far out of your reach, and they will never return unless you can answer in depth a series of questions about the engine schematics we will now send to you. If you are able to save your people, then you explain will be granted access to the Vault. This is an intentionally cruel test, and the lives of your explorers depend upon your ability to pass it."
+
+We will have to begin examining these schematics to see what we can understand about Ancient Guardian mechanical and hyperdrive theory.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4486,8 +4760,18 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der mechanischen Theorie des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die Hyperantriebstheorie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Mechanical Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Hyperdrive Theory if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Mechanical Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Hyperdrive Theory if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4575,8 +4859,18 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Hyperantriebstheorie des Alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die mechanische Theorie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Hyperdrive Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Mechanical Theory if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Hyperdrive Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Mechanical Theory if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4629,8 +4923,18 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4749,8 +5053,18 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5194,12 +5508,26 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die Maditor-Methode</MessageTitle>
-        <Description>Das alte Wächtergewölbe auf {0} ist größtenteils unterirdisch. Der Eingang ist offen und zugänglich und scheint sich endlos in eine labyrinthische Struktur zu erstrecken. Wir haben mehrere Kartierungsdrohnen in das Labyrinth geschickt, aber sie konnten keinen Ausweg finden. Die wahrscheinlichste Erklärung ist, dass es sich bei der Struktur um ein dynamisches Labyrinth handelt, das sich ständig verändert. Aber verändert sich dabei ein Muster, das entschlüsselt werden kann?
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Wir glauben, dass dies der Fall ist. Der Eingang zum Labyrinth ist mit zahlreichen Symbolen markiert, die verschiedene Arten der Energieerzeugung darzustellen scheinen, die sowohl in unserer Kultur als auch von Außerirdischen genutzt werden. Einige davon sind uns völlig unbekannt.
+Englisch Neu:
+The Maditor Method
+ - - - - - -->
+        <MessageTitle>The Maditor Method</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verstehen können, was die alten Wächter uns über Energie und ihre Produktion zu sagen versuchen, glauben wir, dass dies eine Art Rahmen für das Verständnis des Labyrinths selbst bieten wird. Wenn uns das gelingt, glauben wir, dass wir in den Haupt- und gesperrten Abschnitten dieses Tresors navigieren können.</Description>
+Englisch Neu:
+The Ancient Guardian Vault on {0} is primarily subterranean. The entrance is open and accessible, and seems to stretch on endlessly into a labyrinthine structure. We have sent several mapping drones into the labyrinth, but they have not been able to find their way out. The most likely explanation is that the structure is a dynamic maze, constantly shifting. But is it shifting in some sort of pattern that can be deciphered.
+
+We believe this is the case. The entrance to the labyrinth is marked with numerous symbols that seem to depict various modes of energy production, used in our culture as well as that used by aliens. Some of these are entirely unfamiliar to us. 
+
+Our plan is to use these symbols as a starting point. If we can understand what the Ancient Guardians are trying to tell us about energy and its production, we believe it will provide some sort of framework for understanding the maze itself. If we can accomplish that, then we believe we will be able to navigate the main and locked the sections of this Vault.
+ - - - - - -->
+        <Description>The Ancient Guardian Vault on {0} is primarily subterranean. The entrance is open and accessible, and seems to stretch on endlessly into a labyrinthine structure. We have sent several mapping drones into the labyrinth, but they have not been able to find their way out. The most likely explanation is that the structure is a dynamic maze, constantly shifting. But is it shifting in some sort of pattern that can be deciphered.
+
+We believe this is the case. The entrance to the labyrinth is marked with numerous symbols that seem to depict various modes of energy production, used in our culture as well as that used by aliens. Some of these are entirely unfamiliar to us. 
+
+Our plan is to use these symbols as a starting point. If we can understand what the Ancient Guardians are trying to tell us about energy and its production, we believe it will provide some sort of framework for understanding the maze itself. If we can accomplish that, then we believe we will be able to navigate the main and locked the sections of this Vault.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5365,8 +5693,18 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Energiequellen des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die Energietechnologie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Energy Sources was not sufficient to open the Vault. We will have to research Ancient Guardian Energy Technology if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Energy Sources was not sufficient to open the Vault. We will have to research Ancient Guardian Energy Technology if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5454,8 +5792,18 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Energietechnologie des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die Energiequellen der alten Wächter erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Energy Technology was not sufficient to open the Vault. We will have to research Ancient Guardian Energy Sources if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Energy Technology was not sufficient to open the Vault. We will have to research Ancient Guardian Energy Sources if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5508,8 +5856,18 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5628,8 +5986,18 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6073,14 +6441,30 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Diplomatie und andere Mittel</MessageTitle>
-        <Description>Wir erhalten eine Übertragung von unserem Erkundungsteam, das eine uralte Wächter-Tresoranlage auf {0} untersucht. Sie sind auf eine holografische Projektion einer herausragenden Figur unserer eigenen Spezies gestoßen, die sich – durch telepathische Kommunikation, nicht durch gesprochene Worte – als „Der Diplomat“ identifiziert.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Dieser Diplomat hat ein weiteres Hologramm präsentiert, ein sich veränderndes Puzzle, das aus rätselhaften Symbolen und ineinandergreifenden Mustern besteht. Das Erkundungsteam hat keine explizite Erklärung erhalten, aber jedes behauptet, irgendwie zu „wissen“, dass die verschiedenen Symbole spezifische Aspekte von Konzepten darstellen, die mit Diplomatie verbunden sind, wie etwa Verhandlung, Kompromiss und strategisches Denken.
+Englisch Neu:
+Diplomacy and Other Means
+ - - - - - -->
+        <MessageTitle>Diplomacy and Other Means</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Durch Willenskraft können die verschiedenen Teile bewegt und neu angeordnet werden, wodurch größere, komplexere, oft dynamischere Stücke entstehen. Diese größeren Stücke scheinen anspruchsvollere diplomatische Konzepte darzustellen. Sobald alle Teile richtig platziert sind, wird sich der Tresor unserer Meinung nach öffnen.
+Englisch Neu:
+We are receiving a transmission from our exploration team investigating an Ancient Guardian Vault on {0}. They have encountered a holographic projection of a distinguished figure of our own species, who identifies itself - through telepathic communication, not spoken words - as "The Diplomat."
 
-Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächter von ordnungsgemäß durchgeführter Diplomatie zusammen. Daher ist es möglich, dass wir durch das Studium der Symbole und indem wir sehen, wie kleinere Teile korrekt zu größeren kombiniert werden können, beginnen können, die notwendigen Konzepte zu erlernen, die den Tresor öffnen.</Description>
+This Diplomat has presented another hologram, a shifting puzzle composed of enigmatic symbols and interlocking patterns. The exploration team has received no explicit explanation, but each claims to somehow "know" that the various symbols represent specific aspects of concepts associated with diplomacy, such as negotiation, compromise, and strategic thinking.
+
+By force of will, the different pieces can be moved and rearranged, creating larger, more complex, often dynamic, pieces. These larger pieces seem to represent more sophisticated diplomatic concepts. Once all of the pieces have been placed correctly, we believe the Vault will open. 
+
+The correct placement is surely linked to the Ancient Guardians' understanding of properly-conducted diplomacy. Therefore it is possible that by studying the symbols, and by seeing how smaller pieces can correctly be combined to create larger ones, we can begin to learn the necessary concepts that will unlock the Vault.
+ - - - - - -->
+        <Description>We are receiving a transmission from our exploration team investigating an Ancient Guardian Vault on {0}. They have encountered a holographic projection of a distinguished figure of our own species, who identifies itself - through telepathic communication, not spoken words - as "The Diplomat."
+
+This Diplomat has presented another hologram, a shifting puzzle composed of enigmatic symbols and interlocking patterns. The exploration team has received no explicit explanation, but each claims to somehow "know" that the various symbols represent specific aspects of concepts associated with diplomacy, such as negotiation, compromise, and strategic thinking.
+
+By force of will, the different pieces can be moved and rearranged, creating larger, more complex, often dynamic, pieces. These larger pieces seem to represent more sophisticated diplomatic concepts. Once all of the pieces have been placed correctly, we believe the Vault will open. 
+
+The correct placement is surely linked to the Ancient Guardians' understanding of properly-conducted diplomacy. Therefore it is possible that by studying the symbols, and by seeing how smaller pieces can correctly be combined to create larger ones, we can begin to learn the necessary concepts that will unlock the Vault.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6246,8 +6630,18 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der diplomatischen Geschichte des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die diplomatische Theorie des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Diplomatic History was not sufficient to open the Vault. We will have to research Ancient Guardian Diplomatic Theory if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Diplomatic History was not sufficient to open the Vault. We will have to research Ancient Guardian Diplomatic Theory if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6335,8 +6729,18 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Diplomatischen Theorie des Alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die diplomatische Geschichte des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Diplomatic Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Diplomatic History if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Diplomatic Theory was not sufficient to open the Vault. We will have to research Ancient Guardian Diplomatic History if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6389,8 +6793,18 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6509,8 +6923,18 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6954,16 +7378,34 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Hattirs Trainingshandbuch</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Hattir's Training Manual
+ - - - - - -->
+        <MessageTitle>Hattir's Training Manual</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Our team exploring the Ancient Guardian Vault on {0} has encountered a vast array of intricately carved stone statues, each the size of an adult of our species and weighing twice as much. The statues come in perhaps two dozen different shapes, though there are multiple instances of each of these, some far more numerous than others. 
+
+Having reviewed these various shapes against all known cultural databases, we have concluded that the statues are oversized game pieces from an unknown strategic game played before the Cataclysm. While this is largely a hypothesis, our analytical models tell us there is a high degree of likelihood the game centered around a theme of planetary siege warfare. 
+
+Based on these suppositions, we speculate that there is not one, but several related and interlinked games simultaneously being played out on the planet surface. Using drones equipped with anti-grav technology, the pieces can be moved and, when we do so, pieces of the opposing side move in turn. Several experiments have led us to believe that we are responsible for moving the defending pieces and some unknown force is moving the attackers. 
+
+Based on all of this data, it appears likely that in order to gain entry to the Ancient Guardian Vault, we must win all of the interlinked defending games. Doing so will require an understanding of Ancient Guardian defensive principles that we believe can be revealed by analyzing the original placement to the game pieces and also by studying the response to moves we make. 
+
+This will be a slow and painstaking process, but we can see no other means of gaining entry to the Vault.
+ - - - - - -->
         <Description>Our team exploring the Ancient Guardian Vault on {0} has encountered a vast array of intricately carved stone statues, each the size of an adult of our species and weighing twice as much. The statues come in perhaps two dozen different shapes, though there are multiple instances of each of these, some far more numerous than others. 
 
-Nachdem wir diese verschiedenen Formen mit allen bekannten Kulturdatenbanken verglichen haben, sind wir zu dem Schluss gekommen, dass es sich bei den Statuen um übergroße Spielfiguren aus einem unbekannten Strategiespiel handelt, das vor der Katastrophe gespielt wurde. Auch wenn es sich größtenteils um eine Hypothese handelt, zeigen unsere Analysemodelle, dass es sehr wahrscheinlich ist, dass sich das Spiel um das Thema eines Belagerungskriegs auf Planeten dreht.
+Having reviewed these various shapes against all known cultural databases, we have concluded that the statues are oversized game pieces from an unknown strategic game played before the Cataclysm. While this is largely a hypothesis, our analytical models tell us there is a high degree of likelihood the game centered around a theme of planetary siege warfare. 
 
-Basierend auf diesen Annahmen spekulieren wir, dass auf der Planetenoberfläche nicht nur ein, sondern mehrere zusammenhängende und miteinander verbundene Spiele gleichzeitig ablaufen. Mithilfe von Drohnen, die mit Antigrav-Technologie ausgestattet sind, können die Teile bewegt werden, und wenn wir das tun, bewegen sich abwechselnd Teile der gegnerischen Seite. Mehrere Experimente haben uns zu der Annahme geführt, dass wir für die Bewegung der verteidigenden Figuren verantwortlich sind und eine unbekannte Kraft die Angreifer bewegt.
+Based on these suppositions, we speculate that there is not one, but several related and interlinked games simultaneously being played out on the planet surface. Using drones equipped with anti-grav technology, the pieces can be moved and, when we do so, pieces of the opposing side move in turn. Several experiments have led us to believe that we are responsible for moving the defending pieces and some unknown force is moving the attackers. 
 
-Basierend auf all diesen Daten ist es wahrscheinlich, dass wir alle miteinander verbundenen Verteidigungsspiele gewinnen müssen, um Zutritt zum Gewölbe des Alten Wächters zu erhalten. Dazu ist ein Verständnis der Verteidigungsprinzipien der Alten Wächter erforderlich, das unserer Meinung nach durch die Analyse der ursprünglichen Platzierung der Spielfiguren und auch durch die Untersuchung der Reaktion auf unsere Bewegungen aufgedeckt werden kann.
+Based on all of this data, it appears likely that in order to gain entry to the Ancient Guardian Vault, we must win all of the interlinked defending games. Doing so will require an understanding of Ancient Guardian defensive principles that we believe can be revealed by analyzing the original placement to the game pieces and also by studying the response to moves we make. 
 
-Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere Möglichkeit, Zugang zum Tresor zu erhalten.</Description>
+This will be a slow and painstaking process, but we can see no other means of gaining entry to the Vault.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7129,8 +7571,18 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Verteidigungstaktiken des alten Wächters nicht aus, um den Tresor zu öffnen. Wir müssen die Verteidigungsstrukturen der alten Wächter erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Defensive Tactics was not sufficient to open the Vault. We will have to research Ancient Guardian Defensive Structures if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Defensive Tactics was not sufficient to open the Vault. We will have to research Ancient Guardian Defensive Structures if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7218,8 +7670,18 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der Verteidigungsstrukturen der alten Wächter nicht aus, um das Gewölbe zu öffnen. Wir müssen die Verteidigungstaktiken des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Defensive Structures was not sufficient to open the Vault. We will have to research Ancient Guardian Defensive Tactics if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Defensive Structures was not sufficient to open the Vault. We will have to research Ancient Guardian Defensive Tactics if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7272,8 +7734,18 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7392,8 +7864,18 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7837,12 +8319,26 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die Itimai-Methode</MessageTitle>
-        <Description>Unser Erkundungsteam auf {0} berichtet, dass das Ancient Guardian Vault von einem Feld seltsamer, asymmetrischer kristalliner Strukturen umgeben ist. Die Luft um sie herum schwingt mit einer schwachen Energie mit, die wir spüren, aber von unseren Sensoren nicht erkennen können. Das Berühren der kristallinen Struktur erzeugt ein seltsames Geräusch, von dem unsere Forscher zunächst glaubten, es handele sich um eine völlig unbekannte Sprache, doch jetzt vermuten sie, dass es sich um eine Musikform handelt, die auf uns völlig unbekannten Prinzipien basiert. Jede dieser „Musiknoten“ wird von einer telepathischen Empfindung begleitet, die den Forscher dazu bringt, an ein bestimmtes Konstruktions- oder Antriebskonzept zu denken, beispielsweise an ein Konstruktionsprinzip oder ein Stück Hardware. Der Bereich scheint unterschiedlich zu sein, obwohl jede Note durchgängig mit der gleichen telepathischen Eigenschaft verbunden zu sein scheint.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Es ist wahrscheinlich, dass wir, um Zugang zum Tresorraum zu erhalten, zunächst diese kristallinen Strukturen nutzen müssen, um eine Musikkomposition aufzuführen, die zu diesem Zeitpunkt unbekannte technische Prinzipien der Alten Wächter widerspiegelt. Wir können nur mehr erfahren, indem wir experimentieren und sehen, welche telepathischen Konzepte durch die Interaktion mit den Strukturen hervorgerufen werden, und diese Strukturen dann im Rahmen dessen analysieren, was wir über die technischen Prinzipien der Alten Wächter herausfinden können.
+Englisch Neu:
+The Itimai Method
+ - - - - - -->
+        <MessageTitle>The Itimai Method</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.</Description>
+Englisch Neu:
+Our exploration team on {0} reports that the Ancient Guardian Vault is surrounded by a field of strange, asymmetrical crystalline structures. The air around them resonates with a faint energy that can be felt but not detected by our sensors. Touching the crystalline structure produces a strange noise that our explorers at first believed was an entirely unknown language, but they now suspect is a form of music based on principles entirely unknown to us. Each of these "musical notes" is accompanied by a telepathic sensation which causes the explorer to think of a specific engineering or propulsion concept, such as a design principle or a piece of hardware. The range seems varied, though each note seems consistently linked with the same telepathic property. 
+
+It is likely that in order to gain access to the Vault, we must first use these crystalline structures to perform a musical composition that speaks to, as of this moment, unknown Ancient Guardian engineering principles. We can only learn more by experimenting and seeing what telepathic concepts are invoked by interacting with the structures and then analyzing those structures within what we are able to glean about Ancient Guardian engineering principles. 
+
+We have much research to do before we can access the Vault.
+ - - - - - -->
+        <Description>Our exploration team on {0} reports that the Ancient Guardian Vault is surrounded by a field of strange, asymmetrical crystalline structures. The air around them resonates with a faint energy that can be felt but not detected by our sensors. Touching the crystalline structure produces a strange noise that our explorers at first believed was an entirely unknown language, but they now suspect is a form of music based on principles entirely unknown to us. Each of these "musical notes" is accompanied by a telepathic sensation which causes the explorer to think of a specific engineering or propulsion concept, such as a design principle or a piece of hardware. The range seems varied, though each note seems consistently linked with the same telepathic property. 
+
+It is likely that in order to gain access to the Vault, we must first use these crystalline structures to perform a musical composition that speaks to, as of this moment, unknown Ancient Guardian engineering principles. We can only learn more by experimenting and seeing what telepathic concepts are invoked by interacting with the structures and then analyzing those structures within what we are able to glean about Ancient Guardian engineering principles. 
+
+We have much research to do before we can access the Vault.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8008,8 +8504,18 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung des Antriebs des Alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen die Technik des alten Wächters erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Propulsion was not sufficient to open the Vault. We will have to research Ancient Guardian Engineering if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Propulsion was not sufficient to open the Vault. We will have to research Ancient Guardian Engineering if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8097,8 +8603,18 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung der uralten Wächtertechnik nicht aus, um den Tresorraum zu öffnen. Wir müssen „Ancient Guardian Propulsion“ erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Engineering was not sufficient to open the Vault. We will have to research Ancient Guardian Propulsion if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Engineering was not sufficient to open the Vault. We will have to research Ancient Guardian Propulsion if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8151,8 +8667,18 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8271,8 +8797,18 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8716,13 +9252,28 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die Jhahtu-Reformen</MessageTitle>
-        <Description>Das alte Wächtergewölbe auf {0} enthält einen Eingang, der zu einer großen Vorkammer führt. Dies hat den Eindruck eines Museums, da es mit Hunderten von Nachbildungen uralter Wächterschiffe gefüllt ist. Bei einigen handelt es sich um einfache Frachter oder Erkundungsschiffe, bei anderen um riesige Schlachtschiffe und Träger. Die Auswahl an Ästhetik und Design scheint sehr unterschiedlich zu sein, oft zwischen verschiedenen Schiffen, die die gleiche Funktion erfüllen. Es gibt beispielsweise neun verschiedene Kurzstreckentransportschiffe, von denen keines dem anderen gleicht.
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Die verschiedenen Schiffe scheinen nicht auf den Entwürfen anderer Arten zu basieren. Vielmehr scheint es, als sei jedes Schiff ein Experiment eines einzelnen Schöpfers oder eines Schöpferteams, das versucht, die Funktionsweise eines Schiffes zu überdenken. Wären die Schiffe nicht übersinnlich „beschriftet“, würde niemand glauben, dass sie alle oder auch nur zwei davon aus derselben Kultur stammen.
+Englisch Neu:
+The Jhahtu Reforms
+ - - - - - -->
+        <MessageTitle>The Jhahtu Reforms</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
 
-Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine telepathische Frage auslöst:
-„Was sind die Grundprinzipien des Schiffsdesigns der Ancient Guardian?“ Wir glauben, dass wir dazu veranlasst werden, die Designtechniken der Alten Wächter zu studieren, um die Prinzipien, die Technik und vielleicht sogar die ästhetischen Entscheidungen zu verstehen, die ihre vielen Schiffstypen bestimmen. Dies stellt eine besondere Herausforderung dar, da es eine überwältigende Vielfalt gibt. Dennoch muss es Prinzipien geben, die diese Designs vereinen. Sobald wir diese verstanden haben, glauben wir, dass wir eine telepathische Antwort auf ihre Frage geben und den Tresor öffnen können.</Description>
+Englisch Neu:
+The Ancient Guardian Vault on {0} contains an entrance that leads to large antechamber. This has the feeling of a museum, as it is filled with hundreds of replicas of Ancient Guardian ships. Some are basic freighters or exploration vessels, others massive battleships and carriers. The aesthetics and design choices seem widely varied, often between different ships that serve the same function. There are, for example, nine different short-distance transport vessels, none of which resemble the others. 
+
+The various ships do not appear to be based on the designs of other species. Rather, it appears as if each ship is an experiment of an individual creator or team of creators attempting to rethink how a ship is supposed to function. Were the ships not psychically "labeled," no one would believe they all, or even any two, emerged from the same culture. 
+
+At the far end of the antechamber is a panel that, when touched, prompts a telepathic question: 
+"What are the core principles of Ancient Guardian ship design?" We believe we are being prompted to study the design techniques of the Ancient Guardians, to understand the principles, engineering, and perhaps even aesthetic choices that govern their many types of ships. This is particularly challenging because of the mindboggling variety to be found. Nevertheless, there must be principles that unites these designs. Once we understand these, we believe we can provide a telepathic answer to their question and open the Vault.
+ - - - - - -->
+        <Description>The Ancient Guardian Vault on {0} contains an entrance that leads to large antechamber. This has the feeling of a museum, as it is filled with hundreds of replicas of Ancient Guardian ships. Some are basic freighters or exploration vessels, others massive battleships and carriers. The aesthetics and design choices seem widely varied, often between different ships that serve the same function. There are, for example, nine different short-distance transport vessels, none of which resemble the others. 
+
+The various ships do not appear to be based on the designs of other species. Rather, it appears as if each ship is an experiment of an individual creator or team of creators attempting to rethink how a ship is supposed to function. Were the ships not psychically "labeled," no one would believe they all, or even any two, emerged from the same culture. 
+
+At the far end of the antechamber is a panel that, when touched, prompts a telepathic question: 
+"What are the core principles of Ancient Guardian ship design?" We believe we are being prompted to study the design techniques of the Ancient Guardians, to understand the principles, engineering, and perhaps even aesthetic choices that govern their many types of ships. This is particularly challenging because of the mindboggling variety to be found. Nevertheless, there must be principles that unites these designs. Once we understand these, we believe we can provide a telepathic answer to their question and open the Vault.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8888,8 +9439,18 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung des Designs eines uralten Wächterschiffs nicht aus, um den Tresorraum zu öffnen. Wenn wir die Geheimnisse des Tresors lüften wollen, müssen wir uns mit dem Motordesign des alten Wächters befassen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Ship Design was not sufficient to open the Vault. We will have to research Ancient Guardian Engine Design if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Ship Design was not sufficient to open the Vault. We will have to research Ancient Guardian Engine Design if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -8977,8 +9538,18 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
       </GameEventAction>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die falsche Wahl</MessageTitle>
-        <Description>Leider reichte die Erforschung des Ancient Guardian Engine Design nicht aus, um den Tresor zu öffnen. Wir müssen das Design des uralten Wächterschiffs erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Wrong Choice
+ - - - - - -->
+        <MessageTitle>The Wrong Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Unfortunately, researching Ancient Guardian Engine Design was not sufficient to open the Vault. We will have to research Ancient Guardian Ship Design if we hope to discover the Vault's secrets.
+ - - - - - -->
+        <Description>Unfortunately, researching Ancient Guardian Engine Design was not sufficient to open the Vault. We will have to research Ancient Guardian Ship Design if we hope to discover the Vault's secrets.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -9031,8 +9602,18 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Die richtige Entscheidung</MessageTitle>
-        <Description>Wir haben die richtige Recherche erfolgreich abgeschlossen und den Tresor geöffnet. Jetzt müssen wir uns nach innen wagen.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+The Right Choice
+ - - - - - -->
+        <MessageTitle>The Right Choice</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+We have successfully completed the correct research and opened the Vault. Now we must venture inward.
+ - - - - - -->
+        <Description>We have successfully completed the correct research and opened the Vault. Now we must venture inward.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -9151,8 +9732,18 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
     <TriggerActions>
       <GameEventAction>
         <Type>GeneralStoryMessageToEmpire</Type>
-        <MessageTitle>Tresor-Inhalte</MessageTitle>
-        <Description>Im alten Wächtergewölbe haben wir Informationen gefunden, die unsere Forschung voranbringen werden, sowie ein Artefakt, das wir in unsere Heimatkolonie gebracht haben.</Description>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Vault Contents
+ - - - - - -->
+        <MessageTitle>Vault Contents</MessageTitle>
+<!--Typ: _____NOCH_NICHT_ÜBERSETZT_____
+
+Englisch Neu:
+Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.
+ - - - - - -->
+        <Description>Inside the Ancient Guardian Vault we've found information that will advance our research as well as an artifact that we have transfered to our home colony.</Description>
         <ImageFilepath />
         <MusicFilepath />
         <ActionLocationHint>SameLocationAsEvent</ActionLocationHint>

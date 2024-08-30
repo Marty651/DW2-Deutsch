@@ -12,6 +12,9 @@
     MarkerNoDifference = "DEUTSCH_UND_ENGLISCH_GLEICH"
     MarkerOutdated = "VERALTET"
     MarkerDifferent = "UNTERSCHIEDLICH"
+    MarkerNoFile = "KEINE_DATEI"
+    MarkerMissingFile = "FEHLENDE_DATEI"
+    MarkerNoElements = "KEINE_ELEMENTE_GEFUNDEN"
 
     RuleSetsOld = (. "$PSScriptRoot\Regeln.ps1")
     RuleSetsNew = (. "$PSScriptRoot\Regeln-Neu.ps1")

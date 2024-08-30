@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([Worker]$Worker, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSetsOld, $RuleSetsNew)
 
 Write-Host -ForegroundColor Green "Starte Modus 3 - Der (neue) Hauptmodus."
 Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
@@ -147,7 +147,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 
 ### Main Program
 
-foreach ($ruleSet in $RuleSets) {
+foreach ($ruleSet in $RuleSetsNew) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
     $rules = $ruleSet.Regeln
@@ -159,7 +159,7 @@ foreach ($ruleSet in $RuleSets) {
     $fileNames = $Worker.ResolveFileGlobs($fileNames, $Config.FolderPathEnNew)
 
     if (($null -eq $fileNames) -or ($fileNames.Length -eq 0)) {
-        $Worker.Log(">>", "Red", $Config.MarkerInvalid, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
+        $Worker.Log(">>", "DarkRed", $Config.MarkerNoFile, $ruleSetName, "", "", "Keine Datei für 'Englisch Neu' gefunden.")
         continue
     }
 

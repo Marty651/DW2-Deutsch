@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([Worker]$Worker, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSetsOld, $RuleSetsNew)
 
 Write-Host -ForegroundColor Green "Starte Modus 3 - Der (alte) Hauptmodus."
 Write-Host -ForegroundColor Green "Zusammenführung von Englisch Neu & Englisch Alt & Deutsch Alt"
@@ -129,7 +129,7 @@ function ProcessOne($ElementEnNew, $ElementEnOld, $ElementDe, $RuleSetName, $Fil
 }
 
 ### Main Program
-foreach ($ruleSet in $RuleSets) {
+foreach ($ruleSet in $RuleSetsOld) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
     $rules = $ruleSet.Regeln

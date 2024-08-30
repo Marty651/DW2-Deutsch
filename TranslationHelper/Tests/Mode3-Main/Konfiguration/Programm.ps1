@@ -13,7 +13,8 @@
     MarkerOutdated = "VERALTET"
     MarkerDifferent = "UNTERSCHIEDLICH"
 
-    RuleSets = (. "$PSScriptRoot\Regeln-Neu.ps1")
+    RuleSetsOld = (. "$PSScriptRoot\Regeln.ps1")
+    RuleSetsNew = (. "$PSScriptRoot\Regeln-Neu.ps1")
 
     FolderPathEnNew = "$PSScriptRoot\..\1 Englisch Neu"
     FolderPathEnOld = "$PSScriptRoot\..\2 Englisch Alt"

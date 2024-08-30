@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([Worker]$Worker, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSetsOld, $RuleSetsNew)
 
 Write-Host -ForegroundColor Green "Starte Modus 6 - GameText Übersetzung mit Deepl."
 Write-Host

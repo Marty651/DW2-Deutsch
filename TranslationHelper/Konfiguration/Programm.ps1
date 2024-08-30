@@ -24,8 +24,10 @@
     MarkerNoDifference = "DEUTSCH_UND_ENGLISCH_GLEICH"
     MarkerOutdated = "VERALTET"
     MarkerDifferent = "UNTERSCHIEDLICH"
+    MarkerNoFile = "KEINE_DATEI"
 
-    RuleSets = (. "$PSScriptRoot\Regeln.ps1") # TODO: Neue Version
+    RuleSetsOld = (. "$PSScriptRoot\Regeln.ps1")
+    RuleSetsNew = (. "$PSScriptRoot\Regeln-Neu.ps1")
 
     FolderPathEnNew = "$PSScriptRoot\..\1 Englisch Neu"
     FolderPathEnOld = "$PSScriptRoot\..\2 Englisch Alt"

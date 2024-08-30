@@ -1,6 +1,6 @@
 using module .\Worker.psm1
 
-param([Worker]$Worker, $Config, $RuleSets)
+param([Worker]$Worker, $Config, $RuleSetsOld, $RuleSetsNew)
 
 ### Functions
 
@@ -85,7 +85,7 @@ function ProcessTraversing($ElementEnNew, $ElementEnOld, $RuleSetName, $FileName
 Write-Host -ForegroundColor Green "Starte Modus 1 - Prüfung von Strukturänderungen einer Datei (Neu VS Alt)"
 Write-Host
 
-foreach ($ruleSet in $RuleSets) {
+foreach ($ruleSet in $RuleSetsOld) {
     $ruleSetName = $ruleSet.Name
     $fileNames = $ruleSet.Dateien
     Write-Host "> Starte Verarbeitung von Regelset: $ruleSetName"

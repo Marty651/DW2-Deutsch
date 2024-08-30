@@ -32,7 +32,10 @@ if ($TestConfig) {
 [Worker]$Worker = New-Worker -Config $Config
 
 # @{Name = "", Dateien = @(), Regeln = @()}
-$RuleSets = $Config.RuleSets
+$RuleSetsOld = $Config.RuleSetsOld
+
+# @{Name = "", Dateien = @(), IdRegel = "", Regeln = @()}
+$RuleSetsNew = $Config.RuleSetsNew
 
 Write-Host -ForegroundColor Green "
 _______          _____        _____             _            _       _____      _       _     
@@ -53,20 +56,29 @@ if ($Worker.IsDebug()) {
 }
 
 if ($Config.DebugOnlyRulesets.Count -gt 0) {
-    $RuleSets = $RuleSets | Where-Object { $Config.DebugOnlyRulesets -contains $_.Name }
-    Write-Host -ForegroundColor Yellow "Debug-Modus: Es werden nur die Regelsets verarbeitet, die in der Konfiguration unter 'DebugOnlyRulesets' angegeben sind:"
-    $RuleSets.Name
+    $RuleSetsOld = $RuleSetsOld | Where-Object { $Config.DebugOnlyRulesets -contains $_.Name }
+    Write-Host -ForegroundColor Yellow "Debug-Modus: Es werden nur die ALTEN Regelsets verarbeitet, die in der Konfiguration unter 'DebugOnlyRulesets' angegeben sind:"
+    $RuleSetsOld.Name
+    Write-Host
+
+    $RuleSetsNew = $RuleSetsNew | Where-Object { $Config.DebugOnlyRulesets -contains $_.Name }
+    Write-Host -ForegroundColor Yellow "Debug-Modus: Es werden nur die NEUEN Regelsets verarbeitet, die in der Konfiguration unter 'DebugOnlyRulesets' angegeben sind:"
+    $RuleSetsNew.Name
     Write-Host
 }
 
 if ($Worker.IsDebug()) {
-    Write-Host -ForegroundColor Yellow "Folgende Dateien werden verarbeitet (siehe Regeln):"
-    $RuleSets | Select-Object -ExpandProperty Dateien | Out-Host
+    Write-Host -ForegroundColor Yellow "Folgende Dateien werden verarbeitet (siehe ALTE Regeln):"
+    $RuleSetsOld | Select-Object -ExpandProperty Dateien | Out-Host
+    Write-Host
+
+    Write-Host -ForegroundColor Yellow "Folgende Dateien werden verarbeitet (siehe NEUE Regeln):"
+    $RuleSetsNew | Select-Object -ExpandProperty Dateien | Out-Host
     Write-Host
 }
 
 # Start Main Execution of the Selected Program Mode
-& $PSScriptRoot\Mode$Mode.ps1 -Worker $Worker -Config $Config -RuleSets $RuleSets
+& $PSScriptRoot\Mode$Mode.ps1 -Worker $Worker -Config $Config -RuleSetsOld $RuleSetsOld -RuleSetsNew $RuleSetsNew
 
 if ($true -eq $Config.CreateLogs) {
     $dateTimeStamp = $Config.Logger.IncludeDateTimeStamp ? (Get-Date -Format "yyyy-MM-dd_hh-mm-ss") : "AKTUELL"

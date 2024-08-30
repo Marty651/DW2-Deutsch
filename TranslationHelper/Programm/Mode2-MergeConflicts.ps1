@@ -69,7 +69,7 @@ $ProcessFn = {
 Write-Host -ForegroundColor Green "Starting with configuration:"
 $Config | Select-Object -Property UseDeepl, ShowGreen, DryRun | Format-List
 
-foreach ($ruleSet in $RuleSets) {
+foreach ($ruleSet in $RuleSetsOld) {
     $name = $ruleSet.Name
     $files = $ruleSet.Files
     $rules = $ruleSet.Rules

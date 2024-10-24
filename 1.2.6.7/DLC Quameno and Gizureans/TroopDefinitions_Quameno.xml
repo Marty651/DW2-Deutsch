@@ -70,4 +70,25 @@
     <Name>Jäger-Kompanie</Name>
     <ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
   </TroopDefinition>
+
+	<TroopDefinition>
+		<TroopDefinitionId>73</TroopDefinitionId>
+		<RaceId>15</RaceId>
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>70</MaintenanceCost>
+		<AttackStrength>70</AttackStrength>
+		<DefendStrength>85</DefendStrength>
+		<EvasionInfantry>0</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
+		<Name>Autobot-Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
+	</TroopDefinition>
+
 </ArrayOfTroopDefinition>

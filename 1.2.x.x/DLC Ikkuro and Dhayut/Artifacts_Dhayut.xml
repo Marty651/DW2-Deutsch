@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>38</ArtifactId> <!-- The Clever Steward -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Der kluge Verwalter</Name>
+		<ImageFilename>Artifacts/the clever steward</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>39</ArtifactId> <!-- The Great Deceiver -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Der große Betrüger</Name>
+		<ImageFilename>Artifacts/the great deceiver</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>40</ArtifactId> <!-- The Threads of Research -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Die Fäden der Forschung</Name>
+		<ImageFilename>Artifacts/the threads of research</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

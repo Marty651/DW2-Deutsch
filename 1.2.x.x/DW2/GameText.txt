@@ -507,7 +507,7 @@ GameTaskType Short QueueAttackTarget Raid		;Queue Raid
 GameTaskType Short QueueAttackTarget Blockade		;Queue Blockade
 GameTaskType Short QueueAttackTarget GatherPoint		;Set Attack Gather Point
 GameTaskType Short CancelQueueAttackTarget		;Angriff abbrechen
-GameTaskType Short AssignQuest		;Kriegsmission annehmen: {0}
+GameTaskType Short AssignQuest		;Mission annehmen: {0}
 GameTaskType Short QueueClearDangerousLocation		;Reihenfolge für gefährliche Orte festlegen
 GameTaskType Short CancelQueueClearDangerousLocation		;Reihenfolge für gefährliche Orte verwerfen
 GameTaskType Short BuildPlanetaryFacility		;Baut {0}

@@ -4354,19 +4354,19 @@
 			<ComponentStats>
 				<ComponentIonDefense>50</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>18</IonDamageDefense>
+				<IonDamageDefense>24</IonDamageDefense>
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>50</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>36</IonDamageDefense>
+				<IonDamageDefense>48</IonDamageDefense>
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>50</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>54</IonDamageDefense>
+				<IonDamageDefense>72</IonDamageDefense>
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
@@ -45173,7 +45173,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>383</ComponentId> <!-- Block Armor -->
-		<Size>8</Size>
+		<Size>7</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -45197,13 +45197,13 @@
 		<Values>
 			<ComponentStats>
 				<ArmorBlastRating>65</ArmorBlastRating>
-				<ArmorReactiveRating>4</ArmorReactiveRating>
+				<ArmorReactiveRating>5</ArmorReactiveRating>
 				<CrewRequirement>1</CrewRequirement>
 				<IonDamageDefense>1</IonDamageDefense>
 			</ComponentStats>
 			<ComponentStats>
 				<ArmorBlastRating>78</ArmorBlastRating>
-				<ArmorReactiveRating>5</ArmorReactiveRating>
+				<ArmorReactiveRating>6</ArmorReactiveRating>
 				<CrewRequirement>1</CrewRequirement>
 				<IonDamageDefense>2</IonDamageDefense>
 			</ComponentStats>
@@ -45213,7 +45213,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>384</ComponentId> <!-- Reactive Block Armor -->
-		<Size>8</Size>
+		<Size>7</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -45251,7 +45251,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>385</ComponentId> <!-- Dense Block Armor -->
-		<Size>8</Size>
+		<Size>7</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -45289,7 +45289,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>386</ComponentId> <!-- Block Armor [Ftr] -->
-		<Size>2</Size>
+		<Size>1</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -45327,7 +45327,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>387</ComponentId> <!-- Reactive Block Armor [Ftr] -->
-		<Size>2</Size>
+		<Size>1</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -45364,7 +45364,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>388</ComponentId> <!-- Dense Block Armor [Ftr] -->
-		<Size>2</Size>
+		<Size>1</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>

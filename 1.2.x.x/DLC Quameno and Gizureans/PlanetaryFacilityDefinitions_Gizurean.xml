@@ -1,93 +1,272 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>100</PlanetaryFacilityDefinitionId> <!-- Hive Fighter Base -->
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<BombardmentResistance>0.3</BombardmentResistance>
-		<GroundCombatResistance>0.3</GroundCombatResistance>
-		<FighterCapacity>24</FighterCapacity>
-		<FighterBuildRate>2</FighterBuildRate>
-		<FighterRepairRate>4</FighterRepairRate>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<Name>Schwarm-Kampfbasis</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>101</PlanetaryFacilityDefinitionId> <!-- Hive Fighter Base Mk2 -->
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<BombardmentResistance>0.2</BombardmentResistance>
-		<GroundCombatResistance>0.3</GroundCombatResistance>
-		<FighterCapacity>36</FighterCapacity>
-		<FighterBuildRate>3</FighterBuildRate>
-		<FighterRepairRate>6</FighterRepairRate>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<Name>Schwarm-Kampfbasis Mk2</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>102</PlanetaryFacilityDefinitionId> <!-- Hive Fighter Base Mk3 -->
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<BombardmentResistance>0.15</BombardmentResistance>
-		<GroundCombatResistance>0.3</GroundCombatResistance>
-		<FighterCapacity>54</FighterCapacity>
-		<FighterBuildRate>4</FighterBuildRate>
-		<FighterRepairRate>8</FighterRepairRate>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>4</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<Name>Schwarm-Kampfbasis Mk3</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>103</PlanetaryFacilityDefinitionId> <!-- Hive Fighter Base Mk4 -->
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<BombardmentResistance>0.1</BombardmentResistance>
-		<GroundCombatResistance>0.3</GroundCombatResistance>
-		<FighterCapacity>72</FighterCapacity>
-		<FighterBuildRate>6</FighterBuildRate>
-		<FighterRepairRate>10</FighterRepairRate>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>6</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<Name>Schwarm-Kampfbasis Mk4</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>109</PlanetaryFacilityDefinitionId> <!-- Gizurean Degenerates Burrows -->
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.15</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
-		<Name>Gizureanische entartete Höhlen</Name>
-		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
-	</PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>100</PlanetaryFacilityDefinitionId>
+    <ItemBonuses />
+    <EmpireBonuses />
+    <BuildCost>
+      <Money>10000</Money>
+      <Resources />
+    </BuildCost>
+    <MaintenanceCost>500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>0.7</BombardmentResistance>
+    <GroundCombatResistance>0.7</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>24</FighterCapacity>
+    <FighterBuildRate>2</FighterBuildRate>
+    <FighterRepairRate>4</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>10</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Schwarm-Kampfbasis</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>101</PlanetaryFacilityDefinitionId>
+    <ItemBonuses />
+    <EmpireBonuses />
+    <BuildCost>
+      <Money>10000</Money>
+      <Resources />
+    </BuildCost>
+    <MaintenanceCost>500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>0.8</BombardmentResistance>
+    <GroundCombatResistance>0.7</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>36</FighterCapacity>
+    <FighterBuildRate>3</FighterBuildRate>
+    <FighterRepairRate>6</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>10</FacilityFamilyId>
+    <FacilityFamilyLevel>2</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Schwarm-Kampfbasis Mk2</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>102</PlanetaryFacilityDefinitionId>
+    <ItemBonuses />
+    <EmpireBonuses />
+    <BuildCost>
+      <Money>10000</Money>
+      <Resources />
+    </BuildCost>
+    <MaintenanceCost>500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>0.85</BombardmentResistance>
+    <GroundCombatResistance>0.7</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>54</FighterCapacity>
+    <FighterBuildRate>4</FighterBuildRate>
+    <FighterRepairRate>8</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>10</FacilityFamilyId>
+    <FacilityFamilyLevel>4</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Schwarm-Kampfbasis Mk3</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>103</PlanetaryFacilityDefinitionId>
+    <ItemBonuses />
+    <EmpireBonuses />
+    <BuildCost>
+      <Money>10000</Money>
+      <Resources />
+    </BuildCost>
+    <MaintenanceCost>500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>0.9</BombardmentResistance>
+    <GroundCombatResistance>0.7</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>72</FighterCapacity>
+    <FighterBuildRate>6</FighterBuildRate>
+    <FighterRepairRate>10</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>10</FacilityFamilyId>
+    <FacilityFamilyLevel>6</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Schwarm-Kampfbasis Mk4</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>109</PlanetaryFacilityDefinitionId>
+    <ItemBonuses>
+      <Bonus>
+        <Type>ColonyCorruptionReduction</Type>
+        <Amount>-0.15</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </ItemBonuses>
+    <EmpireBonuses />
+    <MaintenanceCost>0</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>true</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>1</BombardmentResistance>
+    <GroundCombatResistance>1</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>0</FighterCapacity>
+    <FighterBuildRate>0</FighterBuildRate>
+    <FighterRepairRate>0</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>-1</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Gizureanische entartete Höhlen</Name>
+    <ImageFilename>Environment/Events/CrashedShip</ImageFilename>
+  </PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

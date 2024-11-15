@@ -1,83 +1,247 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>97</PlanetaryFacilityDefinitionId> <!-- Ancient Guardian Vault -->
-		<ItemBonuses>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.01</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAncientKnowledge</Type>
-				<Amount>0.06</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
-		<FacilityFamilyId>55</FacilityFamilyId>
-		<Name>Altes Wächtergewölbe</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 01</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>104</PlanetaryFacilityDefinitionId> <!-- Ancient Guardian Vault -->
-		<ItemBonuses>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.01</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAncientKnowledge</Type>
-				<Amount>0.06</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
-		<FacilityFamilyId>56</FacilityFamilyId>
-		<Name>Altes Wächtergewölbe</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 02</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>105</PlanetaryFacilityDefinitionId> <!-- Ancient Guardian Vault -->
-		<ItemBonuses>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.01</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAncientKnowledge</Type>
-				<Amount>0.06</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
-		<FacilityFamilyId>57</FacilityFamilyId>
-		<Name>Altes Wächtergewölbe</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 03</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>106</PlanetaryFacilityDefinitionId> <!-- Ancient Guardian Vault -->
-		<ItemBonuses>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.01</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAncientKnowledge</Type>
-				<Amount>0.06</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
-		<FacilityFamilyId>58</FacilityFamilyId>
-		<Name>Altes Wächtergewölbe</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 04</ImageFilename>
-	</PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>97</PlanetaryFacilityDefinitionId>
+    <ItemBonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAncientKnowledge</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </ItemBonuses>
+    <EmpireBonuses />
+    <MaintenanceCost>0</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>true</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>1</BombardmentResistance>
+    <GroundCombatResistance>1</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>0</FighterCapacity>
+    <FighterBuildRate>0</FighterBuildRate>
+    <FighterRepairRate>0</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>55</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Altes Wächtergewölbe</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 01</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>104</PlanetaryFacilityDefinitionId>
+    <ItemBonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAncientKnowledge</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </ItemBonuses>
+    <EmpireBonuses />
+    <MaintenanceCost>0</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>true</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>1</BombardmentResistance>
+    <GroundCombatResistance>1</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>0</FighterCapacity>
+    <FighterBuildRate>0</FighterBuildRate>
+    <FighterRepairRate>0</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>56</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Altes Wächtergewölbe</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 02</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>105</PlanetaryFacilityDefinitionId>
+    <ItemBonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAncientKnowledge</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </ItemBonuses>
+    <EmpireBonuses />
+    <MaintenanceCost>0</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>true</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>1</BombardmentResistance>
+    <GroundCombatResistance>1</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>0</FighterCapacity>
+    <FighterBuildRate>0</FighterBuildRate>
+    <FighterRepairRate>0</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>57</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Altes Wächtergewölbe</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 03</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>106</PlanetaryFacilityDefinitionId>
+    <ItemBonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAncientKnowledge</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+    </ItemBonuses>
+    <EmpireBonuses />
+    <MaintenanceCost>0</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>true</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
+    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
+    <BombardmentResistance>1</BombardmentResistance>
+    <GroundCombatResistance>1</GroundCombatResistance>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <WeaponComponentLevel>0</WeaponComponentLevel>
+    <WeaponCount>0</WeaponCount>
+    <FighterCapacity>0</FighterCapacity>
+    <FighterBuildRate>0</FighterBuildRate>
+    <FighterRepairRate>0</FighterRepairRate>
+    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
+    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
+    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
+    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
+    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
+    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <HyperDenyRange>0</HyperDenyRange>
+    <HyperDenyStrength>0</HyperDenyStrength>
+    <MedicalRating>0</MedicalRating>
+    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
+    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
+    <FacilityFamilyId>58</FacilityFamilyId>
+    <FacilityFamilyLevel>0</FacilityFamilyLevel>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
+    <QualityBoost>0</QualityBoost>
+    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
+    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
+    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
+    <BreedCreatureRate>0</BreedCreatureRate>
+    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
+    <ValidPlanetTypeIds />
+    <ValidGovernmentIds />
+    <TroopIdsRecruitable />
+    <Name>Altes Wächtergewölbe</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Ruins/ancient guardian ruin 04</ImageFilename>
+  </PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

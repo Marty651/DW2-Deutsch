@@ -75,16 +75,16 @@
 	  </AdditionalCharacterTraits>
 
 	  <FeatureExplanations>
-		  <string>[HL]Nichts verschwenden:[/HL] 25 % erhöhte Chance auf Tech-Boosts, wenn ein Schiff mit fortschrittlicher Technologie gerettet oder außer Dienst gestellt wird. Zusätzlicher Technologieschub, wenn ein fortschrittliches Schiff vollständig außer Dienst gestellt wird</string>
-		  <string>[HL]Die Durchsuchung:[/HL] Wahl, eine neu eroberte feindliche Kolonie zu „durchsuchen“. Durch Ausplündern wird die Kolonieentwicklung zurückgesetzt, 10 % der Bevölkerung verzehrt, eine vorübergehende Zufriedenheitsstrafe hinzugefügt und der Ruf geschädigt. Aber es bietet einen zusätzlichen technologischen Durchbruch bei der Eroberung, einen großen Ressourcenvorrat und steigert vorübergehend das Bevölkerungswachstum für Gizurean in Eurem gesamten Reich</string>
-		  <string>[HL]Rivalitäten:[/HL] muss sich in einem Machtkampf zwischen zwei Charakteren entscheiden, wobei einer von ihnen getötet wird, der andere jedoch mit neuen Fähigkeiten und Eigenschaften verstärkt wird.</string>
-		  <string>[HL]Brutwelt:[/HL] bietet einen Bonus auf die Wachstumsrate der gizureanischen Bevölkerung in Eurem gesamten Imperium, wann immer Sie die Politik „Bevölkerung ausrotten“ gegen eine nicht-gizureanische Rasse in einer Eurer Kolonien anwenden. Zusätzliche Brutwelten bieten kumulative Boni</string>
-		  <string>[HL]Stammeskonflikt:[/HL] kurzfristige, reichsweite Steigerung der Bevölkerungswachstumsrate von Gizure, jedoch mit einem damit einhergehenden Glücksverlust</string>
-		  <string>[HL]Schwarmkommando:[/HL] spezieller Zielcomputer für Schiffe, der eine erhöhte Zielgenauigkeit basierend auf der Gesamtzahl der Schiffe in einer Flotte ermöglicht</string>
-		  <string>[HL]Einzigartige Anführereigenschaft – Gifted Conduit:[/HL] +10 % Koloniezufriedenheit</string>
-		  <string>[HL]Einzigartige Anführereigenschaft – Kontrollierender Geist:[/HL] +10 % Korruptionsreduzierung</string>
-		  <string>[HL]Einzigartige allgemeine Eigenschaft – Schwarmlord:[/HL] +10 % Truppenrekrutierungsrate, +10 % Einsparungen bei der Truppenwartung</string>
-		  <string>[HL]Einzigartige allgemeine Eigenschaft – Larvenaufseher:[/HL] +10 % Truppenwiederherstellungsrate</string>
+		  <string>[HL]Waste Nothing:[/HL] 25% increased chance of tech boosts when salvaging or retiring a ship with advanced tech. Additional tech boost when completely retire an advanced ship</string>
+		  <string>[HL]The Scouring:[/HL] choice to 'scour' a newly conquered enemy colony. Scouring resets colony development, consumes 10% of the population, adds a temporary happiness penalty and damages reputation. But it provides an additional conquest tech breakthrough, a large resource cache and temporarily boosts population growth for Gizureans throughout your empire</string>
+		  <string>[HL]Rivalries:[/HL] must select between 2 characters in a power struggle, killing one of them, but boosting the other with new skills and traits</string>
+		  <string>[HL]Breeding World:[/HL] provides a bonus to Gizurean population growth rate throughout your empire whenever you use Exterminate population policy against a non-Gizurean race at one of your colonies. Additional Breeding Worlds provide cumulative bonuses</string>
+		  <string>[HL]Tribal Conflict:[/HL] short-term empire-wide boost to Gizurean population growth rate, but with an accompanying happiness penalty</string>
+		  <string>[HL]Swarm Command:[/HL] special targeting computer for ships that allows increased targeting accuracy based on the total number of ships in a fleet</string>
+		  <string>[HL]Unique Leader trait - Gifted Conduit:[/HL] +10% Colony Happiness</string>
+		  <string>[HL]Unique Leader trait - Controlling Mind:[/HL] +10% Corruption Reduction</string>
+		  <string>[HL]Unique General trait - Swarm Lord:[/HL] +10% Troop Recruitment Rate, +10% Troop Maintenance Savings</string>
+		  <string>[HL]Unique General trait - Larva Overseer:[/HL] +10% Troop Recovery Rate</string>
 	  </FeatureExplanations>
 	  
 		  <VictoryConditions>
@@ -109,7 +109,7 @@
 	<Bonuses>
       <Bonus>
         <Type>ResearchAll</Type>
-        <Amount>-0.1</Amount>
+        <Amount>-0.2</Amount>
         <AppliesTo>Empire</AppliesTo>
         <FilterId>-1</FilterId>
         <DiscoveryLevel>0</DiscoveryLevel>

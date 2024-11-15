@@ -486,9 +486,10 @@ GameTaskType UI_ShowTroopOptions		;Truppen verwalten
 GameTaskType UpdateShipDesign		;Schiffs-/Raumbasen-Design aktualisieren 
 GameTaskType UpgradePlanetaryFacility		;Umrüsten von {0} auf {1} für {2} Credits
 
-GameTaskType Short AssignCharacterMission		;Charakter-Mission zuweisen
-GameTaskType Short AssignFleetMission		;Flotten-Mission zuweisen
-GameTaskType Short AssignShipMission		;Schiffs-Mission zuweisen
+GameTaskType Short AssignCharacterMission		;Mission zuweisen
+GameTaskType Short FleetSignalFuelTankers		;Von Tankern nachfüllen
+GameTaskType Short AssignFleetMission		;Mission zuweisen
+GameTaskType Short AssignShipMission		;Mission zuweisen
 GameTaskType Short ClearShipMission		;Stop
 GameTaskType Short QueueBase		;Raumbasis-Reihenfolge festlegen
 GameTaskType Short QueueRepairInvestigate		;Schiff/Raumbasis reparieren und untersuchen
@@ -6762,3 +6763,28 @@ Always Use Safe Mode		;Immer den sicheren Modus verwenden
 
 Shakturi have been defeated title		;Die Shakturi wurden besiegt!
 Shakturi have been defeated explanation		;Die Shakturi kehrten durch die Gravitationsspalten zurück, in der Hoffnung, unsere Galaxie erneut zu verwüsten.\n\nDoch es ist ihnen nicht gelungen, hier einen Brückenkopf zu errichten. Alle ihre Kolonieschiffe wurden verbraucht oder zerstört und sie haben keine verbleibenden Kolonien oder Außenposten.\n\nSie wurden vollständig besiegt, bevor sie überhaupt Verstärkung aus ihrer eigenen Galaxie herbeirufen konnten!\n\nDie verbleibenden Shakturi-Schiffe sind über das Unermessliche geflohen kehren in ihre eigene ferne Galaxie zurück. In unserer Galaxie sind keine mehr übrig.\n\nDer Sieg liegt bei uns!
+
+You can only have one Outpost for each Colony in your empire BASIC		;Sie können nur einen Außenposten für jede Kolonie in Ihrem Reich haben
+
+Refuel from Fuel Tankers		;Tanken Sie aus Tankwagen
+No fuel tankers in fleet		;Keine Treibstofftanker in der Flotte
+Fleet must be idle to request Tanker refuelling		;Flotte muss im Leerlauf sein, um Tankerbetankung anzufordern
+No Fuel Tankers are currently available		;Derzeit sind keine Tankwagen verfügbar
+
+Migration Description Extreme Emigration		;Die Bevölkerung dieser Kolonie ist äußerst erpicht darauf, in eine neue Kolonie auszuwandern
+Migration Description Very Emigration		;Die Bevölkerung dieser Kolonie ist sehr erpicht darauf, in eine neue Kolonie auszuwandern
+Migration Description Emigration		;Die Bevölkerung dieser Kolonie möchte diese verlassen und in eine neue Kolonie auswandern
+Migration Description Mild Emigration		;Die Bevölkerung dieser Kolonie hat ein geringes Interesse daran, in eine neue Kolonie auszuwandern
+Migration Description None		;Die Bevölkerung in dieser Kolonie hat eine stabile Migration: Es besteht kein Interesse daran, diese Kolonie zu verlassen oder dorthin zu migrieren.
+Migration Description Mild Immigration		;Diese Kolonie ist ein wenig attraktives Ziel für neue Einwanderer
+Migration Description Immigration		;Diese Kolonie ist ein attraktives Ziel für neue Einwanderer
+Migration Description Very Immigration		;Diese Kolonie ist ein sehr attraktives Ziel für neue Einwanderer
+Migration Description Extreme Immigration		;Diese Kolonie ist ein äußerst attraktives Ziel für neue Einwanderer
+Migration		;Migration
+Migration Inflow		;Migration Zufluss
+Migration Outflow		;Migration Abfluss
+Migration Stable		;Migration Stabil
+Migration - highest Inflow		;Migration - höchster Zufluss
+Migration - highest Outflow		;Migration - höchste Abwanderung
+
+Freedom Alliance cannot expel members when only 2 remain because that would disband the alliance		;Die Freiheitsallianz kann keine Mitglieder ausschließen, wenn nur noch 2 übrig sind, denn das würde die Allianz auflösen.

@@ -34359,7 +34359,7 @@
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
-			<short>69</short> <!-- Planetary Bastion -->
+			<short>69</short> <!-- Planetary Bastion Mk2 -->
 		</PlanetaryFacilityIds>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -40872,6 +40872,50 @@
 				<Level>0</Level>
 			</Component>
 		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>920</ResearchProjectId>
+		<Name>Verbesserte Konstruktion</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>800</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>115</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>687</ResearchProjectId> <!-- Layered Armor -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>829</ResearchProjectId> <!-- Interlaced Armor -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>875</ResearchProjectId> <!-- Block Armor -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>128</short> <!-- Planetary Bastion -->
+		</PlanetaryFacilityIds>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>

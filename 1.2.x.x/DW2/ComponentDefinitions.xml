@@ -7448,36 +7448,38 @@
 		<DisplayTextureNames>
 			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
-		<DisplayRotationType>None</DisplayRotationType>
-		<DisplayRotationRate>0</DisplayRotationRate>
-		<UseLargeMeshIfAvailable>true</UseLargeMeshIfAvailable>
-		<WeaponMeshType>VerticalLauncher</WeaponMeshType>
+		<DisplayRotationType>RotateToTarget</DisplayRotationType>
+		<DisplayRotationRate>0.5</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
 			<FlipbookMode>Off</FlipbookMode>
-			<StaticTextureFilepath>Effects/Weapons/Missile1</StaticTextureFilepath>
+			<StaticTextureFilepath>Effects/Weapons/Slug1</StaticTextureFilepath>
 			<BodyScaling>
-				<X>1</X>
-				<Y>1</Y>
+				<X>2.5</X>
+				<Y>2.5</Y>
 			</BodyScaling>
 			<BodyScalingAbsolute>
-				<X>0</X>
-				<Y>0</Y>
+				<X>3.5</X>
+				<Y>3.5</Y>
 			</BodyScalingAbsolute>
+			<FlipbookFramesPerSecond>0</FlipbookFramesPerSecond>
 			<FlipbookDimensions>
 				<X>0</X>
 				<Y>0</Y>
 			</FlipbookDimensions>
+			<FlipbookRow>0</FlipbookRow>
 			<PulsingIntensity>0</PulsingIntensity>
 			<PulsingSpeed>0</PulsingSpeed>
 			<UVScrollRatio>0</UVScrollRatio>
 			<UVScrollCycleLength>0</UVScrollCycleLength>
 			<EndFadeLengthRatio>0</EndFadeLengthRatio>
 			<TextureTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
 			</TextureTintColor>
 			<TextureTintColor2>
 				<R>0</R>
@@ -7486,24 +7488,25 @@
 				<A>0</A>
 			</TextureTintColor2>
 			<TintCycleLength>0</TintCycleLength>
+			<FiringEffectFilepath>VFXPrefabs/vfx-Muzzleflash</FiringEffectFilepath>
 			<FiringSoundEffectFilepath>Sounds/Components/EclipseMassDriver</FiringSoundEffectFilepath>
 			<ArmorImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
 			</ArmorImpactEffectTintColor>
 			<HullImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
 			</HullImpactEffectTintColor>
 			<FiringEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
 			</FiringEffectTintColor>
 			<WeaponChargeupLength>0</WeaponChargeupLength>
 			<WeaponChargeupPulseColor1>
@@ -7541,28 +7544,27 @@
 				<B>0</B>
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
-			<TrailEffectFilepath>Effects/Weapons/Smoke02</TrailEffectFilepath>
 			<TrailEffectTintColor>
-				<R>255</R>
-				<G>128</G>
+				<R>0</R>
+				<G>0</G>
 				<B>0</B>
-				<A>192</A>
+				<A>0</A>
 			</TrailEffectTintColor>
 			<TrailEffectTintAltColor>
-				<R>56</R>
-				<G>56</G>
-				<B>64</B>
-				<A>64</A>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
 			</TrailEffectTintAltColor>
-			<TrailEffectColorTransitionStartTime>0.015</TrailEffectColorTransitionStartTime>
-			<TrailEffectColorTransitionEndTime>0.035</TrailEffectColorTransitionEndTime>
-			<TrailEffectScaleX>0.7</TrailEffectScaleX>
-			<TrailEffectScaleY>0.7</TrailEffectScaleY>
-			<TrailEffectScaleChangeRateX>-5</TrailEffectScaleChangeRateX>
-			<TrailEffectScaleChangeRateY>-5</TrailEffectScaleChangeRateY>
-			<TrailEffectLifetime>0.1</TrailEffectLifetime>
-			<TrailEffectSpawnRate>0.0015</TrailEffectSpawnRate>
-			<TrailDriftRate>5</TrailDriftRate>
+			<TrailEffectColorTransitionStartTime>0</TrailEffectColorTransitionStartTime>
+			<TrailEffectColorTransitionEndTime>0</TrailEffectColorTransitionEndTime>
+			<TrailEffectScaleX>0</TrailEffectScaleX>
+			<TrailEffectScaleY>0</TrailEffectScaleY>
+			<TrailEffectScaleChangeRateX>16</TrailEffectScaleChangeRateX>
+			<TrailEffectScaleChangeRateY>16</TrailEffectScaleChangeRateY>
+			<TrailEffectLifetime>0</TrailEffectLifetime>
+			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
+			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>

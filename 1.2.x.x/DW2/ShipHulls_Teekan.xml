@@ -39844,6 +39844,40 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>15</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#engine5</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>-0.02</X>
+					<Y>0</Y>
+					<Z>-0.1</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>16</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#engine6</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>-0.02</X>
+					<Y>0</Y>
+					<Z>-0.1</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>17</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#hangar0</MeshName>
@@ -39860,7 +39894,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>16</ComponentBayId>
+				<ComponentBayId>18</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#hangar1</MeshName>
@@ -39877,7 +39911,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>17</ComponentBayId>
+				<ComponentBayId>19</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
@@ -39894,7 +39928,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>18</ComponentBayId>
+				<ComponentBayId>20</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#sensor1</MeshName>
@@ -39911,43 +39945,9 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>19</ComponentBayId>
+				<ComponentBayId>21</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>20</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>21</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -39964,6 +39964,7 @@
 				<ComponentBayId>22</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -39980,6 +39981,7 @@
 				<ComponentBayId>23</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -40026,7 +40028,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>26</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -40042,7 +40044,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>27</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -40298,6 +40300,38 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>43</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>44</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>45</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>

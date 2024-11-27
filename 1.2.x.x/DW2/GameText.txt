@@ -2829,6 +2829,7 @@ ResearchBreakthrough Event No Project		;Unser Forschungsdurchbruch hat zu einer 
 
 
 GameEventActionType Description NavigationalCoordinates		;Ein Datenspeicher enthüllt einige verblüffende Informationen: Im Datenspeicher befinden sich [DISCOVERY]RICHTUNGSANGABEN[/DISCOVERY], die auf [LOCATION]{0}[/LOCATION] zeigen.\n\nVielleicht sollten wir ein Schiff schicken, um diesen Ort zu untersuchen.
+GameEventActionType Description NavigationalCoordinates with Location		;Ein Datenkern enthüllt einige interessante Informationen: Im Datenkern befinden sich [DISCOVERY]NAVIGATIONSRICHTUNGEN[/DISCOVERY], die auf [LOCATION]{0}[/LOCATION] verweisen, einen Punkt in der Nähe von [LOCATION]{1}[/LOCATION]. \n\nVielleicht sollten wir ein Schiff schicken, um diesen Ort zu untersuchen.
 GameEventActionType Description CoordinatesLostColony		;Wir haben einen Datenspeicher mit den [DISCOVERY]Koordinaten einer verlorenen Kolonie[/DISCOVERY] gefunden. Die Kolonie befindet sich bei [LOCATION]{0} {1}[/LOCATION] im System {2}.\n\nWir sollten zu diesem Ort eilen und diese Kolonie für unser Reich beanspruchen.
 GameEventActionType Description CoordinatesLostShip		;Wir haben einen Datenspeicher mit den [DISCOVERY]Koordinaten eines verschollenen Schiffes[/DISCOVERY], gefunden:{0}. Das Schiff befindet sich bei [LOCATION]{1}[/LOCATION] im System {2}.\n\nWir sollten zu diesem Ort eilen und das Schiff für unser Reich beanspruchen.
 GameEventActionType Description CreatureSwarm Ruins		;Beim Betreten der Ruinen von [DISCOVERY]{0}[/DISCOVERY] stößt Euer Erkundungsteam auf [DISCOVERY]mehrere {1}, die darin begraben sind[/DISCOVERY]!\n\nDie {1} entkommen durch den offenen Eingang, um in der Außenwelt Verwüstung anzurichten. Passt auf!
@@ -3180,7 +3181,7 @@ Territory		;Territorium
 General Story Events		;Hauptstory- Ereignisse
 General Story Events Explanation		;Allgemeine Hauptstory-Ereignisse aktivieren: Hauptsystem-Ereignisse vor Hyperraum-Nutzung, verlassene Schiffe und Raumbasen, Trümmerfelder, etc..\n\nKlickt die einzelnen Buttons an, um die jeweiligen Events zu aktivieren/deaktivieren
 Colony Events		;Kolonie- Ereignisse
-Colony Events Explanation		;Aktiviert Kolonie-Ereignisse im Spiel: Katastrophen, Seuchen, etc.
+Colony Events Explanation		;Aktiviert Kolonie-Ereignisse im Spiel: Katastrophen und zufällige Seuchen
 Your Empire		;Euer Volk
 Progress		;Fortschritt
 Victory Conditions Explanation		;Wählt links eine beliebige Kombination aus Gebiets-, Bevölkerungs-, Wirtschafts- oder volks-spezifischen Siegbedingungen aus.\n\nDann wählt die prozentuale Siegschwelle aus: Dies ist der Anteil der ausgewählten Siegbedingungen, der für den Sieg erfüllt werden muss.\n\nLasst für den Sandbox-Modus (offenes Spiel) alle Siegbedingungen deaktiviert.
@@ -6287,6 +6288,7 @@ Leave Alliance Are You Sure		;Wenn Sie die {0} verlassen, werden [B]alle bündni
 There are only two members in the ALLIANCE, so expelling a member will disband the alliance		;Es gibt nur zwei Mitglieder in der {0}, so dass der Ausschluss eines Mitglieds die Allianz vollständig auflösen wird.
 
 Installed		;Installiert
+Not Installed		;Nicht Installiert
 Expansions and DLCs		;Erweiterungen und DLCs
 Active Mods		;Aktive Mods
 Buy from Matrix Games		;Bei Matrix Games kaufen
@@ -6765,6 +6767,7 @@ Shakturi have been defeated title		;Die Shakturi wurden besiegt!
 Shakturi have been defeated explanation		;Die Shakturi kehrten durch die Gravitationsspalten zurück, in der Hoffnung, unsere Galaxie erneut zu verwüsten.\n\nDoch es ist ihnen nicht gelungen, hier einen Brückenkopf zu errichten. Alle ihre Kolonieschiffe wurden verbraucht oder zerstört und sie haben keine verbleibenden Kolonien oder Außenposten.\n\nSie wurden vollständig besiegt, bevor sie überhaupt Verstärkung aus ihrer eigenen Galaxie herbeirufen konnten!\n\nDie verbleibenden Shakturi-Schiffe sind über das Unermessliche geflohen kehren in ihre eigene ferne Galaxie zurück. In unserer Galaxie sind keine mehr übrig.\n\nDer Sieg liegt bei uns!
 
 You can only have one Outpost for each Colony in your empire BASIC		;Sie können nur einen Außenposten für jede Kolonie in Ihrem Reich haben
+Outpost Remaining Explanation		;[HL]INFO[/HL]: Ihr könnt {0} weitere Außenposten in deinem Imperium errichten\n ({1} Kolonien, {2} Außenposten, {3} Außenposten in der Warteschlange)
 
 Refuel from Fuel Tankers		;Tanken Sie aus Tankwagen
 No fuel tankers in fleet		;Keine Treibstofftanker in der Flotte
@@ -6788,3 +6791,12 @@ Migration - highest Inflow		;Migration - höchster Zufluss
 Migration - highest Outflow		;Migration - höchste Abwanderung
 
 Freedom Alliance cannot expel members when only 2 remain because that would disband the alliance		;Die Freiheitsallianz kann keine Mitglieder ausschließen, wenn nur noch 2 übrig sind, denn das würde die Allianz auflösen.
+
+With Empire bonuses		;Mit Reichs-Boni
+With Location bonuses		;Mit Orts-Boni
+With Research bonuses		;Mit Forschungs-Boni
+With Scenery bonuses		;Mit Szenerie-Boni
+
+This is unlikely to be a viable resort location because there are no nearby tourism sources		;Dies ist wahrscheinlich kein geeigneter Ferienort, da es in der Nähe keine Tourismusquellen gibt (große, gut entwickelte Kolonien).
+
+Upgrade Available		;Upgrade Verfügbar

@@ -2412,6 +2412,7 @@ Research Speed Explanation		;Die Forschungsgeschwindigkeit Eures Volkes und in d
 Research Visibility Explanation		;Wann Forschungsprojekte sichtbar werden: entweder bereits beim Spielstart oder erst nach der Erforschung von vorherigen Projekten.
 Research Pathing Explanation		;Ob Pfade zwischen Forschungsprojekten fest vorgegeben oder zufällig für jedes Spiel bestimmt werden.
 Pirates Explanation		;Wie viele Piraten es in der Galaxie gibt.\n\nPiraten können ein echtes Problem sein, aber sie haben auch ihren Nutzen...
+Pirates Explanation Turn Off		;Beachten Sie, dass Sie zum vollständigen Deaktivieren von Piraten auch die folgenden Einstellungen im Schritt „Siegesbedingungen“ deaktivieren müssen:\n[ULI]Rassenspezifische Story-Ereignisse (einige dieser Ereignisse generieren storybezogene Piratenfraktionen)[/ULI]\n[ULI]Allgemeine Story-Ereignisse > PreWarp-Heimatsystem (einige dieser Ereignisse generieren gelegentlich inaktive Piratenfraktionen)[/ULI]
 Pirate Strength Explanation		;Wie stark Piraten sind und wie schnell sie sich entwickeln.
 Pirate Proximity Explanation		;Wie nah Piratenfraktionen an kolonisierten Systemen von anderen Völkern starten.
 Pirates Respawn Explanation		;Ob Piratenfraktionen nach der Eliminierung an anderen Orten neu auferstehen und wieder angreifen.
@@ -3133,7 +3134,7 @@ Enable Race-specific Events		;Aktivieren von volks-spezifische Ereignisse
 Victory Threshold Percent		;Prozentschwelle für Sieg
 Race-specific Events		;Volks-spezifische Ereignisse
 Race-specific Story Events		;Volks-spezifische Story-Ereignisse
-Enables Race-specific Events in the game		;Ermöglicht volks-spezifische Story-Ereignisse im Spiel
+Enables Race-specific Events in the game		;Ermöglicht volks-spezifische Story-Ereignisse im Spiel.\n\nBeachtet, dass einige dieser Ereignisse möglicherweise geschichtenbezogene Piratenfraktionen generieren.
 Victory Threshold Percentage		;Prozentsatzschwelle für Sieg
 Sets the percentage of Victory Conditions that must be fulfilled to win the game		;Legt den Prozentsatz der Siegbedingungen fest, die erfüllt werden müssen, um das Spiel zu gewinnen
 Victory Threshold		;Schwelle für Sieg
@@ -5920,7 +5921,7 @@ Default Event Gravitic Locations		;Gravitations- Stürme
 Default Event Major Threats		;Große Bedrohungen
 Default Event Planet Destroyers		;Planetenzerstörer
 
-Default Event PreWarp Homesystem Explanation		;Enthält verschiedene Ruinen, verlassene Schiffe und Stützpunkte sowie andere Ereignisse, die in PreWarp-Spielen zufällig zum Heimatsystem jeder Fraktion hinzugefügt werden
+Default Event PreWarp Homesystem Explanation		;Enthält verschiedene Ruinen, verlassene Schiffe und Stützpunkte sowie andere Ereignisse, die in PreWarp-Spielen zufällig zum Heimatsystem jeder Fraktion hinzugefügt werden.\n\nBeachtet, dass bei diesen Ereignissen gelegentlich auch inaktive Piratenfraktionen vorkommen können.
 Default Event Abandoned Ships Explanation		;Alle anderen verlassenen Schiffe, die nicht Teil von PreWarp Home System-Events oder Race Story-Events sind. Diese sind oft schon recht weit fortgeschritten und müssen möglicherweise repariert werden
 Default Event Abandoned Bases Explanation		;Alle anderen verlassenen Stützpunkte, die nicht Teil von PreWarp Home System-Events oder Race Story-Events sind. Diese müssen oft repariert werden oder geben möglicherweise einen Teil der Hauptgeschichte preis
 Default Event Debris Fields Explanation		;Felder mit mehreren verlassenen und meist beschädigten Schiffen und Schlachttrümmern. Diese Schiffe können oft recht fortschrittlich sein
@@ -6343,17 +6344,25 @@ AutomationCategory ColonyFacilities_HyperDeny		;Kolonieeinrichtungen - Hyper Den
 AutomationCategory ColonyFacilities_Medical		;Kolonie Einrichtungen - Medizinisch
 AutomationCategory ColonyFacilities_Upgrade		;Verbesserung der Einrichtungen der Kolonie
 
+AutomationCategory ColonyFacilities_Construction		;Kolonieeinrichtungen - Bau
+AutomationCategory ColonyFacilities_Research		;Kolonieeinrichtungen - Forschung
+AutomationCategory ColonyFacilities_Recreation		;Kolonieeinrichtungen - Erholung
+
 PolicyExplanation AutomationColonyFacilities_Upgrade		;Automatisieren Sie den Ausbau der Anlagen in den Kolonien Ihres Reiches oder kontrollieren Sie diesen Bereich manuell.
-PolicyExplanation AutomationColonyFacilities_Administrative		;Automatisieren Sie den Bau von Kapital- und Verwaltungseinrichtungen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell.
+PolicyExplanation AutomationColonyFacilities_Administrative		;Automatisieren Sie den Bau von Kapital- und Verwaltungseinrichtungen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell. Beachtet, dass diese Kategorie auch Einrichtungen im Zusammenhang mit Diplomatie und Geheimdienst umfasst.
 PolicyExplanation AutomationColonyFacilities_CreatureBreeding		;Automatisieren Sie den Bau von Kreaturenzuchtanlagen in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Terraforming		;Automatisieren Sie den Bau von Terraforming-Anlagen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell.
-PolicyExplanation AutomationColonyFacilities_Troops		;Automatisieren Sie den Bau von Truppenrekrutierungseinrichtungen in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell.
+PolicyExplanation AutomationColonyFacilities_Troops		;Automatisieren Sie den Bau von Truppenrekrutierungseinrichtungen in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell. Beachtet, dass diese Kategorie auch Einrichtungen im Zusammenhang mit der Kolonieverteidigung umfasst.
 PolicyExplanation AutomationColonyFacilities_Weapons		;Automatisieren Sie den Bau von Waffenanlagen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_FighterBases		;Automatisieren Sie den Bau von Kampfbasen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Wonders		;Automatisieren Sie den Bau von Wundern in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_PlanetaryShields		;Automatisieren Sie den Bau von Planetenschilden in den Kolonien Ihres Reiches oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_HyperDeny		;Automatisieren Sie den Bau von Hyper-Deny-Anlagen in den Kolonien Ihres Reiches oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Medical		;Automatisieren Sie den Bau medizinischer Einrichtungen in den Kolonien Ihres Reiches oder kontrollieren Sie diesen Bereich manuell.
+
+PolicyExplanation AutomationColonyFacilities_Construction		;Automatisiert den Bau von Bauanlagen in den Kolonien Eures Reiches oder steuert diesen Bereich manuell.
+PolicyExplanation AutomationColonyFacilities_Research		;Automatisiert den Bau von Forschungseinrichtungen in den Kolonien Eures Reiches oder steuert diesen Bereich manuell.
+PolicyExplanation AutomationColonyFacilities_Recreation		;Automatisiert den Bau von Freizeiteinrichtungen in den Kolonien Eures Reiches oder steuert diesen Bereich manuell.
 
 We are furious at your outrageous incident against us		;Wir sind wütend über Ihren unverschämten Vorfall gegen uns
 We are upset that you think we instigated an outrageous incident against you (we were obviously framed!)		;Wir sind verärgert, dass Sie glauben, wir hätten Sie zu einem ungeheuerlichen Vorfall angestiftet (wir wurden offensichtlich reingelegt!)
@@ -6506,9 +6515,9 @@ We have identified an ancient archive that should be investigated. You should in
 Ancient Guardian Mission Intro		;Die Alten Wächter schlagen die folgende Mission in unserem Kampf gegen die Shakturi vor
 
 Must retain Terraforming facility Explanation		;Muss die Terraforming-Einrichtung beibehalten, um den Terraforming-Qualitätsschub zu erhalten, da dieser Ort wenig geeignet ist (unter 20)
-Minimum Suitability Required		;Erforderliche Mindest-Eignung
+Minimum Suitability Required		;Erforderliche Mindest-Eignung (ausgenommen Schaden)
 This colony suitability is below the minimum level required to build this facility		;Die Eignung dieser Kolonie liegt unter dem Mindestniveau, das für den Bau dieser Anlage erforderlich ist.
-Can only build when population at colony has Suitability of X or higher		;Kann nur bauen, wenn die Bevölkerung in der Kolonie eine Eignung von {0} oder höher hat
+Can only build when population at colony has Suitability of X or higher		;Kann nur bauen, wenn die Bevölkerung in der Kolonie eine Eignung von {0} oder höher hat (ausgenommen Schaden)
 Must retain Terraforming facility Description		;Wenn die Kolonie eine niedrige Eignung hat (weniger als +20), hängt der Qualitätsverbesserungsbetrag vom Vorhandensein der Terraforming-Anlage ab. Wenn sie entfernt wird, geht der Betrag für die Qualitätsverbesserung verloren.
 
 Freedom Alliance Victory Title		;Die Shakturi sind besiegt!
@@ -6800,3 +6809,11 @@ With Scenery bonuses		;Mit Szenerie-Boni
 This is unlikely to be a viable resort location because there are no nearby tourism sources		;Dies ist wahrscheinlich kein geeigneter Ferienort, da es in der Nähe keine Tourismusquellen gibt (große, gut entwickelte Kolonien).
 
 Upgrade Available		;Upgrade Verfügbar
+
+At War With		;Im Krieg mit
+
+Galactic Wonder		;Galaktisches Wunder
+
+Upgrade Design Title		;Gewähltes Design upgraden
+Upgrade Design Explanation OLD		;Der Upgrade-Prozess ist eine Abkürzung, um das manuelle Upgrade von Designs zu beschleunigen. Er ersetzt die Komponenten im Design, indem er sie auf die derzeit beste verfügbare Komponente für dieselbe Kategorie aufwertet.\n\nWaffenkomponenten haben normalerweise Familien, was bedeutet, dass die aufgerüstete Komponente der [B]gleichen Familie[/B] angehört. Daher werden Raketen durch Raketen ersetzt, Blaster durch Blaster usw. Für Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\nEinige Komponentenkategorien sind vom Upgrade-Prozess [B]ausgeschlossen[/B]: [HL]Motoren, Hyperantriebe, Reaktoren und Schilde[/HL]. Diese Komponenten werden einfach unverändert beibehalten.\n\nBeachtet, dass der Upgrade-Prozess zu einem Design führen kann, dessen Gesamtgröße die maximal zulässige Größe des Schiffsrumpfs überschreitet. Er kann auch zu einem Design führen, dessen Energiebedarf die Reaktorleistung oder den statischen Energiebedarf übersteigt. Das neue Design könnte auch nicht genügend Besatzung haben. [HL]Es liegt an Euch als Spieler, diese Mängel zu beheben, bevor das aufgerüstete Design gespeichert werden kann.[/HL]
+Upgrade Design Explanation		;Der Upgrade-Prozess ist eine Abkürzung, um das manuelle Upgrade von Designs zu beschleunigen. Er ersetzt die Komponenten im Design, indem er sie auf die derzeit beste verfügbare Komponente für dieselbe Kategorie aufwertet.\n\nWaffenkomponenten haben normalerweise Familien, was bedeutet, dass die aufgerüstete Komponente der [B]gleichen Familie[/B] angehört. Daher werden Raketen durch Raketen ersetzt, Blaster durch Blaster usw. Für Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\nBeachtet, dass der Upgrade-Prozess zu einem Design führen kann, dessen Gesamtgröße die maximal zulässige Größe des Schiffsrumpfs überschreitet. Er kann auch zu einem Design führen, dessen Energiebedarf die Reaktorleistung oder den statischen Energiebedarf übersteigt. Das neue Design könnte auch über eine unzureichende Besatzung verfügen. [HL]Es liegt an Euch als Spieler, diese Mängel zu beheben, bevor das aufgerüstete Design gespeichert werden kann.[/HL]

@@ -1,108 +1,104 @@
 <?xml version="1.0"?>
 <ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Government>
-    <GovernmentId>13</GovernmentId>
-    <Name>Geniokratie</Name>
-    <StartingGameEventNames>
-        <string>Initialise Government (Geniocracy)</string>
-    </StartingGameEventNames>
-	  <Description>Eine Geniokratie wird von den intelligentesten Mitgliedern einer Gesellschaft regiert – den Genies. Wer führen möchte, muss zunächst aufwändige Intelligenz- und Problemlösungsfähigkeitstests bestehen, die in der Regel kurz nach der Geburt beginnen. Diese Tests sind umfassend und kontinuierlich, da ein Kandidat versucht, in den Rängen aufzusteigen. Das ultimative Ziel besteht darin, sicherzustellen, dass nur diejenigen das Sagen haben, die sich als die intellektuell leistungsfähigsten erwiesen haben.
+	<Government>
+		<GovernmentId>13</GovernmentId> <!-- Geniocracy -->
+		<LeaderTitle>Erleuchteter Meister</LeaderTitle>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>7</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool>
+			<CharacterRole>Scientist</CharacterRole>
+		</LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>0.8</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanColonize>false</CanColonize>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Weise</string>
+			<string>Scharfsinnig</string>
+			<string>Geschickt</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Akademie</string>
+			<string>Stiftung</string>
+			<string>Rat</string>
+			<string>Gilde</string>
+			<string>Liga</string>
+			<string>Ordnung</string>
+		</EmpireNameNouns>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Geniocracy)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<ColonyGrowthFundingFactor>0</ColonyGrowthFundingFactor>
+		<SpendScientistCrashBreakthrough>true</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>true</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Geniokratie</Name>
+		<Description>Eine Geniokratie wird von den intelligentesten Mitgliedern einer Gesellschaft regiert – den Genies. Wer führen möchte, muss zunächst aufwändige Intelligenz- und Problemlösungsfähigkeitstests bestehen, die in der Regel kurz nach der Geburt beginnen. Diese Tests sind umfassend und kontinuierlich, da ein Kandidat versucht, in den Rängen aufzusteigen. Das ultimative Ziel besteht darin, sicherzustellen, dass nur diejenigen das Sagen haben, die sich als die intellektuell leistungsfähigsten erwiesen haben.
 
 Eine Geniokratie organisiert auch den Zweck und die Bemühungen der Gesellschaft auf ein Ziel hin – die Wissenserweiterung. Alle anderen Überlegungen sind zweitrangig, was bedeutet, dass Geniokratien relativ streng und zielstrebig wirken können. Durch den Fortschritt der Wissenschaft wird erwartet, dass alle anderen Bedürfnisse im Laufe der Zeit erfüllt werden. Das Streben nach Wissen als oberstes Ziel führt zu Innovationen in allen Bereichen, die das allgemeine Wohlbefinden fördern. Um diesen Fokus aufrechtzuerhalten, sind Geniokratien im Allgemeinen harmonisch, aber diese Harmonie wird durch eine strenge interne Ordnung erzwungen.</Description>
-    <ImageFilename />
-	  <LeaderTitle>Erleuchteter Meister</LeaderTitle>
-    <CabinetTitle>Kabinett</CabinetTitle>
-    <EconomicFactors />
-    <Biases />
-    <Bonuses>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.2</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-      <Bonus>
-        <Type>TroopRecruitment</Type>
-        <Amount>-0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-      <Bonus>
-        <Type>TroopRecoveryRate</Type>
-        <Amount>-0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-      <Bonus>
-        <Type>MiningRate</Type>
-        <Amount>-0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-      <Bonus>
-        <Type>TradeIncome</Type>
-        <Amount>-0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-      <Bonus>
-        <Type>ColonyIncome</Type>
-        <Amount>-0.05</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <FilterId>0</FilterId>
-        <DiscoveryLevel>0</DiscoveryLevel>
-        <Description />
-      </Bonus>
-    </Bonuses>
-
-	  <ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
-	  <ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
-	  <ResearchCrashProgressChance>0</ResearchCrashProgressChance>
-	  <ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
-	  
-    <LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
-    <LeaderReplacementDisruption>7</LeaderReplacementDisruption>
-    <LeaderReplacementBoost>0</LeaderReplacementBoost>
-    <LeaderReplacementCharacterPool>
-		<CharacterRole>Scientist</CharacterRole>
-    </LeaderReplacementCharacterPool>
-    <LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
-    <Stability>1.1</Stability>
-    <ConcernForOwnReputation>0.8</ConcernForOwnReputation>
-    <ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
-    <UsesCabinet>true</UsesCabinet>
-    <CabinetFactorNavalChief>0</CabinetFactorNavalChief>
-    <CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
-    <CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
-    <CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
-    <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
-    <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
-	  <EmpireNameAdjectives>
-		  <string>Weise</string>
-		  <string>Scharfsinnig</string>
-		  <string>Geschickt</string>
-	  </EmpireNameAdjectives>
-	  <EmpireNameNouns>
-		  <string>Akademie</string>
-		  <string>Stiftung</string>
-		  <string>Rat</string>
-		  <string>Gilde</string>
-		  <string>Liga</string>
-		  <string>Ordnung</string>
-	  </EmpireNameNouns>
-    <ExtraIntelligenceMissionTypes />
-	  <ColonyGrowthFundingFactor>0</ColonyGrowthFundingFactor>
-	  <SpendScientistCrashBreakthrough>true</SpendScientistCrashBreakthrough>
-	  <SpendScientistCriticalResearchFailure>true</SpendScientistCriticalResearchFailure>
-  </Government>
+	</Government>
 </ArrayOfGovernment>

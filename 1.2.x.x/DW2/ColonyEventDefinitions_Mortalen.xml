@@ -1,253 +1,153 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ArrayOfColonyEventDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>76</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>76</ColonyEventDefinitionId> <!-- Warrior Wave -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.20</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.50</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Kriegerwelle</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>77</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>77</ColonyEventDefinitionId> <!-- Warrior Wave -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.20</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-				<Amount>0.50</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Kriegerwelle</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
 	</ColonyEventDefinition>
-
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>78</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>78</ColonyEventDefinitionId> <!-- Patriotic Wave -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.20</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Patriotische Welle</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>79</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>79</ColonyEventDefinitionId> <!-- Patriotic Wave -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.20</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.50</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Patriotische Welle</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
 	</ColonyEventDefinition>
-
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>80</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>80</ColonyEventDefinitionId> <!-- Know Your Enemy -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>Espionage</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Kenne deinen Feind</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Know Your Enemy</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>81</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>81</ColonyEventDefinitionId> <!-- Know Your Enemy -->
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
-		<PopulationAmount>0</PopulationAmount>
-		<DevelopmentChange>0</DevelopmentChange>
-		<DamageRepair>0</DamageRepair>
-		<MigrationFactor>0</MigrationFactor>
-		<ResourceAbundance>0</ResourceAbundance>
-		<ColonyHappiness>0</ColonyHappiness>
-		<EmpireHappiness>0</EmpireHappiness>
-		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0</RandomInitiationChance>
 		<RaceFilterIds>
-			<unsignedByte>4</unsignedByte>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
 		</RaceFilterIds>
-		<OrbTypeFilters>
-		</OrbTypeFilters>
 		<Bonuses>
 			<Bonus>
 				<Type>Targeting</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>4</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Countermeasures</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Kenne deinen Feind</Name>
-		<Description></Description>
 		<ImageFilename>Environment/Events/Know Your Enemy</ImageFilename>
 	</ColonyEventDefinition>
-
 </ArrayOfColonyEventDefinition>

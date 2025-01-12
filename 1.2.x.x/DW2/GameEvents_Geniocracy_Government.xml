@@ -12,7 +12,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -49,7 +48,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -66,6 +64,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch auf unserer Heimatwelt verf√
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -84,7 +84,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch auf unserer Heimatwelt verf√
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>414</Id1>
+				<Id1>414</Id1> <!-- Project Id, Current Value = Research Labs -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -103,7 +104,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch auf unserer Heimatwelt verf√
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>403</Id1>
+				<Id1>403</Id1> <!-- Project Id, Current Value = Improved Sensors -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -122,7 +124,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch auf unserer Heimatwelt verf√
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>415</Id1>
+				<Id1>415</Id1> <!-- Project Id, Current Value = Coordinated Control -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -141,6 +144,7 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch auf unserer Heimatwelt verf√
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Scientist</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

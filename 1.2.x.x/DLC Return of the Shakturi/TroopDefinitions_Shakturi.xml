@@ -1,29 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<TroopDefinition>
-		<TroopDefinitionId>54</TroopDefinitionId>
-		<RaceId>20</RaceId>
-		<Type>Infantry</Type>
-		<Size>5000</Size>
-		<RecruitmentCost>
-			<Money>2000</Money>
-		</RecruitmentCost>
-		<MaintenanceCost>200</MaintenanceCost>
-		<AttackStrength>170</AttackStrength>
-		<DefendStrength>255</DefendStrength>
-		<SabotageStrength>0</SabotageStrength>
-		<EvasionInfantry>0</EvasionInfantry>
-		<EvasionArmor>0.25</EvasionArmor>
-		<EvasionTitan>0.25</EvasionTitan>
-		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Slayer-Schwarm</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
-	</TroopDefinition>
-	<TroopDefinition>
-		<TroopDefinitionId>68</TroopDefinitionId>
-		<RaceId>20</RaceId>
+		<TroopDefinitionId>68</TroopDefinitionId> <!-- Armored Slayer Swarm -->
+		<RaceId>20</RaceId> <!-- Shakturi -->
 		<Type>Armored</Type>
 		<Size>10000</Size>
 		<RecruitmentCost>
@@ -35,12 +14,13 @@
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Gepanzerter Slayer-Schwarm</Name>
+		<IsRobotic>false</IsRobotic>
+		<Name>Gepanzerter Jägerschwarm</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
-		<TroopDefinitionId>69</TroopDefinitionId>
-		<RaceId>20</RaceId>
+		<TroopDefinitionId>69</TroopDefinitionId> <!-- Defender Swarm -->
+		<RaceId>20</RaceId> <!-- Shakturi -->
 		<Type>PlanetaryDefense</Type>
 		<Size>15000</Size>
 		<RecruitmentCost>
@@ -51,13 +31,14 @@
 		<DefendStrength>204</DefendStrength>
 		<EvasionInfantry>0.1</EvasionInfantry>
 		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Verteidigerschwarm</Name>
+		<Name>Verteidigungs-Schwarm</Name>
 		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
-		<TroopDefinitionId>70</TroopDefinitionId>
-		<RaceId>20</RaceId>
+		<TroopDefinitionId>70</TroopDefinitionId> <!-- Assassin Swarm -->
+		<RaceId>20</RaceId> <!-- Shakturi -->
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
 		<RecruitmentCost>
@@ -70,12 +51,13 @@
 		<EvasionInfantry>0.25</EvasionInfantry>
 		<EvasionArmor>0.35</EvasionArmor>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
 		<Name>Assassinen-Schwarm</Name>
 		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
-		<TroopDefinitionId>71</TroopDefinitionId>
-		<RaceId>20</RaceId>
+		<TroopDefinitionId>71</TroopDefinitionId> <!-- Doom Walkers -->
+		<RaceId>20</RaceId> <!-- Shakturi -->
 		<Type>Titan</Type>
 		<Size>20000</Size>
 		<RecruitmentCost>
@@ -88,7 +70,8 @@
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Schicksalswandler</Name>
+		<IsRobotic>false</IsRobotic>
+		<Name>Untergangs-Wanderer</Name>
 		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -99,15 +82,11 @@
 		<RecruitmentCost>
 			<Money>0</Money>
 		</RecruitmentCost>
-		<MaintenanceCost>0</MaintenanceCost>
 		<AttackStrength>100</AttackStrength>
 		<DefendStrength>160</DefendStrength>
-		<SabotageStrength>0</SabotageStrength>
-		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<Name>Schwarm-Miliz</Name>
 		<Description />
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>

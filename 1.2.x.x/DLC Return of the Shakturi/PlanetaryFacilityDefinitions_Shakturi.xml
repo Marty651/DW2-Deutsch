@@ -1,868 +1,336 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>110</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ColonyDevelopment</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses>
-      <Bonus>
-        <Type>ColonyPopulationGrowthRate</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchGenetic</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </EmpireBonuses>
-    <BuildCost>
-      <Money>10000</Money>
-      <Resources />
-    </BuildCost>
-    <MaintenanceCost>500</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>false</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>0.5</BombardmentResistance>
-    <GroundCombatResistance>0.5</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>65</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Akademie für genetische Studien</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Genetic Studies Academy</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>111</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ColonyDevelopment</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses>
-      <Bonus>
-        <Type>PlagueCuring</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchBioWarfare</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </EmpireBonuses>
-    <BuildCost>
-      <Money>10000</Money>
-      <Resources />
-    </BuildCost>
-    <MaintenanceCost>500</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>false</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>0.5</BombardmentResistance>
-    <GroundCombatResistance>0.5</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>61</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Biowaffen-Komplex</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Biowarfare Complex</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>112</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Ruinierter generischer Tresor</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Ancient Guardians Vault Ruins 1</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>113</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Das Gewölbe der Verborgenheit</Name>
-    <ImageFilename>Environment/Events/vault of concealment</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>114</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Gewölbe der Schöpfung</Name>
-    <ImageFilename>Environment/Events/vault of creation</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>115</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Gewölbe der Aggression</Name>
-    <ImageFilename>Environment/Events/vault of agression</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>116</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Gewölbe des Shakturi-Geistes</Name>
-    <ImageFilename>Environment/Events/vault of shakturi mind</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>117</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Shakturi Archiv für biologische Kriegsführung</Name>
-    <ImageFilename>Environment/Events/shakturi archive</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>118</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Shakturi Gentechnologie Archiv</Name>
-    <ImageFilename>Environment/Events/shakturi archive</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>119</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ResearchAncientKnowledge</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchAll</Type>
-        <Amount>0.01</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses />
-    <MaintenanceCost>0</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Shakturi Psychische Verteidigung Archiv</Name>
-    <ImageFilename>Environment/Events/shakturi archive</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>120</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ColonyDevelopment</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses>
-      <Bonus>
-        <Type>ResearchPsychic</Type>
-        <Amount>0.1</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </EmpireBonuses>
-    <BuildCost>
-      <Money>10000</Money>
-      <Resources />
-    </BuildCost>
-    <MaintenanceCost>500</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>false</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>0.5</BombardmentResistance>
-    <GroundCombatResistance>0.5</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>60</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Psychische Akademie</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Psychic Academy</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>121</PlanetaryFacilityDefinitionId>
-    <ItemBonuses />
-    <EmpireBonuses />
-    <MaintenanceCost>500</MaintenanceCost>
-    <Size>1000</Size>
-    <IsRuins>false</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>500</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>0.9</BombardmentResistance>
-    <GroundCombatResistance>0.9</GroundCombatResistance>
-    <WeaponComponentId>161</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>5</WeaponCount>
-    <FighterCapacity>72</FighterCapacity>
-    <FighterBuildRate>4</FighterBuildRate>
-    <FighterRepairRate>8</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>25000</HyperDenyRange>
-    <HyperDenyStrength>50</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>62</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Shakturi Archiv Verteidigung</Name>
-    <ImageFilename>Environment/Events/Intact Shakturi Psychic Beacon</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>122</PlanetaryFacilityDefinitionId>
-    <ItemBonuses>
-      <Bonus>
-        <Type>ColonyDevelopment</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Item</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </ItemBonuses>
-    <EmpireBonuses>
-      <Bonus>
-        <Type>ColonyPopulationGrowthRate</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-      <Bonus>
-        <Type>ResearchGenetic</Type>
-        <Amount>0.05</Amount>
-        <AppliesTo>Empire</AppliesTo>
-        <DiscoveryLevel>0</DiscoveryLevel>
-      </Bonus>
-    </EmpireBonuses>
-    <BuildCost>
-      <Money>10000</Money>
-      <Resources />
-    </BuildCost>
-    <MaintenanceCost>500</MaintenanceCost>
-    <Size>100</Size>
-    <IsRuins>false</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>0</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>0.9</BombardmentResistance>
-    <GroundCombatResistance>0.7</GroundCombatResistance>
-    <WeaponComponentId>-1</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>0</WeaponCount>
-    <FighterCapacity>0</FighterCapacity>
-    <FighterBuildRate>0</FighterBuildRate>
-    <FighterRepairRate>0</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>0</HyperDenyRange>
-    <HyperDenyStrength>0</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>66</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureTypeId>9</BreedCreatureTypeId>
-    <BreedCreatureRate>20</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Rift Strider-Zuchtanlage</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Creature Breeding Facility</ImageFilename>
-  </PlanetaryFacilityDefinition>
-  <PlanetaryFacilityDefinition>
-    <PlanetaryFacilityDefinitionId>32760</PlanetaryFacilityDefinitionId>
-    <ItemBonuses />
-    <EmpireBonuses />
-    <BuildCost>
-      <Money>1000</Money>
-      <Resources />
-    </BuildCost>
-    <MaintenanceCost>100</MaintenanceCost>
-    <Size>1000</Size>
-    <IsRuins>true</IsRuins>
-    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-    <AchievementRaceId>-1</AchievementRaceId>
-    <PlanetaryShieldMaximumDamageAbsorbed>1000</PlanetaryShieldMaximumDamageAbsorbed>
-    <PlanetaryShieldPenetrationChance>0</PlanetaryShieldPenetrationChance>
-    <BombardmentResistance>1</BombardmentResistance>
-    <GroundCombatResistance>1</GroundCombatResistance>
-    <WeaponComponentId>161</WeaponComponentId>
-    <WeaponComponentLevel>0</WeaponComponentLevel>
-    <WeaponCount>4</WeaponCount>
-    <FighterCapacity>36</FighterCapacity>
-    <FighterBuildRate>4</FighterBuildRate>
-    <FighterRepairRate>8</FighterRepairRate>
-    <ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
-    <TerraformingDamageRepairRate>0</TerraformingDamageRepairRate>
-    <TerraformingQualityImprovementRate>0</TerraformingQualityImprovementRate>
-    <TerraformingQualityMaximum>0</TerraformingQualityMaximum>
-    <ColonyIncomeDrainRatio>0</ColonyIncomeDrainRatio>
-    <ColonyInfluenceLevelToBuild>0</ColonyInfluenceLevelToBuild>
-    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-    <HyperDenyRange>20000</HyperDenyRange>
-    <HyperDenyStrength>40</HyperDenyStrength>
-    <MedicalRating>0</MedicalRating>
-    <SlaveryIncomeFactor>1</SlaveryIncomeFactor>
-    <SlaveryUnhappinessFactor>1</SlaveryUnhappinessFactor>
-    <FacilityFamilyId>-1</FacilityFamilyId>
-    <FacilityFamilyLevel>0</FacilityFamilyLevel>
-    <ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-    <EmpireBonusSharingRate>0</EmpireBonusSharingRate>
-    <QualityBoost>0</QualityBoost>
-    <PreventPeriodicLeadershipChanges>false</PreventPeriodicLeadershipChanges>
-    <LeaderExtraPositiveTraitCount>0</LeaderExtraPositiveTraitCount>
-    <ScientistExtraPositiveTraitCount>0</ScientistExtraPositiveTraitCount>
-    <BreedCreatureRate>0</BreedCreatureRate>
-    <AllowBuildingAtOutposts>false</AllowBuildingAtOutposts>
-    <ValidPlanetTypeIds />
-    <ValidGovernmentIds />
-    <TroopIdsRecruitable />
-    <Name>Shakturi Leuchtfeuer</Name>
-    <ImageFilename>Environment/PlanetaryFacilities/Shakturi Beacon</ImageFilename>
-  </PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>110</PlanetaryFacilityDefinitionId> <!-- Genetic Studies Academy -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchGenetic</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<FacilityFamilyId>65</FacilityFamilyId>
+		<Name>Akademie für genetische Studien</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Genetic Studies Academy</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>111</PlanetaryFacilityDefinitionId> <!-- Biowarfare Complex -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchBioWarfare</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<FacilityFamilyId>61</FacilityFamilyId>
+		<Name>Biowaffen-Komplex</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Biowarfare Complex</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>112</PlanetaryFacilityDefinitionId> <!-- Ruined Generic Vault -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Ruinierter generischer Tresor</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ancient Guardians Vault Ruins 1</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>113</PlanetaryFacilityDefinitionId> <!-- The Vault of Concealment -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Das Gewölbe der Verborgenheit</Name>
+		<ImageFilename>Environment/Events/vault of concealment</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>114</PlanetaryFacilityDefinitionId> <!-- Vault of Creation -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Gewölbe der Schöpfung</Name>
+		<ImageFilename>Environment/Events/vault of creation</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>115</PlanetaryFacilityDefinitionId> <!-- Vault of Aggression -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Gewölbe der Aggression</Name>
+		<ImageFilename>Environment/Events/vault of agression</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>116</PlanetaryFacilityDefinitionId> <!-- Vault of the Shakturi Mind -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Gewölbe des Shakturi-Geistes</Name>
+		<ImageFilename>Environment/Events/vault of shakturi mind</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>117</PlanetaryFacilityDefinitionId> <!-- Shakturi Biowarfare Archive -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Shakturi Archiv für biologische Kriegsführung</Name>
+		<ImageFilename>Environment/Events/shakturi archive</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>118</PlanetaryFacilityDefinitionId> <!-- Shakturi Genetic Engineering Archive -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Shakturi Gentechnologie Archiv</Name>
+		<ImageFilename>Environment/Events/shakturi archive</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>119</PlanetaryFacilityDefinitionId> <!-- Shakturi Psychic Defense Archive -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Shakturi Psychische Verteidigung Archiv</Name>
+		<ImageFilename>Environment/Events/shakturi archive</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>120</PlanetaryFacilityDefinitionId> <!-- Psychic Academy -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchPsychic</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<Name>Psychische Akademie</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Psychic Academy</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>121</PlanetaryFacilityDefinitionId> <!-- Shakturi Archive Defense -->
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>1000</Size>
+		<PlanetaryShieldMaximumDamageAbsorbed>500</PlanetaryShieldMaximumDamageAbsorbed>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<WeaponComponentId>161</WeaponComponentId> <!-- Firestorm Torpedo [L] -->
+		<WeaponCount>5</WeaponCount>
+		<FighterCapacity>72</FighterCapacity>
+		<FighterBuildRate>4</FighterBuildRate>
+		<FighterRepairRate>8</FighterRepairRate>
+		<HyperDenyRange>25000</HyperDenyRange>
+		<HyperDenyStrength>50</HyperDenyStrength>
+		<FacilityFamilyId>62</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Shakturi Archiv Verteidigung</Name>
+		<ImageFilename>Environment/Events/Intact Shakturi Psychic Beacon</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>122</PlanetaryFacilityDefinitionId> <!-- Rift Strider Breeding Facility -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchGenetic</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<FacilityFamilyId>66</FacilityFamilyId>
+		<BreedCreatureTypeId>9</BreedCreatureTypeId> <!-- Rift Strider -->
+		<BreedCreatureRate>20</BreedCreatureRate>
+		<Name>Rift Strider-Zuchtanlage</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Creature Breeding Facility</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32760</PlanetaryFacilityDefinitionId> <!-- Shakturi Beacon -->
+		<BuildCost>
+			<Money>1000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<Size>1000</Size>
+		<IsRuins>true</IsRuins>
+		<PlanetaryShieldMaximumDamageAbsorbed>1000</PlanetaryShieldMaximumDamageAbsorbed>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<WeaponComponentId>161</WeaponComponentId> <!-- Firestorm Torpedo [L] -->
+		<WeaponCount>4</WeaponCount>
+		<FighterCapacity>36</FighterCapacity>
+		<FighterBuildRate>4</FighterBuildRate>
+		<FighterRepairRate>8</FighterRepairRate>
+		<HyperDenyRange>20000</HyperDenyRange>
+		<HyperDenyStrength>40</HyperDenyStrength>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Shakturi Leuchtfeuer</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Shakturi Beacon</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

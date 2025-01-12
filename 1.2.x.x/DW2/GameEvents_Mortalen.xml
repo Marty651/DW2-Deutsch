@@ -12,7 +12,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -49,7 +48,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -76,7 +74,7 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+50% Troop Recruitment Rate</ChoiceButtonText>
+				<ChoiceButtonText>+50% Truppenrekrutierungsrate</ChoiceButtonText>
 				<GeneratedItemName>Implement Warrior Wave - Troop Recruitment (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -90,14 +88,13 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+20% Troop Attack Strength</ChoiceButtonText>
+				<ChoiceButtonText>+20% Angriffsstärke der Truppen</ChoiceButtonText>
 				<GeneratedItemName>Implement Warrior Wave - Troop Attack Strength (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -120,7 +117,6 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -129,9 +125,10 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>76</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>76</Id1> <!-- Colony Event Id, Current Value = Warrior Wave -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -159,7 +156,6 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -168,9 +164,10 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>77</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>77</Id1> <!-- Colony Event Id, Current Value = Warrior Wave -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -198,7 +195,6 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -235,7 +231,6 @@ Was sollen wir wählen? Truppenrekrutierungsrate oder Truppenangriffsstärke?</D
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -262,7 +257,7 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+10% Colony Corruption Reduction</ChoiceButtonText>
+				<ChoiceButtonText>+10% Reduzierung der Korruption in der Kolonie</ChoiceButtonText>
 				<GeneratedItemName>Implement Patriotic Wave - Corruption Reduction (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -276,14 +271,13 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+50% War Weariness Reduction</ChoiceButtonText>
+				<ChoiceButtonText>+50% Reduzierung der Kriegsmüdigkeit</ChoiceButtonText>
 				<GeneratedItemName>Implement Patriotic Wave - War Weariness (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -306,7 +300,6 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -315,9 +308,10 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>78</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>78</Id1> <!-- Colony Event Id, Current Value = Patriotic Wave -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -345,7 +339,6 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -354,9 +347,10 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>79</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>79</Id1> <!-- Colony Event Id, Current Value = Patriotic Wave -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -384,7 +378,6 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -421,7 +414,6 @@ Was sollen wir wählen? Reduzierung der Koloniekorruption oder Reduzierung der K
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -446,7 +438,7 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+10% Espionage and +10% Counter Espionage</ChoiceButtonText>
+				<ChoiceButtonText>+10% Spionage und +10% Gegenspionage</ChoiceButtonText>
 				<GeneratedItemName>Implement Know Your Enemy - Espionage (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -460,14 +452,13 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>+10% Targeting and +10% Countermeasures</ChoiceButtonText>
+				<ChoiceButtonText>+10% Anvisieren und +10% Gegenmaßnahmen</ChoiceButtonText>
 				<GeneratedItemName>Implement Know Your Enemy - Targeting (Mortalen)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -490,7 +481,6 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -499,9 +489,10 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>80</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>80</Id1> <!-- Colony Event Id, Current Value = Know Your Enemy -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -529,7 +520,6 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -538,9 +528,10 @@ Was sollen wir wählen? Spionage und Gegenspionage? Oder Targeting und Gegenmaß
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>81</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>81</Id1> <!-- Colony Event Id, Current Value = Know Your Enemy -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

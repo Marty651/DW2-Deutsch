@@ -151,52 +151,6 @@
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>7</ResearchProjectId>
-		<Name>Impulswellen-Waffen 1/4(1)</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>187.5</Size>
-		<InitiationCost>
-			<Money>500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>50</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
-		<Row>0</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>768</ResearchProjectId> <!-- Early Pulse Weapons -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<Components>
-			<Component>
-				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
-				<Level>0</Level>
-			</Component>
-		</Components>
-		<RepeatableTechLimit>0</RepeatableTechLimit>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>8</ResearchProjectId>
 		<Name>Distanz-Strahlenwaffen 1/2(1)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -326,11 +280,11 @@
 			<Money>500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<ResourceId>11</ResourceId> <!-- Cuprica -->
 					<Amount>50</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>50</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -2133,52 +2087,6 @@
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>48</ResearchProjectId>
-		<Name>Impulswellen-Waffen 2/4(3)</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2000</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>0</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>7</ResearchProjectId> <!-- Pulsed Wave Weapons -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<Components>
-			<Component>
-				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
-				<Level>0</Level>
-			</Component>
-		</Components>
-		<RepeatableTechLimit>0</RepeatableTechLimit>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>49</ResearchProjectId>
 		<Name>Impuls-Punktverteidigung 1/3(1)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -2546,11 +2454,11 @@
 			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<ResourceId>11</ResourceId> <!-- Cuprica -->
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -5224,56 +5132,6 @@
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>106</ResearchProjectId>
-		<Name>Impulswellen-Waffen 3/4(5)</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>6000</Size>
-		<InitiationCost>
-			<Money>12500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<AdditionalRequirements>
-			<ResearchBonusType>ResearchWeapons</ResearchBonusType>
-			<ResearchBonusAmount>0.2</ResearchBonusAmount>
-		</AdditionalRequirements>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>0</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>48</ResearchProjectId> <!-- Enhanced Wave Weapons -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<Components>
-			<Component>
-				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
-				<Level>0</Level>
-			</Component>
-		</Components>
-		<RepeatableTechLimit>0</RepeatableTechLimit>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>107</ResearchProjectId>
 		<Name>Kolonien-Strahlenabwehr 1/2(5)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -5584,11 +5442,11 @@
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<ResourceId>11</ResourceId> <!-- Cuprica -->
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -6445,14 +6303,6 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId> <!-- Mebnar -->
-					<Amount>800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId> <!-- Aculon -->
-					<Amount>800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
 					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -8448,40 +8298,6 @@
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>161</ResearchProjectId>
-		<Name>Impulswellen-Waffen 4/4(7)</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>47520</Size>
-		<InitiationCost>
-			<Money>24500</Money>
-		</InitiationCost>
-		<AdditionalRequirements>
-			<ResearchBonusType>Undefined</ResearchBonusType>
-			<ResearchBonusAmount>0.5</ResearchBonusAmount>
-		</AdditionalRequirements>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>0</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>106</ResearchProjectId> <!-- Advanced Wave Weapons -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<RepeatableTechLimit>0</RepeatableTechLimit>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>162</ResearchProjectId>
 		<Name>Extreme Punktverteidigung 1/2(7)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -8834,11 +8650,11 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<ResourceId>11</ResourceId> <!-- Cuprica -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -9615,14 +9431,6 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId> <!-- Mebnar -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId> <!-- Aculon -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -11732,11 +11540,11 @@
 			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<ResourceId>11</ResourceId> <!-- Cuprica -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -11752,11 +11560,15 @@
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>4</ResourceId> <!-- Argon -->
+					<ResourceId>5</ResourceId> <!-- Krypton -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -27506,40 +27318,6 @@
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>535</ResearchProjectId>
-		<Name>Unterwasser-Kraftfelder (7)</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>47520</Size>
-		<InitiationCost>
-			<Money>24500</Money>
-		</InitiationCost>
-		<AdditionalRequirements>
-			<ResearchBonusType>Undefined</ResearchBonusType>
-			<ResearchBonusAmount>0.7</ResearchBonusAmount>
-		</AdditionalRequirements>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>75</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>501</ResearchProjectId> <!-- Advanced Shields -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>8</RaceId> <!-- Wekkarus -->
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<RepeatableTechLimit>0</RepeatableTechLimit>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>536</ResearchProjectId>
 		<Name>Kolonien-Schilde 2m(7)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -31048,7 +30826,7 @@
 			<Money>50000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
 					<Amount>5000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -31060,15 +30838,11 @@
 					<Amount>5000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>5000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-					<Amount>5000</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>5000</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -32598,15 +32372,11 @@
 			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>4050</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -32663,15 +32433,11 @@
 			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>4050</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -32728,15 +32494,11 @@
 			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>4050</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId> <!-- Steel -->
 					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -40430,14 +40192,6 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId> <!-- Mebnar -->
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId> <!-- Aculon -->
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
 					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>

@@ -17,15 +17,15 @@
 					<Amount>3200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>6</ResourceId> <!-- Tyderios -->
 					<Amount>3200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>3200</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -503,24 +503,6 @@
 		<Size>15840</Size>
 		<InitiationCost>
 			<Money>18000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId> <!-- Argon -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -557,24 +539,6 @@
 		<Size>47520</Size>
 		<InitiationCost>
 			<Money>24500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId> <!-- Argon -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -612,22 +576,6 @@
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId> <!-- Argon -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId> <!-- Krypton -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
 					<Amount>3200</Amount>
@@ -1031,14 +979,6 @@
 			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>13</ResourceId> <!-- Carbonite -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
 					<Amount>1800</Amount>
 				</ResourceQuantity>
@@ -1052,6 +992,10 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId> <!-- Aculon -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId> <!-- Carbonite -->
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -1093,14 +1037,6 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>13</ResourceId> <!-- Carbonite -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
@@ -1114,6 +1050,10 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId> <!-- Aculon -->
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId> <!-- Carbonite -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -1155,14 +1095,6 @@
 			<Money>32000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>13</ResourceId> <!-- Carbonite -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
 					<Amount>3200</Amount>
 				</ResourceQuantity>
@@ -1176,6 +1108,10 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId> <!-- Aculon -->
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId> <!-- Carbonite -->
 					<Amount>3200</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -4051,7 +3987,7 @@
 			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
 					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -4063,15 +3999,11 @@
 					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -4113,7 +4045,7 @@
 			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -4125,15 +4057,11 @@
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -4179,7 +4107,7 @@
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -4191,15 +4119,11 @@
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -4245,7 +4169,7 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>78</ResourceId> <!-- Hexodorium -->
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -4257,15 +4181,11 @@
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -5145,7 +5065,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>16</Row>
+		<Row>17</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId> <!-- Teekan -->
@@ -5365,7 +5285,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId> <!-- Zenox -->

@@ -12,7 +12,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -49,7 +48,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -85,7 +83,6 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -115,7 +112,6 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -126,7 +122,7 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
+				<Id1>0</Id1> <!-- Race Id, Current Value = Human -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>FleetAdmiral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -145,7 +141,8 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>FleetAdmiral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -164,7 +161,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>FleetAdmiral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -183,7 +182,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>FleetAdmiral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -202,8 +203,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>1</Id2>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>1</Id2> <!-- Set Skill To: 0=Unknown,1=Known -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>FleetAdmiral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -231,7 +233,6 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -242,7 +243,7 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
+				<Id1>0</Id1> <!-- Race Id, Current Value = Human -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>TroopGeneral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -261,7 +262,8 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>TroopGeneral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -280,7 +282,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>TroopGeneral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -299,7 +303,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>TroopGeneral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -318,8 +324,9 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>1</Id2>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>1</Id2> <!-- Set Skill To: 0=Unknown,1=Known -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>TroopGeneral</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -347,7 +354,6 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -384,7 +390,6 @@ Was sollen wir wählen? Ein [CHARACTER]Admiral[/CHARACTER] oder ein [CHARACTER]G
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -398,7 +403,7 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
+				<Id1>0</Id1> <!-- Race Id, Current Value = Human -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Ambassador</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -417,7 +422,8 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Ambassador</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -436,7 +442,9 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Ambassador</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -455,8 +463,9 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>1</Id2>
-				<Id3>1</Id3>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>1</Id2> <!-- Set Skill To: 0=Unknown,1=Known -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Ambassador</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -475,9 +484,10 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>74</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>74</Id1> <!-- Colony Event Id, Current Value = Internal Debates -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -505,7 +515,6 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -542,7 +551,6 @@ Allerdings hat der neue Verteidigungsvertrag auch zum Erscheinen eines [CHARACTE
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -580,7 +588,6 @@ Sollten wir einen Spion opfern, um diese vorübergehenden Boni für die Spionage
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -609,7 +616,6 @@ Sollten wir einen Spion opfern, um diese vorübergehenden Boni für die Spionage
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -618,7 +624,8 @@ Sollten wir einen Spion opfern, um diese vorübergehenden Boni für die Spionage
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id3>2</Id3>
+				<Id1>-1</Id1> <!-- Race Id (-1=Triggering Empire, -2=Location Empire, -3=Action Location, -4=Invading Characters, -5=Use Id3) -->
+				<Id3>-1</Id3> <!-- -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Spy</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -637,9 +644,10 @@ Sollten wir einen Spion opfern, um diese vorübergehenden Boni für die Spionage
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>75</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>75</Id1> <!-- Colony Event Id, Current Value = Heightened Security -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -667,7 +675,6 @@ Sollten wir einen Spion opfern, um diese vorübergehenden Boni für die Spionage
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -680,6 +687,8 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -698,7 +707,8 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>4</Value1>
+				<Id1>-1</Id1> <!-- Project Id -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Colonization</ResearchCategory>
@@ -726,7 +736,6 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -734,12 +743,14 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Neue Welten</MessageTitle>
 				<Description>Unsere jüngste Kolonisierung eines kontinentalen Planeten hat unser Verständnis für die Kolonisierung neuer Welten vertieft.
-				
+
 Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnologie gelungen.</Description>
 				<ImageFilepath>Environment/Events/New Worlds</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -758,7 +769,8 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>4</Value1>
+				<Id1>-1</Id1> <!-- Project Id -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Colonization</ResearchCategory>
@@ -794,7 +806,6 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -803,7 +814,10 @@ Dadurch ist uns ein Forschungsdurchbruch bei einer neuen Kolonisierungstechnolog
 				<ActionLocationHint>HighestDevelopmentColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>20</Id1>
+				<Id1>20</Id1> <!-- Colony Event Id, Current Value = Great Art Exposition -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -829,6 +843,8 @@ Infolgedessen wird unser Imperium in den nächsten 2 Jahren einen [BONUS]+10 % A
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -864,7 +880,6 @@ Infolgedessen wird unser Imperium in den nächsten 2 Jahren einen [BONUS]+10 % A
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -873,7 +888,10 @@ Infolgedessen wird unser Imperium in den nächsten 2 Jahren einen [BONUS]+10 % A
 				<ActionLocationHint>HighestDevelopmentColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>20</Id1>
+				<Id1>20</Id1> <!-- Colony Event Id, Current Value = Great Art Exposition -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -899,6 +917,8 @@ Infolgedessen wird unser Imperium in den nächsten 2 Jahren einen [BONUS]+10 % A
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

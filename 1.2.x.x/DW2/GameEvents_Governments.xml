@@ -12,7 +12,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -49,7 +48,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -64,6 +62,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -82,9 +82,10 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>38</Id1>
-				<Value1>1</Value1>
-				<Value2>1</Value2>
+				<Id1>38</Id1> <!-- Facility Id (-1=Ruins), Current Value = Planetary Administration Center -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>1</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -103,7 +104,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>425</Id1>
+				<Id1>425</Id1> <!-- Project Id, Current Value = Planetary Governance -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -182,6 +184,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -200,7 +204,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>267</Id1>
+				<Id1>267</Id1> <!-- Project Id, Current Value = Space Construction -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -219,7 +224,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>675</Id1>
+				<Id1>675</Id1> <!-- Project Id, Current Value = Expanded Space Stations -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -247,7 +253,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -284,7 +289,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -301,6 +305,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -319,7 +325,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>265</Id1>
+				<Id1>265</Id1> <!-- Project Id, Current Value = Star Fighters -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -338,7 +345,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>26</Id1>
+				<Id1>26</Id1> <!-- Project Id, Current Value = Zero-G Combat -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -357,7 +365,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>264</Id1>
+				<Id1>264</Id1> <!-- Project Id, Current Value = Ship Boarding -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -376,8 +385,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>1</Value1>
+				<Id1>2</Id1> <!-- Troop Id, Current Value = Strike Trooper Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -404,8 +413,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>1</Value1>
+				<Id1>27</Id1> <!-- Troop Id, Current Value = Defender Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -432,8 +441,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>1</Value1>
+				<Id1>7</Id1> <!-- Troop Id, Current Value = Trapper Group -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -460,8 +469,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>1</Value1>
+				<Id1>12</Id1> <!-- Troop Id, Current Value = Battlematon Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -488,8 +497,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>1</Value1>
+				<Id1>17</Id1> <!-- Troop Id, Current Value = Conqueror Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -516,8 +525,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>1</Value1>
+				<Id1>37</Id1> <!-- Troop Id, Current Value = Sentinel Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -544,8 +553,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>1</Value1>
+				<Id1>22</Id1> <!-- Troop Id, Current Value = Executioner Hive -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -572,8 +581,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>1</Value1>
+				<Id1>32</Id1> <!-- Troop Id, Current Value = Robo-Guard Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -600,8 +609,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>1</Value1>
+				<Id1>44</Id1> <!-- Troop Id, Current Value = Mercenary Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -688,6 +697,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -706,7 +717,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>670</Id1>
+				<Id1>670</Id1> <!-- Project Id, Current Value = Expanded Civilian Ships -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -725,7 +737,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>675</Id1>
+				<Id1>675</Id1> <!-- Project Id, Current Value = Expanded Space Stations -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -753,7 +766,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -790,7 +802,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -807,6 +818,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -825,7 +838,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>268</Id1>
+				<Id1>268</Id1> <!-- Project Id, Current Value = Improved Escorts -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -844,7 +858,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>680</Id1>
+				<Id1>680</Id1> <!-- Project Id, Current Value = System Patrol Starships -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -863,7 +878,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>21</Id1>
+				<Id1>21</Id1> <!-- Project Id, Current Value = Shock Forces -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -882,8 +898,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>3</Id1>
-				<Value1>1</Value1>
+				<Id1>3</Id1> <!-- Troop Id, Current Value = Heavy Armor Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -910,8 +926,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>28</Id1>
-				<Value1>1</Value1>
+				<Id1>28</Id1> <!-- Troop Id, Current Value = Armored Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -938,8 +954,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>8</Id1>
-				<Value1>1</Value1>
+				<Id1>8</Id1> <!-- Troop Id, Current Value = Armored Destroyer Group -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -966,8 +982,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>13</Id1>
-				<Value1>1</Value1>
+				<Id1>13</Id1> <!-- Troop Id, Current Value = Gravity Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -994,8 +1010,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>18</Id1>
-				<Value1>1</Value1>
+				<Id1>18</Id1> <!-- Troop Id, Current Value = Armored Conqueror Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1022,8 +1038,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>38</Id1>
-				<Value1>1</Value1>
+				<Id1>38</Id1> <!-- Troop Id, Current Value = Bio-Armor Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1050,8 +1066,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>23</Id1>
-				<Value1>1</Value1>
+				<Id1>23</Id1> <!-- Troop Id, Current Value = Vanguard Hive -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1078,8 +1094,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>33</Id1>
-				<Value1>1</Value1>
+				<Id1>33</Id1> <!-- Troop Id, Current Value = Robo-Mech Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1106,8 +1122,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>56</Id1>
-				<Value1>1</Value1>
+				<Id1>56</Id1> <!-- Troop Id, Current Value = Octomech Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1143,7 +1159,6 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1180,7 +1195,6 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1197,6 +1211,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1215,7 +1231,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>415</Id1>
+				<Id1>415</Id1> <!-- Project Id, Current Value = Coordinated Control -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1234,7 +1251,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>411</Id1>
+				<Id1>411</Id1> <!-- Project Id, Current Value = Crew Systems -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1253,7 +1271,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>816</Id1>
+				<Id1>816</Id1> <!-- Project Id, Current Value = Planetary Palace -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1272,9 +1291,10 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>94</Id1>
-				<Value1>1</Value1>
-				<Value2>1</Value2>
+				<Id1>94</Id1> <!-- Facility Id (-1=Ruins), Current Value = Planetary Palace -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>1</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1293,8 +1313,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>1</Value1>
+				<Id1>2</Id1> <!-- Troop Id, Current Value = Strike Trooper Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1321,8 +1341,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>1</Value1>
+				<Id1>27</Id1> <!-- Troop Id, Current Value = Defender Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1349,8 +1369,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>1</Value1>
+				<Id1>7</Id1> <!-- Troop Id, Current Value = Trapper Group -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1377,8 +1397,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>1</Value1>
+				<Id1>12</Id1> <!-- Troop Id, Current Value = Battlematon Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1405,8 +1425,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>1</Value1>
+				<Id1>17</Id1> <!-- Troop Id, Current Value = Conqueror Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1433,8 +1453,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>1</Value1>
+				<Id1>37</Id1> <!-- Troop Id, Current Value = Sentinel Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1461,8 +1481,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>1</Value1>
+				<Id1>22</Id1> <!-- Troop Id, Current Value = Executioner Hive -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1489,8 +1509,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>1</Value1>
+				<Id1>32</Id1> <!-- Troop Id, Current Value = Robo-Guard Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1517,8 +1537,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>1</Value1>
+				<Id1>44</Id1> <!-- Troop Id, Current Value = Mercenary Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1554,7 +1574,6 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1591,7 +1610,6 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1607,6 +1625,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1625,7 +1645,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>405</Id1>
+				<Id1>405</Id1> <!-- Project Id, Current Value = Exploration Scanners -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1644,7 +1665,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>406</Id1>
+				<Id1>406</Id1> <!-- Project Id, Current Value = Planetary Exploration -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1663,6 +1685,7 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Scientist</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1690,7 +1713,6 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1727,7 +1749,6 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1743,6 +1764,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1761,7 +1784,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
+				<Id1>27</Id1> <!-- Project Id, Current Value = Improved Logistics -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1780,7 +1804,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>433</Id1>
+				<Id1>433</Id1> <!-- Project Id, Current Value = Long Range Sensors -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1799,8 +1824,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>1</Value1>
+				<Id1>2</Id1> <!-- Troop Id, Current Value = Strike Trooper Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1827,8 +1852,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>1</Value1>
+				<Id1>27</Id1> <!-- Troop Id, Current Value = Defender Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1855,8 +1880,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>1</Value1>
+				<Id1>7</Id1> <!-- Troop Id, Current Value = Trapper Group -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1883,8 +1908,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>1</Value1>
+				<Id1>12</Id1> <!-- Troop Id, Current Value = Battlematon Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1911,8 +1936,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>1</Value1>
+				<Id1>17</Id1> <!-- Troop Id, Current Value = Conqueror Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1939,8 +1964,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>1</Value1>
+				<Id1>37</Id1> <!-- Troop Id, Current Value = Sentinel Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1967,8 +1992,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>1</Value1>
+				<Id1>22</Id1> <!-- Troop Id, Current Value = Executioner Hive -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1995,8 +2020,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>1</Value1>
+				<Id1>32</Id1> <!-- Troop Id, Current Value = Robo-Guard Force -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2023,8 +2048,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>1</Value1>
+				<Id1>44</Id1> <!-- Troop Id, Current Value = Mercenary Brigade -->
+				<Value1>1</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

@@ -37,7 +37,7 @@ Monitoring Station		;Ortungsstation
 Resort Base		;Erholungsbasis
 Interceptor		;Abfangjäger
 Bomber		;Bomber
-      
+
 ShipMission Description Undefined		;Keine Mission
 ShipMission Description Attack		;{0} angreifen
 ShipMission Description Attack Prepare		;Angriff gegen {0}
@@ -490,7 +490,9 @@ GameTaskType Short AssignCharacterMission		;Mission zuweisen
 GameTaskType Short FleetSignalFuelTankers		;Von Tankern nachfüllen
 GameTaskType Short AssignFleetMission		;Mission zuweisen
 GameTaskType Short AssignShipMission		;Mission zuweisen
-GameTaskType Short ClearShipMission		;Stop
+GameTaskType Short ClearShipMission		;Stop und entferne wartende Missionen
+GameTaskType Extended ClearShipMission		;Alternativ können Sie die [B]Umschalttaste[/B] gedrückt halten, um alle Missionen in der Warteschlange beizubehalten und einfach die aktuelle Mission zu löschen, d.h. sofort zur nächsten Mission in der Warteschlange wechseln
+GameTaskType Short ClearQueuedMissions		;Entferne wartende Missionen
 GameTaskType Short QueueBase		;Raumbasis-Reihenfolge festlegen
 GameTaskType Short QueueRepairInvestigate		;Schiff/Raumbasis reparieren und untersuchen
 GameTaskType Short QueueColonize		;Kolonisiert {0}
@@ -1102,6 +1104,7 @@ BonusType TroopRecoveryRate		;Erholungsrate
 BonusType TroopRecruitment		;Rekrutierungsrate
 BonusType WarWearinessReduction		;Reduktion Kriegsmüdigkeit
 BonusType WeaponsDamage		;Erhöhter Waffenschaden
+BonusType BombardmentDamage		;Erhöhter Bombardierungsschaden
 BonusType WeaponsRange		;Waffenreichweite erhöht
 BonusType BoardingAssault		;Enter Angriffsstärke
 BonusType BoardingDefense		;Enter Verteidigungsstärke
@@ -2828,6 +2831,8 @@ EmpireRelationChange Event		;Unsere kürzlich eingeleitete {0} mit {1} hat zu ei
 ResearchBreakthrough Event		;Unser Forschungsdurchbruch in {0} hat zu einer kuriosen Entdeckung geführt:
 ResearchBreakthrough Event No Project		;Unser Forschungsdurchbruch hat zu einer kuriosen Entdeckung geführt:
 
+EmpireCashflowLevel Event		;Unser neues Cashflow-Niveau hat zu einer merkwürdigen Entdeckung geführt:
+EmpirePopulationLevel Event		;Unsere neue Bevölkerungszahl hat zu einer merkwürdigen Entdeckung geführt:
 
 GameEventActionType Description NavigationalCoordinates		;Ein Datenspeicher enthüllt einige verblüffende Informationen: Im Datenspeicher befinden sich [DISCOVERY]RICHTUNGSANGABEN[/DISCOVERY], die auf [LOCATION]{0}[/LOCATION] zeigen.\n\nVielleicht sollten wir ein Schiff schicken, um diesen Ort zu untersuchen.
 GameEventActionType Description NavigationalCoordinates with Location		;Ein Datenkern enthüllt einige interessante Informationen: Im Datenkern befinden sich [DISCOVERY]NAVIGATIONSRICHTUNGEN[/DISCOVERY], die auf [LOCATION]{0}[/LOCATION] verweisen, einen Punkt in der Nähe von [LOCATION]{1}[/LOCATION]. \n\nVielleicht sollten wir ein Schiff schicken, um diesen Ort zu untersuchen.
@@ -2950,6 +2955,7 @@ Colony Attack		;Kolonie Angriff
 Bonuses from Native Location		;Boni vom Heimatort
 
 Victory Condition BuildFacility		;Baut die {0} in einer Kolonie
+Victory Condition LoseFewestColonies		;Verliert die wenigsten Kolonien
 Victory Condition ConquerMostEnemyColonies		;Erobert die meisten feindlichen Kolonien
 Victory Condition DestroyMostEnemyColonies		;Zerstört die meisten feindlichen Kolonien
 Victory Condition ControlHomeworld		;Kontrolliert Eure Hauptwelt {0}
@@ -3024,6 +3030,7 @@ Victory Condition PirateMostProtectionIncome		;Verdient das meiste Einkommen aus
 Victory Condition PirateMostSmugglingIncome		;Erhaltet die meisten Einnahmen durch Schmuggel in der Galaxie
 Victory Condition PirateMostSuccessfulMissionsAttack		;Schließe die meisten Piraten Angriffsmissionen in der Galaxie ab
 Victory Condition PirateMostSuccessfulMissionsDefend		;Schließt die meisten Piraten Verteidigungsmissionen in der Galaxie ab
+Victory Condition CaptureMostCharacters		;Nehmt die meisten ausländischen Charaktere gefangen
 Victory Condition CaptureMostShips		;Erobert die meisten Schiffe und Raumbasen in der Galaxie
 Victory Condition PirateMostSuccessfulRaids		;Führt die erfolgreichsten Piratenüberfälle in der Galaxie durch
 
@@ -3047,6 +3054,7 @@ Victory Condition Detail EnslavePopulationProportionEmpire		;{0} versklavt, Bev�
 Victory Condition Detail ExploreGalaxyPercentage		;{0} Systeme erkundet, von {1}
 Victory Condition Detail FreeTradeAgreementsFormedProportionAllEmpires		;Besitzt {0} Freihandelsabkommen
 Victory Condition Detail MutualDefensePactsFormedProportionAllEmpires		;Besitzt {0} Verteidigungsabkommen
+Victory Condition Detail LoseFewestColonies		;{0} Kolonien verloren
 Victory Condition Detail ConquerMostEnemyColonies		;{0} feindliche Kolonien erobert
 Victory Condition Detail DestroyMostEnemyColonies		;{0} feindliche Kolonien zerstört
 Victory Condition Detail ControlMostRuins		;{0} Ruinen unter Kontrolle
@@ -3104,6 +3112,7 @@ Victory Condition Detail PirateMostProtectionIncome		;{0} Credits Einnahmen aus 
 Victory Condition Detail PirateMostSmugglingIncome		;{0} Credits Einnahmen aus Schmuggel
 Victory Condition Detail PirateMostSuccessfulMissionsAttack		;{0} abgeschlossene Piraten Angriffsmissionen
 Victory Condition Detail PirateMostSuccessfulMissionsDefend		;{0} abgeschlossene Piraten Verteidigungsmissionen
+Victory Condition Detail CaptureMostCharacters		;{0} gefangene Charaktere
 Victory Condition Detail CaptureMostShips		;{0} eroberte Schiffe und Raumbasen
 Victory Condition Detail PirateMostSuccessfulRaids		;{0} erfolgreiche Piratenüberfälle
 Victory Condition Detail MostNonAggressionPacts		;{0} Nichtangriffspakte
@@ -3175,6 +3184,9 @@ Victory Condition Bonus Description		;Bonus durch Spiel-Ereignisse: {0}
 Victory Condition Bonus Description Standing Wonders		;Ereignis- und Wunder-Boni: {0}
 Victory Condition Bonus Detail		;{0} Gesamtboni aus Spiel-Ereignissen
 Victory Condition Bonus Detail Standing Wonders		;{0} Gesamtboni aus Spiel-Ereignissen und Wundern
+
+Victory Condition Objective Description		;Erreichte Siegziele: {0}
+Victory Condition Objective Generic		;Siegziel
 
 Victory Conditions Progress		;Fortschritt der Siegbedingungen
 Close		;Schließen
@@ -3782,6 +3794,7 @@ Character Event TroopLost		;Trupp verloren
 Character Event TroopRecruited		;Trupp rekrutiert
 Character Event WarEnd		;Krieg endet
 Character Event WarStart		;Krieg beginnt
+Character Event EmpireDirectionChange		;Richtungswechsel
 
 Character Trait Addict		;Süchtiger
 Character Trait BeanCounter		;Erbsenzähler
@@ -3912,6 +3925,7 @@ Character Trait Description Energetic		;{0} Erhöhung aller vorhandenen Fähigke
 Character Trait Description Lazy		;{0} Verringerung aller vorhandenen Fähigkeiten
 Character Trait Description Drunk		;{0} Verringerung aller vorhandenen Fähigkeiten
 Character Trait Description GoodAdministrator Scientist		;{0} Senkung der Blitz-Forschungskosten
+Character Trait Description AncestralMemory		;Erhöht die Chance auf einen kritischen Forschungserfolg
 
 Character Trait Description Slaver		;{0} Kolonieeinkommen aus Sklaverei
 
@@ -5343,7 +5357,7 @@ Settings Explanation ResetTours		;Klickt auf diese Schaltfläche, um die Tutoria
 Settings Explanation GraphicsAdapterDescription		;Wählt die zu verwendende Grafikkarte aus. Im Allgemeinen solltet Ihr die leistungsfähigste Grafikkarte in Eurem System verwenden. Daher ist es in der Regel besser, eine dedizierte Grafikkarte (NVidia, AMD) statt einer integrierten Grafik-GPU (Intel) zu verwenden.
 Settings Explanation GraphicsDisplayMode		;Wählt den zu verwendenden Anzeigemodus. Dazu gehören die Grafikauflösung und die Bildwiederholfrequenz. Ihr solltet versuchen, die native Auflösung Eures Monitors einzustellen.
 Settings Explanation GraphicsResolutionFullScreen		;Zeigt das Spiel im Fenster oder im Vollbildmodus (randloses Fenster) an. Wählt Vollbild, um eine bessere Benutzeroberfläche zu erhalten, die das Schwenken der Bildschirmränder und andere Funktionen besser unterstützt.
-Settings Explanation GraphicsResolutionFormat		;Das Backbuffer-Format, das beim Rendern verwendet werden soll. Wählt für die beste Qualität, dass 'High Dynamic Range Rendering', welches mit der meisten Hardware verfügbar sein sollte. Einige Grafikkarten und Treiber müssen möglicherweise 'Standard Range Rendering' verwenden.
+Settings Explanation GraphicsResolutionFormat		;Das beim Rendern zu verwendende Rückpufferformat. Für die beste Qualität wählen Sie High Dynamic Range Rendering, das auf den meisten Hardwaregeräten verfügbar sein sollte. Einige Grafikkarten und Treiber müssen möglicherweise das Rendering im Standardbereich verwenden.\n\n[WARNUNG]Bei Verwendung des DXVK-Renderings müssen Sie wahrscheinlich auch Gamma auf etwa 2,2 einstellen, um eine zu dunkle Anzeige zu vermeiden.[/WARN]
 Settings Explanation UserInterfaceSize		;Wählt die gewünschte Größe der Benutzeroberfläche. Größere Größen erhöhen die Skalierung von Schriften und Fenstern und ermöglichen eine bessere Lesbarkeit bei hochauflösenden Einstellungen. Einige Größen der Benutzeroberfläche sind je nach Bildschirmauflösung nicht verfügbar (z. B. können sehr große Größen auf Bildschirmen mit niedriger Auflösung nicht verwendet werden).
 Settings Explanation UserInterfaceSizeLists		;Erlaubt eine leichte Verkleinerung der Listenelemente in den Haupt-Kategorien zur Steuerung und Verwaltung Eures Volkes. Dies bedeutet, dass mehr Elemente in der Liste mit weniger Scrollen gesehen werden können.
 Settings Explanation ColorScheme		;Wählt Euer bevorzugtes Farbschema für die Benutzeroberfläche.
@@ -5483,7 +5497,7 @@ Unit Damage Overlay		;Einheitenschaden-Overlay
 Settings Explanation DamageOverlayEnabled		;Aktiviert Schadens- und Konstruktions-Effekte für Schiffe, Raumbasen und Kreaturen.
 
 Rendering Mode		;Rendering Modus
-Settings Explanation RenderingMode		;Die standardmäßige und empfohlene Rendering-Plattform ist DirectX 11. Wenn Ihr jedoch Rendering-Probleme habt (z. B. Abstürze während Kämpfen), solltet Ihr Vulkan/DXVK-Rendering ausprobieren.\n\nWenn Ihr Vulkan/DXVK-Rendering verwendet, solltet Ihr auch das Rendering-Format auf 'Standard Range Rendering' einstellen, um eine zu dunkle Anzeige zu vermeiden.\n\nHINWEIS: Distant Worlds 2 muss neu gestartet werden, um Änderungen am Rendering-Modus zu übernehmen.
+Settings Explanation RenderingMode		;Die standardmäßige und empfohlene Rendering-Plattform ist DirectX 11. Wenn Sie jedoch Rendering-Probleme haben (z. B. Abstürze während Schlachten), sollten Sie das Vulkan/DXVK-Rendering ausprobieren.\n\nWenn Sie Vulkan/DXVK-Rendering verwenden, möchten Sie möglicherweise auch das Rendering-Format auf einstellen „Standard Range Rendering“, um eine übermäßig dunkle Anzeige zu vermeiden.\n\nHINWEIS: Distant Worlds 2 muss neu gestartet werden, um Änderungen am Rendering-Modus zu übernehmen.\n\n\n[WARN]Bei Verwendung DXVK-Rendering und HDR-Farbformat müssen Sie wahrscheinlich auch Gamma auf etwa 2,2 einstellen, um eine zu dunkle Anzeige zu vermeiden.[/WARN]
 Rendering Mode DirectX		;DirectX 11
 Rendering Mode VulkanDXVK		;Vulkan via DXVK v1.10.3
 Rendering Mode VulkanDXVK2		;Vulkan via DXVK v2.1.0
@@ -5876,7 +5890,7 @@ Contrast		;Kontrast
 Brightness		;Helligkeit
 Saturation		;Farb-Sättigung
 
-Settings Explanation Gamma		;Verwendet die Gamma-Einstellung, um die Gesamthelligkeit des Bildschirms anzupassen, insbesondere bei der Verwendung von HDR-Rendering
+Settings Explanation Gamma		;Verwenden Sie die Gamma-Einstellung, um die Gesamthelligkeit der Anzeige anzupassen, insbesondere bei Verwendung von HDR-Rendering.\n\n\n[WARN]Bei Verwendung von DXVK-Rendering müssen Sie Gamma wahrscheinlich auf etwa 2,2 einstellen, um eine zu dunkle Anzeige zu vermeiden[/WARN].
 Settings Explanation Contrast		;Einstellen des Kontrasts auf dem Bildschirm
 Settings Explanation Brightness		;Einstellen der Helligkeit auf dem Bildschirm
 Settings Explanation Saturation		;Einstellen der Farb-Sättigung auf dem Bildschirm
@@ -6436,6 +6450,7 @@ Quest GameEventActionType AddEmpireIncidentFactorGeneral Positive		;Verbessern S
 Quest GameEventActionType AddEmpireIncidentFactorGeneral Negative		;Harm Relations mit {0}
 Quest GameEventActionType AdjustWarWeariness Increase		;Feindliche Kriegsmüdigkeit erhöhen
 Quest GameEventActionType AdjustWarWeariness Reduce		;Reduzieren Sie die Kriegsmüdigkeit
+Quest GameEventActionType AchieveVictoryObjective		;Siegziele
 
 CATEGORY project		;Zufälliges {0} Projekt
 Random Project		;Zufälliges Projekt
@@ -6708,8 +6723,8 @@ Message SubType UnderAttackMilitary		;Unter Beschuss: Militärschiffe
 Message SubType UnderAttackMiningStation		;Unter Beschuss: Bergbaustation
 Message SubType UnderAttackResearchResortMonitoringSpaceport		;Unter Beschuss: Forschungsstation, Resort-Basis, Überwachungsstation, Raumhafen
 Message SubType StoryGeneral		;Allgemeine Story-Nachrichten
-Message SubType StoryHiveSighting		;Bienenstock-Sichtung
-Message SubType StoryHiveEncounterAwoken		;Begegnung im Bienenstock
+Message SubType StoryHiveSighting		;Schwarm-Sichtung
+Message SubType StoryHiveEncounterAwoken		;Begegnung im Schwarm
 Message SubType GalaxyNewsEmpireEliminated		;Galaxy Nachrichten: Imperium eliminiert
 Message SubType GalaxyNewsWarStartEndVassals		;Galaxie Nachrichten: Krieg, Vasallen
 Message SubType GalaxyNewsAllianceVotes		;Galaxie Nachrichten: Allianz-Abstimmungen
@@ -6814,6 +6829,117 @@ At War With		;Im Krieg mit
 
 Galactic Wonder		;Galaktisches Wunder
 
-Upgrade Design Title		;Gewähltes Design upgraden
-Upgrade Design Explanation OLD		;Der Upgrade-Prozess ist eine Abkürzung, um das manuelle Upgrade von Designs zu beschleunigen. Er ersetzt die Komponenten im Design, indem er sie auf die derzeit beste verfügbare Komponente für dieselbe Kategorie aufwertet.\n\nWaffenkomponenten haben normalerweise Familien, was bedeutet, dass die aufgerüstete Komponente der [B]gleichen Familie[/B] angehört. Daher werden Raketen durch Raketen ersetzt, Blaster durch Blaster usw. Für Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\nEinige Komponentenkategorien sind vom Upgrade-Prozess [B]ausgeschlossen[/B]: [HL]Motoren, Hyperantriebe, Reaktoren und Schilde[/HL]. Diese Komponenten werden einfach unverändert beibehalten.\n\nBeachtet, dass der Upgrade-Prozess zu einem Design führen kann, dessen Gesamtgröße die maximal zulässige Größe des Schiffsrumpfs überschreitet. Er kann auch zu einem Design führen, dessen Energiebedarf die Reaktorleistung oder den statischen Energiebedarf übersteigt. Das neue Design könnte auch nicht genügend Besatzung haben. [HL]Es liegt an Euch als Spieler, diese Mängel zu beheben, bevor das aufgerüstete Design gespeichert werden kann.[/HL]
-Upgrade Design Explanation		;Der Upgrade-Prozess ist eine Abkürzung, um das manuelle Upgrade von Designs zu beschleunigen. Er ersetzt die Komponenten im Design, indem er sie auf die derzeit beste verfügbare Komponente für dieselbe Kategorie aufwertet.\n\nWaffenkomponenten haben normalerweise Familien, was bedeutet, dass die aufgerüstete Komponente der [B]gleichen Familie[/B] angehört. Daher werden Raketen durch Raketen ersetzt, Blaster durch Blaster usw. Für Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\nBeachtet, dass der Upgrade-Prozess zu einem Design führen kann, dessen Gesamtgröße die maximal zulässige Größe des Schiffsrumpfs überschreitet. Er kann auch zu einem Design führen, dessen Energiebedarf die Reaktorleistung oder den statischen Energiebedarf übersteigt. Das neue Design könnte auch über eine unzureichende Besatzung verfügen. [HL]Es liegt an Euch als Spieler, diese Mängel zu beheben, bevor das aufgerüstete Design gespeichert werden kann.[/HL]
+Upgrade Design Title		;Upgrade Ausgewähltes Design
+Upgrade Design Explanation OLD		;Der Upgrade-Prozess ist eine Abkürzung, um die manuelle Aktualisierung von Designs zu beschleunigen. Er ersetzt die Komponenten des Entwurfs, indem er sie durch die beste derzeit verfügbare Komponente derselben Kategorie ersetzt.\n\nWaffenkomponenten haben in der Regel Familien, was bedeutet, dass die aufgerüstete Komponente zur [B]gleichen Familie[/B] gehören wird. So werden Raketen durch Raketen, Blaster durch Blaster usw. ersetzt. Bei Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\nEinige Komponenten-Kategorien sind [B]vom Upgrade-Prozess ausgeschlossen[/B]: [HL]Triebwerke, Hyperantriebe, Reaktoren und Schilde[/HL]. Diese Komponenten werden einfach unverändert beibehalten. Beachten Sie, dass der Upgrade-Prozess zu einem Design führen kann, bei dem die Gesamtgröße die maximal zulässige Größe der Schiffshülle überschreitet. Es kann auch zu einem Design führen, dessen Energiebedarf die Leistung des Reaktors oder den Bedarf an statischer Energie übersteigt. Das neue Design könnte auch eine unzureichende Besatzung haben. [HL]Es liegt an Ihnen als Spieler, diese Fehler zu korrigieren, bevor das verbesserte Design gespeichert werden kann[/HL].
+Upgrade Design Explanation		;Der Upgrade-Prozess ist eine Abkürzung, um die manuelle Aktualisierung von Designs zu beschleunigen. Er ersetzt die Komponenten des Entwurfs, indem er sie durch die beste derzeit verfügbare Komponente derselben Kategorie ersetzt.\n\nWaffenkomponenten haben in der Regel Familien, was bedeutet, dass die aufgerüstete Komponente zur [B]gleichen Familie[/B] gehören wird. So werden Raketen durch Raketen, Blaster durch Blaster usw. ersetzt. Bei Komponenten ohne Familien wird die beste Komponente ausgewählt.\n\n Beachten Sie, dass der Upgrade-Prozess zu einem Design führen kann, bei dem die Gesamtgröße die maximal zulässige Größe der Schiffshülle überschreitet. Es kann auch zu einem Design führen, dessen Energiebedarf die Reaktorleistung oder den statischen Energiebedarf übersteigt. Das neue Design könnte auch eine unzureichende Besatzung haben. [HL]Es liegt an Ihnen als Spieler, diese Fehler zu korrigieren, bevor das verbesserte Design gespeichert werden kann[/HL].
+
+The Great Direction		;Die große Richtung
+The Great Direction Description		;Es ist an der Zeit, eine neue [HL]Große Richtung[/HL] für unser Reich zu wählen.\n\nFür die nächsten {0} Jahre wird unser Reich eine der folgenden Richtungen verfolgen. Jede Richtung hat unterschiedliche Ziele, die uns zum endgültigen Sieg führen.\n\nWelche Richtung sollen wir einschlagen?
+
+New Leader Great One Description		;Herzlichen Glückwunsch! Wir haben herausgefunden, dass unser neuer Anführer {0} die Qualitäten hat, [HL]Der Große[/HL] zu sein!\n\nAls Ergebnis versorgen sie unser Reich mit einem [BONUS]+10% Glücksbonus[/BONUS]
+New Leader Not Great One Description		;Eine Katastrophe! Wir haben festgestellt, dass unser neuer Anführer {0} [B]NICHT[/B] die Qualitäten hat, um [HL]Der Große[/HL] zu sein!\n\nAls Ergebnis behindern sie unser Reich mit einer [BAD]-20% Glücksstrafe[/BAD].\n\nDiese Katastrophe ist nicht hinnehmbar! Wir werden in einem Jahr erneut zusammentreten, um einen neuen Großen zu wählen.
+
+The Great One		;Der Große
+The Great One Description		;Unsere jüngste Änderung der Großen Richtung hat ergeben, dass unser derzeitiger Anführer nicht mehr [HL]Der Große[/HL] ist und daher ungeeignet ist, die Atuuk voranzubringen. Sie werden entlassen.\n\n Wir müssen also einen neuen Anführer wählen. Die beiden besten Kandidaten sind [CHARAKTER]{0}[/CHARAKTER] und [CHARAKTER]{1}[/CHARAKTER].\n\nWen wählen wir als [HL]Den Großen[/HL]?
+The Great One Description Single		;Unser jüngster Wechsel der Großen Richtung hat ergeben, dass unser derzeitiger Anführer nicht mehr [HL]Der Große[/HL] ist und daher ungeeignet ist, die Atuuk voranzubringen. Sie werden entlassen.\n\Nun müssen wir also einen neuen Anführer wählen. Aber es scheint nur einen geeigneten Kandidaten zu geben: [CHARACTER]{0}[/CHARACTER].\n\nSie wurden als [HL]Der Große[/HL] ernannt.
+
+Who Is Great		;Wer ist großartig
+Who Is Great Description		;Die Zeit ist gekommen, die Großen Atuks der Zukunft zu bestimmen. Wir müssen zwischen den folgenden beiden Kandidaten wählen: [CHARAKTER]{0}[/CHARAKTER] und [CHARAKTER]{1}[/CHARAKTER].\n\nDer ausgewählte Charakter erhält die Eigenschaft [B]Großes Potenzial[/B] und kann in Zukunft als [HL]Der Große[/HL] ausgewählt werden.\n\nDie Eigenschaft Großes Potenzial verleiht dem Charakter eine zusätzliche positive Eigenschaft. Außerdem erhöht sich ihre Fertigkeitsstufe.\n\nWen sehen wir mit großem Potenzial?
+
+Direction Doubt		;Richtung Zweifel
+Direction Doubt Description		;Einige unserer Leute bezweifeln die Richtigkeit unseres jüngsten Wechsels der Großen Richtung. Sie sind der Meinung, dass wir uns für etwas anderes hätten entscheiden sollen. Dieses Murren und diese Ungewissheit haben in unserem gesamten Reich für Unruhe gesorgt. So werden wir in den nächsten 2 Jahren unter [SCHLECHT]-10% Kolonieglück[/SCHLECHT] in unserem Reich leiden.
+
+Rapid Unscheduled Disassembly		;Schnelle außerplanmäßige Demontage
+Rapid Unscheduled Disassembly Description		;Die Atuuk-Technik schlägt wieder zu! Eines unserer Schiffe, die {0} {1}, ist plötzlich explodiert. Alle an Bord wurden getötet.\n\n Wir sollten unsere Schiffe wahrscheinlich robuster bauen. Aber das dauert zu lange und ist nicht die Art der Atuuk.
+
+What Does This Button Do		;Was bewirkt diese Taste?
+What Does This Button Do Description		;Unser jüngster kritischer Forschungserfolg hat einen bisher unbemerkten großen roten Knopf entdeckt. Wir können uns nicht erinnern, wofür dieser Knopf da ist, aber er winkt uns einladend zu. Alle Entscheidungen sind mit Risiken verbunden, und wenn wir diesen Knopf drücken, ist es wahrscheinlich genauso. Aber was ist das Leben ohne Aufregung?\n\nSollen wir den Knopf drücken? Oder nicht?
+Push the Button		;Drücken Sie den Knopf
+Don't Push the Button		;Drücken Sie nicht auf den Knopf
+
+WhatDoesThisButtonDo Scientist Methodical Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]Methodisch[/CHARACTER] erworben. Dadurch wird es unwahrscheinlicher, dass sie kritische Forschungserfolge oder Misserfolge melden.\n\n Leider scheinen wir irgendwie auch [SCHLECHT]unser Reichsglück[/SCHLECHT] negativ beeinflusst zu haben. Man kann nie wissen, was diese Knöpfe bewirken...
+
+WhatDoesThisButtonDo Scientist Creative Description		;Einer unserer Wissenschaftler, [CHARAKTER]{0}[/CHARAKTER], hat die Eigenschaft [CHARAKTER]Kreativ[/CHARAKTER] erhalten. Dadurch wird es wahrscheinlicher, dass sie kritische Forschungserfolge oder -misserfolge liefern.\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo Boost Research Project Description		;Wir haben bei dem Forschungsprojekt [RESEARCH]{0}[/RESEARCH] schnelle Fortschritte gemacht.
+WhatDoesThisButtonDo Research Station Explodes Description		;Eine Katastrophe! [HL]{0}[/HL] ist explodiert und hat alle an Bord getötet.\n\n Wir sollten diese Tasten wirklich beschriften...
+
+Deadly In Numbers		;Tödlich... in Zahlen
+
+Character Trait Endearing		;Endearing
+Character Trait Gullible		;Gullible
+Character Trait HonoredHunter		;Geehrter Jäger
+Character Trait Intuitive		;Intuitive
+Character Trait GreatPotential		;Großes Potential
+Character Trait SpeedManiac		;Geschwindigkeitsfanatiker
+Character Trait CuteButDeadly		;Niedlich aber tödlich
+Character Trait Prosperous		;Prosperous
+Character Trait FirstOfMany		;Der Erste von Vielen
+Character Trait GreatOne		;Großartig
+Character Trait NotGreatOne		;Nicht der Große
+
+Home System Critical Resources		;Home System Kritische Ressourcen
+Home System Critical Resources Explanation		;Ob ein Vorrat an kritischen Bauressourcen in Ihrem Heimatsystem sichergestellt werden soll.\n\Normalerweise fehlen in den meisten Heimatsystemen einige wichtige Bauressourcen, es sei denn, sie werden beim Spielstart speziell platziert.\n\Sie können auswählen, ob diese Heimatsystem-Ressourcen garantiert werden und ob dies für alle Spielstarts oder nur für PreWarp-Starts gilt.
+Your Empire Home System Critical Resources Not Ensured		;Nicht gewährleistet
+Your Empire Home System Critical Resources PreWarp		;Wenn Prewarp Start
+Your Empire Home System Critical Resources Always		;Stellen Sie immer sicher
+
+Homeworld Situation		;Situation in der Heimatwelt
+Homeworld Situation Explanation		;Ob Ihr Heimatplanet ein Planet mit eigenem Mond oder ein Mond auf einem Gasriesenplaneten sein soll, oder einfach nur zufällig ausgewählt
+Your Empire Homeworld Random		;Random
+Your Empire Homeworld Planet With Moon		;Planet mit Mond
+Your Empire Homeworld Moon At Gas Giant		;Mond bei Gasriese
+
+Flashes of the Past		;Flashes of the Past
+Flashes of the Past Description		;Der jüngste entscheidende Forschungsdurchbruch unseres Wissenschaftlers [CHARAKTER]{0}[/CHARAKTER] hat ihm Einblicke in die Vergangenheit verschafft.\n\nDurch die Nutzung dieser Einblicke erhält er eine neue Forschungsfähigkeit. Wir können das Gebiet für diese neue Fähigkeit wählen.\n\nWelche neue Forschungsfähigkeit soll {0} erwerben?
+
+Ghost Ship		;Geisterschiff
+Ancestors Among Us		;Vorfahren unter uns
+Ghost Ship Explanation		;Dies ist ein Geisterschiff, das nicht manuell gesteuert werden kann. Es wird nach einer Weile verschwinden.
+Ghost Troop		;Geistertruppe
+Ghost Troop Explanation		;Dies ist ein Geistertrupp, der vorübergehend erschienen ist, um sich dem Kampf anzuschließen. Er wird nach einer Weile wieder verschwinden.
+Ghost		;Ghost
+Ghost Character Dismiss Explanation		;Geisterfiguren können nicht entlassen werden
+Ghost Character Automate Explanation		;Geisterfiguren können nicht manuell gesteuert werden
+
+Character Trait Inscrutable		;Inscrutable
+Character Trait PiercingGaze		;Durchdringende Blicke
+Character Trait OtherworldlyIntellect		;Jenseitiger Intellekt
+Character Trait AncestralMemory		;Ahnengedächtnis
+
+Ghost Admiral Title		;Vorfahren unter uns
+Ghost Admiral Description		;Der intensive Stress des Kampfes im [STANDORT]{1}-System[/Standort] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]Admiral[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der Admiral ist [STANDORT]an Bord von {0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
+
+Ghost General Title		;Vorfahren unter uns
+Ghost General Description		;Der intensive Stress des Kampfes am [STANDORT]{0}[/Standort] im {1}-System hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]General[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der General befindet sich in [STANDORT]{0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
+
+Ghost Scientist Title		;Vorfahren unter uns
+Ghost Scientist Description		;Der intensive Stress unseres jüngsten kritischen Forschungsversagens hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt. Diese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]Wissenschaftler[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der Wissenschaftler befindet sich in [STANDORT]{0}[/Standort] und hilft uns jetzt, uns von diesem Rückschlag zu erholen. Wir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie uns helfen, unser Wissen zu erweitern.
+
+Imprison		;Imprison
+
+Deep Labyrinth		;Tiefes Labyrinth
+Deep Labyrinth Description		;Ein ausländischer Spion, [CHARAKTER]{0}[/CHARAKTER] vom [FACTION]{1}[/FACTION], wurde entdeckt, der gegen uns arbeitet.\n\nUnsere übersinnlichen Fähigkeiten haben es uns ermöglicht, sie abzufangen, bevor sie entkommen konnten. Jetzt müssen wir über ihr Schicksal entscheiden.\n\nWas sollen wir mit {0} tun? Sollen wir sie inhaftieren? Oder sie hinrichten?
+
+Deep Labyrinth Title Capture Foreign		;Tiefes Labyrinth - Spion in Gefangenschaft
+Deep Labyrinth Description Capture Foreign		;Unser Spion [CHARAKTER]{0}[/CHARAKTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen übersinnlichen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben jetzt [B]{0}[/B] gefangen genommen.
+Deep Labyrinth Title Execute Foreign		;Tiefes Labyrinth - Spion hingerichtet
+Deep Labyrinth Description Execute Foreign		;Unser Spion [CHARAKTER]{0}[/CHARAKTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen psychischen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben {0}[/B] nun [B]hingerichtet.
+
+Queue		;Queue
+Plus X queued missions		;+{0} Missionen in der Warteschlange
+
+Known Stars Planets Moons		;Bekannte Sterne, Planeten & Monde
+Search Known Items		;Bekannte Artikel suchen
+
+All excluding Asteroids		;Alle außer Asteroiden
+All Stars		;Alle Sterne
+All Planets		;Alle Planeten
+All Moons		;Alle Monde
+All Asteroids		;Alle Asteroiden
+Planet or Moon		;Planet oder Mond
+
+Click and type here to search for any item by name		;Klicken und tippen Sie hier, um einen beliebigen Artikel nach Namen zu suchen
+Stars Planets Moons Asteroids		;Sterne, Planeten, Monde & Asteroiden
+Ships and Bases		;Schiffe und Basen
+
+Not Completed		;Nicht fertiggestellt

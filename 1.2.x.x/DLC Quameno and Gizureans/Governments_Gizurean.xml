@@ -1,113 +1,14 @@
 <?xml version="1.0"?>
 <ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Government>
-		<GovernmentId>14</GovernmentId>
-		<Name>Zell-Hegemonie</Name>
-		<StartingGameEventNames>
-			<string>Initialise Government (Cell Hegemony)</string>
-		</StartingGameEventNames>
-		<Description>Eine Zellenhegemonie ist eine Regierungsform, bei der die Herrscher auf der Grundlage ihrer Fähigkeit ausgewählt werden, eine empathische Verbindung zu Gruppen ihrer Bürger aufzubauen. Nur wer in der Lage ist, eine solche Verbindung aufrechtzuerhalten, gilt als geeignet für die Führung.
-
-Die Gesellschaft selbst ist in viele Gruppen unterteilt, die solche begrenzten Verbindungen teilen können, die als Zellen bezeichnet werden. Diese Zellen organisieren sich selbst durch ihre Fähigkeit, empathische Bindungen untereinander zu bilden, und haben am Ende einen ähnlichen Charakter wie ein Stamm. Innerhalb ihrer Zelle sind sie in begrenztem Umfang in der Lage, Gefühle und Eindrücke von Gedanken und Erinnerungen auszutauschen. Jede Zelle wird im Allgemeinen von dem Mitglied mit der stärksten Verbindung regiert, das zum Hegemon dieser Zelle wird.
-
-Diese Hegemonen bilden dann eine größere Zelle, die Entscheidungen für die Gesellschaft trifft. Normalerweise sind die Hegemonen in der Lage, Verbindungen untereinander aufzubauen, aber nicht immer so stark wie innerhalb ihrer eigenen Zelle. Dieser Rat der Hegemonen regiert die Zellhegemonie auf der Grundlage ihres kollektiven Willens und dem der verschiedenen Zellen, der durch sie zum Ausdruck kommt.
-
-Eine Zellhegemonie ist in mancher Hinsicht eine andere Form von Schwarmintelligenz, eingeschränkter in dem, was sie teilen kann, und stärker gespalten, basiert aber immer noch auf dem Prinzip, dass diese empathischen Verbindungen die beste Grundlage für allgemeine Einheit und effektive Führung sind. In der Praxis führen die Unterschiede zwischen den Zellen und den Hegemonen zu mehr Individualismus als in einem vollständigen Schwarm-Bewußtsein, tendieren aber auch zur Oligarchie.</Description>
-		<ImageFilename />
+		<GovernmentId>14</GovernmentId> <!-- Cell Hegemony -->
 		<LeaderTitle>Oberherr</LeaderTitle>
-		<CabinetTitle>Kabinett</CabinetTitle>
-		<EconomicFactors />
-		<Biases />
-		<Bonuses>
-			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-		</Bonuses>
-
-		<CharacterTraitFactorInspiringPresence>2</CharacterTraitFactorInspiringPresence>
-		<CharacterTraitFactorDemoralizing>0.3</CharacterTraitFactorDemoralizing>
-		<LuxuryResourceConsumptionRateFactor>0.75</LuxuryResourceConsumptionRateFactor>
-		
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>5</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
-		<LeaderReplacementCharacterPool>
-		</LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
 		<Stability>1</Stability>
 		<ConcernForOwnReputation>0.4</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>0.8</ImportanceOfOthersReputations>
@@ -118,6 +19,11 @@ Eine Zellhegemonie ist in mancher Hinsicht eine andere Form von Schwarmintellige
 		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanColonize>false</CanColonize>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
 		<EmpireNameAdjectives>
 			<string>Groß</string>
 			<string>Expansiv</string>
@@ -131,6 +37,90 @@ Eine Zellhegemonie ist in mancher Hinsicht eine andere Form von Schwarmintellige
 			<string>Kollektiv</string>
 			<string>Nest</string>
 		</EmpireNameNouns>
-		<ExtraIntelligenceMissionTypes />
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Cell Hegemony)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<CharacterTraitFactorInspiringPresence>2</CharacterTraitFactorInspiringPresence>
+		<CharacterTraitFactorDemoralizing>0.3</CharacterTraitFactorDemoralizing>
+		<LuxuryResourceConsumptionRateFactor>0.75</LuxuryResourceConsumptionRateFactor>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Zell-Hegemonie</Name>
+		<Description>Eine Zellenhegemonie ist eine Regierungsform, bei der die Herrscher auf der Grundlage ihrer Fähigkeit ausgewählt werden, eine empathische Verbindung zu Gruppen ihrer Bürger aufzubauen. Nur wer in der Lage ist, eine solche Verbindung aufrechtzuerhalten, gilt als geeignet für die Führung.
+
+Die Gesellschaft selbst ist in viele Gruppen unterteilt, die solche begrenzten Verbindungen teilen können, die als Zellen bezeichnet werden. Diese Zellen organisieren sich selbst durch ihre Fähigkeit, empathische Bindungen untereinander zu bilden, und haben am Ende einen ähnlichen Charakter wie ein Stamm. Innerhalb ihrer Zelle sind sie in begrenztem Umfang in der Lage, Gefühle und Eindrücke von Gedanken und Erinnerungen auszutauschen. Jede Zelle wird im Allgemeinen von dem Mitglied mit der stärksten Verbindung regiert, das zum Hegemon dieser Zelle wird.
+
+Diese Hegemonen bilden dann eine größere Zelle, die Entscheidungen für die Gesellschaft trifft. Normalerweise sind die Hegemonen in der Lage, Verbindungen untereinander aufzubauen, aber nicht immer so stark wie innerhalb ihrer eigenen Zelle. Dieser Rat der Hegemonen regiert die Zellhegemonie auf der Grundlage ihres kollektiven Willens und dem der verschiedenen Zellen, der durch sie zum Ausdruck kommt.
+
+Eine Zellhegemonie ist in mancher Hinsicht eine andere Form von Schwarmintelligenz, eingeschränkter in dem, was sie teilen kann, und stärker gespalten, basiert aber immer noch auf dem Prinzip, dass diese empathischen Verbindungen die beste Grundlage für allgemeine Einheit und effektive Führung sind. In der Praxis führen die Unterschiede zwischen den Zellen und den Hegemonen zu mehr Individualismus als in einem vollständigen Schwarm-Bewußtsein, tendieren aber auch zur Oligarchie.</Description>
 	</Government>
 </ArrayOfGovernment>

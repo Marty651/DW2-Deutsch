@@ -6,7 +6,7 @@
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -15,7 +15,6 @@
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -28,7 +27,8 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -47,7 +47,7 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -69,7 +69,7 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -78,7 +78,6 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -93,7 +92,8 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -112,7 +112,7 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -131,7 +131,7 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Value1>1</Value1> <!-- Value to Store -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -152,10 +152,10 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 		<Name>Ancient Guardian Vault Investigations Completed (Quameno)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>823</TriggerResearchProjectId>
+		<TriggerResearchProjectId>823</TriggerResearchProjectId> <!-- Ancient Guardian Vault Investigations -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -164,7 +164,6 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -177,6 +176,8 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -196,10 +197,10 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 		<Name>Ancient Guardian Vault Research Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>823</TriggerResearchProjectId>
+		<TriggerResearchProjectId>823</TriggerResearchProjectId> <!-- Ancient Guardian Vault Investigations -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -216,7 +217,6 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -232,7 +232,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -264,7 +265,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -284,9 +286,10 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -317,7 +320,6 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -327,7 +329,7 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -336,7 +338,6 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -391,7 +392,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -433,7 +435,7 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -442,7 +444,6 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -497,7 +498,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -545,7 +547,6 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -558,6 +559,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -576,7 +579,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -603,7 +606,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>848</Id1>
+				<Id1>848</Id1> <!-- Project Id, Current Value = Ancient Guardian Civics -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -622,7 +625,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>849</Id1>
+				<Id1>849</Id1> <!-- Project Id, Current Value = Ancient Guardian Political Economy -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -642,7 +645,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<Name>Ancient Guardian Civics Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>848</TriggerResearchProjectId>
+		<TriggerResearchProjectId>848</TriggerResearchProjectId> <!-- Ancient Guardian Civics -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -651,7 +654,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -690,6 +692,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -718,7 +722,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<Name>Ancient Guardian Political Economy Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>849</TriggerResearchProjectId>
+		<TriggerResearchProjectId>849</TriggerResearchProjectId> <!-- Ancient Guardian Political Economy -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -727,7 +731,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -766,6 +769,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -802,7 +807,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -813,6 +817,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -897,7 +903,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -908,6 +913,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -926,6 +933,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -944,7 +953,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>48</Id1>
+				<Id1>48</Id1> <!-- Artifact Id, Current Value = Priorities of Governance -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -976,7 +985,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -996,9 +1006,10 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1029,7 +1040,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -1039,7 +1049,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1048,7 +1058,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1103,7 +1112,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1145,7 +1155,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1154,7 +1164,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1209,7 +1218,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1257,7 +1267,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1268,6 +1277,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1286,7 +1297,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1341,7 +1352,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1352,6 +1362,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1398,7 +1410,6 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1413,6 +1424,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1431,7 +1444,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>850</Id1>
+				<Id1>850</Id1> <!-- Project Id, Current Value = Ancient Guardian Medical Ethics -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1450,7 +1463,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>851</Id1>
+				<Id1>851</Id1> <!-- Project Id, Current Value = Ancient Guardian Medical Praxis -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1470,7 +1483,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<Name>Ancient Guardian Medical Ethics Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>850</TriggerResearchProjectId>
+		<TriggerResearchProjectId>850</TriggerResearchProjectId> <!-- Ancient Guardian Medical Ethics -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1479,7 +1492,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1518,6 +1530,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1546,7 +1560,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<Name>Ancient Guardian Medical Praxis Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>851</TriggerResearchProjectId>
+		<TriggerResearchProjectId>851</TriggerResearchProjectId> <!-- Ancient Guardian Medical Praxis -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1555,7 +1569,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1594,6 +1607,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1630,7 +1645,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1641,6 +1655,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1725,7 +1741,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1736,6 +1751,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1754,6 +1771,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1772,7 +1791,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>49</Id1>
+				<Id1>49</Id1> <!-- Artifact Id, Current Value = Zenox Fertility Treatment -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1804,7 +1823,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1824,9 +1844,10 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1857,7 +1878,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -1867,7 +1887,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1876,7 +1896,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1931,7 +1950,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1973,7 +1993,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1982,7 +2002,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2037,7 +2056,8 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2085,7 +2105,6 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2100,6 +2119,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2118,7 +2139,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2145,7 +2166,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>852</Id1>
+				<Id1>852</Id1> <!-- Project Id, Current Value = Ancient Guardian Tactics -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2164,7 +2185,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>853</Id1>
+				<Id1>853</Id1> <!-- Project Id, Current Value = Ancient Guardian Strategy -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2184,7 +2205,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<Name>Ancient Guardian Tactics Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>852</TriggerResearchProjectId>
+		<TriggerResearchProjectId>852</TriggerResearchProjectId> <!-- Ancient Guardian Tactics -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2193,7 +2214,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2232,6 +2252,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2260,7 +2282,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<Name>Ancient Guardian Strategy Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>853</TriggerResearchProjectId>
+		<TriggerResearchProjectId>853</TriggerResearchProjectId> <!-- Ancient Guardian Strategy -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2269,7 +2291,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2308,6 +2329,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2344,7 +2367,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2355,6 +2377,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2439,7 +2463,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2450,6 +2473,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2468,6 +2493,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2486,7 +2513,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>50</Id1>
+				<Id1>50</Id1> <!-- Artifact Id, Current Value = Kiraditu's Principles of Colonial Defense -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2518,7 +2545,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2538,9 +2566,10 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2571,7 +2600,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -2581,7 +2609,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2590,7 +2618,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2645,7 +2672,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2687,7 +2715,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2696,7 +2724,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2751,7 +2778,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2799,7 +2827,6 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2812,6 +2839,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2830,7 +2859,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2857,7 +2886,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>854</Id1>
+				<Id1>854</Id1> <!-- Project Id, Current Value = Ancient Guardian Leadership Theory -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2876,7 +2905,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>855</Id1>
+				<Id1>855</Id1> <!-- Project Id, Current Value = Ancient Guardian Leadership Observations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2896,7 +2925,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<Name>Ancient Guardian Leadership Theory Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>854</TriggerResearchProjectId>
+		<TriggerResearchProjectId>854</TriggerResearchProjectId> <!-- Ancient Guardian Leadership Theory -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2905,7 +2934,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2944,6 +2972,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2972,7 +3002,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<Name>Ancient Guardian Leadership Observations Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>855</TriggerResearchProjectId>
+		<TriggerResearchProjectId>855</TriggerResearchProjectId> <!-- Ancient Guardian Leadership Observations -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -2981,7 +3011,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3020,6 +3049,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3056,7 +3087,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3067,6 +3097,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3113,7 +3145,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3124,6 +3155,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3142,6 +3175,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3160,7 +3195,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>51</Id1>
+				<Id1>51</Id1> <!-- Artifact Id, Current Value = Laughter and Leadership -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3230,7 +3265,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3250,9 +3286,10 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3283,7 +3320,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -3293,7 +3329,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -3302,7 +3338,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3357,7 +3392,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3399,7 +3435,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -3408,7 +3444,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3463,7 +3498,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3511,7 +3547,6 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3528,6 +3563,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3546,7 +3583,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3573,7 +3610,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>856</Id1>
+				<Id1>856</Id1> <!-- Project Id, Current Value = Ancient Guardian Mechanical Theory -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3592,7 +3629,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>857</Id1>
+				<Id1>857</Id1> <!-- Project Id, Current Value = Ancient Guardian Hyperdrive Theory -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3612,7 +3649,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<Name>Ancient Guardian Mechanical Theory Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>856</TriggerResearchProjectId>
+		<TriggerResearchProjectId>856</TriggerResearchProjectId> <!-- Ancient Guardian Mechanical Theory -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -3621,7 +3658,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3660,6 +3696,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3688,7 +3726,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<Name>Ancient Guardian Hyperdrive Theory Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>857</TriggerResearchProjectId>
+		<TriggerResearchProjectId>857</TriggerResearchProjectId> <!-- Ancient Guardian Hyperdrive Theory -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -3697,7 +3735,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3736,6 +3773,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3772,7 +3811,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3783,6 +3821,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3867,7 +3907,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3878,6 +3917,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3896,6 +3937,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3914,7 +3957,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>52</Id1>
+				<Id1>52</Id1> <!-- Artifact Id, Current Value = Thoughtful Retreat Archives -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3946,7 +3989,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3966,9 +4010,10 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3999,7 +4044,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -4009,7 +4053,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4018,7 +4062,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4073,7 +4116,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4115,7 +4159,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4124,7 +4168,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4179,7 +4222,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4227,7 +4271,6 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4242,6 +4285,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4260,7 +4305,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4287,7 +4332,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>858</Id1>
+				<Id1>858</Id1> <!-- Project Id, Current Value = Ancient Guardian Energy Sources -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4306,7 +4351,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>859</Id1>
+				<Id1>859</Id1> <!-- Project Id, Current Value = Ancient Guardian Energy Technology -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4326,7 +4371,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<Name>Ancient Guardian Energy Sources Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>858</TriggerResearchProjectId>
+		<TriggerResearchProjectId>858</TriggerResearchProjectId> <!-- Ancient Guardian Energy Sources -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4335,7 +4380,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4374,6 +4418,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4402,7 +4448,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<Name>Ancient Guardian Energy Technology Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>859</TriggerResearchProjectId>
+		<TriggerResearchProjectId>859</TriggerResearchProjectId> <!-- Ancient Guardian Energy Technology -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4411,7 +4457,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4450,6 +4495,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4486,7 +4533,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4497,6 +4543,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4581,7 +4629,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4592,6 +4639,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4610,6 +4659,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4628,7 +4679,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>53</Id1>
+				<Id1>53</Id1> <!-- Artifact Id, Current Value = The Maditor Method -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4660,7 +4711,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4680,9 +4732,10 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4713,7 +4766,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -4723,7 +4775,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4732,7 +4784,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4787,7 +4838,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4829,7 +4881,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4838,7 +4890,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4893,7 +4944,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4941,7 +4993,6 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4958,6 +5009,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4976,7 +5029,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5003,7 +5056,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>860</Id1>
+				<Id1>860</Id1> <!-- Project Id, Current Value = Ancient Guardian Diplomatic History -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5022,7 +5075,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>861</Id1>
+				<Id1>861</Id1> <!-- Project Id, Current Value = Ancient Guardian Diplomatic Theory -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5042,7 +5095,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<Name>Ancient Guardian Diplomatic History Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>860</TriggerResearchProjectId>
+		<TriggerResearchProjectId>860</TriggerResearchProjectId> <!-- Ancient Guardian Diplomatic History -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5051,7 +5104,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5090,6 +5142,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5118,7 +5172,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<Name>Ancient Guardian Diplomatic Theory Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>861</TriggerResearchProjectId>
+		<TriggerResearchProjectId>861</TriggerResearchProjectId> <!-- Ancient Guardian Diplomatic Theory -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5127,7 +5181,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5166,6 +5219,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5202,7 +5257,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5213,6 +5267,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5297,7 +5353,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5308,6 +5363,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5326,6 +5383,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5344,7 +5403,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>54</Id1>
+				<Id1>54</Id1> <!-- Artifact Id, Current Value = Diplomacy and Other Means -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5376,7 +5435,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5396,9 +5456,10 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5429,7 +5490,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -5439,7 +5499,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5448,7 +5508,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5503,7 +5562,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5545,7 +5605,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5554,7 +5614,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5609,7 +5668,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5657,7 +5717,6 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5676,6 +5735,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5694,7 +5755,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5721,7 +5782,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>862</Id1>
+				<Id1>862</Id1> <!-- Project Id, Current Value = Ancient Guardian Defensive Tactics -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5740,7 +5801,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>863</Id1>
+				<Id1>863</Id1> <!-- Project Id, Current Value = Ancient Guardian Defensive Structures -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5760,7 +5821,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<Name>Ancient Guardian Defensive Tactics Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>862</TriggerResearchProjectId>
+		<TriggerResearchProjectId>862</TriggerResearchProjectId> <!-- Ancient Guardian Defensive Tactics -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5769,7 +5830,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5808,6 +5868,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5836,7 +5898,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<Name>Ancient Guardian Defensive Structures Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>863</TriggerResearchProjectId>
+		<TriggerResearchProjectId>863</TriggerResearchProjectId> <!-- Ancient Guardian Defensive Structures -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5845,7 +5907,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5884,6 +5945,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5920,7 +5983,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5931,6 +5993,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6015,7 +6079,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6026,6 +6089,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6044,6 +6109,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6062,7 +6129,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>55</Id1>
+				<Id1>55</Id1> <!-- Artifact Id, Current Value = Hattir's Training Manual -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6094,7 +6161,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6114,9 +6182,10 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6147,7 +6216,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -6157,7 +6225,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6166,7 +6234,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6221,7 +6288,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6263,7 +6331,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6272,7 +6340,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6327,7 +6394,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6375,7 +6443,6 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6390,6 +6457,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6408,7 +6477,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6435,7 +6504,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>864</Id1>
+				<Id1>864</Id1> <!-- Project Id, Current Value = Ancient Guardian Propulsion -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6454,7 +6523,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>865</Id1>
+				<Id1>865</Id1> <!-- Project Id, Current Value = Ancient Guardian Engineering -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6474,7 +6543,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<Name>Ancient Guardian Propulsion Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>864</TriggerResearchProjectId>
+		<TriggerResearchProjectId>864</TriggerResearchProjectId> <!-- Ancient Guardian Propulsion -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6483,7 +6552,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6522,6 +6590,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6550,7 +6620,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<Name>Ancient Guardian Engineering Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>865</TriggerResearchProjectId>
+		<TriggerResearchProjectId>865</TriggerResearchProjectId> <!-- Ancient Guardian Engineering -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6559,7 +6629,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6598,6 +6667,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6634,7 +6705,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6645,6 +6715,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6729,7 +6801,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6740,6 +6811,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6758,6 +6831,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6776,7 +6851,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>56</Id1>
+				<Id1>56</Id1> <!-- Artifact Id, Current Value = The Itimai Method -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6808,7 +6883,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6828,9 +6904,10 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>DistantEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6861,7 +6938,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -6871,7 +6947,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6880,7 +6956,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6935,7 +7010,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6977,7 +7053,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6986,7 +7062,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7041,7 +7116,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7089,7 +7165,6 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7105,6 +7180,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7123,7 +7200,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7150,7 +7227,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>866</Id1>
+				<Id1>866</Id1> <!-- Project Id, Current Value = Ancient Guardian Ship Design -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7169,7 +7246,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>867</Id1>
+				<Id1>867</Id1> <!-- Project Id, Current Value = Ancient Guardian Engine Design -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7189,7 +7266,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<Name>Ancient Guardian Ship Design Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>866</TriggerResearchProjectId>
+		<TriggerResearchProjectId>866</TriggerResearchProjectId> <!-- Ancient Guardian Ship Design -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -7198,7 +7275,6 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7237,6 +7313,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7265,7 +7343,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<Name>Ancient Guardian Engine Design Completed (Vaults)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>867</TriggerResearchProjectId>
+		<TriggerResearchProjectId>867</TriggerResearchProjectId> <!-- Ancient Guardian Engine Design -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -7274,7 +7352,6 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7313,6 +7390,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7349,7 +7428,6 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7360,6 +7438,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7444,7 +7524,6 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7455,6 +7534,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7473,6 +7554,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7491,7 +7574,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>57</Id1>
+				<Id1>57</Id1> <!-- Artifact Id, Current Value = The Jhahtu Reforms -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

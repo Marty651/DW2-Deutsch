@@ -11,16 +11,16 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
-				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>8</Amount>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>4</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId> <!-- Carbonite -->
-				<Amount>8</Amount>
+				<Amount>4</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>8</Amount>
+				<Amount>4</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -193,15 +193,7 @@
 				<Amount>4</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
 				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>2</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId> <!-- Aculon -->
 				<Amount>2</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
@@ -410,15 +402,7 @@
 				<Amount>32</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>32</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
 				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>16</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId> <!-- Aculon -->
 				<Amount>16</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
@@ -627,15 +611,7 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>8</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
 				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId> <!-- Aculon -->
 				<Amount>4</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
@@ -855,15 +831,7 @@
 				<Amount>16</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>16</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
 				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>8</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId> <!-- Aculon -->
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
@@ -957,12 +925,12 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
-				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>8</Amount>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>6</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>8</Amount>
+				<Amount>6</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>

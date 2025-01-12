@@ -6,20 +6,23 @@
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -56,6 +59,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -74,8 +79,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>252</Id1>
-				<Value1>0.5</Value1>
+				<Id1>252</Id1> <!-- Project Id (-1=Random), Current Value = Early Warp Field Experiments -->
+				<Value1>0.5</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>HyperDrive</ResearchCategory>
@@ -94,8 +99,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>414</Id1>
-				<Value1>0.25</Value1>
+				<Id1>414</Id1> <!-- Project Id (-1=Random), Current Value = Research Labs -->
+				<Value1>0.25</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>ResearchLab</ResearchCategory>
@@ -123,7 +128,6 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -132,6 +136,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -153,20 +159,22 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>GeneratePlanetarySystem</Type>
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>13</Id1>
+				<Id1>13</Id1> <!-- Orb Type Id, Current Value = Rocky Silicon -->
+				<Value1>0</Value1> <!-- Quality Level -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -186,8 +194,10 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>5</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>5</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -204,7 +214,6 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 		</PlacementActions>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -215,6 +224,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -261,7 +272,6 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -274,6 +284,8 @@ Wir glauben, dass die Alten Wächter Nicht-Quameno-Wesen waren, die versuchten, 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -320,7 +332,6 @@ Wir glauben, dass die Alten Wächter Nicht-Quameno-Wesen waren, die versuchten, 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -382,7 +393,6 @@ Eine künstliche Intelligenz hat all die Jahre irgendwie „überlebt“. Es wol
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -399,6 +409,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -417,7 +429,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.25</Value1>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0.25</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>HyperDrive</ResearchCategory>
@@ -465,7 +478,6 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -482,6 +494,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -500,7 +514,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.5</Value1>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0.5</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Reactor</ResearchCategory>
@@ -519,7 +534,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.5</Value1>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0.5</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Extractor</ResearchCategory>
@@ -561,22 +577,23 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
 				<ActionLocationHint>VeryNearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>97</Id1>
-				<Value1>1</Value1>
-				<Value2>15</Value2>
+				<Id1>97</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Guardian Vault -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>15</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -596,6 +613,7 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1> <!-- Value to Store -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -613,7 +631,6 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -627,7 +644,8 @@ Das Gewölbe ist riesig und imposant, präzise in seinem Design – nichts von d
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -715,7 +733,7 @@ Das Gewölbe ist riesig und imposant, präzise in seinem Design – nichts von d
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -724,7 +742,6 @@ Das Gewölbe ist riesig und imposant, präzise in seinem Design – nichts von d
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -739,6 +756,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -757,7 +776,7 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>823</Id1>
+				<Id1>823</Id1> <!-- Project Id, Current Value = Ancient Guardian Vault Investigations -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -776,7 +795,7 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>824</Id1>
+				<Id1>824</Id1> <!-- Project Id, Current Value = Basic Vault Systems -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -795,7 +814,7 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>825</Id1>
+				<Id1>825</Id1> <!-- Project Id, Current Value = Basic Vault Structures -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -814,7 +833,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -835,10 +855,10 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<Name>Basic Vault Systems Completed (Quameno)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>824</TriggerResearchProjectId>
+		<TriggerResearchProjectId>824</TriggerResearchProjectId> <!-- Basic Vault Systems -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -847,7 +867,6 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -886,6 +905,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -914,10 +935,10 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<Name>Basic Vault Structures Completed (Quameno)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>825</TriggerResearchProjectId>
+		<TriggerResearchProjectId>825</TriggerResearchProjectId> <!-- Basic Vault Structures -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -926,7 +947,6 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -965,6 +985,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1001,7 +1023,6 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1012,6 +1033,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1096,7 +1119,6 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1109,6 +1131,8 @@ Es gibt auch fragmentarische Hinweise auf die psychische Kriegsführung der Shak
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1155,7 +1179,6 @@ Es gibt auch fragmentarische Hinweise auf die psychische Kriegsführung der Shak
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1168,6 +1191,8 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1186,7 +1211,8 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.5</Value1>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0.5</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1205,7 +1231,7 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
+				<Id1>44</Id1> <!-- Artifact Id, Current Value = Secrets of the Builders -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1227,21 +1253,22 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>GeneratePlanetarySystem</Type>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>0.6</Value1>
+				<Id1>27</Id1> <!-- Orb Type Id, Current Value = Mangrove Forest -->
+				<Value1>0.6</Value1> <!-- Quality Level -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1261,9 +1288,10 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>98</Id1>
-				<Value1>1</Value1>
-				<Value2>15</Value2>
+				<Id1>98</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Puzzle Park -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>15</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1283,7 +1311,6 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 		</PlacementActions>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1297,7 +1324,8 @@ Unsere Vorfahren brauchten Tage oder sogar Wochen, um die Geheimnisse des Parks 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1363,7 +1391,6 @@ Unsere Vorfahren brauchten Tage oder sogar Wochen, um die Geheimnisse des Parks 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1428,7 +1455,6 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1441,6 +1467,8 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1461,6 +1489,7 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1479,7 +1508,7 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>50000</Value1>
+				<Value1>50000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1498,8 +1527,10 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>63</Id1>
-				<Id2>0</Id2>
+				<Id1>63</Id1> <!-- Colony Event Id, Current Value = Razing the Pirate Prison -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1527,7 +1558,6 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1543,6 +1573,8 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1561,8 +1593,9 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>-5</Id2>
-				<Value1>25000</Value1>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>25000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1600,8 +1633,10 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>64</Id1>
-				<Id2>0</Id2>
+				<Id1>64</Id1> <!-- Colony Event Id, Current Value = Using the Pirate Prison -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1623,7 +1658,7 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -1632,7 +1667,6 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1644,6 +1678,8 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1709,7 +1745,6 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1774,7 +1809,6 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1787,6 +1821,8 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1807,6 +1843,7 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1825,7 +1862,7 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>50000</Value1>
+				<Value1>50000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1853,7 +1890,6 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1867,6 +1903,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1885,8 +1923,9 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>-5</Id2>
-				<Value1>25000</Value1>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>25000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1927,21 +1966,23 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>25</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1962,7 +2003,6 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1973,6 +2013,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2038,7 +2080,6 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2051,6 +2092,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2097,7 +2140,6 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2110,6 +2152,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2156,7 +2200,6 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2171,6 +2214,8 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2217,7 +2262,6 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2277,7 +2321,6 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2290,6 +2333,8 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2336,7 +2381,6 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2349,6 +2393,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2367,6 +2413,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>WeaponArea</ResearchCategory>
@@ -2451,7 +2499,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2464,6 +2511,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2510,7 +2559,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2525,6 +2573,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -2543,6 +2593,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>ScannerExplorationSurvey</ResearchCategory>
@@ -2627,7 +2679,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2702,7 +2753,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2777,7 +2827,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2852,7 +2901,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -2927,7 +2975,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3002,7 +3049,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3077,7 +3123,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3152,7 +3197,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3227,7 +3271,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3268,16 +3311,15 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3288,6 +3330,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3353,7 +3397,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3366,6 +3409,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3412,7 +3457,6 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3425,6 +3469,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3471,7 +3517,6 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3484,6 +3529,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3530,7 +3577,6 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3590,7 +3636,6 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3603,6 +3648,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3649,7 +3696,6 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3662,6 +3708,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3680,6 +3728,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>WeaponArea</ResearchCategory>
@@ -3707,7 +3757,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3720,6 +3769,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3766,7 +3817,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3777,6 +3827,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3795,6 +3847,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>ScannerExplorationSurvey</ResearchCategory>
@@ -3816,22 +3870,23 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>GeneratePirateFaction</Type>
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
-				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Id1>0</Id1> <!-- Race Id, Current Value = Human -->
+				<Id2>1</Id2> <!-- 1=Dormant Faction -->
+				<Value1>3</Value1> <!-- Tech Level -->
+				<Value2>0</Value2> <!-- Amount Of Ships -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3868,7 +3923,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3879,6 +3933,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3925,7 +3981,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -3938,6 +3993,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3984,7 +4041,6 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4046,7 +4102,6 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4057,6 +4112,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4075,8 +4132,9 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>-5</Id2>
-				<Value1>30000</Value1>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>30000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4097,6 +4155,7 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Puzzler Disciples Hideout</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- 1=Despawn -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4143,7 +4202,6 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4154,6 +4212,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4172,8 +4232,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
-				<Value1>5000</Value1>
+				<Id1>0</Id1> <!-- Resource Id, Current Value = Emeros Crystal -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4192,8 +4252,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>1</Id1>
-				<Value1>5000</Value1>
+				<Id1>1</Id1> <!-- Resource Id, Current Value = Nekros Stone -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4212,8 +4272,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>4</Id1>
-				<Value1>5000</Value1>
+				<Id1>4</Id1> <!-- Resource Id, Current Value = Argon -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4232,8 +4292,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>5</Id1>
-				<Value1>5000</Value1>
+				<Id1>5</Id1> <!-- Resource Id, Current Value = Krypton -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4252,8 +4312,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>5000</Value1>
+				<Id1>7</Id1> <!-- Resource Id, Current Value = Silicon -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4272,8 +4332,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>8</Id1>
-				<Value1>5000</Value1>
+				<Id1>8</Id1> <!-- Resource Id, Current Value = Steel -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4292,8 +4352,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>9</Id1>
-				<Value1>5000</Value1>
+				<Id1>9</Id1> <!-- Resource Id, Current Value = Mebnar -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4312,8 +4372,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>10</Id1>
-				<Value1>5000</Value1>
+				<Id1>10</Id1> <!-- Resource Id, Current Value = Aculon -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4332,8 +4392,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>11</Id1>
-				<Value1>5000</Value1>
+				<Id1>11</Id1> <!-- Resource Id, Current Value = Cuprica -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4352,8 +4412,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>5000</Value1>
+				<Id1>12</Id1> <!-- Resource Id, Current Value = Polymer -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4372,8 +4432,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>13</Id1>
-				<Value1>5000</Value1>
+				<Id1>13</Id1> <!-- Resource Id, Current Value = Carbonite -->
+				<Value1>5000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4401,7 +4461,6 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4412,6 +4471,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4430,8 +4491,9 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>-5</Id2>
-				<Value1>5000</Value1>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>5000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4450,7 +4512,7 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>826</Id1>
+				<Id1>826</Id1> <!-- Project Id, Current Value = Puzzle Pirate Culture Research -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4489,10 +4551,10 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 		<Name>Conversion Outcome (Quameno)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>826</TriggerResearchProjectId>
+		<TriggerResearchProjectId>826</TriggerResearchProjectId> <!-- Puzzle Pirate Culture Research -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4501,7 +4563,6 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4514,6 +4575,8 @@ Ihr Wissen über die Galaxie ist im Vergleich zu unserem nicht beeindruckend, ab
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4534,6 +4597,7 @@ Ihr Wissen über die Galaxie ist im Vergleich zu unserem nicht beeindruckend, ab
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Puzzler Disciples Hideout</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- New Race Id (-1=Triggering Empire, -2=Location Empire, -3=New Independent Empire, -4=New Dormant Pirate Faction, -5=Beserk AI, -6=Existing Dormant Pirate Faction) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4575,22 +4639,23 @@ Ihr Wissen über die Galaxie ist im Vergleich zu unserem nicht beeindruckend, ab
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>107</Id1>
-				<Value1>1</Value1>
-				<Value2>35</Value2>
+				<Id1>107</Id1> <!-- Facility Id (-1=Ruins), Current Value = Crashed Shakturi Ship -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>35</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4611,7 +4676,6 @@ Ihr Wissen über die Galaxie ist im Vergleich zu unserem nicht beeindruckend, ab
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4673,7 +4737,6 @@ Wir entdecken auch Anzeichen von Lebewesen im Schiff. Sicherlich kann es nach al
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4691,6 +4754,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4709,7 +4774,7 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>60000</Value1>
+				<Value1>60000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4756,7 +4821,6 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4773,7 +4837,7 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>827</Id1>
+				<Id1>827</Id1> <!-- Project Id, Current Value = Shakturi Design and Behaviour -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4822,7 +4886,6 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4831,6 +4894,7 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1> <!-- Value to Store -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4850,7 +4914,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4870,7 +4935,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4890,7 +4956,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4949,10 +5016,10 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 		<Name>Complete Shakturi Design and Behavior (Quameno)</Name>
 		<TriggerType>ResearchBreakthrough</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerResearchProjectId>827</TriggerResearchProjectId>
+		<TriggerResearchProjectId>827</TriggerResearchProjectId> <!-- Shakturi Design and Behaviour -->
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -4961,7 +5028,6 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -4970,7 +5036,7 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
+				<Value1>1</Value1> <!-- Value to Store -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4990,7 +5056,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5010,7 +5077,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5030,7 +5098,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5097,7 +5166,6 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5109,6 +5177,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5269,7 +5339,6 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5285,6 +5354,8 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5445,7 +5516,6 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5461,6 +5531,8 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5621,7 +5693,6 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5641,6 +5712,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5659,7 +5732,7 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>43</Id1>
+				<Id1>43</Id1> <!-- Artifact Id, Current Value = Unveiling Crystal -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5707,7 +5780,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5721,6 +5793,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5748,7 +5822,6 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5760,6 +5833,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5787,7 +5862,6 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5799,6 +5873,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5820,7 +5896,7 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -5829,7 +5905,6 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5890,7 +5965,6 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5906,6 +5980,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5924,7 +6000,7 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>60000</Value1>
+				<Value1>60000</Value1> <!-- Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5952,7 +6028,6 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -5983,6 +6058,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6001,7 +6078,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6021,7 +6099,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6041,7 +6120,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>100</Value2>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6126,7 +6206,6 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6140,6 +6219,8 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6223,7 +6304,6 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6239,6 +6319,8 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6322,25 +6404,26 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Abgestürztes Shakturi-Schiff</MessageTitle>
-				<Description>Das Erkundungsteam hat sich auf den Weg zur zentralen Lagerkammer des Shakturi-Schiffes gemacht, einem riesigen Raum, der Tausende von Behältern mit Nährpaste enthält. Wir haben auch herausgefunden, wer es gegessen hat.
+				<Description>Das Erkundungsteam hat sich auf den Weg zur zentralen Lagerkammer des Shakturi-Schiffes gemacht, einem riesigen Raum mit Tausenden von Behältern mit Nährpaste. Wir haben auch herausgefunden, wer es gegessen hat.
 
 Es gibt eine kleine Population von Gizureanern, die aus uns unklaren Gründen auf animalisches Verhalten reduziert wurden. Sie zeigen keine Anzeichen dafür, dass sie über einfache Laute und Gesten hinaus in der Lage sind, Sprache zu verstehen oder miteinander zu kommunizieren. Nach unserer besten Schätzung sind sie nicht mehr als höhere Tiere.
 
 Unsere Wissenschaftler vermuten, dass das Ende des Shakturi-Krieges eine Art „psychische Explosion“ ausgelöst haben könnte, die diese Bewohner von Gizure zu intelligentem Denken unfähig machte. Wir können nur vermuten, warum dieser Zustand von den Eltern an die Kinder weitergegeben wird.
-Wir haben ein uraltes Shakturi-Artefakt entdeckt, einen Kristall, der scheinbar von psychischer Energie durchdrungen ist. Wir können seinen ursprünglichen Zweck nicht erraten, aber wir glauben, dass es unsere Fähigkeit, das Universum zu erkunden und uns auf neuen Welten zu etablieren, erweitern kann.
+Wir haben ein uraltes Shakturi-Artefakt entdeckt, einen Kristall, der scheinbar von psychischer Energie erfüllt ist. Wir können seinen ursprünglichen Zweck nicht erraten, aber wir glauben, dass es unsere Fähigkeit, das Universum zu erkunden und uns auf neuen Welten zu etablieren, erweitern kann.
 
-Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unserer Meinung nach verdeckten Angriff markiert ist. Es könnte eine Untersuchung wert sein.</Description>
+Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unserer Meinung nach verdeckten Angriff markiert ist. Es kann sich lohnen, dies zu untersuchen.</Description>
 				<ImageFilepath>Environment/Events/ship-crash</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6359,7 +6442,7 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>43</Id1>
+				<Id1>43</Id1> <!-- Artifact Id, Current Value = Unveiling Crystal -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6407,7 +6490,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6419,6 +6501,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6446,7 +6530,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6458,6 +6541,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6485,7 +6570,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6497,6 +6581,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6521,15 +6607,16 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>GeneratePlanetarySystem</Type>
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>0.5</Value1>
+				<Id1>12</Id1> <!-- Orb Type Id, Current Value = Volcanic -->
+				<Value1>0.5</Value1> <!-- Quality Level -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6548,8 +6635,9 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>GeneratedItemFromFirstActionSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>19</Id1>
-				<Value1>0.45</Value1>
+				<Id1>19</Id1> <!-- Orb Type Id, Current Value = Rocky Desert -->
+				<Value1>0.45</Value1> <!-- Quality Level -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6568,8 +6656,10 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>40</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>40</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6593,8 +6683,10 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>45</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>45</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6615,7 +6707,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		</PlacementActions>
 		<PlacementActionEventHostIndex>2</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -6625,7 +6716,7 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -6634,7 +6725,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6645,6 +6735,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6691,7 +6783,6 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6755,7 +6846,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6766,6 +6856,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6784,6 +6876,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -6802,7 +6896,10 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>65</Id1>
+				<Id1>65</Id1> <!-- Colony Event Id, Current Value = Destroyed the Cybernetic Brain -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6830,7 +6927,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6841,6 +6937,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6887,7 +6985,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -6898,6 +6995,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -6916,6 +7015,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -6963,7 +7064,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7025,7 +7125,6 @@ Im Laufe der Jahrhunderte scheint das künstliche Bewusstsein immer ausgefeilter
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7036,6 +7135,8 @@ Im Laufe der Jahrhunderte scheint das künstliche Bewusstsein immer ausgefeilter
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7102,7 +7203,6 @@ Im Laufe der Jahrhunderte scheint das künstliche Bewusstsein immer ausgefeilter
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7115,6 +7215,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7161,7 +7263,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7172,6 +7273,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7190,6 +7293,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7208,6 +7313,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7249,7 +7356,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -7258,7 +7365,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7269,6 +7375,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7315,7 +7423,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7337,7 +7444,7 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<ChoiceButtonText>Computer zerstören</ChoiceButtonText>
-				<GeneratedItemName>Destroy Computer Choice (Quameno)</GeneratedItemName>
+				<GeneratedItemName>Destroy Computer Choice (Non Quameno)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -7379,7 +7486,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7390,6 +7496,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7408,6 +7516,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7435,7 +7545,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7446,6 +7555,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7492,7 +7603,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7503,6 +7613,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7521,6 +7633,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7568,7 +7682,6 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7632,7 +7745,6 @@ Dies ist wahrscheinlich eine leere Drohung, aber wir wissen so wenig über die S
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7643,6 +7755,8 @@ Dies ist wahrscheinlich eine leere Drohung, aber wir wissen so wenig über die S
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7709,7 +7823,6 @@ Dies ist wahrscheinlich eine leere Drohung, aber wir wissen so wenig über die S
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7722,6 +7835,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7768,7 +7883,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7779,6 +7893,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7797,6 +7913,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7815,6 +7933,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>MedicalCenter</ResearchCategory>
@@ -7862,7 +7982,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -7873,6 +7992,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7891,7 +8012,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>TriggeringItem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>41</Id1>
+				<Id1>41</Id1> <!-- Artifact Id, Current Value = Ancient Guardian Development Drone -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7913,20 +8034,22 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
+		<PlacementRaceId>15</PlacementRaceId> <!-- Quameno -->
 		<PlacementActions>
 			<GameEventAction>
 				<Type>GenerateStar</Type>
 				<ActionLocationHint>MediumEmptyCoordinates</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
+				<Id1>0</Id1> <!-- Orb Type Id, Current Value = Main Sequence -->
+				<Value1>0</Value1> <!-- Quality Level -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7945,9 +8068,9 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>0.3</Value1>
-				<Value2>5500</Value2>
+				<Id1>27</Id1> <!-- Orb Type Id, Current Value = Mangrove Forest -->
+				<Value1>0.3</Value1> <!-- Quality Level -->
+				<Value2>5500</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7970,9 +8093,9 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>0.29</Value1>
-				<Value2>5110</Value2>
+				<Id1>27</Id1> <!-- Orb Type Id, Current Value = Mangrove Forest -->
+				<Value1>0.29</Value1> <!-- Quality Level -->
+				<Value2>5110</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -7992,9 +8115,9 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>0.28</Value1>
-				<Value2>5350</Value2>
+				<Id1>27</Id1> <!-- Orb Type Id, Current Value = Mangrove Forest -->
+				<Value1>0.28</Value1> <!-- Quality Level -->
+				<Value2>5350</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8014,10 +8137,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>5</Id1>
-				<Id2>10000000</Id2>
-				<Value1>10</Value1>
-				<Value2>0.55</Value2>
+				<Id1>5</Id1> <!-- Location Effect Group Id: 2=Galactic Storm, 3=Ion Storm, 4=Radiation Zone, 5=Gravity Storm -->
+				<Id2>10000000</Id2> <!-- Nebula Radius -->
+				<Value1>10</Value1> <!-- Nebula Permeability (1 to 1000) -->
+				<Value2>0.55</Value2> <!-- Edge Proximity Ratio (0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8036,8 +8159,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>15</Value1>
+				<Id1>2</Id1> <!-- Creature Id, Current Value = Gravillex (White Dwarf) -->
+				<Value1>15</Value1> <!-- Creature Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8056,8 +8179,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1>
-				<Value1>5</Value1>
+				<Id1>0</Id1> <!-- Creature Id, Current Value = Vordikar -->
+				<Value1>5</Value1> <!-- Creature Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8074,7 +8197,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8085,6 +8207,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8106,7 +8230,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8115,7 +8239,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8126,6 +8249,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8147,7 +8272,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8162,9 +8287,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Osamu</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>99</Id1>
-				<Value1>1</Value1>
-				<Value2>45</Value2>
+				<Id1>99</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Quameno Research Base -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>45</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8185,7 +8311,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -8195,7 +8320,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8204,7 +8329,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8215,6 +8339,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8267,8 +8393,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Aleister</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>45</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>45</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8289,7 +8417,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -8299,7 +8426,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8308,7 +8435,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8319,7 +8445,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>50</Value2>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8340,9 +8467,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Aleister</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>35</Id1>
-				<Value1>1</Value1>
-				<Value2>50</Value2>
+				<Id1>35</Id1> <!-- Facility Id (-1=Ruins), Current Value = Galactic Command Center -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>50</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8383,7 +8511,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8392,7 +8520,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8403,7 +8530,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>50</Value2>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8444,7 +8572,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8453,7 +8581,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8464,7 +8591,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>50</Value2>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8485,9 +8613,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Aleister</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>35</Id1>
-				<Value1>1</Value1>
-				<Value2>50</Value2>
+				<Id1>35</Id1> <!-- Facility Id (-1=Ruins), Current Value = Galactic Command Center -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>50</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8528,7 +8657,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8543,8 +8672,10 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Kaivalya</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Value1>1</Value1>
-				<Value2>50</Value2>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>50</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8565,7 +8696,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		</PlacementActions>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
@@ -8575,7 +8705,7 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8584,7 +8714,6 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8599,6 +8728,8 @@ Wir haben die Antworten früh genug erfahren. Eine Welt nach der anderen fiel de
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8664,7 +8795,6 @@ Wir haben die Antworten früh genug erfahren. Eine Welt nach der anderen fiel de
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8679,6 +8809,8 @@ Unser Volk war uneinig darüber, ob es sich den Alten Wächtern anschließen sol
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8725,7 +8857,6 @@ Unser Volk war uneinig darüber, ob es sich den Alten Wächtern anschließen sol
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8738,6 +8869,8 @@ Wir stellen fest, dass wir jetzt mehr Fragen als Antworten haben. Woher wussten 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8756,7 +8889,7 @@ Wir stellen fest, dass wir jetzt mehr Fragen als Antworten haben. Woher wussten 
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>42</Id1>
+				<Id1>42</Id1> <!-- Artifact Id, Current Value = World Improvement Plan X-1084-W -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8778,7 +8911,7 @@ Wir stellen fest, dass wir jetzt mehr Fragen als Antworten haben. Woher wussten 
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
-			<short>15</short>
+			<short>15</short> <!-- Quameno -->
 		</NonTriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
@@ -8787,7 +8920,6 @@ Wir stellen fest, dass wir jetzt mehr Fragen als Antworten haben. Woher wussten 
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8800,7 +8932,8 @@ Als die Shakturi ihren Angriff auf diese Galaxie begannen, beschlossen die Quame
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value2>50</Value2>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8866,7 +8999,6 @@ Als die Shakturi ihren Angriff auf diese Galaxie begannen, beschlossen die Quame
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8881,6 +9013,8 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8927,7 +9061,6 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8938,6 +9071,8 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8956,7 +9091,7 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>42</Id1>
+				<Id1>42</Id1> <!-- Artifact Id, Current Value = World Improvement Plan X-1084-W -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -8984,7 +9119,6 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -8993,7 +9127,9 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>1</Id2>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>1</Id2> <!-- Set Skill To: 0=Unknown,1=Known -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Leader</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -9012,6 +9148,9 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Leader</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -9030,7 +9169,9 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id2>1</Id2>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>1</Id2> <!-- Set Skill To: 0=Unknown,1=Known -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Scientist</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -9049,6 +9190,9 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-1</Id2> <!-- Integer Value of Trait (0 to 255, -1=Random Positive Trait, 256=Random Negative Trait) -->
+				<Id3>-1</Id3> <!-- If Unable to Target an Empire then -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Scientist</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

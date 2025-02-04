@@ -3925,7 +3925,6 @@ Character Trait Description Energetic		;{0} Erhöhung aller vorhandenen Fähigke
 Character Trait Description Lazy		;{0} Verringerung aller vorhandenen Fähigkeiten
 Character Trait Description Drunk		;{0} Verringerung aller vorhandenen Fähigkeiten
 Character Trait Description GoodAdministrator Scientist		;{0} Senkung der Blitz-Forschungskosten
-Character Trait Description AncestralMemory		;Erhöht die Chance auf einen kritischen Forschungserfolg
 
 Character Trait Description Slaver		;{0} Kolonieeinkommen aus Sklaverei
 
@@ -6017,6 +6016,8 @@ ComponentFocusReactor		;Reaktor-Fokus
 PolicyExplanation ComponentFocusReactor		;Legt den Schwerpunkt bei der Auswahl von Reaktor-Forschungsprojekten und Reaktor-Komponenten für Schiffskonstruktionen fest. Für einen ausgewogenen Fokus wählen Sie „Neutral“.
 ComponentFocusShield		;Schild-Fokus
 PolicyExplanation ComponentFocusShield		;Legt den Fokus bei der Auswahl von Schild-Forschungsprojekten und Schild-Komponenten auf Schiffskonstruktionen fest. Für einen ausgewogenen Fokus wählen Sie „Neutral“.
+ShieldEnhancementLevel		;Priorität der Schildverstärkung
+PolicyExplanation ShieldEnhancementLevel		;Prioritätsstufe für Schildverstärkungskomponenten. Höhere Priorität bedeutet, dass mehr Schildverstärkungskomponenten verwendet werden. Sie können die Verwendung von Schildverstärkungskomponenten bei Ihren Schiffsdesigns verhindern, indem Sie dies auf „Nicht verwenden“ setzen.
 ComponentFocusHyperdrive		;Hyperantrieb-Fokus
 PolicyExplanation ComponentFocusHyperdrive		;Legt den Schwerpunkt bei der Auswahl von Hyperantrieb-Forschungsprojekten und Hyperantrieb-Komponenten für Schiffskonstruktionen fest. Für einen ausgewogenen Fokus wählen Sie „Neutral“.
 ComponentFocusEngine		;Triebwerk-Fokus
@@ -6851,6 +6852,7 @@ Direction Doubt Description		;Einige unserer Leute bezweifeln die Richtigkeit un
 
 Rapid Unscheduled Disassembly		;Schnelle außerplanmäßige Demontage
 Rapid Unscheduled Disassembly Description		;Die Atuuk-Technik schlägt wieder zu! Eines unserer Schiffe, die {0} {1}, ist plötzlich explodiert. Alle an Bord wurden getötet.\n\n Wir sollten unsere Schiffe wahrscheinlich robuster bauen. Aber das dauert zu lange und ist nicht die Art der Atuuk.
+Rapid Unscheduled Disassembly Description Damage		;Die Atuuk-Technik schlägt wieder zu! Eines unserer Schiffe, die {0} {1}, wurde bei einer Explosion [B]schwer beschädigt[/B]. Das Schiff hat überlebt, muss aber repariert werden.\n\nWir sollten unsere Schiffe wahrscheinlich robuster bauen. Aber das dauert zu lange und ist nicht die Art der Atuuk.
 
 What Does This Button Do		;Was bewirkt diese Taste?
 What Does This Button Do Description		;Unser jüngster kritischer Forschungserfolg hat einen bisher unbemerkten großen roten Knopf entdeckt. Wir können uns nicht erinnern, wofür dieser Knopf da ist, aber er winkt uns einladend zu. Alle Entscheidungen sind mit Risiken verbunden, und wenn wir diesen Knopf drücken, ist es wahrscheinlich genauso. Aber was ist das Leben ohne Aufregung?\n\nSollen wir den Knopf drücken? Oder nicht?
@@ -6859,7 +6861,12 @@ Don't Push the Button		;Drücken Sie nicht auf den Knopf
 
 WhatDoesThisButtonDo Scientist Methodical Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]Methodisch[/CHARACTER] erworben. Dadurch wird es unwahrscheinlicher, dass sie kritische Forschungserfolge oder Misserfolge melden.\n\n Leider scheinen wir irgendwie auch [SCHLECHT]unser Reichsglück[/SCHLECHT] negativ beeinflusst zu haben. Man kann nie wissen, was diese Knöpfe bewirken...
 
-WhatDoesThisButtonDo Scientist Creative Description		;Einer unserer Wissenschaftler, [CHARAKTER]{0}[/CHARAKTER], hat die Eigenschaft [CHARAKTER]Kreativ[/CHARAKTER] erhalten. Dadurch wird es wahrscheinlicher, dass sie kritische Forschungserfolge oder -misserfolge liefern.\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo No Scientist Description		;Leider scheinen wir irgendwie [BAD]das Glück unseres Imperiums negativ beeinflusst zu haben[/BAD]. Man kann nie wissen, was diese Knöpfe bewirken ...
+
+WhatDoesThisButtonDo Scientist Trait Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]{1}[/CHARACTER] ({2}) erworben.\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo Scientist Trait Description No Explanation		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]{1}[/CHARACTER] erworben.\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo New Scientist Beschreibung ;Ein neuer [CHARACTER]{0}[/CHARACTER] namens [CHARACTER]{1}[/CHARACTER] ist am [LOCATION]{2}[/LOCATION] aufgetaucht!\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo Research Bonus Description		;Wir haben einen langfristigen Forschungsbonus ausgelöst! In den nächsten 5 Jahren wird unser Imperium einen [BONUS]+20 % Bonus auf {0}[/BONUS] genießen.\n\nWir sind froh, dass wir den Knopf gedrückt haben
 WhatDoesThisButtonDo Boost Research Project Description		;Wir haben bei dem Forschungsprojekt [RESEARCH]{0}[/RESEARCH] schnelle Fortschritte gemacht.
 WhatDoesThisButtonDo Research Station Explodes Description		;Eine Katastrophe! [HL]{0}[/HL] ist explodiert und hat alle an Bord getötet.\n\n Wir sollten diese Tasten wirklich beschriften...
 
@@ -6876,6 +6883,8 @@ Character Trait Prosperous		;Wohlhabend
 Character Trait FirstOfMany		;Der Erste von Vielen
 Character Trait GreatOne		;Großartig
 Character Trait NotGreatOne		;Nicht der Große
+
+Character Trait Description GreatPotential		;Verbessert vorhandene Fähigkeiten und macht den Charakter für zukünftige Führungspositionen geeignet
 
 Home System Critical Resources		;Home System Kritische Ressourcen
 Home System Critical Resources Explanation		;Ob ein Vorrat an kritischen Bauressourcen in Ihrem Heimatsystem sichergestellt werden soll.\n\Normalerweise fehlen in den meisten Heimatsystemen einige wichtige Bauressourcen, es sei denn, sie werden beim Spielstart speziell platziert.\n\Sie können auswählen, ob diese Heimatsystem-Ressourcen garantiert werden und ob dies für alle Spielstarts oder nur für PreWarp-Starts gilt.
@@ -6905,6 +6914,8 @@ Character Trait Inscrutable		;Unergründlich
 Character Trait PiercingGaze		;Durchdringende Blicke
 Character Trait OtherworldlyIntellect		;Jenseitiger Intellekt
 Character Trait AncestralMemory		;Ahnengedächtnis
+
+Character Trait Description AncestralMemory		;Erhöht die Chance auf einen kritischen Forschungserfolg
 
 Ghost Admiral Title		;Vorfahren unter uns
 Ghost Admiral Description		;Der intensive Stress des Kampfes im [STANDORT]{1}-System[/Standort] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]Admiral[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der Admiral ist [STANDORT]an Bord von {0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
@@ -6943,3 +6954,13 @@ Stars Planets Moons Asteroids		;Sterne, Planeten, Monde & Asteroiden
 Ships and Bases		;Schiffe und Basen
 
 Not Completed		;Nicht fertiggestellt
+
+Leader Change		;Führungswechsel
+Leader Change Uses Great Direction Explanation RACE		;Die Rasse {0} verwendet die Große Richtung und den Großen Einen für regelmäßige Anführerwechsel. Weitere Einzelheiten findet Ihr in der Rassenbeschreibung.
+
+Character Mission Ancestors Among Us Avoid Capture		;Unser Spion wäre mit ziemlicher Sicherheit gefangen genommen worden, aber im letzten Moment erschien ein [CHARACTER]Geisterspion[/CHARACTER] aus vergangener Zeit und warnte unseren Spion, zu fliehen.\n\nOffenbar hat der enorme Stress der Mission eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt, wodurch diese sich tatsächlich in unserer Dimension in Form des Geisterspions manifestierten.
+
+EmpireMigrationFactor		;Einwanderungsschub für das Imperium
+
+Psychic Resistance		;Psychischer Widerstand
+Psychic Resistance Explanation		;Psychischer Widerstand verringert die Auswirkungen von Angriffen mit psychischen Waffen auf Ihre Schiffe und Stützpunkte. Er verringert auch die Wahrscheinlichkeit von Überläufern psychischer Truppen im Bodenkampf. Außerdem werden Aufklärungsmissionen gegen Ihr Imperium dadurch schwieriger.

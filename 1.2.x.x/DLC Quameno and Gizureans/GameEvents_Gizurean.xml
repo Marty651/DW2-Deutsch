@@ -9,7 +9,6 @@
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -80,7 +79,6 @@ Sollten wir „Die Säuberung“ in unserer neuen Kolonie {0} einführen?</Descr
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -599,6 +597,44 @@ Was sind diese Dinge? Warum haben wir das Gefühl, dass wir die Antwort wissen s
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
+		<Name>Initialize Variables (Gizurean)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>11</PlacementRaceId> <!-- Gizurean -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>SetGlobalVariableRandomRange</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>CrashedGizureanShipOdds</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</PlacementActions>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+	</GameEvent>
+	<GameEvent>
 		<Name>Home Ruin Generation (Gizurean)</Name>
 		<TriggerType>Investigate</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
@@ -735,7 +771,7 @@ Das Geheimnis unserer früheren Natur liegt möglicherweise da draußen, zwische
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.45</Value1> <!-- Quality Level -->
+				<Value1>0.45</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -857,7 +893,6 @@ Sollten wir diese Kreaturen und ihre Vielleicht-Maschinen studieren, bevor wir s
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -920,7 +955,6 @@ Wir haben die Welt für alles Wertvolle verwüstet. Es hat uns Spaß gemacht.</D
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1036,7 +1070,7 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.5</Value1> <!-- Quality Level -->
+				<Value1>0.5</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1151,7 +1185,6 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1211,7 +1244,6 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -1270,7 +1302,6 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1361,7 +1392,6 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1423,7 +1453,6 @@ Um uns zu trösten, beanspruchten wir eure Forschungsbasis und nutzten sie, um u
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1487,7 +1516,6 @@ Um uns zu trösten, beanspruchten wir eure Forschungsbasis und nutzten sie, um u
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1547,7 +1575,6 @@ Dennoch gibt es vieles, was wir nicht wissen, z.B. wer wir vor der 'Großen Kata
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -1610,7 +1637,6 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1676,7 +1702,6 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1755,7 +1780,6 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1813,7 +1837,6 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2016,7 +2039,7 @@ Niemand arbeitet gerne mit diesem Wissenschaftler zusammen. Trotzdem ist er sehr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.25</Value1> <!-- Quality Level -->
+				<Value1>0.25</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2117,7 +2140,6 @@ Vernichten wir diese geminderten Bewohner Gizureas und nehmen wir ihre erstreben
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2176,7 +2198,6 @@ Vernichten wir diese geminderten Bewohner Gizureas und nehmen wir ihre erstreben
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2239,7 +2260,6 @@ Unsere Wissenschaftler, die sicherlich die besten in der Galaxis sind, glauben, 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2298,7 +2318,6 @@ Unsere Wissenschaftler, die sicherlich die besten in der Galaxis sind, glauben, 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2359,7 +2378,6 @@ Vielleicht ist eine umgewandelte Bevölkerung für uns von Nutzen. Oder wir kön
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2398,7 +2416,6 @@ Vielleicht ist eine umgewandelte Bevölkerung für uns von Nutzen. Oder wir kön
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2434,7 +2451,6 @@ Vielleicht ist eine umgewandelte Bevölkerung für uns von Nutzen. Oder wir kön
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2474,7 +2490,6 @@ Vielleicht ist eine umgewandelte Bevölkerung für uns von Nutzen. Oder wir kön
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2608,7 +2623,6 @@ Eine Unterschicht aus unterdrückten, einfachen Arbeitern wird uns noch stärker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2725,7 +2739,7 @@ Eine Unterschicht aus unterdrückten, einfachen Arbeitern wird uns noch stärker
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>13</Id1> <!-- Orb Type Id, Current Value = Rocky Silicon -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2824,7 +2838,6 @@ Eine Unterschicht aus unterdrückten, einfachen Arbeitern wird uns noch stärker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3123,7 +3136,6 @@ Kein Bedauern!</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3184,7 +3196,6 @@ Die Wissenschaftler begannen, schrille, widersprüchliche und unsinnige Botschaf
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3528,7 +3539,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3549,27 +3559,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>SetGlobalVariableRandomRange</Type>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0</Value1> <!-- Minimum Value -->
-				<Value2>100</Value2> <!-- Maximum Value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>CrashedGizureanShipOdds</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -3626,7 +3615,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3699,7 +3687,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3783,7 +3770,6 @@ Auf der Heimatwelt kommt es nun zu einem Ausbruch, und die Krankheit droht sich 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3868,7 +3854,6 @@ Wir werden uns auf positive Dinge konzentrieren. Durch die Untersuchung des Schi
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3952,7 +3937,6 @@ Die Toten werden bald ersetzt, und so haben wir nichts verloren.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4011,7 +3995,6 @@ Die Toten werden bald ersetzt, und so haben wir nichts verloren.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4310,7 +4293,6 @@ Kein Bedauern!</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4371,7 +4353,6 @@ Die Wissenschaftler begannen, schrille, widersprüchliche und unsinnige Botschaf
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4713,7 +4694,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4734,27 +4714,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>SetGlobalVariableRandomRange</Type>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0</Value1> <!-- Minimum Value -->
-				<Value2>100</Value2> <!-- Maximum Value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>CrashedGizureanShipOdds</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -4811,7 +4770,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4884,7 +4842,6 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4966,7 +4923,6 @@ Auf der Heimatwelt kommt es nun zu einem Ausbruch, und die Krankheit droht sich 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5051,7 +5007,6 @@ Durch die Untersuchung des Schiffes haben wir jedoch viel über die uralte gizur
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5141,7 +5096,7 @@ Durch die Untersuchung des Schiffes haben wir jedoch viel über die uralte gizur
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.64</Value1> <!-- Quality Level -->
+				<Value1>0.64</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5262,7 +5217,6 @@ Vielleicht sollten wir mehr herausfinden, obwohl es vielleicht besser ist, es ni
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5561,7 +5515,6 @@ Und das ist uns egal, denn wir haben durch die Demontage von allem, was wir find
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5622,7 +5575,6 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5700,7 +5652,6 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5797,7 +5748,6 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5918,7 +5868,6 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5979,7 +5928,6 @@ Vielleicht sollten wir mehr herausfinden, obwohl wir die Überreste der Kolonie 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6276,7 +6224,6 @@ Vielleicht sollten wir mehr herausfinden, obwohl wir die Überreste der Kolonie 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6366,7 +6313,7 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>8</Id1> <!-- Orb Type Id, Current Value = Marshy Swamp -->
-				<Value1>0.65</Value1> <!-- Quality Level -->
+				<Value1>0.65</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6494,9 +6441,9 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>GreaterThanOrEqual</ComparisonType>
-						<ComparisonValue>1</ComparisonValue>
+						<ComparisonValue>1</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6521,9 +6468,9 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>LessThan</ComparisonType>
-						<ComparisonValue>1</ComparisonValue>
+						<ComparisonValue>1</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6543,7 +6490,6 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6603,7 +6549,6 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6662,7 +6607,6 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6728,7 +6672,6 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6805,7 +6748,6 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6911,7 +6853,6 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6969,7 +6910,6 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7276,7 +7216,6 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7372,7 +7311,6 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7408,7 +7346,6 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7470,7 +7407,6 @@ Wenn wir lernen könnten, so miteinander verbunden zu sein, wie sie sind, könnt
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7552,7 +7488,6 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7699,7 +7634,6 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7795,7 +7729,6 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7831,7 +7764,6 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7921,7 +7853,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>0</Id1> <!-- Orb Type Id, Current Value = Main Sequence -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7942,7 +7874,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.1</Value1> <!-- Quality Level -->
+				<Value1>0.1</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>5876</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7967,7 +7899,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>19</Id1> <!-- Orb Type Id, Current Value = Rocky Desert -->
-				<Value1>0.2</Value1> <!-- Quality Level -->
+				<Value1>0.2</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7989,7 +7921,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>12</Id1> <!-- Orb Type Id, Current Value = Volcanic -->
-				<Value1>0.2</Value1> <!-- Quality Level -->
+				<Value1>0.2</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8265,7 +8197,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8349,7 +8280,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8414,7 +8344,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8498,7 +8427,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8563,7 +8491,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8647,7 +8574,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8712,7 +8638,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8796,7 +8721,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8861,7 +8785,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8945,7 +8868,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9010,7 +8932,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9094,7 +9015,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9159,7 +9079,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9243,7 +9162,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9308,7 +9226,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9392,7 +9309,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9457,7 +9373,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9541,7 +9456,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9606,7 +9520,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9690,7 +9603,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9755,7 +9667,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9815,7 +9726,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9910,7 +9820,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9949,7 +9858,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -10008,7 +9916,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10047,7 +9954,6 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10384,7 +10290,6 @@ Die Anlage wurde vom Schwarm zerstört, bevor unsere Vorfahren ihre Arbeit absch
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10447,7 +10352,6 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10669,7 +10573,6 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10730,7 +10633,6 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10811,7 +10713,6 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10871,7 +10772,6 @@ Wir sind schockiert, als wir erfahren, dass die Schwarm-Kreaturen tatsächlich d
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10933,7 +10833,6 @@ Diese kaputten, verzerrten Kreaturen nennen wir jetzt den 'Schwarm'.</Descriptio
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10993,7 +10892,6 @@ Wir müssen jetzt akzeptieren, dass wir tatsächlich kleiner geworden sind, aber
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11116,7 +11014,6 @@ Auf der Planetenoberfläche haben wir zahlreiche Überreste von Schwarm-Schiffen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11179,7 +11076,6 @@ Wir haben erfahren, dass die Shakturi, als sie zum ersten Mal in diese Galaxie e
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>

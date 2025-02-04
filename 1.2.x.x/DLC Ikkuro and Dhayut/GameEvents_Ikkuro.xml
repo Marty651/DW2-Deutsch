@@ -137,7 +137,7 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>20</Id1> <!-- Orb Type Id, Current Value = Desert Savanna -->
-				<Value1>0.55</Value1> <!-- Quality Level -->
+				<Value1>0.55</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -503,7 +503,6 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -543,7 +542,6 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -583,7 +581,6 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -928,7 +925,7 @@ Wir stehen jetzt vor einem schrecklichen Dilemma. Die Dhayut teilen unsere Werte
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>728</LookupValue>
+						<LookupValue>728</LookupValue> <!-- ResearchId, Current Value = Basic Diplomacy: Dhayut Language and Expressions -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -1367,7 +1364,7 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>728</LookupValue>
+						<LookupValue>728</LookupValue> <!-- ResearchId, Current Value = Basic Diplomacy: Dhayut Language and Expressions -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -1394,7 +1391,7 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>729</LookupValue>
+						<LookupValue>729</LookupValue> <!-- ResearchId, Current Value = Effective Diplomacy: Dhayut Culture and Customs -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -1694,7 +1691,7 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>729</LookupValue>
+						<LookupValue>729</LookupValue> <!-- ResearchId, Current Value = Effective Diplomacy: Dhayut Culture and Customs -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -2206,7 +2203,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2278,7 +2274,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2346,7 +2341,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2407,7 +2401,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2532,7 +2525,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2601,7 +2593,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2659,7 +2650,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2695,7 +2685,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2756,7 +2745,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2900,7 +2888,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3048,7 +3035,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3228,7 +3214,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3295,7 +3280,7 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>445</LookupValue>
+						<LookupValue>445</LookupValue> <!-- ResearchId, Current Value = Large Fuel Storage -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -3316,7 +3301,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3375,7 +3359,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3455,7 +3438,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3520,7 +3502,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<Enabled>false</Enabled>
@@ -3557,7 +3538,6 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3642,7 +3622,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3822,7 +3801,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3889,7 +3867,7 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>445</LookupValue>
+						<LookupValue>445</LookupValue> <!-- ResearchId, Current Value = Large Fuel Storage -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -3910,7 +3888,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3969,7 +3946,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4049,7 +4025,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4114,7 +4089,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<Enabled>false</Enabled>
@@ -4151,7 +4125,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4237,7 +4210,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4417,7 +4389,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4484,7 +4455,7 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>445</LookupValue>
+						<LookupValue>445</LookupValue> <!-- ResearchId, Current Value = Large Fuel Storage -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -4505,7 +4476,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4564,7 +4534,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4644,7 +4613,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4710,7 +4678,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<Enabled>false</Enabled>
@@ -4747,7 +4714,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4867,7 +4833,7 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>22</Id1> <!-- Orb Type Id, Current Value = Frozen Ice -->
-				<Value1>0.5</Value1> <!-- Quality Level -->
+				<Value1>0.5</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4983,7 +4949,6 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5047,7 +5012,6 @@ Fast keine der größeren Einrichtungen stehen noch oder sind sogar begehbar, ab
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5112,7 +5076,6 @@ Fast keine der größeren Einrichtungen stehen noch oder sind sogar begehbar, ab
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5173,7 +5136,6 @@ Fast keine der größeren Einrichtungen stehen noch oder sind sogar begehbar, ab
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5316,7 +5278,6 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5455,7 +5416,6 @@ Dieses Lagerhaus enthält einen großen Vorrat an Polymer und Karbonit. Aufzeich
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5594,7 +5554,6 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5731,7 +5690,6 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5870,7 +5828,6 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6015,7 +5972,7 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>17</Id1> <!-- Orb Type Id, Current Value = Forest -->
-				<Value1>0.8</Value1> <!-- Quality Level -->
+				<Value1>0.8</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6153,7 +6110,6 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6217,7 +6173,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6370,7 +6325,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6519,7 +6473,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6681,7 +6634,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6833,7 +6785,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6932,7 +6883,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7032,7 +6982,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7135,7 +7084,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7305,7 +7253,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7367,7 +7314,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7422,7 +7368,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7468,7 +7413,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7535,7 +7479,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7652,7 +7595,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7714,7 +7656,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7931,7 +7872,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8125,7 +8065,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8860,7 +8799,6 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<Enabled>false</Enabled>
@@ -8902,7 +8840,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -8961,7 +8898,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9086,7 +9022,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9172,7 +9107,6 @@ Meinungsumfragen auf unserer Heimatwelt zeigen weitgehend Unterstützung für de
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9216,7 +9150,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9288,7 +9221,7 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>0</Id1> <!-- Orb Type Id, Current Value = Main Sequence -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9309,7 +9242,7 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>17</Id1> <!-- Orb Type Id, Current Value = Forest -->
-				<Value1>0.75</Value1> <!-- Quality Level -->
+				<Value1>0.75</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9493,7 +9426,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9551,7 +9483,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9629,7 +9560,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9706,7 +9636,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9906,7 +9835,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10083,7 +10011,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10256,7 +10183,6 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -10321,7 +10247,6 @@ Unsere Ingenieure glauben, dass sie zumindest einige der automatisierten Abwehrm
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10442,7 +10367,6 @@ Unsere Ingenieure glauben, dass sie zumindest einige der automatisierten Abwehrm
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -10530,7 +10454,6 @@ Jetzt müssen wir, wie unsere Vorfahren, eine schwierige moralische Entscheidung
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10655,7 +10578,6 @@ Welche Schrecken müssen unsere Vorfahren ertragen haben, dass sie erwogen haben
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10862,7 +10784,6 @@ Wir haben eine weitere bedeutende Entdeckung auf der Oberfläche von Kasim gemac
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10986,7 +10907,6 @@ Wir haben eine weitere bedeutende Entdeckung auf der Oberfläche von Kasim gemac
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -11051,7 +10971,6 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11212,7 +11131,6 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11377,7 +11295,6 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11505,7 +11422,7 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>0</Id1> <!-- Orb Type Id, Current Value = Main Sequence -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11526,7 +11443,7 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>17</Id1> <!-- Orb Type Id, Current Value = Forest -->
-				<Value1>0.45</Value1> <!-- Quality Level -->
+				<Value1>0.45</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11800,7 +11717,6 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11924,7 +11840,6 @@ Diese Welt war einst ein florierendes Zentrum der gesamten Ikkuro-Forschung. Der
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -12049,7 +11964,6 @@ Die erbärmlichen Ikkuro-Tüftler betrieben hier das, was sie Forschung nannten.
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>

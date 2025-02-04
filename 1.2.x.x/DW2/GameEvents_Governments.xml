@@ -9,7 +9,6 @@
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -45,7 +44,6 @@
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -130,7 +128,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TechLevelThreshold>1</TechLevelThreshold>
@@ -167,7 +164,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TechLevelThreshold>1</TechLevelThreshold>
@@ -250,7 +246,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -286,7 +281,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -397,9 +391,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
+						<LookupValue>0</LookupValue> <!-- RaceId, Current Value = Human -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -425,9 +419,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
+						<LookupValue>1</LookupValue> <!-- RaceId, Current Value = Ackdarian -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -453,9 +447,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
+						<LookupValue>2</LookupValue> <!-- RaceId, Current Value = Teekan -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -481,9 +475,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -509,9 +503,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
+						<LookupValue>4</LookupValue> <!-- RaceId, Current Value = Mortalen -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -537,9 +531,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
+						<LookupValue>5</LookupValue> <!-- RaceId, Current Value = Ikkuro -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -565,9 +559,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
+						<LookupValue>6</LookupValue> <!-- RaceId, Current Value = Boskara -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -593,9 +587,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
+						<LookupValue>7</LookupValue> <!-- RaceId, Current Value = Zenox -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -621,9 +615,9 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
+						<LookupValue>10</LookupValue> <!-- RaceId, Current Value = Dhayut -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -643,7 +637,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TechLevelThreshold>1</TechLevelThreshold>
@@ -680,7 +673,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TechLevelThreshold>1</TechLevelThreshold>
@@ -763,7 +755,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -799,7 +790,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -910,9 +900,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
+						<LookupValue>0</LookupValue> <!-- RaceId, Current Value = Human -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -938,9 +928,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
+						<LookupValue>1</LookupValue> <!-- RaceId, Current Value = Ackdarian -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -966,9 +956,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
+						<LookupValue>2</LookupValue> <!-- RaceId, Current Value = Teekan -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -994,9 +984,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1022,9 +1012,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
+						<LookupValue>4</LookupValue> <!-- RaceId, Current Value = Mortalen -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1050,9 +1040,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
+						<LookupValue>5</LookupValue> <!-- RaceId, Current Value = Ikkuro -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1078,9 +1068,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
+						<LookupValue>6</LookupValue> <!-- RaceId, Current Value = Boskara -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1106,9 +1096,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
+						<LookupValue>7</LookupValue> <!-- RaceId, Current Value = Zenox -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1134,9 +1124,9 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
+						<LookupValue>10</LookupValue> <!-- RaceId, Current Value = Dhayut -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1156,7 +1146,6 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1192,7 +1181,6 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1325,9 +1313,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
+						<LookupValue>0</LookupValue> <!-- RaceId, Current Value = Human -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1353,9 +1341,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
+						<LookupValue>1</LookupValue> <!-- RaceId, Current Value = Ackdarian -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1381,9 +1369,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
+						<LookupValue>2</LookupValue> <!-- RaceId, Current Value = Teekan -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1409,9 +1397,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1437,9 +1425,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
+						<LookupValue>4</LookupValue> <!-- RaceId, Current Value = Mortalen -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1465,9 +1453,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
+						<LookupValue>5</LookupValue> <!-- RaceId, Current Value = Ikkuro -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1493,9 +1481,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
+						<LookupValue>6</LookupValue> <!-- RaceId, Current Value = Boskara -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1521,9 +1509,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
+						<LookupValue>7</LookupValue> <!-- RaceId, Current Value = Zenox -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1549,9 +1537,9 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
+						<LookupValue>10</LookupValue> <!-- RaceId, Current Value = Dhayut -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1571,7 +1559,6 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1607,7 +1594,6 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1710,7 +1696,6 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1746,7 +1731,6 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1836,9 +1820,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
+						<LookupValue>0</LookupValue> <!-- RaceId, Current Value = Human -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1864,9 +1848,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
+						<LookupValue>1</LookupValue> <!-- RaceId, Current Value = Ackdarian -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1892,9 +1876,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
+						<LookupValue>2</LookupValue> <!-- RaceId, Current Value = Teekan -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1920,9 +1904,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
+						<LookupValue>3</LookupValue> <!-- RaceId, Current Value = Haakonish -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1948,9 +1932,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
+						<LookupValue>4</LookupValue> <!-- RaceId, Current Value = Mortalen -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1976,9 +1960,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
+						<LookupValue>5</LookupValue> <!-- RaceId, Current Value = Ikkuro -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2004,9 +1988,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
+						<LookupValue>6</LookupValue> <!-- RaceId, Current Value = Boskara -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2032,9 +2016,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
+						<LookupValue>7</LookupValue> <!-- RaceId, Current Value = Zenox -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2060,9 +2044,9 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
+						<LookupValue>10</LookupValue> <!-- RaceId, Current Value = Dhayut -->
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1500000000</ComparisonValue> <!-- Amount -->
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>

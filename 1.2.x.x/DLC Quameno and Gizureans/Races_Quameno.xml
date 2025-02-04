@@ -4,12 +4,6 @@
 		<RaceId>15</RaceId> <!-- Quameno -->
 		<BundleName>Quameno</BundleName>
 		<FlagFilename>UserInterface/Flags/Quameno_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Quameno_2</string>
 			<string>UserInterface/Flags/Quameno_3</string>
@@ -265,7 +259,7 @@
 				<Type>EmpireBonusLevel</Type>
 				<Proportion>0.2</Proportion>
 				<Amount>0.3</Amount>
-				<Id>88</Id>
+				<Id>88</Id> <!-- ResearchAncientKnowledge -->
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
@@ -316,11 +310,6 @@
 			<int>0</int> <!-- Stele of Takdun -->
 		</StartingArtifactIds>
 		<TreatyLevelModifier>10</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
 		<TreatySignedColonyEventDefinitionId>58</TreatySignedColonyEventDefinitionId> <!-- Alien Distractions -->
 		<OngoingPopulationAssimilationColonyEventDefinitionId>59</OngoingPopulationAssimilationColonyEventDefinitionId> <!-- Integration Studies -->
 		<FacilityBuiltDefinitionIds>
@@ -346,14 +335,6 @@
 		<ResearchLocationDiscoveredProgressAmountRatio>0.25</ResearchLocationDiscoveredProgressAmountRatio>
 		<CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>95</CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>
 		<MaximumConcurrentResearchProjects>1</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<StartingCharacterTraitsAmbassador>
 			<CharacterTraitType>Linguist</CharacterTraitType>
 		</StartingCharacterTraitsAmbassador>
@@ -393,12 +374,7 @@
 			<string>[HL]Starteigenschaft des Botschafters:[/HL] Alle Botschafter beginnen mit der Eigenschaft Linguist (+5 % Diplomatie, +5 % Tourismuseinkommen)</string>
 			<string>[HL]Gleichzeitige Forschung deaktiviert:[/HL] kann jeweils nur ein einzelnes Projekt erforschen</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>49</DefaultInfantryId>
+		<DefaultInfantryId>49</DefaultInfantryId> <!-- BattleMech Brigade -->
 		<Name>Quameno</Name>
 		<Description>\nQuamenos sind eine hochintelligente Amphibienrasse. Quamenos sind groß und anmutig, mit langen Gliedmaßen und langem Hals. Ihre großen Augen sind seitlich am Kopf angebracht und ermöglichen ihnen eine hervorragende periphere Sicht mit einem Bereich von fast 360 Grad.
 

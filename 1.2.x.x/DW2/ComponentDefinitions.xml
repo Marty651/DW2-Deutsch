@@ -320,7 +320,7 @@
 				<WeaponIonEngineDamage>18</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>18</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>18</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>18</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>9</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>18</WeaponIonWeaponDamage>
 				<WeaponRange>800</WeaponRange>
 				<WeaponRawDamage>9</WeaponRawDamage>
@@ -1801,7 +1801,7 @@
 			<FiringSoundEffectVolume>0.8</FiringSoundEffectVolume>
 			<ArmorImpactEffectTintColor>
 				<R>255</R>
-				<G>165</G>	
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</ArmorImpactEffectTintColor>
@@ -2117,7 +2117,7 @@
 				<WeaponIonEngineDamage>24</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>24</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>24</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>24</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>12</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>24</WeaponIonWeaponDamage>
 				<WeaponRange>900</WeaponRange>
 				<WeaponRawDamage>10</WeaponRawDamage>
@@ -2149,7 +2149,7 @@
 				<WeaponIonEngineDamage>30</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>30</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>30</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>30</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>15</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>30</WeaponIonWeaponDamage>
 				<WeaponRange>1090</WeaponRange>
 				<WeaponRawDamage>15</WeaponRawDamage>
@@ -2307,12 +2307,12 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
-				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+				<ResourceId>11</ResourceId> <!-- Cuprica -->
 				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>24</Amount>
+				<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -2337,7 +2337,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>44</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>44</WeaponIonHyperDriveDamage>
-				<WeaponIonShieldDamage>44</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>22</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>44</WeaponIonWeaponDamage>
 				<WeaponRange>1770</WeaponRange>
 				<WeaponRawDamage>10</WeaponRawDamage>
@@ -2370,7 +2370,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>70</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>70</WeaponIonHyperDriveDamage>
-				<WeaponIonShieldDamage>70</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>35</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>70</WeaponIonWeaponDamage>
 				<WeaponRange>2200</WeaponRange>
 				<WeaponRawDamage>15</WeaponRawDamage>
@@ -2401,10 +2401,10 @@
 				<WeaponInterceptFireRate>12.5</WeaponInterceptFireRate>
 				<WeaponInterceptRange>1710</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>78</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>78</WeaponIonHyperDriveDamage>
-				<WeaponIonShieldDamage>78</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>78</WeaponIonWeaponDamage>
+				<WeaponIonEngineDamage>88</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>88</WeaponIonHyperDriveDamage>
+				<WeaponIonShieldDamage>44</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>88</WeaponIonWeaponDamage>
 				<WeaponRange>3170</WeaponRange>
 				<WeaponRawDamage>24</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -2434,10 +2434,10 @@
 				<WeaponInterceptFireRate>10</WeaponInterceptFireRate>
 				<WeaponInterceptRange>2115</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>100</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>100</WeaponIonHyperDriveDamage>
-				<WeaponIonShieldDamage>100</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>100</WeaponIonWeaponDamage>
+				<WeaponIonEngineDamage>110</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>110</WeaponIonHyperDriveDamage>
+				<WeaponIonShieldDamage>55</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>110</WeaponIonWeaponDamage>
 				<WeaponRange>3900</WeaponRange>
 				<WeaponRawDamage>38</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -4290,7 +4290,7 @@
 				<WeaponInterceptRange>590</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>6</WeaponIonEngineDamage>
-				<WeaponIonShieldDamage>6</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>3</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>6</WeaponIonWeaponDamage>
 				<WeaponRange>590</WeaponRange>
 				<WeaponRawDamage>4</WeaponRawDamage>
@@ -4318,7 +4318,7 @@
 				<WeaponInterceptRange>850</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>7</WeaponIonEngineDamage>
-				<WeaponIonShieldDamage>7</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>4</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>7</WeaponIonWeaponDamage>
 				<WeaponRange>850</WeaponRange>
 				<WeaponRawDamage>4</WeaponRawDamage>
@@ -6478,7 +6478,7 @@
 				<WeaponIonEngineDamage>60</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>60</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>60</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>60</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>30</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>60</WeaponIonWeaponDamage>
 				<WeaponRange>1640</WeaponRange>
 				<WeaponRawDamage>30</WeaponRawDamage>
@@ -6512,7 +6512,7 @@
 				<WeaponIonEngineDamage>75</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>75</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>75</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>75</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>37</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>75</WeaponIonWeaponDamage>
 				<WeaponRange>2400</WeaponRange>
 				<WeaponRawDamage>48</WeaponRawDamage>
@@ -8199,15 +8199,15 @@
 				<WeaponEnergyPerShot>48</WeaponEnergyPerShot>
 				<WeaponFireRate>14</WeaponFireRate>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
-				<WeaponIonEngineDamage>120</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>120</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>120</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>120</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>120</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>120</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>100</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>100</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>100</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>50</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>100</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>100</WeaponIonGeneralDamage>
 				<WeaponRange>1970</WeaponRange>
 				<WeaponRawDamage>70</WeaponRawDamage>
-				<WeaponShieldBypass>-0.15</WeaponShieldBypass>
+				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -8226,15 +8226,15 @@
 				<WeaponEnergyPerShot>48</WeaponEnergyPerShot>
 				<WeaponFireRate>12</WeaponFireRate>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
-				<WeaponIonEngineDamage>150</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>150</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>150</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>150</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>150</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>150</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>125</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>125</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>125</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>62</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>125</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>125</WeaponIonGeneralDamage>
 				<WeaponRange>2390</WeaponRange>
 				<WeaponRawDamage>100</WeaponRawDamage>
-				<WeaponShieldBypass>-0.15</WeaponShieldBypass>
+				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -10283,20 +10283,20 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
-				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>22</Amount>
+				<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>22</Amount>
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>22</Amount>
+				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId> <!-- Mebnar -->
-				<Amount>22</Amount>
+				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -11928,12 +11928,12 @@
 				<WeaponEnergyPerShot>72</WeaponEnergyPerShot>
 				<WeaponFireRate>6</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
-				<WeaponIonEngineDamage>160</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>160</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>160</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>160</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>160</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>160</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>145</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>145</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>145</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>72</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>145</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>145</WeaponIonGeneralDamage>
 				<WeaponRange>2820</WeaponRange>
 				<WeaponRawDamage>75</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -14374,7 +14374,7 @@
 				<WeaponFireType>Seeking</WeaponFireType>
 				<WeaponIonEngineDamage>150</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>150</WeaponIonHyperDriveDamage>
-				<WeaponIonShieldDamage>150</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>75</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>150</WeaponIonWeaponDamage>
 				<WeaponRange>4000</WeaponRange>
 				<WeaponRawDamage>55</WeaponRawDamage>
@@ -15992,19 +15992,19 @@
 		</ResourcesRequired>
 		<Values>
 			<ComponentStats>
-				<ColonizationPopulationAmount>30000000</ColonizationPopulationAmount>
+				<ColonizationPopulationAmount>3E+07</ColonizationPopulationAmount>
 				<ComponentIonDefense>5</ComponentIonDefense>
 				<CrewRequirement>50</CrewRequirement>
 				<StaticEnergyUsed>50</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
-				<ColonizationPopulationAmount>50000000</ColonizationPopulationAmount>
+				<ColonizationPopulationAmount>5E+07</ColonizationPopulationAmount>
 				<ComponentIonDefense>10</ComponentIonDefense>
 				<CrewRequirement>50</CrewRequirement>
 				<StaticEnergyUsed>50</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
-				<ColonizationPopulationAmount>80000000</ColonizationPopulationAmount>
+				<ColonizationPopulationAmount>8E+07</ColonizationPopulationAmount>
 				<ComponentIonDefense>15</ComponentIonDefense>
 				<CrewRequirement>50</CrewRequirement>
 				<StaticEnergyUsed>50</StaticEnergyUsed>
@@ -16579,7 +16579,7 @@
 				<CountermeasuresBonus>0.05</CountermeasuresBonus>
 				<CrewRequirement>4</CrewRequirement>
 				<ScannerJumpTrackingChance>0.3</ScannerJumpTrackingChance>
-				<ScannerLongRange>75000000</ScannerLongRange>
+				<ScannerLongRange>7.5E+07</ScannerLongRange>
 				<ScannerLongRangePower>125</ScannerLongRangePower>
 				<ScannerTracePower>63</ScannerTracePower>
 				<ScannerTraceRange>7500000</ScannerTraceRange>
@@ -16591,10 +16591,10 @@
 				<CountermeasuresBonus>0.07</CountermeasuresBonus>
 				<CrewRequirement>4</CrewRequirement>
 				<ScannerJumpTrackingChance>0.35</ScannerJumpTrackingChance>
-				<ScannerLongRange>100000000</ScannerLongRange>
+				<ScannerLongRange>1E+08</ScannerLongRange>
 				<ScannerLongRangePower>150</ScannerLongRangePower>
 				<ScannerTracePower>75</ScannerTracePower>
-				<ScannerTraceRange>10000000</ScannerTraceRange>
+				<ScannerTraceRange>1E+07</ScannerTraceRange>
 				<StaticEnergyUsed>30</StaticEnergyUsed>
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
@@ -16929,10 +16929,10 @@
 				<CountermeasuresBonus>0.08</CountermeasuresBonus>
 				<CrewRequirement>4</CrewRequirement>
 				<ScannerJumpTrackingChance>0.4</ScannerJumpTrackingChance>
-				<ScannerLongRange>125000000</ScannerLongRange>
+				<ScannerLongRange>1.25E+08</ScannerLongRange>
 				<ScannerLongRangePower>160</ScannerLongRangePower>
 				<ScannerTracePower>88</ScannerTracePower>
-				<ScannerTraceRange>12500000</ScannerTraceRange>
+				<ScannerTraceRange>1.25E+07</ScannerTraceRange>
 				<StaticEnergyUsed>35</StaticEnergyUsed>
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
@@ -16941,10 +16941,10 @@
 				<CountermeasuresBonus>0.09</CountermeasuresBonus>
 				<CrewRequirement>4</CrewRequirement>
 				<ScannerJumpTrackingChance>0.45</ScannerJumpTrackingChance>
-				<ScannerLongRange>150000000</ScannerLongRange>
+				<ScannerLongRange>1.5E+08</ScannerLongRange>
 				<ScannerLongRangePower>170</ScannerLongRangePower>
 				<ScannerTracePower>90</ScannerTracePower>
-				<ScannerTraceRange>15000000</ScannerTraceRange>
+				<ScannerTraceRange>1.5E+07</ScannerTraceRange>
 				<StaticEnergyUsed>40</StaticEnergyUsed>
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
@@ -16953,10 +16953,10 @@
 				<CountermeasuresBonus>0.1</CountermeasuresBonus>
 				<CrewRequirement>4</CrewRequirement>
 				<ScannerJumpTrackingChance>0.5</ScannerJumpTrackingChance>
-				<ScannerLongRange>200000000</ScannerLongRange>
+				<ScannerLongRange>2E+08</ScannerLongRange>
 				<ScannerLongRangePower>175</ScannerLongRangePower>
 				<ScannerTracePower>93</ScannerTracePower>
-				<ScannerTraceRange>20000000</ScannerTraceRange>
+				<ScannerTraceRange>2E+07</ScannerTraceRange>
 				<StaticEnergyUsed>50</StaticEnergyUsed>
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
@@ -17411,10 +17411,10 @@
 				<CountermeasuresBonus>0.1</CountermeasuresBonus>
 				<CrewRequirement>10</CrewRequirement>
 				<ScannerJumpTrackingChance>1</ScannerJumpTrackingChance>
-				<ScannerLongRange>250000000</ScannerLongRange>
+				<ScannerLongRange>2.5E+08</ScannerLongRange>
 				<ScannerLongRangePower>250</ScannerLongRangePower>
 				<ScannerTracePower>125</ScannerTracePower>
-				<ScannerTraceRange>50000000</ScannerTraceRange>
+				<ScannerTraceRange>5E+07</ScannerTraceRange>
 				<StaticEnergyUsed>50</StaticEnergyUsed>
 				<TargetingBonus>0.1</TargetingBonus>
 			</ComponentStats>
@@ -17484,7 +17484,7 @@
 		<Values>
 			<ComponentStats>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>1</IonDamageDefense>
+				<IonDamageDefense>10</IonDamageDefense>
 				<ShieldRechargeRate>0.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
 				<ShieldStrength>144</ShieldStrength>
@@ -17494,7 +17494,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>1</IonDamageDefense>
+				<IonDamageDefense>10</IonDamageDefense>
 				<ShieldRechargeRate>0.6</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
 				<ShieldStrength>192</ShieldStrength>
@@ -17558,7 +17558,7 @@
 				<CrewRequirement>10</CrewRequirement>
 				<HyperDriveEnergyUsage>85</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>17</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>120000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.2E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>28</HyperDriveRechargeTime>
 				<HyperDriveSpeed>200000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4500</HyperDriveJumpAccuracy>
@@ -18680,7 +18680,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>15</IonDamageDefense>
 				<ShieldRechargeRate>0.8</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>4</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -18692,7 +18692,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>1.2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>6</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -18704,7 +18704,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>1.8</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>9</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -18771,7 +18771,7 @@
 				<HyperDriveBlockingInsulation>10</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>61</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>14</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>140000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.4E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>400000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4250</HyperDriveJumpAccuracy>
@@ -18783,7 +18783,7 @@
 				<HyperDriveBlockingInsulation>15</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>67</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>13</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>168000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.68E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>480000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4000</HyperDriveJumpAccuracy>
@@ -18795,7 +18795,7 @@
 				<HyperDriveBlockingInsulation>20</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>74</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>12</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>201600000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.016E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>576000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3750</HyperDriveJumpAccuracy>
@@ -19259,7 +19259,7 @@
 				<WeaponIonEngineDamage>150</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>150</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>150</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>150</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>75</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>150</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>150</WeaponIonGeneralDamage>
 				<WeaponRange>2900</WeaponRange>
@@ -19958,7 +19958,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>2.2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>10</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -19970,7 +19970,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>3.3</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>15</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -19982,7 +19982,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>23</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -20030,7 +20030,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>1</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>6</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -20042,7 +20042,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>1.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>9</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -20054,7 +20054,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>2.2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>14</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -20165,7 +20165,7 @@
 				<HyperDriveBlockingInsulation>15</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>55</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>8</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>160000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.6E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>14</HyperDriveRechargeTime>
 				<HyperDriveSpeed>456000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4500</HyperDriveJumpAccuracy>
@@ -20177,7 +20177,7 @@
 				<HyperDriveBlockingInsulation>20</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>61</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>7</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>192000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.92E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>11</HyperDriveRechargeTime>
 				<HyperDriveSpeed>547200</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4000</HyperDriveJumpAccuracy>
@@ -20189,7 +20189,7 @@
 				<HyperDriveBlockingInsulation>25</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>67</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>6</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>276480000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.7648E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>8</HyperDriveRechargeTime>
 				<HyperDriveSpeed>787968</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3500</HyperDriveJumpAccuracy>
@@ -20253,7 +20253,7 @@
 				<HyperDriveBlockingInsulation>15</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>38</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>12</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>170000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.7E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>24</HyperDriveRechargeTime>
 				<HyperDriveSpeed>430000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4000</HyperDriveJumpAccuracy>
@@ -20265,7 +20265,7 @@
 				<HyperDriveBlockingInsulation>20</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>42</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>11</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>204000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.04E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>22</HyperDriveRechargeTime>
 				<HyperDriveSpeed>516000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3500</HyperDriveJumpAccuracy>
@@ -20277,7 +20277,7 @@
 				<HyperDriveBlockingInsulation>25</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>46</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>10</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>293760000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.9376E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>743040</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3000</HyperDriveJumpAccuracy>
@@ -20341,7 +20341,7 @@
 				<HyperDriveBlockingInsulation>15</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>67</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>14</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>140000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.4E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>22</HyperDriveRechargeTime>
 				<HyperDriveSpeed>552000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>4250</HyperDriveJumpAccuracy>
@@ -20353,7 +20353,7 @@
 				<HyperDriveBlockingInsulation>20</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>74</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>12</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>168000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.68E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>717600</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3750</HyperDriveJumpAccuracy>
@@ -20365,7 +20365,7 @@
 				<HyperDriveBlockingInsulation>25</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>81</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>11</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>241920000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.4192E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>18</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1033344</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3250</HyperDriveJumpAccuracy>
@@ -21090,12 +21090,12 @@
 				<WeaponInterceptFireRate>7.5</WeaponInterceptFireRate>
 				<WeaponInterceptRange>860</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0.5</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>144</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>144</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>144</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>144</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>144</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>144</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>130</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>130</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>130</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>65</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>130</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>130</WeaponIonGeneralDamage>
 				<WeaponRange>1720</WeaponRange>
 				<WeaponRawDamage>60</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -21123,12 +21123,12 @@
 				<WeaponInterceptFireRate>7.5</WeaponInterceptFireRate>
 				<WeaponInterceptRange>940</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0.5</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>160</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>160</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>160</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>160</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>160</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>160</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>145</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>145</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>145</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>72</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>145</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>145</WeaponIonGeneralDamage>
 				<WeaponRange>1880</WeaponRange>
 				<WeaponRawDamage>75</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -21216,7 +21216,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>23</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -21226,7 +21226,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>4</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>5</IonDamageDefense>
+				<IonDamageDefense>35</IonDamageDefense>
 				<ShieldRechargeRate>5.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>26</ShieldRechargeEnergyUsage>
 				<ShieldResistance>4</ShieldResistance>
@@ -21236,7 +21236,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>7</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 				<ShieldRechargeRate>6</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>30</ShieldRechargeEnergyUsage>
 				<ShieldResistance>5</ShieldResistance>
@@ -21490,7 +21490,7 @@
 				<AreaShieldRechargeAmount>800</AreaShieldRechargeAmount>
 				<AreaShieldRechargeEnergyUsedPerUnitCharged>600</AreaShieldRechargeEnergyUsedPerUnitCharged>
 				<AreaShieldRechargeRange>2500</AreaShieldRechargeRange>
-				<ComponentIonDefense>5</ComponentIonDefense>
+				<ComponentIonDefense>30</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
 				<StaticEnergyUsed>10</StaticEnergyUsed>
 			</ComponentStats>
@@ -21498,7 +21498,7 @@
 				<AreaShieldRechargeAmount>1200</AreaShieldRechargeAmount>
 				<AreaShieldRechargeEnergyUsedPerUnitCharged>700</AreaShieldRechargeEnergyUsedPerUnitCharged>
 				<AreaShieldRechargeRange>3500</AreaShieldRechargeRange>
-				<ComponentIonDefense>7</ComponentIonDefense>
+				<ComponentIonDefense>35</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
 				<StaticEnergyUsed>10</StaticEnergyUsed>
 			</ComponentStats>
@@ -21739,7 +21739,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
 				<CrewRequirement>10</CrewRequirement>
-				<IonDamageDefense>10</IonDamageDefense>
+				<IonDamageDefense>75</IonDamageDefense>
 				<ShieldRechargeRate>20</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>91</ShieldRechargeEnergyUsage>
 				<ShieldResistance>8</ShieldResistance>
@@ -22290,7 +22290,7 @@
 				<ArmorBlastRating>300</ArmorBlastRating>
 				<ArmorReactiveRating>12</ArmorReactiveRating>
 				<CrewRequirement>1</CrewRequirement>
-				<IonDamageDefense>10</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 			</ComponentStats>
 		</Values>
 		<Name>Sternen-Panzerung</Name>
@@ -24209,7 +24209,7 @@
 		</ResourcesRequired>
 		<Values>
 			<ComponentStats>
-				<IonDamageDefense>1</IonDamageDefense>
+				<IonDamageDefense>10</IonDamageDefense>
 				<ShieldRechargeRate>0.15</ShieldRechargeRate>
 				<ShieldStrength>29</ShieldStrength>
 				<ShieldPenetrationChance>0.25</ShieldPenetrationChance>
@@ -24217,7 +24217,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
-				<IonDamageDefense>1</IonDamageDefense>
+				<IonDamageDefense>10</IonDamageDefense>
 				<ShieldRechargeRate>0.18</ShieldRechargeRate>
 				<ShieldStrength>38</ShieldStrength>
 				<ShieldPenetrationChance>0.2</ShieldPenetrationChance>
@@ -24262,7 +24262,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>15</IonDamageDefense>
 				<ShieldRechargeRate>0.24</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -24273,7 +24273,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>0.36</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -24284,7 +24284,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>0.54</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -24755,7 +24755,7 @@
 				<WeaponInterceptFireRate>0.7</WeaponInterceptFireRate>
 				<WeaponInterceptRange>270</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonShieldDamage>8</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>4</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>8</WeaponIonWeaponDamage>
 				<WeaponRange>270</WeaponRange>
 				<WeaponRawDamage>4</WeaponRawDamage>
@@ -24779,7 +24779,7 @@
 				<WeaponInterceptFireRate>0.6</WeaponInterceptFireRate>
 				<WeaponInterceptRange>390</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonShieldDamage>9</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>5</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>9</WeaponIonWeaponDamage>
 				<WeaponRange>390</WeaponRange>
 				<WeaponRawDamage>5</WeaponRawDamage>
@@ -25676,7 +25676,7 @@
 				<WeaponIonEngineDamage>30</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>30</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>30</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>30</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>15</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>30</WeaponIonWeaponDamage>
 				<WeaponRange>1090</WeaponRange>
 				<WeaponRawDamage>15</WeaponRawDamage>
@@ -28457,7 +28457,7 @@
 				<WeaponInterceptFireRate>0.5</WeaponInterceptFireRate>
 				<WeaponInterceptRange>495</WeaponInterceptRange>
 				<WeaponIonSensorDamage>10</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>10</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>5</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>10</WeaponIonWeaponDamage>
 				<WeaponRange>495</WeaponRange>
 				<WeaponRawDamage>7</WeaponRawDamage>
@@ -28603,19 +28603,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>2</ResourceId> <!-- Osalia -->
-				<Amount>88</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>88</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>88</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId> <!-- Mebnar -->
-				<Amount>88</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -30093,164 +30093,6 @@
 		<ImageFilename>Environment/Components/250-Plasma Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
-		<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
-		<Size>18</Size>
-		<Category>WeaponCloseIn</Category>
-		<Family>Blasters</Family>
-		<DisplayTextureNames>
-			<string>Effects/Weapons/Slug1</string>
-		</DisplayTextureNames>
-		<DisplayRotationType>RotateToTarget</DisplayRotationType>
-		<DisplayRotationRate>0.5</DisplayRotationRate>
-		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
-		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
-		<WeaponEffect>
-			<UseDirectionalComponent>true</UseDirectionalComponent>
-			<FlipbookMode>Off</FlipbookMode>
-			<StaticTextureFilepath>Effects/Weapons/RedLaser1</StaticTextureFilepath>
-			<BodyScaling>
-				<X>2</X>
-				<Y>2</Y>
-			</BodyScaling>
-			<BodyScalingAbsolute>
-				<X>0</X>
-				<Y>0</Y>
-			</BodyScalingAbsolute>
-			<FlipbookFramesPerSecond>8</FlipbookFramesPerSecond>
-			<FlipbookDimensions>
-				<X>0</X>
-				<Y>0</Y>
-			</FlipbookDimensions>
-			<FlipbookRow>0</FlipbookRow>
-			<PulsingIntensity>0</PulsingIntensity>
-			<PulsingSpeed>0</PulsingSpeed>
-			<UVScrollRatio>0</UVScrollRatio>
-			<UVScrollCycleLength>0</UVScrollCycleLength>
-			<EndFadeLengthRatio>0</EndFadeLengthRatio>
-			<TextureTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</TextureTintColor>
-			<TextureTintColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</TextureTintColor2>
-			<TintCycleLength>0</TintCycleLength>
-			<FiringEffectFilepath>VFXPrefabs/PulseTorpedoMuzzle</FiringEffectFilepath>
-			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
-			<ArmorImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</ArmorImpactEffectTintColor>
-			<HullImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</HullImpactEffectTintColor>
-			<FiringEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</FiringEffectTintColor>
-			<WeaponChargeupLength>0</WeaponChargeupLength>
-			<WeaponChargeupPulseColor1>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupPulseColor1>
-			<WeaponChargeupPulseColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupPulseColor2>
-			<WeaponChargeupBackgroundColor1>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupBackgroundColor1>
-			<WeaponChargeupBackgroundColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupBackgroundColor2>
-			<WeaponChargeupUVScrollingRate>
-				<X>0</X>
-				<Y>0</Y>
-			</WeaponChargeupUVScrollingRate>
-			<WeaponChargeupColorOscillationRate>0</WeaponChargeupColorOscillationRate>
-			<WeaponChargeupEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupEffectTintColor>
-			<TrailEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</TrailEffectTintColor>
-			<TrailEffectTintAltColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</TrailEffectTintAltColor>
-			<TrailEffectColorTransitionStartTime>0</TrailEffectColorTransitionStartTime>
-			<TrailEffectColorTransitionEndTime>0</TrailEffectColorTransitionEndTime>
-			<TrailEffectScaleX>0</TrailEffectScaleX>
-			<TrailEffectScaleY>0</TrailEffectScaleY>
-			<TrailEffectScaleChangeRateX>0</TrailEffectScaleChangeRateX>
-			<TrailEffectScaleChangeRateY>0</TrailEffectScaleChangeRateY>
-			<TrailEffectLifetime>0</TrailEffectLifetime>
-			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
-			<TrailDriftRate>0</TrailDriftRate>
-		</WeaponEffect>
-		<IsFighterOnly>false</IsFighterOnly>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-				<Amount>6</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Values>
-			<ComponentStats>
-				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
-				<CrewRequirement>5</CrewRequirement>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
-				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
-				<WeaponDamageType>Impact</WeaponDamageType>
-				<WeaponEnergyPerShot>10</WeaponEnergyPerShot>
-				<WeaponFireRate>6</WeaponFireRate>
-				<WeaponFireType>DirectFire</WeaponFireType>
-				<WeaponInterceptDamageFighter>5</WeaponInterceptDamageFighter>
-				<WeaponInterceptDamageSeeking>5</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>10</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>2.5</WeaponInterceptFireRate>
-				<WeaponInterceptRange>600</WeaponInterceptRange>
-				<WeaponRange>1200</WeaponRange>
-				<WeaponRawDamage>11</WeaponRawDamage>
-				<WeaponSpeed>1100</WeaponSpeed>
-				<WeaponVolleyAmount>3</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
-			</ComponentStats>
-		</Values>
-		<Name>Impulswellen-Kanone [S]</Name>
-		<ImageFilename>Environment/Components/248-Pulse Wave Cannon</ImageFilename>
-	</ComponentDefinition>
-	<ComponentDefinition>
 		<ComponentId>249</ComponentId> <!-- Star Beam [M] -->
 		<Size>30</Size>
 		<Category>WeaponCloseIn</Category>
@@ -30727,164 +30569,6 @@
 		</Values>
 		<Name>Plasma-Blaster [M]</Name>
 		<ImageFilename>Environment/Components/250-Plasma Blaster</ImageFilename>
-	</ComponentDefinition>
-	<ComponentDefinition>
-		<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
-		<Size>36</Size>
-		<Category>WeaponCloseIn</Category>
-		<Family>Blasters</Family>
-		<DisplayTextureNames>
-			<string>Effects/Weapons/Slug1</string>
-		</DisplayTextureNames>
-		<DisplayRotationType>RotateToTarget</DisplayRotationType>
-		<DisplayRotationRate>0.5</DisplayRotationRate>
-		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
-		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
-		<WeaponEffect>
-			<UseDirectionalComponent>true</UseDirectionalComponent>
-			<FlipbookMode>Off</FlipbookMode>
-			<StaticTextureFilepath>Effects/Weapons/RedLaser1</StaticTextureFilepath>
-			<BodyScaling>
-				<X>2</X>
-				<Y>2</Y>
-			</BodyScaling>
-			<BodyScalingAbsolute>
-				<X>0</X>
-				<Y>0</Y>
-			</BodyScalingAbsolute>
-			<FlipbookFramesPerSecond>8</FlipbookFramesPerSecond>
-			<FlipbookDimensions>
-				<X>0</X>
-				<Y>0</Y>
-			</FlipbookDimensions>
-			<FlipbookRow>0</FlipbookRow>
-			<PulsingIntensity>0</PulsingIntensity>
-			<PulsingSpeed>0</PulsingSpeed>
-			<UVScrollRatio>0</UVScrollRatio>
-			<UVScrollCycleLength>0</UVScrollCycleLength>
-			<EndFadeLengthRatio>0</EndFadeLengthRatio>
-			<TextureTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</TextureTintColor>
-			<TextureTintColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</TextureTintColor2>
-			<TintCycleLength>0</TintCycleLength>
-			<FiringEffectFilepath>VFXPrefabs/PulseTorpedoMuzzle</FiringEffectFilepath>
-			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
-			<ArmorImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</ArmorImpactEffectTintColor>
-			<HullImpactEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</HullImpactEffectTintColor>
-			<FiringEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</FiringEffectTintColor>
-			<WeaponChargeupLength>0</WeaponChargeupLength>
-			<WeaponChargeupPulseColor1>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupPulseColor1>
-			<WeaponChargeupPulseColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupPulseColor2>
-			<WeaponChargeupBackgroundColor1>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupBackgroundColor1>
-			<WeaponChargeupBackgroundColor2>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupBackgroundColor2>
-			<WeaponChargeupUVScrollingRate>
-				<X>0</X>
-				<Y>0</Y>
-			</WeaponChargeupUVScrollingRate>
-			<WeaponChargeupColorOscillationRate>0</WeaponChargeupColorOscillationRate>
-			<WeaponChargeupEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</WeaponChargeupEffectTintColor>
-			<TrailEffectTintColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>255</A>
-			</TrailEffectTintColor>
-			<TrailEffectTintAltColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
-				<A>0</A>
-			</TrailEffectTintAltColor>
-			<TrailEffectColorTransitionStartTime>0</TrailEffectColorTransitionStartTime>
-			<TrailEffectColorTransitionEndTime>0</TrailEffectColorTransitionEndTime>
-			<TrailEffectScaleX>0</TrailEffectScaleX>
-			<TrailEffectScaleY>0</TrailEffectScaleY>
-			<TrailEffectScaleChangeRateX>0</TrailEffectScaleChangeRateX>
-			<TrailEffectScaleChangeRateY>0</TrailEffectScaleChangeRateY>
-			<TrailEffectLifetime>0</TrailEffectLifetime>
-			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
-			<TrailDriftRate>0</TrailDriftRate>
-		</WeaponEffect>
-		<IsFighterOnly>false</IsFighterOnly>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-				<Amount>12</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Values>
-			<ComponentStats>
-				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
-				<CrewRequirement>8</CrewRequirement>
-				<StaticEnergyUsed>2</StaticEnergyUsed>
-				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
-				<WeaponDamageType>Impact</WeaponDamageType>
-				<WeaponEnergyPerShot>10</WeaponEnergyPerShot>
-				<WeaponFireRate>6</WeaponFireRate>
-				<WeaponFireType>DirectFire</WeaponFireType>
-				<WeaponInterceptDamageFighter>5</WeaponInterceptDamageFighter>
-				<WeaponInterceptDamageSeeking>5</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>10</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>1.25</WeaponInterceptFireRate>
-				<WeaponInterceptRange>600</WeaponInterceptRange>
-				<WeaponRange>1200</WeaponRange>
-				<WeaponRawDamage>11</WeaponRawDamage>
-				<WeaponSpeed>1100</WeaponSpeed>
-				<WeaponVolleyAmount>6</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
-			</ComponentStats>
-		</Values>
-		<Name>Impulswellen-Kanone [M]</Name>
-		<ImageFilename>Environment/Components/251-Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>253</ComponentId> <!-- Pulse Torpedo [L] -->
@@ -32014,7 +31698,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>263</ComponentId> <!-- Flux Barrier Armor -->
-		<Size>5</Size>
+		<Size>10</Size>
 		<Category>Armor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -32161,7 +31845,7 @@
 			<ComponentStats>
 				<ArmorBlastRating>15</ArmorBlastRating>
 				<ArmorReactiveRating>1</ArmorReactiveRating>
-				<IonDamageDefense>8</IonDamageDefense>
+				<IonDamageDefense>16</IonDamageDefense>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
@@ -32281,7 +31965,7 @@
 			<ComponentStats>
 				<ArmorBlastRating>17</ArmorBlastRating>
 				<ArmorReactiveRating>1</ArmorReactiveRating>
-				<IonDamageDefense>14</IonDamageDefense>
+				<IonDamageDefense>32</IonDamageDefense>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
@@ -32348,7 +32032,7 @@
 			<ComponentStats>
 				<ArmorBlastRating>60</ArmorBlastRating>
 				<ArmorReactiveRating>2</ArmorReactiveRating>
-				<IonDamageDefense>10</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 			</ComponentStats>
 		</Values>
 		<Name>Sternen-Panzerung [Jäger]</Name>
@@ -32389,7 +32073,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>2.2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>10</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32401,7 +32085,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>4</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>18</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32413,7 +32097,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>7</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>31</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -32425,7 +32109,7 @@
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
-				<IonDamageDefense>6</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 				<ShieldRechargeRate>8</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>37</ShieldRechargeEnergyUsage>
 				<ShieldResistance>5</ShieldResistance>
@@ -32471,31 +32155,30 @@
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>2</CrewRequirement>
-				<IonDamageDefense>2</IonDamageDefense>
-				<ShieldRechargeRate>0.2</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
+				<IonDamageDefense>20</IonDamageDefense>
+				<ShieldRechargeRate>0.1</ShieldRechargeRate>
 				<ShieldResistance>2</ShieldResistance>
-				<ShieldStrength>40</ShieldStrength>
+				<ShieldStrength>25</ShieldStrength>
 				<StaticEnergyUsed>3</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CrewRequirement>2</CrewRequirement>
-				<IonDamageDefense>3</IonDamageDefense>
-				<ShieldRechargeRate>0.4</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
+				<IonDamageDefense>25</IonDamageDefense>
+				<ShieldRechargeRate>0.2</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
-				<ShieldStrength>80</ShieldStrength>
+				<ShieldStrength>50</ShieldStrength>
 				<StaticEnergyUsed>4</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>4</ComponentIonDefense>
 				<CrewRequirement>2</CrewRequirement>
-				<IonDamageDefense>5</IonDamageDefense>
-				<ShieldRechargeRate>0.6</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
+				<IonDamageDefense>35</IonDamageDefense>
+				<ShieldRechargeRate>0.3</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
 				<ShieldResistance>4</ShieldResistance>
-				<ShieldStrength>120</ShieldStrength>
+				<ShieldStrength>75</ShieldStrength>
 				<StaticEnergyUsed>5</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
@@ -32536,7 +32219,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>0.66</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32547,7 +32230,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>1.2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>5</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32558,7 +32241,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>1.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>9</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32567,7 +32250,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
-				<IonDamageDefense>6</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 				<ShieldRechargeRate>2.4</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>10</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -32612,7 +32295,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>0.66</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32623,7 +32306,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>0.99</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>4</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32634,7 +32317,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>1.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>6</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32681,7 +32364,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>20</IonDamageDefense>
 				<ShieldRechargeRate>0.3</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32692,7 +32375,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>25</IonDamageDefense>
 				<ShieldRechargeRate>0.45</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
 				<ShieldResistance>1</ShieldResistance>
@@ -32703,7 +32386,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>0.66</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32754,7 +32437,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>3</ComponentIonDefense>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>30</IonDamageDefense>
 				<ShieldRechargeRate>1.5</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>6</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32763,7 +32446,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>4</ComponentIonDefense>
-				<IonDamageDefense>5</IonDamageDefense>
+				<IonDamageDefense>35</IonDamageDefense>
 				<ShieldRechargeRate>1.65</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>7</ShieldRechargeEnergyUsage>
 				<ShieldResistance>2</ShieldResistance>
@@ -32772,7 +32455,7 @@
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
-				<IonDamageDefense>7</IonDamageDefense>
+				<IonDamageDefense>40</IonDamageDefense>
 				<ShieldRechargeRate>1.8</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>8</ShieldRechargeEnergyUsage>
 				<ShieldResistance>3</ShieldResistance>
@@ -32821,7 +32504,7 @@
 		<Values>
 			<ComponentStats>
 				<ComponentIonDefense>5</ComponentIonDefense>
-				<IonDamageDefense>10</IonDamageDefense>
+				<IonDamageDefense>75</IonDamageDefense>
 				<ShieldRechargeRate>6</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>26</ShieldRechargeEnergyUsage>
 				<ShieldResistance>4</ShieldResistance>
@@ -35842,7 +35525,7 @@
 				<HyperDriveBlockingInsulation>30</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>50</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>8</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>252000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.52E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>22</HyperDriveRechargeTime>
 				<HyperDriveSpeed>861120</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3500</HyperDriveJumpAccuracy>
@@ -35854,7 +35537,7 @@
 				<HyperDriveBlockingInsulation>30</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>55</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>5</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>362880000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>3.6288E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>12</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1240013</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3000</HyperDriveJumpAccuracy>
@@ -35866,7 +35549,7 @@
 				<HyperDriveBlockingInsulation>30</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>61</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>4</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>453600000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>4.536E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>8</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1488015</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>2500</HyperDriveJumpAccuracy>
@@ -35903,28 +35586,24 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
-				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>24</Amount>
+				<ResourceId>9</ResourceId> <!-- Mebnar -->
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId> <!-- Carbonite -->
-				<Amount>24</Amount>
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>24</Amount>
+				<Amount>8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>2</ResourceId> <!-- Osalia -->
-				<Amount>24</Amount>
+				<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+				<Amount>4</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
-				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>24</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
-				<Amount>24</Amount>
+				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+				<Amount>4</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -35934,7 +35613,7 @@
 				<HyperDriveBlockingInsulation>35</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>102</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>18</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>204800000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.048E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>20</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1205633</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>3000</HyperDriveJumpAccuracy>
@@ -35946,7 +35625,7 @@
 				<HyperDriveBlockingInsulation>40</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>93</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>16</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>256000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.56E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>17</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1446759</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>2750</HyperDriveJumpAccuracy>
@@ -35958,7 +35637,7 @@
 				<HyperDriveBlockingInsulation>50</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>85</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>14</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>320000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>3.2E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>15</HyperDriveRechargeTime>
 				<HyperDriveSpeed>1736111</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>2500</HyperDriveJumpAccuracy>
@@ -35970,7 +35649,7 @@
 				<HyperDriveBlockingInsulation>60</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>77</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>12</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>400000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>4E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>12</HyperDriveRechargeTime>
 				<HyperDriveSpeed>2083333</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>2250</HyperDriveJumpAccuracy>
@@ -35982,7 +35661,7 @@
 				<HyperDriveBlockingInsulation>60</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>70</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>10</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>500000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>5E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>10</HyperDriveRechargeTime>
 				<HyperDriveSpeed>2500000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>2000</HyperDriveJumpAccuracy>
@@ -38515,7 +38194,7 @@
 				<WeaponIonEngineDamage>80</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>80</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>80</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>80</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>40</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>80</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>80</WeaponIonGeneralDamage>
 				<WeaponRange>2730</WeaponRange>
@@ -38543,7 +38222,7 @@
 				<WeaponIonEngineDamage>120</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>120</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>120</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>120</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>60</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>120</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>120</WeaponIonGeneralDamage>
 				<WeaponRange>3300</WeaponRange>
@@ -38571,7 +38250,7 @@
 				<WeaponIonEngineDamage>150</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>150</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>150</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>150</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>75</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>150</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>150</WeaponIonGeneralDamage>
 				<WeaponRange>4100</WeaponRange>
@@ -40169,7 +39848,7 @@
 				<WeaponIonEngineDamage>50</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>50</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>50</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>50</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>25</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>50</WeaponIonWeaponDamage>
 				<WeaponRange>1650</WeaponRange>
 				<WeaponRawDamage>36</WeaponRawDamage>
@@ -40201,7 +39880,7 @@
 				<WeaponIonEngineDamage>56</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>56</WeaponIonHyperDriveDamage>
 				<WeaponIonSensorDamage>56</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>56</WeaponIonShieldDamage>
+				<WeaponIonShieldDamage>28</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>56</WeaponIonWeaponDamage>
 				<WeaponRange>1820</WeaponRange>
 				<WeaponRawDamage>45</WeaponRawDamage>
@@ -41907,15 +41586,15 @@
 		<IsFighterOnly>false</IsFighterOnly>
 		<Values>
 			<ComponentStats>
-				<ScannerLongRange>40000000</ScannerLongRange>
+				<ScannerLongRange>4E+07</ScannerLongRange>
 				<ScannerLongRangePower>0.11</ScannerLongRangePower>
 			</ComponentStats>
 			<ComponentStats>
-				<ScannerLongRange>80000000</ScannerLongRange>
+				<ScannerLongRange>8E+07</ScannerLongRange>
 				<ScannerLongRangePower>0.11</ScannerLongRangePower>
 			</ComponentStats>
 			<ComponentStats>
-				<ScannerLongRange>120000000</ScannerLongRange>
+				<ScannerLongRange>1.2E+08</ScannerLongRange>
 				<ScannerLongRangePower>0.11</ScannerLongRangePower>
 			</ComponentStats>
 		</Values>
@@ -41984,7 +41663,7 @@
 				<HyperDriveBlockingInsulation>15</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>22</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>30</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>180000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>1.8E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>54</HyperDriveRechargeTime>
 				<HyperDriveSpeed>600000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>1600</HyperDriveJumpAccuracy>
@@ -41996,7 +41675,7 @@
 				<HyperDriveBlockingInsulation>17</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>27</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>25</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>259200000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>2.592E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>48</HyperDriveRechargeTime>
 				<HyperDriveSpeed>650000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>1400</HyperDriveJumpAccuracy>
@@ -42008,7 +41687,7 @@
 				<HyperDriveBlockingInsulation>19</HyperDriveBlockingInsulation>
 				<HyperDriveEnergyUsage>29</HyperDriveEnergyUsage>
 				<HyperDriveJumpInitiationTime>20</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>324000000</HyperDriveJumpRange>
+				<HyperDriveJumpRange>3.24E+08</HyperDriveJumpRange>
 				<HyperDriveRechargeTime>42</HyperDriveRechargeTime>
 				<HyperDriveSpeed>700000</HyperDriveSpeed>
 				<HyperDriveJumpAccuracy>1200</HyperDriveJumpAccuracy>
@@ -44936,7 +44615,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Verwüstungsimpuls [X]</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<ImageFilename>Environment/Components/381-Devastator Pulse</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>382</ComponentId> <!-- Hail Cannon [M] -->

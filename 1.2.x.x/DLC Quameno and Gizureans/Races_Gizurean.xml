@@ -4,12 +4,6 @@
 		<RaceId>11</RaceId> <!-- Gizurean -->
 		<BundleName>Gizurean</BundleName>
 		<FlagFilename>UserInterface/Flags/Gizurean_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Gizurean_2</string>
 			<string>UserInterface/Flags/Gizurean_3</string>
@@ -344,27 +338,11 @@
 			<string>Eparzi</string>
 			<string>Jhorbek</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
 		<SalvageAdvancedTechBoostFactor>0.1</SalvageAdvancedTechBoostFactor>
 		<RetireAdvancedTechBoostFactor>0.1</RetireAdvancedTechBoostFactor>
 		<RetireCompleteAdvancedTechBonusResearchAmount>30</RetireCompleteAdvancedTechBonusResearchAmount>
 		<ColonyConquestGameEventName>Scouring Choice (Gizurean)</ColonyConquestGameEventName>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
 		<OtherRaceExterminateColonyEventDefinitionId>73</OtherRaceExterminateColonyEventDefinitionId> <!-- Breeding World -->
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>GiftedConduit</CharacterTraitType>
 			<CharacterTraitType>ControllingMind</CharacterTraitType>
@@ -399,12 +377,7 @@
 			<string>[HL]Einzigartige allgemeine Eigenschaft - Schwarmlord:[/HL] +10% Truppenrekrutierungsrate, +10% Einsparungen beim Truppenunterhalt</string>
 			<string>[HL]Einzigartige allgemeine Eigenschaft - Larvenaufseher:[/HL] +10% Truppenerholungsrate</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>45</DefaultInfantryId>
+		<DefaultInfantryId>45</DefaultInfantryId> <!-- War Swarm -->
 		<Name>Gizurean</Name>
 		<Description>\nDie Gizurean sind eine insektoide Rasse mit vier Armen. Gizurean können mit ihren kleinen Flügeln auch kurze Distanzen fliegen.
 

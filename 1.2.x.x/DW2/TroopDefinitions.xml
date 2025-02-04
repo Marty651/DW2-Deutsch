@@ -493,7 +493,7 @@
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
 		<IsRobotic>false</IsRobotic>
-		<Name>Juggernaut Cluster</Name>
+		<Name>Juggernaut-Cluster</Name>
 		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -709,6 +709,7 @@
 		<MaintenanceCost>200</MaintenanceCost>
 		<AttackStrength>84</AttackStrength>
 		<DefendStrength>126</DefendStrength>
+		<PsychicDefense>5</PsychicDefense>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
@@ -727,6 +728,7 @@
 		<MaintenanceCost>180</MaintenanceCost>
 		<AttackStrength>68</AttackStrength>
 		<DefendStrength>102</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
@@ -893,7 +895,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<IsRobotic>false</IsRobotic>
-		<Name>Terminator Brigade</Name>
+		<Name>Terminator-Brigade</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -925,6 +927,8 @@
 		<MaintenanceCost>200</MaintenanceCost>
 		<AttackStrength>170</AttackStrength>
 		<DefendStrength>255</DefendStrength>
+		<PsychicStrength>10</PsychicStrength>
+		<PsychicDefense>10</PsychicDefense>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
@@ -975,7 +979,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<IsRobotic>false</IsRobotic>
-		<Name>Standard Raider</Name>
+		<Name>Standard-Raider</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>

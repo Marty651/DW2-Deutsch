@@ -4,12 +4,6 @@
 		<RaceId>20</RaceId> <!-- Shakturi -->
 		<BundleName>Shakturi</BundleName>
 		<FlagFilename>UserInterface/Flags/Shakturi_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Shakturi_2</string>
 			<string>UserInterface/Flags/Shakturi_3</string>
@@ -147,6 +141,7 @@
 			<short>395</short> <!-- Inferno Torpedo [M] -->
 			<short>396</short> <!-- Inferno Torpedo [L] -->
 		</PreferredWeaponComponentIds>
+		<PsychicResistance>0.9</PsychicResistance>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -327,25 +322,7 @@
 			<string>Ukrisbek</string>
 			<string>Masmekra</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
 		<PsychicEnergyGeneration>10000</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -362,12 +339,7 @@
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>54</DefaultInfantryId>
+		<DefaultInfantryId>54</DefaultInfantryId> <!-- Slayer Swarm -->
 		<Name>Shakturi</Name>
 		<Description>Die Shakturi sind eine ausgestorbene Ethnie von insektoiden Außerirdischen, die vor langer Zeit die Galaxie bewohnt haben sollen.
 

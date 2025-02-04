@@ -230,7 +230,6 @@ Es könnte möglich sein, mit einfachen Sprengstoffen unseren Weg hinein zu spre
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -337,7 +336,6 @@ Der Sprengstoff beschädigte einen großen Teil der Struktur, die ein Forschungs
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -396,7 +394,6 @@ Der Sprengstoff beschädigte einen großen Teil der Struktur, die ein Forschungs
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -461,7 +458,6 @@ Unsere Ingenieure haben gute Arbeit geleistet, aber eine Frage bleibt: Loben wir
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -632,7 +628,6 @@ Die Korruption auf {18} hat infolgedessen zugenommen.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -814,7 +809,7 @@ Die Korruption auf {18} hat abgenommen, aber auch die Arbeitsmoral unserer Wisse
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>22</Id1> <!-- Orb Type Id, Current Value = Frozen Ice -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -873,7 +868,6 @@ Die Korruption auf {18} hat abgenommen, aber auch die Arbeitsmoral unserer Wisse
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -940,7 +934,6 @@ Das Schiff wurde mit starken Sicherheitsvorkehrungen gebaut, was darauf hindeute
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -999,7 +992,6 @@ Das Schiff wurde mit starken Sicherheitsvorkehrungen gebaut, was darauf hindeute
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1071,7 +1063,7 @@ Wir haben auch einige Informationen über medizinische Technologie gefunden, die
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>19</Id1> <!-- Orb Type Id, Current Value = Rocky Desert -->
-				<Value1>0.65</Value1> <!-- Quality Level -->
+				<Value1>0.65</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1174,7 +1166,6 @@ Aber wir können unsere Zeit nicht damit verbringen, uns über Verbrechen der Au
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1271,7 +1262,6 @@ Aber wir können unsere Zeit nicht damit verbringen, uns über Verbrechen der Au
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1371,7 +1361,6 @@ Aber wir können unsere Zeit nicht damit verbringen, uns über Verbrechen der Au
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -1432,7 +1421,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1529,7 +1517,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1630,7 +1617,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -1689,7 +1675,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1786,7 +1771,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2074,7 +2058,6 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2135,7 +2118,6 @@ Es ist klar, dass diese minderwertigen Kreaturen Wissen über unsere Vergangenhe
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2292,7 +2274,6 @@ Auf der Heimatwelt freut sich unser Volk über unseren Erfolg bei der Täuschung
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2472,7 +2453,7 @@ Wir haben einige der Einheimischen gefangen genommen, die wir zunächst nur zur 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>12</Id1> <!-- Orb Type Id, Current Value = Volcanic -->
-				<Value1>0.17</Value1> <!-- Quality Level -->
+				<Value1>0.17</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2569,7 +2550,6 @@ Wir haben einige der Einheimischen gefangen genommen, die wir zunächst nur zur 
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2634,7 +2614,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2780,7 +2759,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2837,7 +2815,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -2896,7 +2873,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2981,7 +2957,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3040,7 +3015,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3207,7 +3181,6 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3363,7 +3336,7 @@ Es gibt viele Debatten unter unseren Führern. Versuchen wir, die Boskara zu tä
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>17</Id1> <!-- Orb Type Id, Current Value = Forest -->
-				<Value1>0.4</Value1> <!-- Quality Level -->
+				<Value1>0.4</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3650,7 +3623,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3709,7 +3681,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3826,7 +3797,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3865,7 +3835,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -3926,7 +3895,6 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4009,7 +3977,6 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden. Für Feiglinge
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4095,7 +4062,6 @@ Wir haben jedoch viel in Bezug auf Verteidigungstechnologie entdeckt. Wir könne
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4156,7 +4122,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4273,7 +4238,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4312,7 +4276,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4373,7 +4336,6 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4454,7 +4416,6 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden.</Description>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4539,7 +4500,6 @@ Wir haben jedoch viel in Bezug auf Verteidigungstechnologie entdeckt.</Descripti
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4600,7 +4560,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4717,7 +4676,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4756,7 +4714,6 @@ Möglicherweise kann das Kraftfeld durch einen massiven Energiestoß überlastet
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4817,7 +4774,6 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4899,7 +4855,6 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden.
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5151,7 +5106,6 @@ Wir haben jedoch viel in Bezug auf Verteidigungstechnologie entdeckt.
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5214,7 +5168,6 @@ Möglicherweise kennen sie aber auch die technischen Geheimnisse der Vergangenhe
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5313,7 +5266,6 @@ Möglicherweise kennen sie aber auch die technischen Geheimnisse der Vergangenhe
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5375,7 +5327,6 @@ Es kann ein Fehler sein, diese Wissenschaftlerin mit anderen zeitgenössischen D
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5494,7 +5445,6 @@ Es kann ein Fehler sein, diese Wissenschaftlerin mit anderen zeitgenössischen D
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5733,7 +5683,6 @@ Es kann ein Fehler sein, diese Wissenschaftlerin mit anderen zeitgenössischen D
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5829,7 +5778,6 @@ Es kann ein Fehler sein, diese Wissenschaftlerin mit anderen zeitgenössischen D
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5890,7 +5838,6 @@ Aber sollten wir? Dies sind keine befriedeten Dhayut. Sie werden uns wahrscheinl
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5971,7 +5918,6 @@ Unsere Wissenschaftler haben die alten Kryokammern studiert und viel gelernt. Wi
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6036,7 +5982,6 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6132,7 +6077,6 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6194,7 +6138,6 @@ Aber sollten wir?
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6273,7 +6216,6 @@ Aber sollten wir?
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6342,7 +6284,7 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>1</Id1> <!-- Orb Type Id, Current Value = Red Giant -->
-				<Value1>0</Value1> <!-- Quality Level -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6363,7 +6305,7 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
-				<Value1>0.35</Value1> <!-- Quality Level -->
+				<Value1>0.35</Value1> <!-- Quality Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Diameter (0=Default) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6485,7 +6427,6 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>3</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6638,7 +6579,6 @@ Die meisten Kryokammern wurden im Feuergefecht zerstört, aber unsere Wissenscha
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6699,7 +6639,6 @@ Gleichzeitig wüten Brände in der einen verbliebenen Forschungseinrichtung, ein
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6757,7 +6696,6 @@ Gleichzeitig wüten Brände in der einen verbliebenen Forschungseinrichtung, ein
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6837,7 +6775,6 @@ Gleichzeitig wüten Brände in der einen verbliebenen Forschungseinrichtung, ein
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6943,7 +6880,6 @@ Obwohl wir zu spät waren, um das Notsignal zu stoppen, haben wir ein kleines Te
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6991,7 +6927,6 @@ Wir dürfen nicht zulassen, dass dieses Wissen unsere Ambitionen schmälert. Wir
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7157,7 +7092,6 @@ Schließlich haben wir eine  technische Zeichnung mit der Bezeichnung 'Die schü
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>

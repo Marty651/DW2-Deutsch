@@ -4,12 +4,6 @@
 		<RaceId>0</RaceId> <!-- Human -->
 		<BundleName>Human</BundleName>
 		<FlagFilename>UserInterface/Flags/Human_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Human_2</string>
 			<string>UserInterface/Flags/Human_3</string>
@@ -340,9 +334,6 @@
 			<string>Sounds/Ambient/chatter11</string>
 			<string>Sounds/Ambient/chatter12</string>
 		</SpaceportAmbientSoundEffectFilenames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
 		<ColonizationOrbTypeIds>
 			<unsignedByte>7</unsignedByte> <!-- Continental -->
 		</ColonizationOrbTypeIds>
@@ -355,11 +346,6 @@
 		<ColonyConquestOrbTypeGameEventNames>
 			<string>New Worlds Continental Conquest (Human)</string>
 		</ColonyConquestOrbTypeGameEventNames>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
 		<ShipRoleBuiltRoles>
 			<ShipRole>ResortBase</ShipRole>
 		</ShipRoleBuiltRoles>
@@ -390,17 +376,6 @@
 		</TreatySignedGameEventNames>
 		<WarStartedByOtherGameEventName>Hero of the Hour Trigger (Human)</WarStartedByOtherGameEventName>
 		<ForeignIntelligenceMissionSuccessGameEventName>Heightened Security Trigger (Human)</ForeignIntelligenceMissionSuccessGameEventName>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>AllianceBuilder</CharacterTraitType>
 			<CharacterTraitType>Entrepreneur</CharacterTraitType>
@@ -435,12 +410,7 @@
 			<string>[HL]Einzigartige Spionageeigenschaft - Industrieagent:[/HL] +5% Spionage</string>
 			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Zerstörerisch:[/HL] +10% Waffenforschung</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>2</DefaultInfantryId>
+		<DefaultInfantryId>2</DefaultInfantryId> <!-- Strike Trooper Brigade -->
 		<Name>Human</Name>
 		<Description>\nDie Menschen sind große, weitgehend unbehaarte, zweibeinige Säuger.\nSie sind intelligent, klug und einfallsreich und können sich oft schnell über weite Teile der Galaxie verbreiten.\n
 Sie sind auch von Natur aus freundlich, aber andere betrachten sie manchmal trotzdem als intrigant und manipulativ. Sie schätzen politische Macht und Einfluss sehr und schwelgen oft in subtilen politischen Manövern und Intrigen, während sie versuchen, immer mehr Kontrolle über ihre Gegner und/oder Verbündeten zu gewinnen. Sie haben auch ein erstaunliches Talent für das Erkennen von Gelegenheiten zum politischen Aufstieg und nutzen diese oft zielstrebig aus.\n
@@ -457,12 +427,6 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
 		<RaceId>1</RaceId> <!-- Ackdarian -->
 		<BundleName>Ackdarian</BundleName>
 		<FlagFilename>UserInterface/Flags/Ackdarian_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Ackdarian_2</string>
 			<string>UserInterface/Flags/Ackdarian_3</string>
@@ -769,25 +733,6 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
 			<string>Sounds/Ambient/chatter11</string>
 			<string>Sounds/Ambient/chatter12</string>
 		</SpaceportAmbientSoundEffectFilenames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -804,12 +749,7 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>27</DefaultInfantryId>
+		<DefaultInfantryId>27</DefaultInfantryId> <!-- Defender Brigade -->
 		<Name>Ackdarian</Name>
 		<Description>\nDie Ackdarian sind sehr fleißige, halb-aquatische Meeressäuger. Sie haben große, mit Schwimmhäuten versehene Hände und Füße, was sie zu hervorragenden Schwimmern macht. Allerdings sind ihre Hände auch recht geschickt und sie leben ebenso gerne außerhalb des Wassers.
 
@@ -828,12 +768,6 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 		<RaceId>2</RaceId> <!-- Teekan -->
 		<BundleName>Teekan</BundleName>
 		<FlagFilename>UserInterface/Flags/Teekan_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Teekan_2</string>
 			<string>UserInterface/Flags/Teekan_3</string>
@@ -1174,25 +1108,6 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 			<string>Yablik</string>
 			<string>Urtion</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -1209,12 +1124,7 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>7</DefaultInfantryId>
+		<DefaultInfantryId>7</DefaultInfantryId> <!-- Trapper Group -->
 		<Name>Teekan</Name>
 		<Description>\nDie Teekan sind eine kleine pelzige, nagetierähnliche Spezies mit drei Augen.
 
@@ -1237,12 +1147,6 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 		<RaceId>3</RaceId> <!-- Haakonish -->
 		<BundleName>Haakonish</BundleName>
 		<FlagFilename>UserInterface/Flags/Haakonish_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Haakonish_2</string>
 			<string>UserInterface/Flags/Haakonish_3</string>
@@ -1546,25 +1450,6 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 			<string>Assari</string>
 			<string>Banasa</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -1581,12 +1466,7 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>12</DefaultInfantryId>
+		<DefaultInfantryId>12</DefaultInfantryId> <!-- Battlematon Brigade -->
 		<Name>Haakonish</Name>
 		<Description>\nDie Haakonish sind eine zweibeinige Reptilienrasse. Sie haben breite, flache Köpfe mit markanten Vorsprüngen auf jeder Seite, wobei die Ausstülpungen Nasenhöhlen darstellen, die ihnen einen unübertroffenen Geruchssinn verleihen. Die Haakonish haben jedoch ein sehr schlechtes Sehvermögen, welches sie aber wiederum durch ihre hervorragende Geruchs- und Geschmackssinne kompensieren.
 
@@ -1603,12 +1483,6 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 		<RaceId>4</RaceId> <!-- Mortalen -->
 		<BundleName>Mortalen</BundleName>
 		<FlagFilename>UserInterface/Flags/Mortalen_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Mortalen_2</string>
 			<string>UserInterface/Flags/Mortalen_3</string>
@@ -1975,28 +1849,10 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 			<string>Shiddai</string>
 			<string>Cutsan</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
 		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
 		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
 		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
 		<CharacterProvingChancePerYear>0.08</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>Warmaster</CharacterTraitType>
 			<CharacterTraitType>GrandAdmiral</CharacterTraitType>
@@ -2030,12 +1886,7 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 			<string>[HL]Einzigartige Generaleigenschaft - Jünger des Krieges:[/HL] +20% Truppenangriffsstärke, +10% Einsparungen bei der Truppenwartung</string>
 			<string>[HL]Einzigartige Botschaftereigenschaft - Einschüchternde Präsenz:[/HL] +10% Diplomatie</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>17</DefaultInfantryId>
+		<DefaultInfantryId>17</DefaultInfantryId> <!-- Conqueror Force -->
 		<Name>Mortalen</Name>
 		<Description>\nDie Mortalen sind eine wilde Spezies, halb Säugetier, halb Reptil. Sie haben daher auch extrem schnelle Reflexe; - eine Fähigkeit, die diejenigen überraschen kann, welche mit ihnen noch nicht vertraut sind.
 
@@ -2052,14 +1903,7 @@ Als Gesellschaft leben die Mortalen normalerweise in einfachen Blockbehausungen 
 	</Race>
 	<Race>
 		<RaceId>5</RaceId> <!-- Ikkuro -->
-		<BundleName>Ikkuro</BundleName>
 		<FlagFilename>UserInterface/Flags/Ikkuro_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Ikkuro_2</string>
 			<string>UserInterface/Flags/Ikkuro_3</string>
@@ -2086,15 +1930,6 @@ Als Gesellschaft leben die Mortalen normalerweise in einfachen Blockbehausungen 
 		<Dependability>1.5</Dependability>
 		<ImportanceOfOthersReputations>0.96</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
-		<PreferredGovernmentIds>
-			<short>11</short> <!-- Harmonious Utopia -->
-		</PreferredGovernmentIds>
-		<AllowableGovernmentIds>
-			<short>2</short> <!-- Democracy -->
-			<short>3</short> <!-- Feudalism -->
-			<short>11</short> <!-- Harmonious Utopia -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
@@ -2151,12 +1986,6 @@ Als Gesellschaft leben die Mortalen normalerweise in einfachen Blockbehausungen 
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<StartingResearchProjectIds>
-			<short>0</short> <!-- Early Beam Weapons -->
-			<short>2</short> <!-- Early Area Weapons -->
-			<short>6</short> <!-- Ground Combat -->
-			<short>407</short> <!-- Basic Colonization -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -2235,214 +2064,7 @@ Als Gesellschaft leben die Mortalen normalerweise in einfachen Blockbehausungen 
 				<Factor>-0.4</Factor>
 			</RaceFactor>
 		</Biases>
-		<DesignNames>
-			<string>Bordeaux</string>
-			<string>Bayeux</string>
-			<string>Nazaire</string>
-			<string>Lyon</string>
-			<string>Monaco</string>
-			<string>Montpellier</string>
-			<string>Avignon</string>
-			<string>Strasbourg</string>
-			<string>Douai</string>
-			<string>Besancon</string>
-			<string>Montauban</string>
-			<string>Bayonne</string>
-			<string>Carcassonne</string>
-			<string>Narbonne</string>
-			<string>Bergerac</string>
-			<string>Chateauroux</string>
-			<string>Vendome</string>
-			<string>Valence</string>
-			<string>Cavaillon</string>
-			<string>Carpentras</string>
-			<string>Dijon</string>
-			<string>Beauvais</string>
-			<string>Calais</string>
-			<string>Versailles</string>
-			<string>Chartres</string>
-			<string>Chaumont</string>
-			<string>Massif</string>
-			<string>Anjou</string>
-			<string>Artois</string>
-			<string>Picardie</string>
-			<string>Rochefort</string>
-			<string>Auxerre</string>
-			<string>Montargis</string>
-			<string>Cherbourg</string>
-			<string>Verdun</string>
-			<string>Dunkerque</string>
-		</DesignNames>
-		<VictoryConditions>
-			<VictoryCondition>
-				<Type>LoseFewestShips</Type>
-				<Proportion>0.1</Proportion>
-				<Amount>1</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>ControlLargestColoniesByType</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>1</Amount>
-				<Id>17</Id> <!-- Forest -->
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>MostSpaceports</Type>
-				<Proportion>0.2</Proportion>
-				<Amount>1</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>FreeTradeAgreementsFormedProportionAllEmpires</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0.3</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>BuildFacility</Type>
-				<Proportion>0.2</Proportion>
-				<Amount>1</Amount>
-				<Id>31</Id> <!-- Koloros Medical Academy -->
-			</VictoryCondition>
-		</VictoryConditions>
-		<CharacterFirstNames>
-			<string>Gokut</string>
-			<string>Chandoor</string>
-			<string>Tokros</string>
-			<string>Wosant</string>
-			<string>Meegor</string>
-			<string>Kolisant</string>
-			<string>Esati</string>
-			<string>Quakku</string>
-			<string>Jundal</string>
-			<string>Putor</string>
-			<string>Borros</string>
-			<string>Dunal</string>
-			<string>Harrik</string>
-			<string>Lasdun</string>
-			<string>Astagar</string>
-			<string>Chupol</string>
-			<string>Okkian</string>
-			<string>Sando</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Baccasta</string>
-			<string>Yerod</string>
-			<string>Hodol</string>
-			<string>Ikkul</string>
-			<string>Hadar</string>
-			<string>Kurin</string>
-			<string>Lopeer</string>
-			<string>Zunod</string>
-			<string>Yafoos</string>
-			<string>Mechu</string>
-			<string>Rookil</string>
-			<string>Neesilon</string>
-			<string>Vutan</string>
-			<string>Durian</string>
-			<string>Wookos</string>
-			<string>Pakul</string>
-			<string>Caradas</string>
-			<string>Gokub</string>
-		</CharacterLastNames>
-		<TreatyLevelModifier>5</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>2</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>2</TreatyLongTermTrustModifierOther>
-		<BombardWorldColonyEventDefinitionId>54</BombardWorldColonyEventDefinitionId> <!-- Respect for Life -->
-		<DestroyWorldColonyEventDefinitionId>54</DestroyWorldColonyEventDefinitionId> <!-- Respect for Life -->
-		<ExterminationPolicyColonyEventDefinitionId>54</ExterminationPolicyColonyEventDefinitionId> <!-- Respect for Life -->
-		<ColonizationNewOrbTypeColonyEventDefinitionId>55</ColonizationNewOrbTypeColonyEventDefinitionId> <!-- Secrets of Life -->
-		<ColonizationNewOrbTypeIds>
-			<unsignedByte>7</unsignedByte> <!-- Continental -->
-			<unsignedByte>17</unsignedByte> <!-- Forest -->
-			<unsignedByte>18</unsignedByte> <!-- Grasslands -->
-			<unsignedByte>23</unsignedByte> <!-- Deep Ocean -->
-			<unsignedByte>9</unsignedByte> <!-- Ocean -->
-			<unsignedByte>27</unsignedByte> <!-- Mangrove Forest -->
-			<unsignedByte>8</unsignedByte> <!-- Marshy Swamp -->
-			<unsignedByte>10</unsignedByte> <!-- Sandy Desert -->
-			<unsignedByte>19</unsignedByte> <!-- Rocky Desert -->
-			<unsignedByte>20</unsignedByte> <!-- Desert Savanna -->
-			<unsignedByte>11</unsignedByte> <!-- Ice -->
-			<unsignedByte>22</unsignedByte> <!-- Frozen Ice -->
-			<unsignedByte>21</unsignedByte> <!-- Ice Tundra -->
-			<unsignedByte>12</unsignedByte> <!-- Volcanic -->
-			<unsignedByte>29</unsignedByte> <!-- Carbonaceous -->
-			<unsignedByte>30</unsignedByte> <!-- Sulphur Volcanic -->
-		</ColonizationNewOrbTypeIds>
-		<ColonizationNewOrbTypeGameEventNames>
-			<string>Colonise New Continental World (Ikkuro)</string>
-			<string>Colonise New Forest World (Ikkuro)</string>
-			<string>Colonise New Grasslands World (Ikkuro)</string>
-			<string>Colonise New Deep Ocean World (Ikkuro)</string>
-			<string>Colonise New Ocean World (Ikkuro)</string>
-			<string>Colonise New Mangrove Forest World (Ikkuro)</string>
-			<string>Colonise New Marshy Swamp World (Ikkuro)</string>
-			<string>Colonise New Sandy Desert World (Ikkuro)</string>
-			<string>Colonise New Rocky Desert World (Ikkuro)</string>
-			<string>Colonise New Desert Savanna World (Ikkuro)</string>
-			<string>Colonise New Ice World (Ikkuro)</string>
-			<string>Colonise New Frozen Ice World (Ikkuro)</string>
-			<string>Colonise New Ice Tundra World (Ikkuro)</string>
-			<string>Colonise New Volcanic World (Ikkuro)</string>
-			<string>Colonise New Carbonaceous World (Ikkuro)</string>
-			<string>Colonise New Sulphur Volcanic World (Ikkuro)</string>
-		</ColonizationNewOrbTypeGameEventNames>
-		<FirstNonAggressionPerFactionColonyEventDefinitionId>56</FirstNonAggressionPerFactionColonyEventDefinitionId> <!-- Protection of Life -->
-		<FirstDefenseTreatyPerFactionColonyEventDefinitionId>56</FirstDefenseTreatyPerFactionColonyEventDefinitionId> <!-- Protection of Life -->
-		<WarStartedByUsColonyEventDefinitionId>57</WarStartedByUsColonyEventDefinitionId> <!-- Disharmony -->
-		<WarStartedByOtherColonyEventDefinitionId>57</WarStartedByOtherColonyEventDefinitionId> <!-- Disharmony -->
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AdditionalCharacterTraits>
-			<CharacterTraitType>ProtectorOfLife</CharacterTraitType>
-			<CharacterTraitType>HarvesterOfLife</CharacterTraitType>
-			<CharacterTraitType>KeeperOfHarmony</CharacterTraitType>
-			<CharacterTraitType>BondMaker</CharacterTraitType>
-		</AdditionalCharacterTraits>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<FeatureExplanations>
-			<string>[HL]Konsensdiplomatie:[/HL] +5 Schwelle für die Unterzeichnung neuer Verträge, +2 Langfristiger Vertrauensgewinn (beide Reiche) für alle Verträge mit Ikkuro</string>
-			<string>[HL]Respekt vor dem Leben:[/HL] -10 Glück, wenn Sie eine Welt bombardieren oder zerstören, oder die Ausrottung als Bevölkerungspolitik für eine Kolonie wählen</string>
-			<string>[HL]Geheimnisse des Lebens:[/HL] +10 Glück und +10% Bevölkerungswachstumsrate für alle Kolonien für ein Jahr, wenn Sie zum ersten Mal einen neuen Welttyp kolonisieren. Ermöglicht außerdem neue Forschungsprojekte zur weiteren Verbesserung der Eignung für den neuen Welttyp.</string>
-			<string>[HL]Schutz des Lebens:[/HL] +5 Glück für alle Kolonien für ein Jahr, wenn Sie einen neuen Nichtangriffs- oder Verteidigungsvertrag mit einer anderen Fraktion unterzeichnen</string>
-			<string>[HL]Disharmonie:[/HL] -10 Glück für ein Jahr, wenn Krieg zwischen Ikkuro und einer anderen Fraktion ausbricht</string>
-		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>37</DefaultInfantryId>
+		<DefaultInfantryId>37</DefaultInfantryId> <!-- Sentinel Force -->
 		<Name>Ikkuro</Name>
 		<Description>\nDie Ikkuro sind große, muskulöse Primaten mit kurzem braun-rotem Fell.
 
@@ -2463,12 +2085,6 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 		<RaceId>6</RaceId> <!-- Boskara -->
 		<BundleName>Boskara</BundleName>
 		<FlagFilename>UserInterface/Flags/Boskara_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Boskara_2</string>
 			<string>UserInterface/Flags/Boskara_3</string>
@@ -2837,25 +2453,6 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 			<string>Dhziry</string>
 			<string>Mhegrhi</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -2872,12 +2469,7 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>22</DefaultInfantryId>
+		<DefaultInfantryId>22</DefaultInfantryId> <!-- Executioner Hive -->
 		<Name>Boskara</Name>
 		<Description>\nDie Boskara sind eine grausame insektoide Spezies mit einer zähen braunen Exoskelett-Haut.
 
@@ -2894,12 +2486,6 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 		<RaceId>7</RaceId> <!-- Zenox -->
 		<BundleName>Zenox</BundleName>
 		<FlagFilename>UserInterface/Flags/Zenox_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Zenox_2</string>
 			<string>UserInterface/Flags/Zenox_3</string>
@@ -3260,25 +2846,6 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 			<string>Profarian</string>
 			<string>Lincarz</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -3295,12 +2862,7 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>32</DefaultInfantryId>
+		<DefaultInfantryId>32</DefaultInfantryId> <!-- Robo-Guard Force -->
 		<Name>Zenox</Name>
 		<Description>\nDie Zenox sind eine uralte Katzenrasse mit dickem goldenen Fell.
 
@@ -3319,13 +2881,14 @@ Die Zenox bewohnen die Eis-Wüsten der Eis-Tundra, Eis- oder Permafrost-Planeten
 	</Race>
 	<Race>
 		<RaceId>8</RaceId> <!-- Wekkarus -->
-		<BundleName>Wekkarus</BundleName>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
+		<FlagFilename>UserInterface/Flags/wekkarus_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/wekkarus_2</string>
+			<string>UserInterface/Flags/wekkarus_3</string>
+			<string>UserInterface/Flags/wekkarus_4</string>
+			<string>UserInterface/Flags/wekkarus_5</string>
+			<string>UserInterface/Flags/wekkarus_6</string>
+		</AlternateFlagFilenames>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -3344,12 +2907,6 @@ Die Zenox bewohnen die Eis-Wüsten der Eis-Tundra, Eis- oder Permafrost-Planeten
 		<Caution>1.2</Caution>
 		<Dependability>0.9</Dependability>
 		<IsPlayable>false</IsPlayable>
-		<AllowableGovernmentIds>
-			<short>3</short> <!-- Feudalism -->
-			<short>4</short> <!-- Monarchy -->
-			<short>16</short> <!-- N/A -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -3397,11 +2954,31 @@ Die Zenox bewohnen die Eis-Wüsten der Eis-Tundra, Eis- oder Permafrost-Planeten
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>Undefined</Type>
-				<Amount>0.05</Amount>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</Bonuses>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>24</ResourceId> <!-- Questurian Skin -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+				<Amount>0.03</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
@@ -3430,14 +3007,6 @@ Die Zenox bewohnen die Eis-Wüsten der Eis-Tundra, Eis- oder Permafrost-Planeten
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
-		<StartingResearchProjectIds>
-			<short>0</short> <!-- Early Beam Weapons -->
-			<short>2</short> <!-- Early Area Weapons -->
-			<short>35</short> <!-- Tractor Beams -->
-			<short>402</short> <!-- Penetrating Scanners -->
-			<short>251</short> <!-- Early Energy Deflectors -->
-			<short>262</short> <!-- Proton Ionization -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>2</RaceId> <!-- Teekan -->
@@ -3488,60 +3057,10 @@ Die Zenox bewohnen die Eis-Wüsten der Eis-Tundra, Eis- oder Permafrost-Planeten
 				<Factor>-0.1</Factor>
 			</RaceFactor>
 		</Biases>
-		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>2</int> <!-- Rekarrun Crystal -->
 		</StartingArtifactIds>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>42</DefaultInfantryId>
+		<DefaultInfantryId>42</DefaultInfantryId> <!-- Guardian Brigade -->
 		<Name>Wekkarus</Name>
 		<Description>\nDie Wekkarus sind große Krustentiere mit ausgeprägten Mundwerkzeugen uns sind im Allgemeinen eine friedliche Spezies, die gerne für sich bleibt.
 
@@ -3560,13 +3079,14 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 	</Race>
 	<Race>
 		<RaceId>9</RaceId> <!-- Atuuk -->
-		<BundleName>Atuuk</BundleName>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
+		<FlagFilename>UserInterface/Flags/Atuuk_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Atuuk_2</string>
+			<string>UserInterface/Flags/Atuuk_3</string>
+			<string>UserInterface/Flags/Atuuk_4</string>
+			<string>UserInterface/Flags/Atuuk_5</string>
+			<string>UserInterface/Flags/Atuuk_6</string>
+		</AlternateFlagFilenames>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -3586,13 +3106,6 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 		<Caution>0.5</Caution>
 		<Dependability>1.25</Dependability>
 		<IsPlayable>false</IsPlayable>
-		<AllowableGovernmentIds>
-			<short>0</short> <!-- Republic -->
-			<short>3</short> <!-- Feudalism -->
-			<short>4</short> <!-- Monarchy -->
-			<short>18</short> <!-- N/A -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -3689,7 +3202,27 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>-0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</Bonuses>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>26</ResourceId> <!-- Caguar Fur -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>21</ResourceId> <!-- Rephidium Ale -->
+				<Amount>0.03</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
@@ -3704,12 +3237,6 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<StartingResearchProjectIds>
-			<short>4</short> <!-- Missile Weapons -->
-			<short>394</short> <!-- Basic Recreation Systems -->
-			<short>5</short> <!-- Kinetic Weapons -->
-			<short>6</short> <!-- Ground Combat -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -3724,8 +3251,20 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 				<Factor>0.2</Factor>
 			</RaceFactor>
 			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
 				<RaceId>5</RaceId> <!-- Ikkuro -->
 				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>0</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>7</RaceId> <!-- Zenox -->
@@ -3740,12 +3279,24 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 				<Factor>0.2</Factor>
 			</RaceFactor>
 			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
 				<RaceId>12</RaceId> <!-- Ketarov -->
 				<Factor>0.1</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>13</RaceId> <!-- Kiadian -->
 				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>0</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>15</RaceId> <!-- Quameno -->
@@ -3760,88 +3311,35 @@ Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftf
 				<Factor>0.2</Factor>
 			</RaceFactor>
 			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
 				<RaceId>19</RaceId> <!-- Ugnari -->
 				<Factor>0.1</Factor>
 			</RaceFactor>
 		</Biases>
-		<CharacterFirstNames>
-			<string>Lebon</string>
-			<string>Arridan</string>
-			<string>Essaf</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Atthanchi</string>
-			<string>Kodansta</string>
-			<string>Saxxul</string>
-		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>1</int> <!-- Scroll of Generations -->
 		</StartingArtifactIds>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>43</DefaultInfantryId>
+		<DefaultInfantryId>43</DefaultInfantryId> <!-- Hunting Party -->
 		<Name>Atuuk</Name>
-		<Description>\nDie Atuuk sind eine primitive, kurze, knuddelige, bärenartige Spezies mit gold-grünem Fell.
+		<Description>Die Atuuk sind eine primitive, kurze, knuddelige, bärenartige Spezies mit gold-grünem Fell.
 
 Atuuk sind im Allgemeinen sehr freundlich, aber auch sehr primitiv. Ebenso entwickeln sie in keiner Weise genügend Technologie, um raumfahrend zu werden.
- 
-Ihre mangelnde Bereitschaft, innovatives Denken zu tolerieren, hat dazu geführt, dass ihre Kultur und Technologie auf einem einfachen Niveau stagniert, aber durch ihre hohe Reproduktionsrate können Atuuk-Gemeinschaften meist schnell wachsen.
 
 Atuuk haben ihre Geschichte durch detaillierte mündliche Überlieferungen bewahrt, die hunderte von Generationen zurückreichen. Mit der Zeit haben sie auch eine komplexe soziale Ordnung entwickelt. Jeder Einzelne muss seinen vorbestimmten Status innerhalb der Gemeinschaft akzeptieren, oder er wird geächtet.
 
+Ihre mangelnde Bereitschaft, innovatives Denken zu tolerieren, hat dazu geführt, dass ihre Kultur und Technologie auf einem einfachen Niveau stagniert, aber durch ihre hohe Reproduktionsrate können Atuuk-Gemeinschaften meist schnell wachsen.
+
 Vor allem jagen die Atuuks gerne in den Dschungeln ihrer Heimatwelten und ihre bevorzugte Beute ist der gestreifte Caguar, eine riesige Säbelkatze, die mit rasiermesserscharfen Krallen bewaffnet ist. Die Jagd auf diese riesige Bestie ist extrem gefährlich, aber Atuuks jagen Caguars meist in Teams von 30-40 Mitgliedern, bewaffnet mit einfachen Speeren mit Steinspitzen.
 
-Atuuks leben in primitiven Baumhütten auf Wald- oder Kontinentalplaneten.</Description>
+Atuuks leben in primitiven Baumhütten auf Wald-, Grassland- oder Kontinentalplaneten.</Description>
 		<ImageFilename>UserInterface/Races/Atuuk</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>10</RaceId> <!-- Dhayut -->
-		<BundleName>Dhayut</BundleName>
 		<FlagFilename>UserInterface/Flags/Dhayut_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Dhayut_2</string>
 			<string>UserInterface/Flags/Dhayut_3</string>
@@ -3869,16 +3367,6 @@ Atuuks leben in primitiven Baumhütten auf Wald- oder Kontinentalplaneten.</Desc
 		<Dependability>0.7</Dependability>
 		<ImportanceOfOthersReputations>0.76</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
-		<PreferredGovernmentIds>
-			<short>12</short> <!-- Surveillance Oligarchy -->
-		</PreferredGovernmentIds>
-		<AllowableGovernmentIds>
-			<short>3</short> <!-- Feudalism -->
-			<short>5</short> <!-- Military Dictatorship -->
-			<short>7</short> <!-- Hive Mind -->
-			<short>12</short> <!-- Surveillance Oligarchy -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
@@ -3924,12 +3412,6 @@ Atuuks leben in primitiven Baumhütten auf Wald- oder Kontinentalplaneten.</Desc
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
-		<StartingResearchProjectIds>
-			<short>3</short> <!-- Early Torpedo Weapons -->
-			<short>6</short> <!-- Ground Combat -->
-			<short>385</short> <!-- Basic Countermeasures -->
-			<short>768</short> <!-- Early Pulse Weapons -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -4008,168 +3490,7 @@ Atuuks leben in primitiven Baumhütten auf Wald- oder Kontinentalplaneten.</Desc
 				<Factor>-0.6</Factor>
 			</RaceFactor>
 		</Biases>
-		<DesignNames>
-			<string>Kazan</string>
-			<string>Ostrov</string>
-			<string>Kirov</string>
-			<string>Astrakhan</string>
-			<string>Ivanov</string>
-			<string>Vasil</string>
-			<string>Murmansk</string>
-			<string>Batumi</string>
-			<string>Rostov</string>
-			<string>Vostok</string>
-			<string>Stavropol</string>
-			<string>Omsk</string>
-			<string>Novgorod</string>
-			<string>Leningrad</string>
-			<string>Chelyabinsk</string>
-			<string>Kharkov</string>
-			<string>Kiev</string>
-			<string>Minsk</string>
-			<string>Volgograd</string>
-			<string>Odessa</string>
-			<string>Ufa</string>
-			<string>Gorkiy</string>
-			<string>Vilnius</string>
-			<string>Smolensk</string>
-			<string>Sevastopol</string>
-			<string>Donetsk</string>
-			<string>Grozny</string>
-			<string>Tula</string>
-			<string>Zhitomir</string>
-			<string>Yekaterinburg</string>
-			<string>Kamchatka</string>
-			<string>Khabarovsk</string>
-			<string>Vladivostok</string>
-			<string>Severnaya</string>
-			<string>Saratov</string>
-			<string>Sibirskaya</string>
-		</DesignNames>
-		<VictoryConditions>
-			<VictoryCondition>
-				<Type>ControlHomeworld</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>ConquerMostEnemyColonies</Type>
-				<Proportion>0.5</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>EnslavePopulationProportionEmpire</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0.25</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-		</VictoryConditions>
-		<CharacterFirstNames>
-			<string>Qarg</string>
-			<string>Cwedo</string>
-			<string>Rardi</string>
-			<string>Dashak</string>
-			<string>Dosti</string>
-			<string>Spidos</string>
-			<string>Arak</string>
-			<string>Konid</string>
-			<string>Edul</string>
-			<string>Cossot</string>
-			<string>Garko</string>
-			<string>Madog</string>
-			<string>Nerut</string>
-			<string>Landi</string>
-			<string>Aesunt</string>
-			<string>Kapulit</string>
-			<string>Warsun</string>
-			<string>Fandu</string>
-			<string>Yurit</string>
-			<string>Xandu</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Boshak</string>
-			<string>Teklor</string>
-			<string>Zaddaty</string>
-			<string>Kazzantor</string>
-			<string>Gotraz</string>
-			<string>Dhaszan</string>
-			<string>Yutak</string>
-			<string>Hasshal</string>
-			<string>Panzut</string>
-			<string>Oodan</string>
-			<string>Xarak</string>
-			<string>Arratul</string>
-			<string>Mukran</string>
-			<string>Suuyat</string>
-			<string>Werok</string>
-			<string>Fashat</string>
-			<string>Nuumal</string>
-			<string>Heredos</string>
-			<string>Karkran</string>
-			<string>Bhayut</string>
-			<string>Joorabek</string>
-		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>8</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0.1</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>1</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<DifficultIntelligenceMissionSuccessColonyEventDefinitionId>38</DifficultIntelligenceMissionSuccessColonyEventDefinitionId> <!-- Inspired Conniving -->
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AdditionalCharacterTraits>
-			<CharacterTraitType>Slaver</CharacterTraitType>
-			<CharacterTraitType>DivideAndRule</CharacterTraitType>
-			<CharacterTraitType>CarefulWeaver</CharacterTraitType>
-			<CharacterTraitType>StrikesFromShadow</CharacterTraitType>
-		</AdditionalCharacterTraits>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>InfluenceEmpirePositively</CharacterMissionType>
-			<CharacterMissionType>InfluenceEmpireNegatively</CharacterMissionType>
-			<CharacterMissionType>CaptureBase</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<FeatureExplanations>
-			<string>[HL]Desinformation:[/HL] Der Erfolg einer Deep-Cover-Mission gegen eine andere Fraktion bietet auch die Möglichkeit, Desinformation auf allen Ebenen zu erzeugen, so dass die Zielfraktion die Dhayut positiver sieht.</string>
-			<string>[HL]Inspirierte Hinterlist:[/HL] Wenn eine schwierige Geheimdienstmission erfolgreich ist, erhalten alle Spionagemissionen gegen diese Fraktion im nächsten Jahr einen Boost.</string>
-			<string>[HL]Einzigartige Anführereigenschaft - Sklavenhändler:[/HL] +10% Einkommen aus Sklaverei</string>
-			<string>[HL]Einzigartige Anführer-Eigenschaft - Teilen und Herrschen:[/HL] +5% Glück</string>
-			<string>[HL]Einzigartige Spionage-Eigenschaft - Vorsichtige Weberin:[/HL] +10% Gegenspionage</string>
-			<string>[HL]Einzigartige Spionageeigenschaft - Schläge aus dem Schatten:[/HL] +10% Meucheln</string>
-		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>44</DefaultInfantryId>
+		<DefaultInfantryId>44</DefaultInfantryId> <!-- Mercenary Brigade -->
 		<Name>Dhayut</Name>
 		<Description>\nDie Dhayut sind eine große, kräftige Spinnenrasse mit einen massiven aufgeblähten Kopf mit auffälligen roten Flecken und großen orange-gelben Augen.
 
@@ -4188,14 +3509,7 @@ Die natürlichen Lebensräume der Dhayuts sind felsige Rückzugsgebiete auf den 
 	</Race>
 	<Race>
 		<RaceId>11</RaceId> <!-- Gizurean -->
-		<BundleName>Gizurean</BundleName>
 		<FlagFilename>UserInterface/Flags/Gizurean_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Gizurean_2</string>
 			<string>UserInterface/Flags/Gizurean_3</string>
@@ -4222,15 +3536,6 @@ Die natürlichen Lebensräume der Dhayuts sind felsige Rückzugsgebiete auf den 
 		<Caution>0.85</Caution>
 		<Dependability>0.9</Dependability>
 		<IsPlayable>false</IsPlayable>
-		<PreferredGovernmentIds>
-			<short>14</short> <!-- Cell Hegemony -->
-		</PreferredGovernmentIds>
-		<AllowableGovernmentIds>
-			<short>14</short> <!-- Cell Hegemony -->
-			<short>3</short> <!-- Feudalism -->
-			<short>0</short> <!-- Republic -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -4329,13 +3634,6 @@ Die natürlichen Lebensräume der Dhayuts sind felsige Rückzugsgebiete auf den 
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<StartingResearchProjectIds>
-			<short>768</short> <!-- Early Pulse Weapons -->
-			<short>4</short> <!-- Missile Weapons -->
-			<short>6</short> <!-- Ground Combat -->
-			<short>254</short> <!-- Starship Maneuvering -->
-			<short>385</short> <!-- Basic Countermeasures -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -4418,179 +3716,7 @@ Die natürlichen Lebensräume der Dhayuts sind felsige Rückzugsgebiete auf den 
 				<Factor>-1</Factor>
 			</RaceFactor>
 		</Biases>
-		<DesignNames>
-			<string>Kojari</string>
-			<string>Karjing</string>
-			<string>Lonsu</string>
-			<string>Chodan</string>
-			<string>Gudari</string>
-			<string>Zuukeer</string>
-			<string>Larkos</string>
-			<string>Jutang</string>
-			<string>Makrho</string>
-			<string>Tonshak</string>
-			<string>Pokari</string>
-			<string>Yartos</string>
-			<string>Sarmeer</string>
-			<string>Dekrun</string>
-			<string>Raaki</string>
-			<string>Ventuul</string>
-			<string>Birshak</string>
-			<string>Fodari</string>
-			<string>Nunkros</string>
-			<string>Hanpo</string>
-			<string>Yukoros</string>
-			<string>Linshek</string>
-			<string>Sharqeri</string>
-			<string>Doshak</string>
-			<string>Zamlek</string>
-			<string>Foshera</string>
-			<string>Mandaxi</string>
-			<string>Orelex</string>
-			<string>Rhektalex</string>
-			<string>Xura</string>
-			<string>Aruga</string>
-			<string>Teklosan</string>
-		</DesignNames>
-		<VictoryConditions>
-			<VictoryCondition>
-				<Type>BuildMostMilitaryShips</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>MostColonies</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>MostTimeWarring</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>CaptureMostShips</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-		</VictoryConditions>
-		<CharacterFirstNames>
-			<string>Suun</string>
-			<string>Jizor</string>
-			<string>Ruugar</string>
-			<string>Qutar</string>
-			<string>Dashak</string>
-			<string>Karzi</string>
-			<string>Mugap</string>
-			<string>Vedank</string>
-			<string>Cruzeb</string>
-			<string>Ovistu</string>
-			<string>Jotari</string>
-			<string>Yedor</string>
-			<string>Ret</string>
-			<string>Xok</string>
-			<string>Pundi</string>
-			<string>Zak</string>
-			<string>Pigar</string>
-			<string>Darpo</string>
-			<string>Gundek</string>
-			<string>Li</string>
-			<string>Yogar</string>
-			<string>Shindu</string>
-			<string>Agra</string>
-			<string>Kintu</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Wuzzeki</string>
-			<string>Jharshek</string>
-			<string>Clodari</string>
-			<string>Nyutal</string>
-			<string>Chungat</string>
-			<string>Lijar</string>
-			<string>Priltok</string>
-			<string>Narsil</string>
-			<string>Frodak</string>
-			<string>Buuzak</string>
-			<string>Orzeri</string>
-			<string>Kelsu</string>
-			<string>Greedul</string>
-			<string>Panaki</string>
-			<string>Fundark</string>
-			<string>Baktuu</string>
-			<string>Kardari</string>
-			<string>Zhodaki</string>
-			<string>Goshek</string>
-			<string>Lyvax</string>
-			<string>Uztan</string>
-			<string>Yutalix</string>
-			<string>Eparzi</string>
-			<string>Jhorbek</string>
-		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0.1</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0.1</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>30</RetireCompleteAdvancedTechBonusResearchAmount>
-		<ColonyConquestGameEventName>Scouring Choice (Gizurean)</ColonyConquestGameEventName>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<OtherRaceExterminateColonyEventDefinitionId>73</OtherRaceExterminateColonyEventDefinitionId> <!-- Breeding World -->
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AdditionalCharacterTraits>
-			<CharacterTraitType>GiftedConduit</CharacterTraitType>
-			<CharacterTraitType>ControllingMind</CharacterTraitType>
-			<CharacterTraitType>SwarmLord</CharacterTraitType>
-			<CharacterTraitType>LarvaOverseer</CharacterTraitType>
-		</AdditionalCharacterTraits>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<FeatureExplanations>
-			<string>[HL]Nichts verschwenden:[/HL] 25% erhöhte Chance auf Tech-Boosts, wenn Sie ein Schiff mit fortgeschrittener Technologie bergen oder ausmustern. Zusätzlicher Tech-Boost, wenn Sie ein fortgeschrittenes Schiff komplett ausmustern.</string>
-			<string>[HL]Die Geißelung:[/HL] Sie haben die Wahl, eine neu eroberte feindliche Kolonie zu 'geißeln'. Die Durchsuchung setzt die Entwicklung der Kolonie zurück, verbraucht 10% der Bevölkerung, führt zu einem vorübergehenden Glücksverlust und schadet dem Ruf. Aber sie bietet einen zusätzlichen technischen Durchbruch bei der Eroberung, einen großen Ressourcenvorrat und erhöht vorübergehend das Bevölkerungswachstum der Gizureaner in Ihrem gesamten Reich.</string>
-			<string>[HL]Rivalitäten:[/HL] Sie müssen zwischen 2 Charakteren in einem Machtkampf wählen, wobei Sie einen von ihnen töten, den anderen aber mit neuen Fähigkeiten und Eigenschaften ausstatten.</string>
-			<string>[HL]Zuchtwelt:[/HL] gewährt einen Bonus auf die gizureanische Bevölkerungswachstumsrate in Ihrem gesamten Imperium, wenn Sie die Politik der Bevölkerungsvernichtung gegen eine nicht-gizureanische Ethnie in einer Ihrer Kolonien anwenden. Zusätzliche Zuchtwelten bieten kumulative Boni</string>
-			<string>[HL]Stammeskonflikt:[/HL] Kurzfristiger, reichsweiter Anstieg der gizureanischen Bevölkerungswachstumsrate, aber mit einem damit einhergehenden Glücksverlust</string>
-			<string>[HL]Schwarmkommando:[/HL] spezieller Zielcomputer für Schiffe, der eine erhöhte Zielgenauigkeit basierend auf der Gesamtzahl der Schiffe in einer Flotte ermöglicht</string>
-			<string>[HL]Einzigartige Anführer-Eigenschaft - Begabter Conduit:[/HL] +10% Kolonie-Glück</string>
-			<string>[HL]Einzigartige Anführer-Eigenschaft - Verstandeskontrolle:[/HL] +10% Verderbnisreduktion</string>
-			<string>[HL]Einzigartige allgemeine Eigenschaft - Schwarmlord:[/HL] +10% Truppenrekrutierungsrate, +10% Einsparungen beim Truppenunterhalt</string>
-			<string>[HL]Einzigartige allgemeine Eigenschaft - Larvenaufseher:[/HL] +10% Truppenerholungsrate</string>
-		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>45</DefaultInfantryId>
+		<DefaultInfantryId>45</DefaultInfantryId> <!-- War Swarm -->
 		<Name>Gizurean</Name>
 		<Description>\nDie Gizurean sind eine insektoide Spezies mit vier Armen, wobei sie mit ihren kleinen Flügeln auch kurze Strecken fliegen können.
 
@@ -4605,12 +3731,6 @@ Gizurean bauen ihre höhlenartigen unterirdischen Behausungen in der Regel in fe
 	</Race>
 	<Race>
 		<RaceId>12</RaceId> <!-- Ketarov -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -4748,25 +3868,6 @@ Gizurean bauen ihre höhlenartigen unterirdischen Behausungen in der Regel in fe
 			<string>Kodansta</string>
 			<string>Saxxul</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -4783,12 +3884,7 @@ Gizurean bauen ihre höhlenartigen unterirdischen Behausungen in der Regel in fe
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>46</DefaultInfantryId>
+		<DefaultInfantryId>46</DefaultInfantryId> <!-- Battle Group -->
 		<Name>Ketarov</Name>
 		<Description>\nDie Ketarov sind eine durchschnittlich große, zweibeinige Säugetierrasse mit kurzem, weißem Fell.
 
@@ -4803,12 +3899,6 @@ Die Ketarov sind normalerweise in großen Gemeinschaften zu finden, die in den w
 	</Race>
 	<Race>
 		<RaceId>13</RaceId> <!-- Kiadian -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -4945,25 +4035,6 @@ Die Ketarov sind normalerweise in großen Gemeinschaften zu finden, die in den w
 		<StartingArtifactIds>
 			<int>3</int> <!-- Tablet of Aksorra -->
 		</StartingArtifactIds>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -4980,12 +4051,7 @@ Die Ketarov sind normalerweise in großen Gemeinschaften zu finden, die in den w
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>47</DefaultInfantryId>
+		<DefaultInfantryId>47</DefaultInfantryId> <!-- Battle Trooper Brigade -->
 		<Name>Kiadian</Name>
 		<Description>\nDie Kiadian sind eine hochintelligente humanoide Spezies mit einem stark erweiterten Schädel.
 
@@ -5004,12 +4070,6 @@ Die typischen Lebensräume der Kiadian sind die Berge und Hochebenen der Kontine
 	</Race>
 	<Race>
 		<RaceId>14</RaceId> <!-- Naxxilian -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -5161,25 +4221,6 @@ Die typischen Lebensräume der Kiadian sind die Berge und Hochebenen der Kontine
 			<string>Zhukziban</string>
 			<string>Rustov</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -5196,12 +4237,7 @@ Die typischen Lebensräume der Kiadian sind die Berge und Hochebenen der Kontine
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>48</DefaultInfantryId>
+		<DefaultInfantryId>48</DefaultInfantryId> <!-- Fighting Clan -->
 		<Name>Naxxilian</Name>
 		<Description>\nDie Naxxilian sind hoch aufragende, furchterregende Reptilien mit intensiv-roten Augen. Obwohl sie Reptilien sind, sind die Naxxilian mit einem zotteligen Fell bedeckt und sie haben immens starke Unterarme, die sie gut für den Nahkampf qualifizieren.
 
@@ -5218,14 +4254,7 @@ Die Naxxilian leben normalerweise in den Eis-Wüsten der Eis-Tundra- und Eis-Pla
 	</Race>
 	<Race>
 		<RaceId>15</RaceId> <!-- Quameno -->
-		<BundleName>Quameno</BundleName>
 		<FlagFilename>UserInterface/Flags/Quameno_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Quameno_2</string>
 			<string>UserInterface/Flags/Quameno_3</string>
@@ -5252,15 +4281,6 @@ Die Naxxilian leben normalerweise in den Eis-Wüsten der Eis-Tundra- und Eis-Pla
 		<Caution>1.25</Caution>
 		<Dependability>1.3</Dependability>
 		<IsPlayable>false</IsPlayable>
-		<PreferredGovernmentIds>
-			<short>13</short> <!-- Geniocracy -->
-		</PreferredGovernmentIds>
-		<AllowableGovernmentIds>
-			<short>2</short> <!-- Democracy -->
-			<short>4</short> <!-- Monarchy -->
-			<short>13</short> <!-- Geniocracy -->
-			<short>32759</short> <!-- Refugee Fleet -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -5335,13 +4355,6 @@ Die Naxxilian leben normalerweise in den Eis-Wüsten der Eis-Tundra- und Eis-Pla
 				<Factor>0.2</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<StartingResearchProjectIds>
-			<short>768</short> <!-- Early Pulse Weapons -->
-			<short>3</short> <!-- Early Torpedo Weapons -->
-			<short>6</short> <!-- Ground Combat -->
-			<short>22</short> <!-- Robotic Troops -->
-			<short>405</short> <!-- Exploration Scanners -->
-		</StartingResearchProjectIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -5420,201 +4433,10 @@ Die Naxxilian leben normalerweise in den Eis-Wüsten der Eis-Tundra- und Eis-Pla
 				<Factor>-0.2</Factor>
 			</RaceFactor>
 		</Biases>
-		<DesignNames>
-			<string>Quartos</string>
-			<string>Dunavia</string>
-			<string>Heruso</string>
-			<string>Yiqqus</string>
-			<string>Qasar</string>
-			<string>Rubandi</string>
-			<string>Urto</string>
-			<string>Wereshta</string>
-			<string>Shupoq</string>
-			<string>Liriso</string>
-			<string>Astara</string>
-			<string>Azuros</string>
-			<string>Orotu</string>
-			<string>Basula</string>
-			<string>Xertu</string>
-			<string>Juura</string>
-			<string>Rurek</string>
-			<string>Klasur</string>
-			<string>Sutak</string>
-			<string>Faruutin</string>
-			<string>Excosu</string>
-			<string>Naculon</string>
-			<string>Torsandu</string>
-			<string>Gendu</string>
-			<string>Zorshasta</string>
-			<string>Varisek</string>
-			<string>Mendachu</string>
-			<string>Corasol</string>
-			<string>Perrandu</string>
-			<string>Isaren</string>
-			<string>Lankaros</string>
-			<string>Dursto</string>
-			<string>Rankon</string>
-			<string>Kurestian</string>
-			<string>Judasian</string>
-			<string>Cwasten</string>
-		</DesignNames>
-		<VictoryConditions>
-			<VictoryCondition>
-				<Type>BuildFacility</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>0</Amount>
-				<Id>96</Id> <!-- Transcendence Hub -->
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>LeastTreaties</Type>
-				<Proportion>0.2</Proportion>
-				<Amount>1</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>ResearchMostCompletedBranches</Type>
-				<Proportion>0.35</Proportion>
-				<Amount>1</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-			<VictoryCondition>
-				<Type>EmpireBonusLevel</Type>
-				<Proportion>0.2</Proportion>
-				<Amount>0.3</Amount>
-				<Id>88</Id>
-			</VictoryCondition>
-		</VictoryConditions>
-		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-			<string>Tala</string>
-			<string>Kara</string>
-			<string>Setu</string>
-			<string>Cwegu</string>
-			<string>Cos</string>
-			<string>Tesa</string>
-			<string>Pok</string>
-			<string>Yadu</string>
-			<string>Deria</string>
-			<string>Aki</string>
-			<string>Shardu</string>
-			<string>Inar</string>
-			<string>Wendos</string>
-			<string>Jokal</string>
-			<string>Seru</string>
-			<string>Vuntal</string>
-			<string>Netu</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-			<string>Se</string>
-			<string>Mokuri</string>
-			<string>Zo</string>
-			<string>Tan</string>
-			<string>Mudo</string>
-			<string>Brosi</string>
-			<string>Neres</string>
-			<string>Yudos</string>
-			<string>Ukan</string>
-			<string>Opadu</string>
-			<string>Kassaru</string>
-			<string>Nerasi</string>
-			<string>Dando</string>
-			<string>Passun</string>
-			<string>Tafus</string>
-			<string>Zu</string>
-			<string>Nerendu</string>
-		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>0</int> <!-- Stele of Takdun -->
 		</StartingArtifactIds>
-		<TreatyLevelModifier>10</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<TreatySignedColonyEventDefinitionId>58</TreatySignedColonyEventDefinitionId> <!-- Alien Distractions -->
-		<OngoingPopulationAssimilationColonyEventDefinitionId>59</OngoingPopulationAssimilationColonyEventDefinitionId> <!-- Integration Studies -->
-		<FacilityBuiltDefinitionIds>
-			<short>96</short> <!-- Transcendence Hub -->
-		</FacilityBuiltDefinitionIds>
-		<FacilityBuiltColonyEventDefinitionIds>
-			<short>60</short> <!-- The Answer -->
-		</FacilityBuiltColonyEventDefinitionIds>
-		<FacilityBuiltGameEventNames>
-			<string>Build Transcendence Hub (Quameno)</string>
-		</FacilityBuiltGameEventNames>
-		<ResearchProjectCompletedAdvancedColonyEventDefinitionId>61</ResearchProjectCompletedAdvancedColonyEventDefinitionId> <!-- A Puzzle Solved -->
-		<ResearchProjectCompletedAdvancedGameEventName>Implement A Puzzle Solved (Quameno)</ResearchProjectCompletedAdvancedGameEventName>
-		<ResearchProjectCompletedAdvancedMaximumChance>1</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>5</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ShipRoleBuiltRoles>
-			<ShipRole>ResearchStation</ShipRole>
-		</ShipRoleBuiltRoles>
-		<ShipRoleBuiltColonyEventDefinitionIds>
-			<short>62</short> <!-- Building the Future -->
-		</ShipRoleBuiltColonyEventDefinitionIds>
-		<ResearchLocationDiscoveredProgressChance>0.5</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0.25</ResearchLocationDiscoveredProgressAmountRatio>
-		<CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>95</CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>
-		<MaximumConcurrentResearchProjects>1</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<StartingCharacterTraitsAmbassador>
-			<CharacterTraitType>Linguist</CharacterTraitType>
-		</StartingCharacterTraitsAmbassador>
-		<AdditionalCharacterTraits>
-			<CharacterTraitType>PuzzleSolver</CharacterTraitType>
-			<CharacterTraitType>Introverted</CharacterTraitType>
-			<CharacterTraitType>Driven</CharacterTraitType>
-			<CharacterTraitType>EfficiencySpecialist</CharacterTraitType>
-		</AdditionalCharacterTraits>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<FeatureExplanations>
-			<string>[HL]Ablenkungen durch Aliens:[/HL] +1 Glück und -20% aller Forschungen für 2 Jahre, wenn Sie einen Vertrag mit einer anderen Fraktion unterzeichnen</string>
-			<string>[HL]Integrationsstudien:[/HL] reduzierte Glücks- und Forschungsleistung, wenn Sie nicht assimilierte fremde Bevölkerungen in Ihren Kolonien haben. Die Höhe der Reduzierung hängt vom Anteil der nicht assimilierten Bevölkerung in Ihrem Reich ab.</string>
-			<string>[HL]Die Antwort:[/HL] +10% Glück für 5 Jahre und ein zufälliger Technologieschub, wenn Sie die planetarische Einrichtung Transcendence Hub bauen</string>
-			<string>[HL]Ein Rätsel gelöst:[/HL] Wenn Sie ein fortgeschrittenes Forschungsprojekt abschließen (Tech-Level 5 oder höher), haben Sie eine geringe Chance auf die folgenden Vorteile: +10% Glück und +10% für alle Forschungen für 2 Jahre, plus eine positive Bonuseigenschaft für Ihren Anführer und einen Wissenschaftler. Bei Projekten höherer Stufe ist die Chance, dass dieses Ereignis eintritt, größer.</string>
-			<string>[HL]Aufbau der Zukunft:[/HL] +5 Glück für 6 Monate, wenn Sie eine neue Forschungsstation bauen</string>
-			<string>[HL]Ein Stück des Puzzles:[/HL] 50% Chance auf einen 25%igen Forschungsschub in einer verwandten Technologie und einen Bonus von +10% auf das Bevölkerungswachstum im gesamten Reich für ein Jahr, wenn Sie einen neuen Forschungsstandort entdecken</string>
-			<string>[HL]Einzigartige Anführereigenschaft - Rätsellöser:[/HL] +5% Alle Forschungen, -5% Kolonieeinkommen</string>
-			<string>[HL]Einzigartige Anführereigenschaft - Introvertiert:[/HL] -10% Diplomatie</string>
-			<string>[HL]Einzigartige Wissenschaftler-Eigenschaft - Angetrieben:[/HL] +5% Alle Forschungen, aber erhöhte Chance eines kritischen Forschungsfehlers</string>
-			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Effizienzspezialist:[/HL] 20% Rabatt auf die Kosten der Crash-Forschung</string>
-			<string>[HL]Botschafter Starteigenschaft:[/HL] Alle Botschafter beginnen mit der Eigenschaft Linguist (+5% Diplomatie, +5% Tourismuseinkommen)</string>
-			<string>[HL]Gleichzeitige Forschung deaktiviert:[/HL] Sie können jeweils nur ein Projekt erforschen.</string>
-		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>49</DefaultInfantryId>
+		<DefaultInfantryId>49</DefaultInfantryId> <!-- BattleMech Brigade -->
 		<Name>Quameno</Name>
 		<Description>Die Quameno sind eine hochintelligente amphibische Ethnie. Quameno sind groß und anmutig, mit langen Gliedmaßen und einem langen Hals. Ihre großen Augen befinden sich an der Seite ihres Kopfes, was ihnen ein ausgezeichnetes peripheres Sehvermögen mit einer Reichweite von fast 360 Grad verleiht.
 
@@ -5632,12 +4454,6 @@ Quameno-Gemeinschaften leben typischerweise in halbversunkenen, hochtechnisierte
 	<Race>
 		<RaceId>16</RaceId> <!-- Securan -->
 		<BundleName>Quameno</BundleName>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -5763,25 +4579,6 @@ Quameno-Gemeinschaften leben typischerweise in halbversunkenen, hochtechnisierte
 		<StartingArtifactIds>
 			<int>4</int> <!-- Harp of Karidas -->
 		</StartingArtifactIds>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -5798,12 +4595,7 @@ Quameno-Gemeinschaften leben typischerweise in halbversunkenen, hochtechnisierte
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>50</DefaultInfantryId>
+		<DefaultInfantryId>50</DefaultInfantryId> <!-- Scout Group -->
 		<Name>Securan</Name>
 		<Description>\nDie Securan sind eine auffallend attraktive, bläulich-grünhäutige humanoide Spezies.
 
@@ -5824,12 +4616,6 @@ Die Securan bewohnen die weiten, offenen Ebenen der Savannen-Wüsten-, Sand-Wüs
 	</Race>
 	<Race>
 		<RaceId>17</RaceId> <!-- Shandar -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -5941,25 +4727,6 @@ Die Securan bewohnen die weiten, offenen Ebenen der Savannen-Wüsten-, Sand-Wüs
 			<string>Zhukziban</string>
 			<string>Rustov</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -5976,12 +4743,7 @@ Die Securan bewohnen die weiten, offenen Ebenen der Savannen-Wüsten-, Sand-Wüs
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>51</DefaultInfantryId>
+		<DefaultInfantryId>51</DefaultInfantryId> <!-- Protector Force -->
 		<Name>Shandar</Name>
 		<Description>\nDie Shandar sind eine leichtlebige Reptilienrasse mit grüner schuppiger Haut.
 
@@ -5996,12 +4758,6 @@ Obwohl Shandar oft fleißig nach Edelsteinen schürfen, interessieren sie sich i
 	</Race>
 	<Race>
 		<RaceId>18</RaceId> <!-- Sluken -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -6139,25 +4895,6 @@ Obwohl Shandar oft fleißig nach Edelsteinen schürfen, interessieren sie sich i
 			<string>Teklor</string>
 			<string>Zaddaty</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -6174,12 +4911,7 @@ Obwohl Shandar oft fleißig nach Edelsteinen schürfen, interessieren sie sich i
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>52</DefaultInfantryId>
+		<DefaultInfantryId>52</DefaultInfantryId> <!-- Terminator Brigade -->
 		<Name>Sluken</Name>
 		<Description>\nDie Sluken sind eine kleine insektoide Spezies mit einem dicken braunen Exoskelett. Sluken haben viele kleine Unterarme, die es ihnen ermöglichen, mehrere Aktionen gleichzeitig auszuführen.
 
@@ -6196,12 +4928,6 @@ Sluken sind meist auf Sumpf- oder Mangroven-Wald-Planeten zu finden.</Descriptio
 	</Race>
 	<Race>
 		<RaceId>19</RaceId> <!-- Ugnari -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -6353,25 +5079,6 @@ Sluken sind meist auf Sumpf- oder Mangroven-Wald-Planeten zu finden.</Descriptio
 			<string>Woppit</string>
 			<string>Owak</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -6388,12 +5095,7 @@ Sluken sind meist auf Sumpf- oder Mangroven-Wald-Planeten zu finden.</Descriptio
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>53</DefaultInfantryId>
+		<DefaultInfantryId>53</DefaultInfantryId> <!-- WarBot Brigade -->
 		<Name>Ugnari</Name>
 		<Description>\nDie Ugnari sind eine kleine, runzlige Nagetierrasse.
 
@@ -6414,14 +5116,7 @@ Die Ugnari bewohnen die Tundra-Wüsten der Eis-Tundra- und Eis-Planeten. Normale
 	</Race>
 	<Race>
 		<RaceId>20</RaceId> <!-- Shakturi -->
-		<BundleName>Shakturi</BundleName>
 		<FlagFilename>UserInterface/Flags/Shakturi_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Shakturi_2</string>
 			<string>UserInterface/Flags/Shakturi_3</string>
@@ -6448,13 +5143,6 @@ Die Ugnari bewohnen die Tundra-Wüsten der Eis-Tundra- und Eis-Planeten. Normale
 		<Dependability>0.5</Dependability>
 		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
 		<PreventUseAsIndependent>true</PreventUseAsIndependent>
-		<PreferredGovernmentIds>
-			<short>8</short> <!-- Way of Darkness -->
-		</PreferredGovernmentIds>
-		<AllowableGovernmentIds>
-			<short>8</short> <!-- Way of Darkness -->
-			<short>15</short> <!-- N/A -->
-		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -6550,15 +5238,6 @@ Die Ugnari bewohnen die Tundra-Wüsten der Eis-Tundra- und Eis-Planeten. Normale
 				<Factor>0.35</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<PreferredWeaponComponentIds>
-			<short>24</short> <!-- Firestorm Torpedo [Ftr] -->
-			<short>161</short> <!-- Firestorm Torpedo [L] -->
-			<short>235</short> <!-- Firestorm Torpedo [S] -->
-			<short>393</short> <!-- Inferno Torpedo [Ftr] -->
-			<short>394</short> <!-- Inferno Torpedo [S] -->
-			<short>395</short> <!-- Inferno Torpedo [M] -->
-			<short>396</short> <!-- Inferno Torpedo [L] -->
-		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -6641,145 +5320,7 @@ Die Ugnari bewohnen die Tundra-Wüsten der Eis-Tundra- und Eis-Planeten. Normale
 				<Factor>-0.7</Factor>
 			</RaceFactor>
 		</Biases>
-		<DesignNames>
-			<string>Kandakret</string>
-			<string>Agarasu</string>
-			<string>Zhetik</string>
-			<string>Mulkaz</string>
-			<string>Jareltoz</string>
-			<string>Sezpo</string>
-			<string>Lazzerul</string>
-			<string>Groshak</string>
-			<string>Bortezzhu</string>
-			<string>Daletur</string>
-			<string>Shaktol</string>
-			<string>Sharudiz</string>
-			<string>Klotep</string>
-			<string>Zharantur</string>
-			<string>Xekkutur</string>
-			<string>Tobintu</string>
-			<string>Blundakari</string>
-			<string>Hekshan</string>
-			<string>Qerindut</string>
-			<string>Dezzhandi</string>
-			<string>Nesagri</string>
-			<string>Terayandos</string>
-			<string>Pattarez</string>
-			<string>Rakazhet</string>
-			<string>Murgastek</string>
-			<string>Ottoran</string>
-			<string>Veskuta</string>
-			<string>Feshtak</string>
-			<string>Jartazak</string>
-			<string>Huzzantaga</string>
-			<string>Tikba</string>
-			<string>Skarzek</string>
-			<string>Laxindak</string>
-			<string>Ukkutar</string>
-			<string>Ruktar</string>
-		</DesignNames>
-		<VictoryConditions>
-			<VictoryCondition>
-				<Type>MostHomeworlds</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>1</Amount>
-				<Id>0</Id>
-			</VictoryCondition>
-		</VictoryConditions>
-		<CharacterFirstNames>
-			<string>Grotek</string>
-			<string>Sjandar</string>
-			<string>Urzi</string>
-			<string>Pergat</string>
-			<string>Bosta</string>
-			<string>Kartik</string>
-			<string>Zhentok</string>
-			<string>Ekkat</string>
-			<string>Litoz</string>
-			<string>Akshi</string>
-			<string>Khoravvi</string>
-			<string>Feksha</string>
-			<string>Ottun</string>
-			<string>Mekri</string>
-			<string>Jukol</string>
-			<string>Sareku</string>
-			<string>Zikula</string>
-			<string>Gerrik</string>
-			<string>Dakru</string>
-			<string>Nikkux</string>
-			<string>Roppat</string>
-			<string>Tukal</string>
-			<string>Sirkaz</string>
-		</CharacterFirstNames>
-		<CharacterLastNames>
-			<string>Tokret</string>
-			<string>Jaratek</string>
-			<string>Shuktar</string>
-			<string>Shuztak</string>
-			<string>Zhakaruz</string>
-			<string>Kobarrek</string>
-			<string>Medukaret</string>
-			<string>Ozzhari</string>
-			<string>Tamzuk</string>
-			<string>Dularri</string>
-			<string>Wukontu</string>
-			<string>Azgard</string>
-			<string>Bhruket</string>
-			<string>Xippita</string>
-			<string>Yugaret</string>
-			<string>Rissinda</string>
-			<string>Korgash</string>
-			<string>Gantura</string>
-			<string>Gaktesh</string>
-			<string>Skusirrit</string>
-			<string>Prozheg</string>
-			<string>Lukitri</string>
-			<string>Norzhaka</string>
-			<string>Okutar</string>
-			<string>Ukrisbek</string>
-			<string>Masmekra</string>
-		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>10000</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<AllowableIntelligenceMissionTypes>
-			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
-			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
-			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
-			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
-			<CharacterMissionType>StealTechData</CharacterMissionType>
-			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
-			<CharacterMissionType>SabotageColony</CharacterMissionType>
-			<CharacterMissionType>DestroyBase</CharacterMissionType>
-			<CharacterMissionType>InciteRevolution</CharacterMissionType>
-			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
-			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
-			<CharacterMissionType>DestroyFacility</CharacterMissionType>
-			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
-		</AllowableIntelligenceMissionTypes>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>54</DefaultInfantryId>
+		<DefaultInfantryId>54</DefaultInfantryId> <!-- Slayer Swarm -->
 		<Name>Shakturi</Name>
 		<Description>Die Shakturi sind eine ausgestorbene Ethnie von insektoiden Außerirdischen, die vor langer Zeit die Galaxie bewohnt haben sollen.
 
@@ -6790,12 +5331,6 @@ Zumindest besagen das die alten Geschichten. Andere behaupten, die Shakturi hät
 	</Race>
 	<Race>
 		<RaceId>248</RaceId> <!-- Berserk AI -->
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>255</R>
 			<G>208</G>
@@ -6858,43 +5393,13 @@ Zumindest besagen das die alten Geschichten. Andere behaupten, die Shakturi hät
 			<string>229</string>
 			<string>843</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>-1</DefaultInfantryId>
+		<DefaultInfantryId>-1</DefaultInfantryId> <!-- N/A -->
 		<Name>Berserk AI</Name>
 		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>249</RaceId> <!-- CrazedHiveInsectoids -->
 		<BundleName>Hive</BundleName>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<MainColor>
 			<R>0</R>
 			<G>128</G>
@@ -6964,31 +5469,7 @@ Zumindest besagen das die alten Geschichten. Andere behaupten, die Shakturi hät
 			<string>Teklor</string>
 			<string>Zaddaty</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>32764</DefaultInfantryId>
+		<DefaultInfantryId>32764</DefaultInfantryId> <!-- Hive Raider -->
 		<Name>Crazed Hive Insectoids</Name>
 		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
 	</Race>

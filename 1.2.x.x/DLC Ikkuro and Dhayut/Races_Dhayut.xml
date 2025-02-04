@@ -4,12 +4,6 @@
 		<RaceId>10</RaceId> <!-- Dhayut -->
 		<BundleName>Dhayut</BundleName>
 		<FlagFilename>UserInterface/Flags/Dhayut_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Dhayut_2</string>
 			<string>UserInterface/Flags/Dhayut_3</string>
@@ -279,26 +273,10 @@
 			<string>Bhayut</string>
 			<string>Joorabek</string>
 		</CharacterLastNames>
-		<TreatyLevelModifier>0</TreatyLevelModifier>
-		<TreatyLongTermTrustModifierThis>0</TreatyLongTermTrustModifierThis>
-		<TreatyLongTermTrustModifierOther>0</TreatyLongTermTrustModifierOther>
 		<DeepCoverDiplomaticFactor>8</DeepCoverDiplomaticFactor>
 		<DifficultIntelligenceMissionSuccessEspionageBoost>0.1</DifficultIntelligenceMissionSuccessEspionageBoost>
 		<DifficultIntelligenceMissionSuccessEspionageBoostTime>1</DifficultIntelligenceMissionSuccessEspionageBoostTime>
 		<DifficultIntelligenceMissionSuccessColonyEventDefinitionId>38</DifficultIntelligenceMissionSuccessColonyEventDefinitionId> <!-- Inspired Conniving -->
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>Slaver</CharacterTraitType>
 			<CharacterTraitType>DivideAndRule</CharacterTraitType>
@@ -332,12 +310,7 @@
 			<string>[HL]Einzigartige Spionage-Eigenschaft - Vorsichtiger Weber:[/HL] +10% Gegen-Spionage</string>
 			<string>[HL]Einzigartige Spionage-Eigenschaft - Schläge aus dem Schatten:[/HL] +10% Attentate</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>44</DefaultInfantryId>
+		<DefaultInfantryId>44</DefaultInfantryId> <!-- Mercenary Brigade -->
 		<Name>Dhayut</Name>
 		<Description>\nDie Dhayut sind eine große, kräftige Spinnenrasse. Dhayut haben einen massiven aufgeblähten Kopf mit auffälligen roten Flecken und großen orange-gelben Augen.
 

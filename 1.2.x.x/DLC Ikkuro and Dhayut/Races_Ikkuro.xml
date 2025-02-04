@@ -4,12 +4,6 @@
 		<RaceId>5</RaceId> <!-- Ikkuro -->
 		<BundleName>Ikkuro</BundleName>
 		<FlagFilename>UserInterface/Flags/Ikkuro_1</FlagFilename>
-		<FlagColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</FlagColor>
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Ikkuro_2</string>
 			<string>UserInterface/Flags/Ikkuro_3</string>
@@ -342,22 +336,6 @@
 		<FirstDefenseTreatyPerFactionColonyEventDefinitionId>56</FirstDefenseTreatyPerFactionColonyEventDefinitionId> <!-- Protection of Life -->
 		<WarStartedByUsColonyEventDefinitionId>57</WarStartedByUsColonyEventDefinitionId> <!-- Disharmony -->
 		<WarStartedByOtherColonyEventDefinitionId>57</WarStartedByOtherColonyEventDefinitionId> <!-- Disharmony -->
-		<DeepCoverDiplomaticFactor>0</DeepCoverDiplomaticFactor>
-		<DifficultIntelligenceMissionSuccessEspionageBoost>0</DifficultIntelligenceMissionSuccessEspionageBoost>
-		<DifficultIntelligenceMissionSuccessEspionageBoostTime>0</DifficultIntelligenceMissionSuccessEspionageBoostTime>
-		<ResearchProjectCompletedAdvancedMaximumChance>0</ResearchProjectCompletedAdvancedMaximumChance>
-		<ResearchProjectCompletedAdvancedMinimumTechLevel>0</ResearchProjectCompletedAdvancedMinimumTechLevel>
-		<ResearchLocationDiscoveredProgressChance>0</ResearchLocationDiscoveredProgressChance>
-		<ResearchLocationDiscoveredProgressAmountRatio>0</ResearchLocationDiscoveredProgressAmountRatio>
-		<MaximumConcurrentResearchProjects>0</MaximumConcurrentResearchProjects>
-		<SalvageAdvancedTechBoostFactor>0</SalvageAdvancedTechBoostFactor>
-		<RetireAdvancedTechBoostFactor>0</RetireAdvancedTechBoostFactor>
-		<RetireCompleteAdvancedTechBonusResearchAmount>0</RetireCompleteAdvancedTechBonusResearchAmount>
-		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
-		<CharacterProvingChancePerYear>0</CharacterProvingChancePerYear>
-		<PsychicVulnerability>0</PsychicVulnerability>
-		<PsychicEnergyGeneration>0</PsychicEnergyGeneration>
-		<PlagueSusceptibility>1</PlagueSusceptibility>
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>ProtectorOfLife</CharacterTraitType>
 			<CharacterTraitType>HarvesterOfLife</CharacterTraitType>
@@ -387,12 +365,7 @@
 			<string>[HL]Schutz des Lebens:[/HL] +5 Zufriedenheit für alle Kolonien für ein Jahr, wenn sie einen neuen Nichtangriffs- oder Verteidigungsvertrag mit einer anderen Fraktion unterzeichnen</string>
 			<string>[HL]Disharmonie:[/HL] -10 Zufriedenheit für ein Jahr, wenn der Krieg zwischen Ikkuro und einer anderen Fraktion ausbricht</string>
 		</FeatureExplanations>
-		<RegionCenter>
-			<X>0</X>
-			<Y>0</Y>
-		</RegionCenter>
-		<ShakturiRaceId>0</ShakturiRaceId>
-		<DefaultInfantryId>37</DefaultInfantryId>
+		<DefaultInfantryId>37</DefaultInfantryId> <!-- Sentinel Force -->
 		<Name>Ikkuro</Name>
 		<Description>\nIkkuro sind große, muskulöse Primaten mit kurzem braun-rotem Fell.
 

@@ -91,7 +91,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActions>
 			<GameEventAction>
 				<Type>SetGlobalVariable</Type>
@@ -230,7 +229,7 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 				<Conditions>
 					<GameEventCondition>
 						<Type>CheckProjectResearched</Type>
-						<LookupValue>899</LookupValue> <!-- Psychic Defense Fields -->
+						<LookupValue>899</LookupValue> <!-- ResearchId, Current Value = Psychic Defense Fields -->
 						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
@@ -539,7 +538,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -706,7 +704,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -865,7 +862,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1156,7 +1152,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1675,7 +1670,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -1954,7 +1948,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2031,7 +2024,6 @@ Wir sind nun sicher, dass dies kein natürliches Phänomen ist. Es scheint, dass
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -2463,7 +2455,6 @@ Die Natur dieser Risse und ihre ungewöhnliche Energie zu verstehen, würde eine
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3485,7 +3476,6 @@ Der Einfall der Shakturi hat die Möglichkeit eröffnet, die Techniken der paran
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3547,7 +3537,6 @@ Und obwohl die Außerirdischen so fremd und ungewohnt erscheinen, haben sie doch
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3686,7 +3675,6 @@ Der Einfall der Shakturi hat die Möglichkeit eröffnet, die Techniken der paran
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3811,7 +3799,6 @@ Einige in unserem Team sind der Meinung, dass die Untersuchung des Schiffes ein 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3852,7 +3839,6 @@ In den Wrackteilen haben wir einige konservierte Proben der Weltraumkreaturen ge
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -3945,7 +3931,6 @@ Es gibt weitere ungewöhnliche Energiesignaturen. Das Schiff besteht aus völlig
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4206,7 +4191,6 @@ Sie geben uns ein Jahr Zeit, uns zu entscheiden.</Description>
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4266,7 +4250,6 @@ Sie geben uns ein Jahr Zeit, uns zu entscheiden.</Description>
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4325,7 +4308,6 @@ Sie geben uns ein Jahr Zeit, uns zu entscheiden.</Description>
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4459,7 +4441,6 @@ Sollen wir unseren besten Spion aussenden, um diese ernste Bedrohung zu untersuc
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4594,7 +4575,6 @@ Sollen wir unseren besten Spion aussenden, um diese ernste Bedrohung zu untersuc
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -4657,7 +4637,6 @@ Sollten wir unseren besten Botschafter entsenden?</Description>
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4795,7 +4774,6 @@ Sollten wir unseren besten Botschafter entsenden?</Description>
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4909,7 +4887,6 @@ Wir können nur hoffen, dass sie die richtige Entscheidung treffen, obwohl wir b
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -4998,7 +4975,6 @@ Wir können nur hoffen, dass sie die richtige Entscheidung treffen, obwohl wir b
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -5060,7 +5036,6 @@ Es gibt keine Garantien dafür, dass der Frieden, den wir mit den Boskara schlie
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5172,7 +5147,6 @@ Wir können nur annehmen, dass der Botschafter eines gewaltsamen Todes gestorben
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5299,7 +5273,6 @@ Im Kontext eines größeren Krieges ist dies ein kleiner Sieg, aber er könnte d
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5333,8 +5306,8 @@ Im Kontext eines größeren Krieges ist dies ein kleiner Sieg, aber er könnte d
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>0</Id1> <!-- Race Id of Empire (-1=Location Empire), Current Value = Human -->
-				<Id2>0</Id2> <!-- Race Id of other Empire (-1=Triggering Empire), Current Value = Human -->
+				<Id1>6</Id1> <!-- Race Id of Empire (-1=Location Empire), Current Value = Boskara -->
+				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-30</Value1> <!-- Amount -->
@@ -5438,7 +5411,6 @@ Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>-1</PlacementRaceId>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5641,7 +5613,6 @@ Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5699,7 +5670,6 @@ Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5757,7 +5727,6 @@ Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5837,7 +5806,6 @@ Obwohl die Art und der Zweck der Energiewelle des Leuchtfeuers ein Rätsel bleib
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -5917,7 +5885,6 @@ Es scheint, dass diese Energie versucht, die Struktur des Weltraums selbst zu ze
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6022,7 +5989,6 @@ Es scheint, dass diese Energie versucht, die Struktur des Weltraums selbst zu ze
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6080,7 +6046,6 @@ Es scheint, dass diese Energie versucht, die Struktur des Weltraums selbst zu ze
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6138,7 +6103,6 @@ Es scheint, dass diese Energie versucht, die Struktur des Weltraums selbst zu ze
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6234,7 +6198,6 @@ Es scheint, dass diese Energie versucht, die Struktur des Weltraums selbst zu ze
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6313,7 +6276,6 @@ Wer oder was auch immer dies tun kann, muss sicherlich zu Dingen fähig sein, di
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6357,7 +6319,6 @@ Wir müssen uns vorbereiten. Wenn wir das können.</Description>
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6418,7 +6379,6 @@ Wir sollten darauf reagieren, indem wir uns an Verbündete oder potenzielle Verb
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6479,7 +6439,6 @@ Wollen wir einen unserer Botschafter entsenden, um zu versuchen, Verhandlungen a
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6562,7 +6521,6 @@ Lassen Sie uns diesem Prozess etwas Zeit und sehen Sie, was dabei herauskommt...
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6635,7 +6593,6 @@ Lassen Sie uns diesem Prozess etwas Zeit und sehen Sie, was dabei herauskommt...
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6699,7 +6656,6 @@ Obwohl das Ereignis mit Chaos begann, waren unsere Kollegen bei den {20} beeindr
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6762,7 +6718,6 @@ Alle drei Attentäter hatten lange und angesehene Karrieren als Diplomaten. Wir 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6818,7 +6773,6 @@ Alle drei Attentäter hatten lange und angesehene Karrieren als Diplomaten. Wir 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -6880,7 +6834,6 @@ Dieser heroische Akt hat {20} überzeugt, sich uns anzuschließen. Sind wir bere
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6941,7 +6894,6 @@ Historiker werden dies vielleicht eines Tages als den Wendepunkt in diesem Konfl
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -6980,7 +6932,6 @@ Historiker werden dies vielleicht eines Tages als den Wendepunkt in diesem Konfl
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -7046,7 +6997,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7139,7 +7089,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7212,7 +7161,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7304,7 +7252,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7396,7 +7343,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7460,7 +7406,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7519,7 +7464,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7583,7 +7527,6 @@ Sollen wir unseren besten Spion aussenden, um diese Situation zu untersuchen?</D
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7643,7 +7586,6 @@ Ein gewisses Maß an ziviler Unruhe ist während einer großen galaktischen Kris
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -7704,7 +7646,6 @@ Sollten wir unseren besten Spion entsenden, um Nachforschungen anzustellen? Oder
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7797,7 +7738,6 @@ Sollten wir unseren besten Spion entsenden, um Nachforschungen anzustellen? Oder
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7870,7 +7810,6 @@ Sollten wir unseren besten Spion entsenden, um Nachforschungen anzustellen? Oder
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7932,7 +7871,6 @@ All diese Ereignisse deuten darauf hin, dass die Shakturi ihre übersinnlichen F
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -7990,7 +7928,6 @@ All diese Ereignisse deuten darauf hin, dass die Shakturi ihre übersinnlichen F
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8073,7 +8010,6 @@ Wir können keine weiteren Beweise für Shakturi-Aktivitäten auf {0} finden, ab
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8133,7 +8069,6 @@ Mehrere Verdächtige haben sich entweder der Festnahme entzogen oder sind aus ge
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8193,7 +8128,6 @@ Unser Spion glaubt, dass es einen Anführer der feindlichen Operation auf {0} ge
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8298,7 +8232,6 @@ Wir können keine weiteren Beweise für Shakturi-Aktivitäten auf {0} finden, ab
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8376,7 +8309,6 @@ Wir können keine weiteren Beweise für Shakturi-Aktivitäten auf {0} finden, ab
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8415,7 +8347,6 @@ Wir können keine weiteren Beweise für Shakturi-Aktivitäten auf {0} finden, ab
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8518,7 +8449,6 @@ Unsere Bemühungen scheinen das Problem gelöst zu haben. Für den Moment.</Desc
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -8579,7 +8509,6 @@ Geld auszugeben, um das Problem zu beruhigen, hat eine Zeit lang funktioniert, a
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8680,7 +8609,6 @@ Geld auszugeben, um das Problem zu beruhigen, hat eine Zeit lang funktioniert, a
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -8739,7 +8667,6 @@ Geld auszugeben, um das Problem zu beruhigen, hat eine Zeit lang funktioniert, a
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -8801,7 +8728,6 @@ Sollten wir unseren besten Spion aussenden, um die Sache zu untersuchen?</Descri
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8894,7 +8820,6 @@ Sollten wir unseren besten Spion aussenden, um die Sache zu untersuchen?</Descri
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -8915,8 +8840,9 @@ Sollten wir unseren besten Spion aussenden, um die Sache zu untersuchen?</Descri
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>CheckProjectResearched</Type>
+						<Type>VariableComparison</Type>
 						<LookupValue>0</LookupValue>
+						<VariableName>PsychicDefenseTech</VariableName>
 						<ComparisonType>Equals</ComparisonType>
 						<ComparisonValue>1</ComparisonValue>
 					</GameEventCondition>
@@ -8942,8 +8868,9 @@ Sollten wir unseren besten Spion aussenden, um die Sache zu untersuchen?</Descri
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>CheckProjectResearched</Type>
+						<Type>VariableComparison</Type>
 						<LookupValue>0</LookupValue>
+						<VariableName>PsychicDefenseTech</VariableName>
 						<ComparisonType>Equals</ComparisonType>
 						<ComparisonValue>0</ComparisonValue>
 					</GameEventCondition>
@@ -8965,7 +8892,6 @@ Sollten wir unseren besten Spion aussenden, um die Sache zu untersuchen?</Descri
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9025,7 +8951,6 @@ Der erste befragte Mitarbeiter versuchte, unseren Spion zu überwältigen. Glüc
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9106,7 +9031,6 @@ Wir müssen daraus schließen, dass sich diese Arbeiter nicht aus eigenem Antrie
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9145,7 +9069,6 @@ Wir müssen daraus schließen, dass sich diese Arbeiter nicht aus eigenem Antrie
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9205,7 +9128,6 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9297,7 +9219,6 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9363,7 +9284,6 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
@@ -9380,7 +9300,7 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Ignore Pulses</ChoiceButtonText>
+				<ChoiceButtonText>Impulse ignorieren</ChoiceButtonText>
 				<GeneratedItemName>Pulses Increase in Strength</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -9432,7 +9352,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9498,7 +9417,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9563,7 +9481,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9629,7 +9546,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -9813,7 +9729,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10067,7 +9982,6 @@ Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffn
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10167,7 +10081,6 @@ Die Baken selbst sind, soweit wir feststellen konnten, riesig und geheimnisvoll 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10259,7 +10172,6 @@ Wenn wir zurückkehren, dann nur mit einer mächtigen Flotte, die bereit ist, es
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10320,7 +10232,6 @@ Wenn wir nicht verstehen, wie man ein solches Schiff baut, wie können wir dann 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10379,7 +10290,6 @@ Wenn wir nicht verstehen, wie man ein solches Schiff baut, wie können wir dann 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10419,7 +10329,6 @@ Wenn wir nicht verstehen, wie man ein solches Schiff baut, wie können wir dann 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10455,7 +10364,6 @@ Wenn wir nicht verstehen, wie man ein solches Schiff baut, wie können wir dann 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -10491,7 +10399,6 @@ Wenn wir nicht verstehen, wie man ein solches Schiff baut, wie können wir dann 
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
@@ -11281,7 +11188,6 @@ Ich habe das Gefühl, dass sich in der Galaxie etwas Grundlegendes geändert hat
 		<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>

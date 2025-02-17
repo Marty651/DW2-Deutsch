@@ -1150,6 +1150,11 @@ BonusType PsychicCounterEspionage		;Psychische Spionageabwehr
 BonusType PsychicDiplomacy		;Psychische Diplomatie
 BonusType PsychicCounterDiplomacy		;Psychische Gegendiplomatie
 BonusType ScannerRange		;Scanner-Reichweite
+BonusType ScanExplorationTimeReduction		;Verkürzung der Explorationszeit
+BonusType ScanSurveyTimeReduction		;Verkürzung der Umfragezeit
+BonusType HyperDriveJumpAccuracy		;Hyperantrieb-Sprunggenauigkeit
+BonusType BombardmentResistance		;Widerstand gegen Bombardierung
+BonusType GroundCombatResistance		;Widerstand gegen Bodenkämpfe
 
 ComponentCategory AreaShieldRecharge		;Umgebungs-Schildregenerierung
 ComponentCategory Armor		;Panzerung
@@ -1537,6 +1542,7 @@ Industry		;Industrie
 
 Load Designs		;Designvorlagen laden
 Load Designs Explanation		;Wählt eine Designvorlagen-Datei zum Laden aus der Liste unten.
+
 Load Designs Explanation Long		;Beachtet, dass dadurch nur Designs geladen werden, die zu Eurer aktuellen Technologie passen, d. h. wenn Ihr den Rumpf und alle Komponenten für das Design erforscht habt.\n\nIhr könnt Designs jederzeit während des Spiels laden, nicht nur zu Beginn des Spiels. Sobald Ihr also genügend Technologie erforscht habt, können Ihr Designs aus derselben Datei neu laden, um alle Designs hinzuzufügen, die zuvor aufgrund nicht erforschter Technologien nicht geladen werden konnten.\n\nAlle Designs, die mit vorhandenen identisch sind, werden übersprungen (gleicher Rumpf, gleiche Komponenten und Name). Wenn ein Design in der Datei denselben Namen wie ein vorhandenes Design hat (aber nicht identisch ist), wird es geladen, jedoch mit dem Zusatz „(NEU)“ im Namen.
 Save Designs		;Designvorlagen speichern
 Save Designs Explanation		;Gebt einen Dateinamen ein oder wählt einen aus, um die Designvorlagen zu speichern.
@@ -3795,6 +3801,7 @@ Character Event TroopRecruited		;Trupp rekrutiert
 Character Event WarEnd		;Krieg endet
 Character Event WarStart		;Krieg beginnt
 Character Event EmpireDirectionChange		;Richtungswechsel
+Character Event Exploration		;Erforschung
 
 Character Trait Addict		;Süchtiger
 Character Trait BeanCounter		;Erbsenzähler
@@ -6865,7 +6872,7 @@ WhatDoesThisButtonDo No Scientist Description		;Leider scheinen wir irgendwie [B
 
 WhatDoesThisButtonDo Scientist Trait Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]{1}[/CHARACTER] ({2}) erworben.\n\nWir sind froh, dass wir den Knopf gedrückt haben
 WhatDoesThisButtonDo Scientist Trait Description No Explanation		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]{1}[/CHARACTER] erworben.\n\nWir sind froh, dass wir den Knopf gedrückt haben
-WhatDoesThisButtonDo New Scientist Beschreibung ;Ein neuer [CHARACTER]{0}[/CHARACTER] namens [CHARACTER]{1}[/CHARACTER] ist am [LOCATION]{2}[/LOCATION] aufgetaucht!\n\nWir sind froh, dass wir den Knopf gedrückt haben
+WhatDoesThisButtonDo New Scientist Description		;Ein neuer [CHARACTER]{0}[/CHARACTER] namens [CHARACTER]{1}[/CHARACTER] ist am [LOCATION]{2}[/LOCATION] aufgetaucht!\n\nWir sind froh, dass wir den Knopf gedrückt haben
 WhatDoesThisButtonDo Research Bonus Description		;Wir haben einen langfristigen Forschungsbonus ausgelöst! In den nächsten 5 Jahren wird unser Imperium einen [BONUS]+20 % Bonus auf {0}[/BONUS] genießen.\n\nWir sind froh, dass wir den Knopf gedrückt haben
 WhatDoesThisButtonDo Boost Research Project Description		;Wir haben bei dem Forschungsprojekt [RESEARCH]{0}[/RESEARCH] schnelle Fortschritte gemacht.
 WhatDoesThisButtonDo Research Station Explodes Description		;Eine Katastrophe! [HL]{0}[/HL] ist explodiert und hat alle an Bord getötet.\n\n Wir sollten diese Tasten wirklich beschriften...
@@ -6924,9 +6931,10 @@ Ghost General Title		;Vorfahren unter uns
 Ghost General Description		;Der intensive Stress des Kampfes am [STANDORT]{0}[/Standort] im {1}-System hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]General[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der General befindet sich in [STANDORT]{0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
 
 Ghost Scientist Title		;Vorfahren unter uns
-Ghost Scientist Description		;Der intensive Stress unseres jüngsten kritischen Forschungsversagens hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt. Diese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]Wissenschaftler[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der Wissenschaftler befindet sich in [STANDORT]{0}[/Standort] und hilft uns jetzt, uns von diesem Rückschlag zu erholen. Wir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie uns helfen, unser Wissen zu erweitern.
+Ghost Scientist Description Success		;Der enorme Stress unseres jüngsten wichtigen Forschungserfolgs hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und dazu geführt, dass ein [CHARACTER]Wissenschaftler[/CHARACTER] aus längst vergangenen Zeiten erschienen ist! Der Wissenschaftler befindet sich in [LOCATION]{0}[/LOCATION] und unterstützt uns nun bei unseren weiteren Forschungen.\n\nWir gehen nicht davon aus, dass er lange bei uns bleiben wird, aber solange er hier ist, wird er uns helfen, unser Wissen zu erweitern.
+Ghost Scientist Description Failure		;Der enorme Stress unseres jüngsten kritischen Forschungsversagens hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und dazu geführt, dass ein [CHARACTER]Wissenschaftler[/CHARACTER] aus längst vergangenen Zeiten erschienen ist! Der Wissenschaftler befindet sich in [LOCATION]{0}[/LOCATION] und hilft uns nun, diesen Forschungsrückschlag zu überwinden.\n\nWir gehen nicht davon aus, dass er lange bei uns bleiben wird, aber solange er hier ist, wird er uns helfen, unser Wissen zu erweitern.
 
-Imprison		;Imprison
+Imprison		;Einsperren
 
 Deep Labyrinth		;Tiefes Labyrinth
 Deep Labyrinth Description		;Ein ausländischer Spion, [CHARAKTER]{0}[/CHARAKTER] vom [FACTION]{1}[/FACTION], wurde entdeckt, der gegen uns arbeitet.\n\nUnsere übersinnlichen Fähigkeiten haben es uns ermöglicht, sie abzufangen, bevor sie entkommen konnten. Jetzt müssen wir über ihr Schicksal entscheiden.\n\nWas sollen wir mit {0} tun? Sollen wir sie inhaftieren? Oder sie hinrichten?
@@ -6964,3 +6972,18 @@ EmpireMigrationFactor		;Einwanderungsschub für das Imperium
 
 Psychic Resistance		;Psychischer Widerstand
 Psychic Resistance Explanation		;Psychischer Widerstand verringert die Auswirkungen von Angriffen mit psychischen Waffen auf Ihre Schiffe und Stützpunkte. Er verringert auch die Wahrscheinlichkeit von Überläufern psychischer Truppen im Bodenkampf. Außerdem werden Aufklärungsmissionen gegen Ihr Imperium dadurch schwieriger.
+Psychic Resistance Cap Explanation		;Beachten Sie, dass die psychische Resistenz auf 100 % begrenzt ist, auch wenn die Gesamtmenge aus Rasse und Artefakten höher sein kann
+
+Great Direction disabled until have colonies RACE Explanation		;Der {0} Great Direction-Mechanismus ist jedoch erst aktiv, wenn Sie Ihre erste Kolonie gründen und zu einer normalen Regierung übergehen
+till DATE		;bis {0}
+
+Empire Bonuses from NAME		;Imperiumsboni von {0}
+Location Bonuses from NAME		;Standortboni von {0}
+
+Character Trait Archivist		;Archivar
+Character Trait AncientLineage		;Alte Linie
+Character Trait LivingInThePast		;Leben in der Vergangenheit
+Character Trait Manipulator		;Manipulator
+Character Trait Secretive		;Geheimnisvoll
+
+Character Trait Description LivingInThePast		;Erhöht die Chance auf einen kritischen Forschungserfolg enorm

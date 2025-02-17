@@ -60,7 +60,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -180,7 +181,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -299,7 +301,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -689,7 +692,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -808,7 +812,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1199,7 +1204,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1611,7 +1617,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1748,7 +1755,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

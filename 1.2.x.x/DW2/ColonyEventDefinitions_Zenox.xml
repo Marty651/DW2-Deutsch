@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>127</ColonyEventDefinitionId> <!-- Wonders of the Past - Happiness -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wunder der Vergangenheit - Glück</Name>
+		<Description>Unsere jüngste Ruinenerkundung hat das Glück in unserem ganzen Reich erhöht</Description>
+		<ImageFilename>Environment/Events/Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>128</ColonyEventDefinitionId> <!-- Wonders of the Past - Scientists -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wunder der Vergangenheit - Wissenschaftler</Name>
+		<Description>Unsere jüngste Erkundung der Ruinen hat unsere Chancen verbessert, hochqualifizierte Wissenschaftler zu rekrutieren</Description>
+		<ImageFilename>Environment/Events/Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

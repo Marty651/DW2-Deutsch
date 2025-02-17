@@ -4727,6 +4727,27 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
+				<WeaponArmorBypass>0.6</WeaponArmorBypass>
+				<WeaponDamageFalloffRatio>0.3</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>21</WeaponEnergyPerShot>
+				<WeaponFireRate>1.1</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0.45</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>20</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>20</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>21</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>1.1</WeaponInterceptFireRate>
+				<WeaponInterceptRange>880</WeaponInterceptRange>
+				<WeaponRange>880</WeaponRange>
+				<WeaponRawDamage>20</WeaponRawDamage>
+				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
+				<WeaponSpeed>400</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
+			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.64</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
 				<WeaponArmorBypass>0.6</WeaponArmorBypass>
@@ -19408,26 +19429,46 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
-				<Amount>36</Amount>
+				<Amount>32</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>72</Amount>
+				<Amount>64</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>72</Amount>
+				<Amount>64</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>72</Amount>
+				<Amount>64</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
-				<Amount>36</Amount>
+				<Amount>32</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
+				<CrewRequirement>12</CrewRequirement>
+				<StaticEnergyUsed>3</StaticEnergyUsed>
+				<WeaponArmorBypass>0.6</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>40</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>40</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>40</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>40</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>156</WeaponEnergyPerShot>
+				<WeaponFireRate>22</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponRange>3650</WeaponRange>
+				<WeaponRawDamage>308</WeaponRawDamage>
+				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
+				<WeaponSpeed>400</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.64</ComponentCountermeasuresBonus>
 				<CrewRequirement>12</CrewRequirement>
@@ -19442,7 +19483,7 @@
 				<WeaponEnergyPerShot>104</WeaponEnergyPerShot>
 				<WeaponFireRate>22</WeaponFireRate>
 				<WeaponFireType>Seeking</WeaponFireType>
-				<WeaponRange>3800</WeaponRange>
+				<WeaponRange>4375</WeaponRange>
 				<WeaponRawDamage>400</WeaponRawDamage>
 				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
 				<WeaponSpeed>400</WeaponSpeed>
@@ -27998,6 +28039,32 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<WeaponArmorBypass>0.6</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>10</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>10</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>5</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>5</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>52</WeaponEnergyPerShot>
+				<WeaponFireRate>11</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>39</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>39</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>52</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>13.75</WeaponInterceptFireRate>
+				<WeaponInterceptRange>1460</WeaponInterceptRange>
+				<WeaponRange>2920</WeaponRange>
+				<WeaponRawDamage>77</WeaponRawDamage>
+				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
+				<WeaponSpeed>400</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
+			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.64</ComponentCountermeasuresBonus>
 				<CrewRequirement>5</CrewRequirement>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
@@ -28224,6 +28291,33 @@
 				<WeaponRawDamage>68</WeaponRawDamage>
 				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
 				<WeaponSpeed>325</WeaponSpeed>
+				<WeaponVolleyAmount>2</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
+				<CrewRequirement>8</CrewRequirement>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<WeaponArmorBypass>0.6</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>10</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>10</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>5</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>5</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>52</WeaponEnergyPerShot>
+				<WeaponFireRate>11</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>50</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>50</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>52</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>6.88</WeaponInterceptFireRate>
+				<WeaponInterceptRange>1460</WeaponInterceptRange>
+				<WeaponRange>2920</WeaponRange>
+				<WeaponRawDamage>77</WeaponRawDamage>
+				<WeaponShieldBypass>-0.2</WeaponShieldBypass>
+				<WeaponSpeed>400</WeaponSpeed>
 				<WeaponVolleyAmount>2</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -29325,22 +29419,29 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
-				<Amount>2</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>4</ResourceId> <!-- Argon -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>2</Amount>
+				<Amount>3</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.72</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
+				<WeaponDamageFalloffRatio>0.23</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>6</WeaponEnergyPerShot>
+				<WeaponFireRate>0.7</WeaponFireRate>
+				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0.4</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>8</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>8</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>6</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.7</WeaponInterceptFireRate>
+				<WeaponInterceptRange>300</WeaponInterceptRange>
+				<WeaponRange>300</WeaponRange>
+				<WeaponRawDamage>4</WeaponRawDamage>
+				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.74</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
@@ -29755,22 +29856,35 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>8</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>4</ResourceId> <!-- Argon -->
-				<Amount>8</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>4</Amount>
+				<Amount>6</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.72</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<WeaponBombardDamageInfrastructure>1</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>1</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>1</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>1</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.15</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>14</WeaponEnergyPerShot>
+				<WeaponFireRate>7</WeaponFireRate>
+				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0.1</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>8</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>8</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>14</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>8.75</WeaponInterceptFireRate>
+				<WeaponInterceptRange>500</WeaponInterceptRange>
+				<WeaponRange>1000</WeaponRange>
+				<WeaponRawDamage>17</WeaponRawDamage>
+				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.74</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
@@ -30226,22 +30340,32 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>16</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
-				<Amount>8</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>4</ResourceId> <!-- Argon -->
-				<Amount>16</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>11</ResourceId> <!-- Cuprica -->
-				<Amount>8</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.72</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
+				<CrewRequirement>8</CrewRequirement>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<WeaponDamageFalloffRatio>0.15</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>14</WeaponEnergyPerShot>
+				<WeaponFireRate>7</WeaponFireRate>
+				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0.1</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageFighter>8</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>8</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>14</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>4.38</WeaponInterceptFireRate>
+				<WeaponInterceptRange>500</WeaponInterceptRange>
+				<WeaponRange>1000</WeaponRange>
+				<WeaponRawDamage>17</WeaponRawDamage>
+				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponVolleyAmount>2</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.74</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>0.2</ComponentTargetingBonus>
@@ -32050,26 +32174,34 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId> <!-- Argon -->
-				<Amount>8</Amount>
+				<Amount>6</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>8</Amount>
+				<Amount>6</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>7</ResourceId> <!-- Silicon -->
-				<Amount>4</Amount>
+				<Amount>3</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>4</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>4</Amount>
+				<Amount>3</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>1</ComponentIonDefense>
+				<CrewRequirement>5</CrewRequirement>
+				<IonDamageDefense>15</IonDamageDefense>
+				<ShieldRechargeRate>1.2</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>6</ShieldRechargeEnergyUsage>
+				<ShieldResistance>1</ShieldResistance>
+				<ShieldStrength>270</ShieldStrength>
+				<ShieldPenetrationChance>0.2</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.4</ShieldPenetrationRatio>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<CrewRequirement>5</CrewRequirement>
@@ -32197,11 +32329,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId> <!-- Argon -->
-				<Amount>4</Amount>
+				<Amount>3</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId> <!-- Krypton -->
-				<Amount>4</Amount>
+				<Amount>3</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>7</ResourceId> <!-- Silicon -->
@@ -32211,12 +32343,19 @@
 				<ResourceId>12</ResourceId> <!-- Polymer -->
 				<Amount>2</Amount>
 			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>2</Amount>
-			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>1</ComponentIonDefense>
+				<IonDamageDefense>15</IonDamageDefense>
+				<ShieldRechargeRate>0.36</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
+				<ShieldResistance>1</ShieldResistance>
+				<ShieldStrength>54</ShieldStrength>
+				<ShieldPenetrationChance>0.2</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.3</ShieldPenetrationRatio>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentIonDefense>1</ComponentIonDefense>
 				<IonDamageDefense>20</IonDamageDefense>
@@ -45079,5 +45218,160 @@
 		</Values>
 		<Name>Dichte Blockrüstung [Jgr]</Name>
 		<ImageFilename>Environment/Components/383-Block Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>415</ComponentId> <!-- Flux Alloy Armor -->
+		<Size>10</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>9</ResourceId> <!-- Mebnar -->
+				<Amount>8</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>72</ArmorBlastRating>
+				<ArmorReactiveRating>4</ArmorReactiveRating>
+				<CrewRequirement>1</CrewRequirement>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Flux-Legierungsrüstung</Name>
+		<ImageFilename>Environment/Components/415-Flux Alloy Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>416</ComponentId> <!-- Flux Alloy Armor [Ftr] -->
+		<Size>2</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>true</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>9</ResourceId> <!-- Mebnar -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>2</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>2</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>14</ArmorBlastRating>
+				<ArmorReactiveRating>1</ArmorReactiveRating>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Flux-Legierungsrüstung [Jgr]</Name>
+		<ImageFilename>Environment/Components/415-Flux Alloy Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>417</ComponentId> <!-- Extended Range Crystal Sensors -->
+		<Size>70</Size>
+		<Category>ScannerLongRange</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>8</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>7</ResourceId> <!-- Silicon -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>2</ComponentIonDefense>
+				<CountermeasuresBonus>0.05</CountermeasuresBonus>
+				<CrewRequirement>4</CrewRequirement>
+				<ScannerJumpTrackingChance>0.2</ScannerJumpTrackingChance>
+				<ScannerLongRange>1E+08</ScannerLongRange>
+				<ScannerLongRangePower>150</ScannerLongRangePower>
+				<ScannerTracePower>75</ScannerTracePower>
+				<ScannerTraceRange>1E+07</ScannerTraceRange>
+				<StaticEnergyUsed>25</StaticEnergyUsed>
+				<TargetingBonus>0.05</TargetingBonus>
+			</ComponentStats>
+		</Values>
+		<Name>Kristallsensoren mit erweiterter Reichweite</Name>
+		<ImageFilename>Environment/Components/417-Extended Range Crystal Sensors</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>418</ComponentId> <!-- Long Range Crystal Sensors -->
+		<Size>60</Size>
+		<Category>ScannerLongRange</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>12</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>7</ResourceId> <!-- Silicon -->
+				<Amount>12</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>77</ResourceId> <!-- Dyrillium Quartz -->
+				<Amount>12</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>3</ComponentIonDefense>
+				<CountermeasuresBonus>0.08</CountermeasuresBonus>
+				<CrewRequirement>4</CrewRequirement>
+				<ScannerJumpTrackingChance>0.4</ScannerJumpTrackingChance>
+				<ScannerLongRange>1.25E+08</ScannerLongRange>
+				<ScannerLongRangePower>160</ScannerLongRangePower>
+				<ScannerTracePower>80</ScannerTracePower>
+				<ScannerTraceRange>1.25E+07</ScannerTraceRange>
+				<StaticEnergyUsed>35</StaticEnergyUsed>
+				<TargetingBonus>0.05</TargetingBonus>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>4</ComponentIonDefense>
+				<CountermeasuresBonus>0.09</CountermeasuresBonus>
+				<CrewRequirement>4</CrewRequirement>
+				<ScannerJumpTrackingChance>0.45</ScannerJumpTrackingChance>
+				<ScannerLongRange>1.75E+08</ScannerLongRange>
+				<ScannerLongRangePower>170</ScannerLongRangePower>
+				<ScannerTracePower>85</ScannerTracePower>
+				<ScannerTraceRange>1.5E+07</ScannerTraceRange>
+				<StaticEnergyUsed>40</StaticEnergyUsed>
+				<TargetingBonus>0.05</TargetingBonus>
+			</ComponentStats>
+		</Values>
+		<Name>Kristallsensoren mit großer Reichweite</Name>
+		<ImageFilename>Environment/Components/418-Long Range Crystal Sensors</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

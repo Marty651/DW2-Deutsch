@@ -363,37 +363,41 @@ Die Kriegsmüdigkeit hat sich in unserem gesamten Volk für die nächsten 2 Jahr
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>16</ColonyEventDefinitionId> <!-- Predictive History -->
 		<Type>Undefined</Type>
-		<DurationMinimum>1</DurationMinimum>
-		<DurationMaximum>1</DurationMaximum>
-		<RandomInitiationChance>0.0025</RandomInitiationChance>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
 		<RaceFilterIds>
 			<unsignedByte>7</unsignedByte> <!-- Zenox -->
 		</RaceFilterIds>
 		<Bonuses>
 			<Bonus>
-				<Type>Targeting</Type>
-				<Amount>0.2</Amount>
+				<Type>ResearchAll</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>Countermeasures</Type>
-				<Amount>0.2</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Vorhersagende Geschichtsentwicklung</Name>
-		<Description>Analysten haben in unserer Kolonie {0} eine geniale Anwendung unseres Wissens gemacht. Mit unserer detaillierten Untersuchung der Vergangenheit, kombiniert mit unseren umfangreichen Erkundungserkenntnissen, können wir nun Ereignisse der nahen Zukunft mit einiger Genauigkeit vorhersagen.
-
-Für das nächste Jahr wird unser Volk die folgenden Vorteile genießen:
- - 20% genauere Zielerfassung in Schiffsgefechten
- - 20% effektivere Gegenmaßnahmen in Schiffsgefechten
- - signifikante Vorteile bei der Spionageabwehr</Description>
+		<Description>Unsere Analysten haben unsere jüngsten Entdeckungen bei der Erkundung einiger Ruinen auf raffinierte Weise angewandt. Durch unsere detaillierte Untersuchung der Vergangenheit und unsere umfangreichen Erkundungsergebnisse können wir nun Ereignisse der nahen Zukunft ziemlich genau vorhersagen.\n\nSomit wird unser Imperium in den nächsten zwei Jahren die folgenden Vorteile und Nachteile genießen:\n[ULI]-10 % Gesamtforschung[/ULI][ULI]+10 % Diplomatie[/ULI][ULI]+10 % Spionageabwehr[/ULI][ULI]+10 % Spionage[/ULI][ULI]+10 % PsyOps[/ULI]</Description>
 		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

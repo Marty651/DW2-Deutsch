@@ -59,7 +59,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -223,7 +224,8 @@ So viel von unserem Wissen ging verloren und wir wurden auf bloße Schatten unse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -282,7 +284,8 @@ Wir glauben, dass die Alten Wächter Nicht-Quameno-Wesen waren, die versuchten, 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -405,7 +408,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -489,7 +493,8 @@ Bevor es abschaltete, bot uns die KI eine letzte Nachricht, ein faszinierendes R
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -639,7 +644,8 @@ Das Gewölbe ist riesig und imposant, präzise in seinem Design – nichts von d
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -750,7 +756,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -898,7 +905,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -977,7 +985,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1024,7 +1033,8 @@ Wir sind bereit, diese Herausforderung anzunehmen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1121,7 +1131,8 @@ Es gibt auch fragmentarische Hinweise auf die psychische Kriegsführung der Shak
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1180,7 +1191,8 @@ Es ist klar, dass der ständige Zugriff auf einen beliebigen Tresor zum Verstän
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1313,7 +1325,8 @@ Unsere Vorfahren brauchten Tage oder sogar Wochen, um die Geheimnisse des Parks 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1454,7 +1467,8 @@ Viele unserer Leute, die sich zunächst über die Entdeckung des Rätselparks fr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1559,7 +1573,8 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1663,7 +1678,8 @@ Dieses Wissen ist mit hohen Kosten verbunden. Unser Volk ist nach wie vor zutief
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1804,7 +1820,8 @@ Wir können das Rätselgefängnis weiter erforschen oder es in Einzelteile zerle
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Puzzle Park</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1885,7 +1902,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1995,7 +2013,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2073,7 +2092,8 @@ An anderer Stelle in den Trümmern fanden wir einen Datenspeicher, der den Pirat
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2132,7 +2152,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2193,7 +2214,8 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2310,7 +2332,8 @@ Hören Sie, was ich gelernt habe. Biologische Wesenheiten sind böse. Wenn du Ge
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2369,7 +2392,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2486,7 +2510,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2547,7 +2572,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3295,7 +3321,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3373,7 +3400,8 @@ Die meisten Daten sind unverständlich, aber wir glauben, den Standort eines alt
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3432,7 +3460,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3491,7 +3520,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3608,7 +3638,8 @@ Wir müssen abwarten, um mehr von dem zu hören, was dieser uralte Wächter zu s
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3667,7 +3698,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3727,7 +3759,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3784,7 +3817,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3890,7 +3924,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3949,7 +3984,8 @@ Durch die Untersuchung der Schiffswracks können wir möglicherweise etwas über
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4066,7 +4102,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4165,7 +4202,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4423,7 +4461,8 @@ Im Moment verehren sie uns, aber wenn sie erfahren, was wir wirklich sind, werde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4526,7 +4565,8 @@ Ihr Wissen über die Galaxie ist im Vergleich zu unserem nicht beeindruckend, ab
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4704,7 +4744,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5123,7 +5164,8 @@ Wir könnten darüber nachdenken, eine Pause einzulegen, um alles zusammenzustel
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5299,7 +5341,8 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5475,7 +5518,8 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5655,7 +5699,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5735,7 +5780,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5774,7 +5820,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5813,7 +5860,8 @@ Dies war höchstwahrscheinlich ein psychisches Echo des alten Krieges. Zumindest
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5918,7 +5966,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5995,7 +6044,8 @@ Es ist uns gelungen, einige nützliche Ressourcen aus den Trümmern zu gewinnen.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6155,7 +6205,8 @@ Das Team geht nun zum nächsten Abschnitt über.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6254,7 +6305,8 @@ Das Team fährt nun mit dem nächsten Abschnitt fort.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6356,7 +6408,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6434,7 +6487,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6473,7 +6527,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6512,7 +6567,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6665,7 +6721,8 @@ Wir haben auch eine Sternenkarte mit einem System entdeckt, das für einen unser
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6784,7 +6841,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6864,7 +6922,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6921,7 +6980,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7059,7 +7119,8 @@ Im Laufe der Jahrhunderte scheint das künstliche Bewusstsein immer ausgefeilter
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7138,7 +7199,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7195,7 +7257,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7296,7 +7359,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7415,7 +7479,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7473,7 +7538,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7530,7 +7596,8 @@ Dies ist für uns eine interessante Gelegenheit, einen nahezu direkten Kontakt m
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7670,7 +7737,8 @@ Dies ist wahrscheinlich eine leere Drohung, aber wir wissen so wenig über die S
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7749,7 +7817,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7806,7 +7875,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7904,7 +7974,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8119,7 +8190,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8160,7 +8232,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8248,7 +8321,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8352,7 +8426,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8436,7 +8511,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8496,7 +8572,8 @@ Wir hätten uns nie mit diesem Computer beschäftigen sollen. Wir können nicht 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8631,7 +8708,8 @@ Wir haben die Antworten früh genug erfahren. Eine Welt nach der anderen fiel de
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8711,7 +8789,8 @@ Unser Volk war uneinig darüber, ob es sich den Alten Wächtern anschließen sol
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8770,7 +8849,8 @@ Wir stellen fest, dass wir jetzt mehr Fragen als Antworten haben. Woher wussten 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8832,7 +8912,8 @@ Als die Shakturi ihren Angriff auf diese Galaxie begannen, beschlossen die Quame
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8912,7 +8993,8 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8969,7 +9051,8 @@ Bevor die Quameno die Antworten finden konnten, stürzte die Katastrophe die Gal
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

@@ -2549,6 +2549,33 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+
+			<Bonus>
+				<Type>ScanExplorationTimeReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ScanSurveyTimeReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BombardmentResistance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>GroundCombatResistance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
@@ -2748,6 +2775,42 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 			<string>Legrono</string>
 			<string>Agricento</string>
 		</DesignNames>
+
+		<RuinsExploredGameEventNames>
+			<string>Wonders of the Past (Zenox)</string>
+			<string>Predictive History (Zenox)</string>
+		</RuinsExploredGameEventNames>
+		<ColonizeWorldWithRuinsGameEventName>Preserve the Ruins (Zenox)</ColonizeWorldWithRuinsGameEventName>
+
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Archivist</CharacterTraitType>
+			<CharacterTraitType>AncientLineage</CharacterTraitType>
+			<CharacterTraitType>LivingInThePast</CharacterTraitType>
+			<CharacterTraitType>Manipulator</CharacterTraitType>
+			<CharacterTraitType>Secretive</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>43</ResourceId> <!-- Kasotti -->
+				<Amount>0.07</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+
+		<FeatureExplanations>
+			<string>[HL]Eingebaute Tarnung:[/HL] Die meisten Hüllen für Militärschiffe und Basen haben +10 Tarnung</string>
+			<string>[HL]Antike Sternenkarten:[/HL] Erkundungsschiffe scannen und untersuchen 20% schneller. Alle Schiffe haben eine um 20% verbesserte Sprunggenauigkeit des Hyperantriebs und verlassen ihre Sprünge näher am Ziel (an fremden Orten).</string>
+			<string>[HL]Wunder der Vergangenheit:[/HL] Wenn eine Ruine untersucht wird, haben Sie ein Jahr lang die Wahl zwischen +10% Reichsglück oder +20% Chance auf Wissenschaftlerqualität und -erscheinung</string>
+			<string>[HL]Vorausschauende Geschichte:[/HL] Wenn eine Ruine erforscht wird, können Sie wählen, ob Sie zwei Jahre lang verbesserte Diplomatie und Intelligenz erhalten wollen, allerdings auf Kosten von reduzierter Forschung.</string>
+			<string>[HL]Bewahren Sie die Ruinen:[/HL] Wenn Sie eine neue Kolonie an einem Ort mit Ruinen gründen, können Sie wählen, ob Sie die Ruine in eine kostenlose Governance-Einrichtung umwandeln oder ob Sie die Ruine behalten wollen, allerdings mit erhöhten Bonusstufen.</string>
+			<string>[HL]Unterirdische Städte:[/HL] alle planetarischen Einrichtungen haben +25% Widerstand gegen Bombardierung und +25% Widerstand gegen Bodenkampf</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Archivar:[/HL] +5% Alle Forschungen, -5% Diplomatie. Wird erworben, wenn Sie eine Ruine mit einem Bonus von 10% oder höher erforschen.</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Uralte Abstammung:[/HL] stellt sicher, dass der Charakter immer nur positive Eigenschaften hat. Alle negativen Eigenschaften werden in positive umgewandelt. Hohe Chance, diese Eigenschaft zu erhalten, wenn Sie eine Ruine mit einem 'Alle Forschungen'-Bonus untersuchen.</string>
+			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Leben in der Vergangenheit:[/HL] -5% auf alle Forschungen, aber stark erhöhte Chancen auf kritische Forschungsdurchbrüche. Wird erworben, wenn Sie die Gewölbe der Alten Wächter untersuchen.</string>
+			<string>[HL]Einzigartige Botschaftereigenschaft - Manipulator:[/HL] -10% Diplomatie, +10% PsyOps. Erhält man, wenn man einen Vertrag mit einem anderen Reich unterzeichnet.</string>
+			<string>[HL]Einzigartige Spionageeigenschaft - Heimlich:[/HL] +5% Spionageabwehr, +5% Verschleierung. Erhält man, wenn man einen feindlichen Spion abfängt.</string>
+		</FeatureExplanations>
+		
 		<VictoryConditions>
 			<VictoryCondition>
 				<Type>ControlMostRuins</Type>

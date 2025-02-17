@@ -2615,4 +2615,78 @@
 		<Name>Planetares Bollwerk</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
 	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>132</PlanetaryFacilityDefinitionId> <!-- Megatron Shield Generator -->
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<PlanetaryShieldMaximumDamageAbsorbed>25</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
+		<BombardmentResistance>0.8</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<FacilityFamilyId>70</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Megatron Schild-Generator</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>133</PlanetaryFacilityDefinitionId> <!-- Megatron Shield Generator Mk2 -->
+		<BuildCost>
+			<Money>25000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<PlanetaryShieldMaximumDamageAbsorbed>35</PlanetaryShieldMaximumDamageAbsorbed>
+		<BombardmentResistance>0.85</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<FacilityFamilyId>70</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Megatron Schild-Generator Mk2</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>134</PlanetaryFacilityDefinitionId> <!-- Megatron Shield Generator Mk3 -->
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<PlanetaryShieldMaximumDamageAbsorbed>70</PlanetaryShieldMaximumDamageAbsorbed>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<FacilityFamilyId>70</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Megatron Schild-Generator Mk3</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>135</PlanetaryFacilityDefinitionId> <!-- Core-Linked Weapons Mega Lab -->
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<FacilityFamilyId>71</FacilityFamilyId>
+		<Name>Megalabor für kerngebundene Waffen</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

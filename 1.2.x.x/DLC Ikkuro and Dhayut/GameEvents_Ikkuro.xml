@@ -60,7 +60,8 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -458,7 +459,8 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -637,7 +639,8 @@ Wir haben auch herausgefunden, dass es auf dieser Welt reichlich Giraxian-Nektar
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -698,8 +701,8 @@ Wir haben auch herausgefunden, dass es auf dieser Welt reichlich Giraxian-Nektar
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>10</Value1> <!-- Amount -->
@@ -724,8 +727,9 @@ Wir haben auch herausgefunden, dass es auf dieser Welt reichlich Giraxian-Nektar
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
 				<Id1>53</Id1> <!-- Resource Id (-1=Random), Current Value = Giraxian Nectar -->
-				<Value1>1</Value1> <!-- Abundance (0 to 1) -->
+				<Value1>1</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
 				<Value2>5</Value2> <!-- Discovery Level -->
+				<Value3>0</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -828,7 +832,8 @@ Wir stehen jetzt vor einem schrecklichen Dilemma. Die Dhayut teilen unsere Werte
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1085,7 +1090,8 @@ Wir stehen jetzt vor einem schrecklichen Dilemma. Die Dhayut teilen unsere Werte
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1186,7 +1192,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1209,8 +1216,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>5</Value1> <!-- Amount -->
@@ -1252,7 +1259,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1539,7 +1547,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1579,7 +1588,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1744,7 +1754,8 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1840,7 +1851,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2001,7 +2013,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2084,7 +2097,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2107,8 +2121,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>10</Value1> <!-- Amount -->
@@ -2151,8 +2165,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-15</Value1> <!-- Amount -->
@@ -2217,7 +2231,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2240,8 +2255,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-30</Value1> <!-- Amount -->
@@ -2288,7 +2303,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2311,8 +2327,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>10</Value1> <!-- Amount -->
@@ -2413,7 +2429,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2436,8 +2453,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>15</Value1> <!-- Amount -->
@@ -2537,7 +2554,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2560,8 +2578,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Harmonious Void Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-15</Value1> <!-- Amount -->
@@ -2757,7 +2775,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2900,7 +2919,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3047,7 +3067,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3228,7 +3249,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Ikkuro Vault</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3371,7 +3393,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3450,7 +3473,8 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3554,7 +3578,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3634,7 +3659,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3815,7 +3841,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Ikkuro Vault</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3958,7 +3985,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4037,7 +4065,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4141,7 +4170,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4222,7 +4252,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4403,7 +4434,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Ikkuro Vault</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4546,7 +4578,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4625,7 +4658,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4730,7 +4764,8 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4874,8 +4909,9 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>13</Id1> <!-- Resource Id (-1=Random), Current Value = Carbonite -->
-				<Value1>0.5</Value1> <!-- Abundance (0 to 1) -->
+				<Value1>0.5</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
 				<Value2>25</Value2> <!-- Discovery Level -->
+				<Value3>0</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4895,8 +4931,9 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>12</Id1> <!-- Resource Id (-1=Random), Current Value = Polymer -->
-				<Value1>0.45</Value1> <!-- Abundance (0 to 1) -->
+				<Value1>0.45</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
 				<Value2>25</Value2> <!-- Discovery Level -->
+				<Value3>0</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -4916,8 +4953,9 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>15</Id1> <!-- Resource Id (-1=Random), Current Value = Loros Fruit -->
-				<Value1>0.05</Value1> <!-- Abundance (0 to 1) -->
+				<Value1>0.05</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
 				<Value2>3</Value2> <!-- Discovery Level -->
+				<Value3>0</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -5155,7 +5193,8 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5292,7 +5331,8 @@ Dieses Lagerhaus enthält einen großen Vorrat an Polymer und Karbonit. Aufzeich
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5431,7 +5471,8 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5566,7 +5607,8 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5705,7 +5747,8 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5840,7 +5883,8 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6185,7 +6229,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6337,7 +6382,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6485,7 +6531,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6646,7 +6693,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6797,7 +6845,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6895,7 +6944,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6994,7 +7044,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7607,7 +7658,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7734,7 +7786,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7758,7 +7811,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7800,8 +7854,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-50</Value1> <!-- Amount -->
@@ -7950,7 +8004,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7974,7 +8029,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8016,8 +8072,8 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Damazy</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>-50</Value1> <!-- Amount -->
@@ -8912,7 +8968,8 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9036,7 +9093,8 @@ Meinungsumfragen auf unserer Heimatwelt zeigen weitgehend Unterstützung für de
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9764,8 +9822,8 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Kasim</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire) -->
-				<Id2>-1</Id2> <!-- Race Id of other Empire (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
 				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
 				<Value1>100</Value1> <!-- Amount -->
@@ -9847,7 +9905,8 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10023,7 +10082,8 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10220,7 +10280,8 @@ Unsere Ingenieure glauben, dass sie zumindest einige der automatisierten Abwehrm
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10259,7 +10320,8 @@ Unsere Ingenieure glauben, dass sie zumindest einige der automatisierten Abwehrm
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10474,7 +10536,8 @@ Welche Schrecken müssen unsere Vorfahren ertragen haben, dass sie erwogen haben
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10594,7 +10657,8 @@ Wir haben eine weitere bedeutende Entdeckung auf der Oberfläche von Kasim gemac
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10798,7 +10862,8 @@ Wir haben eine weitere bedeutende Entdeckung auf der Oberfläche von Kasim gemac
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11006,7 +11071,8 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11166,7 +11232,8 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11309,7 +11376,8 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11603,7 +11671,8 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11645,7 +11714,8 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11688,7 +11758,8 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11735,7 +11806,8 @@ Diese Welt war einst ein florierendes Zentrum der gesamten Ikkuro-Forschung. Der
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11858,7 +11930,8 @@ Die erbärmlichen Ikkuro-Tüftler betrieben hier das, was sie Forschung nannten.
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11980,7 +12053,8 @@ Diese Welt war einst ein florierendes Zentrum der gesamten Ikkuro-Forschung. Der
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire) -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

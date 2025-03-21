@@ -5418,9 +5418,7 @@ Es ist uns gelungen, unser Schiff, das die Formation durchbrochen hat, aufzurich
 
 Dann verstummte der Offizier, mit dem wir sprachen, plötzlich. Wir hörten eine fremde Stimme, die wir nicht kannten und die uns sagte, dass wir bald sterben würden.
 
-Ein Teil der Besatzung hat sich nun unserem Feind angeschlossen. Es ist ein Kampf zwischen diesen Abtrünnigen und dem Rest der Besatzung ausgebrochen.
-
-Wir wissen, dass die Shakturi übersinnliche Kräfte besitzen, aber wir haben ihr Ausmaß und ihr Potenzial nicht immer verstanden. Wenn sie unsere eigenen Besatzungsmitglieder dazu bringen können, sich gegen uns zu wenden, was können sie dann noch tun?
+Wir wissen, dass die Shakturi übersinnliche Kräfte besitzen, aber wir haben ihr Ausmaß und ihr Potenzial nicht immer verstanden. Wenn sie unsere eigenen Besatzungen gegen uns aufbringen können, was können sie dann noch tun?
 
 Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen Feind bekämpfen wollen.</Description>
 				<ImageFilepath>Environment/Events/psychic weapons</ImageFilepath>
@@ -5436,7 +5434,52 @@ Wir müssen mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireDominantRaceIsNotId</Type>
+						<LookupValue>9</LookupValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ärger in der Flotte</MessageTitle>
+				<Description>Eines unserer Schiffe meldet ein seltsames Brummen auf seiner Brücke. Der Kapitän erklärt, dass es leicht lästig ist, aber nichts, worüber man sich Sorgen machen müsste.
+
+Er hielt es jedoch für besser, es zu melden - vielleicht sind es die Shakturi, die ihre seltsame Magie ausprobieren, von der wir gehört haben. Wie dem auch sei, es scheint keine Auswirkungen zu haben.
+
+Wir wissen, dass die Shakturi übersinnliche Kräfte besitzen, aber wir haben ihr Ausmaß und ihr Potenzial nicht immer verstanden. Vielleicht können diese Kräfte andere Ethnien beeinflussen, aber gegen die cleveren Atuuk scheinen sie wenig auszurichten! Diese furchterregenden Geschichten, die von anderen erzählt werden, beweisen nur, dass sie schwach im Kopf sind.
+
+Wir müssen jedoch mehr über ihre Fähigkeiten erfahren, wenn wir diesen gefährlichen Feind bekämpfen wollen.</Description>
+				<ImageFilepath>Environment/Events/psychic weapons</ImageFilepath>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2>
+				<!-- Receiving Empire Id (-1=Unused) -->
+				<Value1>0</Value1>
+				<!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireDominantRaceIsId</Type>
+						<LookupValue>9</LookupValue>
+					</GameEventCondition>
+				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -9373,6 +9416,10 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 		<TriggerActions>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
+				<MessageTitle>Ein nicht identifizierter Eindringling</MessageTitle>
+				<Description>Das mysteriöse Signal ist eine Reihe von magnetischen Impulsen. Unsere Wissenschaftler glauben, dass es sich nicht um eine Sprache handelt, sondern möglicherweise um eine Reihe komplexer und miteinander verbundener mathematischer Gleichungen.  Viele glauben, dass diese Impulse eine Antwort erfordern, aber wir können nicht erraten, wie diese Antwort aussehen könnte.
+
+Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffnung, dieses Rätsel zu lösen.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9393,10 +9440,6 @@ Wir glauben, dass die Shakturi unseren Agenten erreicht haben, bevor unser Agent
 			</GameEventAction>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
-				<MessageTitle>Ein nicht identifizierter Eindringling</MessageTitle>
-				<Description>Das mysteriöse Signal ist eine Reihe von magnetischen Impulsen. Unsere Wissenschaftler glauben, dass es sich nicht um eine Sprache handelt, sondern möglicherweise um eine Reihe komplexer und miteinander verbundener mathematischer Gleichungen.  Viele glauben, dass diese Impulse eine Antwort erfordern, aber wir können nicht erraten, wie diese Antwort aussehen könnte.
-
-Mehrere unserer Forscher sind bereit, diese Impulse zu untersuchen, in der Hoffnung, dieses Rätsel zu lösen.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10920,6 +10963,25 @@ Solange die Bake existiert, bleibt sie eine Bedrohung. Unsere Wissenschaftler si
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>95</Id1> <!-- Colony Event Id, Current Value = Beacon Heavily Impacting Research -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>32760</Id1>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>

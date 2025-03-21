@@ -371,7 +371,7 @@ Die Kriegsmüdigkeit hat sich in unserem gesamten Volk für die nächsten 2 Jahr
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -397,7 +397,7 @@ Die Kriegsmüdigkeit hat sich in unserem gesamten Volk für die nächsten 2 Jahr
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Vorhersagende Geschichtsentwicklung</Name>
-		<Description>Unsere Analysten haben unsere jüngsten Entdeckungen bei der Erkundung einiger Ruinen auf raffinierte Weise angewandt. Durch unsere detaillierte Untersuchung der Vergangenheit und unsere umfangreichen Erkundungsergebnisse können wir nun Ereignisse der nahen Zukunft ziemlich genau vorhersagen.\n\nSomit wird unser Imperium in den nächsten zwei Jahren die folgenden Vorteile und Nachteile genießen:\n[ULI]-10 % Gesamtforschung[/ULI][ULI]+10 % Diplomatie[/ULI][ULI]+10 % Spionageabwehr[/ULI][ULI]+10 % Spionage[/ULI][ULI]+10 % PsyOps[/ULI]</Description>
+		<Description>Unsere Analysten haben unsere jüngsten Entdeckungen bei der Erkundung einiger Ruinen geschickt eingesetzt. Durch detaillierte Untersuchungen der Vergangenheit und unsere umfangreichen Erkundungsergebnisse können wir nun Ereignisse der nahen Zukunft ziemlich genau vorhersagen.\n\nDaher genießt unser Imperium in den nächsten zwei Jahren folgende Vorteile und Nachteile:\n[ULI]-5 % Gesamtforschung[/ULI][ULI]+10 % Diplomatie[/ULI][ULI]+10 % Spionageabwehr[/ULI][ULI]+10 % Spionage[/ULI][ULI]+10 % Psychologische Operationen[/ULI]</Description>
 		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -470,18 +470,14 @@ Außerdem sorgen die damit verbundenen Festivitäten in der Kolonie für einen Z
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>19</ColonyEventDefinitionId> <!-- Crazed Cannibalism -->
 		<Type>Undefined</Type>
-		<PopulationAmount>-0.05</PopulationAmount>
-		<RandomInitiationChance>0.00125</RandomInitiationChance>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<PopulationAmount>-0.2</PopulationAmount>
 		<RaceFilterIds>
 			<unsignedByte>6</unsignedByte> <!-- Boskara -->
 		</RaceFilterIds>
-		<Bonuses>
-			<Bonus>
-				<Type>Undefined</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wahnsinniger Kannibalismus</Name>
 		<Description>Die Bevölkerung unserer Kolonie {0} wurde in einen wahnsinnigen Rausch getrieben. Aufgrund dieser hyper-aggressiven Paranoia ist Kannibalismus weit verbreitet!

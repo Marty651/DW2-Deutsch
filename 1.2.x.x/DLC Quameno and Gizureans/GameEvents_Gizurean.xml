@@ -581,6 +581,7 @@ Was sind diese Dinge? Warum haben wir das Gefühl, dass wir die Antwort wissen s
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -697,6 +698,7 @@ Das Geheimnis unserer früheren Natur liegt möglicherweise da draußen, zwische
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -911,6 +913,7 @@ Wir haben die Welt für alles Wertvolle verwüstet. Es hat uns Spaß gemacht.</D
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -976,6 +979,7 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1056,12 +1060,9 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Teekan Researchers (Gizurean)</Name>
-		<TriggerType>EncounterLocation</TriggerType>
+		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
-			<short>11</short> <!-- Gizurean -->
-		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
@@ -1108,6 +1109,9 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<GeneratedItemEventNames>
+					<string>Contact Teekan Researchers (Gizurean)</string>
+				</GeneratedItemEventNames>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1136,6 +1140,23 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Contact Teekan Researchers (Gizurean)</Name>
+		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>11</short> <!-- Gizurean -->
+		</TriggerRaceIds>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -1146,6 +1167,7 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1206,6 +1228,7 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1325,6 +1348,7 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1417,6 +1441,7 @@ Um uns zu trösten, beanspruchten wir eure Forschungsbasis und nutzten sie, um u
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1481,6 +1506,7 @@ Um uns zu trösten, beanspruchten wir eure Forschungsbasis und nutzten sie, um u
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1541,6 +1567,7 @@ Dennoch gibt es vieles, was wir nicht wissen, z.B. wer wir vor der 'Großen Kata
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1661,6 +1688,7 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1727,6 +1755,7 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1806,6 +1835,7 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1868,6 +1898,7 @@ Niemand arbeitet gerne mit diesem Wissenschaftler zusammen. Trotzdem ist er sehr
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2168,6 +2199,7 @@ Vernichten wir diese geminderten Bewohner Gizureas und nehmen wir ihre erstreben
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2289,6 +2321,7 @@ Unsere Wissenschaftler, die sicherlich die besten in der Galaxis sind, glauben, 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2408,6 +2441,7 @@ Vielleicht ist eine umgewandelte Bevölkerung für uns von Nutzen. Oder wir kön
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2523,6 +2557,7 @@ Eine Unterschicht aus unterdrückten, einfachen Arbeitern wird uns noch stärker
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2657,6 +2692,7 @@ Eine Unterschicht aus unterdrückten, einfachen Arbeitern wird uns noch stärker
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2873,6 +2909,7 @@ Kein Bedauern!</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3234,6 +3271,7 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3574,6 +3612,7 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3727,6 +3766,7 @@ Auf der Heimatwelt kommt es nun zu einem Ausbruch, und die Krankheit droht sich 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3809,6 +3849,7 @@ Wir werden uns auf positive Dinge konzentrieren. Durch die Untersuchung des Schi
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3894,6 +3935,7 @@ Die Toten werden bald ersetzt, und so haben wir nichts verloren.</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4036,6 +4078,7 @@ Kein Bedauern!</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4395,6 +4438,7 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4735,6 +4779,7 @@ Unsere Wissenschaftler scheinen verrückt geworden zu sein und sich gegenseitig 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4886,6 +4931,7 @@ Auf der Heimatwelt kommt es nun zu einem Ausbruch, und die Krankheit droht sich 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4968,6 +5014,7 @@ Durch die Untersuchung des Schiffes haben wir jedoch viel über die uralte gizur
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5051,6 +5098,7 @@ Durch die Untersuchung des Schiffes haben wir jedoch viel über die uralte gizur
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5264,6 +5312,7 @@ Und das ist uns egal, denn wir haben durch die Demontage von allem, was wir find
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5621,6 +5670,7 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5699,6 +5749,7 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5796,6 +5847,7 @@ Wir könnten den ganzen Aufwand einfach aufgeben und hoffen, durch eine oberflä
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5977,6 +6029,7 @@ Vielleicht sollten wir mehr herausfinden, obwohl wir die Überreste der Kolonie 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6276,6 +6329,7 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6543,6 +6597,7 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6659,6 +6714,7 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6808,6 +6864,7 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7008,6 +7065,7 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7125,6 +7183,7 @@ Wir haben auch Informationen entdeckt, die uns auf den Standort einer alten gizu
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7406,6 +7465,7 @@ Wenn wir lernen könnten, so miteinander verbunden zu sein, wie sie sind, könnt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7466,6 +7526,7 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7546,6 +7607,7 @@ Wir haben außerdem eine Karte gefunden, die den vermutlichen Heimatplaneten der
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7825,6 +7887,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -8020,6 +8083,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9730,6 +9794,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9788,6 +9853,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9883,6 +9949,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -9980,6 +10047,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10023,6 +10091,7 @@ Sawa Echigo gab sein Leben, um dabei zu helfen, einige unserer Feinde zu elimini
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10180,6 +10249,7 @@ Sawa Echigo gab sein Leben, um dabei zu helfen, einige unserer Feinde zu elimini
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10277,6 +10347,7 @@ Die Anlage wurde vom Schwarm zerstört, bevor unsere Vorfahren ihre Arbeit absch
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10360,6 +10431,7 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10421,6 +10493,7 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10643,6 +10716,7 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10704,6 +10778,7 @@ Wir stehen am Rande einer neuen Ära. Die Gizurean werden nie wieder die gleiche
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10787,6 +10862,7 @@ Wir sind schockiert, als wir erfahren, dass die Schwarm-Kreaturen tatsächlich d
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10849,6 +10925,7 @@ Diese kaputten, verzerrten Kreaturen nennen wir jetzt den 'Schwarm'.</Descriptio
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10909,6 +10986,7 @@ Wir müssen jetzt akzeptieren, dass wir tatsächlich kleiner geworden sind, aber
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -10969,6 +11047,7 @@ Auf der Planetenoberfläche haben wir zahlreiche Überreste von Schwarm-Schiffen
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11092,6 +11171,7 @@ Wir haben erfahren, dass die Shakturi, als sie zum ersten Mal in diese Galaxie e
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11153,6 +11233,7 @@ Wir haben erfahren, dass die Shakturi, als sie zum ersten Mal in diese Galaxie e
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

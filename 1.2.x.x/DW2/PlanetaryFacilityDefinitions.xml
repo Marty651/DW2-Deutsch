@@ -308,7 +308,7 @@
 		<BombardmentResistance>0.85</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
 		<FacilityFamilyId>8</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Planetarer Schildgenerator Mk2</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
@@ -324,7 +324,7 @@
 		<BombardmentResistance>0.9</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
 		<FacilityFamilyId>8</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<FacilityFamilyLevel>4</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Planetarer Schildgenerator Mk3</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
@@ -2626,10 +2626,11 @@
 		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
 		<BombardmentResistance>0.8</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
-		<FacilityFamilyId>70</FacilityFamilyId>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Megatron Schild-Generator</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+		<ImageFilename>Environment/PlanetaryFacilities/Megatron Planetary Shield Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>133</PlanetaryFacilityDefinitionId> <!-- Megatron Shield Generator Mk2 -->
@@ -2641,11 +2642,11 @@
 		<PlanetaryShieldMaximumDamageAbsorbed>35</PlanetaryShieldMaximumDamageAbsorbed>
 		<BombardmentResistance>0.85</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
-		<FacilityFamilyId>70</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Megatron Schild-Generator Mk2</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+		<ImageFilename>Environment/PlanetaryFacilities/Megatron Planetary Shield Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>134</PlanetaryFacilityDefinitionId> <!-- Megatron Shield Generator Mk3 -->
@@ -2657,11 +2658,11 @@
 		<PlanetaryShieldMaximumDamageAbsorbed>70</PlanetaryShieldMaximumDamageAbsorbed>
 		<BombardmentResistance>0.9</BombardmentResistance>
 		<GroundCombatResistance>0.7</GroundCombatResistance>
-		<FacilityFamilyId>70</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>5</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Megatron Schild-Generator Mk3</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+		<ImageFilename>Environment/PlanetaryFacilities/Megatron Planetary Shield Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>135</PlanetaryFacilityDefinitionId> <!-- Core-Linked Weapons Mega Lab -->
@@ -2685,8 +2686,30 @@
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<BombardmentResistance>0.9</BombardmentResistance>
 		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<QualityBoost>-0.1</QualityBoost>
 		<FacilityFamilyId>71</FacilityFamilyId>
 		<Name>Megalabor für kerngebundene Waffen</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
+		<ImageFilename>Environment/PlanetaryFacilities/Boskara Core-Linked Weapons Mega Lab</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>137</PlanetaryFacilityDefinitionId> <!-- Ancient Crashed Ship -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Altes abgestürztes Schiff</Name>
+		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

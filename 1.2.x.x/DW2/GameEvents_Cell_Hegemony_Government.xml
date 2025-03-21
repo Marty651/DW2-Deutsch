@@ -62,6 +62,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

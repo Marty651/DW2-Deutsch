@@ -105,6 +105,9 @@ ShipMission Description UnloadPassengers		;Passagiere entladen bei {0}
 ShipMission Description UnloadCargo		;Entlade Fracht bei {0}
 ShipMission Description ExitYard		;Schiffs-Werft verlassen
 
+ShipMission Description With Distance RamDestroyPlanet		;Ramme und zerstöre {0} ({1} entfernt)
+ShipMission Description RamDestroyPlanet		;Ramme und zerstöre {0}
+
 ShipMission Description With Distance Attack		;Greife {0} an ({1} entfernt)
 ShipMission Description With Distance Attack Prepare		;Bereite vor und Greife {0} an ({1} entfernt)
 ShipMission Description With Distance Attack Prepare Waypoint		;Greife {0} an ({2} entfernt, Wegpunkt bei {1}, {3} entfernt)
@@ -3802,6 +3805,7 @@ Character Event WarEnd		;Krieg endet
 Character Event WarStart		;Krieg beginnt
 Character Event EmpireDirectionChange		;Richtungswechsel
 Character Event Exploration		;Erforschung
+Character Event ColonyDestroyedBombardment		;Feindliche Kolonie durch Bombardierung zerstört
 
 Character Trait Addict		;Süchtiger
 Character Trait BeanCounter		;Erbsenzähler
@@ -5288,7 +5292,7 @@ PolicyExplanation AutomationDiplomaticGifts		;Automatisiert das Anbieten von dip
 PolicyExplanation AutomationDiplomaticTreaties		;Automatisiert die Aushandlung von diplomatischen Verträgen mit anderen Fraktionen oder kontrolliert diesen Bereich manuell.
 PolicyExplanation AutomationDiplomaticWar		;Automatisiert Kriegs- und Friedensverhandlungen mit anderen Fraktionen oder kontrolliert diesen Bereich manuell.
 PolicyExplanation AutomationMilitaryAttacks		;Automatisiert die militärischen Angriffe Eurer Flotten und Schiffe auf feindliche Ziele, oder kontrolliert dieses Gebiet manuell.
-PolicyExplanation AutomationWarMissions		;Automate assignment of war missions that give bonus rewards during wars, or control this area manually. Note that manual control will turn off War Missions for your empire
+PolicyExplanation AutomationWarMissions		;Automatisiere die Zuweisung von Kriegsmissionen, die im Krieg Bonusbelohnungen gewähren, oder kontrolliere diesen Bereich manuell. Beachte, dass die manuelle Steuerung Kriegsmissionen für Ihr Imperium deaktiviert.
 PolicyExplanation AttackOvermatchFactor		;Der Grad der Kampf-Überlegenheit jedes einzelnen Eurer Militärschiffe (im Vergleich mit den einzelnen feindlichen Schiffen), der verwendet wird, um Angriffsziele beim Kampf gegen feindliche Schiffe zu ermitteln und festzulegen. Höhere Werte bedeuten, dass mehr angreifende Schiffe als einzelne Ziele zugewiesen werden, um den Kampf-Erfolg insgesamt zu gewährleisten.
 PolicyExplanation CaptureTargetConditionShip		;Wenn feindliche Schiffe übernommen statt zerstört werden sollen. Beachtet, dass die Enterschiffe auch über Enterkapseln verfügen müssen, um eine Übernahme zu ermöglichen.
 PolicyExplanation CaptureTargetConditionBase		;Wenn feindliche Raumbasen erobert statt zerstört werden sollen. Beachtet, dass die Enterschiffe auch über Enterkapseln verfügen müssen, um eine Übernahme zu ermöglichen.
@@ -5342,13 +5346,21 @@ PolicyExplanation IntelligenceMissionAllowInfluenceEmpirePositively		;Erlaubt od
 PolicyExplanation IntelligenceMissionAllowInfluenceEmpireNegatively		;Erlaubt oder verbietet Euren Spionen negative Volksbeeinflussungs-Missionen.
 PolicyExplanation IntelligenceMissionAllowInternalStabilization		;Erlaubt oder verbietet Euren Spionen Interne Stabilisierungs-Missionen.
 
-PolicyExplanation IntelligenceMissionAllowDefectCharacter		;Allow or disallow Defect Character missions for your spies.
-PolicyExplanation IntelligenceMissionAllowDestroyFacility		;Allow or disallow Destroy Facility missions for your spies.
-PolicyExplanation IntelligenceMissionAllowInfectColonyWithPlague		;Allow or disallow Infect Colony with Plague missions for your spies.
-PolicyExplanation IntelligenceMissionAllowCreateFalseIncident		;Allow or disallow Create False Incident missions for your spies.
-PolicyExplanation IntelligenceMissionAllowControlFactionLeader		;Allow or disallow Control Faction Leader missions for your spies.
+PolicyExplanation IntelligenceMissionAllowDefectCharacter		;Erlauben oder verbieten Sie Ihren Spionen Charakterschädiguns-Missionen.
+PolicyExplanation IntelligenceMissionAllowDestroyFacility		;Erlauben oder verbieten Sie Ihren Spionen Missionen zum Zerstören von Einrichtungen.
+PolicyExplanation IntelligenceMissionAllowInfectColonyWithPlague		;Erlauben oder verbieten Sie Ihren Spionen Seuchenmissionen.
+PolicyExplanation IntelligenceMissionAllowCreateFalseIncident		;Erlauben oder verbieten Sie Ihren Spionen die Erstellung falscher Vorfallsmissionen.
+PolicyExplanation IntelligenceMissionAllowControlFactionLeader		;Erlauben oder verbieten Sie Ihren Spionen Kontrollmissionen für Fraktionsführer.
 
 PolicyExplanation AutomationPreset		;Wählt eine voreingestellte Konfiguration von Automatisierungseinstellungen, die zu einem bestimmten Spielstil passt.
+
+PolicyExplanation AllowAutoScrappingWhenEconomicShortfallMilitaryShips		;Ob Militärschiffe und Flotten automatisch verschrottet werden sollen, wenn Ihr Imperium ein ernsthaftes wirtschaftliches Defizit hat.\n\nBeachten Sie, dass für die automatische Verschrottung auch der Schiffsbau automatisiert sein muss. Um ganze Flotten automatisch verschrotten zu können, muss auch die Flottenbildung automatisiert sein.
+
+PolicyExplanation AllowAutoScrappingWhenEconomicShortfallTroops		;Ob Truppen automatisch verschrottet werden sollen, wenn Ihr Reich ein ernstes wirtschaftliches Defizit hat.\n\nBeachten Sie, dass für die automatische Verschrottung auch die Truppenrekrutierung automatisiert sein muss.
+
+Auto-Scrap Military Ships and Fleets When Cannot Afford		;Automatische Verschrottung von Militärschiffen und Flotten, wenn Sie es sich nicht leisten können
+Auto-Scrap Troops When Cannot Afford		;Truppen automatisch entsorgen, wenn sie nicht mehr erschwinglich sind
+
 
 Settings Explanation ScrollSpeed		;Bewegungsgeschwindigkeit beim Schwenken des Bildschirms nach links, rechts, oben oder unten mit Tasten-Befehlen (standard: W,A,S,D), oder beim Verschieben des Bildschirms am Rand mit der Maus.
 Settings Explanation ZoomSpeed		;Zoomgeschwindigkeit beim Vergrößern oder Verkleinern der Ansicht mit Hilfe des Mausrads oder der Tasten-Befehlen (standard: PageUp/PageDown).
@@ -6074,6 +6086,7 @@ Leader Change Character Dismissals		;Der jüngste Führungswechsel hat bei einer
 
 This event can only be started once every X years. It was last started Y		;Dieses Ereignis kann nur einmal alle {0} Jahre gestartet werden. Es wurde zuletzt gestartet {1}
 
+
 Duration X		;Dauer: {0} Jahre
 Duration X-Y		;Dauer: {0}-{1} Jahre
 Location only		;Nur Standort
@@ -6416,6 +6429,7 @@ ShipMission Attack Verb Bombard		;Bombardieren Sie
 ShipMission Attack Verb Raid		;Razzia
 ShipMission Attack Verb Capture		;Einfangen
 ShipMission Attack Verb Blockade		;Blockieren
+ShipMission Attack Verb RamDestroyPlanet		;Rammen und Zerstören
 
 FLEET ATTACK VERB		;{0} {1}
 Multiple Fleets ATTACK VERB		;Mehrere Flotten {0}
@@ -6987,3 +7001,30 @@ Character Trait Manipulator		;Manipulator
 Character Trait Secretive		;Geheimnisvoll
 
 Character Trait Description LivingInThePast		;Erhöht die Chance auf einen kritischen Forschungserfolg enorm
+
+DamagePerYear		;Schaden pro Jahr
+
+Character Trait Underlord		;Unterlord
+Character Trait Malicious		;Böswillig
+Character Trait Warspawn		;Kriegstreiber
+Character Trait WorldScorcher		;Weltvernichter
+
+Character Trait Description Warspawn		;Ermöglicht Kriegstreiberei in Kolonien (wandelt einen Teil der Bevölkerung in Infanterietruppen um)
+We are alarmed at your assignment of a Warspawn		;Wir sind beunruhigt über Ihren Einsatz eines Kriegstreibers
+EMPIRE assigns a Warspawn		;{0} weist einen Kriegstreiber zu
+EMPIRE assigns a Warspawn Explanation		;{0} haben einen Kriegstreiber, [CHARACTER]{1}[/CHARACTER], damit beauftragt, ihren kürzlich erklärten Krieg anzuführen.\n\nSie sind auf dem Kriegspfad gegen ihre Feinde. Wen werden sie als nächstes angreifen?
+
+The RACE cannot dismiss their leader Explanation		;Die {0} können ihren Anführer nicht entlassen. Sie nutzen die Große Weisung, um ihren Anführer regelmäßig zu ersetzen.
+
+Auto-engaging targets RANGE		;Automatisch aktivierende Ziele {0}
+Not Auto-engaging targets		;Nicht automatisch aktivierende Ziele
+
+Change Engagement Range Explanation		;Klicken Sie auf , um den Bildschirm Taktische Einstellungen zu öffnen
+
+Highest SKILL		;Höchste {0}
+Safe Locations First		;Sichere Orte zuerst
+
+ComponentCategory Description PlanetaryDetonator		;Planetare Detonator-Komponenten ermöglichen die Rammung und Zerstörung eines Planeten oder Mondes. Die massive Sprengladung im Herzen der Detonator-Komponente ist stark genug, um einen Planetenkern in Stücke zu reißen und den Planeten vollständig zu zerstören.
+ComponentCategory PlanetaryDetonator		;Planetarischer Detonator
+ComponentCategory PlanetaryDetonator Short		;PDT
+Preparing to Detonate		;Vorbereitung der Detonation

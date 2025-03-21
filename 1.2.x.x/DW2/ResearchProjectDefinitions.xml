@@ -33064,6 +33064,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33133,6 +33135,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33202,6 +33206,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33271,6 +33277,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33340,6 +33348,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33416,6 +33426,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 				<Bonuses>
 					<Bonus>
@@ -33690,6 +33702,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 			</ShipHullValues>
 			<ShipHullValues>
@@ -33703,6 +33717,8 @@
 				<IonDefense>0</IonDefense>
 				<CountermeasuresBonus>0</CountermeasuresBonus>
 				<TargetingBonus>0</TargetingBonus>
+				<Stealth>0</Stealth>
+				<DamageReduction>0</DamageReduction>
 				<BuildSpeedFactor>0</BuildSpeedFactor>
 			</ShipHullValues>
 		</RepeatableShipHullValues>
@@ -34261,7 +34277,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>655</ResearchProjectId>
-		<Name>Erhöhte Planetenqualität x(9)</Name>
+		<Name>Verbesserte Planetenreparatur x(9)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -42019,6 +42035,39 @@
 				<Level>0</Level>
 			</Component>
 		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1019</ResearchProjectId>
+		<Name>Planetenkern-Experimente</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>1600</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>204</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>451</ResearchProjectId> <!-- Structured Research -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId> <!-- Boskara -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>135</short> <!-- Core-Linked Weapons Mega Lab -->
+		</PlanetaryFacilityIds>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

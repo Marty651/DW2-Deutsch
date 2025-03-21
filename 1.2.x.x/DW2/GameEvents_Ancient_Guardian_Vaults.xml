@@ -28,6 +28,7 @@ Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -93,6 +94,7 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -177,6 +179,7 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -208,6 +211,8 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsPlayer</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
@@ -230,6 +235,7 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -352,6 +358,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -454,6 +462,8 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -548,6 +558,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -578,6 +589,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsNotPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -678,6 +691,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -755,6 +769,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -803,6 +818,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -899,6 +915,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1059,7 +1076,9 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1161,7 +1180,9 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1254,6 +1275,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1284,6 +1306,8 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1336,6 +1360,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1398,6 +1423,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1504,6 +1530,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1581,6 +1608,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1629,6 +1657,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1725,6 +1754,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1885,7 +1915,9 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1987,7 +2019,9 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2084,6 +2118,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2114,6 +2149,8 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2214,6 +2251,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2291,6 +2329,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2339,6 +2378,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2435,6 +2475,7 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2595,7 +2636,9 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2697,7 +2740,9 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2792,6 +2837,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2822,6 +2868,8 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2922,6 +2970,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2999,6 +3048,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3047,6 +3097,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3105,6 +3156,7 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3303,7 +3355,9 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -3405,7 +3459,9 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -3504,6 +3560,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3534,6 +3591,8 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -3634,6 +3693,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3711,6 +3771,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3759,6 +3820,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3855,6 +3917,7 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4015,7 +4078,9 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4117,7 +4182,9 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4214,6 +4281,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4244,6 +4312,8 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4344,6 +4414,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4421,6 +4492,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4469,6 +4541,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4565,6 +4638,7 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4725,7 +4799,9 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4827,7 +4903,9 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4926,6 +5004,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -4956,6 +5035,8 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -5056,6 +5137,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5133,6 +5215,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5181,6 +5264,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5277,6 +5361,7 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5437,7 +5522,9 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -5539,7 +5626,9 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -5640,6 +5729,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5670,6 +5760,8 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -5770,6 +5862,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5847,6 +5940,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5895,6 +5989,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5991,6 +6086,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6151,7 +6247,9 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6253,7 +6351,9 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6350,6 +6450,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6380,6 +6481,8 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6480,6 +6583,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6557,6 +6661,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6605,6 +6710,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6701,6 +6807,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -6861,7 +6968,9 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -6963,7 +7072,9 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
-						<Type>EmpireIsNotPlayer</Type>
+						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -7061,6 +7172,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7091,6 +7203,8 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<Conditions>
 					<GameEventCondition>
 						<Type>EmpireIsPlayer</Type>
+						<LookupValue>0</LookupValue>
+						<ComparisonType>Undefined</ComparisonType>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -7191,6 +7305,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7268,6 +7383,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7316,6 +7432,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -7412,6 +7529,7 @@ Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

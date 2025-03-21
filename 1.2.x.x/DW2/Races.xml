@@ -2242,6 +2242,51 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 			<short>59</short> <!-- Epsilon Torpedo [M] -->
 			<short>198</short> <!-- Epsilon Torpedo [Ftr] -->
 		</PreferredWeaponComponentIds>
+
+		<ColonizationOrbTypeIds>
+			<unsignedByte>12</unsignedByte>
+		</ColonizationOrbTypeIds>
+		<ColonizationOrbTypeGameEventNames>
+			<string>Underlords (Boskara)</string>
+		</ColonizationOrbTypeGameEventNames>
+		<HomeworldConquestGameEventName>We Reign Supreme (Boskara)</HomeworldConquestGameEventName>
+		<PeacetimeColonyGameEvents>
+			<string>Crazed Cannibalism (Boskara)</string>
+		</PeacetimeColonyGameEvents>
+		<PeacetimeColonyGameEventsAnnualChance>
+			<float>0.1</float>
+		</PeacetimeColonyGameEventsAnnualChance>
+		<WarStartedByUsGameEventName>Warspawn (Boskara)</WarStartedByUsGameEventName>
+
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Underlord</CharacterTraitType>
+			<CharacterTraitType>Malicious</CharacterTraitType>
+			<CharacterTraitType>Warspawn</CharacterTraitType>
+			<CharacterTraitType>WorldScorcher</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>58</ResourceId> <!-- Tebraakian Granite -->
+				<Amount>0.06</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		
+		<FeatureExplanations>
+			<string>[HL]Schlechte Schadenskontrolle:[/HL] Alle Schiffs- und Basisrümpfe haben eine Schadensreduzierung von -10 %, was den Schaden erhöht, der Schilde und Panzerung durchdringt</string>
+			<string>[HL]Kriegsbrut:[/HL] Möglichkeit, einen neuen starken Kriegsbrut-[CHARACTER]Admiral oder General[/CHARACTER] zu erhalten, wenn man einer anderen Fraktion den Krieg erklärt, allerdings auf Kosten von [BAD]deutlich verschlechterten Beziehungen[/BAD] zu allen anderen Fraktionen ohne Nichtangriffspakt oder Verteidigungsvertrag. Ein Kriegsbrut-Charakter aktiviert auch die Funktion [B]Kriegsbrut[/B] (siehe unten). Wird nicht aktiviert, wenn man bereits einen Kriegsbrut-Charakter besitzt.</string>
+			<string>[HL]Underlords:[/HL] Entdecke eine zusätzliche Ressource, wenn du eine neue Vulkankolonie gründest</string>
+			<string>[HL]Wir herrschen unangefochten:[/HL] Wenn Sie die Heimatwelt eines anderen Imperiums erobern, erhalten Sie 10 Jahre lang +20 % Zufriedenheit im Imperium</string>
+			<string>[HL]Verrückter Kannibalismus:[/HL] Wenn nicht gerade Krieg herrscht, kann eine Ihrer Boskara-Kolonien regelmäßig in einen hyperaggressiven Kannibalismus verfallen und dabei etwa 10 % ihrer Bevölkerung verlieren.</string>
+			<string>[HL]Totaler Krieg:[/HL] Außerhalb des Krieges kann der Spieler jede Kolonie zwei Jahre lang für die Kriegsproduktion mobilisieren. Während dieser Zeit erhöht sich die Schiffsbaugeschwindigkeit der Kolonie um 50 % und die Truppenrekrutierungsrate um 50 %. Allerdings erleidet die Kolonie auch [BAD]5 Schaden pro Jahr[/BAD].</string>
+			<string>[HL]Kriegsbrut:[/HL] Wenn ein „Kriegsbrut“-Charakter im Imperium existiert, kann der Spieler in jeder Kolonie mit über 1 Milliarde Boskara Kriegsbrut einleiten. Dadurch werden 10 % der Koloniebevölkerung sofort und kostenlos in 10 neue Infanterieeinheiten umgewandelt.</string>
+			<string>[HL]Core-Linked Weapons Mega Lab:[/HL] einzigartige Boskara-Einrichtung, die Boni für Waffenforschung und alle Forschungen bietet, aber die Qualität des Planeten, auf dem sie gebaut wird, verringert</string>
+			<string>[HL]Einzigartige Anführereigenschaft - Underlord:[/HL] +10 % Abbaurate. Hohe Chance auf Erhalt bei der Gründung einer neuen Vulkankolonie</string>
+			<string>[HL]Einzigartige Spionageeigenschaft – Bösartig:[/HL] +10 % Sabotage, +10 % Attentat. Hohe Chance auf Erhalt nach erfolgreichem Abschluss einer Sabotage- oder Attentats-Spionagemission.</string>
+			<string>[HL]Einzigartige Admiral- und Generalseigenschaft – Kriegsbrut:[/HL] +20 % Bodenangriffsstärke, +10 % Waffenschaden, +10 % Zielgenauigkeit. Wird erhalten, wenn nach der Kriegserklärung eine Kriegsbrut zugewiesen wird.</string>
+			<string>[HL]Einzigartige Admiralseigenschaft – Weltenverbrenner:[/HL] +20 % Bombardementschaden. Wird erhalten, wenn eine Kolonie durch Bombardement vollständig zerstört wird.</string>
+		</FeatureExplanations>
+
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -2798,17 +2843,18 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 		</GrowthResources>
 
 		<FeatureExplanations>
-			<string>[HL]Eingebaute Tarnung:[/HL] Die meisten Hüllen für Militärschiffe und Basen haben +10 Tarnung</string>
-			<string>[HL]Antike Sternenkarten:[/HL] Erkundungsschiffe scannen und untersuchen 20% schneller. Alle Schiffe haben eine um 20% verbesserte Sprunggenauigkeit des Hyperantriebs und verlassen ihre Sprünge näher am Ziel (an fremden Orten).</string>
-			<string>[HL]Wunder der Vergangenheit:[/HL] Wenn eine Ruine untersucht wird, haben Sie ein Jahr lang die Wahl zwischen +10% Reichsglück oder +20% Chance auf Wissenschaftlerqualität und -erscheinung</string>
-			<string>[HL]Vorausschauende Geschichte:[/HL] Wenn eine Ruine erforscht wird, können Sie wählen, ob Sie zwei Jahre lang verbesserte Diplomatie und Intelligenz erhalten wollen, allerdings auf Kosten von reduzierter Forschung.</string>
-			<string>[HL]Bewahren Sie die Ruinen:[/HL] Wenn Sie eine neue Kolonie an einem Ort mit Ruinen gründen, können Sie wählen, ob Sie die Ruine in eine kostenlose Governance-Einrichtung umwandeln oder ob Sie die Ruine behalten wollen, allerdings mit erhöhten Bonusstufen.</string>
-			<string>[HL]Unterirdische Städte:[/HL] alle planetarischen Einrichtungen haben +25% Widerstand gegen Bombardierung und +25% Widerstand gegen Bodenkampf</string>
-			<string>[HL]Einzigartige Anführer-Eigenschaft - Archivar:[/HL] +5% Alle Forschungen, -5% Diplomatie. Wird erworben, wenn Sie eine Ruine mit einem Bonus von 10% oder höher erforschen.</string>
-			<string>[HL]Einzigartige Anführer-Eigenschaft - Uralte Abstammung:[/HL] stellt sicher, dass der Charakter immer nur positive Eigenschaften hat. Alle negativen Eigenschaften werden in positive umgewandelt. Hohe Chance, diese Eigenschaft zu erhalten, wenn Sie eine Ruine mit einem 'Alle Forschungen'-Bonus untersuchen.</string>
-			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Leben in der Vergangenheit:[/HL] -5% auf alle Forschungen, aber stark erhöhte Chancen auf kritische Forschungsdurchbrüche. Wird erworben, wenn Sie die Gewölbe der Alten Wächter untersuchen.</string>
-			<string>[HL]Einzigartige Botschaftereigenschaft - Manipulator:[/HL] -10% Diplomatie, +10% PsyOps. Erhält man, wenn man einen Vertrag mit einem anderen Reich unterzeichnet.</string>
-			<string>[HL]Einzigartige Spionageeigenschaft - Heimlich:[/HL] +5% Spionageabwehr, +5% Verschleierung. Erhält man, wenn man einen feindlichen Spion abfängt.</string>
+			<string>[HL]Eingebaute Tarnung:[/HL] Die meisten Rümpfe für Militärschiffe und Stützpunkte haben +10 Tarnung</string>
+			<string>[HL]Antike Sternenkarten:[/HL] Erkundungsschiffe scannen und vermessen 20 % schneller. Alle Schiffe haben eine um 20 % höhere Sprunggenauigkeit mit Hyperantrieb und verlassen ihre Sprünge näher am Ziel (an ausländischen Standorten).</string>
+			<string>[HL]Wunder der Vergangenheit:[/HL] Bei der Untersuchung einer Ruine besteht die Wahl zwischen +10 % Zufriedenheit des Imperiums oder +10 % Gesamtforschung für ein Jahr</string>
+			<string>[HL]Vorhersagegeschichte:[/HL] Bei der Untersuchung einer Ruine kann man sich für eine Verbesserung der Diplomatie und Aufklärung für zwei Jahre entscheiden, allerdings auf Kosten reduzierter Forschung.</string>
+			<string>[HL]Bewahre die Ruinen:[/HL] Bei der Gründung einer neuen Kolonie an einem Ort mit Ruinen besteht die Wahl, die Ruine in eine kostenlose Verwaltungseinrichtung umzuwandeln oder die Ruine zu behalten, allerdings mit erhöhten Bonusstufen</string>
+			<string>[HL]Unterirdische Städte:[/HL] Alle planetaren Einrichtungen haben +25 % Bombardierungsresistenz und +25 % Bodenkampfresistenz</string>
+			<string>[HL]Archive durchsuchen:[/HL] Gegen Bezahlung können Sie eine gründliche Überprüfung aller Daten in den Zenox-Archiven durchführen. Diese Überprüfung bietet einen zufälligen Vorteil: eine kurzfristige Steigerung der Zufriedenheit oder der Forschung oder sogar die Koordinaten eines wichtigen galaktischen Ortes ...</string>
+			<string>[HL]Einzigartige Anführereigenschaft – Archivar:[/HL] +5 % Gesamtforschung, -5 % Diplomatie. Wird bei der Untersuchung einer Ruine mit einem Bonus von 10 % oder mehr erworben.</string>
+			<string>[HL]Einzigartige Anführereigenschaft – Alte Abstammung:[/HL] stellt sicher, dass der Charakter immer nur positive Eigenschaften besitzt. Alle negativen Eigenschaften werden in positive umgewandelt. Hohe Chance auf den Erhalt bei der Untersuchung einer Ruine mit einem „Alle Forschung“-Bonus.</string>
+			<string>[HL]Einzigartige Wissenschaftlereigenschaft – Leben in der Vergangenheit:[/HL] -5 % Gesamtforschung, aber stark erhöhte Chancen auf kritische Forschungsdurchbrüche. Wird bei der Untersuchung der Alten Wächter-Gewölbe erworben.</string>
+			<string>[HL]Einzigartige Botschaftereigenschaft – Manipulator:[/HL] -10 % Diplomatie, +10 % PsyOps. Wird erworben, wenn ein Vertrag mit einem anderen Imperium unterzeichnet wird.</string>
+			<string>[HL]Einzigartige Spionageeigenschaft – Geheim:[/HL] +5 % Spionageabwehr, +5 % Verschleierung. Wird erhalten, wenn ein feindlicher Spion abgefangen wird.</string>
 		</FeatureExplanations>
 		
 		<VictoryConditions>

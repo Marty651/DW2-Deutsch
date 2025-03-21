@@ -16,6 +16,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -429,6 +431,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -1029,6 +1033,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -1223,6 +1229,7 @@
 				<ComponentBayId>10</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -1239,6 +1246,7 @@
 				<ComponentBayId>11</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -1255,7 +1263,6 @@
 				<ComponentBayId>12</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -1272,7 +1279,6 @@
 				<ComponentBayId>13</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -2124,6 +2130,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -2622,6 +2630,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -3073,6 +3083,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -3455,6 +3467,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -3903,6 +3917,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -4474,6 +4490,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -5083,6 +5101,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -5521,6 +5541,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -5954,6 +5976,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -6470,6 +6494,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -7060,6 +7086,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -7254,6 +7282,7 @@
 				<ComponentBayId>10</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7270,6 +7299,7 @@
 				<ComponentBayId>11</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7286,7 +7316,6 @@
 				<ComponentBayId>12</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7303,7 +7332,6 @@
 				<ComponentBayId>13</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -8159,6 +8187,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -8644,6 +8674,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -9113,6 +9145,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -9549,6 +9583,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10057,6 +10093,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10760,6 +10798,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -11352,6 +11392,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.15</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -11909,6 +11951,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -12495,6 +12539,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -13081,6 +13127,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -13713,6 +13761,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -14388,6 +14438,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -14616,6 +14668,7 @@
 				<ComponentBayId>12</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -14632,6 +14685,7 @@
 				<ComponentBayId>13</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -14648,7 +14702,6 @@
 				<ComponentBayId>14</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -14665,7 +14718,6 @@
 				<ComponentBayId>15</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -15621,6 +15673,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -16175,6 +16229,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -16716,6 +16772,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -17221,6 +17279,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -17725,6 +17785,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -18197,6 +18259,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -18861,6 +18925,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -19530,6 +19596,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0.05</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -20194,6 +20262,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -20462,6 +20532,7 @@
 				<ComponentBayId>14</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -20478,6 +20549,7 @@
 				<ComponentBayId>15</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -20494,7 +20566,7 @@
 				<ComponentBayId>16</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
+				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -20511,7 +20583,7 @@
 				<ComponentBayId>17</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
+				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -20528,7 +20600,6 @@
 				<ComponentBayId>18</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -20545,7 +20616,6 @@
 				<ComponentBayId>19</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -21568,6 +21638,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -22672,6 +22744,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -23244,6 +23318,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -23903,6 +23979,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -24455,6 +24533,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -25009,6 +25089,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -25841,6 +25923,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -26567,6 +26651,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -26869,6 +26955,7 @@
 				<ComponentBayId>16</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -26885,6 +26972,7 @@
 				<ComponentBayId>17</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -26901,7 +26989,7 @@
 				<ComponentBayId>18</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
+				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -26918,7 +27006,7 @@
 				<ComponentBayId>19</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
+				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -26935,7 +27023,6 @@
 				<ComponentBayId>20</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -26952,7 +27039,6 @@
 				<ComponentBayId>21</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -28071,6 +28157,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -29305,6 +29393,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -29941,6 +30031,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -30547,6 +30639,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -31151,6 +31245,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -32309,6 +32405,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -33356,6 +33454,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -34279,6 +34379,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -35218,6 +35320,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -36118,6 +36222,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -37019,6 +37125,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -37862,6 +37970,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -39136,6 +39246,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -40298,6 +40410,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -41247,6 +41361,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -42191,6 +42307,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -43123,6 +43241,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -44045,6 +44165,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -45035,6 +45157,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -45371,6 +45495,7 @@
 				<ComponentBayId>18</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45387,6 +45512,7 @@
 				<ComponentBayId>19</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45403,6 +45529,7 @@
 				<ComponentBayId>20</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45419,6 +45546,7 @@
 				<ComponentBayId>21</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45435,7 +45563,7 @@
 				<ComponentBayId>22</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
+				<MeshName>#hangar4</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45452,7 +45580,7 @@
 				<ComponentBayId>23</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
+				<MeshName>#hangar5</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45469,7 +45597,6 @@
 				<ComponentBayId>24</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45486,7 +45613,6 @@
 				<ComponentBayId>25</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45503,7 +45629,6 @@
 				<ComponentBayId>26</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar4</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -45520,7 +45645,6 @@
 				<ComponentBayId>27</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar5</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -46675,6 +46799,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -47363,6 +47489,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -48719,6 +48847,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -49962,6 +50092,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -51032,6 +51164,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -51736,6 +51870,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -53092,6 +53228,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -54335,6 +54473,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -54739,6 +54879,7 @@
 				<ComponentBayId>22</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54755,6 +54896,7 @@
 				<ComponentBayId>23</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54771,6 +54913,7 @@
 				<ComponentBayId>24</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54787,6 +54930,7 @@
 				<ComponentBayId>25</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>100</MaximumComponentSize>
+				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54803,7 +54947,7 @@
 				<ComponentBayId>26</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar0</MeshName>
+				<MeshName>#hangar4</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54820,7 +54964,7 @@
 				<ComponentBayId>27</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar1</MeshName>
+				<MeshName>#hangar5</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54837,7 +54981,6 @@
 				<ComponentBayId>28</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54854,7 +54997,6 @@
 				<ComponentBayId>29</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar3</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54871,7 +55013,6 @@
 				<ComponentBayId>30</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar4</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -54888,7 +55029,6 @@
 				<ComponentBayId>31</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#hangar5</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -56043,6 +56183,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.33</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -56220,6 +56362,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.12</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -56414,6 +56558,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -56612,6 +56758,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.16</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -56826,6 +56974,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -57024,6 +57174,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.4</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -57222,6 +57374,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -57436,6 +57590,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -57650,6 +57806,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.46</CountermeasuresBonus>
 		<TargetingBonus>0.42</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -57852,6 +58010,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.36</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -58086,6 +58246,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -58304,6 +58466,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.48</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -58554,6 +58718,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.5</CountermeasuresBonus>
 		<TargetingBonus>0.58</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -58772,6 +58938,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.54</CountermeasuresBonus>
 		<TargetingBonus>0.7</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -58990,6 +59158,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.38</CountermeasuresBonus>
 		<TargetingBonus>0.6</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -59257,6 +59427,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>-0.1</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>

@@ -88,6 +88,28 @@ class RealWorker : Worker
         $AnchorElement.AppendChild($ElementToAppend) | Out-Null
     }
 
+#    [object] Translate($Text) 
+#    {
+#        # https://www.deepl.com/docs-api/translate-text/translate-text
+#        $url = $this.Config.Deepl.Url.TrimEnd("/") + "/translate"
+#        $params = @{
+#            auth_key = Get-Content $this.Config.Deepl.KeyFilePath
+#            target_lang = "DE"
+#            source_lang = "EN"
+#            formality = "prefer_more"
+#            text = $Text
+#            glossary_id = $this.Config.Deepl.TranslateGlossaryId
+#        }
+#        try {
+#            $response = Invoke-RestMethod -Uri $url -Method Post -Body $params
+#        }
+#        catch {
+#            return ("ERROR: " + $_.Exception.Message)
+#        }
+#        
+#        return $response.translations.text
+#    }
+
     [object] Translate($Text) 
     {
         # https://www.deepl.com/docs-api/translate-text/translate-text
@@ -100,15 +122,23 @@ class RealWorker : Worker
             text = $Text
             glossary_id = $this.Config.Deepl.TranslateGlossaryId
         }
-        try {
-            $response = Invoke-RestMethod -Uri $url -Method Post -Body $params
+        # Wiederholungslogik für Rate-Limiting
+        $attempts = 0
+        while ($attempts -lt 5) {
+            try {
+                $response = Invoke-RestMethod -Uri $url -Method Post -Body $params
+			    return $response.translations.text
+            }
+            catch {
+                $attempts++
+			    Write-Host -ForegroundColor Red "API Fehler, versuche erneut in 2s."
+			    Start-Sleep -Milliseconds 2000
+            }
         }
-        catch {
-            return ("ERROR: " + $_.Exception.Message)
-        }
-        
-        return $response.translations.text
-    }
+	    # Maximale Anzahl an Versuchen erreicht
+        Write-Host -ForegroundColor Red "Maximale Anzahl von Versuchen erreicht. Die Übersetzung konnte nicht abgeschlossen werden."
+        return $null
+	}
 
     [object] ResolveFileGlobs($FileNames, $FolderPath) 
     {

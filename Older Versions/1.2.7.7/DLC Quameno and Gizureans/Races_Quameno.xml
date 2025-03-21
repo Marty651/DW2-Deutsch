@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Race>
+    <RaceId>15</RaceId>
+	<BundleName>Quameno</BundleName>
+	  <FlagFilename>UserInterface/Flags/Quameno_1</FlagFilename>
+	  <AlternateFlagFilenames>
+		  <string>UserInterface/Flags/Quameno_2</string>
+		  <string>UserInterface/Flags/Quameno_3</string>
+		  <string>UserInterface/Flags/Quameno_4</string>
+		  <string>UserInterface/Flags/Quameno_5</string>
+		  <string>UserInterface/Flags/Quameno_6</string>
+	  </AlternateFlagFilenames>
+	  <MainColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+      <A>0</A>
+    </MainColor>
+    <SecondaryColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+      <A>0</A>
+    </SecondaryColor>
+    <ReproductionRate>1.05</ReproductionRate>
+    <AssimilationRate>0.75</AssimilationRate>
+    <MigrationFactor>0.8</MigrationFactor>
+    <Aggression>0.7</Aggression>
+    <Caution>1.25</Caution>
+    <Dependability>1.3</Dependability>
+	<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+	<IsPlayable>true</IsPlayable>
+    <PreferredGovernmentIds>
+      <short>13</short>
+    </PreferredGovernmentIds>
+    <AllowableGovernmentIds>
+      <short>2</short>
+      <short>4</short>
+      <short>13</short>
+		<short>32759</short>
+	</AllowableGovernmentIds>
+	  <AllowableIntelligenceMissionTypes>
+		  <CharacterMissionType>CounterIntelligence</CharacterMissionType>
+		  <CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+		  <CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+		  <CharacterMissionType>StealOperationsMap</CharacterMissionType>
+		  <CharacterMissionType>StealTechData</CharacterMissionType>
+		  <CharacterMissionType>SabotageConstruction</CharacterMissionType>
+		  <CharacterMissionType>SabotageColony</CharacterMissionType>
+		  <CharacterMissionType>DestroyBase</CharacterMissionType>
+		  <CharacterMissionType>InciteRevolution</CharacterMissionType>
+		  <CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+		  <CharacterMissionType>DeepCover</CharacterMissionType>
+
+		  <CharacterMissionType>DefectCharacter</CharacterMissionType>
+		  <CharacterMissionType>DestroyFacility</CharacterMissionType>
+		  <CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+
+	  </AllowableIntelligenceMissionTypes>
+
+	  <TreatyLevelModifier>10</TreatyLevelModifier>
+	  <TreatySignedColonyEventDefinitionId>58</TreatySignedColonyEventDefinitionId>
+	  <OngoingPopulationAssimilationColonyEventDefinitionId>59</OngoingPopulationAssimilationColonyEventDefinitionId>
+	  <FacilityBuiltDefinitionIds>
+		  <short>96</short>
+	  </FacilityBuiltDefinitionIds>
+	  <FacilityBuiltColonyEventDefinitionIds>
+		  <short>60</short>
+	  </FacilityBuiltColonyEventDefinitionIds>
+	  <FacilityBuiltGameEventNames>
+		  <string>Build Transcendence Hub (Quameno)</string>
+	  </FacilityBuiltGameEventNames>
+	  <ResearchProjectCompletedAdvancedColonyEventDefinitionId>61</ResearchProjectCompletedAdvancedColonyEventDefinitionId>
+	  <ResearchProjectCompletedAdvancedGameEventName>Implement A Puzzle Solved (Quameno)</ResearchProjectCompletedAdvancedGameEventName>
+	  <ResearchProjectCompletedAdvancedMinimumTechLevel>5</ResearchProjectCompletedAdvancedMinimumTechLevel>
+	  <ResearchProjectCompletedAdvancedMaximumChance>1</ResearchProjectCompletedAdvancedMaximumChance>
+
+
+	  <ShipRoleBuiltRoles>
+		  <ShipRole>ResearchStation</ShipRole>
+	  </ShipRoleBuiltRoles>
+	  <ShipRoleBuiltColonyEventDefinitionIds>
+		  <short>62</short>
+	  </ShipRoleBuiltColonyEventDefinitionIds>
+	  <ResearchLocationDiscoveredProgressChance>0.5</ResearchLocationDiscoveredProgressChance>
+	  <ResearchLocationDiscoveredProgressAmountRatio>0.25</ResearchLocationDiscoveredProgressAmountRatio>
+	  <CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>95</CharacterTraitPuzzleSolverBuildPlanetaryFacilityId>
+	  <StartingCharacterTraitsAmbassador>
+		  <CharacterTraitType>Linguist</CharacterTraitType>
+	  </StartingCharacterTraitsAmbassador>
+
+	  <MaximumConcurrentResearchProjects>1</MaximumConcurrentResearchProjects>
+	  
+	  <AdditionalCharacterTraits>
+		  <CharacterTraitType>PuzzleSolver</CharacterTraitType>
+		  <CharacterTraitType>Introverted</CharacterTraitType>
+		  <CharacterTraitType>Driven</CharacterTraitType>
+		  <CharacterTraitType>EfficiencySpecialist</CharacterTraitType>
+	  </AdditionalCharacterTraits>
+
+	  <FeatureExplanations>
+		  <string>[HL]Ablenkungen durch Außerirdische:[/HL] +1 Zufriedenheit und -20 % aller Forschungen für 2 Jahre, wenn ein Vertrag mit einer anderen Fraktion unterzeichnet wird</string>
+		  <string>[HL]Integrationsstudien:[/HL] reduzierte Zufriedenheit und Forschungsleistung, wenn sich in Euren Kolonien nicht assimilierte außerirdische Populationen befinden. Der Reduzierungsbetrag bezieht sich auf den Anteil der nicht assimilierten Bevölkerung in Eurem Reich</string>
+		  <string>[HL]Die Antwort:[/HL] +10 % Glück für 5 Jahre und ein zufälliger Technologieschub, wenn Ihr die Planetenanlage Transcendence Hub baut.</string>
+		  <string>[HL]Ein gelöstes Rätsel:[/HL] Bei Abschluss eines fortgeschrittenen Forschungsprojekts (Technologiestufe 5 oder höher) besteht eine geringe Chance auf die folgenden Vorteile: +10 % Zufriedenheit und +10 % Gesamtforschung für 2 Jahre, plus eine positive Bonuseigenschaft für Euren Anführer und ein Wissenschaftler. Bei Projekten auf höherer Ebene besteht eine erhöhte Wahrscheinlichkeit, dass dieses Ereignis eintritt</string>
+		  <string>[HL]Aufbau der Zukunft:[/HL] +5 Zufriedenheit für 6 Monate, wenn Ihr eine neue Forschungsstation baut.</string>
+		  <string>[HL]Ein Teil des Puzzles:[/HL] 50 % Chance sowohl auf einen Forschungsschub von 25 % in einer verwandten Technologie als auch auf einen +10% Reichs-weiten Bevölkerungswachstums-Bonus für ein Jahr, wenn ein neuer Forschungsstandort entdeckt wird</string>
+		  <string>[HL]Einzigartige Anführereigenschaft – Rätsellöser:[/HL] +5 % gesamte Forschung, -5 % Kolonieeinkommen</string>
+		  <string>[HL]Einzigartige Anführereigenschaft – Introvertiert:[/HL] -10 % Diplomatie</string>
+		  <string>[HL]Einzigartige Wissenschaftlereigenschaft – Angetrieben:[/HL] +5 % aller Forschungen, aber erhöhte Wahrscheinlichkeit eines kritischen Forschungsfehlers</string>
+		  <string>[HL]Einzigartige Wissenschaftlereigenschaft – Effizienzspezialist:[/HL] 20 % Rabatt auf die Kosten der Crash-Forschung</string>
+		  <string>[HL]Starteigenschaft des Botschafters:[/HL] Alle Botschafter beginnen mit der Eigenschaft Linguist (+5 % Diplomatie, +5 % Tourismuseinkommen)</string>
+		  <string>[HL]Gleichzeitige Forschung deaktiviert:[/HL] kann jeweils nur ein einzelnes Projekt erforschen</string>
+	  </FeatureExplanations>
+
+	  <VictoryConditions>
+		  <VictoryCondition>
+			  <Type>BuildFacility</Type>
+			  <Proportion>0.25</Proportion>
+			  <Id>96</Id>
+		  </VictoryCondition>
+		  <VictoryCondition>
+			  <Type>LeastTreaties</Type>
+			  <Proportion>0.2</Proportion>
+			  <Amount>1</Amount>
+		  </VictoryCondition>
+		  <VictoryCondition>
+			  <Type>ResearchMostCompletedBranches</Type>
+			  <Proportion>0.35</Proportion>
+			  <Amount>1</Amount>
+			  <Id>0</Id>
+		  </VictoryCondition>
+		  <VictoryCondition>
+			  <Type>EmpireBonusLevel</Type>
+			  <Proportion>0.2</Proportion>
+			  <Amount>0.3</Amount>
+			  <Id>88</Id>
+		  </VictoryCondition>
+	  </VictoryConditions>
+
+	  <Bonuses>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>-0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>Espionage</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchReactor</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>TradeIncome</Type>
+        <Amount>-0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+      <Bonus>
+        <Type>ShipEnergyUsage</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>-1</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+      </Bonus>
+
+		  <Bonus>
+			  <Type>CharacterAppearanceAmbassador</Type>
+			  <Amount>-0.1</Amount>
+			  <AppliesTo>Empire</AppliesTo>
+			  <FilterId>-1</FilterId>
+			  <DiscoveryLevel>0</DiscoveryLevel>
+		  </Bonus>
+		  <Bonus>
+			  <Type>CharacterAppearanceFleetAdmiral</Type>
+			  <Amount>-0.2</Amount>
+			  <AppliesTo>Empire</AppliesTo>
+			  <FilterId>-1</FilterId>
+			  <DiscoveryLevel>0</DiscoveryLevel>
+		  </Bonus>
+		  <Bonus>
+			  <Type>CharacterAppearanceTroopGeneral</Type>
+			  <Amount>-0.2</Amount>
+			  <AppliesTo>Empire</AppliesTo>
+			  <FilterId>-1</FilterId>
+			  <DiscoveryLevel>0</DiscoveryLevel>
+		  </Bonus>
+		  <Bonus>
+			  <Type>CharacterAppearanceScientist</Type>
+			  <Amount>0.5</Amount>
+			  <AppliesTo>Empire</AppliesTo>
+			  <FilterId>-1</FilterId>
+			  <DiscoveryLevel>0</DiscoveryLevel>
+		  </Bonus>
+
+	  </Bonuses>
+    <ColonizationSuitabilityModifiers>
+      <OrbTypeFactor>
+        <OrbTypeId>8</OrbTypeId>
+        <Factor>0.15</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>9</OrbTypeId>
+        <Factor>0.15</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>21</OrbTypeId>
+        <Factor>0.05</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>23</OrbTypeId>
+        <Factor>0.15</Factor>
+      </OrbTypeFactor>
+      <OrbTypeFactor>
+        <OrbTypeId>27</OrbTypeId>
+        <Factor>0.2</Factor>
+      </OrbTypeFactor>
+    </ColonizationSuitabilityModifiers>
+    <MinimumSuitabilityForColonization />
+    <StartingResearchProjectIds>
+      <short>768</short>
+      <short>3</short>
+      <short>6</short>
+      <short>22</short>
+      <short>405</short>
+    </StartingResearchProjectIds>
+    <Biases>
+      <RaceFactor>
+        <RaceId>0</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>1</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>2</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>3</RaceId>
+        <Factor>-0.5</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>4</RaceId>
+        <Factor>-0.3</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>5</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>6</RaceId>
+        <Factor>-1</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>7</RaceId>
+        <Factor>-0.4</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>8</RaceId>
+        <Factor>-0.3</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>9</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>10</RaceId>
+        <Factor>-0.8</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>11</RaceId>
+        <Factor>-0.5</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>12</RaceId>
+        <Factor>-0.3</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>13</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>14</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>16</RaceId>
+        <Factor>-0.1</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>17</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>18</RaceId>
+        <Factor>-0.5</Factor>
+      </RaceFactor>
+      <RaceFactor>
+        <RaceId>19</RaceId>
+        <Factor>-0.2</Factor>
+      </RaceFactor>
+    </Biases>
+
+	  <DesignNames>
+		  <string>Quartos</string>
+		  <string>Dunavia</string>
+		  <string>Heruso</string>
+		  <string>Yiqqus</string>
+		  <string>Qasar</string>
+		  <string>Rubandi</string>
+		  <string>Urto</string>
+		  <string>Wereshta</string>
+		  <string>Shupoq</string>
+		  <string>Liriso</string>
+		  <string>Astara</string>
+		  <string>Azuros</string>
+		  <string>Orotu</string>
+		  <string>Basula</string>
+		  <string>Xertu</string>
+		  <string>Juura</string>
+		  <string>Rurek</string>
+		  <string>Klasur</string>
+		  <string>Sutak</string>
+		  <string>Faruutin</string>
+		  <string>Excosu</string>
+		  <string>Naculon</string>
+		  <string>Torsandu</string>
+		  <string>Gendu</string>
+		  <string>Zorshasta</string>
+		  <string>Varisek</string>
+		  <string>Mendachu</string>
+		  <string>Corasol</string>
+		  <string>Perrandu</string>
+		  <string>Isaren</string>
+		  <string>Lankaros</string>
+		  <string>Dursto</string>
+		  <string>Rankon</string>
+		  <string>Kurestian</string>
+		  <string>Judasian</string>
+		  <string>Cwasten</string>
+	  </DesignNames>
+	  
+	<CharacterFirstNames>
+      <string>Equia</string>
+      <string>Senaris</string>
+      <string>Udy</string>
+		<string>Tala</string>
+		<string>Kara</string>
+		<string>Setu</string>
+		<string>Cwegu</string>
+		<string>Cos</string>
+		<string>Tesa</string>
+		<string>Pok</string>
+		<string>Yadu</string>
+		<string>Deria</string>
+		<string>Aki</string>
+		<string>Shardu</string>
+		<string>Inar</string>
+		<string>Wendos</string>
+		<string>Jokal</string>
+		<string>Seru</string>
+		<string>Vuntal</string>
+		<string>Netu</string>
+	</CharacterFirstNames>
+	  
+    <CharacterLastNames>
+      <string>Wassoga</string>
+      <string>Qendo</string>
+      <string>Lapuri</string>
+	  <string>Se</string>
+		<string>Mokuri</string>
+		<string>Zo</string>
+		<string>Tan</string>
+		<string>Mudo</string>
+		<string>Brosi</string>
+		<string>Neres</string>
+		<string>Yudos</string>
+		<string>Ukan</string>
+		<string>Opadu</string>
+		<string>Kassaru</string>
+		<string>Nerasi</string>
+		<string>Dando</string>
+		<string>Passun</string>
+		<string>Tafus</string>
+		<string>Zu</string>
+		<string>Nerendu</string>
+	</CharacterLastNames>
+	  
+    <DefaultInfantryId>49</DefaultInfantryId>
+    <StartingArtifactIds>
+      <int>0</int>
+    </StartingArtifactIds>
+    <Name>Quameno</Name>
+    <ImageFilename>UserInterface/Races/Quameno</ImageFilename>
+    <Description>\nQuamenos sind eine hochintelligente Amphibienrasse. Quamenos sind groß und anmutig, mit langen Gliedmaßen und langem Hals. Ihre großen Augen sind seitlich am Kopf angebracht und ermöglichen ihnen eine hervorragende periphere Sicht mit einem Bereich von fast 360 Grad.
+
+Quamenos sind sehr friedlich und bleiben lieber unter sich. Sie entscheiden sich normalerweise dafür, isoliert von anderen Rassen zu leben und sich vom Mainstream der galaktischen Aktivität fernzuhalten.
+
+Sie genießen schwierige geistige Herausforderungen wie das Lösen von Rätseln oder das Entziffern unbekannter Inschriften. Diese natürliche Neigung macht sie auch zu begabten Linguisten – sie beherrschen eine neue Sprache innerhalb weniger Tage.
+
+Sie lieben es auch, mit exotischen wissenschaftlichen Prinzipien zu experimentieren und dabei oft leistungsstarke Technologien hervorzubringen. Tatsächlich hat ihre natürliche Faszination für ungewöhnliche Energietheorien dazu geführt, dass sie den NovaCore entwickelt haben, einen sehr leistungsstarken und effizienten Reaktor.
+
+Quamenos haben ein enormes Interesse an der galaktischen Geschichte. Sie suchen auch nach eigenartigen prähistorischen Artefakten. Ihre Studien haben viele Quameno-Wissenschaftler zu der Behauptung veranlasst, dass es große Lücken in unserem Verständnis vergangener Ereignisse gibt.
+
+Quameno-Gemeinschaften leben typischerweise in halb untergetauchten High-Tech-Biodomen in den flachen Küstengebieten von Mangrovenwäldern, Sümpfen oder Ozeanplaneten.</Description>
+  </Race>
+</ArrayOfRace>

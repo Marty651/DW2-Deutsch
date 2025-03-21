@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Government>
+		<GovernmentId>11</GovernmentId> <!-- Harmonious Utopia -->
+		<LeaderTitle>Wächter des Lebens</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool>
+			<CharacterRole>Ambassador</CharacterRole>
+		</LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>1.3</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1.5</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Harmonisch</string>
+			<string>Vereint</string>
+			<string>Wohlwollend</string>
+			<string>GroßartigGrand</string>
+			<string>Idyllisch</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Utopia</string>
+			<string>Paradies</string>
+			<string>Perfektion</string>
+			<string>Wonne</string>
+			<string>Gelassenheit</string>
+			<string>Nirvana</string>
+			<string>Ruhe</string>
+			<string>Kommune</string>
+			<string>Kooperative</string>
+		</EmpireNameNouns>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Harmonious Utopia)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>1.5</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Harmonische Utopie</Name>
+		<Description>Harmonische Utopien sind eine Form idealer Gesellschaft, die versucht, für ihre Mitglieder einen Weg zu finden, in Frieden, Glück und Wohlstand zu leben. Es ist manchmal eher eine Fantasie als eine Realität, obwohl einige Arten und Kulturen dem Ideal näher kommen als andere.
+
+In der Praxis können harmonische Utopien für einige aufgrund der Betonung der Harmonie erstickend sein. Diese Betonung erzeugt gesellschaftlichen Druck, jede Unzufriedenheit oder Meinungsverschiedenheit zum Schweigen zu bringen. Es besteht auch die Gefahr einer gewissen Stagnation, wenn Harmonie und Glück vollständiger erreicht werden.
+
+Die typischen Ziele der Führer und Gesellschaften in einer harmonischen Utopie sind Langlebigkeit, Harmonie und Weisheit sowie lustvolle neue Erfahrungen. Im Großen und Ganzen ziehen Orte, an welchen diese Ideale vorherrschen andere Völker aus der ganzen Galaxie an, weil sie der Verwirklichung der Idee des Paradieses am nächsten kommen.
+
+armonische Utopien sind im Allgemeinen offene Gesellschaften und können in Zeiten von Konflikten und Streit kämpfen, da die zur Verteidigung oder zum Angriff erforderlichen Maßnahmen oft im Widerspruch zu ihren Grundphilosophien stehen.</Description>
+	</Government>
+</ArrayOfGovernment>

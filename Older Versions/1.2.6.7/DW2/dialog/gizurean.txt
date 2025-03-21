@@ -1,0 +1,67 @@
+
+GREETING_INTRODUCTION			;Wir sind die {0}.\n\nWir konsumieren alles, besonders leckere Dinge.\n\nBist du lecker?
+GREETING_FRIENDLY			;Hallo Freund. Schicken Sie uns Ihre Worte
+GREETING_NEUTRAL			;Was ist es?
+GREETING_ANGRY				;Ihre Anwesenheit missfällt uns. Bringen Sie schnell Ihren Standpunkt zum Ausdruck
+
+GIFT_PROPOSE				;Was für ein Geschenk bieten Sie uns an? Können wir es essen?
+GIFT_THANKS_ANGRY				;Ihr erbärmliches Angebot wurde zur Kenntnis genommen
+GIFT_THANKS_NEUTRAL				;Danke für das Geschenk!
+GIFT_THANKS_FRIENDLY				;Ihr großzügiges Geschenk macht uns glücklich!
+
+OFFER_DEAL				;Würden Sie diesen Handel annehmen?
+PIRATEPROTECTION_DEAL				;Es wäre sehr bedauerlich, wenn eines Ihrer Schiffe oder Stützpunkte Schaden erleiden würde.\n\nFür die bescheidene monatliche Gebühr von {0} Credits können wir sicherstellen, dass unsere Schiffe Schäden an Ihren Schiffen vermeiden.\n\nSie tun gut daran, unser Angebot anzunehmen ...
+DEAL_BEGIN				;Was ist das für ein Deal?
+DEAL_ACCEPT				;Uns gefällt dieser Deal – wir akzeptieren ihn
+DEAL_ACCEPT_RESPONSE		;Wir freuen uns über Ihre Annahme!
+DEAL_REJECT_RESPONSE		;Wie enttäuschend...
+DEAL_REJECT				;Dieser Deal schmeckt uns schlecht – wir lehnen ihn ab
+
+TREATY_PROPOSAL				;Welchen neuen Vertrag schlagen Sie vor?
+TREATY_ACCEPTRESPONSE			;Wunderbar! Lasst uns gemeinsam mit unseren neuen Verbündeten feiern!
+TREATY_REJECTRESPONSE			;Wie enttäuschend...
+PROTECTION_ACCEPTRESPONSE		;Gute Wahl! Wir freuen uns auf Ihre monatlichen Zahlungen
+PROTECTION_REJECTRESPONSE		;Eine schlechte Wahl. Sie werden auf die eine oder andere Weise bezahlen...
+
+SWAP_MAPS		;Welche Art von Karte möchten Sie tauschen?
+
+WAR_END_ACCEPT				;Ja, dieser Krieg sollte jetzt enden. Wir werden unsere Kräfte abziehen. Wir erwarten von Ihnen, dass Sie dasselbe tun
+WAR_END_REJECT				;Nein, du musst verzehrt werden. Mit Ihnen als Hauptzutat haben wir bereits einige leckere Rezepte kreiert!
+WAR_END_ACCEPT_RESPONSE			;Eine gute Wahl. Wir können später immer wieder kämpfen
+
+WAR_END_ACCEPT_BECOMEVASSAL				;Wir stimmen zu, Ihr Vasall zu werden. Wir werden die Feindseligkeiten sofort einstellen und mit unseren monatlichen Tributzahlungen beginnen
+WAR_END_REJECT_BECOMEVASSAL				;Nein, wir weigern uns, uns als Ihr Vasall zu unterwerfen
+WAR_END_ACCEPT_ACCEPTVASSAL				;Wir stimmen Ihrer Kapitulation und Unterwerfung als unserem Vasallen zu. Wir freuen uns über Ihre monatlichen Tributzahlungen
+WAR_END_REJECT_ACCEPTVASSAL				;Nein, wir lehnen Ihr Angebot der Unterwerfung als unser Vasall ab. Dieser Krieg ist noch nicht vorbei
+
+WAR_DECLARE_RESPONSE_ANGRY		;Wir begrüßen den Krieg mit Ihnen! Bereiten Sie sich darauf vor, verzehrt zu werden ...
+WAR_DECLARE_RESPONSE_NEUTRAL		;Wie Sie möchten. Unsere Kriegsschwärme sind bereit
+WAR_DECLARE_RESPONSE_FRIENDLY		;Warte was?! Warum ist das?! Wir dachten, Sie mochten uns?
+
+TREATY_ACCEPT			;Wir nehmen Ihr Angebot von {0} an
+TREATY_REJECT			;Nein, wir wollen {0} im Moment nicht
+TREATY_REJECT_TOOSOON_NEUTRAL			;Nein, wir sind nicht an {0} interessiert. Es ist zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_ANGRY			;Wir haben definitiv kein Interesse an {0} mit Ihnen! Außerdem ist es zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_FRIENDLY			;Entschuldigung, aber wir sind nicht an {0} interessiert. Es ist zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_ACCEPT_NEUTRAL			;Wir nehmen Ihr Angebot von {0} an
+TREATY_REJECT_NEUTRAL			;Nein, wir sind derzeit nicht an {0} interessiert
+TREATY_ACCEPT_ANGRY			;Wir haben nichts Besseres zu tun, warum also nicht? Wir nehmen Ihr Angebot von {0} an
+TREATY_REJECT_ANGRY			;Wir haben definitiv kein Interesse an {0} mit Ihnen!
+TREATY_ACCEPT_FRIENDLY			;{0} ist eine tolle Idee! Wir akzeptieren. Lasst uns ein Fest feiern!
+TREATY_REJECT_FRIENDLY			;Entschuldigung, aber {0} passt derzeit nicht zu uns
+
+PROTECTION_ACCEPT		;Wir nehmen Ihren Antrag auf Schutz entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_NEUTRAL		;Wir nehmen Ihren Antrag auf Schutz entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_ANGRY		;Ihre Schwäche wurde zur Kenntnis genommen. Unser „Schutz“ kostet Sie {0} Credits pro Monat. Du darfst jetzt gehen
+PROTECTION_ACCEPT_FRIENDLY		;Wir nehmen Ihren Antrag auf Schutz entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_REJECT			;Nein, wir sind derzeit nicht an Schutz interessiert
+PROTECTION_REJECT_NEUTRAL		;Nein, wir wollen keine Schutzvereinbarung mit Ihnen
+PROTECTION_REJECT_ANGRY		;Nein, wir wollen Sie nicht beschützen. Wir haben andere Pläne für Sie. Pläne, die leckere Gewürze und Gewürze beinhalten ...
+PROTECTION_REJECT_FRIENDLY		;Nein, wir wollen keine Schutzvereinbarung mit Ihnen
+
+CANCELTREATY_RESPONSE_FRIENDLY		;Gerade als wir dachten, dass alles so gut läuft!
+CANCELTREATY_RESPONSE_NEUTRAL		;Klar was auch immer.
+CANCELTREATY_RESPONSE_ANGRY		;Der Vertrag gefiel uns sowieso nicht! Du hast uns nur nach unten gezogen
+CANCELPROTECTION_RESPONSE_FRIENDLY		;Das macht uns traurig. Uns gefielen diese monatlichen Zahlungen
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Es sieht so aus, als müssten wir andere Wege finden, um diese monatlichen Zahlungen zu erhalten ...
+CANCELPROTECTION_RESPONSE_ANGRY		;Wie kannst du es wagen! Wie bekommen wir jetzt unser Geld von Ihnen?!... Egal, wir haben uns einen Weg überlegt...

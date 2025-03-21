@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>89</PlanetaryFacilityDefinitionId> <!-- Limited Biome Shaping Facility -->
+		<BuildCost>
+			<Money>75000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.05</TerraformingQualityMaximum>
+		<MinimumSuitabilityRequired>-0.1</MinimumSuitabilityRequired>
+		<FacilityFamilyId>51</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<AllowBuildingAtOutposts>true</AllowBuildingAtOutposts>
+		<Name>Begrenzte Einrichtung zur Biomformung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ikkuro Terraformer</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>90</PlanetaryFacilityDefinitionId> <!-- Biome Shaping Facility -->
+		<BuildCost>
+			<Money>75000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<TerraformingDamageRepairRate>0.04</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.07</TerraformingQualityMaximum>
+		<MinimumSuitabilityRequired>-0.1</MinimumSuitabilityRequired>
+		<FacilityFamilyId>51</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<AllowBuildingAtOutposts>true</AllowBuildingAtOutposts>
+		<Name>Einrichtung zur Biomformung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ikkuro Terraformer</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>91</PlanetaryFacilityDefinitionId> <!-- Enhanced Biome Shaping Facility -->
+		<BuildCost>
+			<Money>75000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.02</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.09</TerraformingQualityMaximum>
+		<MinimumSuitabilityRequired>-0.1</MinimumSuitabilityRequired>
+		<FacilityFamilyId>51</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<AllowBuildingAtOutposts>true</AllowBuildingAtOutposts>
+		<Name>Erweiterte Einrichtung zur Biomformung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ikkuro Terraformer</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>92</PlanetaryFacilityDefinitionId> <!-- Advanced Biome Shaping Facility -->
+		<BuildCost>
+			<Money>75000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<TerraformingDamageRepairRate>0.08</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.03</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.11</TerraformingQualityMaximum>
+		<MinimumSuitabilityRequired>-0.1</MinimumSuitabilityRequired>
+		<FacilityFamilyId>51</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<AllowBuildingAtOutposts>true</AllowBuildingAtOutposts>
+		<Name>Fortgeschrittene Einrichtung zur Biomformung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ikkuro Terraformer</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>93</PlanetaryFacilityDefinitionId> <!-- Complete Biome Shaping Facility -->
+		<BuildCost>
+			<Money>75000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<TerraformingDamageRepairRate>0.1</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.05</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.12</TerraformingQualityMaximum>
+		<MinimumSuitabilityRequired>-0.1</MinimumSuitabilityRequired>
+		<FacilityFamilyId>51</FacilityFamilyId>
+		<FacilityFamilyLevel>4</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<AllowBuildingAtOutposts>true</AllowBuildingAtOutposts>
+		<Name>Vollständige Einrichtung zur Biomformung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Ikkuro Terraformer</ImageFilename>
+	</PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

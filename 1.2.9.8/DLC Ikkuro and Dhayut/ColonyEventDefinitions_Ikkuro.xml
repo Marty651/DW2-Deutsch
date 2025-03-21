@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>35</ColonyEventDefinitionId> <!-- Diplomatic Success -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Diplomatischer Erfolg</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>36</ColonyEventDefinitionId> <!-- War on Disharmony -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Krieg gegen die Disharmonie</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>37</ColonyEventDefinitionId> <!-- Harmonious Benefits -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RandomInitiationChance>0.005</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>5</unsignedByte> <!-- Ikkuro -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Harmonische Vorteile</Name>
+		<Description>Das Glück auf der Koloniewelt {0} hat einen neuen Geist der Harmonie hervorgerufen. Wir können damit rechnen, dass die Korruptionsraten im nächsten Jahr um 30 % sinken werden.</Description>
+		<ImageFilename>Environment/Events/harmonious benefits</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>39</ColonyEventDefinitionId> <!-- Bioagent Unease -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Bioagent Unbehagen</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>40</ColonyEventDefinitionId> <!-- Bioagent Used -->
+		<Type>Undefined</Type>
+		<DurationMinimum>500</DurationMinimum>
+		<DurationMaximum>500</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Bioagent Verwendet</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>41</ColonyEventDefinitionId> <!-- Not Playing God -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>NNicht Gott Spielen</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>50</ColonyEventDefinitionId> <!-- Following Our Own Path -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Unseren eigenen Weg gehen</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>54</ColonyEventDefinitionId> <!-- Respect for Life -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Respekt vor dem Leben</Name>
+		<Description>Die jüngsten Gräueltaten unseres Imperiums haben unsere Bürger schockiert und ihr Glück vorübergehend beeinträchtigt.</Description>
+		<ImageFilename>Environment/Events/respect for life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>55</ColonyEventDefinitionId> <!-- Secrets of Life -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Geheimnisse des Lebens</Name>
+		<Description>Die jüngste Kolonisierung einer neuen Art von Welt hat unsere Bürger begeistert und ihr Glück und ihre Wachstumsrate vorübergehend gesteigert.</Description>
+		<ImageFilename>Environment/Events/secrets of life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>56</ColonyEventDefinitionId> <!-- Protection of Life -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Schutz des Lebens</Name>
+		<Description>Die kürzliche Unterzeichnung eines neuen Vertrags hat unsere Bürger begeistert und ihre Zufriedenheit vorübergehend gesteigert.</Description>
+		<ImageFilename>Environment/Events/protection of life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>57</ColonyEventDefinitionId> <!-- Disharmony -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Disharmonie</Name>
+		<Description>Der jüngste Kriegsausbruch hat unsere Bürger bestürzt und ihre Zufriedenheit vorübergehend beeinträchtigt.</Description>
+		<ImageFilename>Environment/Events/disharmony</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

@@ -138,7 +138,7 @@ class RealWorker : Worker
 	    # Maximale Anzahl an Versuchen erreicht
         Write-Host -ForegroundColor Red "Maximale Anzahl von Versuchen erreicht. Die Übersetzung konnte nicht abgeschlossen werden."
         return $null
-	}
+    }
 
     [object] ResolveFileGlobs($FileNames, $FolderPath) 
     {

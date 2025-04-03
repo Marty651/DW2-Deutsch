@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>104</ColonyEventDefinitionId> <!-- We Found the Remnant of an Ancient Alliance -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wir haben das Überbleibsel einer alten Allianz gefunden</Name>
+		<ImageFilename>Environment/Events/remnant of an alliance</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>105</ColonyEventDefinitionId> <!-- We are Disturbed by Shakturi Legends -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wir sind beunruhigt über die Shakturi-Legenden</Name>
+		<ImageFilename>Environment/Events/positive research</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

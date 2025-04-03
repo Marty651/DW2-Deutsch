@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TroopDefinition>
+		<TroopDefinitionId>77</TroopDefinitionId> <!-- Battle Roller Troop -->
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<Type>Armored</Type>
+		<Size>8000</Size>
+		<RecruitmentCost>
+			<Money>3375</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>338</MaintenanceCost>
+		<AttackStrength>170</AttackStrength>
+		<DefendStrength>168</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampf-Roller-Truppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>78</TroopDefinitionId> <!-- Sky Defender Force -->
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<Type>PlanetaryDefense</Type>
+		<Size>12000</Size>
+		<RecruitmentCost>
+			<Money>3150</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>315</MaintenanceCost>
+		<AttackStrength>27</AttackStrength>
+		<DefendStrength>81</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Himmelsverteidigungs-Truppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>79</TroopDefinitionId> <!-- Elite Hunter Team -->
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<Type>SpecialForces</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>4500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>450</MaintenanceCost>
+		<AttackStrength>136</AttackStrength>
+		<DefendStrength>77</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
+		<SabotageStrength>110</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Elite-Jäger-Team</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>80</TroopDefinitionId> <!-- Megalumpher -->
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<Type>Titan</Type>
+		<Size>16000</Size>
+		<RecruitmentCost>
+			<Money>9000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>900</MaintenanceCost>
+		<AttackStrength>340</AttackStrength>
+		<DefendStrength>306</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Megalumpher</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+</ArrayOfTroopDefinition>

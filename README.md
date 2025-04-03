@@ -17,7 +17,7 @@ Deutsche Dateien für DLC Quameno & Gizurean (Release-Version 1.2.9.8):
 Deutsche Dateien für DLC Return of the Shakturi (Release-Version 1.2.9.8):
 [DLC RotS v1.1](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Return_of_the_Shakturi_v1.1.zip)
 
-Deutsche Dateien für DLC Return of the Shakturi (Release-Version 1.2.9.8):
+Deutsche Dateien für DLC Atuuk & Wekkarus (Release-Version 1.2.9.8):
 [DLC A&W v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Atuuk_and_Wekkarus_v0.5.zip)
 
 Hinweis: Vor allem bei den DLC wurden Maschinenübersetzungen verwendet. Kann gut sein, dass da mal etwas gar nicht passt. Seid bitte nicht zu streng. :-)

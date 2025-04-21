@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>82</ColonyEventDefinitionId> <!-- Research and Development Surge -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> <!-- Democracy -->
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Forschungs- und Entwicklungsschub</Name>
+		<Description>Unsere [B]demokratische Regierungsform[/B] hat den Unternehmergeist unseres Volkes gefördert.
+			
+Die Forschungs- und Entwicklungsausgaben unserer privaten Unternehmen sind sprunghaft angestiegen.
+			
+Somit wird unser Imperium im nächsten Jahr in den Genuss folgender Boni kommen:
+
+[ULI][BONUS]+10 % Boost auf alle Forschungen[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>83</ColonyEventDefinitionId> <!-- Cooperative Energy -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> <!-- Democracy -->
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Kooperative Energie</Name>
+		<Description>Unsere [B]demokratische Regierungsform[/B] hat den Unternehmergeist unseres Volkes gefördert.
+
+In unserer Bevölkerung wächst der starke Wunsch nach Einheit und Zusammenarbeit.
+
+Somit wird unser Imperium im nächsten Jahr in den Genuss folgender Boni kommen:
+
+[ULI][BONUS]+10 % Steigerung der Diplomatie[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>84</ColonyEventDefinitionId> <!-- Spy Thrillers -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> <!-- Democracy -->
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Spionagethriller</Name>
+		<Description>Unsere [B]demokratische Regierungsform[/B] hat den Unternehmergeist unseres Volkes gefördert.
+
+Die weit verbreitete Faszination für Spionagethriller-Romane und -Filme hat dazu geführt, dass man sich auf Spionage- und Geheimdienstmissionen konzentriert.
+
+Somit wird unser Imperium im nächsten Jahr in den Genuss folgender Boni kommen:
+
+[ULI][BONUS]+10 % Boost auf Spionage[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>85</ColonyEventDefinitionId> <!-- Action Movies -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> <!-- Democracy -->
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Action-Filme</Name>
+		<Description>Unsere [B]demokratische Regierungsform[/B] hat den Unternehmergeist unseres Volkes gefördert.
+
+Die weit verbreitete Faszination für patriotische Actionfilme hat dazu geführt, dass man sich verstärkt auf militärische Themen konzentriert.
+
+Somit wird unser Imperium im nächsten Jahr in den Genuss folgender Boni kommen:
+
+[ULI][BONUS]+10 % Erhöhung der Truppenrekrutierungsrate[/BONUS][/ULI]
+[ULI][BONUS]+10 % Erhöhung der Einsparungen bei der Truppenwartung[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>86</ColonyEventDefinitionId> <!-- War World -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<GovernmentFilterIds>
+			<short>5</short> <!-- Military Dictatorship -->
+		</GovernmentFilterIds>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>20000</ManualInitiationCost>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>10</MinimumIntervalPerEmpireYears>
+		<Name>Kriegswelt</Name>
+		<ImageFilename>Environment/Events/War World</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>87</ColonyEventDefinitionId> <!-- Flag Ship Destroyed -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Flaggschiff zerstört</Name>
+		<Description>Unser Flaggschiff des Imperiums ist in der Schlacht verloren gegangen.\n\nDieses katastrophale Ereignis hat eine Welle der Trauer ausgelöst und die Freude für das nächste Jahr beeinträchtigt.</Description>
+		<ImageFilename>Environment/Events/flagship negative</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>88</ColonyEventDefinitionId> <!-- Flag Ship Triumphs -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Flaggschiff triumphiert</Name>
+		<Description>Unser Flaggschiff des Imperiums hat in einer entscheidenden Schlacht gesiegt.\n\nDiese große Leistung hat eine Welle patriotischer Gefühle ausgelöst und die Freude für das nächste Jahr erhöht.</Description>
+		<ImageFilename>Environment/Events/flagship positive</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>89</ColonyEventDefinitionId> <!-- War Hive -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1000</DurationMinimum>
+		<DurationMaximum>1000</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Kriegs-Hive</Name>
+		<ImageFilename>Environment/Events/Hive Mind Population Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>90</ColonyEventDefinitionId> <!-- Feudal Obligation -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Feudale Verpflichtung</Name>
+		<ImageFilename>Environment/Events/Feudalism Troop Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

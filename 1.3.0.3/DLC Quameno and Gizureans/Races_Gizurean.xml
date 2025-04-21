@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Race>
+		<RaceId>11</RaceId> <!-- Gizurean -->
+		<BundleName>Gizurean</BundleName>
+		<FlagFilename>UserInterface/Flags/Gizurean_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Gizurean_2</string>
+			<string>UserInterface/Flags/Gizurean_3</string>
+			<string>UserInterface/Flags/Gizurean_4</string>
+			<string>UserInterface/Flags/Gizurean_5</string>
+			<string>UserInterface/Flags/Gizurean_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.09</ReproductionRate>
+		<AssimilationRate>0.5</AssimilationRate>
+		<MigrationFactor>1.2</MigrationFactor>
+		<Aggression>1.4</Aggression>
+		<Caution>0.85</Caution>
+		<Dependability>0.9</Dependability>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>14</short> <!-- Cell Hegemony -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>14</short> <!-- Cell Hegemony -->
+			<short>3</short> <!-- Feudalism -->
+			<short>0</short> <!-- Republic -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceFleetAdmiral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<StartingResearchProjectIds>
+			<short>768</short> <!-- Early Pulse Weapons -->
+			<short>4</short> <!-- Missile Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>254</short> <!-- Starship Maneuvering -->
+			<short>385</short> <!-- Basic Countermeasures -->
+		</StartingResearchProjectIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Kojari</string>
+			<string>Karjing</string>
+			<string>Lonsu</string>
+			<string>Chodan</string>
+			<string>Gudari</string>
+			<string>Zuukeer</string>
+			<string>Larkos</string>
+			<string>Jutang</string>
+			<string>Makrho</string>
+			<string>Tonshak</string>
+			<string>Pokari</string>
+			<string>Yartos</string>
+			<string>Sarmeer</string>
+			<string>Dekrun</string>
+			<string>Raaki</string>
+			<string>Ventuul</string>
+			<string>Birshak</string>
+			<string>Fodari</string>
+			<string>Nunkros</string>
+			<string>Hanpo</string>
+			<string>Yukoros</string>
+			<string>Linshek</string>
+			<string>Sharqeri</string>
+			<string>Doshak</string>
+			<string>Zamlek</string>
+			<string>Foshera</string>
+			<string>Mandaxi</string>
+			<string>Orelex</string>
+			<string>Rhektalex</string>
+			<string>Xura</string>
+			<string>Aruga</string>
+			<string>Teklosan</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>BuildMostMilitaryShips</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostColonies</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostTimeWarring</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>CaptureMostShips</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Suun</string>
+			<string>Jizor</string>
+			<string>Ruugar</string>
+			<string>Qutar</string>
+			<string>Dashak</string>
+			<string>Karzi</string>
+			<string>Mugap</string>
+			<string>Vedank</string>
+			<string>Cruzeb</string>
+			<string>Ovistu</string>
+			<string>Jotari</string>
+			<string>Yedor</string>
+			<string>Ret</string>
+			<string>Xok</string>
+			<string>Pundi</string>
+			<string>Zak</string>
+			<string>Pigar</string>
+			<string>Darpo</string>
+			<string>Gundek</string>
+			<string>Li</string>
+			<string>Yogar</string>
+			<string>Shindu</string>
+			<string>Agra</string>
+			<string>Kintu</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Wuzzeki</string>
+			<string>Jharshek</string>
+			<string>Clodari</string>
+			<string>Nyutal</string>
+			<string>Chungat</string>
+			<string>Lijar</string>
+			<string>Priltok</string>
+			<string>Narsil</string>
+			<string>Frodak</string>
+			<string>Buuzak</string>
+			<string>Orzeri</string>
+			<string>Kelsu</string>
+			<string>Greedul</string>
+			<string>Panaki</string>
+			<string>Fundark</string>
+			<string>Baktuu</string>
+			<string>Kardari</string>
+			<string>Zhodaki</string>
+			<string>Goshek</string>
+			<string>Lyvax</string>
+			<string>Uztan</string>
+			<string>Yutalix</string>
+			<string>Eparzi</string>
+			<string>Jhorbek</string>
+		</CharacterLastNames>
+		<SalvageAdvancedTechBoostFactor>0.1</SalvageAdvancedTechBoostFactor>
+		<RetireAdvancedTechBoostFactor>0.1</RetireAdvancedTechBoostFactor>
+		<RetireCompleteAdvancedTechBonusResearchAmount>30</RetireCompleteAdvancedTechBonusResearchAmount>
+		<ColonyConquestGameEventName>Scouring Choice (Gizurean)</ColonyConquestGameEventName>
+		<OtherRaceExterminateColonyEventDefinitionId>73</OtherRaceExterminateColonyEventDefinitionId> <!-- Breeding World -->
+		<CharacterPowerStruggleChancePerYear>0.08</CharacterPowerStruggleChancePerYear>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>GiftedConduit</CharacterTraitType>
+			<CharacterTraitType>ControllingMind</CharacterTraitType>
+			<CharacterTraitType>SwarmLord</CharacterTraitType>
+			<CharacterTraitType>LarvaOverseer</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<FeatureExplanations>
+			<string>[HL]Nichts verschwenden:[/HL] 25% erhöhte Chance auf Tech-Boosts, wenn Sie ein Schiff mit fortgeschrittener Technologie bergen oder ausmustern. Zusätzlicher Tech-Boost, wenn Sie ein fortgeschrittenes Schiff komplett ausmustern.</string>
+			<string>[HL]Die Geißelung:[/HL] Sie haben die Wahl, eine neu eroberte feindliche Kolonie zu 'geißeln'. Die Durchsuchung setzt die Entwicklung der Kolonie zurück, verbraucht 10% der Bevölkerung, führt zu einem vorübergehenden Glücksverlust und schadet dem Ansehen. Aber sie bietet einen zusätzlichen technischen Durchbruch bei der Eroberung, einen großen Ressourcenvorrat und erhöht vorübergehend das Bevölkerungswachstum der Gizureaner in Ihrem gesamten Reich.</string>
+			<string>[HL]Rivalitäten:[/HL] Sie müssen zwischen 2 Charakteren in einem Machtkampf wählen, wobei Sie einen der beiden töten, den anderen aber mit neuen Fähigkeiten und Eigenschaften ausstatten.</string>
+			<string>[HL]Zuchtwelt:[/HL] gewährt einen Bonus auf die gizureanische Bevölkerungswachstumsrate in Ihrem gesamten Imperium, wenn Sie die Politik der Bevölkerungsvernichtung gegen eine nicht-gizureanische Ethnie in einer Ihrer Kolonien anwenden. Zusätzliche Zuchtwelten bieten kumulative Boni</string>
+			<string>[HL]Stammeskonflikt:[/HL] Kurzfristiger, reichsweiter Anstieg der gizureanischen Bevölkerungswachstumsrate, aber mit einem damit einhergehenden Glücksverlust</string>
+			<string>[HL]Schwarmkommando:[/HL] spezieller Zielcomputer für Schiffe, der eine erhöhte Zielgenauigkeit basierend auf der Gesamtzahl der Schiffe in einer Flotte ermöglicht</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Begabter Conduit:[/HL] +10% Kolonie-Glück</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Verstandeskontrolle:[/HL] +10% Verderbnisreduktion</string>
+			<string>[HL]Einzigartige allgemeine Eigenschaft - Schwarmlord:[/HL] +10% Truppenrekrutierungsrate, +10% Einsparungen beim Truppenunterhalt</string>
+			<string>[HL]Einzigartige allgemeine Eigenschaft - Larvenaufseher:[/HL] +10% Truppenerholungsrate</string>
+		</FeatureExplanations>
+		<DefaultInfantryId>45</DefaultInfantryId> <!-- War Swarm -->
+		<Name>Gizurean</Name>
+		<Description>\nDie Gizurean sind eine insektoide Rasse mit vier Armen. Gizurean können mit ihren kleinen Flügeln auch kurze Distanzen fliegen.
+
+Sie sind aggressiv und unfreundlich, aber nicht sehr intelligent. Gizurean neigen dazu, sehr kriegerisch zu sein. Sie erheben oft hetzerische Behauptungen über die Überlegenheit ihres eigenen Stammes und verspotten und beleidigen andere Stämme auf bösartige Weise. Dies führt zu häufigen Kämpfen zwischen den Stämmen.
+
+Die Gizurean haben eine starke Abneigung gegen andere außerirdische Rassen, insbesondere gegen nicht-insektoide Rassen. Diese Eigenschaft macht es sehr schwierig, die Gizurean friedlich in ein Imperium zu integrieren.
+
+Sie haben eine sehr hohe Reproduktionsrate und daher können ihre Imperien sehr schnell wachsen und expandieren.
+
+Gizurean bauen ihre höhlenartigen unterirdischen Behausungen typischerweise in felsigen Gebieten von Planeten der Felswüste oder Sandwüste, können aber manchmal auch auf Wüstensavannen oder vulkanischen Planeten gefunden werden.</Description>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+	</Race>
+</ArrayOfRace>

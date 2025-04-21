@@ -1,0 +1,2371 @@
+<?xml version="1.0"?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Government>
+		<GovernmentId>0</GovernmentId> <!-- Republic -->
+		<LeaderTitle>Präsident</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>8</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>1.3</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1.5</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>freie</string>
+			<string>vereinte</string>
+			<string>kombinierte</string>
+			<string>kaiserliche</string>
+			<string>große</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Domäne</string>
+			<string>Republik</string>
+			<string>Allianz</string>
+			<string>Territorium</string>
+			<string>Nation</string>
+			<string>Föderation</string>
+			<string>Konföderation</string>
+			<string>Koalition</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.7</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Republic)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+			<EmpireRelationType>RestrictedTrade</EmpireRelationType>
+			<EmpireRelationType>LimitedTrade</EmpireRelationType>
+			<EmpireRelationType>FreeTrade</EmpireRelationType>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+			<ArrayOfBonus>
+				<Bonus>
+					<Type>ColonyIncome</Type>
+					<Amount>0.01</Amount>
+					<AppliesTo>Empire</AppliesTo>
+				</Bonus>
+			</ArrayOfBonus>
+			<ArrayOfBonus>
+				<Bonus>
+					<Type>ColonyIncome</Type>
+					<Amount>0.02</Amount>
+					<AppliesTo>Empire</AppliesTo>
+				</Bonus>
+			</ArrayOfBonus>
+			<ArrayOfBonus>
+				<Bonus>
+					<Type>ColonyIncome</Type>
+					<Amount>0.03</Amount>
+					<AppliesTo>Empire</AppliesTo>
+				</Bonus>
+			</ArrayOfBonus>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Republik</Name>
+		<Description>Republiken sind Regierungen, die von einem Staatsoberhaupt geführt werden, das normalerweise gewählt wird. Das Staatsoberhaupt, oft als Präsident bezeichnet, dient für eine bestimmte Amtszeit, nach der ein neuer Präsident gewählt wird. Obwohl der Präsident gewählt wird, kann dies auch indirekt geschehen, indem eine Art Rat vom Volk gewählt wird und dieser Rat dann den Präsidenten wählt. In vielerlei Hinsicht sind Republiken den Demokratien ähnlich und haben in der Regel vergleichbare Ideale.
+
+Die Bürger von Republiken genießen typischerweise viele Freiheiten und Bürgerrechte. Republiken teilen die Regierungsgewalt immer sorgfältig zwischen Exekutive, Legislative und Judikative auf. Der Präsident kontrolliert hierbei den Bereich der Exekutive, während andere gewählte Vertreter den Bereich der Legislative kontrollieren - und die Gerichte kontrollieren den Bereich der Judikative.\n\nDie Regierungsform 'Republik' ist für alle Spezies verfügbar, außer den Dhayut und Ikkuro.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>1</GovernmentId> <!-- Mercantile Guild -->
+		<LeaderTitle>Erster Vorstands-Vorsitzender</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0.5</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.2</Stability>
+		<ConcernForOwnReputation>1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>freie</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Syndikat</string>
+			<string>Konsortium</string>
+			<string>Konzern</string>
+			<string>Industrien</string>
+			<string>Gilden</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>0.5</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Mercantile Guild)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>1000</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>2000</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>3000</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Handels- und Wirtschaftsherrschaft</Name>
+		<Description>Die Regierungen der Handels- und Wirtschaftsherrschaft sind sehr stark auf Handel, Gewerbe und Industrie fokussiert. Die herrschende Struktur ist oft locker und informell - eine Sammlung von führenden Mitgliedern der Geschäftswelt trifft wichtige Entscheidungen, die alle Bürger betreffen.
+
+Die Handels- und Wirtschaftsherrschaft gewährt ihren Bürgern im Allgemeinen ein hohes Maß an Freiheit und Autonomie. Grundlegende Rechte und Freiheiten werden durch eine einfache Reihe von Gesetzen garantiert, die auf viele Situationen angewendet werden können. Unternehmerische Aktivitäten sind sehr verbreitet und schaffen ein dynamisches Geschäftsumfeld, in dem schnell ein hohes Maß an Wohlstand generiert wird.\n\nDie Regierungsform 'Handels- und Wirtschaftsherrschaft' ist nur für die Haakonish und Teekan verfügbar.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>2</GovernmentId> <!-- Democracy -->
+		<LeaderTitle>Kanzler</LeaderTitle>
+		<CabinetTitle>Kabinett</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>8</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0.1</LeaderReplacementCharacterDismissChance>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>1.7</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>2</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>freie</string>
+			<string>vereinte</string>
+			<string>kombinierte</string>
+			<string>große</string>
+			<string>prachtvolle</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Gebiet</string>
+			<string>Republik</string>
+			<string>Allianz</string>
+			<string>Territorium</string>
+			<string>Föderation</string>
+			<string>Konföderation</string>
+			<string>Koalition</string>
+			<string>Kolonien</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>0.6</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.7</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.7</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>0.9</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Democracy)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<FeatureExplanations>
+			<string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 10 years on average</string>
+		</FeatureExplanations>
+		<Name>Demokratie</Name>
+		<Description>Demokratische Regierungen beziehen ihre Macht von den Menschen, die unter ihnen leben. In umkämpften Wahlen werden Vertreter gewählt, die für einen bestimmten Zeitraum regieren.
+
+Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten und Rechte; darunter: politische Meinungsfreiheit, Redefreiheit und Pressefreiheit. Demokratische Regierungen halten typischerweise auch andere wichtige Prinzipien aufrecht, wie: Gleichheit vor dem Gesetz, ordnungsgemäße Verfahren und bürgerliche Freiheiten.\n\nDie Regierungsform 'Demokratie' ist für alle Spezies, außer den Dhayut verfügbar.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>3</GovernmentId> <!-- Feudalism -->
+		<LeaderTitle>Erster Lord</LeaderTitle>
+		<CabinetTitle>Adelsrat</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>25</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>0.9</Stability>
+		<ConcernForOwnReputation>0.9</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1.6</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>vereinte</string>
+			<string>kombinierte</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Reich</string>
+			<string>Allianz</string>
+			<string>Union</string>
+			<string>Gruppe</string>
+			<string>Föderation</string>
+			<string>Enklave</string>
+			<string>Rat</string>
+			<string>Kolonien</string>
+			<string>Ausrichtung</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Feudalism)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<WarStartColonyEventDefinitionId>90</WarStartColonyEventDefinitionId>
+		<MilitiaTroopDefinitionId>32700</MilitiaTroopDefinitionId>
+		<MilitaryShipRolesBuiltByPrivateSector>
+			<ShipRole>Escort</ShipRole>
+		</MilitaryShipRolesBuiltByPrivateSector>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<FeatureExplanations>
+			<string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
+			<string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
+			<string>[HL]Privateer Navy:[/HL] Nobles within your empire will fund construction and operation of a small number of Escorts to defend civilian shipping. These ships are funded from your private economy (purchase and maintenance). They cannot be manually controlled</string>
+		</FeatureExplanations>
+		<Name>Feudalismus</Name>
+		<Description>Feudalherrschaften sind Regierungen, die sich auf eine Reihe von gegenseitigen rechtlichen und militärischen Verpflichtungen innerhalb des herrschenden Adels stützen. In seiner grundlegendsten Essenz ist die Feudalherrschaft die Gewährung von Land und Rechten im Gegenzug für Militärdienst - auch bekannt als Feudalismus.
+
+In einem feudalherrschaftlichen Systemen bildet eine adlige Klasse einen effektiv regierenden Rat. Dieser gewährt dem einfachen Volk Rechte und Freiheiten im Austausch für deren militärische Dienste.
+
+Von Feudalismus geprägte Gesellschaften legen großen Wert auf Hierarchie und Rang. Ihre sozialen Strukturen sind typischerweise sehr statisch. Jeder hat seinen vordefinierten Platz in der Gesellschaft - und muss sich seinem lokalen Herrn unterwerfen.\n\nDie Regierungsform 'Feudalherrschaft' ist für alle Spezies verfügbar.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>4</GovernmentId> <!-- Monarchy -->
+		<LeaderTitle>König</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>7</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>0.85</Stability>
+		<ConcernForOwnReputation>1.6</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1.8</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>kaiserliche</string>
+			<string>königliche</string>
+			<string>große</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Herrschaft</string>
+			<string>Königreich</string>
+			<string>Reich</string>
+			<string>Staatenbund</string>
+			<string>Domäne</string>
+			<string>Dynastie</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Monarchy)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>true</UseFlagShip>
+		<FlagShipDestroyedColonyEventDefinitionId>87</FlagShipDestroyedColonyEventDefinitionId>
+		<FlagShipPrevailsColonyEventDefinitionId>88</FlagShipPrevailsColonyEventDefinitionId>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<FeatureExplanations>
+			<string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
+			<string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
+		</FeatureExplanations>
+		<Name>Monarchie</Name>
+		<Description>In Monarchien liegt die höchste Macht bei einer Person, dem Monarchen oder König, der auch das Staatsoberhaupt ist - oft auf Lebenszeit oder bis zur Abdankung. Monarchien beinhalten in der Regel eine Erbfolge, durch welche ein Kind des Monarchen die Macht nach dessen Tod erbt.
+
+Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit einem regierenden Rat aus Adligen oder gewählten Volksvertretern teilen.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>5</GovernmentId> <!-- Military Dictatorship -->
+		<LeaderTitle>Oberster General</LeaderTitle>
+		<CabinetTitle>Kriegsrat</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>18</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool>
+			<CharacterRole>FleetAdmiral</CharacterRole>
+			<CharacterRole>TroopGeneral</CharacterRole>
+		</LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>0.7</Stability>
+		<ConcernForOwnReputation>0.5</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.3</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanColonize>false</CanColonize>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>kaiserliche</string>
+			<string>große</string>
+			<string>prachtvolle</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Reich</string>
+			<string>Territorium</string>
+			<string>Nation</string>
+			<string>Vorherrschaft</string>
+			<string>Autorität</string>
+			<string>Souveränität</string>
+			<string>Hegemonie</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Military Dictatorship)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<FeatureExplanations>
+			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
+			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+		</FeatureExplanations>
+		<Name>Militär- Diktatur</Name>
+		<Description>Die Militärdiktatur ist eine autokratische Form der absoluten Herrschaft, die nicht durch Gesetze, Verfassungen oder andere soziale und politische Faktoren eingeschränkt ist.
+
+Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Verhaltens ihrer Untertanen. Ihre politische, soziale und zivile Struktur ist auf militärische Belange und Kriegsführung ausgerichtet. Diese Arten von Regierungssystemen sind typischerweise auf Eroberung und Expansion fixiert.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>6</GovernmentId> <!-- Technocracy -->
+		<LeaderTitle>Oberster Wissenschaftsleiter</LeaderTitle>
+		<CabinetTitle>Expertengremium </CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>80</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool>
+			<CharacterRole>Scientist</CharacterRole>
+		</LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>vereinte</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Reich</string>
+			<string>Technokratie</string>
+			<string>Überlegenheit</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceFleetAdmiral</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Technocracy)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Technokratie</Name>
+		<Description>Technokratische Regierungen setzen Ingenieure, Wissenschaftler und technische Experten an die Spitze des Staates. Entscheidungsträger werden danach ausgewählt, wie sachkundig und fähig sie sind.
+
+Technokratien sind in der Regel sehr effizient und frei von Korruption. Allerdings üben sie oft eine strenge Kontrolle über die Handlungen des restlichen Volkes aus. Dieser Verlust an persönlicher Freiheit kann manchmal zu Unruhen führen.
+
+Die Regierungsform 'Technokratie' ist nur für die Ackdarian und Zenox verfügbar.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>7</GovernmentId> <!-- Hive Mind -->
+		<LeaderTitle>Haupt-Aufseher</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.3</Stability>
+		<ConcernForOwnReputation>0.2</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.8</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Großartig</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Schwarm</string>
+			<string>Kollektiv</string>
+			<string>Konformität</string>
+			<string>Bewusstsein</string>
+		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>0.7</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.3</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Initialise Government (Hive Mind)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<HyperjumpAccuracyEmpireLocationModifier>0.5</HyperjumpAccuracyEmpireLocationModifier>
+		<WartimeColonyEventDefinitionId>89</WartimeColonyEventDefinitionId>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<FeatureExplanations>
+			<string>[HL]Intuitive Jumps:[/HL] Hyperjump accuracy doubled when exiting a jump at a location where your empire has an established presence (colony or base)</string>
+			<string>[HL]War Hive:[/HL] Population growth rate increases by +50% during war time</string>
+		</FeatureExplanations>
+		<Name>Schwarm-Intelligenz</Name>
+		<Description>Schwarmintelligenz-Regierungsformen können von außerirdischen Spezies geführt werden, die eine natürliche telepathische Fähigkeit besitzen. Der oberste Wert ist hierbei die Loyalität gegenüber der Gemeinschaft als Ganzes - individueller Ausdruck und Freiheit werden für das größere Gemeinwohl unterdrückt bzw. aufgegeben.
+
+In Schwarmintelligenz-Gesellschaften ist die Arbeit unter verschiedenen fest vorgegebenen bzw. zugewiesenen sozialen Gruppen aufgeteilt. Einige dieser Gruppen sind für die Nahrungsproduktion zuständig, andere für die Verteidigung, wieder andere kümmern sich um die Verwaltung. Bei einigen außerirdischen Völkern mit dieser Regierungsform ist sogar die Fortpflanzung auf eine kleine vorbestimmte Gruppe konzentriert, wobei in der Folge eine oder mehrere Königinnen jede neue Generation hervorbringen.
+
+Die Regierungsform 'Schwarmintelligenz' ist nur für die Boskara und Dhayut verfügbar.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>8</GovernmentId> <!-- Way of Darkness -->
+		<LeaderTitle>Dunkler Lord</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>100</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.5</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Weg der Dunkelheit</Name>
+	</Government>
+	<Government>
+		<GovernmentId>9</GovernmentId> <!-- Way of the Ancients -->
+		<LeaderTitle>Ältester</LeaderTitle>
+		<CabinetTitle>Kabinett</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>300</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.4</Stability>
+		<ConcernForOwnReputation>1.5</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>2</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Weg der Ahnen</Name>
+	</Government>
+	<Government>
+		<GovernmentId>10</GovernmentId> <!-- Path of the Ancients -->
+		<LeaderTitle>Höchster Führer</LeaderTitle>
+		<CabinetTitle>Kabinett</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyTax -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>0</float> <!-- Raiding -->
+				<float>1</float> <!-- Missions -->
+				<float>0</float> <!-- ColonyCrime -->
+				<float>1</float> <!-- Tourism -->
+				<float>1</float> <!-- ShipBuilding -->
+				<float>1</float> <!-- Discoveries -->
+				<float>1</float> <!-- TradeBonuses -->
+				<float>1</float> <!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- ColonyDevelopment -->
+				<float>1</float> <!-- Research -->
+				<float>1</float> <!-- ShipMaintenance -->
+				<float>1</float> <!-- TroopMaintenance -->
+				<float>1</float> <!-- FacilityMaintenance -->
+				<float>1</float> <!-- Ships -->
+				<float>1</float> <!-- TroopRecruitment -->
+				<float>1</float> <!-- Facilities -->
+				<float>1</float> <!-- ResourceTrading -->
+				<float>1</float> <!-- Fuel -->
+				<float>1</float> <!-- Information -->
+				<float>1</float> <!-- Tribute -->
+				<float>1</float> <!-- Missions -->
+				<float>1</float> <!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>300</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.4</Stability>
+		<ConcernForOwnReputation>1.5</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>2</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>-0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>-1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Pfad der Vorfahren</Name>
+	</Government>
+</ArrayOfGovernment>

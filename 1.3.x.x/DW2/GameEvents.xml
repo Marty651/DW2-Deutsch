@@ -21775,7 +21775,7 @@ Aus den letzten Logbüchern geht hervor, dass die Flotte der Mortalen und -Armee
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Slave Mining World (Mortalen)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -22090,7 +22090,7 @@ Jetzt schlagen sie einen trotzigen Ton an, aber wenn sie den Mortalen erneut im 
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Slave Mining World (Non-Mortalen)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
@@ -25371,7 +25371,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Former Boskara Slave World 1 (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -25734,7 +25734,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Former Boskara Slave World 2 (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -26120,7 +26120,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Former Boskara Slave World 3 (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -26482,7 +26482,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Former Boskara Slave World 4 (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
@@ -27505,7 +27505,7 @@ Die letzten Aufzeichnungen enden plötzlich mit Berichten über massive seismisc
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Ancient Boskara Colony (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -27950,7 +27950,7 @@ Und doch enthalten ihre Aufzeichnungen beunruhigende Enthüllungen. Es gibt Gesc
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Ancient Boskara Colony (Non Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
@@ -30110,7 +30110,7 @@ Die gegnerischen Streitkräfte werden nun stark geschwächt sein. Diese alte Fre
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Secret Boskara Research Facility (Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -31535,7 +31535,7 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Guardians (Non Boskara)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<NonTriggerRaceIds>
@@ -34295,7 +34295,7 @@ Die Außerirdischen haben unseren Ingenieuren erlaubt, bei der Reparatur ihres S
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Independent (Haakonish)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -39556,7 +39556,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Warring Independent Worlds (Teekan)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -44313,7 +44313,7 @@ Wie wir befürchtet hatten, sind die Computersysteme der Station schwer beschäd
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Skeptical Independent Colony (Zenox)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>

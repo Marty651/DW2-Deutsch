@@ -427,6 +427,7 @@ GameTaskType RetrofitFleet		;Flotte umrüsten zu neusten Designs
 GameTaskType RetrofitFleet Location		;Flotte umrüsten zu neusten Designs bei {0}
 GameTaskType RetireMultipleShips		;Schiffe/Raumbasen ausmustern
 GameTaskType TopupFleet		;Flotte mit Schiffen aufstocken
+GameTaskType TopupFleet NAME		;Aufstocken {0}
 GameTaskType HonorDefenseTreaty		;Verteidigungsabkommen einhalten
 GameTaskType DishonorDefenseTreaty		;Verteidigungsabkommen nicht einhalten
 GameTaskType ScrapPlanetaryFacility		;Verschrotte {0} bei {1}
@@ -1709,6 +1710,7 @@ X production rate		;{0} Produktionsrate
 X stockpile		;{0} Lagerbestand
 Known Locations		;Bekannte Orte
 Mined Locations		;Bergbaustandorte
+Known Locations Explanation		;Beachtet, dass bekannte Standorte Quellen in fremdem Gebiet umfassen können, die Ihr nicht selbst abbauen könnt
 
 Mining Stations		;Bergbaustationen
 Availability		;Verfügbarkeit
@@ -1773,12 +1775,12 @@ Colony Approval		;Zustimmung
 War Weariness		;Kriegsmüdigkeit
 
 Private Cash		;Privatvermögen
-Private Cashflow		;Privates Saldo
+Private Cashflow		;Privater Saldo
 Cash Explanation		;Barguthaben
 Private Cash Explanation		;Vermögen im privaten Bereich Eures Volkes
 Cash Explanation Detailed		;Barguthaben. Dieses kann für den Kauf neuer Einheiten oder Ressourcen, die Finanzierung von Wachstum in Euren Kolonien, der Forschung und vielen anderen Dingen ausgegeben werden. Das Vermögen wird erhöht, indem sichergestellt wird, dass das Saldo größer als Null ist, d. h., dass Eure Ausgaben geringer sind als Eure Einnahmen.
 Cashflow Explanation		;Verbleibendes Saldo nach Abzug aller regulären Ausgaben, der Finanzierung des Koloniewachstums und der Forschungsfinanzierung
-Private Cashflow Explanation		;Privates Saldo, das nach Abzug aller regelmäßigen privaten Ausgaben verbleibt
+Private Cashflow Explanation		;Privater Saldo, der nach Abzug aller regelmäßigen privaten Ausgaben verbleibt
 Bonus Income Explanation		;Diesjährige Bonuseinnahmen aus nicht-regulären Quellen (z. B. Ressourcen-Handel, Tourismus, etc.)
 Approval Rate Explanation		;Durchschnittliche Zustimmungsrate der Kolonien in Eurem Reich
 War Weariness Explanation		;Im Krieg mit {0} anderen Völkern
@@ -2346,6 +2348,7 @@ Galaxy NearbyHostileRaces Extreme		;Extrem viele
 Hostile Races Near Player		;Feindliche Rassen in Eurer Nähe
 NearbyHostileRaces Explanation		;Wie viele feindliche Völker/Spezies sind in Eurer Nähe, wenn andere Reiche automatisch generiert werden? In der Nähe befindliche feindliche Völker sind ein wichtiger Faktor dafür, wie schwierig das Spiel ist.\n\nBeachtet, dass selbst bei der Einstellung 'Normal' immer noch zufällig einzelne feindliche Völker in Eurer Nähe zugelassen werden.
 
+Galaxy Research Speed Extremely Slow		;Extrem langsam
 Galaxy Research Speed Very Slow		;Sehr langsam
 Galaxy Research Speed Slow		;Langsam
 Galaxy Research Speed Normal		;Normal
@@ -2928,6 +2931,8 @@ AutomationCategory DiplomaticTreaties		;Diplomatie - Verträge
 AutomationCategory DiplomaticWar		;Diplomatie - Krieg
 AutomationCategory FleetFormation		;Flottenformation
 AutomationCategory FleetPostures		;Flotten Haltung
+AutomationCategory FleetPosturesDefense		;Verteidigungsflotte Haltung
+AutomationCategory FleetTemplateMigration		;Flotten-Upgradevorlagen
 AutomationCategory FleetTopup		;Flottenmanagement
 AutomationCategory MilitaryAttack		;Militärische Angriffe
 AutomationCategory WarMissions		;War Missions
@@ -4877,11 +4882,11 @@ ComponentCategory Description Troops		;N/A
 ComponentCategory Description Diplomacy		;N/A
 ComponentCategory Description AncientKnowledge		;N/A
 
-ComponentCategory Description Terraforming		;Terraforming
-ComponentCategory Description WeaponPsychic		;Psychic Weapons
-ComponentCategory Description PsychicDefense		;Psychic Defense
-ComponentCategory Description GeneticEngineering		;Genetic Engineering
-ComponentCategory Description BioWarfare		;BioWarfare
+ComponentCategory Description Terraforming		;Terraforming-Komponenten werden verwendet, um Schäden zu reparieren und sogar die Qualität eines Planeten oder Mondes zu verbessern
+ComponentCategory Description WeaponPsychic		;Psychische Waffen können Komponenten auf Schiffen oder Stützpunkten vorübergehend deaktivieren, indem sie deren Besatzung außer Gefecht setzen.
+ComponentCategory Description PsychicDefense		;Psychische Verteidigungskomponenten schützen ein Schiff oder eine Basis vor den lähmenden Auswirkungen psychischer Waffen
+ComponentCategory Description GeneticEngineering		;Gentechnik
+ComponentCategory Description BioWarfare		;Bio-Krieg
 
 ComponentCategory Description WeaponArea		;Komponenten aus der Kategorie 'Flächenwaffen' erzeugen von einem einzigen lokalen Punkt im Raum aus eine zerstörerische Welle in alle Richtungen, wobei diese unterschiedlichen Zerstörungs- oder Beeinflussungsarten beinhalten kann.\n\n Die Geschosse dieser Flächenwaffen können hierbei direkt auf ein feindliches Schiff gerichtet sein, oder aber auch auf einen Punkt in der Nähe des Ziels, wo diese dann detonieren und die obige Welle auslösen können.\n\nEinige Flächenwaffen gehören auch zu den Ionenwaffen und zielen daher auf die Ausschaltung elektronischer Komponenten, ähnlich wie EMP-Waffen mit direktem Feuer oder Geschossen.
 ComponentCategory Description WeaponBombard		;Komponenten aus der Kategorie 'Bombardierungswaffen' werden eingesetzt, um die Infra- oder Verteidigungsstruktur auszuschalten oder zu vernichten und um die Bevölkerung einer feindlichen Kolonie auszulöschen oder den Planeten/Mond selbst zu beschädigen, um seine Qualität zu verringern.\n\nJede Bombardierungswaffe kann sich auf bestimmte Bereiche spezialisieren: Einige sind besser geeignet, um militärische Infrastruktur und Truppen anzugreifen, andere sind besser geeignet, um die Bevölkerung oder die Qualität des Planeten anzugreifen.
@@ -5320,6 +5325,8 @@ PolicyExplanation ColonyTroopGarrisonLevel		;Die Stufe der Verteidigungsgarnison
 PolicyExplanation AttackTroopLevel		;Die Stufe der rekrutierten Angriffs- und Invasionstruppen. Höhere Stufen bedeuten, dass Eure Kolonien mehr Truppen für evtl. Trupenbewegungen und für die Invasion fremder Kolonien rekrutieren.
 PolicyExplanation AutomationFleetFormation		;Automatisiert die Aufstellung neuer Flotten, oder kontrolliert diesen Bereich manuell.
 PolicyExplanation AutomationFleetTopup		;Automatisiert die Aufstockung von Schiffen für bestehende Flotten (wenn diese Schiffe verlieren, z.B. durch Kampf), oder steuert diesen Bereich manuell. Wenn diese Funktion aktiviert ist, konstruieren Flotten neue Schiffe entsprechend der in ihrer Flottenvorlage angegebenen Menge.
+PolicyExplanation AutomationFleetTemplateMigration		;Automatisiert die Migration von Flottenvorlagen, sobald neue militärische Schiffsrümpfe erforscht werden, oder steuert diesen Bereich manuell.\n\nWenn diese Option aktiviert ist, überprüfen und aktualisieren automatisierte Flotten Eure Flottenvorlage regelmäßig, um weitere Schiffsrollen zu integrieren (sobald diese Rollen/Rümpfe durch Forschung verfügbar sind). Das bedeutet, dass Flotten größere Militärschiffe hinzufügen, sobald diese verfügbar sind.\n\nBeachtet jedoch, dass dies nur für Flottenvorlagen gilt, die automatische Upgrades zulassen. Im Bildschirm „Flottenvorlagen“ könnt Ihr den Status der automatischen Upgrades jeder Flottenvorlage ändern.
+PolicyExplanation AutomationFleetPostures		;Automatisiert die Auswahl von Heimatbasen, Einsatzbereichen und Angriffszielen für Angriffsflotten (Angriff, Überfall, Invasion) oder steuert diesen Bereich manuell.
 PolicyExplanation AutomationFleetPostures		;Automatisiert die Zielauswahl von Heimatbasen, Angriffsbereichen und -zielen für Flotten, oder steuert diesen Bereich manuell.
 PolicyExplanation MilitaryShipsNotInFleetRatio		;Legt den Anteil der Militärschiffe fest, die nicht einer Flotte zugewiesen werden sollen, sondern allein operieren und Eskorten- und Bewachungsaufgaben übernehmen sollen.\n\nBeachtet, dass dies lediglich eine Grenze dafür darstellt, welcher Anteil Eurer Militärschiffe Flotten zugewiesen werden [B]können[/B]. Dies bedeutet [B]nicht[/B] notwendigerweise, dass alle anderen Militärschiffe Flotten zugewiesen [B]werden[/B]. Wenn Ihr diesen Wert also auf Null setzt, bedeutet dies nicht, dass alle Ihre Militärschiffe Flotten zugewiesen werden. Das hängt davon ab, wie viele Flotten Ihr Imperium hat und wie diese Flotten zusammengesetzt sind.
 PolicyExplanation AutomationResearch		;Automatisiert die Auswahl neuer Forschungsprojekte, oder steuert diesen Bereich manuell.
@@ -7028,3 +7035,28 @@ ComponentCategory Description PlanetaryDetonator		;Planetare Detonator-Komponent
 ComponentCategory PlanetaryDetonator		;Planetarischer Detonator
 ComponentCategory PlanetaryDetonator Short		;PDT
 Preparing to Detonate		;Vorbereitung der Detonation
+
+Show Advanced Settings		;Erweiterte Einstellungen anzeigen
+Hide Advanced Settings		;Erweiterte Einstellungen ausblenden
+
+Fleet Military Attack Automation Manual		;Flotten reagieren NICHT automatisch auf Bedrohungen außerhalb ihres aktuellen Sternensystems.
+Fleet Military Attack Automation Suggest		;Berater schlagen Missionen für Flotten innerhalb ihrer Einsatzreichweite vor.
+Fleet Military Attack Automation Automated		;Flotten weisen Missionen innerhalb ihrer Einsatzreichweite automatisch zu.
+
+GameTaskType SetFleetRole With Next		;[B]Flottenrolle[/B]\nAktuell: [B]{0}[/B], Nächstes: [B]{1}[/B]
+From existing ships		;Von bestehenden Schiffen
+Building new ships COST		;Bau neuer Schiffe für {0} Credits
+Remove ships to match template		;Schiffe entfernen, um der Vorlage zu entsprechen
+Unaffordable new ships COST		;Der Bau neuer Schiffe ist nicht erschwinglich ({0} Credits)
+No fleet ships will be added or removed		;Es werden keine Flottenschiffe hinzugefügt oder entfernt
+
+Maximum Auto-Response Range for Manual Fleets		;Maximale Reichweite der automatischen Antwort für manuelle Flotten
+Maximum Auto-Response Range for Invasion Fleets		;Maximale Reichweite der automatischen Reaktion für Invasionsflotten
+PolicyExplanation MaximumEngagementRangeManualFleet		;Die maximale Reichweite, mit der manuelle Flotten automatisch auf Bedrohungen reagieren. Dies verhindert, dass manuelle Flotten selbstständig agieren – sie müssen vom Spieler manuell gesteuert werden.
+PolicyExplanation MaximumEngagementRangeInvadeFleet		;Die maximale Reichweite, mit der Invasionsflotten automatisch auf Bedrohungen reagieren. Dies verhindert, dass Invasionsflotten ihre Hauptaufgabe, die Invasion feindlicher Kolonien, aus den Augen verlieren oder Bedrohungen angreifen, denen sie möglicherweise nicht gewachsen sind.
+
+FleetTemplate Allow Upgrade Explanation		;Flotten können ihre Vorlage automatisch aktualisieren, sobald neue militärische Schiffsrümpfe erforscht werden. Das bedeutet, dass Flotten, die diese Vorlage verwenden, zu einer geeigneteren Vorlage wechseln können, die die neue Schiffsrolle enthält.\n\nDies geschieht jedoch nur, wenn die Funktion „Flottenvorlagen aktualisieren“ automatisiert ist (siehe Abschnitt „Flotten“ im Bildschirm „Imperiumsrichtlinien“).\n\n[WARN]Um zu verhindern, dass Flotten diese Vorlage ändern, aktivieren Sie die Option „Nicht aktualisieren“.[/WARN]
+
+Allow Upgrade		;Upgrade zulassen
+Do Not Upgrade		;Nicht upgraden
+Allow Fleet Template Auto-Upgrade		;Automatisches Upgrade von Flottenvorlagen zulassen

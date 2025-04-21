@@ -1863,7 +1863,7 @@
 			<FiringEffectFilepath>Ships/Planet Destroyers/FX/Wekkarus/Wekkarus_PD_Muzzle_Prefab</FiringEffectFilepath>
 			<ArmorImpactEffectFilepath>VFXPrefabs/PulseTorpedoHitNonPen</ArmorImpactEffectFilepath>
 			<HullImpactEffectFilepath>VFXPrefabs/PulseTorpedoHit</HullImpactEffectFilepath>
-			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
+			<FiringSoundEffectFilepath>Sounds/Components/SuperPulseWave</FiringSoundEffectFilepath>
 			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<ArmorImpactEffectTintColor>
 				<R>0</R>
@@ -1921,7 +1921,7 @@
 				<B>0</B>
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
-			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
+			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperPulseWave_Chargeup</WeaponChargeupSoundEffectFilepath>
 			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
 			<TrailEffectFilepath></TrailEffectFilepath>
 			<TrailEffectTintColor>
@@ -2088,7 +2088,7 @@
 				<B>0</B>
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
-			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
+			<WeaponChargeupSoundEffectFilepath>Sounds/Components/BoomDevice_Chargeup</WeaponChargeupSoundEffectFilepath>
 			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
 			<TrailEffectFilepath></TrailEffectFilepath>
 			<TrailEffectTintColor>

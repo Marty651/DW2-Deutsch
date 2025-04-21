@@ -1986,7 +1986,7 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Independent Ikkuro World (Dhayut)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -2546,7 +2546,7 @@ Wir haben einige der Einheimischen gefangen genommen, die wir zunächst nur zur 
 	</GameEvent>
 	<GameEvent>
 		<Name>Contact Independent Subordinate World (Dhayut)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>

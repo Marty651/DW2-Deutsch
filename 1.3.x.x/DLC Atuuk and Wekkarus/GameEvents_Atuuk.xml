@@ -1868,7 +1868,7 @@ Außerirdische kamen zu dieser Forschungseinrichtung und die Attuk hielten sie w
 	</GameEvent>
 	<GameEvent>
 		<Name>The Lost Colony First Contact (Atuuk)</Name>
-		<TriggerType>EmpireRelationChange</TriggerType>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
 		<TriggerRaceIds>
@@ -2419,7 +2419,7 @@ Jetzt mögen sie uns nicht, was sehr schade ist. Ihre Welt ist rückständig und
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<Description>Wir mögen Geld!</Description>
+				<Description>Wir mögen keine Beleidigungen!</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -4543,7 +4543,7 @@ Wir haben so viel Gehirnschmalz darauf verwendet, die Technologie der Long-Ago-F
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Attack!</ChoiceButtonText>
+				<ChoiceButtonText>Angriff!</ChoiceButtonText>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -4787,7 +4787,7 @@ Wir haben so viel Gehirnschmalz darauf verwendet, die Technologie der Long-Ago-F
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Atack</ChoiceButtonText>
+				<ChoiceButtonText>Angriff</ChoiceButtonText>
 				<GeneratedItemName>The Friend Map (Atuuk)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>

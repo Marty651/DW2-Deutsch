@@ -3,7 +3,7 @@
 
 Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames stellen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereit.
 
-<h2>Downloads für Version 1.3.0.3 (Tactic Update):</h2>
+<h2>Downloads für Version 1.3.0.3 (Tactics Update):</h2>
 
 Deutsche Dateien für Version 1.3.0.3:
 [Deutsch 1.3.0.3 v2.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_v2.5.zip)

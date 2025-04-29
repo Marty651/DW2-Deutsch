@@ -3,22 +3,22 @@
 
 Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. Mit freundlicher Genehmigung von ihm und von MatrixGames stellen wir hier für die Folgeversionen und für DLCs Deutsch-Patches bereit.
 
-<h2>Downloads für Version 1.2.9.8 (Control Update):</h2>
+<h2>Downloads für Version 1.3.0.3 (Tactics Update):</h2>
 
-Deutsche Dateien für Version 1.2.9.8:
-[Deutsch 1.2.9.8 v2.4](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_v2.4.zip)
+Deutsche Dateien für Version 1.3.0.3:
+[Deutsch 1.3.0.3 v2.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_v2.5.zip)
 
-Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.2.9.8):
-[DLC I&D v1.7](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Ikkuro_and_Dhayut_v1.7.zip)
+Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.3.0.3):
+[DLC I&D v1.8](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_DLC_Ikkuro_and_Dhayut_v1.8.zip)
 
-Deutsche Dateien für DLC Quameno & Gizurean (Release-Version 1.2.9.8):
-[DLC Q&G v1.4](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Quameno_and_Gizureans_v1.4.zip)
+Deutsche Dateien für DLC Quameno & Gizurean (Release-Version 1.3.0.3):
+[DLC Q&G v1.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_DLC_Quameno_and_Gizureans_v1.5.zip)
 
-Deutsche Dateien für DLC Return of the Shakturi (Release-Version 1.2.9.8):
-[DLC RotS v1.1](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Return_of_the_Shakturi_v1.1.zip)
+Deutsche Dateien für DLC Return of the Shakturi (Release-Version 1.3.0.3):
+[DLC RotS v1.2](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_DLC_Return_of_the_Shakturi_v1.2.zip)
 
-Deutsche Dateien für DLC Atuuk & Wekkarus (Release-Version 1.2.9.8):
-[DLC A&W v0.5](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.2.9.8-(2025.03.21)/DW2-Deutsch_1.2.9.8_DLC_Atuuk_and_Wekkarus_v0.5.zip)
+Deutsche Dateien für DLC Atuuk & Wekkarus (Release-Version 1.3.0.3):
+[DLC A&W v0.6](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.0.3-(2025.04.23)/DW2-Deutsch_1.3.0.3_DLC_Atuuk_and_Wekkarus_v0.6.zip)
 
 Hinweis: Vor allem bei den DLC wurden Maschinenübersetzungen verwendet. Kann gut sein, dass da mal etwas gar nicht passt. Seid bitte nicht zu streng. :-)
 

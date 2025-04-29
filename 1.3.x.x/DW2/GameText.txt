@@ -6489,7 +6489,7 @@ AMOUNT Empire Happiness for 1 year		;{0} Reiches Glück für 1 Jahr
 Our military strategists have analyzed the situation in our war against the EMPIRE		;Unsere Militärstrategen haben die Situation in unserem Krieg gegen die [FACTION]{0}[/FACTION] analysiert und nach Aufgaben gesucht, die maximale Wirkung gegen unseren Feind haben. Sie haben den folgenden Vorschlag
 
 Capture Enemy Leaders		;Feindliche Anführer gefangen nehmen
-We have identified an enemy ROLE that would prove invaluable if captured. You should find and capture ROLE NAME of the EMPIRE		;Wir haben einen Feind {0} identifiziert, dessen Gefangennahme sich als unschätzbar erweisen würde. Sie sollten [CHARAKTER]{0} {1}[/CHARAKTER] der [FACTION]{2}[/FACTION] finden und gefangen nehmen.
+We have identified an enemy ROLE that would prove invaluable if captured. You should find and capture ROLE NAME of the EMPIRE		;Wir haben einen Feind {0} identifiziert, dessen Gefangennahme sich als unschätzbar erweisen würde. Sie sollten [CHARACTER]{0} {1}[/CHARACTER] der [FACTION]{2}[/FACTION] finden und gefangen nehmen.
 Secure Assistance		;Sichere Unterstützung
 We should make more friends and allies. Sign a TREATY with EMPIRE		;Wir sollten mehr Freunde und Verbündete finden. Unterschreiben Sie einen [FACTION]{0}[/FACTION] mit [FACTION]{1}[/FACTION]
 Strengthen the Alliance		;Stärken Sie die Allianz
@@ -6527,9 +6527,9 @@ Defend Important Colony		;Wichtige Kolonie verteidigen
 We have identified an important colony that our enemies are likely to target. You should defend COLONY from attack, preventing its destruction or conquest		;Wir haben eine wichtige Kolonie identifiziert, die unsere Feinde wahrscheinlich angreifen werden. Sie sollten [HL]{0}[/HL] gegen Angriffe verteidigen und ihre Zerstörung oder Eroberung verhindern.
 We have identified an important allied colony that our enemies are likely to target. You should defend COLONY from attack, preventing its destruction or conquest. COLONY is a colony of our ally, the EMPIRE		;Wir haben eine wichtige verbündete Kolonie identifiziert, die unsere Feinde wahrscheinlich angreifen werden. Sie sollten [HL]{0}[/HL] gegen Angriffe verteidigen und ihre Zerstörung oder Eroberung verhindern. {0} ist eine Kolonie unseres Verbündeten, der [FACTION]{1}[/FACTION]
 Destroy Enemy Troop Facility		;Feindliche Truppeneinrichtung zerstören
-We have identified an important enemy troop facility of the EMPIRE. You should destroy the FACILITY at COLONY		;Wir haben eine wichtige feindliche Truppeneinrichtung der [FACTION]{2}[/FACTION] identifiziert. Sie sollten die [HL]{0}[/HL] bei [STANDORT]{1}[/Standort] zerstören.
+We have identified an important enemy troop facility of the EMPIRE. You should destroy the FACILITY at COLONY		;Wir haben eine wichtige feindliche Truppeneinrichtung der [FACTION]{2}[/FACTION] identifiziert. Sie sollten die [HL]{0}[/HL] bei [LOCATION]{1}[/LOCATION] zerstören.
 Destroy Valuable Enemy Facility		;Wertvolle feindliche Einrichtung zerstören
-We have identified a valuable enemy facility of the EMPIRE. You should destroy the FACILITY at COLONY		;Wir haben eine wertvolle feindliche Einrichtung der [FACTION]{2}[/FACTION] identifiziert. Sie sollten die [HL]{0}[/HL] am [STANDORT]{1}[/Standort] zerstören.
+We have identified a valuable enemy facility of the EMPIRE. You should destroy the FACILITY at COLONY		;Wir haben eine wertvolle feindliche Einrichtung der [FACTION]{2}[/FACTION] identifiziert. Sie sollten die [HL]{0}[/HL] am [LOCATION]{1}[/LOCATION] zerstören.
 War Mission		;Kriegseinsatz
 War Mission Accomplished		;Kriegsauftrag erfüllt
 Rewards		;Belohnungen
@@ -6869,11 +6869,11 @@ New Leader Great One Description		;Herzlichen Glückwunsch! Wir haben herausgefu
 New Leader Not Great One Description		;Eine Katastrophe! Wir haben festgestellt, dass unser neuer Anführer {0} [B]NICHT[/B] die Qualitäten hat, um [HL]Der Große[/HL] zu sein!\n\nAls Ergebnis behindern sie unser Reich mit einer [BAD]-20% Glücksstrafe[/BAD].\n\nDiese Katastrophe ist nicht hinnehmbar! Wir werden in einem Jahr erneut zusammentreten, um einen neuen Großen zu wählen.
 
 The Great One		;Der Große
-The Great One Description		;Unsere jüngste Änderung der Großen Richtung hat ergeben, dass unser derzeitiger Anführer nicht mehr [HL]Der Große[/HL] ist und daher ungeeignet ist, die Atuuk voranzubringen. Sie werden entlassen.\n\n Wir müssen also einen neuen Anführer wählen. Die beiden besten Kandidaten sind [CHARAKTER]{0}[/CHARAKTER] und [CHARAKTER]{1}[/CHARAKTER].\n\nWen wählen wir als [HL]Den Großen[/HL]?
+The Great One Description		;Unsere jüngste Änderung der Großen Richtung hat ergeben, dass unser derzeitiger Anführer nicht mehr [HL]Der Große[/HL] ist und daher ungeeignet ist, die Atuuk voranzubringen. Sie werden entlassen.\n\n Wir müssen also einen neuen Anführer wählen. Die beiden besten Kandidaten sind [CHARACTER]{0}[/CHARACTER] und [CHARACTER]{1}[/CHARACTER].\n\nWen wählen wir als [HL]Den Großen[/HL]?
 The Great One Description Single		;Unser jüngster Wechsel der Großen Richtung hat ergeben, dass unser derzeitiger Anführer nicht mehr [HL]Der Große[/HL] ist und daher ungeeignet ist, die Atuuk voranzubringen. Sie werden entlassen.\n\Nun müssen wir also einen neuen Anführer wählen. Aber es scheint nur einen geeigneten Kandidaten zu geben: [CHARACTER]{0}[/CHARACTER].\n\nSie wurden als [HL]Der Große[/HL] ernannt.
 
 Who Is Great		;Wer ist großartig
-Who Is Great Description		;Die Zeit ist gekommen, die Großen Atuks der Zukunft zu bestimmen. Wir müssen zwischen den folgenden beiden Kandidaten wählen: [CHARAKTER]{0}[/CHARAKTER] und [CHARAKTER]{1}[/CHARAKTER].\n\nDer ausgewählte Charakter erhält die Eigenschaft [B]Großes Potenzial[/B] und kann in Zukunft als [HL]Der Große[/HL] ausgewählt werden.\n\nDie Eigenschaft Großes Potenzial verleiht dem Charakter eine zusätzliche positive Eigenschaft. Außerdem erhöht sich ihre Fertigkeitsstufe.\n\nWen sehen wir mit großem Potenzial?
+Who Is Great Description		;Die Zeit ist gekommen, die Großen Atuks der Zukunft zu bestimmen. Wir müssen zwischen den folgenden beiden Kandidaten wählen: [CHARACTER]{0}[/CHARACTER] und [CHARACTER]{1}[/CHARACTER].\n\nDer ausgewählte Charakter erhält die Eigenschaft [B]Großes Potenzial[/B] und kann in Zukunft als [HL]Der Große[/HL] ausgewählt werden.\n\nDie Eigenschaft Großes Potenzial verleiht dem Charakter eine zusätzliche positive Eigenschaft. Außerdem erhöht sich ihre Fertigkeitsstufe.\n\nWen sehen wir mit großem Potenzial?
 
 Direction Doubt		;Richtung Zweifel
 Direction Doubt Description		;Einige unserer Leute bezweifeln die Richtigkeit unseres jüngsten Wechsels der Großen Richtung. Sie sind der Meinung, dass wir uns für etwas anderes hätten entscheiden sollen. Dieses Murren und diese Ungewissheit haben in unserem gesamten Reich für Unruhe gesorgt. So werden wir in den nächsten 2 Jahren unter [SCHLECHT]-10% Kolonieglück[/SCHLECHT] in unserem Reich leiden.
@@ -6927,7 +6927,7 @@ Your Empire Homeworld Planet With Moon		;Planet mit Mond
 Your Empire Homeworld Moon At Gas Giant		;Mond bei Gasriese
 
 Flashes of the Past		;Blitze der Vergangenheit
-Flashes of the Past Description		;Der jüngste entscheidende Forschungsdurchbruch unseres Wissenschaftlers [CHARAKTER]{0}[/CHARAKTER] hat ihm Einblicke in die Vergangenheit verschafft.\n\nDurch die Nutzung dieser Einblicke erhält er eine neue Forschungsfähigkeit. Wir können das Gebiet für diese neue Fähigkeit wählen.\n\nWelche neue Forschungsfähigkeit soll {0} erwerben?
+Flashes of the Past Description		;Der jüngste entscheidende Forschungsdurchbruch unseres Wissenschaftlers [CHARACTER]{0}[/CHARACTER] hat ihm Einblicke in die Vergangenheit verschafft.\n\nDurch die Nutzung dieser Einblicke erhält er eine neue Forschungsfähigkeit. Wir können das Gebiet für diese neue Fähigkeit wählen.\n\nWelche neue Forschungsfähigkeit soll {0} erwerben?
 
 Ghost Ship		;Geisterschiff
 Ancestors Among Us		;Vorfahren unter uns
@@ -6946,10 +6946,10 @@ Character Trait AncestralMemory		;Ahnengedächtnis
 Character Trait Description AncestralMemory		;Erhöht die Chance auf einen kritischen Forschungserfolg
 
 Ghost Admiral Title		;Vorfahren unter uns
-Ghost Admiral Description		;Der intensive Stress des Kampfes im [STANDORT]{1}-System[/Standort] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]Admiral[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der Admiral ist [STANDORT]an Bord von {0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
+Ghost Admiral Description		;Der intensive Stress des Kampfes im [LOCATION]{1}-System[/LOCATION] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARACTER]Admiral[/CHARACTER] aus längst vergangenen Zeiten erscheinen lassen! Der Admiral ist [LOCATION]an Bord von {0}[/LOCATION] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
 
 Ghost General Title		;Vorfahren unter uns
-Ghost General Description		;Der intensive Stress des Kampfes am [STANDORT]{0}[/Standort] im {1}-System hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARAKTER]General[/CHARAKTER] aus längst vergangenen Zeiten erscheinen lassen! Der General befindet sich in [STANDORT]{0}[/Standort] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
+Ghost General Description		;Der intensive Stress des Kampfes am [LOCATION]{0}[/LOCATION] im {1}-System hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [CHARACTER]General[/CHARACTER] aus längst vergangenen Zeiten erscheinen lassen! Der General befindet sich in [LOCATION]{0}[/LOCATION] und leitet nun die Schlacht, um uns zu helfen, unsere Feinde zu besiegen.\n\nWir erwarten nicht, dass sie lange bei uns bleiben, aber solange sie hier sind, werden sie an unserer Seite kämpfen.
 
 Ghost Scientist Title		;Vorfahren unter uns
 Ghost Scientist Description Success		;Der enorme Stress unseres jüngsten wichtigen Forschungserfolgs hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und dazu geführt, dass ein [CHARACTER]Wissenschaftler[/CHARACTER] aus längst vergangenen Zeiten erschienen ist! Der Wissenschaftler befindet sich in [LOCATION]{0}[/LOCATION] und unterstützt uns nun bei unseren weiteren Forschungen.\n\nWir gehen nicht davon aus, dass er lange bei uns bleiben wird, aber solange er hier ist, wird er uns helfen, unser Wissen zu erweitern.
@@ -6958,12 +6958,12 @@ Ghost Scientist Description Failure		;Der enorme Stress unseres jüngsten kritis
 Imprison		;Einsperren
 
 Deep Labyrinth		;Tiefes Labyrinth
-Deep Labyrinth Description		;Ein ausländischer Spion, [CHARAKTER]{0}[/CHARAKTER] vom [FACTION]{1}[/FACTION], wurde entdeckt, der gegen uns arbeitet.\n\nUnsere übersinnlichen Fähigkeiten haben es uns ermöglicht, sie abzufangen, bevor sie entkommen konnten. Jetzt müssen wir über ihr Schicksal entscheiden.\n\nWas sollen wir mit {0} tun? Sollen wir sie inhaftieren? Oder sie hinrichten?
+Deep Labyrinth Description		;Ein ausländischer Spion, [CHARACTER]{0}[/CHARACTER] vom [FACTION]{1}[/FACTION], wurde entdeckt, der gegen uns arbeitet.\n\nUnsere übersinnlichen Fähigkeiten haben es uns ermöglicht, sie abzufangen, bevor sie entkommen konnten. Jetzt müssen wir über ihr Schicksal entscheiden.\n\nWas sollen wir mit {0} tun? Sollen wir sie inhaftieren? Oder sie hinrichten?
 
 Deep Labyrinth Title Capture Foreign		;Tiefes Labyrinth - Spion in Gefangenschaft
-Deep Labyrinth Description Capture Foreign		;Unser Spion [CHARAKTER]{0}[/CHARAKTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen übersinnlichen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben jetzt [B]{0}[/B] gefangen genommen.
+Deep Labyrinth Description Capture Foreign		;Unser Spion [CHARACTER]{0}[/CHARACTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen übersinnlichen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben jetzt [B]{0}[/B] gefangen genommen.
 Deep Labyrinth Title Execute Foreign		;Tiefes Labyrinth - Spion hingerichtet
-Deep Labyrinth Description Execute Foreign		;Unser Spion [CHARAKTER]{0}[/CHARAKTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen psychischen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben {0}[/B] nun [B]hingerichtet.
+Deep Labyrinth Description Execute Foreign		;Unser Spion [CHARACTER]{0}[/CHARACTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen psychischen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben {0}[/B] nun [B]hingerichtet.
 
 Queue		;Queue
 Plus X queued missions		;+{0} Missionen in der Warteschlange

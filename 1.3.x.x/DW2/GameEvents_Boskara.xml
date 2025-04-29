@@ -108,7 +108,7 @@
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Verrückter Kannibalismus</MessageTitle>
-				<Description>Ein Leben ohne Krieg und Eroberung passt nicht zu den kriegerischen Boskara.\n\nDie Zeiten des Friedens haben die Bevölkerung unserer Kolonie [STANDORT]{0}[/Standort] in einen wahnsinnigen Rausch versetzt. Aufgrund dieser hyper-aggressiven Paranoia ist Kannibalismus weit verbreitet!\n\nWir gehen davon aus, dass dieser Wahnsinn sechs Monate lang anhalten wird. Während dieser Zeit wird es zu erheblichen Bevölkerungsverlusten in {0} kommen.</Description>
+				<Description>Ein Leben ohne Krieg und Eroberung passt nicht zu den kriegerischen Boskara.\n\nDie Zeiten des Friedens haben die Bevölkerung unserer Kolonie [LOCATION]{0}[/LOCATION] in einen wahnsinnigen Rausch versetzt. Aufgrund dieser hyper-aggressiven Paranoia ist Kannibalismus weit verbreitet!\n\nWir gehen davon aus, dass dieser Wahnsinn sechs Monate lang anhalten wird. Während dieser Zeit wird es zu erheblichen Bevölkerungsverlusten in {0} kommen.</Description>
 				<ImageFilepath>Environment/Events/Crazed Cannibalism</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

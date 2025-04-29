@@ -284,7 +284,7 @@ Wir haben einige fragmentierte Kommunikationsprotokolle entdeckt, die uns eine V
 				<MessageTitle>Die Vergangenheit ist immer unbeständig</MessageTitle>
 				<Description>Wie wir befürchtet hatten, stürzte die Ruine durch unsere Suche in sich selbst ein. Unser Team konnte sicher evakuiert werden, und kein Wekkarus wurde verletzt.
 
-In der Andockbucht fanden wir [ENTDECKUNG]zwei funktionstüchtige Erkundungsschiffe[/EntDECKUNG]. Wir haben auch die fragmentierten Logbücher gefunden, die den [STANDORT]Standort eines Archivs[/Standort] angeben. Es könnte wichtige Informationen über die verlorenen Artefakte enthalten. Wir sollten das sofort untersuchen.</Description>
+In der Andockbucht fanden wir [ENTDECKUNG]zwei funktionstüchtige Erkundungsschiffe[/EntDECKUNG]. Wir haben auch die fragmentierten Logbücher gefunden, die den [LOCATION]Standort eines Archivs[/LOCATION] angeben. Es könnte wichtige Informationen über die verlorenen Artefakte enthalten. Wir sollten das sofort untersuchen.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -648,7 +648,7 @@ Die Teekaner verlangen eine hohe Zahlung für das Artefakt. Wir könnten dem nac
 				<MessageTitle>Triviale Belohnungen für triviale Köpfe</MessageTitle>
 				<Description>Wir haben die Teekaner für das bezahlt, was sie nicht verkaufen durften, und sie haben uns einen alten Wekkarus-Datenkristall geliefert. Er ist ramponiert und teilweise korrumpiert, aber der Geist unserer Vorfahren ist noch nicht ganz verblasst.
 
-Der Kristall enthält eine [STANDORT]Karte zu einem weit entfernten Ort[/Standort]. Ein großer Teil des erklärenden Textes ist verzerrt, aber es gibt Grund zu der Annahme, dass etwas an diesem Ort uns zu einem unserer verlorenen Artefakte führen kann.</Description>
+Der Kristall enthält eine [LOCATION]Karte zu einem weit entfernten Ort[/LOCATION]. Ein großer Teil des erklärenden Textes ist verzerrt, aber es gibt Grund zu der Annahme, dass etwas an diesem Ort uns zu einem unserer verlorenen Artefakte führen kann.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -882,7 +882,7 @@ Wir haben ihnen erklärt, dass wir, wenn sie uns den Zugang zu unseren Vorfahren
 				<MessageTitle>Dies sind triviale Kreaturen</MessageTitle>
 				<Description>Die Teekaner haben kapituliert und uns einen alten Wekkarus-Datenkristall übergeben. Er ist ramponiert und teilweise beschädigt, aber der Geist unserer Vorfahren ist noch nicht ganz erloschen.
 
-Der Kristall enthält [STANDORT]eine Karte zu einem weit entfernten Ort[/Standort]. Ein großer Teil des erklärenden Textes ist verzerrt, aber es gibt Grund zu der Annahme, dass etwas an diesem Ort uns zu einem unserer verlorenen Artefakte führen kann.
+Der Kristall enthält [LOCATION]eine Karte zu einem weit entfernten Ort[/LOCATION]. Ein großer Teil des erklärenden Textes ist verzerrt, aber es gibt Grund zu der Annahme, dass etwas an diesem Ort uns zu einem unserer verlorenen Artefakte führen kann.
 
 Wir haben jetzt eine Richtung. Zu gegebener Zeit können wir die verlorenen Artefakte bergen und unseren Vorfahren Frieden bringen.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2240,7 +2240,7 @@ Wir können nicht erraten, warum. Diese Legenden sind gespickt mit Hinweisen auf
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Mehr zu entdecken</MessageTitle>
-				<Description>Unter den Besitztümern des Bibliothekars haben wir [STANDORT]eine Sternenkarte mit einer Ortsangabe[/Standort] entdeckt. Ihre Bedeutung ist unbekannt.
+				<Description>Unter den Besitztümern des Bibliothekars haben wir [LOCATION]eine Sternenkarte mit einer Ortsangabe[/LOCATION] entdeckt. Ihre Bedeutung ist unbekannt.
 
 Wir haben auch entdeckt, dass die Shakturi-Technologie nicht das einzige ist, was der Bibliothekar aufbewahrt hat. Zu seiner Sammlung gehört auch ein Artefakt aus der alten Galaxie, der [ARTIFACT]Kenotaph der ersten Generation[/ARTIFACT]. Dieses große rechteckige Monument, das vollständig aus dem Stein unserer verlorenen Heimatwelt besteht, wurde zu Ehren der großen Helden unserer fernen Vergangenheit errichtet, den Gründern der Zivilisation von Wekkarus.
 
@@ -2408,7 +2408,7 @@ Was den Bibliothekar dazu trieb, mehrere Leben der Bewahrung der Shakturi-Legend
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Wissen über unsere Vorfahren</MessageTitle>
-				<Description>Unter den Besitztümern des Bibliothekars haben wir [STANDORT]eine Sternenkarte mit einer Ortsangabe[/Standort] gefunden. Ihre Bedeutung ist unbekannt.
+				<Description>Unter den Besitztümern des Bibliothekars haben wir [LOCATION]eine Sternenkarte mit einer Ortsangabe[/LOCATION] gefunden. Ihre Bedeutung ist unbekannt.
 
 Wir haben auch entdeckt, dass die Shakturi-Technologie nicht das einzige ist, was der Bibliothekar aufbewahrt hat. In seiner Sammlung haben wir ein Artefakt aus der alten Galaxie gefunden, den [ARTIFACT]Kenotaph der ersten Generation[/ARTIFACT]. Dieses große rechteckige Monument, das vollständig aus dem Stein unserer verlorenen Heimatwelt besteht, wurde zu Ehren der großen Helden unserer fernen Vergangenheit errichtet, den Gründern der Zivilisation von Wekkarus.
 
@@ -3413,7 +3413,7 @@ Vielleicht ist das der Grund, warum sie uns hassen. Wir leben in Gemeinschaft mi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Was ihnen gehörte, gehört jetzt uns</MessageTitle>
-				<Description>Wir haben alle wertvollen Ressourcen aus den Überresten des Shakturi-Schiffs geborgen. Dabei haben wir eine Sternenkarte entdeckt, die den [STANDORT]Standort von zwei Tiefseewelten[/Standort] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber es lohnt sich, sie zu untersuchen.
+				<Description>Wir haben alle wertvollen Ressourcen aus den Überresten des Shakturi-Schiffs geborgen. Dabei haben wir eine Sternenkarte entdeckt, die den [LOCATION]Standort von zwei Tiefseewelten[/LOCATION] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber es lohnt sich, sie zu untersuchen.
 
 Wir haben die Karte erhalten:
 
@@ -3601,7 +3601,7 @@ Wir haben die Karte erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Was sie wussten, sollen wir wissen</MessageTitle>
-				<Description>Wir haben die Überreste des Shakturi-Schiffs unseren Wissenschaftlern zur Analyse übergeben. Wir haben auch eine Sternenkarte entdeckt, die die [STANDORT]Lage von zwei Tiefseewelten[/Standort] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber sie sind es wert, untersucht zu werden.</Description>
+				<Description>Wir haben die Überreste des Shakturi-Schiffs unseren Wissenschaftlern zur Analyse übergeben. Wir haben auch eine Sternenkarte entdeckt, die die [LOCATION]Lage von zwei Tiefseewelten[/LOCATION] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber sie sind es wert, untersucht zu werden.</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4115,7 +4115,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Geheimnisse der Vergangenheit entschlüsseln</MessageTitle>
-				<Description>Wir haben die Überreste des Shakturi-Schiffs unseren Wissenschaftlern zur Analyse übergeben. Wir haben auch eine Sternenkarte entdeckt, die die [STANDORT]Lage von zwei Tiefseewelten[/Standort] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber sie sind es wert, untersucht zu werden.</Description>
+				<Description>Wir haben die Überreste des Shakturi-Schiffs unseren Wissenschaftlern zur Analyse übergeben. Wir haben auch eine Sternenkarte entdeckt, die die [LOCATION]Lage von zwei Tiefseewelten[/LOCATION] zu zeigen scheint. Wir wissen nicht, ob sie derzeit von Wekkarus bewohnt werden, aber sie sind es wert, untersucht zu werden.</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5424,7 +5424,7 @@ Wir wissen nicht, wie diese alte Generation die Bedrohung durch die Shakturi ver
 
 Wir sind jetzt im Besitz des [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. Es handelt sich um eine Kugel, die klein genug ist, um sie zu halten, aber seltsam schwer. Jetzt, da wir sie besitzen, können alle Wekkarus in der gesamten Galaxis ihre Anwesenheit spüren, wenn auch aus der Ferne. Sie verbindet uns und stellt eine stärkere Verbindung zu unseren Vorfahren her. Wenn die Krieger dieser Generation in den Kampf ziehen, wird der Orb ihnen helfen, über die Zeit hinweg zu kommunizieren, so dass wir eins werden mit den großen Kriegern der Vergangenheit. Unsere Kämpfer werden in der Lage sein, sie zu spüren und sie zu rufen, was die Wahrscheinlichkeit erhöht, dass sie uns helfen. Dies ist ein glorreicher Tag für diese Generation.
 
-Wir haben auch eine Sternenkarte entdeckt, die den [STANDORT]Standort einer wichtigen Wekkarus-Welt[/Standort] anzeigt.</Description>
+Wir haben auch eine Sternenkarte entdeckt, die den [LOCATION]Standort einer wichtigen Wekkarus-Welt[/LOCATION] anzeigt.</Description>
 				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5590,7 +5590,7 @@ Noch bevor der Rest der Galaxis von der Bedrohung durch die Shakturi erfuhr, erk
 				<MessageTitle>Ein Artefakt aufgedeckt</MessageTitle>
 				<Description>Wir haben ein uraltes Artefakt der Wekkarus entdeckt, den [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. Es handelt sich um eine Kugel, die klein genug ist, um sie zu halten, aber seltsam schwer. Diese Kugel hat unsere Wahrnehmung mit Hilfe einer geheimnisvollen Wekkarus-Technologie beeinflusst. Jetzt, wo sie in unserem Besitz ist, fühlen sich unsere Kampfcrews ihren Stationen stärker verbunden und sind in der Lage, viel besser zu funktionieren. Dies ist ein bemerkenswerter Fund!
 
-Wir haben auch eine Sternenkarte entdeckt, die den [STANDORT]Standort einer wichtigen Wekkarus-Welt angibt[/Standort].</Description>
+Wir haben auch eine Sternenkarte entdeckt, die den [LOCATION]Standort einer wichtigen Wekkarus-Welt angibt[/LOCATION].</Description>
 				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6616,7 +6616,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle>Reichtümer aus der Tiefe</MessageTitle>
-				<Description>Unser intuitives Gespür für unsere heimischen Tiefseewelten hat uns geholfen, eine neue Ressource in unserer Kolonie [STANDORT]{0}[/Standort] zu entdecken!\n\nWir haben eine neue Quelle von [RESSOURCENAME]RESSOURCE[/RESSOURCE] in {0} entdeckt.</Description>
+				<Description>Unser intuitives Gespür für unsere heimischen Tiefseewelten hat uns geholfen, eine neue Ressource in unserer Kolonie [LOCATION]{0}[/LOCATION] zu entdecken!\n\nWir haben eine neue Quelle von [RESSOURCENAME]RESSOURCE[/RESSOURCE] in {0} entdeckt.</Description>
 				<ImageFilepath>Environment/Events/riches from the deep</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

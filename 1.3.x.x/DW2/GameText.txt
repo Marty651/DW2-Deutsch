@@ -2863,7 +2863,7 @@ GameEventActionType Description ResearchBreakthrough		;Wir haben eine Technologi
 GameEventActionType Description ResearchBreakthroughFromColonyConquest		;Während unserer jüngsten Eroberung von {1} haben wir eine Technologie erworben, die uns einen Forschungsdurchbruch in [RESEARCH]{0}[/RESEARCH] beschert hat.
 GameEventActionType Description RefugeeFleet		;Unser Expeditionsteam hat eine starke Sendeanlage gefunden und [DISCOVERY]aktivierte den Sender[/DISCOVERY], dessen Ortungssignal von einer [DISCOVERY]Flotte aus {1} Schiffen[/DISCOVERY] registriert wurde, die gerade in das System {3} gesprungen waren!\n\nEine Nachricht von der Flotte erklärt: 'Seid gegrüßt! Wir sind {0} Flüchtlinge aus einer weit entfernten Galaxie. Wir wurden von einer grausamen außerirdischen Spezies, die uns in einem brutalen Krieg verfolgte, aus unserer Heimat vertrieben. Wir suchen Zuflucht bei euch und möchten uns eurem Reich anschließen. Im Gegenzug bieten wir euch unsere Schiffsflotte an.'\n\nDie Flotte besteht aus einigen Kolonieschiffen und einer kleinen Eskorte von Militärschiffen. Die Schiffe scheinen recht fortschrittlich zu sein.\n\nWenn wir diese Flüchtlinge in unser Reich aufnehmen und ihre Schiffe beanspruchen wollen, dann sollten wir uns ihrer Flotte bei {2} nähern.
 GameEventActionType Description ResearchProjectEnable		;Wir haben eine Technologie gefunden, die die Forschung in [RESEARCH]{0}[/RESEARCH] ermöglicht.\n\nWir sollten uns beeilen, dieses Projekt zu erforschen und seine Vorteile zu nutzen!
-GameEventActionType Description ResearchProjectEnableAllEmpires		;We have found technology that has enabled research in [RESEARCH]{0}[/RESEARCH].\n\nWe should hurry to research this project and exploit its benefits!
+GameEventActionType Description ResearchProjectEnableAllEmpires		;Wir haben eine Technologie gefunden, die die Forschung in [RESEARCH]{0}[/RESEARCH] ermöglicht hat.\n\nWir sollten uns beeilen, dieses Projekt zu erforschen und seine Vorteile zu nutzen!
 GameEventActionType Description ShipExplodes		;Das Schiff {0} explodiert in einem [DISCOVERY]gewaltigen Feuerball[/DISCOVERY] - es war eine Falle!\n\nDie enorme Explosion hat auch unser Schiff beschädigt!
 GameEventActionType Description History		;Ein Datenspeicher enthält eine Nachricht, die [DISCOVERY]historische Details aus der fernen Vergangenheit der Galaxie[/DISCOVERY] enthüllt:
 GameEventActionType Description Story		;Ein Datenspeicher enthält die folgende Meldung:
@@ -4014,14 +4014,14 @@ Character Mission InfluenceEmpirePositively		;Völker positiv beeinflussen
 Character Mission InfluenceEmpireNegatively		;Völker negativ beeinflussen
 Character Mission InternalStabilization		;Interne Stabilisierung
 Character Mission DefectCharacter		;Character Defection
-Character Mission InfectColonyWithPlague		;Infect Colony with Plague
-Character Mission CreateFalseIncident		;Create False Incident
-Character Mission ControlFactionLeader		;Control Faction Leader
+Character Mission InfectColonyWithPlague		;Kolonie mit der Pest infizieren
+Character Mission CreateFalseIncident		;Einen falschen Vorfall erstellen
+Character Mission ControlFactionLeader		;Kontrolliert den Fraktionsführer
 
 Character Mission Description CounterIntelligence		;Spionageabwehr gegen feindliche Agenten
 Character Mission Description AssassinateCharacter		;Ermordet {0} {1}
 Character Mission Description DeepCover		;Infiltriert die {0}
-Character Mission Description DestroyFacility		;Destroy {0} at {1}
+Character Mission Description DestroyFacility		;Zerstört {0} bei {1}
 Character Mission Description DestroyBase		;Zerstört {0}
 Character Mission Description CaptureBase		;Erobert {0}
 Character Mission Description InciteRevolution		;Zettelt Revolution anstiften in der {0}
@@ -4034,14 +4034,14 @@ Character Mission Description StealTerritoryMap		;Stehlt die Gebietskarte von {0
 Character Mission Description InfluenceEmpirePositively		;Verbessert {0}'s Bewertung von {1}
 Character Mission Description InfluenceEmpireNegatively		;Reduziert {0}'s Bewertung von {1}
 Character Mission Description InternalStabilization		;Reduziert interne Unruhen von Dissidenten
-Character Mission Description DefectCharacter		;Persuade {0} {1} to defect
-Character Mission Description InfectColonyWithPlague		;Infect {0} with {1}
-Character Mission Description CreateFalseIncident		;Create a negative incident with {0}, framing {1} for the incident
-Character Mission Description ControlFactionLeader		;Mind control {0}'s leader, making them a vassal
+Character Mission Description DefectCharacter		;Überredet {0} {1} zum Überlaufen
+Character Mission Description InfectColonyWithPlague		;Infiziert {0} mit {1}
+Character Mission Description CreateFalseIncident		;Schafft einen negativen Vorfall mit {0} und beschuldigt {1}
+Character Mission Description ControlFactionLeader		;Gedankenkontrolle über den Anführer von {0}, was ihn zu einem Vasallen macht
 
 Character Mission Description AssassinateCharacter Us		;Ermordet unseren {0} {1}
 Character Mission Description DeepCover Us		;Infiltriert unsere Operationen
-Character Mission Description DestroyFacility Us		;Destroy {0} at {1}
+Character Mission Description DestroyFacility Us		;Zerstört {0} bei {1}
 Character Mission Description DestroyBase Us		;Zerstört {0}
 Character Mission Description CaptureBase Us		;Erobert {0}
 Character Mission Description InciteRevolution Us		;Zettelt eine Rebellion gegen unsere Regierung an
@@ -4053,10 +4053,10 @@ Character Mission Description StealTechData Us		;Stehlt Forschungsinformationen 
 Character Mission Description StealTerritoryMap Us		;Stehlt unsere Gebietskarte
 Character Mission Description InfluenceEmpirePositively Us		;Verbessert unsere Bewertung von {1}
 Character Mission Description InfluenceEmpireNegatively Us		;Reduziert unsere Bewertung von {1}
-Character Mission Description DefectCharacter Us		;Persuade {0} {1} to defect from our empire
-Character Mission Description InfectColonyWithPlague Us		;Infect {0} with {1}
-Character Mission Description CreateFalseIncident Us		;Create a negative incident with us, framing {1} for the incident
-Character Mission Description ControlFactionLeader Us		;Mind control our leader, making us a vassal
+Character Mission Description DefectCharacter Us		;Überzeugt {0} {1}, aus unserem Imperium auszuscheiden
+Character Mission Description InfectColonyWithPlague Us		;Infiziert {0} mit {1}
+Character Mission Description CreateFalseIncident Us		;Schafft einen negativen Vorfall mit uns und beschuldigt {1}
+Character Mission Description ControlFactionLeader Us		;Gedankenkontrolle über unseren Anführer, was uns zu Vasallen macht
 
 Character Mission Outcome Success		;Unser Agent [CHARACTER]{0}[/CHARACTER] hat sich der Entdeckung entzogen, nachdem er seinen Auftrag in {1} erfolgreich ausgeführt hat.
 Character Mission Outcome Fail		;Unser Agent [CHARACTER]{0}[/CHARACTER] hat sich der Entdeckung entzogen, nachdem er bei {1} versagt hat.
@@ -4122,11 +4122,11 @@ Allow Capture Base		;Eroberung von Raumbasen erlauben
 Allow Internal Stabilization		;Interne Stabilisierung erlauben
 Allow Influence Empire Positively		;Positive Volks-Beeinflussung erlauben
 Allow Influence Empire Negatively		;Negative Volks-Beeinflussung erlauben
-Allow Create False Incident		;Allow Create False Incident
-Allow Control Faction Leader		;Allow Control Faction Leader
-Allow Defect Character		;Allow Defect Character
-Allow Destroy Facility		;Allow Destroy Facility
-Allow Infect Colony with Plague		;Allow Infect Colony with Plague
+Allow Create False Incident		;Erlaubt Falschen Vorfall Schaffen
+Allow Control Faction Leader		;Erlaubt Kontrolle des Fraktions-Anführers
+Allow Defect Character		;Erlaubt Überlaufen eines Charakters
+Allow Destroy Facility		;Erlaubt Zerstörung einer Einrichtung
+Allow Infect Colony with Plague		;Erlaubt Kolonie mit der Pest infizieren
 
 Intelligence Missions		;Geheimdiensteinsätze
 Characters		;Charaktere

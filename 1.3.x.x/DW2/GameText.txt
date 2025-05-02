@@ -442,16 +442,16 @@ GameTaskType SetFleetFormationCoherence		;Formation: {0}
 GameTaskType SetFleetAllowShipRoleReassignment			;Schiffsposition in der Flotte neu zuweisen: {0}
 GameTaskType SetFleetOverrideShipTacticsWithFleet		;Taktiken (Flotte oder Schiff) benutzen: {0}
 GameTaskType SetFleetAllowShipRoleUpgrade			;Schiffs-/Basenrolle umrüsten: {0}
-GameTaskType SetFleetAllowTrimmingExcessShips			;Unzweckmäßige Schiffe/ Raumbasen umrüsten: {0}
-GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Aufrüstung für spezifische Designs erlauben: {0}
+GameTaskType SetFleetAllowTrimmingExcessShips			;Überzählige Schiffe reduzieren: {0}
+GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Aufrüstung spez. Designs: {0}
 GameTaskType SetCapital		;{0} als neue Hauptwelt festlegen
 GameTaskType AbandonColony		;Gebt {0} auf, erlaubt die Unabhängigkeit
 GameTaskType AbandonColony Outpost		;Abandon {0}. Abandoning an Outpost will completely remove it. It will not become an independent colony
 GameTaskType UpgradeOutpostToColony		;Upgrade {0} from an Outpost to a full Colony for {1} credits
 GameTaskType SetColonyPopulationPolicy		;Bevölkerungs-Strategie für Kolonie festlegen
 GameTaskType SetDiplomaticStrategy		;Diplomatie-Strategie festlegen
-GameTaskType SetEngagementRange		;Einsatz- und Angriffsbereich: {0}
-GameTaskType SetEngagementRange Fleet		;Flotten - Einsatz- und Angriffsbereich: {0}
+GameTaskType SetEngagementRange		;Einsatzbereich: {0}
+GameTaskType SetEngagementRange Fleet		;Flotten-Einsatzbereich: {0}
 GameTaskType SetAttackTargetStagingPoint		;Set staging point for {0} to {1}
 GameTaskType ClearAttackTargetStagingPoint		;Clear staging point for {0} (current: {1})
 GameTaskType ClearFleetAttackPoint		;Clear attack point for {0} (current: {1})
@@ -4937,19 +4937,19 @@ Weapons Report		;Waffenbericht
 Suitable for RACE		;Geeignet für {0}
 
 Tactical Settings		;Taktische Einstellungen
-AttackRangeWeaker		;Angriffshaltung u. -Reichweite gegen schwache Ziele
-AttackRangeStronger		;Angriffshaltung u. -Reichweite gegen starke Ziele
+AttackRangeWeaker		;Haltung - Schwächere Ziele
+AttackRangeStronger		;Haltung - Stärkere Ziele
 FleetStance		;Angriffshaltung
 FleetFormationCoherence		;Formation
-EngagementRange		;Einsatz- und Angriffsbereich
-FleetEngagementRange		;Einsatz- und Angriffsbereich für Flotten
+EngagementRange		;Einsatzbereich
+FleetEngagementRange		;Flotten-Einsatzbereich
 FleetRetreatOverwhelmed		;Flotten-Rückzugsstrategie
 InvasionTactics		;Kolonien erobern
 ShipRetreatOptions		;Rückzug wenn
 ShipRoleInFleet		;Position innerhalb der Flotte
 FleetAllowShipRoleReassignment		;Positionswechsel zulassen
 Fleet Ships Tactical Overrides		;Taktische Priorisierungen für Flotten-Schiffe 
-FleetOverrideShipTacticsWithFleet		;Flottentaktik überschreibt Schiffstaktik
+FleetOverrideShipTacticsWithFleet		;Flottentaktik überschreibt Schiff
 
 Ctrl-Mouse-Scrollwheel		;Strg+ Maus-Scrollrad
 Only From Locations		;Nur von Standorten
@@ -4962,8 +4962,8 @@ Immediately show full project detail		;Sofortige Anzeige aller Projektdetails
 First show project summary, then full detail after brief pause		;Erst Projektübersicht anzeigen, dann nach kurzer Pause alle Details
 First show project summary, then full detail after longer pause		;Erst Projektübersicht anzeigen, dann nach längerer Pause alle Details
 
-FleetAllowShipRoleReassignment Automate		;Schiffe innerhalb der Flotte je nach Bedarf neu positionieren
-FleetAllowShipRoleReassignment Manual		;Schiffe behalten ihre aktuelle Position innerhalb der Flotte
+FleetAllowShipRoleReassignment Automate		;Schiffe bei Bedarf neu positionieren
+FleetAllowShipRoleReassignment Manual		;Schiffe behalten Position in der Flotte
 
 FleetAllowShipRoleUpgrade Automate		;Schiffs-Rollen in Flotten werden automatisch umgerüstet, um den Anforderungen und Zielen der gesamten Flotte zu entsprechen.
 FleetAllowShipRoleUpgrade Manual		;Schiffs-Rollen in Flotten werden nur manuell umgerüstet, um den Anforderungen der gesamten Flotte zu entsprechen.
@@ -5466,7 +5466,7 @@ FleetRetreatOverwhelmed Explanation		;Legt fest, wann sich die gesamte Flotte au
 FleetOverrideShipTacticsWithFleet Explanation		;Legt fest, ob die Schiffe einer Flotte ihre eigenen individuellen Taktiken verwenden oder stattdessen einen gemeinsamen Taktiksatz einer Flotte nutzen.
 
 ShipRoleInFleet Explanation		;Die 'Position innerhalb einer Flotte' gibt an, wie das Schiff innerhalb einer Flotte agiert.\n\n'Kern': Kernschiffe sind die wichtigsten Schiffe einer Flotte und werden von den anderen Flottenschiffen eskortiert (Geleitschutz und Wächter-Schiffe). Normalerweise hat eine Flotte nur ein oder zwei Kernschiffe\n'Geleitschutz': Diese Schiffe eskortieren die Kernschiffe in einem engen Verteidigungsperimeter. Wenn keine Feinde anwesend sind oder die Feinde von allen Seiten kommen, bilden sie einen kreisförmigen Verteidigungsbereich um die Kernschiffe. Wenn die feindlichen Kräfte überwiegend aus einer Richtung kommen, bilden sie eine bogenförmige Verteidigungsformation zwischen den Kernschiffen und den feindlichen Schiffen.\n'Wächter-Schiff': Diese Schiffe eskortieren die Kernschiffe in einem weiter entfernten Verteidigungsperimeter. Wenn keine Feinde anwesend sind oder die Feinde auf allen Seiten stehen, bilden sie einen kreisförmigen Verteidigungsring um die Kernschiffe. Wenn die feindlichen Kräfte überwiegend aus einer Richtung kommen, bilden sie eine bogenförmige Verteidigungsformation zwischen den Kernschiffen und den feindlichen Schiffen.
-EngagementRange Explanation		;Der Einsatz- und Angriffsbereich gibt an, wann ein Schiff feindliche Ziele angreift. \n\n'Nicht angreifen': Das Schiff greift nie an, wenn es angegriffen wird\n'Angreifen wenn angegriffen': Das Schiff greift Feinde nur an, wenn es direkt von diesen angegriffen wird\n'Nahe': Das Schiff greift nur feindliche Ziele an, die sich in der Nähe befinden\n'Gleicher Standort': Das Schiff greift feindliche Ziele an, die sich am gleichen Ort befinden (Planeten und Monde)\n'Gleiches System': Das Schiff greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n\nBitte beachtet, dass der Einsatz- und Angriffsbereich einer Flotte den Einsatz- und Angriffsbereich des Schiffes überschreibt, wenn das Schiff Teil einer Flotte ist. Mit anderen Worten, wenn ein Schiff Teil einer Flotte ist, verwendet es den Einsatz- und Angriffsbereich einer Flotte, anstelle seines eigenen Einsatz- und Angriffsbereichs.
+EngagementRange Explanation		;Der Einsatzbereich gibt an, wann ein Schiff feindliche Ziele angreift. \n\n'Nicht angreifen': Das Schiff greift nie an, wenn es angegriffen wird\n'Angreifen wenn angegriffen': Das Schiff greift Feinde nur an, wenn es direkt von diesen angegriffen wird\n'Nahe': Das Schiff greift nur feindliche Ziele an, die sich in der Nähe befinden\n'Gleicher Standort': Das Schiff greift feindliche Ziele an, die sich am gleichen Ort befinden (Planeten und Monde)\n'Gleiches System': Das Schiff greift feindliche Ziele an, die sich im gleichen Sternensystem befinden\n\nBitte beachtet, dass der Einsatzbereich einer Flotte den Einsatzbereich des Schiffes überschreibt, wenn das Schiff Teil einer Flotte ist. Mit anderen Worten, wenn ein Schiff Teil einer Flotte ist, verwendet es den Einsatzbereich einer Flotte, anstelle seines eigenen Einsatzbereichs.
 AttackRangeWeaker Explanation		;Hier wird festgelegt, wie ein Schiff ein Ziel angreift, das schwächer ist als es selbst, und wie es die optimale Entfernung bestimmt.\n\n'Ausweichen': Das Schiff wird versuchen, außerhalb der Waffenreichweite des feindlichen Ziels zu bleiben\n'Vorsichtig': Das Schiff wird einen Angriffsbereich wählen, der dem Feind etwas Schaden zufügt, während es den eigenen Schaden durch den Feind minimiert\n'Neutral': Das Schiff wird einen Angriffsbereich wählen, der dem Feind großen Schaden zufügt, während es übermäßigen eigenen Schaden durch den Feind versucht zu vermeiden\n'Aggressiv': Das Schiff wird einen Angriffsbereich wählen, der dem Feind maximalen Schaden zufügt, ohne dabei den eigenen Schaden durch den Feind zu berücksichtigen
 AttackRangeStronger Explanation		;Hier wird festgelegt, wie ein Schiff ein Ziel angreift, das stärker ist als es selbst, und wie es die optimale Entfernung bestimmt.\n\n'Ausweichen': Das Schiff wird versuchen, außerhalb der Waffenreichweite des feindlichen Ziels zu bleiben\n'Vorsichtig': Das Schiff wird einen Angriffsbereich wählen, der dem Feind etwas Schaden zufügt, während es den eigenen Schaden durch den Feind minimiert\n'Neutral': Das Schiff wird einen Angriffsbereich wählen, der dem Feind großen Schaden zufügt, während es übermäßigen eigenen Schaden durch den Feind vermeidet\n'Aggressiv': Das Schiff wird einen Angriffsbereich wählen, der dem Feind maximalen Schaden zufügt, ohne dabei den eigenen Schaden durch den Feind zu berücksichtigen
 ShipRetreatOptions Explanation		;Hier wird angegeben, wann ein Schiff von einem Schlachtfeld fliehen wird.\n\n'Feind im gleichen System': Das Schiff flieht beim ersten Anblick eines Feindes im selben Sternensystem\n'Feind am gleichen Standort': Das Schiff flieht beim ersten Anblick eines Feindes am gleichen Standort (Planet/Mond)\n'Feind in der Nähe': Das Schiff flieht, wenn ein Feind am gleichen Ort in der Nähe ist\n'Wenn angegriffen': Das Schiff flieht, wenn es direkt von einem Feind angegriffen wird\n'Schilde unter 50 % oder jeglicher Panzerungsschaden': Das Schiff flieht, wenn Schilde unter 50% fallen oder jegliche Panzerung beschädigt wurde\n'Schilde unter 20% oder Panzerung unter 50%': Das Schiff flieht, wenn Schilde unter 20% fallen oder Panzerung unter 50% fällt\n'Jegliche beschädigte Nicht-Verteidigungskomponente': Das Schiff flieht, wenn eine Nicht-Verteidigungskomponente beschädigt wird, d.h. andere Komponenten als Schilde oder Panzerung\n'20% beschädigte Nicht-Verteidigungskomponente': Das Schiff flieht, wenn 20% der Nicht-Verteidigungskomponente beschädigt sind\n'50% beschädigte Nicht-Verteidigungskomponente': Das Schiff flieht, wenn 50% der Nicht-Verteidigungskomponente beschädigt sind\n'Niemals': Das Schiff flieht niemals aus einer Schlacht

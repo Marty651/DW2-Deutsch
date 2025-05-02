@@ -441,9 +441,9 @@ GameTaskType SetArmyTemplate		;Armeevorlage: {0}
 GameTaskType SetFleetFormationCoherence		;Formation: {0}
 GameTaskType SetFleetAllowShipRoleReassignment			;Schiffsposition in der Flotte neu zuweisen: {0}
 GameTaskType SetFleetOverrideShipTacticsWithFleet		;Taktiken (Flotte oder Schiff) benutzen: {0}
-GameTaskType SetFleetAllowShipRoleUpgrade			;Schiffs-/Raumbasen-Rolle umrüsten: {0}
-GameTaskType SetFleetAllowTrimmingExcessShips			;Rüste nicht zweckmäßige Schiffe/Raumbasen um: {0}
-GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Flotten-Auto-Aufrüstung für spezifische Designs erlauben: {0}
+GameTaskType SetFleetAllowShipRoleUpgrade			;Schiffs-/Basenrolle umrüsten: {0}
+GameTaskType SetFleetAllowTrimmingExcessShips			;Unzweckmäßige Schiffe/ Raumbasen umrüsten: {0}
+GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Aufrüstung für spezifische Designs erlauben: {0}
 GameTaskType SetCapital		;{0} als neue Hauptwelt festlegen
 GameTaskType AbandonColony		;Gebt {0} auf, erlaubt die Unabhängigkeit
 GameTaskType AbandonColony Outpost		;Abandon {0}. Abandoning an Outpost will completely remove it. It will not become an independent colony
@@ -5608,7 +5608,7 @@ Currently researching		;Momentan in Forschung
 
 Retrofit Path		;Umrüst-Pfad
 Latest Design for Hull		;Neuestes Hüllen-Design
-Latest Design for Largest Hull for Role		;Neuestes Design für größte Hülle der gewählten Rolle
+Latest Design for Largest Hull for Role		;Neuestes Design für größte Hülle der Rolle
 View		;Ansehen
 Other Designs That Upgrade To This Design		;Andere Designvorlagen, die auf dieses Design umrüsten
 Upgrades To		;Dieses Design wird umgerüstet zu

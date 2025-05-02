@@ -284,7 +284,7 @@ Wir haben einige fragmentierte Kommunikationsprotokolle entdeckt, die uns eine V
 				<MessageTitle>Die Vergangenheit ist immer unbeständig</MessageTitle>
 				<Description>Wie wir befürchtet hatten, stürzte die Ruine durch unsere Suche in sich selbst ein. Unser Team konnte sicher evakuiert werden, und kein Wekkarus wurde verletzt.
 
-In der Andockbucht fanden wir [ENTDECKUNG]zwei funktionstüchtige Erkundungsschiffe[/EntDECKUNG]. Wir haben auch die fragmentierten Logbücher gefunden, die den [LOCATION]Standort eines Archivs[/LOCATION] angeben. Es könnte wichtige Informationen über die verlorenen Artefakte enthalten. Wir sollten das sofort untersuchen.</Description>
+In der Andockbucht fanden wir [DISCOVERY]zwei funktionstüchtige Erkundungsschiffe[/DISCOVERY]. Wir haben auch die fragmentierten Logbücher gefunden, die den [LOCATION]Standort eines Archivs[/LOCATION] angeben. Es könnte wichtige Informationen über die verlorenen Artefakte enthalten. Wir sollten das sofort untersuchen.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6616,7 +6616,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle>Reichtümer aus der Tiefe</MessageTitle>
-				<Description>Unser intuitives Gespür für unsere heimischen Tiefseewelten hat uns geholfen, eine neue Ressource in unserer Kolonie [LOCATION]{0}[/LOCATION] zu entdecken!\n\nWir haben eine neue Quelle von [RESSOURCENAME]RESSOURCE[/RESSOURCE] in {0} entdeckt.</Description>
+				<Description>Unser intuitives Gespür für unsere heimischen Tiefseewelten hat uns geholfen, eine neue Ressource in unserer Kolonie [LOCATION]{0}[/LOCATION] zu entdecken!\n\nWir haben eine neue Quelle von [RESOURCE]RESOURCENAME[/RESOURCE] bei {0} entdeckt.</Description>
 				<ImageFilepath>Environment/Events/riches from the deep</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6774,7 +6774,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere jüngste Unterzeichnung eines [GUT]Freihandelsabkommens[/GUT] mit der [FAKTION]{3}[/FRAKTION] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere jüngste Unterzeichnung eines [GOOD]Freihandelsabkommens[/GOOD] mit der [FACTION]{3}[/FACTION] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6850,7 +6850,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere kürzliche Unterzeichnung eines [GUT]Forschungsabkommens[/GUT] mit der [FAKTION]{3}[/FRAKTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere kürzliche Unterzeichnung eines [GOOD]Forschungsabkommens[/GOOD] mit der [FACTION]{3}[/FACTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6926,7 +6926,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere kürzliche Unterzeichnung eines [GUT]Verteidigungspaktes[/GUT] mit der [FAKTION]{3}[/FRAKTION] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere kürzliche Unterzeichnung eines [GOOD]Verteidigungspaktes[/GOOD] mit der [FACTION]{3}[/FACTION] hat eine starke Verbindung zu den psychischen Erinnerungen unserer Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu den [FACTION]{3}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7002,7 +7002,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere kürzliche Unterzeichnung eines [GUT]Freihandelsabkommens[/GUT] mit [FAKTION]{0}[/FASSUNG] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere kürzliche Unterzeichnung eines [GOOD]Freihandelsabkommens[/GOOD] mit [FACTION]{0}[/FASSUNG] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7078,7 +7078,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere kürzliche Unterzeichnung eines [GUT]Forschungsabkommens[/GUT] mit [FAKTION]{0}[/FACTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere kürzliche Unterzeichnung eines [GOOD]Forschungsabkommens[/GOOD] mit [FACTION]{0}[/FACTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7154,7 +7154,7 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Vorfahren unter uns</MessageTitle>
-				<Description>Unsere kürzliche Unterzeichnung eines [GUT]Verteidigungspaktes[/GUT] mit [FAKTION]{0}[/FACTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
+				<Description>Unsere kürzliche Unterzeichnung eines [GOOD]Verteidigungspaktes[/GOOD] mit [FACTION]{0}[/FACTION] hat eine starke Verbindung zu unseren übersinnlichen Erinnerungen der Vorfahren hergestellt.\n\nDiese Erinnerungen haben sich tatsächlich in unserer Dimension manifestiert und einen [HL]Wekkarus-Botschafter[/HL] aus längst vergangenen Zeiten vorübergehend erscheinen lassen!\n\nDer Botschafter konnte unsere Beziehungen zu [FACTION]{0}[/FACTION] weiter verbessern und ihre Einschätzung von uns steigern.\n\nDer Botschafter ist jetzt verschwunden, aber sein Eingreifen hat sicherlich geholfen!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

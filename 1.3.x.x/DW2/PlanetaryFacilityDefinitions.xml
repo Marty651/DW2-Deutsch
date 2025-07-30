@@ -2712,4 +2712,25 @@
 		<Name>Altes abgestürztes Schiff</Name>
 		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
 	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>138</PlanetaryFacilityDefinitionId> <!-- Glaciomatter Study Centre -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<BombardmentResistance>1</BombardmentResistance>
+		<GroundCombatResistance>1</GroundCombatResistance>
+		<Name>Gletscher-Studienzentrum</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Hexodorium Mine</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

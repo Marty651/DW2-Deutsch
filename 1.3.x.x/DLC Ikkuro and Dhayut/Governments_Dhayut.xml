@@ -5,7 +5,7 @@
 		<LeaderTitle>Oberster Inquisitor</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyTax -->
 				<float>1</float> <!-- ResourceTrading -->
 				<float>1</float> <!-- Fuel -->
@@ -21,7 +21,7 @@
 				<float>1</float> <!-- PrivateColonyRevenue -->
 			</IncomeFactors>
 			<ExpenseFactors>
-				<float>1</float> <!-- Undefined, i.e. Unused -->
+				<float>1</float> <!-- Unused -->
 				<float>1</float> <!-- ColonyDevelopment -->
 				<float>1</float> <!-- Research -->
 				<float>1</float> <!-- ShipMaintenance -->
@@ -76,6 +76,68 @@
 			<string>Tyrannei</string>
 			<string>Inquisition</string>
 		</EmpireNameNouns>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index> <!-- Republic -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index> <!-- Mercantile Guild -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index> <!-- Democracy -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index> <!-- Feudalism -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index> <!-- Monarchy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index> <!-- Military Dictatorship -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index> <!-- Technocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index> <!-- Hive Mind -->
+				<Factor>0.2</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index> <!-- Way of Darkness -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index> <!-- Way of the Ancients -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>10</Index> <!-- Path of the Ancients -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>11</Index> <!-- Harmonious Utopia -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>12</Index> <!-- Surveillance Oligarchy -->
+				<Factor>0.3</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>13</Index> <!-- Geniocracy -->
+				<Factor>-0.1</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>14</Index> <!-- Cell Hegemony -->
+				<Factor>0.1</Factor>
+			</IndexFactor>
+		</Biases>
 		<Bonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>

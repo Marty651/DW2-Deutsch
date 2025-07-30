@@ -34255,23 +34255,23 @@
 		<RepeatablePlanetaryFacilityValues>
 			<PlanetaryFacilityValues>
 				<PlanetaryFacilityDefinitionId>49</PlanetaryFacilityDefinitionId> <!-- Complete Terraforming Facility -->
-				<EmpireBonuses>
+				<ItemBonuses>
 					<Bonus>
 						<Type>ColonyPopulationGrowthRate</Type>
 						<Amount>0.05</Amount>
-						<AppliesTo>Empire</AppliesTo>
+						<AppliesTo>Item</AppliesTo>
 					</Bonus>
-				</EmpireBonuses>
+				</ItemBonuses>
 			</PlanetaryFacilityValues>
 			<PlanetaryFacilityValues>
 				<PlanetaryFacilityDefinitionId>93</PlanetaryFacilityDefinitionId> <!-- Complete Biome Shaping Facility -->
-				<EmpireBonuses>
+				<ItemBonuses>
 					<Bonus>
 						<Type>ColonyPopulationGrowthRate</Type>
 						<Amount>0.05</Amount>
-						<AppliesTo>Empire</AppliesTo>
+						<AppliesTo>Item</AppliesTo>
 					</Bonus>
-				</EmpireBonuses>
+				</ItemBonuses>
 			</PlanetaryFacilityValues>
 		</RepeatablePlanetaryFacilityValues>
 	</ResearchProjectDefinition>

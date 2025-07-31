@@ -29,11 +29,15 @@ Die beiden Reiche tauschen regelmäßig Gebietskarten aus, auf denen die Lage ih
 [H3]Migration[/H3]
 Die beiden Reiche vereinbaren, Migranten zwischen ihren Kolonien vom jeweils anderen Reich aufzunehmen.
 
+Für die Initiierung eines Migrationsvertrags ist es erforderlich, dass der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers entsendet.
+
 [H3]Erkundung[/H3]
 Die beiden Reiche vereinbaren, dass Forschungsschiffe auf dem Gebiet des jeweils anderen Reiches frei operieren dürfen.
 
 [H3]Bergbaurechte[/H3]
 Die beiden Reiche vereinbaren, den Bau von Bergbaustationen auf dem Territorium des jeweils anderen Reiches zu erlauben.
+
+Um Bergbaurechte zu erhalten, muss der Anbieter einen [WARN]Botschafter[/WARN] für das Kapital des Empfängers zuweisen.
 
 [H3]Gemeinsame Nutzung von Galaxienkarten[/H3]
 Die beiden Reiche tauschen regelmäßig Galaxiekarten aus und geben dabei alle ihre Erkundungsdaten preis.
@@ -41,19 +45,45 @@ Die beiden Reiche tauschen regelmäßig Galaxiekarten aus und geben dabei alle i
 [H3]Militärische Betankung[/H3]
 Die beiden Reiche vereinbaren, dass ihre Flotten und Militärschiffe in den Basen und Kolonien des jeweils anderen Reiches auftanken dürfen.
 
+Um eine militärische Betankung einzuleiten, muss der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers stationieren.
+
 [H3]Forschung[/H3]
 Die beiden Reiche vereinbaren, einen Teil ihrer Forschungsergebnisse zu teilen.
 
+Dies bedeutet, dass jedem Imperium bei der Erforschung von Projekten 10 % der Forschungsergebnisse des anderen Imperiums zu seinen eigenen Ergebnissen hinzugerechnet werden, wodurch sie schneller auf neue Technologien zugreifen können.
+
+Um einen Forschungsvertrag abzuschließen, muss der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers zuweisen.
+
 [H3]Austausch von Geheimdienstinformationen[/H3]
-Die beiden Reiche vereinbaren, Geheimdienstdaten miteinander zu teilen.
+Die beiden Imperien vereinbaren, Geheimdienstdaten miteinander zu teilen. Dies bedeutet, dass die Ergebnisse der folgenden Spionagemissionen mit dem anderen Imperium geteilt werden:
+[ULI]Gebietskarte stehlen[/ULI]
+[ULI]Galaxiekarte stehlen[/ULI]
+[ULI]Operationskarte stehlen[/ULI]
+
+Um den Informationsaustausch zu initiieren, muss der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers zuweisen.
 
 [H3]Verteidigung[/H3]
 Die beiden Reiche vereinbaren, sich gegenseitig zu verteidigen, falls ein anderes Reich einer der beiden Parteien den Krieg erklärt.
 
+Um einen Verteidigungsvertrag abzuschließen, muss der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers entsenden.
+
 [H3]Gemeinsame Nutzung der Operationskarte[/H3]
 Die beiden Reiche vereinbaren, den Standort aller ihrer Einheiten in der Galaxie zu teilen. Dies ermöglicht eine bessere gemeinsame Sichtbarkeit der feindlichen Einheiten und eine bessere Koordination.
+
+Um Operationen zum Teilen von Karten starten zu können, muss der Anbieter einen [WARN]Botschafter[/WARN] in der Hauptstadt des Empfängers zuweisen.
 
 [H3]Krieg[/H3]
 Offene Kriegsführung zwischen zwei Reichen. Erwarte opportunistische Angriffe auf abgelegene Bergbaustationen sowie koordinierte Angriffe auf deine Kolonien und Bodeninvasionen.
 
 Der Krieg dauert an, bis sich beide Seiten darauf einigen, ihn zu beenden. Reiche werden in der Regel zustimmen, einen Krieg zu beenden, wenn sie unter schweren Verlusten stehen. Es kann aber auch sein, dass die Bevölkerung eines Reiches eines langen Krieges überdrüssig wird und ein Ende der Kämpfe erzwingt.
+
+[H3]Unterworfener Vasall[/H3]
+Wenn ein Krieg mit einem entscheidenden Sieg endet, kann der Sieger verlangen, dass der Verlierer sein unterworfener Vasall wird. Alternativ kann der Verlierer anbieten, ein Vasall des Gewinners zu werden.
+
+Unterworfene Vasallen zahlen monatlich Tribut an ihr Mutterreich. Ihnen ist außerdem jegliche unabhängige Diplomatie untersagt. Sie können daher keine Verträge mit anderen Fraktionen schließen.
+
+Wenn ein Imperium zum Vasallen wird, schließt es automatisch auch die folgenden Vertragsarten ein: Nichtangriff, Freihandel, gemeinsame Nutzung der Galaxiekarte, militärische Betankung, Verteidigung.
+
+Wenn ein Vasall riskante Aktionen unternimmt, die zu einem Krieg führen könnten (Angriff auf ein anderes Reich, Geheimdienstmissionen gegen ein anderes Reich), erzürnt er sein Mutterreich und seine Tributzahlungen können steigen.
+
+Die einzige Möglichkeit für einen Vasallen, sich von seinem Elternteil zu befreien, besteht darin, diesem den Krieg zu erklären.

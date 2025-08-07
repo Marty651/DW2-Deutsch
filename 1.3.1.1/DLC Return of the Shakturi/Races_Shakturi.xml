@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Race>
+		<RaceId>20</RaceId> <!-- Shakturi -->
+		<BundleName>Shakturi</BundleName>
+		<FlagFilename>UserInterface/Flags/Shakturi_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Shakturi_2</string>
+			<string>UserInterface/Flags/Shakturi_3</string>
+			<string>UserInterface/Flags/Shakturi_4</string>
+			<string>UserInterface/Flags/Shakturi_5</string>
+			<string>UserInterface/Flags/Shakturi_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.08</ReproductionRate>
+		<AssimilationRate>0.2</AssimilationRate>
+		<Aggression>1.8</Aggression>
+		<Caution>0.5</Caution>
+		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<PreferredGovernmentIds>
+			<short>8</short> <!-- Way of Darkness -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>8</short> <!-- Way of Darkness -->
+			<short>15</short> <!-- N/A -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.8</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsychicEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsychicSabotage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>-0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.35</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<PreferredWeaponComponentIds>
+			<short>24</short> <!-- Firestorm Torpedo [Ftr] -->
+			<short>161</short> <!-- Firestorm Torpedo [L] -->
+			<short>235</short> <!-- Firestorm Torpedo [S] -->
+			<short>393</short> <!-- Inferno Torpedo [Ftr] -->
+			<short>394</short> <!-- Inferno Torpedo [S] -->
+			<short>395</short> <!-- Inferno Torpedo [M] -->
+			<short>396</short> <!-- Inferno Torpedo [L] -->
+		</PreferredWeaponComponentIds>
+		<PsychicResistance>0.9</PsychicResistance>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.9</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Kandakret</string>
+			<string>Agarasu</string>
+			<string>Zhetik</string>
+			<string>Mulkaz</string>
+			<string>Jareltoz</string>
+			<string>Sezpo</string>
+			<string>Lazzerul</string>
+			<string>Groshak</string>
+			<string>Bortezzhu</string>
+			<string>Daletur</string>
+			<string>Shaktol</string>
+			<string>Sharudiz</string>
+			<string>Klotep</string>
+			<string>Zharantur</string>
+			<string>Xekkutur</string>
+			<string>Tobintu</string>
+			<string>Blundakari</string>
+			<string>Hekshan</string>
+			<string>Qerindut</string>
+			<string>Dezzhandi</string>
+			<string>Nesagri</string>
+			<string>Terayandos</string>
+			<string>Pattarez</string>
+			<string>Rakazhet</string>
+			<string>Murgastek</string>
+			<string>Ottoran</string>
+			<string>Veskuta</string>
+			<string>Feshtak</string>
+			<string>Jartazak</string>
+			<string>Huzzantaga</string>
+			<string>Tikba</string>
+			<string>Skarzek</string>
+			<string>Laxindak</string>
+			<string>Ukkutar</string>
+			<string>Ruktar</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>MostHomeworlds</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Grotek</string>
+			<string>Sjandar</string>
+			<string>Urzi</string>
+			<string>Pergat</string>
+			<string>Bosta</string>
+			<string>Kartik</string>
+			<string>Zhentok</string>
+			<string>Ekkat</string>
+			<string>Litoz</string>
+			<string>Akshi</string>
+			<string>Khoravvi</string>
+			<string>Feksha</string>
+			<string>Ottun</string>
+			<string>Mekri</string>
+			<string>Jukol</string>
+			<string>Sareku</string>
+			<string>Zikula</string>
+			<string>Gerrik</string>
+			<string>Dakru</string>
+			<string>Nikkux</string>
+			<string>Roppat</string>
+			<string>Tukal</string>
+			<string>Sirkaz</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Tokret</string>
+			<string>Jaratek</string>
+			<string>Shuktar</string>
+			<string>Shuztak</string>
+			<string>Zhakaruz</string>
+			<string>Kobarrek</string>
+			<string>Medukaret</string>
+			<string>Ozzhari</string>
+			<string>Tamzuk</string>
+			<string>Dularri</string>
+			<string>Wukontu</string>
+			<string>Azgard</string>
+			<string>Bhruket</string>
+			<string>Xippita</string>
+			<string>Yugaret</string>
+			<string>Rissinda</string>
+			<string>Korgash</string>
+			<string>Gantura</string>
+			<string>Gaktesh</string>
+			<string>Skusirrit</string>
+			<string>Prozheg</string>
+			<string>Lukitri</string>
+			<string>Norzhaka</string>
+			<string>Okutar</string>
+			<string>Ukrisbek</string>
+			<string>Masmekra</string>
+		</CharacterLastNames>
+		<PsychicEnergyGeneration>10000</PsychicEnergyGeneration>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>54</DefaultInfantryId> <!-- Slayer Swarm -->
+		<Name>Shakturi</Name>
+		<Description>Die Shakturi sind eine ausgestorbene Ethnie von insektoiden Außerirdischen, die vor langer Zeit die Galaxie bewohnt haben sollen.
+
+In vielen alten Mythen und Legenden werden die Shakturi als furchterregende Invasoren aus einer anderen, weit entfernten Galaxie beschrieben. Sie waren gerissene und gnadenlose Angreifer, die erfolgreich den größten Teil der Galaxie eroberten. Doch als sie kurz vor dem totalen Sieg standen, verschwanden sie plötzlich spurlos.
+
+Zumindest besagen das die alten Geschichten. Andere behaupten, die Shakturi hätten nie wirklich existiert, sondern seien eine Erfindung, um alle insektoiden Ethnien als grausam und böse zu verleumden.</Description>
+		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
+	</Race>
+</ArrayOfRace>

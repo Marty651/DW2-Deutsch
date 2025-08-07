@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>65</ArtifactId> <!-- Cenotaph of the First Generation -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Kenotaph der ersten Generation</Name>
+		<Description>Ein Steinrechteck, das ungefähr so groß ist wie ein erwachsener Wekkarus. Die königlichen Verzierungen des alten Wekkarus halten das Monument aufrecht und betonen die Gravuren des Steins. Obwohl er ziemlich schwer ist, ist am Sockel des Kenotaphs eine uralte Vorrichtung zur Verringerung der Schwerkraft angebracht, die den Transport erleichtert. Viele, die sich in der Nähe dieses Artefakts aufhalten, berichten von einem Gefühl der Kompetenz und Sicherheit.</Description>
+		<ImageFilename>Artifacts/cenotaph of the first generation</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>66</ArtifactId> <!-- Airship of the Ancestors -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Luftschiff der Ahnen</Name>
+		<Description>Ein Tischmodell eines alten Wekkarus-Fahrzeugs, das Abenteurer benutzten, um die Heimatwelt der Wekkarus jenseits der Ozeane zu erkunden. Es ist aus einem unbekannten Metall gefertigt und hat eine dunkelblaue Farbe, die jedoch bei bestimmten Lichtverhältnissen mit hellblauen Inschriften marmoriert ist, wodurch der Eindruck einer Meeresoberfläche entsteht.</Description>
+		<ImageFilename>Artifacts/airship of the ancestors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>67</ArtifactId> <!-- Orb of Ancestral Strength -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Reichsapfel der Stärke der Vorfahren</Name>
+		<Description>Dies ist eine Metallkugel, die klein genug ist, um sie zu halten. Das Klopfen darauf deutet darauf hin, dass sie hohl ist, aber die Kugel ist dennoch seltsam schwer. Alle, die sie in der Hand halten, berichten, dass sie mentale Bilder von Bodenkämpfen sehen. Es handelt sich dabei eher um starke Eindrücke als um vollständige Halluzinationen.</Description>
+		<ImageFilename>Artifacts/orb of ancestral strength</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>68</ArtifactId> <!-- The Devastator Compendium -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>245</short> <!-- Super Area Blast -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>8</RaceId>
+		<Name>Das Devastator Kompendium</Name>
+		<Description></Description>
+		<ImageFilename>Artifacts/Devastator Compendium</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

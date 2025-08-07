@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Race>
+		<RaceId>5</RaceId> <!-- Ikkuro -->
+		<BundleName>Ikkuro</BundleName>
+		<FlagFilename>UserInterface/Flags/Ikkuro_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Ikkuro_2</string>
+			<string>UserInterface/Flags/Ikkuro_3</string>
+			<string>UserInterface/Flags/Ikkuro_4</string>
+			<string>UserInterface/Flags/Ikkuro_5</string>
+			<string>UserInterface/Flags/Ikkuro_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>21</R>
+			<G>80</G>
+			<B>21</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>28</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<MigrationFactor>1.1</MigrationFactor>
+		<Aggression>0.8</Aggression>
+		<Caution>1.11</Caution>
+		<Dependability>1.5</Dependability>
+		<ImportanceOfOthersReputations>0.96</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>11</short> <!-- Harmonious Utopia -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>11</short> <!-- Harmonious Utopia -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>DamageControl</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueContainment</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.16</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<StartingResearchProjectIds>
+			<short>0</short> <!-- Early Beam Weapons -->
+			<short>2</short> <!-- Early Area Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>407</short> <!-- Basic Colonization -->
+		</StartingResearchProjectIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Bordeaux</string>
+			<string>Bayeux</string>
+			<string>Nazaire</string>
+			<string>Lyon</string>
+			<string>Monaco</string>
+			<string>Montpellier</string>
+			<string>Avignon</string>
+			<string>Strasbourg</string>
+			<string>Douai</string>
+			<string>Besancon</string>
+			<string>Montauban</string>
+			<string>Bayonne</string>
+			<string>Carcassonne</string>
+			<string>Narbonne</string>
+			<string>Bergerac</string>
+			<string>Chateauroux</string>
+			<string>Vendome</string>
+			<string>Valence</string>
+			<string>Cavaillon</string>
+			<string>Carpentras</string>
+			<string>Dijon</string>
+			<string>Beauvais</string>
+			<string>Calais</string>
+			<string>Versailles</string>
+			<string>Chartres</string>
+			<string>Chaumont</string>
+			<string>Massif</string>
+			<string>Anjou</string>
+			<string>Artois</string>
+			<string>Picardie</string>
+			<string>Rochefort</string>
+			<string>Auxerre</string>
+			<string>Montargis</string>
+			<string>Cherbourg</string>
+			<string>Verdun</string>
+			<string>Dunkerque</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>LoseFewestShips</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ControlLargestColoniesByType</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>17</Id> <!-- Forest -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostSpaceports</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>FreeTradeAgreementsFormedProportionAllEmpires</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0.3</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>BuildFacility</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>31</Id> <!-- Koloros Medical Academy -->
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Gokut</string>
+			<string>Chandoor</string>
+			<string>Tokros</string>
+			<string>Wosant</string>
+			<string>Meegor</string>
+			<string>Kolisant</string>
+			<string>Esati</string>
+			<string>Quakku</string>
+			<string>Jundal</string>
+			<string>Putor</string>
+			<string>Borros</string>
+			<string>Dunal</string>
+			<string>Harrik</string>
+			<string>Lasdun</string>
+			<string>Astagar</string>
+			<string>Chupol</string>
+			<string>Okkian</string>
+			<string>Sando</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Baccasta</string>
+			<string>Yerod</string>
+			<string>Hodol</string>
+			<string>Ikkul</string>
+			<string>Hadar</string>
+			<string>Kurin</string>
+			<string>Lopeer</string>
+			<string>Zunod</string>
+			<string>Yafoos</string>
+			<string>Mechu</string>
+			<string>Rookil</string>
+			<string>Neesilon</string>
+			<string>Vutan</string>
+			<string>Durian</string>
+			<string>Wookos</string>
+			<string>Pakul</string>
+			<string>Caradas</string>
+			<string>Gokub</string>
+		</CharacterLastNames>
+		<TreatyLevelModifier>5</TreatyLevelModifier>
+		<TreatyLongTermTrustModifierThis>2</TreatyLongTermTrustModifierThis>
+		<TreatyLongTermTrustModifierOther>2</TreatyLongTermTrustModifierOther>
+		<BombardWorldColonyEventDefinitionId>54</BombardWorldColonyEventDefinitionId> <!-- Respect for Life -->
+		<DestroyWorldColonyEventDefinitionId>54</DestroyWorldColonyEventDefinitionId> <!-- Respect for Life -->
+		<ExterminationPolicyColonyEventDefinitionId>54</ExterminationPolicyColonyEventDefinitionId> <!-- Respect for Life -->
+		<ColonizationNewOrbTypeColonyEventDefinitionId>55</ColonizationNewOrbTypeColonyEventDefinitionId> <!-- Secrets of Life -->
+		<ColonizationNewOrbTypeIds>
+			<unsignedByte>7</unsignedByte> <!-- Continental -->
+			<unsignedByte>17</unsignedByte> <!-- Forest -->
+			<unsignedByte>18</unsignedByte> <!-- Grasslands -->
+			<unsignedByte>23</unsignedByte> <!-- Deep Ocean -->
+			<unsignedByte>9</unsignedByte> <!-- Ocean -->
+			<unsignedByte>27</unsignedByte> <!-- Mangrove Forest -->
+			<unsignedByte>8</unsignedByte> <!-- Marshy Swamp -->
+			<unsignedByte>10</unsignedByte> <!-- Sandy Desert -->
+			<unsignedByte>19</unsignedByte> <!-- Rocky Desert -->
+			<unsignedByte>20</unsignedByte> <!-- Desert Savanna -->
+			<unsignedByte>11</unsignedByte> <!-- Ice -->
+			<unsignedByte>22</unsignedByte> <!-- Frozen Ice -->
+			<unsignedByte>21</unsignedByte> <!-- Ice Tundra -->
+			<unsignedByte>12</unsignedByte> <!-- Volcanic -->
+			<unsignedByte>29</unsignedByte> <!-- Carbonaceous -->
+			<unsignedByte>30</unsignedByte> <!-- Sulphur Volcanic -->
+		</ColonizationNewOrbTypeIds>
+		<ColonizationNewOrbTypeGameEventNames>
+			<string>Colonise New Continental World (Ikkuro)</string>
+			<string>Colonise New Forest World (Ikkuro)</string>
+			<string>Colonise New Grasslands World (Ikkuro)</string>
+			<string>Colonise New Deep Ocean World (Ikkuro)</string>
+			<string>Colonise New Ocean World (Ikkuro)</string>
+			<string>Colonise New Mangrove Forest World (Ikkuro)</string>
+			<string>Colonise New Marshy Swamp World (Ikkuro)</string>
+			<string>Colonise New Sandy Desert World (Ikkuro)</string>
+			<string>Colonise New Rocky Desert World (Ikkuro)</string>
+			<string>Colonise New Desert Savanna World (Ikkuro)</string>
+			<string>Colonise New Ice World (Ikkuro)</string>
+			<string>Colonise New Frozen Ice World (Ikkuro)</string>
+			<string>Colonise New Ice Tundra World (Ikkuro)</string>
+			<string>Colonise New Volcanic World (Ikkuro)</string>
+			<string>Colonise New Carbonaceous World (Ikkuro)</string>
+			<string>Colonise New Sulphur Volcanic World (Ikkuro)</string>
+		</ColonizationNewOrbTypeGameEventNames>
+		<FirstNonAggressionPerFactionColonyEventDefinitionId>56</FirstNonAggressionPerFactionColonyEventDefinitionId> <!-- Protection of Life -->
+		<FirstDefenseTreatyPerFactionColonyEventDefinitionId>56</FirstDefenseTreatyPerFactionColonyEventDefinitionId> <!-- Protection of Life -->
+		<WarStartedByUsColonyEventDefinitionId>57</WarStartedByUsColonyEventDefinitionId> <!-- Disharmony -->
+		<WarStartedByOtherColonyEventDefinitionId>57</WarStartedByOtherColonyEventDefinitionId> <!-- Disharmony -->
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>ProtectorOfLife</CharacterTraitType>
+			<CharacterTraitType>HarvesterOfLife</CharacterTraitType>
+			<CharacterTraitType>KeeperOfHarmony</CharacterTraitType>
+			<CharacterTraitType>BondMaker</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<FeatureExplanations>
+			<string>[HL]Konsensdiplomatie:[/HL] +5 Schwelle für die Unterzeichnung neuer Verträge, +2 Langfristiger Vertrauensgewinn (beide Imperien) für alle Verträge mit Ikkuro</string>
+			<string>[HL]Respekt vor dem Leben:[/HL] -10 Zufriedenheit, wenn Ihr eine Welt bombardiert oder zerstört oder Ausrottung als Bevölkerungspolitik für eine Kolonie wählen</string>
+			<string>[HL]Geheimnisse des Lebens:[/HL] +10 Zufriedenheit und +10% Bevölkerungs-Wachstumsrate für alle Kolonien für ein Jahr, wenn Ihr zum ersten Mal eine neue Art von Welt kolonisiert. Ermöglicht auch neue Forschungsprojekte, um die Eignung für den neuen Welttyp weiter zu verbessern</string>
+			<string>[HL]Schutz des Lebens:[/HL] +5 Zufriedenheit für alle Kolonien für ein Jahr, wenn sie einen neuen Nichtangriffs- oder Verteidigungsvertrag mit einer anderen Fraktion unterzeichnen</string>
+			<string>[HL]Disharmonie:[/HL] -10 Zufriedenheit für ein Jahr, wenn der Krieg zwischen Ikkuro und einer anderen Fraktion ausbricht</string>
+		</FeatureExplanations>
+		<DefaultInfantryId>37</DefaultInfantryId> <!-- Sentinel Force -->
+		<Name>Ikkuro</Name>
+		<Description>\nIkkuro sind große, muskulöse Primaten mit kurzem braun-rotem Fell.
+
+Sie haben sehr große, weit auseinander liegende Ohren, die es ihnen ermöglichen, den Ort von Geräuschen genau zu bestimmen. Diese Fähigkeit verleiht ihnen rudimentäre Sonar-Fähigkeiten, die es ihnen erlauben, in der Dunkelheit zu 'sehen'.
+
+Ikkuro neigen dazu, intelligent und aggressiv zu sein, obwohl sie sehr vorsichtig sind. Ikkuro sind oft jähzornig. Wenn sie provoziert oder bedroht werden, können sie schnell gewalttätig werden. Trotzdem sind sie im Allgemeinen sanft und liebevoll zu denen, die sie gut kennen.
+
+Sie sind äußerst fähige Mechaniker. Ikkuro können fast alle Arten von Maschinen reparieren. Sie sind auch in der Lage, neue Geräte, auf die sie stoßen, nachzubauen. Tatsächlich verbessern sie oft die Maschine, wenn sie sie wieder zusammenbauen.
+
+Diese natürliche mechanische Veranlagung hat die Ikkuro auch dazu veranlasst, den S2F7 Reparatur Bot zu entwickeln, einen fortschrittlichen Reparaturroboter, der Schäden an Raumschiffen schnell beheben kann, sogar während sie im Kampf sind.
+
+Ikkuro haben eine große Faszination für Bäume und Pflanzen und verfügen über ein umfangreiches Wissen über die verschiedenen Arten der Flora in der gesamten Galaxie. Sie nutzen dieses Expertenwissen, um eine Reihe von hochwirksamen Kräutermedikamenten herzustellen.
+
+Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Sumpfland-, oder Savannen-Wüsten-Planeten. Sie können aber auch auf Kontinental-,  Grasland-, Mangoven-Wald- oder Ozean-Planeten gefunden werden und sogar auf Eis-Tundra-Planeten wurden sie bereits vereinzelt gesichtet.</Description>
+		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
+	</Race>
+</ArrayOfRace>

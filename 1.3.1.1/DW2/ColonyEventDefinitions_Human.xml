@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>74</ColonyEventDefinitionId> <!-- Internal Debates -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Interne Debatten</Name>
+		<Description>Unsere jüngste Unterzeichnung eines Verteidigungsvertrags hat in unserer Bevölkerung Besorgnis ausgelöst und Debatten dafür und dagegen ausgelöst. Dies hat die Zufriedenheit in unserem gesamten Reich verringert.</Description>
+		<ImageFilename>Environment/Events/Internal Debates</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>75</ColonyEventDefinitionId> <!-- Heightened Security -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Erhöhte Sicherheit</Name>
+		<Description>Die Spionageabwehr hat sich verbessert, aber die Zufriedenheit hat sich nach den jüngsten Bemühungen zur Verbesserung der inneren Sicherheit nach dem Erfolg einer ausländischen Geheimdienstmission gegen uns verschlechtert.</Description>
+		<ImageFilename>Environment/Events/Heightened Security</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

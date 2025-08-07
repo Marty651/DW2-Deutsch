@@ -351,7 +351,7 @@ GameTaskType CancelQueueAttackTarget Blockade		;Widerrufe Blockade von {0}
 GameTaskType CancelQueueAttackTarget		;Widerrufe Angriff gegen {0}
 
 GameTaskType AssignQuest		;Akzeptiere Kriegsmission: {0}
-GameTaskType AssignQuest Contract		;Accept Contract: {0}
+GameTaskType AssignQuest Contract		;Akzeptiere Vertrag: {0}
 
 GameTaskType QueueClearDangerousLocation		;Reihenfolge für Untersuchung gefährlicher Orte bei {0} festlegen
 GameTaskType CancelQueueClearDangerousLocation		;Untersuchung gefährlicher Orte bei {0} abbrechen
@@ -379,10 +379,10 @@ GameTaskType DiplomaticDeclareWar		;Erklärt den Krieg gegen {0}
 GameTaskType DiplomaticGift		;Gebt {0} Credits an {1}
 GameTaskType DiplomaticTreatyOffer		;Bietet {0} für {1}
 GameTaskType DiplomaticTreatyOffer ResourceSupply		;Bietet Liefervertrag von {0} für {1}
-GameTaskType AllianceVote		;{0} votes on {1} {2}
-GameTaskType AllianceJoin		;{0} invites {1} to join
-GameTaskType AllianceEndWar		;{0} offers to end war with {1}
-GameTaskType EndWarWithAlliance		;{0} offers to end war with {1}
+GameTaskType AllianceVote		;{0} wählt {1} {2}
+GameTaskType AllianceJoin		;{0} lädt {1} ein beizutreten
+GameTaskType AllianceEndWar		;{0} bietet an, den Krieg mit {1} zu beenden
+GameTaskType EndWarWithAlliance		;{0} bietet an, den Krieg mit {1} zu beenden
 GameTaskType DisbandFleet		;Flotte auflösen ({0})
 GameTaskType DisbandTroop		;Truppeneinheit auflösen ({0})
 GameTaskType DisbandTroop Multiple		;Truppen auflösen
@@ -411,7 +411,7 @@ GameTaskType LeaveFleet		;Flotte verlassen ({0})
 GameTaskType OrderResource		;Resouce anfordern
 GameTaskType PerformExpense		;Kosten anzeigen
 GameTaskType PerformIncome		;Einkommen anzeigen
-GameTaskType EliminatePirateInfluence		;Eliminate Pirate Influence at {0}
+GameTaskType EliminatePirateInfluence		;Beseitigt Pirateneinfluss bei {0}
 GameTaskType RecruitTroops Maintenance		;Rekrutiert {0} ({1}) bei {2} für {3} (Unterhalt: {4} Credits)
 GameTaskType RecruitTroops Maintenance Cloned		;Klont {0} ({1}) bei {2} für {3} (Unterhalt: {4} Credits)
 GameTaskType RecruitTroops		;Rekrutiert {0} ({1}) bei {2} für {3}
@@ -450,15 +450,15 @@ GameTaskType SetFleetAllowTrimmingExcessShips			;Überzählige Schiffe reduziere
 GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Aufrüstung spez. Designs: {0}
 GameTaskType SetCapital		;{0} als neue Hauptwelt festlegen
 GameTaskType AbandonColony		;Gebt {0} auf, erlaubt die Unabhängigkeit
-GameTaskType AbandonColony Outpost		;Abandon {0}. Abandoning an Outpost will completely remove it. It will not become an independent colony
-GameTaskType UpgradeOutpostToColony		;Upgrade {0} from an Outpost to a full Colony for {1} credits
+GameTaskType AbandonColony Outpost		;Gebt {0} auf. Das Aufgeben eines Außenpostens führt zu dessen völliger Zerstörung. Er wird nicht zu einer unabhängigen Kolonie.
+GameTaskType UpgradeOutpostToColony		;Rüste {0} von einem Außenposten zu einer vollen Kolonie auf für {1} Credits
 GameTaskType SetColonyPopulationPolicy		;Bevölkerungs-Strategie für Kolonie festlegen
 GameTaskType SetDiplomaticStrategy		;Diplomatie-Strategie festlegen
 GameTaskType SetEngagementRange		;Einsatzbereich: {0}
 GameTaskType SetEngagementRange Fleet		;Flotten-Einsatzbereich: {0}
-GameTaskType SetAttackTargetStagingPoint		;Set staging point for {0} to {1}
-GameTaskType ClearAttackTargetStagingPoint		;Clear staging point for {0} (current: {1})
-GameTaskType ClearFleetAttackPoint		;Clear attack point for {0} (current: {1})
+GameTaskType SetAttackTargetStagingPoint		;Setze Zwischenpunkt für {0} auf {1}
+GameTaskType ClearAttackTargetStagingPoint		;Lösche Zwischenpunkt für {0} (momentan: {1})
+GameTaskType ClearFleetAttackPoint		;Lösche Angriffspunkt für {0} (momentan: {1})
 GameTaskType SetFleetAttackPoint		;Angriffspunkt für {0} auf {1} setzen
 GameTaskType SetFleetHomeBase		;Heimatbasis für {0} auf {1} setzen
 GameTaskType SetFleetRetreatOverwhelmed		;Rückzug der Flotte wenn: {0}
@@ -488,7 +488,7 @@ GameTaskType UI_NextTasks		;Nächstes
 GameTaskType UI_PreviousTasks		;Vorheriges
 GameTaskType UI_ShowCharacterMissionOptions		;Charakter Missionen
 GameTaskType UI_ShowTacticsOptions		;Taktiken festlegen
-GameTaskType UI_QuestContractScreen		;Create new Contract for this location
+GameTaskType UI_QuestContractScreen		;Neuen Vertrag für diesen Standort erstellen
 GameTaskType UI_ShowColonyAutomationOptions		;Kolonie Automatisierung festlegen
 GameTaskType UI_ColonyDetailScreen		;Kolonie Detailansicht anzeigen
 GameTaskType UI_ShowTroopOptions		;Truppen verwalten
@@ -510,24 +510,24 @@ GameTaskType Short CancelQueueBase		;Konstruktion von Raumbasis abbrechen
 GameTaskType Short CancelQueueRepairInvestigate		;Reparatur und Untersuchung abbrechen
 GameTaskType Short CancelQueueColonize		;Kolonisierung abbrechen
 GameTaskType Short CancelQueueEstablishOutpost		;Errichtung von Außenposten abbrechen
-GameTaskType Short QueuePirateInfluence		;Queue Pirate Influence at {0}
-GameTaskType Short CancelQueuePirateInfluence		;Cancel Pirate Influence
+GameTaskType Short QueuePirateInfluence		;Reihe Pirateneinfluss bei {0} ein
+GameTaskType Short CancelQueuePirateInfluence		;Pirateneinfluss abbrechen
 
 GameTaskType Short QueueAttackTarget		;Angriffsreihenfolge festlegen 
-GameTaskType Short QueueAttackTarget Attack		;Queue Attack
-GameTaskType Short QueueAttackTarget Invade		;Queue Invasion
-GameTaskType Short QueueAttackTarget Bombard		;Queue Bombardment
-GameTaskType Short QueueAttackTarget Capture		;Queue Capture
-GameTaskType Short QueueAttackTarget Raid		;Queue Raid
-GameTaskType Short QueueAttackTarget Blockade		;Queue Blockade
-GameTaskType Short QueueAttackTarget GatherPoint		;Set Attack Gather Point
+GameTaskType Short QueueAttackTarget Attack		;Angriff einreihen
+GameTaskType Short QueueAttackTarget Invade		;Invasion einreihen
+GameTaskType Short QueueAttackTarget Bombard		;Bombardierung einreihen
+GameTaskType Short QueueAttackTarget Capture		;Eroberung einreihen
+GameTaskType Short QueueAttackTarget Raid		;Überfall einreihen
+GameTaskType Short QueueAttackTarget Blockade		;Blockade einreihen
+GameTaskType Short QueueAttackTarget GatherPoint		;Angriffssammelpunkt festlegen
 GameTaskType Short CancelQueueAttackTarget		;Angriff abbrechen
 GameTaskType Short AssignQuest		;Kriegsmission annehmen: {0}
-GameTaskType Short AssignQuest Contract		;Accept Contract: {0}
-GameTaskType Short CancelContract		;Cancel Contract
-GameTaskType Short BidOnContract		;Offer Bid of {0} credits
-GameTaskType Short BidOnContract Opening		;Offer opening Bid of {0} credits
-GameTaskType Short AcceptQuest		;Accept Contract
+GameTaskType Short AssignQuest Contract		;Vertrag akzeptieren: {0}
+GameTaskType Short CancelContract		;Vertrag kündigen
+GameTaskType Short BidOnContract		;Gebot von {0} Credits abgeben
+GameTaskType Short BidOnContract Opening		;Eröffnungsgebot von {0} Credits abgeben
+GameTaskType Short AcceptQuest		;Vertrag akzeptieren
 GameTaskType Short QueueClearDangerousLocation		;Reihenfolge für gefährliche Orte festlegen
 GameTaskType Short CancelQueueClearDangerousLocation		;Reihenfolge für gefährliche Orte verwerfen
 GameTaskType Short BuildPlanetaryFacility		;Baut {0}
@@ -545,10 +545,10 @@ GameTaskType Short DiplomaticGift Offer		;Geschenk anbieten
 GameTaskType Short DiplomaticTreatyOffer		;Abkommen annehmen
 GameTaskType Short DiplomaticTreatyOffer Offer		;Abkommen anbieten
 GameTaskType Short DiplomaticTreatyOffer ResourceSupply		;Versorgungsvertrag anbieten
-GameTaskType Short AllianceVote		;Alliance Vote
+GameTaskType Short AllianceVote		;Allianzabstimmung
 GameTaskType Short AllianceJoin		;Allianz beitreten
-GameTaskType Short AllianceEndWar		;End Alliance War
-GameTaskType Short EndWarWithAlliance		;End War With Alliance
+GameTaskType Short AllianceEndWar		;Allianzkrieg beenden
+GameTaskType Short EndWarWithAlliance		;Krieg mit Allianz beenden
 GameTaskType Short DisbandFleet		;Flotte auflösen
 GameTaskType Short DisbandTroop		;Truppe auflösen
 GameTaskType Short DisbandTroop Multiple		;Truppe auflösen
@@ -577,7 +577,7 @@ GameTaskType Short OrderResource		;Ressourcen bestellen
 GameTaskType Short PerformExpense		;Ausgaben
 GameTaskType Short PerformIncome		;Einkommen
 GameTaskType Short RecruitTroops		;Rekrutiert Truppen
-GameTaskType Short EliminatePirateInfluence		;Eliminate Pirate Influence
+GameTaskType Short EliminatePirateInfluence		;Pirateneinfluss eliminieren
 GameTaskType Short RefuelAndRepair		;Betankt und repariert
 GameTaskType Short RefuelAndRepair Location		;Betankt und repariert
 GameTaskType Short RemoveCharacter		;Charakter entfernen
@@ -637,7 +637,7 @@ GameTaskType Short UpgradePlanetaryFacility		;Rüstet {0} um
 GameTaskType Short UI_LockViewOnSelected		;Ansicht auf Auswahl sperren
 GameTaskType Short UI_WeaponRangeDisplay		;Waffenreichweiten für das ausgewählte Schiff anzeigen
 GameTaskType Short UI_LocationShipSymbol		;Schiffs- und Raumbasen-Symbole auf Standortebene
-GameTaskType Short UI_QuestContractScreen		;Create new Contract for this location
+GameTaskType Short UI_QuestContractScreen		;Erstellt neuen Vertrag für diesen Standort
 GameTaskType Short UI_CycleCameraMode_Default		;Kameraansicht: Standard
 GameTaskType Short UI_CycleCameraMode_TopDown		;Kameraansicht: Von oben
 GameTaskType Short UI_CycleCameraMode_HighAngle		;Kameraansicht: Hoher Winkel
@@ -1030,7 +1030,7 @@ PsychicDamage		;Psychischer Schaden
 PsychicControl		;Psychische Kontrolle
 PsychicEnergyPerShot		;Psychische Energie pro Schuss
 PsychicDefense		;Psychische Verteidigung
-PsychicStrength		;Psychic Strength
+PsychicStrength		;Psychische Stärke
 PsychicDamageRate		;Psychische Schadensrate
 PsychicDamageAtRange		;Psychischer Schaden bei max. Entfernung
 PsychicDamageAtRangeRate		;Psychische Schadensrate bei max. Entfernung
@@ -1106,9 +1106,9 @@ BonusType ResearchThresholdIndustrial		;Forschungsschwerpunkt - Industriell
 
 BonusType ResearchAncientKnowledge		;Uraltes Wissen
 
-BonusType ResearchPsychic		;Psychic Research
-BonusType ResearchGenetic		;Genetic Research
-BonusType ResearchBioWarfare		;BioWarfare Research
+BonusType ResearchPsychic		;Psychische Forschung
+BonusType ResearchGenetic		;Genetische Forschung
+BonusType ResearchBioWarfare		;Bio-Kriegsforschung
 
 BonusType Sabotage		;Sabotage
 BonusType ShieldRechargeRate		;Schildaufladerate
@@ -1176,7 +1176,7 @@ BonusType ScanSurveyTimeReduction		;Verkürzung der Umfragezeit
 BonusType HyperDriveJumpAccuracy		;Hyperantrieb-Sprunggenauigkeit
 BonusType BombardmentResistance		;Widerstand gegen Bombardierung
 BonusType GroundCombatResistance		;Widerstand gegen Bodenkämpfe
-BonusType ColonyInfluenceRate		;Colony Influence Rate
+BonusType ColonyInfluenceRate		;Kolonie Einflussrate
 
 ComponentCategory AreaShieldRecharge		;Umgebungs-Schildregenerierung
 ComponentCategory Armor		;Panzerung
@@ -1262,12 +1262,12 @@ ColonyCorruptionReductionProjectionRange		;Korruption Reduzierungsreichweite
 ColonyIncomeDrainRatio		;Kolonie Einnahmen abschöpfen
 ColonyInfluenceLevelToBuild		;Einfluss auf Konstruktion
 
-ColonyInfluenceFloor		;Influence Floor
-ColonyInfluenceIncrease		;Annual Influence Increase Rate
-ColonyInfluenceIncreaseLimit		;Influence Increase Limit
-ColonyInfluenceCap		;Influence Cap
-ColonyInfluenceIncreaseRateModifier		;Influence Rate Reduction
-ColonyInfluenceDefendingTroopStrength		;Influence Defending Troop Strength
+ColonyInfluenceFloor		;Einfluss-Untergrenze
+ColonyInfluenceIncrease		;Jährliche Einflusssteigerungsrate
+ColonyInfluenceIncreaseLimit		;Einflusserhöhungs-Grenze
+ColonyInfluenceCap		;Einfluss-Obergrenze
+ColonyInfluenceIncreaseRateModifier		;Einflussraten-Reduzierung
+ColonyInfluenceDefendingTroopStrength		;EInfluss Verteidigungstruppen-Stärke
 
 FighterBuildRate		;Jäger-Konstruktionsrate
 FighterCapacity		;Jäger Kapazität
@@ -1331,13 +1331,13 @@ TroopImprovement Defend		;{0} Verteidigungsstärke
 TroopImprovement Attack		;{0} Angriffsstärke
 TroopImprovement Intercept		;{0} Abfangstärkelevel
 TroopImprovement Sabotage		;{0} Sabotagestärke
-TroopImprovement PsychicStrength		;{0} Psychic Attack Strength
-TroopImprovement PsychicDefense		;{0} Psychic Defense Strength
+TroopImprovement PsychicStrength		;{0} Psychische Angriffsstärke
+TroopImprovement PsychicDefense		;{0} Psychische Verteidigungsstärke
 TroopImprovement Recovery		;{0} Erholungsrate
 TroopImprovement Maintenance		;{0} Unterhaltseinsparungen
 
-TroopImprovement PsychicStrengthMinimum		;Minimum Psychic Attack Strength: {0}
-TroopImprovement PsychicDefenseMinimum		;Minimum Psychic Defense Strength: {0}
+TroopImprovement PsychicStrengthMinimum		;Minimale psychische Angriffsstärke: {0}
+TroopImprovement PsychicDefenseMinimum		;Minimale psychische Verteidigungsstärke: {0}
 
 ColonizationMinimumLevel		;{0} Grenzwert für Kolonisierungsqualität
 ColonizationSuitabilityModifier		;{0} Eignungsmodifikator Kolonisierung
@@ -1504,8 +1504,8 @@ WeaponDamageCategory BombardMilitary		;Bombardierung von Militär
 WeaponDamageCategory BombardPopulation		;Bombardierung der Bevölkerung
 WeaponDamageCategory BombardQuality		;Bombardierung zur Verringerung der Planeten Qualität
 WeaponDamageCategory BoardingAssault		;Schiffe entern
-WeaponDamageCategory PsychicDamage		;Psychic Damage
-WeaponDamageCategory PsychicControl		;Psychic Control
+WeaponDamageCategory PsychicDamage		;Psychischer Schaden
+WeaponDamageCategory PsychicControl		;Psychische Kontrolle
 
 Maximum Weapons Energy use per second		;Max. Waffenenergieverbrauch pro Sek.
 Maximum Range DPS		;Max. Reichweite DPS
@@ -1832,7 +1832,7 @@ IncomeType ResourceTrading Explanation		;Euer Staat wird automatisch überschüs
 IncomeType Fuel Explanation		;Euer Staat wird Treibstoff-Ressourcen an andere Völker verkaufen, wenn deren Schiffe an Euren Raumbasen oder Kolonien andocken
 IncomeType Information Explanation		;Informationen können über die Haupt-Kategorie 'Diplomatie' an andere Völker verkauft werden. Dazu gehören Karten, Technologie, geheime Orte und andere Informationen
 IncomeType Tribute Explanation		;Tribut, den andere Völker als Teil eines diplomatischen Abkommens an Euch zahlen. Tribut wird normalerweise vom Sieger eines Krieges einem besiegten Feind auferlegt
-IncomeType Tribute Explanation Pirate		;Protection that other empires pay to you as part of a diplomatic agreement. The protection agreement ensures peace between your factions for a price.
+IncomeType Tribute Explanation Pirate		;Schutz, den andere Imperien Ihnen im Rahmen eines diplomatischen Abkommens zahlen. Das Schutzabkommen gewährleistet gegen Bezahlung den Frieden zwischen Ihren Fraktionen.
 IncomeType Raiding Explanation		;Geld, das durch Überfälle auf Kolonien oder Raumbasen anderer Völker gewonnen wurde
 IncomeType Missions Explanation		;Geld, das durch erfolgreiche verdeckte Missionen verdient wurde
 IncomeType ColonyCrime Explanation		;Reichtum, der über kriminelle Aktivitäten aus Kolonien abgeschöpft wird. Je höher die Kontrollstufe einer Kolonie, desto mehr Geld wird gestohlen
@@ -1867,7 +1867,7 @@ ExpenseType PrivateFuel		;Privater Treibstoff
 
 ExpenseType ColonyGrowthFunding Explanation		;Kolonien wachsen normalerweise langsam, aber Ihr könnt deren Wachstum beschleunigen, indem Ihr Finanzmittel bereitstellt.
 ExpenseType Research Explanation		;Die Forschungsgeschwindigkeit wird durch die Vergabe von Forschungsgeldern stark erhöht
-ExpenseType ShipMaintenance Explanation		;Maintenance costs for state-owned ships and bases
+ExpenseType ShipMaintenance Explanation		;Wartungskosten für staatliche Schiffe und Stützpunkte
 ExpenseType ShipMaintenance Explanation		;Unterhaltskosten für staatliche Schiffe und Raumbasen
 ExpenseType TroopMaintenance Explanation		;Unterhaltskosten für Truppen
 ExpenseType FacilityMaintenance Explanation		;Unterhaltskosten für planetare Einrichtungen
@@ -2844,7 +2844,7 @@ GameEventActionType ResearchBreakthrough		;Forschungsdurchbruch
 GameEventActionType ResearchBreakthroughFromColonyConquest		;Forschungsdurchbruch durch Kolonieeroberung
 GameEventActionType RefugeeFleet		;Flüchtlingsflotte
 GameEventActionType ResearchProjectEnable		;Forschung freigeschaltet
-GameEventActionType ResearchProjectEnableAllEmpires		;Research Unlocked for All Empires
+GameEventActionType ResearchProjectEnableAllEmpires		;Forschung für alle Imperien freigeschaltet
 GameEventActionType ShipExplodes		;{0} explodiert!
 GameEventActionType Story		;Versteckte Informationen enthüllt
 GameEventActionType History		;Galaktische Geschichte enthüllt
@@ -2861,9 +2861,9 @@ Acquire Event Ruins		;Bei Inbesitzhahme von {0} haben wir eine seltsame Entdecku
 AcquireColonyPeacefully Event		;Bei der Übernahme von {0} haben wir eine merkwürdige Entdeckung gemacht:
 ConquerColony Event		;Bei der Eroberung von {0} haben wir eine merkwürdige Entdeckung gemacht:
 
-DefendColonyInvasion Event		;Upon defeating the invasion of {0} we have made a curious discovery:
-GainAllianceMember Event		;Upon admitting a new alliance member we have made a curious discovery:
-DateReached Event		;We have made a curious discovery:
+DefendColonyInvasion Event		;Nach der Abwehr der Invasion von {0} haben wir eine merkwürdige Entdeckung gemacht:
+GainAllianceMember Event		;Bei der Aufnahme eines neuen Allianzmitglieds haben wir eine merkwürdige Entdeckung gemacht:
+DateReached Event		;Wir haben eine merkwürdige Entdeckung gemacht:
 
 Destroy Event StellarObject		;Bei der Zerstörung von {0} haben wir eine seltsame Entdeckung gemacht:
 Destroy Event Ruins		;Bei der Zerstörung von {1} bei {0} haben wir eine merkwürdige Entdeckung gemacht:
@@ -2871,10 +2871,10 @@ Destroy Event Ruins		;Bei der Zerstörung von {1} bei {0} haben wir eine merkwü
 Build Event Facility		;Der Aufbau von {0} bei {1} hat zu einer merkwürdigen Entdeckung geführt:
 Build Event Base		;Die Konstruktion von {0} bei {1} hat zu einer merkwürdigen Entdeckung geführt:
 
-EmpireBuildShipRole Event		;Building a new {0} has led to a curious discovery:
-DeliverResources Event		;Delivering resources to {0} has led to a curious discovery:
-DestroyAllHostileCreaturesAtLocation Event		;Destroying all hostile creatures at {0} has led to a curious discovery:
-TroopGarrisonStrengthAtColony Event		;Garrisoning troops at {0} has led to a curious discovery:
+EmpireBuildShipRole Event		;Der Bau eines neuen {0} hat zu einer merkwürdigen Entdeckung geführt:
+DeliverResources Event		;Die Lieferung von Ressourcen an {0} hat zu einer merkwürdigen Entdeckung geführt:
+DestroyAllHostileCreaturesAtLocation Event		;Die Vernichtung aller feindlichen Kreaturen bei {0} hat zu einer merkwürdigen Entdeckung geführt:
+TroopGarrisonStrengthAtColony Event		;Die Stationierung von Truppen in {0} hat zu einer merkwürdigen Entdeckung geführt:
 
 EmpireRelationChange Event FirstContact		;Unser erster Kontakt mit {0} hat zu einer merkwürdigen Entdeckung geführt:
 EmpireRelationChange Event		;Unsere kürzlich eingeleitete {0} mit {1} hat zu einer merkwürdigen Entdeckung geführt:
@@ -2980,9 +2980,9 @@ AutomationCategory ResearchCrash		;Blitz-Forschung
 AutomationCategory ShipDesigns		;Schiffs- & Raumbasis-Design
 AutomationCategory TroopGeneration		;Truppenrekrutierung
 AutomationCategory FundingLevels		;Finanzielle Mittel
-AutomationCategory Contracts		;Contract Acceptance
-AutomationCategory ContractOffers		;Contract Offering
-AutomationCategory PirateInfluence		;Pirate Influence
+AutomationCategory Contracts		;Vertragsannahme
+AutomationCategory ContractOffers		;Vertragsangebot
+AutomationCategory PirateInfluence		;Pirateneinfluss
 
 Pirate Raider		;Piraten-Plünderer
 Pirate Raider Leader Title		;Plünderer-Boss
@@ -3404,9 +3404,9 @@ EmpireIncidentFactorType TreatyLongTermOperationsMap		;Eingehaltenes Teilen der 
 EmpireIncidentFactorType TreatyLongTermResearch		;Eingehaltenes Forschungsabkommen
 EmpireIncidentFactorType TreatyLongTermTerritoryMap		;Eingehaltenes Teilen der Gebietskarte
 EmpireIncidentFactorType Ambassador		;Botschafter anwesend/abwesend
-EmpireIncidentFactorType SharedAlliance		;Shared Alliance
-EmpireIncidentFactorType ShakturiNotInAlliance		;Refuse To Join Our Alliance
-EmpireIncidentFactorType ShakturiInEnemyAlliance		;In Enemy Alliance
+EmpireIncidentFactorType SharedAlliance		;Gemeinsame Allianz
+EmpireIncidentFactorType ShakturiNotInAlliance		;Weigern sich, unserer Allianz beizutreten
+EmpireIncidentFactorType ShakturiInEnemyAlliance		;In Feindes-Allianz
 EmpireIncidentFactorType TreatySigned		;Unterzeichnete Verträge
 EmpireIncidentFactorType BrokenPirateProtection		;Schutzabkommen gebrochen
 EmpireIncidentFactorType BrokenNonAggression		;Nichtangriffspakt gebrochen
@@ -3448,10 +3448,10 @@ EmpireIncidentFactorType Full TreatyLongTermResearch		;Der Austausch von Forschu
 EmpireIncidentFactorType Full TreatyLongTermTerritoryMap		;Ihr habt uns Euer Wissen über Euer Herrschaftsgebiet anvertraut
 EmpireIncidentFactorType Full Ambassador Present		;Euer Botschafter in unserer Hauptwelt erhöht das gegenseitige Vertrauen
 EmpireIncidentFactorType Full Ambassador Absent		;Unser Vertrauen Euch gegenüber ist gesunken, weil Ihr keinen Botschafter in unsere Hauptwelt entsandt habt
-EmpireIncidentFactorType Full SharedAlliance		;We are both members of the same alliance
+EmpireIncidentFactorType Full SharedAlliance		;Wir sind beide Mitglieder derselben Allianz
 
-EmpireIncidentFactorType Full ShakturiNotInAlliance		;You refuse to join the Shaktur Axis!
-EmpireIncidentFactorType Full ShakturiInEnemyAlliance		;You are a member of the Freedom Alliance!
+EmpireIncidentFactorType Full ShakturiNotInAlliance		;Ihr weigert euch, der Shaktur-Achse beizutreten!
+EmpireIncidentFactorType Full ShakturiInEnemyAlliance		;Ihr seid ein Mitglied der Freiheits-Allianz!
 
 EmpireIncidentFactorType Full TreatySigned		;Wir haben ein neues Abkommen mit Euch unterzeichnet
 EmpireIncidentFactorType Full BrokenPirateProtection		;Eure Angriffe haben unser Schutzabkommen gebrochen
@@ -3678,7 +3678,7 @@ TradeOfferItemType Colonies		;Kolonien
 TradeOfferItemType DiplomacyEndWarEmpires		;Beendet den Krieg mit diesem Reich
 TradeOfferItemType DiplomacyStartWarEmpires		;Erklärt diesem Reich den Krieg
 TradeOfferItemType EmpireContacts		;Kontaktiert ein anderes Volk
-TradeOfferItemType Privateering		;Privateering against an Empire
+TradeOfferItemType Privateering		;Kaperei gegen ein Imperium
 TradeOfferItemType IndependentColonyLocations		;Standorte unabhängiger Kolonien
 TradeOfferItemType Characters		;Charaktere
 TradeOfferItemType MapGalaxy		;Galaxiekarte
@@ -3696,8 +3696,8 @@ TradeOfferItem Description DiplomacyEndWarEmpires		;Beendet den Krieg mit {0}
 TradeOfferItem Description DiplomacyStartWarEmpires		;Erklärt den Krieg gegen {0}
 TradeOfferItem Description EmpireContacts		;Kontaktiert ein unbekanntes Volk
 TradeOfferItem Description EmpireContacts Known		;Kontaktiert {0}
-TradeOfferItem Description Privateering		;Privateering against an unknown empire
-TradeOfferItem Description Privateering Known		;Privateering against {0}
+TradeOfferItem Description Privateering		;Kaperei gegen ein unbekanntes Imperium
+TradeOfferItem Description Privateering Known		;Kaperei gegen {0}
 TradeOfferItem Description IndependentColonyLocations		;Unabhängige Kolonie aufdecken
 TradeOfferItem Description IndependentColonyLocations Known		;Enthüllt {0} ({1} Kolonie)
 TradeOfferItem Description MapGalaxy		;Galaxiekarte (alle Erkundungen)
@@ -4130,10 +4130,10 @@ Base Captured Sabotage		;Die Raumbasis meutert!
 Base Captured Sabotage Description		;Die Mannschaft an Bord von [LOCATION]{0}[/LOCATION] hat gemeutert und sich einer anderen Fraktion angeschlossen!\n\nWir haben stark Sabotage durch feindliche Spione in Verdacht...
 Colony Sabotage Description		;Unsere Kolonie auf [LOCATION]{0}[/LOCATION] befindet sich in offener Rebellion gegen unsere Herrschaft! Die Rebellion verursacht weitverbreitetes Chaos und Zerstörung.\n\nWir vermuten stark, dass diese Rebellion durch feindliche Einflüsse angefacht wurde...
 Colony Rebels		;Kolonie rebelliert
-Facility Destroyed Sabotage		;Facility Destroyed
-Facility Destroyed Sabotage Description		;The [LOCATION]{0} at {1}[/LOCATION] has been totally destroyed in an explosion!\n\nWe strongly suspect sabotage by foreign intelligence agents...
-Character Defects Persuaded		;{0} Defects
-Character Defects Persuaded Description		;[CHARACTER]{0} {1}[/CHARACTER] has left our empire and defected to the [FACTION]{2}[/FACTION]!\n\nWe strongly suspect they were influenced by foreign intelligence agents...
+Facility Destroyed Sabotage		;Einrichtung zerstört
+Facility Destroyed Sabotage Description		;Das [LOCATION]{0} in {1}[/LOCATION] wurde bei einer Explosion völlig zerstört!\n\nWir vermuten dringend Sabotage durch ausländische Geheimdienstagenten...
+Character Defects Persuaded		;{0} Überläufe
+Character Defects Persuaded Description		;[CHARACTER]{0} {1}[/CHARACTER] hat unser Imperium verlassen und ist zu den [FACTION]{2}[/FACTION] übergelaufen!\n\nWir haben den starken Verdacht, dass sie von ausländischen Geheimdienstagenten beeinflusst wurden...
 
 Foreign Agent Executed		;Diese wurden für ihre Verbrechen hingerichtet.
 Our Agent Executed		;[CHARACTER]{0}[/CHARACTER] ist von [FACTION]{1}[/FACTION] exekutiert worden.
@@ -4339,7 +4339,7 @@ We propose an immediate end to the war between us		;Wir schlagen ein sofortiges 
 End War with EMPIRE		;Beendet den Krieg mit {0}
 Propose an immediate end to the war with EMPIRE		;Schlagt ein sofortiges Ende des Krieges mit {0} vor
 EMPIRE offers TREATY		;{0} bietet {1}
-EMPIRE offers Privateering		;{0} offers Privateering
+EMPIRE offers Privateering		;{0} bietet Kaperei an
 EMPIRE makes the following offer		;Die [FACTION]{0}[/FACTION] machen das folgende Angebot
 Offer TREATY to EMPIRE		;Bietet {0} {1} an
 Offer EMPIRE a gift		;Bietet {0} ein Geschenk an
@@ -4628,7 +4628,7 @@ Are you sure you want to disband FLEET		;Seid Ihr sicher, dass Ihr die Flotte {0
 Disband Fleet		;Flotte auflösen
 
 We have put you in contact with the EMPIRE		;Wir haben Euch mit {0} in Verbindung gebracht
-We have agreed to fund Privateering against EMPIRE		;We have agreed to fund Privateering against {0}
+We have agreed to fund Privateering against EMPIRE		;Wir haben vereinbart, Kaperei gegen {0} zu finanzieren.
 We have added the independent colony COLONY to your map in the SYSTEM system		;Wir haben die unabhängige Kolonie [FACTION]{0}[/FACTION] in Eurer Karte im System {1} hinzugefügt
 We have added the RUIN to your map at PLANET in the SYSTEM system		;Wir haben die [DISCOVERY]{0}[/DISCOVERY] auf [LOCATION]{1}[/LOCATION] im System {2} in Eurer Karte hinzugefügt
 We have added the SPECIALLOCATION to your map at LOCATION in the SYSTEM system		;Wir haben die [DISCOVERY]{0}[/DISCOVERY] auf [LOCATION]{1}[/LOCATION] im System {2} in Eurer Karte hinzugefügt
@@ -4969,12 +4969,12 @@ In exchange for this peace however we demand that you give us the following		;Al
 
 Strategy		;Strategie
 Invasion		;Invasion
-Ignore		;Ignore
-Eliminate		;Eliminate
+Ignore		;Ignorieren
+Eliminate		;Eliminieren
 Independent Colony Strategy Explanation Diplomacy		;Wenn die Diplomatie automatisiert ist, werden wir versuchen, uns mit dieser Kolonie durch Geschenke anzufreunden, bevor wir ein Kolonieschiff dorthin senden, um diese in unser Volk aufzunehmen.
 Independent Colony Strategy Explanation Invasion		;Wenn militärische Angriffe automatisiert sind, werden wir eine Invasionsflotte entsenden, um diese Kolonie mit Gewalt einzunehmen.
-Independent Colony Strategy Explanation Ignore		;This colony will be ignored. We will not offer gifts or treaties, nor will we attempt to colonize or invade
-Independent Colony Strategy Explanation Eliminate		;This colony will be eliminated. We will bombard the population to extinction
+Independent Colony Strategy Explanation Ignore		;Diese Kolonie wird ignoriert. Wir werden weder Geschenke noch Verträge anbieten, noch werden wir versuchen, sie zu kolonisieren oder zu erobern.
+Independent Colony Strategy Explanation Eliminate		;Diese Kolonie wird vernichtet. Wir werden die Bevölkerung bis zur Ausrottung bombardieren
 
 Admirals		;Admiräle
 Generals		;Generäle
@@ -5129,8 +5129,8 @@ DiplomaticStrategy Explanation Undermine		;Die Strategie 'Mit Spionage und Sabot
 
 DiplomaticStrategy Explanation Befriend Independent		;Euer Volk wird die Beziehungen zu der unabhängigen Kolonie durch Geschenke und Handelsverträge verbessern, bis diese eine friedliche Kolonisierung anbietet.
 DiplomaticStrategy Explanation Conquer Independent		;Euer Militär wird sich darauf vorbereiten, in die unabhängige Kolonie einzufallen und sie mit Gewalt zu erobern. Beachtet, dass die Invasion unabhängiger Kolonien mit einem Ruf-Verlust verbunden ist.
-DiplomaticStrategy Explanation Neutral Independent		;Your empire will ignore this independent colony. You will not offer gifts or treaties, nor will you attempt to colonize or invade
-DiplomaticStrategy Explanation Raid Independent		;Your empire will eliminate this colony by bombarding the population to extinction.
+DiplomaticStrategy Explanation Neutral Independent		;Euer Imperium wird diese unabhängige Kolonie ignorieren. Ihr werdet weder Geschenke noch Verträge anbieten, noch werdet Ihr versuchen, sie zu kolonisieren oder zu erobern.
+DiplomaticStrategy Explanation Raid Independent		;Euer Imperium wird diese Kolonie vernichten, indem es die Bevölkerung bis zur Ausrottung bombardiert.
 
 Standard Size Lists		;Standardgröße für Listen
 Smaller Lists		;Kleinere Schriften u. Symbole für Listen
@@ -5352,10 +5352,10 @@ PolicyExplanation AutomationDiplomaticGifts		;Automatisiert das Anbieten von dip
 PolicyExplanation AutomationDiplomaticTreaties		;Automatisiert die Aushandlung von diplomatischen Verträgen mit anderen Fraktionen oder kontrolliert diesen Bereich manuell.
 PolicyExplanation AutomationDiplomaticWar		;Automatisiert Kriegs- und Friedensverhandlungen mit anderen Fraktionen oder kontrolliert diesen Bereich manuell.
 PolicyExplanation AutomationMilitaryAttacks		;Automatisiert die militärischen Angriffe Eurer Flotten und Schiffe auf feindliche Ziele, oder kontrolliert dieses Gebiet manuell.
-PolicyExplanation AutomationWarMissions		;Automatisiere die Zuweisung von Kriegsmissionen, die im Krieg Bonusbelohnungen gewähren, oder kontrolliere diesen Bereich manuell. Beachte, dass die manuelle Steuerung Kriegsmissionen für Ihr Imperium deaktiviert.
-PolicyExplanation AutomationContracts		;Automate acceptance of contracts that give bonus rewards, or control this area manually. Note that manual control will turn off Contract Acceptance for your empire
-PolicyExplanation AutomationContractOffers		;Automate offering of contracts that give bonus rewards, or control this area manually. Note that manual control will turn off Contract Offering for your empire
-PolicyExplanation AutomationPirateInfluence		;Automate establishing pirate influence at targeted colonies, or control this area manually
+PolicyExplanation AutomationWarMissions		;Automatisiert die Zuweisung von Kriegsmissionen, die im Krieg Bonusbelohnungen gewähren, oder kontrolliert diesen Bereich manuell. Beachtet, dass die manuelle Steuerung Kriegsmissionen für Ihr Imperium deaktiviert.
+PolicyExplanation AutomationContracts		;Automatisiert die Annahme von Verträgen, die Bonusbelohnungen gewähren, oder steuert diesen Bereich manuell. Beachtet, dass die manuelle Steuerung die Vertragsannahme für Ihr Imperium deaktiviert.
+PolicyExplanation AutomationContractOffers		;Automatisiert das Anbieten von Verträgen, die Bonusbelohnungen gewähren, oder steuert diesen Bereich manuell. Beachtet, dass die manuelle Steuerung das Anbieten von Verträgen für Ihr Imperium deaktiviert.
+PolicyExplanation AutomationPirateInfluence		;Automatisiert die Etablierung von Pirateneinfluss in Zielkolonien oder kontrolliert diesen Bereich manuell
 PolicyExplanation AttackOvermatchFactor		;Der Grad der Kampf-Überlegenheit jedes einzelnen Eurer Militärschiffe (im Vergleich mit den einzelnen feindlichen Schiffen), der verwendet wird, um Angriffsziele beim Kampf gegen feindliche Schiffe zu ermitteln und festzulegen. Höhere Werte bedeuten, dass mehr angreifende Schiffe als einzelne Ziele zugewiesen werden, um den Kampf-Erfolg insgesamt zu gewährleisten.
 PolicyExplanation CaptureTargetConditionShip		;Wenn feindliche Schiffe übernommen statt zerstört werden sollen. Beachtet, dass die Enterschiffe auch über Enterkapseln verfügen müssen, um eine Übernahme zu ermöglichen.
 PolicyExplanation CaptureTargetConditionBase		;Wenn feindliche Raumbasen erobert statt zerstört werden sollen. Beachtet, dass die Enterschiffe auch über Enterkapseln verfügen müssen, um eine Übernahme zu ermöglichen.
@@ -5776,8 +5776,8 @@ Character Mission Explanation InfluenceEmpirePositively		;Beeinflusse eine ander
 Character Mission Explanation InfluenceEmpireNegatively		;Beeinflusse eine andere Fraktion in ihrer Beurteilung einer dritten Partei, so dass sie die dritte Partei weniger mag
 Character Mission Explanation InternalStabilization		;Reduziere interne Unruhen von Dissidenten in Eurem Herrschaftsgebiet. Das ist besonders in Kriegszeiten nützlich, wenn die Kriegsmüdigkeit der Bevölkerung ansteigt. Bei Erfolg wird Euer Volk für 2 Jahre reduzierte Kriegsmüdigkeit und Korruption aufweisen.
 Character Mission Explanation CaptureBase		;Erobere eine bestimmte Raumbasis eines anderen Reiches. Die Zielbasis muss Euch bekannt sein und sie muss außerdem in Eurem eigenen Herrschaftsgebiet oder in einem nicht-beanspruchten Gebiet sein. Die Raumbasis kann also nicht im Territorium des Ziel-Reiches sein (z.B. ein Raumhafen oder eine Kolonie).
-Character Mission Explanation CreateFalseIncident		;Create a false incident against a target faction, but framing the blame for the incident against another 3rd-party faction. This will cause both empires to take a negative view of each other, driving them apart.
-Character Mission Explanation ControlFactionLeader		;Takes complete control of another faction's leader, thus making the faction a vassal of your empire. If your empire is part of an alliance, then the target faction will also become a member of that alliance. Note that Hive Mind governments are particularly susceptible to this mission.
+Character Mission Explanation CreateFalseIncident		;Erfindet einen falschen Vorfall gegen eine Zielfraktion, schiebt die Schuld dafür aber einer anderen Drittfraktion zu. Dies führt dazu, dass beide Imperien eine negative Sicht aufeinander entwickeln und sich gegenseitig entzweien.
+Character Mission Explanation ControlFactionLeader		;Übernimmt die vollständige Kontrolle über den Anführer einer anderen Fraktion und macht diese so zum Vasallen Ihres Imperiums. Ist Ihr Imperium Teil einer Allianz, wird auch die Zielfraktion Mitglied dieser Allianz. Beachten Sie, dass Hive-Mind-Regierungen für diese Mission besonders anfällig sind.
 
 Character Mission Explanation Success InternalStabilization		;Als ein Ergebnis wird unser Volk für die nächsten 2 Jahre reduzierte Kriegsmüdigkeit und Korruption aufweisen.
 
@@ -5884,8 +5884,8 @@ Settings Explanation NebulaStormSoundEffectsVolume		;Steuert die Lautstärke fü
 
 Government Colony Growth Funding Factor Explanation No Benefit		;Eure {0}-Regierung ermöglicht keine effektive Finanzierung des Wachstums von Kolonien, so dass es sinnlos ist, hier finanzielle Mittel einzusetzten.
 Government Colony Growth Funding Factor Explanation Reduced Benefit		;Eure {0}-Regierung reduziert die Effektivität der Wachstumsfinanzierung für Kolonien auf {1} des Normalwerts, so dass es weniger vorteilhaft ist, hier finanzielle Mittel einzusetzten.
-Pirate Colony Growth Funding Factor Explanation No Benefit		;Pirate factions have no need of colony growth funding, thus making it pointless to spend money here
-;Pirate factions have no need of research funding, thus making it pointless to spend money here
+Pirate Colony Growth Funding Factor Explanation No Benefit		;Piratenfraktionen benötigen keine Finanzierung für das Koloniewachstum, daher ist es sinnlos, hier Geld auszugeben
+
 
 Government Colony Growth Funding Factor		;Effektivität der Wachstumsfinanzierung für Kolonien
 Government Colony Growth Funding Factor Explanation		;Die Effektivität der Finanzierung des Koloniewachstums kann modifiziert werden: Sie kann erhöht, reduziert oder sogar gänzlich ignoriert werden.\n\nEine geringere Effektivität der Finanzierung des Koloniewachstums kann das Bevölkerungswachstum in Eurem Reich stark verlangsamen.\n\nWenn dieser Modifikator Null ist, solltet Ihr kein Geld für das Koloniewachstum ausgeben, da es keinen Nutzen hat.
@@ -6038,8 +6038,8 @@ Production Oversupply Explanation		;Ihr habt ein Überangebot an dieser Ressourc
 COLONY will be permanently abandoned		;{0} wird dauerhaft aufgegeben und wird zu einer unabhängigen Kolonie.\n\nAlle Stützpunkte der Kolonie werden aufgelöst, alle Truppen aufgelöst, alle Charaktere werden woanders hin versetzt.
 Are you sure you want to abandon COLONY		;Seid Ihr sicher, dass Ihr {0} aufgeben möchtet?
 Abandon Colony		;Kolonie aufgeben
-Abandon Outpost		;Abandon Outpost
-OUTPOST will be permanently abandoned		;{0} will be permanently abandoned, completely removing the population.\n\nAll troops at the outpost will be disbanded and all characters will be transferred elsewhere.
+Abandon Outpost		;Außenposten aufgeben
+OUTPOST will be permanently abandoned		;{0} wird dauerhaft aufgegeben und die Bevölkerung vollständig entfernt.\n\nAlle Truppen des Außenpostens werden aufgelöst und alle Charaktere werden woanders hin versetzt.
 
 Cannot abandon your empire capital		;Eure Hauptwelt kann nicht aufgegeben werden
 Cannot abandon your empire's last colony		;Die letzte Kolonie Eures Volkes kann nicht aufgegeben werden
@@ -6254,7 +6254,7 @@ Shakturi Supremacy		;Shakturi Vorherrschaft
 
 Psychic Tech		;Psychische Technik
 Genetic Engineering		;Gentechnologie
-BioWarfare		;BioWarfare
+BioWarfare		;Bio-Kriegsführung
 
 Outposts cannot construct ships or bases		;Außenposten können keine Schiffe oder Basen errichten
 Outposts cannot recruit troops		;Außenposten können keine Truppen rekrutieren
@@ -6431,8 +6431,8 @@ PolicyExplanation BombardManualMissionsFollowPolicy		;Ob Schiffe und Flotten mit
 BombardColoniesWhen Never		;Niemals
 BombardColoniesWhen SoftenEnemyTroops		;Feindliche Truppen aufweichen
 BombardColoniesWhen EliminateEnemyTroops		;Feindliche Truppen eliminieren
-BombardColoniesWhen EliminateEnemyTroopsAndFacilities		;Eliminate Enemy Troops and Facilities
-BombardColoniesWhen EliminateColony		;Eliminate Colony
+BombardColoniesWhen EliminateEnemyTroopsAndFacilities		;Eliminiert feindliche Truppen und Einrichtungen
+BombardColoniesWhen EliminateColony		;Eliminiert die Kolonie
 
 AutomationCategory ColonyFacilities_Administrative		;Kolonieeinrichtungen - Hauptstädte und Verwaltung
 AutomationCategory ColonyFacilities_CreatureBreeding		;Kolonieeinrichtungen - Kreaturenzucht
@@ -6450,11 +6450,11 @@ AutomationCategory ColonyFacilities_Construction		;Kolonieeinrichtungen - Bau
 AutomationCategory ColonyFacilities_Research		;Kolonieeinrichtungen - Forschung
 AutomationCategory ColonyFacilities_Recreation		;Kolonieeinrichtungen - Erholung
 
-AutomationCategory ColonyFacilities_Pirate		;Colony Facilities - Pirate Influence
+AutomationCategory ColonyFacilities_Pirate		;Kolonie-einrichtungen - Pirateneinfluss
 
 PolicyExplanation AutomationColonyFacilities_Upgrade		;Automatisieren Sie den Ausbau der Anlagen in den Kolonien Ihres Reiches oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Administrative		;Automatisieren Sie den Bau von Kapital- und Verwaltungseinrichtungen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell. Beachtet, dass diese Kategorie auch Einrichtungen im Zusammenhang mit Diplomatie und Geheimdienst umfasst.
-PolicyExplanation AutomationColonyFacilities_Pirate		;Automate Pirate Influence facility building at colonies you want to control, or control this area manually.
+PolicyExplanation AutomationColonyFacilities_Pirate		;Automatisieren Sie den Bau von Pirate Influence-Einrichtungen in Kolonien, die Sie kontrollieren möchten, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_CreatureBreeding		;Automatisieren Sie den Bau von Kreaturenzuchtanlagen in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Terraforming		;Automatisieren Sie den Bau von Terraforming-Anlagen in den Kolonien Ihres Imperiums oder kontrollieren Sie diesen Bereich manuell.
 PolicyExplanation AutomationColonyFacilities_Troops		;Automatisieren Sie den Bau von Truppenrekrutierungseinrichtungen in den Kolonien Ihres Reiches, oder kontrollieren Sie diesen Bereich manuell. Beachtet, dass diese Kategorie auch Einrichtungen im Zusammenhang mit der Kolonieverteidigung umfasst.
@@ -6543,17 +6543,17 @@ Quest GameEventActionType AddEmpireIncidentFactorGeneral Negative		;Harm Relatio
 Quest GameEventActionType AdjustWarWeariness Increase		;Feindliche Kriegsmüdigkeit erhöhen
 Quest GameEventActionType AdjustWarWeariness Reduce		;Reduzieren Sie die Kriegsmüdigkeit
 Quest GameEventActionType AchieveVictoryObjective		;Siegziele
-Quest GameEventActionType GenerateShipBase		;Give New Ship
+Quest GameEventActionType GenerateShipBase		;Gebe neues Schiff
 Quest GameEventActionType GenerateBonusAtOrb		;Reveal bonus at colony
 Quest GameEventActionType NavigationalCoordinatesExistingRuins		;Reveal Special Location
 Quest GameEventActionType NavigationalCoordinatesExistingIndependentColony		;Reveal Special Location
 Quest GameEventActionType NavigationalCoordinatesDebrisField		;Reveal Special Location
 Quest GameEventActionType NavigationalCoordinatesExistingAbandonedShip		;Reveal Special Location
-Quest GameEventActionType SetDiplomaticRelationType		;Sign Treaty
-Quest GameEventActionType SetIndependentColonyRelationType		;Sign Treaty
-Quest GameEventActionType GenerateTroops		;Give Troops
-Quest GameEventActionType GenerateCharacter		;Give Character
-Quest GameEventActionType AddCargo		;Give Resources
+Quest GameEventActionType SetDiplomaticRelationType		;Unterzeichnet den Vertrag
+Quest GameEventActionType SetIndependentColonyRelationType		;Unterzeichnet den Vertrag
+Quest GameEventActionType GenerateTroops		;Gebt Truppen
+Quest GameEventActionType GenerateCharacter		;Gebt Charakter
+Quest GameEventActionType AddCargo		;Gebt Ressourcen
 
 CATEGORY project		;Zufälliges {0} Projekt
 Random Project		;Zufälliges Projekt
@@ -7039,7 +7039,7 @@ Deep Labyrinth Description Capture Foreign		;Unser Spion [CHARACTER]{0}[/CHARACT
 Deep Labyrinth Title Execute Foreign		;Tiefes Labyrinth - Spion hingerichtet
 Deep Labyrinth Description Execute Foreign		;Unser Spion [CHARACTER]{0}[/CHARACTER] wurde entdeckt, als er eine Mission gegen die [FACTION]{1}[/FACTION] vorbereitete.\n\nTypischerweise hätten sie entkommen können, obwohl sie entdeckt wurden. Aber die tiefgründigen und geheimnisvollen psychischen Fähigkeiten der {2} haben es ihnen ermöglicht, unseren Spion abzufangen.\n\nDie {1} haben {0}[/B] nun [B]hingerichtet.
 
-Queue		;Queue
+Queue		;Warteschlange
 Plus X queued missions		;+{0} Missionen in der Warteschlange
 
 Known Stars Planets Moons		;Bekannte Sterne, Planeten & Monde
@@ -7230,31 +7230,31 @@ Quest General Description Defend Colony		;Unsere militärischen Befehlshaber bit
 
 Quest General Description Obtain Artifact		;{1} bittet darum, dass wir {3}[/HL], ein uraltes Artefakt, beschaffen. {2} ist für {0} sehr wertvoll, da es eine wichtige Rolle in seiner Geschichte spielt. Sie wollen es zurück und bitten Sie daher, es für sie zu finden.
 
-Quest Pirate Title Rescue Character		;Rettungscharakter
-Quest Pirate Description Rescue Character		;Retten Sie {0} {1}, gefangen von den {2}
+Quest Pirate Title Rescue Character		;Rettet Charakter
+Quest Pirate Description Rescue Character		;Rettet {0} {1}, gefangen von den {2}
 Quest Pirate Title Destroy Enemy Base		;Basis zerstören
-Quest Pirate Description Destroy Enemy Base		;Zerstören Sie {0} der {1}
+Quest Pirate Description Destroy Enemy Base		;Zerstört {0} der {1}
 Quest Pirate Title Destroy Enemy Character		;Charakter meucheln
-Quest Pirate Description Destroy Enemy Character		;Meucheln Sie {0} {1} der {2}
+Quest Pirate Description Destroy Enemy Character		;Meuchelt {0} {1} der {2}
 Quest Pirate Title Destroy Enemy Facility		;Anlage zerstören
-Quest Pirate Description Destroy Enemy Facility		;Zerstören Sie {0} bei {1} der {2}
+Quest Pirate Description Destroy Enemy Facility		;Zerstörte {0} bei {1} der {2}
 Quest Pirate Title Defend Colony		;Kolonie verteidigen
-Quest Pirate Description Defend Colony		;Verteidigen Sie {0} für {1} Jahre
+Quest Pirate Description Defend Colony		;Verteidigt {0} für {1} Jahre
 Quest Pirate Title Defend Base		;Basis verteidigen
-Quest Pirate Description Defend Base		;Verteidigen Sie {0} für {1} Jahre
+Quest Pirate Description Defend Base		;Verteidigt {0} für {1} Jahre
 Quest Pirate Title Destroy Pirate Base		;Piratenbasis zerstören
-Quest Pirate Description Destroy Pirate Base		;Zerstören Sie {0} der {1}
+Quest Pirate Description Destroy Pirate Base		;Zerstört {0} der {1}
 Quest Pirate Title Destroy Pirate Ship		;Piratenschiff zerstören
-Quest Pirate Description Destroy Pirate Ship		;Zerstören Sie {0} ({1}) der {2}
+Quest Pirate Description Destroy Pirate Ship		;Zerstört {0} ({1}) der {2}
 Quest Pirate Title Clear Creatures From Location		;Kreaturen vom Standort entfernen
-Quest Pirate Description Clear Creatures From Location		;Entfernen Sie alle gefährlichen Kreaturen von Ort {0}.
+Quest Pirate Description Clear Creatures From Location		;Entfernt alle gefährlichen Kreaturen von Ort {0}.
 Quest Pirate Title Destroy Creature		;Kreatur zerstören
-Quest Pirate Description Destroy Creature		;Zerstören Sie {0}, zuletzt gesehen bei {1}
+Quest Pirate Description Destroy Creature		;Zerstört {0}, zuletzt gesehen bei {1}
 Quest Pirate Title Deliver Resources		;Ressourcen bereitstellen
-Quest Pirate Description Deliver Resources		;Liefern Sie {0} {1} an {2}
+Quest Pirate Description Deliver Resources		;Liefert {0} {1} an {2}
 
 Quest Pirate Title Obtain Artifact		;Artefakt erlangen
-Quest Pirate Description Obtain Artifact		;Erhalten Sie {0}, zuletzt gesehen bei {1}
+Quest Pirate Description Obtain Artifact		;Erhaltet {0}, zuletzt gesehen bei {1}
 
 Quest General Reward Description REQUESTER		;{0} bietet die folgende Belohnung für die Erfüllung dieses Vertrags:
 
@@ -7268,21 +7268,21 @@ Contract Completed		;Vertrag abgeschlossen
 Contract Assigned		;Vertrag zugewiesen
 
 GameEventTriggerType DeliverResources		;Ressourcen bereitstellen
-GameEventTriggerType Destroy		;Zerstören Sie
-GameEventTriggerType Assassinate		;Meucheln Sie
+GameEventTriggerType Destroy		;Zerstört
+GameEventTriggerType Assassinate		;Meuchelt
 GameEventTriggerType Acquire		;Erfassen Sie
-GameEventTriggerType Rescue Character		;Rettung
-GameEventTriggerType Steal Artifact		;Stehlen Sie
-GameEventTriggerType DateReached		;Verteidigen Sie
+GameEventTriggerType Rescue Character		;Rettet
+GameEventTriggerType Steal Artifact		;Stehlt
+GameEventTriggerType DateReached		;Verteidigt
 GameEventTriggerType DestroyAllHostileCreaturesAtLocation		;Kreaturen am Standort löschen
 GameEventTriggerType ResearchBreakthrough		;Vollständige Forschung
 GameEventTriggerType ResearchBreakthroughSteal		;Forschung stehlen
-GameEventTriggerType Build		;Bauen Sie
+GameEventTriggerType Build		;Baut
 GameEventTriggerType ConquerColony		;Kolonie erobern
-GameEventTriggerType DestroyShipRole		;Zerstören Sie
-GameEventTriggerType EmpireBuildShipRole		;Bauen Sie
-GameEventTriggerType EmpireCashflowLevel		;Erreichen Sie Empire Cashflow
-GameEventTriggerType EmpirePopulationLevel		;Achieve Empire Bevölkerung
+GameEventTriggerType DestroyShipRole		;Zerstört
+GameEventTriggerType EmpireBuildShipRole		;Baut
+GameEventTriggerType EmpireCashflowLevel		;Erreicht Reichs- Cashflow
+GameEventTriggerType EmpirePopulationLevel		;Erreicht  Reichs-Bevölkerung
 GameEventTriggerType EmpireRelationChange		;Neuen Vertrag unterzeichnen
 GameEventTriggerType EmpireRelationChangeIndependentColony		;Neuen Vertrag unterzeichnen
 GameEventTriggerType TroopGarrisonStrengthAtColony		;Defensive Truppenstärke der Garnison
@@ -7291,7 +7291,7 @@ GameEventTriggerType Title DeliverResources		;Ressourcen bereitstellen
 GameEventTriggerType Title Destroy		;Ziel zerstören
 GameEventTriggerType Title Acquire		;Ziel einfangen
 GameEventTriggerType Title Assassinate Character		;Charakter meucheln
-GameEventTriggerType Title Rescue Character		;Rettungscharakter
+GameEventTriggerType Title Rescue Character		;Charakter retten
 GameEventTriggerType Title Steal Artifact		;Artefakt stehlen
 GameEventTriggerType Title DateReached		;Ziel verteidigen
 GameEventTriggerType Title DestroyAllHostileCreaturesAtLocation		;Kreaturen am Standort löschen
@@ -7439,10 +7439,10 @@ Pirate factions cannot change their government		;Piratenfraktionen können ihre 
 
 Cannot build facilities at foreign colonies		;Kann keine Einrichtungen in fremden Kolonien bauen
 
-At least one of your hangar components must use an external component bay		;Mindestens eine Ihrer Hangarkomponenten muss eine externe Komponentenbucht nutzen, sonst können Schiffe und Raumjäger den Hangar nicht betreten und verlassen.
+At least one of your hangar components must use an external component bay		;Mindestens eine Eurer Hangarkomponenten muss eine externe Komponentenbucht nutzen, sonst können Schiffe und Raumjäger den Hangar nicht betreten und verlassen.
 
-Minimum Attack Level for Ships		;Mindestangriffsstufe für Schiffe
-Minimum Defend Level for Ships		;Mindestverteidigungslevel für Schiffe
+Minimum Attack Level for Ships		;Mindest-Angriffsstufe für Schiffe
+Minimum Defend Level for Ships		;Mindest-Verteidigungsstufe für Schiffe
 
 PolicyExplanation ShipAttackMinimumLevel		;Das Mindeststärkeverhältnis, das ein Schiff außerhalb einer Flotte benötigt, um ein feindliches Ziel anzugreifen. Bei dieser Bewertung wird die gesamte feindliche Stärke am Zielort berücksichtigt, z.B. alle feindlichen Schiffe am Ort oder alle feindlichen Kreaturen am Ort.\n\nDas Schiff wird das Ziel also nur dann angreifen, wenn es genügend andere Schiffe in der Nähe koordinieren kann, um alle feindlichen Bedrohungen am Zielort angemessen zu bewältigen (d.h. über genügend Stärke verfügt, um diesen Wert zu erreichen).\n\nDiese Einstellung bezieht sich auf [B]Angriffe auf Zielorte, an denen unser Reich keine Kolonien oder Basen hat[/B]. Beachten Sie, dass diese Einstellung nicht von Schiffen in Flotten verwendet wird.
 

@@ -2,7 +2,211 @@
 <ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Government>
 		<GovernmentId>32750</GovernmentId> <!-- Pirate Balanced -->
+		<LeaderTitle>Chefjäger</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0.1</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>true</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Blutig</string>
+			<string>Dread</string>
+			<string>Schmutzig</string>
+			<string>Böse</string>
+			<string>Eisen</string>
+			<string>Wilde</string>
+			<string>Grausam</string>
+			<string>Unheimlich</string>
+			<string>Bösartig</string>
+			<string>Einsam</string>
+			<string>Wilde</string>
+			<string>Furchterregend</string>
+			<string>Tödlich</string>
+			<string>Giftig</string>
+			<string>Mörderisch</string>
+			<string>Rot</string>
+			<string>Schwarz</string>
+			<string>Dunkelheit</string>
+			<string>Grimmig</string>
+			<string>Gespenstische</string>
+			<string>Bedrohlich</string>
+			<string>Blut</string>
+			<string>Brennende</string>
+			<string>Versteckt</string>
+			<string>Feuer</string>
+			<string>Verloren</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
 			<string>Sonne</string>
+			<string>Stern</string>
+			<string>Rock</string>
+			<string>Mond</string>
+			<string>Sturm</string>
+			<string>Fang</string>
+			<string>Klaue</string>
+			<string>Dolch</string>
+			<string>Blitzschlag</string>
+			<string>Flamme</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Piraten</string>
+			<string>Marodeure</string>
+			<string>Banditen</string>
+			<string>Buccaneers</string>
+			<string>Geächtete</string>
+			<string>Korsaren</string>
+			<string>Gangster</string>
+			<string>Prowler</string>
+			<string>Eindringlinge</string>
+			<string>Skyjackers</string>
+			<string>Gang</string>
+			<string>Rat</string>
+			<string>Netzwerk</string>
+			<string>Liga</string>
+			<string>Kraft</string>
+			<string>Clan</string>
+			<string>Behörde</string>
+			<string>Konföderation</string>
+			<string>Konföderation</string>
+			<string>Flotte</string>
+			<string>Konsortium</string>
+			<string>Syndikat</string>
+			<string>Kartell</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Piraten</Name>
+		<Description>Ausgewogene Piraten sind nicht stark auf ein bestimmtes Gebiet fokussiert. Sie sind vielseitig und können von allem etwas versuchen. Sie versuchen, Kolonien zu kontrollieren, Einnahmen aus Schutzvereinbarungen mit anderen Imperien zu erzielen und feindliche Schiffe und Basen zu kapern.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32751</GovernmentId>
+		<!-- Pirate Smuggler -->
 		<LeaderTitle>Chef-Händler</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -99,7 +303,7 @@
 			<string>Brennende</string>
 			<string>Versteckt</string>
 			<string>Feuer</string>
-			<string>Verloren</string>
+			<string></string>
 			<string>Schnell</string>
 			<string>Flink</string>
 			<string>Agil</string>
@@ -386,7 +590,7 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<Name>Raiders</Name>
-		<Description>Plünderer versuchen, Kolonien zu kontrollieren, sowohl unabhängige als auch solche, die sich im Besitz von Standardimperien befinden. Sie werden reich, indem sie den Reichtum dieser kontrollierten Kolonien abschöpfen. Um ihre Kontrolle zu festigen, bekämpfen sie konkurrierende rivalisierende Piraten und versuchen, Piratenbasen und Festungen in ihren Kolonien zu errichten.</Description>
+		<Description>Piraten versuchen, Kolonien zu kontrollieren, sowohl unabhängige als auch solche, die Standardimperien gehören. Sie werden reich, indem sie den Reichtum dieser kontrollierten Kolonien abschöpfen. Um ihre Kontrolle zu festigen, bekämpfen sie konkurrierende rivalisierende Piraten und versuchen, Piratenbasen und Festungen in ihren Kolonien zu errichten.</Description>
 	</Government>
 
 	<Government>
@@ -480,7 +684,7 @@
 		<EmpireNameAdjectives>
 			<string>Blutig</string>
 			<string>Dread</string>
-			<string></string>
+			<string>Schmutzig</string>
 			<string>Böse</string>
 			<string>Eisen</string>
 			<string>Wilde</string>

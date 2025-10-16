@@ -1183,8 +1183,8 @@ ComponentCategory Armor		;Panzerung
 ComponentCategory AssaultPod		;Enterkapseln
 ComponentCategory CargoBay		;Fracht-Module
 ComponentCategory Colonization		;Kolonisierung
-ComponentCategory CommandCenter		;Schiffs- u. Stationsbrücken
-ComponentCategory CommerceCenter		;Handelscenter-Module
+ComponentCategory CommandCenter		;Kommandozentrale
+ComponentCategory CommerceCenter		;Handelszentrale
 ComponentCategory Construction		;Konstruktion
 ComponentCategory Countermeasures		;Gegenmaßnahmen
 ComponentCategory CountermeasuresFleet		;Flotten-Gegenmaßnahmen
@@ -2031,10 +2031,10 @@ Construction Wait Time		;Wartezeit für Konstruktion
 BASENAME already built here		;{0} wurde hier bereits konstruiert
 SHIPROLE already under construction here		;{0} wird hier bereits konstruiert
 Ship Designs		;Designvorlagen für Schiffe und Raumbasen
-Unbuilt		;Nicht konstruiert
+Unbuilt		;Unfertig
 Normal		;Normal
 Destroyed		;Zerstört
-Disabled		;Deaktiviert
+Disabled		;Inaktiv
 Enabled		;Aktiviert
 Automated		;Automatisiert
 Manually Controlled		;Manuell Gesteuert
@@ -4884,8 +4884,8 @@ ComponentCategory Description Armor		;Komponenten aus der Kategorie 'Panzerung' 
 ComponentCategory Description AssaultPod		;Komponenten aus der Kategorie 'Enterkapseln' werden verwendet, um Entertrupps gegen nahegelegene feindliche Schiffe oder Raumbasen zu entsenden, so dass Ihr das Ziel überfallen oder erobern könnt. Die bewaffneten Entertrupps reisen eine kurze Strecke zum Ziel, entern das feindliche Schiff und kämpfen mit den Verteidigern.\n\nBitte beachtet, dass die Schilde des Zielschiffs oder -stützpunkts deaktiviert sein müssen, bevor die Enterkapsel das Ziel erfolgreich entern kann.\n\nEntertrupps dienen auch als Verteidigungskräfte, wenn ein Schiff oder eine Raumbasis von Euch durch einem Angreifer geentert wird.
 ComponentCategory Description CargoBay		;Komponenten aus der Kategorie 'Fracht-Module' dienen der Aufbewahrung von Gütern während des Transports oder zur Lagerung derselben.\n\nSie werden meist in Raumhäfen und Bergbaustationen verwendet, um Ressourcen für eine spätere Verwendung zu lagern.\n\nSie werden auch auf Frachtschiffen oder Bergbauschiffen verwendet, um Ressourcen zwischen verschiedenen Orten zu transportieren.\n\nKonstruktions-Schiffe benötigen auch Fracht-Modulkomponenten, um bei der Konstruktion neuer Raumbasen Ressourcen zwischenzulagern.
 ComponentCategory Description Colonization		;Komponenten aus der Kategorie 'Kolonisierung' enthalten alles, was für die Gründung einer Kolonie auf einem neuen Planeten notwendig ist.\n\nKolonisationsmodule sind sehr groß und benötigen viele Ressourcen für die Konstruktion. Diese Ressourcen sind der Startbonus für die Siedler der neuen Kolonie.\n\nDie Siedler werden im Kolonisationsmodul in einen Stasis-Schlaf versetzt und können unbegrenzt lange überleben, bis sie wieder aufgewckt werden, sobald sie die neue Kolonie erreichen.
-ComponentCategory Description CommandCenter		;Komponenten aus der Kategorie 'Schiffs- u. Stationsbrücken' sind das Kontrollzentrum eines Schiffes, einer Raumbasis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nSchiffs- u. Stationsbrücken können Boni und andere Modifikatoren bereitstellen, die die Eigenschaften eines Schiffes verbessern.
-ComponentCategory Description CommerceCenter		;Komponenten aus der Kategorie 'Handelscenter-Module' machen eine Raumbasis zu einem Handelszentrum, in welchem Ressourcen ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Ressourcen diesem Standort gehandelt werden.
+ComponentCategory Description CommandCenter		;Komponenten aus der Kategorie 'Kommandozentrale' sind das Kontrollzentrum eines Schiffes, einer Raumbasis oder eines Jägers, d.h. die Brücke oder das Cockpit.\n\nSchiffs- u. Stationsbrücken können Boni und andere Modifikatoren bereitstellen, die die Eigenschaften eines Schiffes verbessern.
+ComponentCategory Description CommerceCenter		;Komponenten aus der Kategorie 'Handelszentrum' machen eine Raumbasis zu einem Ort, in welchem Ressourcen ge- und verkauft werden.\n\nHandelszentren können einen Bonus auf das Handelseinkommen gewähren, wenn Ressourcen diesem Standort gehandelt werden.
 ComponentCategory Description Construction		;Komponenten aus der Kategorie 'Konstruktion' ermöglichen die Konstruktion von neuen Schiffen und Raumbasen. Diese bieten auch die Möglichkeit, bestehende Schiffe und Raumbasen zu reparieren und umzurüsten.\n\nSchiffswerft-Komponenten werden normalerweise in Raumhäfen integriert und Werften mit höherer Technologie-Stufe konstruieren und reparieren Schiffe in der Regel schneller. Einige Werften können sogar mehrere Schiffe gleichzeitig konstruieren.
 ComponentCategory Description Countermeasures		;Komponenten aus der Kategorie 'Gegenmaßnahmen' erhöhen die Wahrscheinlichkeit, im Kampf dem Beschuss durch feindliche Waffen zu entgehen. Diese leistungsstarken elektronischen Gegenmaßnahmen lenken viele Arten von Waffen ab und ermöglichen es Euch, dem gegnerischen Waffenfeuer auszuweichen.
 ComponentCategory Description CountermeasuresFleet		;Komponenten aus der Kategorie 'Flotten-Gegenmaßnahmen' kommen allen Schiffen einer Flotte zugute und ermöglichen es allen Schiffen der Flotte, dem feindlichen Waffenfeuer effektiver auszuweichen.
@@ -5205,7 +5205,7 @@ FLEET investigating		;{0} untersucht
 Multiple Fleets investigating		;Mehrere Flotten am Untersuchen
 No Attack or Raid fleets available		;Keine Angriffs- oder Plünderungsflotten verfügbar
 
-Can only have one Command Center		;Kann nur eine Schiffs- oder Stationsbrücke haben
+Can only have one Command Center		;Kann nur eine Kommandozentrale haben
 Ctrl-click for x5, Shift-click for x10		;Strg-Klick für x5, Shift-Klick für x10
 Construction Ship Repairing		;{0} repariert {1}
 Multiple Construction Ships repairing		;Mehrere Konstruktionsschiffe am Reparieren

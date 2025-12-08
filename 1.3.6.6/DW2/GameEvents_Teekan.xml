@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Wander Time (Teekan)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>135</Id1> <!-- Colony Event Id, Current Value = Wander Time -->
+				<Id2>-1</Id2>
+				<!-- 0=Send Message -->
+				<Id3>-1</Id3>
+				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1>
+				<!-- 1=Restart With New Duration Period -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Wanderzeit</MessageTitle>
+				<Description>Unsere kürzliche Ansiedlung einer neuen Kolonie in [LOCATION]{6}[/LOCATION] hat bei unserer Teekan-Bevölkerung eine neue Welle der Wanderlust und des Nomadentums entfacht.
+
+Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes Migrationsziel sein.</Description>
+				<ImageFilepath>Environment/Events/Wander Time</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2>
+				<!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3>
+				<!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1>
+				<!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<GameEvent>
+		<Name>Great Bakdur Hunt (Teekan)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+		<TriggerActions>
+			
+			<GameEventAction>
+				<Type>SetGlobalVariableRandomRange</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<Id2>-1</Id2>
+				<Value1>0</Value1>
+				<Value2>100</Value2>
+				<GeneratedItemName>Great Bakdur Hunt Outcome</GeneratedItemName>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>136</Id1> <!-- Colony Event Id, Current Value = Mediocre Bakdur Hunt -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>0</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>15</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>137</Id1>
+				<!-- Colony Event Id, Current Value = Good Bakdur Hunt -->
+				<Id2>0</Id2>
+				<!-- 0=Send Message -->
+				<Id3>-1</Id3>
+				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1>
+				<!-- 1=Restart With New Duration Period -->
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>15</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>90</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>138</Id1>
+				<!-- Colony Event Id, Current Value = Outstanding Bakdur Hunt -->
+				<Id2>0</Id2>
+				<!-- 0=Send Message -->
+				<Id3>-1</Id3>
+				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1>
+				<!-- 1=Restart With New Duration Period -->
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>90</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>100</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+
+		</TriggerActions>
+	</GameEvent>
+
+	<GameEvent>
+		<Name>Outstanding Bakdur Hunt Spice (Teekan)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>18</Id1>
+				<Id2>-1</Id2>
+				<Value1>1000</Value1>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+</ArrayOfGameEvent>

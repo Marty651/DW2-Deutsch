@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResearchProjectDefinition>
+		<ResearchProjectId>7</ResearchProjectId>
+		<Name>Gepulste Wellenwaffen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>187.5</Size>
+		<InitiationCost>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>50</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>0</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>768</ResearchProjectId> <!-- Early Pulse Weapons -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>411</ComponentId> <!-- Pulse Wave Cannon [ftr] -->
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>412</ComponentId> <!-- Pulse Wave Cannon [L] -->
+				<Level>0</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>48</ResearchProjectId>
+		<Name>Verbesserte Wellenwaffen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2000</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>0</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>7</ResearchProjectId> <!-- Pulsed Wave Weapons -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>411</ComponentId> <!-- Pulse Wave Cannon [ftr] -->
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>412</ComponentId> <!-- Pulse Wave Cannon [L] -->
+				<Level>1</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>106</ResearchProjectId>
+		<Name>Fortgeschrittene Wellenwaffen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>6000</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchWeapons</ResearchBonusType>
+			<ResearchBonusAmount>0.2</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>0</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>48</ResearchProjectId> <!-- Enhanced Wave Weapons -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>411</ComponentId> <!-- Pulse Wave Cannon [ftr] -->
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>412</ComponentId> <!-- Pulse Wave Cannon [L] -->
+				<Level>2</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>161</ResearchProjectId>
+		<Name>Überlegene Wellenwaffen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>54000</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchWeapons</ResearchBonusType>
+			<ResearchBonusAmount>0.5</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>0</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>106</ResearchProjectId> <!-- Advanced Wave Weapons -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>411</ComponentId> <!-- Pulse Wave Cannon [ftr] -->
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>248</ComponentId> <!-- Pulse Wave Cannon [S] -->
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>251</ComponentId> <!-- Pulse Wave Cannon [M] -->
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>412</ComponentId> <!-- Pulse Wave Cannon [L] -->
+				<Level>3</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>921</ResearchProjectId>
+		<Name>Sichere Höhlen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>165</Size>
+		<InitiationCost>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>50</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>114</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>266</ResearchProjectId> <!-- Armor Plating -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>131</short> <!-- Defensive Caverns -->
+		</PlanetaryFacilityIds>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1008</ResearchProjectId>
+		<Name>Flüssige Energiespeicherung</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>880</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId> <!-- Tyderios -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>70</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>260</ResearchProjectId> <!-- Advanced Deflectors -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>413</ComponentId> <!-- HydroCore Capacitor -->
+				<Level>0</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1009</ResearchProjectId>
+		<Name>Hochdruck-Energiespeicher</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2640</Size>
+		<InitiationCost>
+			<Money>8000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId> <!-- Tyderios -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchShields</ResearchBonusType>
+			<ResearchBonusAmount>0.2</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>70</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1008</ResearchProjectId> <!-- Liquid Energy Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>413</ComponentId> <!-- HydroCore Capacitor -->
+				<Level>1</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1010</ResearchProjectId>
+		<Name>Extraktion von Quantenenergie</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>15840</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId> <!-- Tyderios -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchShields</ResearchBonusType>
+			<ResearchBonusAmount>0.5</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>70</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1009</ResearchProjectId> <!-- High Pressure Energy Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>413</ComponentId> <!-- HydroCore Capacitor -->
+				<Level>2</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1011</ResearchProjectId>
+		<Name>Restriktive Traktorbalken</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>880</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>28</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>35</ResearchProjectId> <!-- Tractor Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId> <!-- Constrictor Beam [S] -->
+				<Level>0</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1012</ResearchProjectId>
+		<Name>Heavy Duty Traktor Balken</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2640</Size>
+		<InitiationCost>
+			<Money>8000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+					<Amount>800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>28</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1011</ResearchProjectId> <!-- Restrictive Tractor Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId> <!-- Constrictor Beam [S] -->
+				<Level>1</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1013</ResearchProjectId>
+		<Name>Immobilisierende Traktorbalken</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>15840</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>28</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1012</ResearchProjectId> <!-- Heavy Duty Tractor Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId> <!-- Constrictor Beam [S] -->
+				<Level>2</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

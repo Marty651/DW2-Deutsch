@@ -80,8 +80,8 @@ ShipMission Description LoadCargo		;Treibstoff aufnehmen bei {0}
 ShipMission Description LoadCargo Resources		;Kaufe {1} bei {0}
 ShipMission Description TransferFuel		;Transferiere Treibstoff zu {0}
 ShipMission Description Mine		;Baut {0} ab, ladet es bei {1} ab
-ShipMission Description MineLoad		;Baut Treibstoff-Resource ab bei {0}
-ShipMission Description MineLoad NonFuel		;Baut Resourcen ab bei {0}
+ShipMission Description MineLoad		;Baut Treibstoff-Ressource ab bei {0}
+ShipMission Description MineLoad NonFuel		;Baut Ressourcen ab bei {0}
 ShipMission Description Move		;Bewege zu {0}
 ShipMission Description Move Coordinates		;Bewege zu {0}, {1}
 ShipMission Description Patrol		;Patrouilliere {0}
@@ -420,7 +420,7 @@ GameTaskType JoinFleet None		;Schiff {0} zur Flotte hinzufügen
 GameTaskType JoinFleetMultiple		;Schiffe zur Flotte hinzufügen
 GameTaskType JoinFleetMultiple Specific		;Schiffe zur Flotte ({0}) hinzufügen
 GameTaskType LeaveFleet		;Flotte verlassen ({0})
-GameTaskType OrderResource		;Resouce anfordern
+GameTaskType OrderResource		;Ressource anfordern
 GameTaskType PerformExpense		;Kosten anzeigen
 GameTaskType PerformIncome		;Einkommen anzeigen
 GameTaskType EliminatePirateInfluence		;Beseitigt Pirateneinfluss bei {0}
@@ -2280,7 +2280,7 @@ Auto-generate new Design using this Ship Hull		;Neue Designvorlage automatisch m
 
 Unknown Ship		;Unbekanntes Schiff
 Unknown Empire		;Unbekanntes Volk
-Unknown resource		;Unbekannte Resource
+Unknown resource		;Unbekannte Ressource
 Unknown Ruins		;Unbekannte Ruinen
 Unknown Bonus		;Unbekannter Bonus
 Unknown Creature		;Unbekannte Kreatur
@@ -3730,7 +3730,7 @@ TradeOfferItem Description MapGalaxy		;Galaxiekarte (alle Erkundungen)
 TradeOfferItem Description MapTerritory		;Gebietskarte (Systeme Eures Herrschaftsgebietes)
 TradeOfferItem Description Money		;{0} Credits
 TradeOfferItem Description ResearchProjects		;Forschungsprojekt: {0}
-TradeOfferItem Description Resources		;Resource: {0} x {1}
+TradeOfferItem Description Resources		;Ressource: {0} x {1}
 TradeOfferItem Description SpecialLocations		;Unbekannter spezieller Ort
 TradeOfferItem Description SpecialLocations Known		;Spezieller Ort: {0}
 TradeOfferItem Description SystemMaps		;Unbekannte Systemkarte
@@ -4722,8 +4722,8 @@ million		;Millionen
 Assimilation		;Assimilation
 Add New Population		;Neue Bevölkerung hinzufügen
 Remove Population		;Bevölkerung entfernen
-Remove Resource		;Resource entfernen
-Add New Resource		;Neue Resource hinzufügen
+Remove Resource		;Ressource entfernen
+Add New Resource		;Neue Ressource hinzufügen
 Construction Progress		;Konstruktions-Fortschritt
 Remove Planetary Facility		;Planetare Einrichtung entfernen
 Remove Ruins		;Ruinen entfernen
@@ -6769,7 +6769,7 @@ ShakturiMissionIntro_CaptureShakturiAdmiral		;Die Shakturi sind in der Lage, ihr
 ShakturiMissionCompletion_CaptureShakturiAdmiral		;Weltraumschlachten! Das Aufeinanderprallen großer Schiffe. Die Traurigkeit biologischer Kreaturen, die in das Vakuum des Abgrunds gesaugt werden. Sehr dramatisch!\n\nUnd was noch wichtiger ist: Sie haben einen Shakturi-Admiral gefangen genommen. Sie müssen alles herausfinden, was diese Kreatur Ihnen sagen kann. Zweifellos werden Sie viel über die Denkweise dieses furchterregenden Gegners erfahren, was Ihnen bei Ihren Bemühungen, die Shakturi zu besiegen, helfen wird. Psychische Angriffe und Manipulationen sind ein wichtiger Teil ihrer Strategien, die es ihnen ermöglichen, Ihre Schiffe außer Gefecht zu setzen und sogar den Verstand Ihrer Besatzungen zu kontrollieren, um sie zu zwingen, auf ihre eigenen Verbündeten zu schießen.\n\nSie müssen weiterhin Wege finden, sich ihren Bemühungen zu widersetzen. Nur wenn Sie mehr über die geheimnisvollen Künste der psychischen Verteidigung lernen, können Sie Ihre Schiffe, Ihr Imperium und alle empfindungsfähigen Spezies in dieser Galaxie vollständig schützen.
 ShakturiMissionIntro_AddMemberToFreedomAlliance		;Organische Wesen, so fortschrittlich und erfolgreich Sie auch sein mögen, Sie können die Shakturi nicht allein besiegen.\n\nZwischen den Sternen werden Sie andere Zivilisationen finden, die ebenfalls gegen die Shakturi kämpfen. Alleine können sie wenig für Ihre Sache tun, aber wenn es Ihnen gelingt, einige von ihnen in Ihre Freiheitsallianz einzubinden, wird der Widerstand gegen die Shakturi umso stärker sein.\n\nWir bitten Sie dringend, andere Reiche aufzusuchen und [HL]sie davon zu überzeugen, der Freiheitsallianz beizutreten[/HL].
 ShakturiMissionCompletion_AddMemberToFreedomAlliance		;
-ShakturiMissionIntro_ResearchPinnacleTechs		;Biologische Einheiten, Sie haben große Fortschritte gemacht. Wir sind wirklich beeindruckt. Manchmal haben wir befürchtet, dass Sie nicht so lange überleben würden, aber jetzt sind Sie hier!\n\n Der vor Ihnen liegende Kampf mag gewaltig erscheinen, aber Sie haben große Fortschritte gemacht, nicht zuletzt wegen Ihrer Hingabe an die Erforschung der Shakturi-Technologie und der Mittel zu ihrer Bekämpfung.\n\nHören Sie jetzt nicht auf. Sie müssen nicht nur die Technologie des Feindes verstehen, sondern sie auch beherrschen, indem Sie alles wissen, was man in einem der Wissenszweige wissen kann.\n\nWir bitten Sie dringend, sich der Erforschung von [FORSCHUNG]{0}[/FORSCHUNG] zu widmen. Dies wird Ihre Fähigkeit verbessern, den vielen Angriffen des Feindes zu widerstehen und Sie dem Sieg ein Stück näher bringen.
+ShakturiMissionIntro_ResearchPinnacleTechs		;Biologische Einheiten, Sie haben große Fortschritte gemacht. Wir sind wirklich beeindruckt. Manchmal haben wir befürchtet, dass Sie nicht so lange überleben würden, aber jetzt sind Sie hier!\n\n Der vor Ihnen liegende Kampf mag gewaltig erscheinen, aber Sie haben große Fortschritte gemacht, nicht zuletzt wegen Ihrer Hingabe an die Erforschung der Shakturi-Technologie und der Mittel zu ihrer Bekämpfung.\n\nHören Sie jetzt nicht auf. Sie müssen nicht nur die Technologie des Feindes verstehen, sondern sie auch beherrschen, indem Sie alles wissen, was man in einem der Wissenszweige wissen kann.\n\nWir bitten Sie dringend, sich der Erforschung von [RESEARCH]{0}[/RESEARCH] zu widmen. Dies wird Ihre Fähigkeit verbessern, den vielen Angriffen des Feindes zu widerstehen und Sie dem Sieg ein Stück näher bringen.
 ShakturiMissionCompletion_ResearchPinnacleTechs		;
 ShakturiMissionIntro_DestroyShakturiFlagship		;Lebewesen, es bietet sich eine bemerkenswerte Gelegenheit.\n\nDie Shakturi haben viel Personal und Forschung an Bord ihrer Flaggschiffe. Die Zerstörung des Schiffes wird dem Feind einen gewaltigen Schlag versetzen, der ihn daran hindern wird, seine Angriffe fortzusetzen.\n\nWir fordern Sie auf, Ihre Kräfte zu sammeln und [HL]das Shakturi-Flaggschiff '{0}'[/HL] zu zerstören. Schlagen Sie zu für die galaktische Freiheit!
 ShakturiMissionCompletion_DestroyShakturiFlagship		;
@@ -6805,7 +6805,7 @@ Your fleet is comprised of the following ships		;Ihre Flotte besteht aus den fol
 StartNewGame_YourStartingSituationRefugeeFleet		;Ausgangssituation der Flüchtlingsflotte
 Your Empire Tech Level		;Ihr Empire Tech Level
 
-Refugee Fleet Situation Introduction		;[SCHLECHT]Grausame außerirdische Invasoren haben Sie gezwungen, aus Ihrer Heimatwelt zu fliehen, und Sie sind auf der Flucht![/SCHLECHT]\n\nSie haben keine Kolonien. Stattdessen beginnen Sie mit einer kleinen Flotte von Schiffen, darunter einige Militärschiffe, einige Tanker, einige Erkundungsschiffe und Ihr einsames Kolonieschiff. Ihr Ziel ist es, eine neue Heimatwelt zu gründen, dann eine neue Regierung zu wählen und zum normalen Spiel überzugehen.[B]Aber wohin werden Sie gehen?[/B]\n\nIn alten Mythen wird von einer Zeit in der fernen Vergangenheit berichtet, als eine Gruppe Ihres Volkes ins Exil geschickt wurde, Ihre Heimatwelt zurückließ und weit über die Sterne reiste, um ihre eigene neue Welt zu gründen. Mit der Zeit ging der Kontakt zu ihnen verloren. [Können wir sie wiederfinden und unsere Kräfte bündeln?[/HL][B]Wir haben mehrere Hinweise auf ihren Aufenthaltsort in der Galaxis. Wir sollten zu diesen Koordinaten (die auf unserer Karte markiert sind) reisen und nachforschen.[/B] Vielleicht finden wir unsere lange verschollenen Brüder und werden wieder mit ihnen vereint.\n\nAlternativ dazu können wir, wenn wir sie nicht finden können, auch eine neue Kolonie gründen. Wir haben ein riesiges Kolonieschiff, das die gesamte verbliebene Bevölkerung unserer Fraktion enthält. Das können wir nutzen, um unsere neue Heimatwelt zu gründen. Wir sollten sorgfältig nach einem Planeten suchen, der für unsere Ethnie geeignet ist. Es ist wichtig, dass wir unser Kolonieschiff schützen. Wenn wir dieses verlieren, haben wir alles verloren. Sobald wir unsere neue Heimatwelt errichtet haben, wählen wir eine neue Regierung und werden zu einem normalen Imperium mit allen üblichen Funktionen: Forschung, Bau, Bergbau und weitere Kolonisierung. Wenn wir nicht innerhalb von 2-3 Monaten manuell eine neue Regierung auswählen, wird automatisch eine Standardregierung für uns gewählt.
+Refugee Fleet Situation Introduction		;[BAD]Grausame außerirdische Invasoren haben Sie gezwungen, aus Ihrer Heimatwelt zu fliehen, und Sie sind auf der Flucht![/BAD]\n\nSie haben keine Kolonien. Stattdessen beginnen Sie mit einer kleinen Flotte von Schiffen, darunter einige Militärschiffe, einige Tanker, einige Erkundungsschiffe und Ihr einsames Kolonieschiff. Ihr Ziel ist es, eine neue Heimatwelt zu gründen, dann eine neue Regierung zu wählen und zum normalen Spiel überzugehen.[B]Aber wohin werden Sie gehen?[/B]\n\nIn alten Mythen wird von einer Zeit in der fernen Vergangenheit berichtet, als eine Gruppe Ihres Volkes ins Exil geschickt wurde, Ihre Heimatwelt zurückließ und weit über die Sterne reiste, um ihre eigene neue Welt zu gründen. Mit der Zeit ging der Kontakt zu ihnen verloren. [Können wir sie wiederfinden und unsere Kräfte bündeln?[/HL][B]Wir haben mehrere Hinweise auf ihren Aufenthaltsort in der Galaxis. Wir sollten zu diesen Koordinaten (die auf unserer Karte markiert sind) reisen und nachforschen.[/B] Vielleicht finden wir unsere lange verschollenen Brüder und werden wieder mit ihnen vereint.\n\nAlternativ dazu können wir, wenn wir sie nicht finden können, auch eine neue Kolonie gründen. Wir haben ein riesiges Kolonieschiff, das die gesamte verbliebene Bevölkerung unserer Fraktion enthält. Das können wir nutzen, um unsere neue Heimatwelt zu gründen. Wir sollten sorgfältig nach einem Planeten suchen, der für unsere Ethnie geeignet ist. Es ist wichtig, dass wir unser Kolonieschiff schützen. Wenn wir dieses verlieren, haben wir alles verloren. Sobald wir unsere neue Heimatwelt errichtet haben, wählen wir eine neue Regierung und werden zu einem normalen Imperium mit allen üblichen Funktionen: Forschung, Bau, Bergbau und weitere Kolonisierung. Wenn wir nicht innerhalb von 2-3 Monaten manuell eine neue Regierung auswählen, wird automatisch eine Standardregierung für uns gewählt.
 
 Cannot change government away from Refugee Fleet until establish first colony		;Kann die Regierung nicht von der Flüchtlingsflotte ablösen, bis die erste Kolonie gegründet ist
 
@@ -7021,7 +7021,7 @@ Who Is Great		;Wer ist großartig
 Who Is Great Description		;Die Zeit ist gekommen, die Großen Atuks der Zukunft zu bestimmen. Wir müssen zwischen den folgenden beiden Kandidaten wählen: [CHARACTER]{0}[/CHARACTER] und [CHARACTER]{1}[/CHARACTER].\n\nDer ausgewählte Charakter erhält die Eigenschaft [B]Großes Potenzial[/B] und kann in Zukunft als [HL]Der Große[/HL] ausgewählt werden.\n\nDie Eigenschaft Großes Potenzial verleiht dem Charakter eine zusätzliche positive Eigenschaft. Außerdem erhöht sich ihre Fertigkeitsstufe.\n\nWen sehen wir mit großem Potenzial?
 
 Direction Doubt		;Richtung Zweifel
-Direction Doubt Description		;Einige unserer Leute bezweifeln die Richtigkeit unseres jüngsten Wechsels der Großen Richtung. Sie sind der Meinung, dass wir uns für etwas anderes hätten entscheiden sollen. Dieses Murren und diese Ungewissheit haben in unserem gesamten Reich für Unruhe gesorgt. So werden wir in den nächsten 2 Jahren unter [SCHLECHT]-10% Kolonieglück[/SCHLECHT] in unserem Reich leiden.
+Direction Doubt Description		;Einige unserer Leute bezweifeln die Richtigkeit unseres jüngsten Wechsels der Großen Richtung. Sie sind der Meinung, dass wir uns für etwas anderes hätten entscheiden sollen. Dieses Murren und diese Ungewissheit haben in unserem gesamten Reich für Unruhe gesorgt. So werden wir in den nächsten 2 Jahren unter [BAD]-10% Kolonieglück[/BAD] in unserem Reich leiden.
 
 Rapid Unscheduled Disassembly		;Schnelle außerplanmäßige Demontage
 Rapid Unscheduled Disassembly Description		;Die Atuuk-Technik schlägt wieder zu! Eines unserer Schiffe, die {0} {1}, ist plötzlich explodiert. Alle an Bord wurden getötet.\n\n Wir sollten unsere Schiffe wahrscheinlich robuster bauen. Aber das dauert zu lange und ist nicht die Art der Atuuk.
@@ -7032,7 +7032,7 @@ What Does This Button Do Description		;Unser jüngster kritischer Forschungserfo
 Push the Button		;Drücken Sie den Knopf
 Don't Push the Button		;Drücken Sie nicht auf den Knopf
 
-WhatDoesThisButtonDo Scientist Methodical Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]Methodisch[/CHARACTER] erworben. Dadurch wird es unwahrscheinlicher, dass sie kritische Forschungserfolge oder Misserfolge melden.\n\n Leider scheinen wir irgendwie auch [SCHLECHT]unser Reichsglück[/SCHLECHT] negativ beeinflusst zu haben. Man kann nie wissen, was diese Knöpfe bewirken...
+WhatDoesThisButtonDo Scientist Methodical Description		;Einer unserer Wissenschaftler, [CHARACTER]{0}[/CHARACTER], hat die Eigenschaft [CHARACTER]Methodisch[/CHARACTER] erworben. Dadurch wird es unwahrscheinlicher, dass sie kritische Forschungserfolge oder Misserfolge melden.\n\n Leider scheinen wir irgendwie auch [BAD]unser Reichsglück[/BAD] negativ beeinflusst zu haben. Man kann nie wissen, was diese Knöpfe bewirken...
 
 WhatDoesThisButtonDo No Scientist Description		;Leider scheinen wir irgendwie [BAD]das Glück unseres Imperiums negativ beeinflusst zu haben[/BAD]. Man kann nie wissen, was diese Knöpfe bewirken ...
 
@@ -7769,7 +7769,7 @@ Independent Colony Cancels Trade Treaty With Other Title		;{0} kündigt Handelsv
 Independent Colony Cancels Trade Treaty With Other Description		;[FACTION]{0}[/FACTION] hat den Handelsvertrag mit [FACTION]{1}[/FACTION] gekündigt!\n\nDies steht im Einklang mit der [HL]Strafklausel[/HL] unseres Handelsvertrags mit {0}, die sie verpflichtet, den Handel mit jedem zu beenden, der uns den Krieg erklärt.\n\nStrafklauseln können so nützlich sein!...
 
 Account Confiscation Title		;Konto Konfiszierung
-Account Confiscation Description		;Die jüngste Kriegserklärung der [FACTION]{0}[/FACTION] gegen uns hat die [HL]Kontokonfiszierung[/HL] ausgelöst.\n\nDamit können wir einen Bonus von {1} aller Handelseinnahmen mit der {0} im vergangenen Jahr kassieren!\n\nDiese Kontokonfiszierung belief sich auf [GUT]{2} Credits[/GUT].
+Account Confiscation Description		;Die jüngste Kriegserklärung der [FACTION]{0}[/FACTION] gegen uns hat die [HL]Kontokonfiszierung[/HL] ausgelöst.\n\nDamit können wir einen Bonus von {1} aller Handelseinnahmen mit der {0} im vergangenen Jahr kassieren!\n\nDiese Kontokonfiszierung belief sich auf [GOOD]{2} Credits[/GOOD].
 
 Account Confiscation Target Title		;Konto Konfiszierung
 Account Confiscation Target Description		;Unsere jüngste Kriegserklärung gegen die [FACTION]{0}[/FACTION] hat die [HL]Kontokonfiszierung[/HL] aktiviert.\n\nDadurch konnte die {0} ein Bonuseinkommen von {1} aller Handelseinnahmen mit uns im vergangenen Jahr erpressen! Obwohl das Geld von unseren Händlern und nicht von uns direkt gestohlen wurde, ist dies immer noch ein ungeheuerlicher Missbrauch!\n\nDiese Konfiszierung hat insgesamt [BAD]{2} Credits[/BAD] eingebracht.
@@ -7781,14 +7781,14 @@ Character Trait Xenolocutor		;Xenolocutor
 Character Trait Suspicious		;Verdächtig
 
 Exploit Trade Loopholes		;Schlupflöcher im Handel ausnutzen
-Exploit Trade Loopholes Explanation		;Wir können Schlupflöcher in unserem Handelsvertrag ausnutzen, um [GUT]{0} Credits von dieser Fraktion zu nehmen[/GUT].\n\nSie werden zweifellos sehr verärgert über diese Aktion sein und wahrscheinlich [SCHLECHT]unseren Handelsvertrag[/SCHLECHT] mit ihnen kündigen.\n\nDas wird auch [SCHLECHT]unseren Ruf[/SCHLECHT] schädigen.
+Exploit Trade Loopholes Explanation		;Wir können Schlupflöcher in unserem Handelsvertrag ausnutzen, um [GOOD]{0} Credits von dieser Fraktion zu nehmen[/GOOD].\n\nSie werden zweifellos sehr verärgert über diese Aktion sein und wahrscheinlich [BAD]unseren Handelsvertrag[/BAD] mit ihnen kündigen.\n\nDas wird auch [BAD]unseren Ruf[/BAD] schädigen.
 Exploit Trade Title		;{0} Nutzt Handelsschlupflöcher aus
 Exploit Trade Description		;Die [FACTION]{0}[/FACTION] haben Schlupflöcher in ihrem Handelsvertrag mit uns ausgenutzt, um [BAD]{1} Credits von uns zu stehlen![/BAD]\n\nDie {0} behaupten, dass dies alles völlig legal und richtig ist, aber wir sind ganz sicher nicht mit diesen Dieben einverstanden!
 We have cancelled our trade treaty with them		;Wir haben unser Handelsabkommen mit ihnen gekündigt.
 We do not have a trade treaty with this faction		;Wir haben kein Handelsabkommen mit dieser Fraktion
 Exploit Trade Initiator Title		;Wir haben Handelsschlupflöcher ausgenutzt!
-Exploit Trade Initiator Description		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit der [FACTION]{0}[/FACTION] ausgenutzt, um ihnen [GUT]{1} Kredite zu entziehen![/GUT]\n\nDie {0} sind darüber ziemlich verärgert, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
-Exploit Trade Initiator Description Independent		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit [FACTION]{0}[/FACTION] ausgenutzt, um [GUT]{1} Kredite von ihnen zu erhalten![/GUT]\n\n{0} sind ziemlich verärgert darüber, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
+Exploit Trade Initiator Description		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit der [FACTION]{0}[/FACTION] ausgenutzt, um ihnen [GOOD]{1} Kredite zu entziehen![/GOOD]\n\nDie {0} sind darüber ziemlich verärgert, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
+Exploit Trade Initiator Description Independent		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit [FACTION]{0}[/FACTION] ausgenutzt, um [GOOD]{1} Kredite von ihnen zu erhalten![/GOOD]\n\n{0} sind ziemlich verärgert darüber, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
 
 AUTOMATION CATEGORY is LEVEL		;{0} wird auf {1} gesetzt
 Click to cycle to the next setting		;Klicken Sie auf , um zur nächsten Einstellung zu gelangen

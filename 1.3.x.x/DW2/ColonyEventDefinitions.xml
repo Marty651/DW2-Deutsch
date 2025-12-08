@@ -265,6 +265,11 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
 		<Name>Fremdenfeindliche Unruhen</Name>
+		<Description>Fremdenfeindliche Ausschreitungen gegen die nicht-haakonische Bevölkerung haben folgende Auswirkungen: [ULI]Reduziert die nicht-haakonische Bevölkerung in der Kolonie sofort um 25 %[/ULI][ULI][GOOD]+10 Kolonieglück[/GOOD] für 5 Jahre[/ULI][ULI][BAD]Schadet unserem Ruf[/BAD] erheblich[/ULI][ULI]Beeinträchtigt die [BAD]Migration[/BAD] in die Kolonie für 10 Jahre negativ[/ULI]</Description>
+		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>12</ColonyEventDefinitionId> <!-- Underwater Leviathan -->
 		<Type>Undefined</Type>
 		<PopulationAmount>-0.05</PopulationAmount>
 		<DamageRepair>-0.05</DamageRepair>

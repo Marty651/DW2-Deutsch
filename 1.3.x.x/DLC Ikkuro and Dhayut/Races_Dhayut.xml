@@ -92,6 +92,9 @@
 			<short>385</short> <!-- Basic Countermeasures -->
 			<short>768</short> <!-- Early Pulse Weapons -->
 		</StartingResearchProjectIds>
+		<StartingArtifactIds>
+			<int>82</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -288,17 +291,20 @@
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 			<CharacterMissionType>InfluenceEmpirePositively</CharacterMissionType>
 			<CharacterMissionType>InfluenceEmpireNegatively</CharacterMissionType>
 			<CharacterMissionType>CaptureBase</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>

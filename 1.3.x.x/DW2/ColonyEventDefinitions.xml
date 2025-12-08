@@ -189,7 +189,7 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 		<RandomInitiationChance>0.005</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.1</PlagueCuringFactor>
-		<Name>Dekara Virus</Name>
+		<Name>Dekara-Virus</Name>
 		<Description>Das Dekara Virus ist eine sehr schmerzhafte Krankheit, die das zentrale Nervensystem eines jeden Lebewesens, das es infiziert, langsam lähmt und schließlich zum Tod führt. Ein Ausbruch des Dekara Virus dauert typischerweise etwa 2-4 Jahre.</Description>
 		<ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
 	</ColonyEventDefinition>
@@ -252,19 +252,19 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>11</ColonyEventDefinitionId> <!-- Haakonish Xenophobia -->
 		<Type>Undefined</Type>
-		<Bonuses>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<PreventStartWhenEventActiveColonyEventDefinitionId>142</PreventStartWhenEventActiveColonyEventDefinitionId>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>3</MinimumPopulationRaceId>
+		<MustHaveRacesOtherThanRaceIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</MustHaveRacesOtherThanRaceIds>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Haakonische Fremdenfeindlichkeit</Name>
-		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
-	</ColonyEventDefinition>
-	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>12</ColonyEventDefinitionId> <!-- Underwater Leviathan -->
+		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
+		<Name>Fremdenfeindliche Unruhen</Name>
 		<Type>Undefined</Type>
 		<PopulationAmount>-0.05</PopulationAmount>
 		<DamageRepair>-0.05</DamageRepair>
@@ -284,9 +284,9 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 		</OrbTypeFilters>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Unterwasser Leviathan</Name>
-		<Description>Die Hauptunterwasserstadt unserer Kolonie {0} hat einen verheerenden Angriff durch ein riesiges Darkhul Seeungeheuer erlitten!
+		<Description>Die wichtigste Unterwasserstadt unserer Kolonie {0} wurde von einem riesigen Darkhul-Seeungeheuer angegriffen!
 
-Viele Menschenleben sind bei {0} verloren gegangen, und auch die Qualität der Kolonie hat sich verschlechtert.</Description>
+Viele Menschen sind in {0} ums Leben gekommen, und auch die Qualität der Kolonie hat gelitten.</Description>
 		<ImageFilename>Environment/Events/Underwater Leviathan</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -307,7 +307,7 @@ Viele Menschenleben sind bei {0} verloren gegangen, und auch die Qualität der K
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Forschungs-Einblicke</Name>
-		<Description>Die großartigen Ideen unserer Wissenschaftler und Ingenieure bei {0} haben eine Reihe von brillanten Erkenntnissen gebracht. Unsere reichsweiten Forschungsanstrengungen werden für das nächste Jahr einen +10%igen Schub erhalten!</Description>
+		<Description>Die großartigen Köpfe unserer Wissenschaftler und Ingenieure bei {0} haben eine Reihe von brillanten Erkenntnissen gewonnen. Unsere imperiumsweiten Forschungsanstrengungen werden für das nächste Jahr um +10% verstärkt!</Description>
 		<ImageFilename>Environment/Events/Research Insight</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -332,9 +332,9 @@ Viele Menschenleben sind bei {0} verloren gegangen, und auch die Qualität der K
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Krieger-Welle</Name>
-		<Description>Unsere Armeen bereiten sich auf einen Schub neuer Truppen in unserer Kolonie {0} vor.
+		<Description>Unsere Armeen bereiten sich auf eine Welle neuer Truppen in unserer Kolonie {0} vor.
 
-Alle Truppen, die im nächsten Jahr rekrutiert werden, werden 20 % schneller ausgebildet und sind 10 % stärker.</Description>
+Alle Truppen, die im nächsten Jahr rekrutiert werden, werden 20% schneller ausgebildet und sind 10% stärker.</Description>
 		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -355,9 +355,9 @@ Alle Truppen, die im nächsten Jahr rekrutiert werden, werden 20 % schneller aus
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Patriotische Welle</Name>
-		<Description>Eine Welle von intensivem patriotischem Geist schwappt durch unsere Kolonie {0}!
+		<Description>Eine Welle intensiven patriotischen Geistes schwappt durch unsere Kolonie {0}!
 
-Die Kriegsmüdigkeit hat sich in unserem gesamten Volk für die nächsten 2 Jahre dramatisch verringert.</Description>
+Die Kriegsmüdigkeit hat sich in unserem Reich für die nächsten 2 Jahre drastisch verringert.</Description>
 		<ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -397,38 +397,36 @@ Die Kriegsmüdigkeit hat sich in unserem gesamten Volk für die nächsten 2 Jahr
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Vorhersagende Geschichtsentwicklung</Name>
-		<Description>Unsere Analysten haben unsere jüngsten Entdeckungen bei der Erkundung einiger Ruinen geschickt eingesetzt. Durch detaillierte Untersuchungen der Vergangenheit und unsere umfangreichen Erkundungsergebnisse können wir nun Ereignisse der nahen Zukunft ziemlich genau vorhersagen.\n\nDaher genießt unser Imperium in den nächsten zwei Jahren folgende Vorteile und Nachteile:\n[ULI]-5 % Gesamtforschung[/ULI][ULI]+10 % Diplomatie[/ULI][ULI]+10 % Spionageabwehr[/ULI][ULI]+10 % Spionage[/ULI][ULI]+10 % Psychologische Operationen[/ULI]</Description>
+		<Description>Unsere Analysten haben bei der Erkundung einiger Ruinen eine geniale Anwendung unserer jüngsten Entdeckungen gemacht. Dank unserer detaillierten Untersuchung der Vergangenheit in Verbindung mit unseren umfangreichen Forschungsergebnissen können wir nun die Ereignisse der nahen Zukunft mit einiger Genauigkeit vorhersagen.\n\nDamit genießt unser Imperium in den nächsten zwei Jahren die folgenden Vorteile und Nachteile:\n[ULI]-5% Alle Forschungen[/ULI][ULI]+10% Diplomatie[/ULI][ULI]+10% Gegenspionage[/ULI][ULI]+10% Spionage[/ULI][ULI]+10% PsyOps[/ULI]</Description>
 		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>17</ColonyEventDefinitionId> <!-- Economic Boost -->
 		<Type>Undefined</Type>
-		<DurationMinimum>1</DurationMinimum>
-		<DurationMaximum>1</DurationMaximum>
-		<RandomInitiationChance>0.0025</RandomInitiationChance>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<!--RandomInitiationChance>0.0025</RandomInitiationChance-->
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<MinimumIntervalPerEmpireYears>8</MinimumIntervalPerEmpireYears>
 		<RaceFilterIds>
 			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
 		</RaceFilterIds>
-		<Bonuses>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
 		<Name>Wirtschaftlicher Aufschwung</Name>
-		<Description>Die cleveren Finanzzauberer unserer Kolonie {0} haben einen Weg gefunden, die Wirtschaftsleistung durch kreative Buchführung vorübergehend zu steigern!
+		<Description>Unsere cleveren Finanzfachleute haben einen Weg gefunden, die Wirtschaftsleistung durch kreative Buchführung vorübergehend anzukurbeln!
 
-Für das nächste Jahr genießt unsere Kolonie {0} einen Einkommensschub von +10%.</Description>
+Wenn Sie diesen Wirtschaftsaufschwung initiieren, wird das Einkommen des Reiches 5 Jahre lang [GOOD]um +10% erhöht[/GOOD]. Anscheinend könnte es später auch zu einem [SCHLECHT]geringfügigen Anstieg der Korruption kommen[/SCHLECHT], aber das scheint ein unwichtiges Detail zu sein.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>18</ColonyEventDefinitionId> <!-- Great Hunt -->
 		<Type>Undefined</Type>
-		<DurationMinimum>0.5</DurationMinimum>
-		<DurationMaximum>0.5</DurationMaximum>
-		<RandomInitiationChance>0.004</RandomInitiationChance>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
 		<RaceFilterIds>
 			<unsignedByte>2</unsignedByte> <!-- Teekan -->
 		</RaceFilterIds>
@@ -446,25 +444,10 @@ Für das nächste Jahr genießt unsere Kolonie {0} einen Einkommensschub von +10
 				<Factor>0.3</Factor>
 			</OrbTypeFactor>
 		</OrbTypeFilters>
-		<Bonuses>
-			<Bonus>
-				<Type>RecruitedTroopStrengthAll</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</Bonuses>
+		<GameEventName>Great Bakdur Hunt (Teekan)</GameEventName>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Große Jagd</Name>
-		<Description>Eine große Jagd auf die mächtigen Bakdur-Sandwürmer ist in unserer Kolonie {0} im Gange!
-
-Für die nächsten sechs Monate werden alle Truppen, die in unserer Kolonie {0} rekrutiert werden, um 10% stärker sein.
-
-Außerdem sorgen die damit verbundenen Festivitäten in der Kolonie für einen Zufriedenheitsschub von +10%.</Description>
+		<Name>Große Bakdur-Jagd</Name>
+		<Description>Lösen Sie eine Große Bakdur-Jagd in einer Wüstenkolonie aus. Das Ergebnis der Jagd variiert, bringt aber immer einige Vorteile mit sich: in der Regel einen reichsweiten Glücksbonus und einen Entwicklungsbonus für die Kolonie. Kann nur einmal alle 5 Jahre gestartet werden.</Description>
 		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -480,9 +463,9 @@ Außerdem sorgen die damit verbundenen Festivitäten in der Kolonie für einen Z
 		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wahnsinniger Kannibalismus</Name>
-		<Description>Die Bevölkerung unserer Kolonie {0} wurde in einen wahnsinnigen Rausch getrieben. Aufgrund dieser hyper-aggressiven Paranoia ist Kannibalismus weit verbreitet!
+		<Description>Die Bevölkerung unserer Kolonie {0} wurde in einen wahnsinnigen Rausch versetzt. Aufgrund dieser hyper-aggressiven Paranoia ist Kannibalismus weit verbreitet!
 
-Infolgedessen hat sich die Bevölkerung von {0} reduziert.</Description>
+Infolgedessen ist die Bevölkerung von {0} zurückgegangen.</Description>
 		<ImageFilename>Environment/Events/Crazed Cannibalism</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -520,9 +503,9 @@ Infolgedessen hat sich die Bevölkerung von {0} reduziert.</Description>
 		<Name>Große Kunstausstellung</Name>
 		<Description>In unserer Kolonie {0} findet eine große Kunstausstellung statt. Diese Ausstellung zeigt die Spitze der Kunst und Kultur aus den umliegenden Systemen.
 
-Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuseinnahmen für die nächsten zwei Jahre genießen.
+Als Ergebnis wird unser Imperium in den nächsten 2 Jahren einen Anstieg der Handels- und Tourismuseinnahmen um +10% verzeichnen.
 
-{0} profitiert während dieser Zeit außerdem von einem Kolonieeinkommen von +10 % und einem Landschaftsbonus von +10 %.</Description>
+{0} wird in dieser Zeit auch von +10% Kolonieeinkommen und +10% Landschaftsbonus profitieren.</Description>
 		<ImageFilename>Environment/Events/Great Art Exposition</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -549,6 +532,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>-15</EmpireHappiness>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Wir sind nicht allein im Universum...</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>23</ColonyEventDefinitionId> <!-- Our PR Campaign -->
@@ -558,6 +542,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Unsere PR-Kampagne</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>24</ColonyEventDefinitionId> <!-- We Paid Pirates -->
@@ -567,6 +552,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wir haben Piraten bezahlt</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>25</ColonyEventDefinitionId> <!-- We've Eliminated a Threat -->
@@ -576,6 +562,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wir haben eine Bedrohung eliminiert</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>26</ColonyEventDefinitionId> <!-- We Helped Aliens -->
@@ -585,6 +572,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wir haben Aliens geholfen</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>27</ColonyEventDefinitionId> <!-- Our People Have Been Inspired -->
@@ -601,6 +589,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Unsere Leute sind inspiriert worden</Name>
+		<ImageFilename>Environment/Events/Our People Have Been Inspired</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>28</ColonyEventDefinitionId> <!-- Morale Improvement Initiative -->
@@ -616,6 +605,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Initiative zur Verbesserung der Moral</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>29</ColonyEventDefinitionId> <!-- Competition Initiative -->
@@ -636,6 +626,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Wettbewerbsinitiative</Name>
+		<ImageFilename>Environment/Events/Competition Initiative</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>30</ColonyEventDefinitionId> <!-- The Clones Attacked -->
@@ -645,6 +636,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<ColonyHappiness>-10</ColonyHappiness>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Der Angriff der Klone</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>31</ColonyEventDefinitionId> <!-- Planetary Damage Repaired -->
@@ -654,6 +646,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Planetarische Schäden repariert</Name>
+		<ImageFilename>Environment/Events/Repair Planetary Damage</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>32</ColonyEventDefinitionId> <!-- We Recovered Ancient Knowledge -->
@@ -663,6 +656,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Wir haben antikes Wissen wiederentdeckt</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>33</ColonyEventDefinitionId> <!-- Zenox Cognition Virus -->
@@ -679,6 +673,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<Name>Zenox-Kognitionsvirus</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>34</ColonyEventDefinitionId> <!-- Alien Encounter -->
@@ -688,6 +683,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Alien Begegnung</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>51</ColonyEventDefinitionId> <!-- Focusing on what matters -->
@@ -697,6 +693,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<ColonyHappiness>5</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Auf das Wesentliche konzentrieren</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>99</ColonyEventDefinitionId> <!-- Happiness from Completed War Mission -->
@@ -706,7 +703,7 @@ Als Ergebnis wird unser Volk eine +10%ige Steigerung der Handels- und Tourismuse
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Freude durch abgeschlossene Kriegsmission</Name>
-		<Description>Unser kürzlicher Abschluss einer Kriegsmission hat die Zufriedenheit in unserem gesamten Reich vorübergehend erhöht.</Description>
+		<Description>Unser kürzlicher Abschluss einer Kriegsmission hat das Glück in unserem Reich vorübergehend erhöht.</Description>
 		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
 	</ColonyEventDefinition>
 </ArrayOfColonyEventDefinition>

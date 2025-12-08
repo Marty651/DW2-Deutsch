@@ -672,7 +672,6 @@
 				<WeaponEnergyPerShot>96</WeaponEnergyPerShot>
 				<WeaponFireRate>16</WeaponFireRate>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>-0.2</WeaponInterceptComponentTargetingBonus>
 				<WeaponRange>1500</WeaponRange>
 				<WeaponRawDamage>65</WeaponRawDamage>
 				<WeaponShieldBypass>0.3</WeaponShieldBypass>
@@ -2617,7 +2616,6 @@
 				<WeaponRawDamage>64</WeaponRawDamage>
 				<WeaponSpeed>250</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.44</ComponentCountermeasuresBonus>
@@ -2646,7 +2644,6 @@
 				<WeaponRawDamage>80</WeaponRawDamage>
 				<WeaponSpeed>250</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
 		<Name>Einschüchternde Überspannungs-Granate [L]</Name>
@@ -4513,7 +4510,7 @@
 				<TractorBeamDwellTime>3.5</TractorBeamDwellTime>
 				<TractorBeamEnergyPerShot>28</TractorBeamEnergyPerShot>
 				<TractorBeamFireRate>4</TractorBeamFireRate>
-				<TractorBeamPower>20</TractorBeamPower>
+				<TractorBeamPower>30</TractorBeamPower>
 				<TractorBeamPowerFalloff>12</TractorBeamPowerFalloff>
 				<TractorBeamRange>2000</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
@@ -4526,7 +4523,7 @@
 				<TractorBeamDwellTime>3.5</TractorBeamDwellTime>
 				<TractorBeamEnergyPerShot>28</TractorBeamEnergyPerShot>
 				<TractorBeamFireRate>4</TractorBeamFireRate>
-				<TractorBeamPower>30</TractorBeamPower>
+				<TractorBeamPower>35</TractorBeamPower>
 				<TractorBeamPowerFalloff>10</TractorBeamPowerFalloff>
 				<TractorBeamRange>2400</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
@@ -9062,7 +9059,7 @@
 				<TractorBeamDwellTime>3.5</TractorBeamDwellTime>
 				<TractorBeamEnergyPerShot>34</TractorBeamEnergyPerShot>
 				<TractorBeamFireRate>4</TractorBeamFireRate>
-				<TractorBeamPower>44</TractorBeamPower>
+				<TractorBeamPower>48</TractorBeamPower>
 				<TractorBeamPowerFalloff>7</TractorBeamPowerFalloff>
 				<TractorBeamRange>2500</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
@@ -9075,7 +9072,7 @@
 				<TractorBeamDwellTime>3.5</TractorBeamDwellTime>
 				<TractorBeamEnergyPerShot>34</TractorBeamEnergyPerShot>
 				<TractorBeamFireRate>4</TractorBeamFireRate>
-				<TractorBeamPower>56</TractorBeamPower>
+				<TractorBeamPower>60</TractorBeamPower>
 				<TractorBeamPowerFalloff>7</TractorBeamPowerFalloff>
 				<TractorBeamRange>2640</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
@@ -9088,7 +9085,7 @@
 				<TractorBeamDwellTime>3.5</TractorBeamDwellTime>
 				<TractorBeamEnergyPerShot>34</TractorBeamEnergyPerShot>
 				<TractorBeamFireRate>4</TractorBeamFireRate>
-				<TractorBeamPower>72</TractorBeamPower>
+				<TractorBeamPower>75</TractorBeamPower>
 				<TractorBeamPowerFalloff>7</TractorBeamPowerFalloff>
 				<TractorBeamRange>2800</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
@@ -16177,17 +16174,22 @@
 			</ComponentStats>
 			<ComponentStats>
 				<CrewRequirement>2</CrewRequirement>
-				<FuelStorageCapacity>175</FuelStorageCapacity>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
-			</ComponentStats>
-			<ComponentStats>
-				<CrewRequirement>2</CrewRequirement>
 				<FuelStorageCapacity>200</FuelStorageCapacity>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 			<ComponentStats>
 				<CrewRequirement>2</CrewRequirement>
 				<FuelStorageCapacity>250</FuelStorageCapacity>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+			</ComponentStats>
+			<ComponentStats>
+				<CrewRequirement>2</CrewRequirement>
+				<FuelStorageCapacity>300</FuelStorageCapacity>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+			</ComponentStats>
+			<ComponentStats>
+				<CrewRequirement>2</CrewRequirement>
+				<FuelStorageCapacity>400</FuelStorageCapacity>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
@@ -28878,18 +28880,32 @@
 		</ResourcesRequired>
 		<Values>
 			<ComponentStats>
-				<ComponentIonDefense>1</ComponentIonDefense>
-				<CountermeasuresBonus>0.15</CountermeasuresBonus>
-				<CrewRequirement>5</CrewRequirement>
-				<StaticEnergyUsed>5</StaticEnergyUsed>
-				<StealthRating>10</StealthRating>
-			</ComponentStats>
-			<ComponentStats>
 				<ComponentIonDefense>2</ComponentIonDefense>
 				<CountermeasuresBonus>0.3</CountermeasuresBonus>
 				<CrewRequirement>5</CrewRequirement>
 				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<StealthRating>15</StealthRating>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>2</ComponentIonDefense>
+				<CountermeasuresBonus>0.35</CountermeasuresBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
 				<StealthRating>20</StealthRating>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>2</ComponentIonDefense>
+				<CountermeasuresBonus>0.4</CountermeasuresBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<StealthRating>25</StealthRating>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>2</ComponentIonDefense>
+				<CountermeasuresBonus>0.45</CountermeasuresBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<StealthRating>30</StealthRating>
 			</ComponentStats>
 		</Values>
 		<Name>Sternenfeld-Abwehrgenerator</Name>
@@ -33641,22 +33657,46 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>2</ResourceId> <!-- Osalia -->
-				<Amount>20</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>20</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>20</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId> <!-- Mebnar -->
-				<Amount>20</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.72</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
+				<CrewRequirement>8</CrewRequirement>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<WeaponArmorBypass>0.75</WeaponArmorBypass>
+				<WeaponDamageFalloffRatio>0.3</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>54</WeaponEnergyPerShot>
+				<WeaponFireRate>15</WeaponFireRate>
+				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>-0.2</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageDirectFire>7</WeaponInterceptDamageDirectFire>
+				<WeaponInterceptDamageFighter>14</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>7</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>54</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>18.75</WeaponInterceptFireRate>
+				<WeaponInterceptRange>688</WeaponInterceptRange>
+				<WeaponRange>1375</WeaponRange>
+				<WeaponRawDamage>28</WeaponRawDamage>
+				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.76</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
@@ -34537,7 +34577,6 @@
 				<WeaponEnergyPerShot>104</WeaponEnergyPerShot>
 				<WeaponFireRate>16</WeaponFireRate>
 				<WeaponFireType>Seeking</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
 				<WeaponRange>3740</WeaponRange>
 				<WeaponRawDamage>164</WeaponRawDamage>
 				<WeaponShieldBypass>-0.4</WeaponShieldBypass>
@@ -34558,7 +34597,6 @@
 				<WeaponEnergyPerShot>104</WeaponEnergyPerShot>
 				<WeaponFireRate>16</WeaponFireRate>
 				<WeaponFireType>Seeking</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
 				<WeaponRange>4300</WeaponRange>
 				<WeaponRawDamage>192</WeaponRawDamage>
 				<WeaponShieldBypass>-0.4</WeaponShieldBypass>
@@ -34579,7 +34617,6 @@
 				<WeaponEnergyPerShot>104</WeaponEnergyPerShot>
 				<WeaponFireRate>16</WeaponFireRate>
 				<WeaponFireType>Seeking</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
 				<WeaponRange>4600</WeaponRange>
 				<WeaponRawDamage>250</WeaponRawDamage>
 				<WeaponShieldBypass>-0.4</WeaponShieldBypass>
@@ -36146,7 +36183,7 @@
 				<TractorBeamFireRate>4</TractorBeamFireRate>
 				<TractorBeamPower>40</TractorBeamPower>
 				<TractorBeamPowerFalloff>8</TractorBeamPowerFalloff>
-				<TractorBeamRange>3080</TractorBeamRange>
+				<TractorBeamRange>3200</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponSpeed>900</WeaponSpeed>
@@ -36159,7 +36196,7 @@
 				<TractorBeamFireRate>4</TractorBeamFireRate>
 				<TractorBeamPower>48</TractorBeamPower>
 				<TractorBeamPowerFalloff>8</TractorBeamPowerFalloff>
-				<TractorBeamRange>3860</TractorBeamRange>
+				<TractorBeamRange>4000</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponSpeed>1000</WeaponSpeed>
@@ -36172,7 +36209,7 @@
 				<TractorBeamFireRate>4</TractorBeamFireRate>
 				<TractorBeamPower>60</TractorBeamPower>
 				<TractorBeamPowerFalloff>8</TractorBeamPowerFalloff>
-				<TractorBeamRange>4800</TractorBeamRange>
+				<TractorBeamRange>5000</TractorBeamRange>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponSpeed>1100</WeaponSpeed>
@@ -41333,22 +41370,46 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>2</ResourceId> <!-- Osalia -->
-				<Amount>14</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId> <!-- Tyderios -->
-				<Amount>14</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
-				<Amount>14</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId> <!-- Mebnar -->
-				<Amount>14</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.8</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
+				<CrewRequirement>5</CrewRequirement>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<WeaponArmorBypass>0.75</WeaponArmorBypass>
+				<WeaponDamageFalloffRatio>0.3</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponEnergyPerShot>64</WeaponEnergyPerShot>
+				<WeaponFireRate>10</WeaponFireRate>
+				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>-0.2</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageDirectFire>5</WeaponInterceptDamageDirectFire>
+				<WeaponInterceptDamageFighter>11</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>5</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>64</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>12.5</WeaponInterceptFireRate>
+				<WeaponInterceptRange>755</WeaponInterceptRange>
+				<WeaponRange>1510</WeaponRange>
+				<WeaponRawDamage>22</WeaponRawDamage>
+				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
 			<ComponentStats>
 				<ComponentCountermeasuresBonus>0.8</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
@@ -44379,7 +44440,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Hoch-verdichtete Kraftstoffzelle [Jäger]</Name>
-		<ImageFilename>Environment/Components/117-Large Fuel Cell</ImageFilename>
+		<ImageFilename>Environment/Components/130-High Density Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>368</ComponentId> <!-- Super Laser [X] -->
@@ -44907,7 +44968,7 @@
 				<ComponentCountermeasuresBonus>0.64</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
 				<CrewRequirement>8</CrewRequirement>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
 				<WeaponArmorBypass>-0.2</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>2</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>2</WeaponBombardDamageMilitary>
@@ -44935,7 +44996,7 @@
 				<ComponentCountermeasuresBonus>0.68</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
 				<CrewRequirement>8</CrewRequirement>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
 				<WeaponArmorBypass>-0.2</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>2</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>2</WeaponBombardDamageMilitary>
@@ -44963,7 +45024,7 @@
 				<ComponentCountermeasuresBonus>0.72</ComponentCountermeasuresBonus>
 				<ComponentTargetingBonus>-0.1</ComponentTargetingBonus>
 				<CrewRequirement>8</CrewRequirement>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StaticEnergyUsed>2</StaticEnergyUsed>
 				<WeaponArmorBypass>-0.2</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>3</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>3</WeaponBombardDamageMilitary>
@@ -45373,5 +45434,212 @@
 		</Values>
 		<Name>Kristallsensoren mit großer Reichweite</Name>
 		<ImageFilename>Environment/Components/308-Crystal Sensors</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>421</ComponentId> <!-- Vortex Bomb [L] -->
+		<Size>50</Size>
+		<Category>WeaponArea</Category>
+		<Family>Gravitic</Family>
+		<DisplayTextureNames>
+			<string>Effects/Weapons/BlueWave1</string>
+		</DisplayTextureNames>
+		<DisplayRotationType>RotateToTarget</DisplayRotationType>
+		<DisplayRotationRate>0.5</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>true</UseLargeMeshIfAvailable>
+		<WeaponMeshType>ShortTurret</WeaponMeshType>
+		<WeaponEffect>
+			<UseDirectionalComponent>false</UseDirectionalComponent>
+			<FlipbookMode>Blend</FlipbookMode>
+			<BodyScaling>
+				<X>1</X>
+				<Y>1</Y>
+			</BodyScaling>
+			<BodyScalingAbsolute>
+				<X>0</X>
+				<Y>0</Y>
+			</BodyScalingAbsolute>
+			<FlipbookTextureFilepath>Effects/Weapons/plasma</FlipbookTextureFilepath>
+			<FlipbookFramesPerSecond>8</FlipbookFramesPerSecond>
+			<FlipbookDimensions>
+				<X>8</X>
+				<Y>8</Y>
+			</FlipbookDimensions>
+			<FlipbookRow>0</FlipbookRow>
+			<PulsingIntensity>0</PulsingIntensity>
+			<PulsingSpeed>0</PulsingSpeed>
+			<UVScrollRatio>0</UVScrollRatio>
+			<UVScrollCycleLength>0</UVScrollCycleLength>
+			<EndFadeLengthRatio>0</EndFadeLengthRatio>
+			<TextureTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TextureTintColor>
+			<TextureTintColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TextureTintColor2>
+			<TintCycleLength>0</TintCycleLength>
+			<FiringSoundEffectFilepath>Sounds/Components/GravitonPulse</FiringSoundEffectFilepath>
+			<ArmorImpactEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</ArmorImpactEffectTintColor>
+			<HullImpactEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</HullImpactEffectTintColor>
+			<FiringEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</FiringEffectTintColor>
+			<WeaponChargeupLength>0</WeaponChargeupLength>
+			<WeaponChargeupPulseColor1>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupPulseColor1>
+			<WeaponChargeupPulseColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupPulseColor2>
+			<WeaponChargeupBackgroundColor1>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupBackgroundColor1>
+			<WeaponChargeupBackgroundColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupBackgroundColor2>
+			<WeaponChargeupUVScrollingRate>
+				<X>0</X>
+				<Y>0</Y>
+			</WeaponChargeupUVScrollingRate>
+			<WeaponChargeupColorOscillationRate>0</WeaponChargeupColorOscillationRate>
+			<WeaponChargeupEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupEffectTintColor>
+			<TrailEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TrailEffectTintColor>
+			<TrailEffectTintAltColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TrailEffectTintAltColor>
+			<TrailEffectColorTransitionStartTime>0</TrailEffectColorTransitionStartTime>
+			<TrailEffectColorTransitionEndTime>0</TrailEffectColorTransitionEndTime>
+			<TrailEffectScaleX>0</TrailEffectScaleX>
+			<TrailEffectScaleY>0</TrailEffectScaleY>
+			<TrailEffectScaleChangeRateX>0</TrailEffectScaleChangeRateX>
+			<TrailEffectScaleChangeRateY>0</TrailEffectScaleChangeRateY>
+			<TrailEffectLifetime>0</TrailEffectLifetime>
+			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
+			<TrailDriftRate>0</TrailDriftRate>
+		</WeaponEffect>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>4</ResourceId> <!-- Argon -->
+				<Amount>32</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+				<Amount>32</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>5</ResourceId> <!-- Krypton -->
+				<Amount>16</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+				<Amount>16</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.44</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
+				<CrewRequirement>12</CrewRequirement>
+				<StaticEnergyUsed>3</StaticEnergyUsed>
+				<WeaponAreaEffectRange>200</WeaponAreaEffectRange>
+				<WeaponAreaBlastWaveSpeed>200</WeaponAreaBlastWaveSpeed>
+				<WeaponArmorBypass>0.75</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>2</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>2</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>4</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>2</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
+				<WeaponDamageType>AreaEffect</WeaponDamageType>
+				<WeaponEnergyPerShot>70</WeaponEnergyPerShot>
+				<WeaponFireRate>18</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponInterceptDamageFighter>20</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>20</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>70</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>22.5</WeaponInterceptFireRate>
+				<WeaponInterceptRange>850</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
+				<WeaponRange>1500</WeaponRange>
+				<WeaponRawDamage>40</WeaponRawDamage>
+				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponSpeed>250</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentCountermeasuresBonus>0.48</ComponentCountermeasuresBonus>
+				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
+				<CrewRequirement>12</CrewRequirement>
+				<StaticEnergyUsed>3</StaticEnergyUsed>
+				<WeaponAreaEffectRange>200</WeaponAreaEffectRange>
+				<WeaponAreaBlastWaveSpeed>200</WeaponAreaBlastWaveSpeed>
+				<WeaponArmorBypass>0.75</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>3</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>3</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>6</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>3</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0.2</WeaponDamageFalloffRatio>
+				<WeaponDamageType>AreaEffect</WeaponDamageType>
+				<WeaponEnergyPerShot>70</WeaponEnergyPerShot>
+				<WeaponFireRate>18</WeaponFireRate>
+				<WeaponFireType>Seeking</WeaponFireType>
+				<WeaponInterceptDamageFighter>25</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageSeeking>25</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>70</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>22.5</WeaponInterceptFireRate>
+				<WeaponInterceptRange>1000</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
+				<WeaponRange>1800</WeaponRange>
+				<WeaponRawDamage>50</WeaponRawDamage>
+				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponSpeed>250</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+			</ComponentStats>
+		</Values>
+		<Name>Vortex Bombe [L]</Name>
+		<ImageFilename>Environment/Components/421-Vortex Bomb</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

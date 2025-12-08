@@ -10,12 +10,14 @@
 		<MaximumSize>375</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/escort</ModelName>
-		<BaseCost>1400</BaseCost>
+		<BaseCost>1540</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -335,7 +337,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>62</Amount>
+				<Amount>74</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Eskorte</Name>
@@ -351,12 +353,14 @@
 		<MaximumSize>650</MaximumSize>
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/Haakonish/researchStation</ModelName>
-		<BaseCost>6000</BaseCost>
+		<BaseCost>6600</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -836,15 +840,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Überwachungsstation</Name>
@@ -860,12 +864,14 @@
 		<MaximumSize>475</MaximumSize>
 		<DisplaySize>250</DisplaySize>
 		<ModelName>Ships/Haakonish/construction</ModelName>
-		<BaseCost>1500</BaseCost>
+		<BaseCost>1650</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -1326,7 +1332,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleines Konstruktions-Schiff</Name>
@@ -1342,12 +1348,14 @@
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>170</DisplaySize>
 		<ModelName>Ships/Haakonish/exploration</ModelName>
-		<BaseCost>1500</BaseCost>
+		<BaseCost>1650</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -1920,7 +1928,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>62</Amount>
+				<Amount>74</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleines Erkundungsschiff</Name>
@@ -1936,12 +1944,14 @@
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>150</DisplaySize>
 		<ModelName>Ships/Haakonish/mining</ModelName>
-		<BaseCost>1000</BaseCost>
+		<BaseCost>1100</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -2404,7 +2414,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>62</Amount>
+				<Amount>74</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleines Bergbauschiff</Name>
@@ -2420,12 +2430,14 @@
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>150</DisplaySize>
 		<ModelName>Ships/Haakonish/cargo</ModelName>
-		<BaseCost>1000</BaseCost>
+		<BaseCost>1100</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -3169,7 +3181,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>62</Amount>
+				<Amount>74</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Frachter</Name>
@@ -3185,12 +3197,14 @@
 		<MaximumSize>700</MaximumSize>
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/Haakonish/mining_station</ModelName>
-		<BaseCost>4000</BaseCost>
+		<BaseCost>4400</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -3636,7 +3650,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>112</Amount>
+				<Amount>134</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleine Bergbaustation</Name>
@@ -3652,12 +3666,14 @@
 		<MaximumSize>725</MaximumSize>
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/Haakonish/researchStation</ModelName>
-		<BaseCost>4000</BaseCost>
+		<BaseCost>4400</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -4153,7 +4169,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>112</Amount>
+				<Amount>134</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Forschungsstation</Name>
@@ -4169,12 +4185,14 @@
 		<MaximumSize>415</MaximumSize>
 		<DisplaySize>208</DisplaySize>
 		<ModelName>Ships/Haakonish/escort</ModelName>
-		<BaseCost>1500</BaseCost>
+		<BaseCost>1650</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -4514,11 +4532,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>70</Amount>
+				<Amount>84</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>70</Amount>
+				<Amount>84</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwere Eskorte</Name>
@@ -4534,12 +4552,14 @@
 		<MaximumSize>415</MaximumSize>
 		<DisplaySize>208</DisplaySize>
 		<ModelName>Ships/Haakonish/escort</ModelName>
-		<BaseCost>1500</BaseCost>
+		<BaseCost>1650</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -4874,11 +4894,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>70</Amount>
+				<Amount>84</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>70</Amount>
+				<Amount>84</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Patrouilleneskorte</Name>
@@ -4894,12 +4914,14 @@
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>250</DisplaySize>
 		<ModelName>Ships/Haakonish/frigate</ModelName>
-		<BaseCost>2500</BaseCost>
+		<BaseCost>2750</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -5300,11 +5322,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Fregatte</Name>
@@ -5320,12 +5342,14 @@
 		<MaximumSize>500</MaximumSize>
 		<DisplaySize>250</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier</ModelName>
-		<BaseCost>2000</BaseCost>
+		<BaseCost>2200</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -6004,11 +6028,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Truppentransporter</Name>
@@ -6024,12 +6048,14 @@
 		<MaximumSize>1100</MaximumSize>
 		<DisplaySize>2350</DisplaySize>
 		<ModelName>Ships/Haakonish/small_spaceport</ModelName>
-		<BaseCost>7700</BaseCost>
+		<BaseCost>8470</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -6999,11 +7025,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>188</Amount>
+				<Amount>226</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>188</Amount>
+				<Amount>226</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Raumhafen v2</Name>
@@ -7019,12 +7045,14 @@
 		<MaximumSize>500</MaximumSize>
 		<DisplaySize>500</DisplaySize>
 		<ModelName>Ships/Haakonish/colony</ModelName>
-		<BaseCost>4000</BaseCost>
+		<BaseCost>4400</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -7547,11 +7575,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleines Kolonieschiff</Name>
@@ -7567,12 +7595,14 @@
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>167</DisplaySize>
 		<ModelName>Ships/Haakonish/mining</ModelName>
-		<BaseCost>1150</BaseCost>
+		<BaseCost>1265</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -8152,11 +8182,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittleres Bergbauschiff</Name>
@@ -8172,12 +8202,14 @@
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>150</DisplaySize>
 		<ModelName>Ships/Haakonish/passenger</ModelName>
-		<BaseCost>1500</BaseCost>
+		<BaseCost>1650</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -8741,11 +8773,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleines Passagierschiff</Name>
@@ -8761,12 +8793,14 @@
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>175</DisplaySize>
 		<ModelName>Ships/Haakonish/fuel</ModelName>
-		<BaseCost>1150</BaseCost>
+		<BaseCost>1265</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -9453,11 +9487,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>90</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Treibstofftanker</Name>
@@ -9473,12 +9507,14 @@
 		<MaximumSize>1050</MaximumSize>
 		<DisplaySize>1300</DisplaySize>
 		<ModelName>Ships/Haakonish/mining_station</ModelName>
-		<BaseCost>4500</BaseCost>
+		<BaseCost>4950</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10052,11 +10088,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>175</Amount>
+				<Amount>210</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>175</Amount>
+				<Amount>210</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Große Bergbaustation</Name>
@@ -10072,12 +10108,14 @@
 		<MaximumSize>975</MaximumSize>
 		<DisplaySize>1283</DisplaySize>
 		<ModelName>Ships/Haakonish/researchStation</ModelName>
-		<BaseCost>4500</BaseCost>
+		<BaseCost>4950</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -10553,11 +10591,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>162</Amount>
+				<Amount>194</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>162</Amount>
+				<Amount>194</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Erholungsstation</Name>
@@ -10573,12 +10611,14 @@
 		<MaximumSize>56</MaximumSize>
 		<DisplaySize>12</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>50</BaseCost>
+		<BaseCost>55</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.33</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10730,11 +10770,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>8</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>8</Amount>
+				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Standard-Jäger</Name>
@@ -10750,12 +10790,14 @@
 		<MaximumSize>76</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>50</BaseCost>
+		<BaseCost>55</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.12</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10924,11 +10966,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>10</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>10</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Standard-Bomber</Name>
@@ -10944,12 +10986,14 @@
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
 		<ModelName>Ships/Haakonish/frigate</ModelName>
-		<BaseCost>3000</BaseCost>
+		<BaseCost>3300</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.15</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -11387,15 +11431,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwere Fregatte</Name>
@@ -11411,12 +11455,14 @@
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
 		<ModelName>Ships/Haakonish/frigate</ModelName>
-		<BaseCost>3000</BaseCost>
+		<BaseCost>3300</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -11866,15 +11912,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schnelle Fregatte</Name>
@@ -11890,12 +11936,14 @@
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
 		<ModelName>Ships/Haakonish/frigate</ModelName>
-		<BaseCost>3000</BaseCost>
+		<BaseCost>3300</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -12362,15 +12410,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>119</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenfregatte</Name>
@@ -12386,12 +12434,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>325</DisplaySize>
 		<ModelName>Ships/Haakonish/destroyer</ModelName>
-		<BaseCost>5000</BaseCost>
+		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -12905,15 +12955,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Zerstörer</Name>
@@ -12929,12 +12979,14 @@
 		<MaximumSize>650</MaximumSize>
 		<DisplaySize>325</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier</ModelName>
-		<BaseCost>3000</BaseCost>
+		<BaseCost>3300</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -13694,15 +13746,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittelgroßer Truppentransporter</Name>
@@ -13718,12 +13770,14 @@
 		<MaximumSize>1350</MaximumSize>
 		<DisplaySize>2383</DisplaySize>
 		<ModelName>Ships/Haakonish/small_spaceport</ModelName>
-		<BaseCost>8400</BaseCost>
+		<BaseCost>9240</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -14823,15 +14877,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Raumhafen v3</Name>
@@ -14847,12 +14901,14 @@
 		<MaximumSize>650</MaximumSize>
 		<DisplaySize>308</DisplaySize>
 		<ModelName>Ships/Haakonish/construction</ModelName>
-		<BaseCost>2000</BaseCost>
+		<BaseCost>2200</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -15361,15 +15417,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittleres Konstruktions-Schiff</Name>
@@ -15385,12 +15441,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>220</DisplaySize>
 		<ModelName>Ships/Haakonish/exploration</ModelName>
-		<BaseCost>2000</BaseCost>
+		<BaseCost>2200</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -16045,15 +16103,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittleres Erkundungsschiff</Name>
@@ -16069,12 +16127,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/mining</ModelName>
-		<BaseCost>1300</BaseCost>
+		<BaseCost>1430</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -16219,8 +16279,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
+				<Type>General</Type>
+				<MaximumComponentSize>100</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -16236,7 +16296,7 @@
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
 				<Type>General</Type>
-				<MaximumComponentSize>100</MaximumComponentSize>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -16685,15 +16745,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großes Bergbauschiff</Name>
@@ -16709,12 +16769,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/cargo_medium</ModelName>
-		<BaseCost>1300</BaseCost>
+		<BaseCost>1430</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -17392,15 +17454,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittlerer Frachter</Name>
@@ -17416,12 +17478,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>183</DisplaySize>
 		<ModelName>Ships/Haakonish/passenger</ModelName>
-		<BaseCost>1750</BaseCost>
+		<BaseCost>1925</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -18017,15 +18081,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittleres Passagierschiff</Name>
@@ -18041,12 +18105,14 @@
 		<MaximumSize>62</MaximumSize>
 		<DisplaySize>14</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>100</BaseCost>
+		<BaseCost>110</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -18215,15 +18281,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>10</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>10</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>10</Amount>
+				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Abfangjäger</Name>
@@ -18239,12 +18305,14 @@
 		<MaximumSize>83</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>100</BaseCost>
+		<BaseCost>110</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.16</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -18429,15 +18497,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>13</Amount>
+				<Amount>16</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>13</Amount>
+				<Amount>16</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>13</Amount>
+				<Amount>16</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Bomber</Name>
@@ -18453,12 +18521,14 @@
 		<MaximumSize>69</MaximumSize>
 		<DisplaySize>15</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>100</BaseCost>
+		<BaseCost>110</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -18627,15 +18697,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>11</Amount>
+				<Amount>13</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>11</Amount>
+				<Amount>13</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>11</Amount>
+				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Angriffsjäger</Name>
@@ -18651,12 +18721,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
 		<ModelName>Ships/Haakonish/destroyer</ModelName>
-		<BaseCost>5500</BaseCost>
+		<BaseCost>6050</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -19202,15 +19274,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Zerstörer</Name>
@@ -19226,12 +19298,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
 		<ModelName>Ships/Haakonish/destroyer</ModelName>
-		<BaseCost>5500</BaseCost>
+		<BaseCost>6050</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -19799,15 +19873,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schneller Zerstörer</Name>
@@ -19823,12 +19897,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
 		<ModelName>Ships/Haakonish/destroyer</ModelName>
-		<BaseCost>5500</BaseCost>
+		<BaseCost>6050</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0.05</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -20374,15 +20450,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenzerstörer</Name>
@@ -20398,12 +20474,14 @@
 		<MaximumSize>1800</MaximumSize>
 		<DisplaySize>2650</DisplaySize>
 		<ModelName>Ships/Haakonish/mSpacePort</ModelName>
-		<BaseCost>12000</BaseCost>
+		<BaseCost>13200</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -21656,15 +21734,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>720</Amount>
+				<Amount>864</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>360</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>360</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittlerer Raumhafen</Name>
@@ -21680,12 +21758,14 @@
 		<MaximumSize>1350</MaximumSize>
 		<DisplaySize>2500</DisplaySize>
 		<ModelName>Ships/Haakonish/small_spaceport</ModelName>
-		<BaseCost>4000</BaseCost>
+		<BaseCost>4400</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -22656,15 +22736,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Weltraumbollwerk</Name>
@@ -22680,12 +22760,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>600</DisplaySize>
 		<ModelName>Ships/Haakonish/colony</ModelName>
-		<BaseCost>5000</BaseCost>
+		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -23291,15 +23373,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittleres Kolonieschiff</Name>
@@ -23315,12 +23397,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/fuel</ModelName>
-		<BaseCost>1300</BaseCost>
+		<BaseCost>1430</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -24154,15 +24238,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großer Treibstofftanker</Name>
@@ -24178,12 +24262,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>250</DisplaySize>
 		<ModelName>Ships/Haakonish/cargo_large</ModelName>
-		<BaseCost>1600</BaseCost>
+		<BaseCost>1760</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -24907,15 +24993,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großer Frachter</Name>
@@ -24931,12 +25017,14 @@
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/passenger</ModelName>
-		<BaseCost>2000</BaseCost>
+		<BaseCost>2200</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -25613,15 +25701,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>324</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großes Passagierschiff</Name>
@@ -25637,12 +25725,14 @@
 		<MaximumSize>64</MaximumSize>
 		<DisplaySize>14</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>150</BaseCost>
+		<BaseCost>165</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.4</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -25811,15 +25901,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>22</Amount>
+				<Amount>26</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>11</Amount>
+				<Amount>13</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>11</Amount>
+				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Taktischer Abfangjäger</Name>
@@ -25835,12 +25925,14 @@
 		<MaximumSize>77</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>150</BaseCost>
+		<BaseCost>165</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -26025,15 +26117,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>24</Amount>
+				<Amount>29</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>12</Amount>
+				<Amount>14</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>12</Amount>
+				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Angriffsjäger</Name>
@@ -26049,12 +26141,14 @@
 		<MaximumSize>86</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>150</BaseCost>
+		<BaseCost>165</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -26239,15 +26333,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>29</Amount>
+				<Amount>35</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>14</Amount>
+				<Amount>17</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>14</Amount>
+				<Amount>17</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittlerer Bomber</Name>
@@ -26263,12 +26357,14 @@
 		<MaximumSize>750</MaximumSize>
 		<DisplaySize>410</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>10000</BaseCost>
+		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -26948,15 +27044,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>350</Amount>
+				<Amount>420</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>175</Amount>
+				<Amount>210</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>175</Amount>
+				<Amount>210</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Kreuzer</Name>
@@ -26972,12 +27068,14 @@
 		<MaximumSize>765</MaximumSize>
 		<DisplaySize>425</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier_large</ModelName>
-		<BaseCost>5000</BaseCost>
+		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -27942,15 +28040,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>336</Amount>
+				<Amount>403</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>168</Amount>
+				<Amount>202</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>168</Amount>
+				<Amount>202</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großer Truppentransporter</Name>
@@ -27966,12 +28064,14 @@
 		<MaximumSize>2250</MaximumSize>
 		<DisplaySize>2750</DisplaySize>
 		<ModelName>Ships/Haakonish/mSpacePort</ModelName>
-		<BaseCost>14000</BaseCost>
+		<BaseCost>15400</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -29354,15 +29454,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>1050</Amount>
+				<Amount>1260</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>525</Amount>
+				<Amount>630</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>525</Amount>
+				<Amount>630</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittlerer Raumhafen v2</Name>
@@ -29378,12 +29478,14 @@
 		<MaximumSize>1650</MaximumSize>
 		<DisplaySize>2567</DisplaySize>
 		<ModelName>Ships/Haakonish/small_spaceport</ModelName>
-		<BaseCost>5000</BaseCost>
+		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -30484,15 +30586,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>660</Amount>
+				<Amount>792</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>330</Amount>
+				<Amount>396</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>330</Amount>
+				<Amount>396</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Weltraumbollwerk v2</Name>
@@ -30508,12 +30610,14 @@
 		<MaximumSize>760</MaximumSize>
 		<DisplaySize>333</DisplaySize>
 		<ModelName>Ships/Haakonish/construction</ModelName>
-		<BaseCost>2500</BaseCost>
+		<BaseCost>2750</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -31104,15 +31208,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>364</Amount>
+				<Amount>437</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>182</Amount>
+				<Amount>218</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>182</Amount>
+				<Amount>218</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großes Konstruktions-Schiff</Name>
@@ -31128,12 +31232,14 @@
 		<MaximumSize>710</MaximumSize>
 		<DisplaySize>245</DisplaySize>
 		<ModelName>Ships/Haakonish/exploration</ModelName>
-		<BaseCost>2500</BaseCost>
+		<BaseCost>2750</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -31853,15 +31959,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>329</Amount>
+				<Amount>395</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>164</Amount>
+				<Amount>197</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>164</Amount>
+				<Amount>197</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großes Erkundungsschiff</Name>
@@ -31877,12 +31983,14 @@
 		<MaximumSize>710</MaximumSize>
 		<DisplaySize>700</DisplaySize>
 		<ModelName>Ships/Haakonish/colony</ModelName>
-		<BaseCost>6000</BaseCost>
+		<BaseCost>6600</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -32520,15 +32628,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>329</Amount>
+				<Amount>395</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>164</Amount>
+				<Amount>197</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>164</Amount>
+				<Amount>197</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großes Kolonieschiff</Name>
@@ -32544,12 +32652,14 @@
 		<MaximumSize>750</MaximumSize>
 		<DisplaySize>2200</DisplaySize>
 		<ModelName>Ships/Haakonish/small_spaceport</ModelName>
-		<BaseCost>7000</BaseCost>
+		<BaseCost>7700</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -33519,7 +33629,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>125</Amount>
+				<Amount>150</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kleiner Raumhafen</Name>
@@ -33535,12 +33645,14 @@
 		<MaximumSize>1200</MaximumSize>
 		<DisplaySize>625</DisplaySize>
 		<ModelName>Ships/Haakonish/battleship</ModelName>
-		<BaseCost>20000</BaseCost>
+		<BaseCost>22000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -34966,19 +35078,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>280</Amount>
+				<Amount>336</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>280</Amount>
+				<Amount>336</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>560</Amount>
+				<Amount>672</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>560</Amount>
+				<Amount>672</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schlachtkreuzer</Name>
@@ -34994,12 +35106,14 @@
 		<MaximumSize>1200</MaximumSize>
 		<DisplaySize>625</DisplaySize>
 		<ModelName>Ships/Haakonish/carrier</ModelName>
-		<BaseCost>20000</BaseCost>
+		<BaseCost>22000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>6</EngineLimit>
-		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -36332,19 +36446,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>280</Amount>
+				<Amount>336</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>280</Amount>
+				<Amount>336</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>560</Amount>
+				<Amount>672</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>560</Amount>
+				<Amount>672</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Träger</Name>
@@ -36360,12 +36474,14 @@
 		<MaximumSize>840</MaximumSize>
 		<DisplaySize>428</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>11000</BaseCost>
+		<BaseCost>12100</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -37132,19 +37248,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schneller Kreuzer</Name>
@@ -37160,12 +37276,14 @@
 		<MaximumSize>840</MaximumSize>
 		<DisplaySize>428</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>11000</BaseCost>
+		<BaseCost>12100</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -37931,19 +38049,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Langstreckenkreuzer</Name>
@@ -37959,12 +38077,14 @@
 		<MaximumSize>840</MaximumSize>
 		<DisplaySize>428</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>11000</BaseCost>
+		<BaseCost>12100</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -38742,19 +38862,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kommandokreuzer</Name>
@@ -38770,12 +38890,14 @@
 		<MaximumSize>840</MaximumSize>
 		<DisplaySize>428</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>11000</BaseCost>
+		<BaseCost>12100</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -39554,19 +39676,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>235</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>470</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kreuzer</Name>
@@ -39582,12 +39704,14 @@
 		<MaximumSize>1100</MaximumSize>
 		<DisplaySize>500</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier_large</ModelName>
-		<BaseCost>6000</BaseCost>
+		<BaseCost>6600</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -40632,19 +40756,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>245</Amount>
+				<Amount>294</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>245</Amount>
+				<Amount>294</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>490</Amount>
+				<Amount>588</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>490</Amount>
+				<Amount>588</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Massiver Truppentransporter</Name>
@@ -40660,12 +40784,14 @@
 		<MaximumSize>1300</MaximumSize>
 		<DisplaySize>658</DisplaySize>
 		<ModelName>Ships/Haakonish/battleship</ModelName>
-		<BaseCost>22000</BaseCost>
+		<BaseCost>24200</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>6</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -42171,19 +42297,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schlachtschiff</Name>
@@ -42199,12 +42325,14 @@
 		<MaximumSize>1300</MaximumSize>
 		<DisplaySize>658</DisplaySize>
 		<ModelName>Ships/Haakonish/carrier</ModelName>
-		<BaseCost>22000</BaseCost>
+		<BaseCost>24200</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -43618,19 +43746,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Träger</Name>
@@ -43646,12 +43774,14 @@
 		<MaximumSize>900</MaximumSize>
 		<DisplaySize>442</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>12000</BaseCost>
+		<BaseCost>13200</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -44444,19 +44574,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Aufklärungskreuzer</Name>
@@ -44472,12 +44602,14 @@
 		<MaximumSize>900</MaximumSize>
 		<DisplaySize>442</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>12000</BaseCost>
+		<BaseCost>13200</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -45299,19 +45431,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Patrouillenkreuzer</Name>
@@ -45327,12 +45459,14 @@
 		<MaximumSize>900</MaximumSize>
 		<DisplaySize>442</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>12000</BaseCost>
+		<BaseCost>13200</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -46142,19 +46276,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenkommandokreuzer</Name>
@@ -46170,12 +46304,14 @@
 		<MaximumSize>900</MaximumSize>
 		<DisplaySize>442</DisplaySize>
 		<ModelName>Ships/Haakonish/cruiser</ModelName>
-		<BaseCost>12000</BaseCost>
+		<BaseCost>13200</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -46975,19 +47111,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>288</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>576</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Kreuzer</Name>
@@ -47003,12 +47139,14 @@
 		<MaximumSize>1325</MaximumSize>
 		<DisplaySize>600</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier_large</ModelName>
-		<BaseCost>7000</BaseCost>
+		<BaseCost>7700</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -48251,19 +48389,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Expeditionstransporter</Name>
@@ -48279,12 +48417,14 @@
 		<MaximumSize>3000</MaximumSize>
 		<DisplaySize>3200</DisplaySize>
 		<ModelName>Ships/Haakonish/lSpacePort</ModelName>
-		<BaseCost>30000</BaseCost>
+		<BaseCost>33000</BaseCost>
 		<ArmorReactiveRating>9</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -49804,19 +49944,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>1600</Amount>
+				<Amount>1920</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>1600</Amount>
+				<Amount>1920</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Großer Raumhafen</Name>
@@ -49832,12 +49972,14 @@
 		<MaximumSize>1275</MaximumSize>
 		<DisplaySize>825</DisplaySize>
 		<ModelName>Ships/Haakonish/colony</ModelName>
-		<BaseCost>8000</BaseCost>
+		<BaseCost>8800</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -50555,19 +50697,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>408</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>816</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Massives Kolonieschiff</Name>
@@ -50583,12 +50725,14 @@
 		<MaximumSize>1500</MaximumSize>
 		<DisplaySize>700</DisplaySize>
 		<ModelName>Ships/Haakonish/battleship</ModelName>
-		<BaseCost>24000</BaseCost>
+		<BaseCost>26400</BaseCost>
 		<ArmorReactiveRating>10</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -52211,19 +52355,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schweres Schlachtschiff</Name>
@@ -52239,12 +52383,14 @@
 		<MaximumSize>1500</MaximumSize>
 		<DisplaySize>700</DisplaySize>
 		<ModelName>Ships/Haakonish/carrier</ModelName>
-		<BaseCost>24000</BaseCost>
+		<BaseCost>26400</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>8</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -53773,19 +53919,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Träger</Name>
@@ -53801,12 +53947,14 @@
 		<MaximumSize>1550</MaximumSize>
 		<DisplaySize>700</DisplaySize>
 		<ModelName>Ships/Haakonish/troop_carier_large</ModelName>
-		<BaseCost>8000</BaseCost>
+		<BaseCost>8800</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -55130,19 +55278,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Armeetransporter</Name>
@@ -55158,12 +55306,14 @@
 		<MaximumSize>1500</MaximumSize>
 		<DisplaySize>875</DisplaySize>
 		<ModelName>Ships/Haakonish/colony</ModelName>
-		<BaseCost>10000</BaseCost>
+		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -55897,19 +56047,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>480</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>960</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Weltschiff</Name>
@@ -55925,12 +56075,14 @@
 		<MaximumSize>1800</MaximumSize>
 		<DisplaySize>767</DisplaySize>
 		<ModelName>Ships/Haakonish/battleship</ModelName>
-		<BaseCost>30000</BaseCost>
+		<BaseCost>33000</BaseCost>
 		<ArmorReactiveRating>12</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -57553,19 +57705,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>540</Amount>
+				<Amount>648</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>540</Amount>
+				<Amount>648</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>1080</Amount>
+				<Amount>1296</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>1080</Amount>
+				<Amount>1296</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Super-Schlachtschiff</Name>
@@ -57581,12 +57733,14 @@
 		<MaximumSize>1800</MaximumSize>
 		<DisplaySize>767</DisplaySize>
 		<ModelName>Ships/Haakonish/carrier</ModelName>
-		<BaseCost>30000</BaseCost>
+		<BaseCost>33000</BaseCost>
 		<ArmorReactiveRating>10</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
 		<EngineLimit>8</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -59115,19 +59269,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>540</Amount>
+				<Amount>648</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>540</Amount>
+				<Amount>648</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>1080</Amount>
+				<Amount>1296</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>1080</Amount>
+				<Amount>1296</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenträger</Name>
@@ -59143,12 +59297,14 @@
 		<MaximumSize>6000</MaximumSize>
 		<DisplaySize>3867</DisplaySize>
 		<ModelName>Ships/Haakonish/lSpacePort</ModelName>
-		<BaseCost>40000</BaseCost>
+		<BaseCost>44000</BaseCost>
 		<ArmorReactiveRating>12</ArmorReactiveRating>
 		<IonDefense>10</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -60715,6 +60871,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>94</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<Modules>
 			<ModelModule>
@@ -60736,19 +60908,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>1800</Amount>
+				<Amount>2160</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>1800</Amount>
+				<Amount>2160</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>3600</Amount>
+				<Amount>4320</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>3600</Amount>
+				<Amount>4320</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Sektor Raumhafen</Name>
@@ -60764,12 +60936,14 @@
 		<MaximumSize>66</MaximumSize>
 		<DisplaySize>14</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>250</BaseCost>
+		<BaseCost>275</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.46</CountermeasuresBonus>
 		<TargetingBonus>0.42</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -60938,19 +61112,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>14</Amount>
+				<Amount>17</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>14</Amount>
+				<Amount>17</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>28</Amount>
+				<Amount>34</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>28</Amount>
+				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Erweiterter Abfangjäger</Name>
@@ -60966,12 +61140,14 @@
 		<MaximumSize>81</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>250</BaseCost>
+		<BaseCost>275</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -61156,19 +61332,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>17</Amount>
+				<Amount>20</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>17</Amount>
+				<Amount>20</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>34</Amount>
+				<Amount>41</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>34</Amount>
+				<Amount>41</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Sturmjäger</Name>
@@ -61184,12 +61360,14 @@
 		<MaximumSize>88</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>350</BaseCost>
+		<BaseCost>385</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.5</CountermeasuresBonus>
 		<TargetingBonus>0.58</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -61374,19 +61552,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>20</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>20</Amount>
+				<Amount>24</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>40</Amount>
+				<Amount>48</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>40</Amount>
+				<Amount>48</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Überlegener Jäger</Name>
@@ -61402,12 +61580,14 @@
 		<MaximumSize>89</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<BaseCost>400</BaseCost>
+		<BaseCost>440</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.54</CountermeasuresBonus>
 		<TargetingBonus>0.7</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -61592,19 +61772,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>23</Amount>
+				<Amount>28</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>23</Amount>
+				<Amount>28</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>47</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>47</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Überlegener Jäger v2</Name>
@@ -61620,12 +61800,14 @@
 		<MaximumSize>93</MaximumSize>
 		<DisplaySize>20</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>250</BaseCost>
+		<BaseCost>275</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.36</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -61826,19 +62008,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>18</Amount>
+				<Amount>22</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>18</Amount>
+				<Amount>22</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>35</Amount>
+				<Amount>42</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>35</Amount>
+				<Amount>42</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Jagdbomber</Name>
@@ -61854,12 +62036,14 @@
 		<MaximumSize>101</MaximumSize>
 		<DisplaySize>22</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>300</BaseCost>
+		<BaseCost>330</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.48</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -62076,19 +62260,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>22</Amount>
+				<Amount>26</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>22</Amount>
+				<Amount>26</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>43</Amount>
+				<Amount>52</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>43</Amount>
+				<Amount>52</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Bomber</Name>
@@ -62104,12 +62288,14 @@
 		<MaximumSize>107</MaximumSize>
 		<DisplaySize>24</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
-		<BaseCost>400</BaseCost>
+		<BaseCost>440</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.38</CountermeasuresBonus>
 		<TargetingBonus>0.6</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -62343,19 +62529,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>25</Amount>
+				<Amount>30</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>25</Amount>
+				<Amount>30</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>50</Amount>
+				<Amount>60</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>50</Amount>
+				<Amount>60</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Angriffsbomber</Name>
@@ -62371,12 +62557,14 @@
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Haakonish/fuel</ModelName>
-		<BaseCost>1230</BaseCost>
+		<BaseCost>1353</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -63162,15 +63350,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>144</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Mittlerer Treibstofftanker</Name>

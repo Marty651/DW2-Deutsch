@@ -412,6 +412,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId> <!-- Advanced Tractor Beams -->
@@ -1466,6 +1472,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>13</ResearchProjectId> <!-- Gravitic Weapons -->
@@ -1680,12 +1692,6 @@
 				<ResearchProjectId>15</ResearchProjectId> <!-- Defense Missiles -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>15</ResearchProjectId> <!-- Defense Missiles -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId> <!-- Human -->
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -2697,7 +2703,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedos -->
+				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedoes -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -2759,7 +2765,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedos -->
+				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedoes -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -2828,7 +2834,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedos -->
+				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedoes -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -3465,12 +3471,6 @@
 				<ResearchProjectId>102</ResearchProjectId> <!-- Massive Projectile Batteries -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>1</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>101</ResearchProjectId> <!-- Advanced Turret Automation -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId> <!-- Human -->
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -4473,6 +4473,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>34</ResearchProjectId> <!-- Enhanced Gravitic Beams -->
@@ -4520,6 +4526,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>26</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId> <!-- Advanced Tractor Beams -->
@@ -5574,6 +5586,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>17</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>321</ResearchProjectId> <!-- EMP Blast Projection -->
@@ -5668,6 +5686,12 @@
 		<Column>5</Column>
 		<Row>19</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>56</ResearchProjectId> <!-- Enhanced Ion Projection -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>999</ResearchProjectId> <!-- Planetary Ion Weapons -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -5835,6 +5859,18 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1024</ResearchProjectId> <!-- Gravitic Vorticies -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>323</ResearchProjectId> <!-- Enhanced Gravitic Control -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
@@ -5880,6 +5916,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>92</ResearchProjectId> <!-- Gravitic Resonance -->
@@ -5949,6 +5991,24 @@
 		<Row>25</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>489</ResearchProjectId> <!-- Enhanced Grapple Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1024</ResearchProjectId> <!-- Gravitic Vorticies -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>323</ResearchProjectId> <!-- Enhanced Gravitic Control -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>119</ResearchProjectId> <!-- Advanced Gravitic Stretching -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -6000,6 +6060,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>26</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>93</ResearchProjectId> <!-- Long Range Tractor Beams -->
@@ -6087,6 +6153,12 @@
 		<Column>4</Column>
 		<Row>30</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>322</ResearchProjectId> <!-- Extended Range Tractor Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>94</ResearchProjectId> <!-- High Power Tractor Beams -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -6247,12 +6319,6 @@
 				<ResearchProjectId>97</ResearchProjectId> <!-- Total Energy Acceleration -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>329</ResearchProjectId> <!-- Rapid Energy Recharge -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId> <!-- Mortalen -->
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -6449,7 +6515,7 @@
 		<Row>38</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>60</ResearchProjectId> <!-- Advanced Torpedos -->
+				<ResearchProjectId>60</ResearchProjectId> <!-- Advanced Torpedoes -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -8887,6 +8953,12 @@
 		<Row>17</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>112</ResearchProjectId> <!-- Advanced Ion Blasts -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>328</ResearchProjectId> <!-- Advanced EMP Defenses -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -8984,6 +9056,12 @@
 		<Column>7</Column>
 		<Row>19</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>112</ResearchProjectId> <!-- Advanced Ion Blasts -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>113</ResearchProjectId> <!-- Massive Ion Weapons -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -9262,6 +9340,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>117</ResearchProjectId> <!-- Advanced Gravitic Resonance -->
@@ -9313,6 +9397,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>26</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>119</ResearchProjectId> <!-- Advanced Gravitic Stretching -->
@@ -9400,6 +9490,12 @@
 		<Column>6</Column>
 		<Row>30</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>490</ResearchProjectId> <!-- Advanced Gravitic Modulation -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>121</ResearchProjectId> <!-- Massive Gravitic Control -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -13939,8 +14035,16 @@
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>SpaceportSmall</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ConstructionShip</Role>
+				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -14402,6 +14506,10 @@
 				<Role>SpaceportSmall</Role>
 				<Level>1</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>SpaceportSmall</Role>
+				<Level>4</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -14444,6 +14552,22 @@
 			<ShipHullReference>
 				<Role>Escort</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>7</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>10</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -15233,12 +15357,6 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>265</ResearchProjectId> <!-- Star Fighters -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId> <!-- Human -->
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>265</ResearchProjectId> <!-- Star Fighters -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15288,6 +15406,10 @@
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -15358,8 +15480,8 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>265</ResearchProjectId> <!-- Star Fighters -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<ResearchProjectId>283</ResearchProjectId> <!-- Light Interceptors -->
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>2</RaceId> <!-- Teekan -->
 			</ResearchPath>
@@ -15488,6 +15610,22 @@
 				<Role>Frigate</Role>
 				<Level>3</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>11</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -15532,8 +15670,16 @@
 				<Level>2</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>SpaceportSmall</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ConstructionShip</Role>
+				<Level>4</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -16278,6 +16424,12 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>285</ResearchProjectId> <!-- Attack Shuttles -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>349</ResearchProjectId> <!-- Long Range Assault Pods -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -16342,6 +16494,10 @@
 				<RaceId>0</RaceId> <!-- Human -->
 				<Probability>1</Probability>
 			</RaceProbability>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -16400,6 +16556,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>106</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>840</ResearchProjectId> <!-- Advanced Hive Fighters -->
@@ -16528,6 +16690,12 @@
 			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>285</ResearchProjectId> <!-- Attack Shuttles -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>355</ResearchProjectId> <!-- Orbital Escape Launchers -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -16709,6 +16877,22 @@
 				<Role>Carrier</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>7</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -16791,6 +16975,10 @@
 				<Role>TroopTransport</Role>
 				<Level>3</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>9</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -16846,6 +17034,22 @@
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>7</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -16909,6 +17113,22 @@
 			<ShipHullReference>
 				<Role>Cruiser</Role>
 				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>13</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>14</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>15</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>16</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -17155,6 +17375,10 @@
 				<ComponentId>239</ComponentId> <!-- Dealbreaker Beam [L] -->
 				<Level>0</Level>
 			</Component>
+			<Component>
+				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
+				<Level>0</Level>
+			</Component>
 		</Components>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -17316,6 +17540,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>17</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>32</ResearchProjectId> <!-- Electromagnetic Defenses -->
@@ -17436,8 +17666,12 @@
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
+				<ComponentId>341</ComponentId> <!-- Dealbreaker Beam [S] -->
 				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>239</ComponentId> <!-- Dealbreaker Beam [L] -->
@@ -18886,18 +19120,16 @@
 				<RaceId>11</RaceId> <!-- Gizurean -->
 				<Probability>1</Probability>
 			</RaceProbability>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>283</ResearchProjectId> <!-- Light Interceptors -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>283</ResearchProjectId> <!-- Light Interceptors -->
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId> <!-- Human -->
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
@@ -19001,6 +19233,10 @@
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>2</RaceId> <!-- Teekan -->
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -19394,6 +19630,10 @@
 				<Role>SpaceportMedium</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>SpaceportMedium</Role>
+				<Level>2</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -19444,6 +19684,22 @@
 			<ShipHullReference>
 				<Role>Destroyer</Role>
 				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>11</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -20582,8 +20838,16 @@
 				<Level>1</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>SpaceportMedium</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ConstructionShip</Role>
+				<Level>5</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -21112,6 +21376,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>385</ResearchProjectId> <!-- Basic Countermeasures -->
@@ -21558,6 +21828,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
 		<Row>170</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>389</ResearchProjectId> <!-- Basic Storage Systems -->
@@ -21624,6 +21900,10 @@
 			</Component>
 			<Component>
 				<ComponentId>104</ComponentId> <!-- Mega-Density Fuel Cell -->
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>102</ComponentId> <!-- Cargo Bay -->
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -21919,6 +22199,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>399</ResearchProjectId> <!-- Improved Countermeasures -->
@@ -22153,6 +22439,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>170</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>409</ResearchProjectId> <!-- Storage Systems -->
@@ -22429,6 +22721,12 @@
 		<Row>138</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>401</ResearchProjectId> <!-- Warped Light Field -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>417</ResearchProjectId> <!-- Enhanced Countermeasures -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -22582,6 +22880,12 @@
 		<Row>141</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>401</ResearchProjectId> <!-- Warped Light Field -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>417</ResearchProjectId> <!-- Enhanced Countermeasures -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -22597,19 +22901,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>401</ResearchProjectId> <!-- Warped Light Field -->
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>1</Priority>
-				<RaceId>3</RaceId> <!-- Haakonish -->
-			</ResearchPath>
-			<ResearchPath>
 				<ResearchProjectId>400</ResearchProjectId> <!-- Holographic Projection -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>1</Priority>
 				<RaceId>13</RaceId> <!-- Kiadian -->
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>430</ResearchProjectId> <!-- Advanced Light Warping -->
+				<ResearchProjectId>430</ResearchProjectId> <!-- Enhanced Light Warping -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>3</RaceId> <!-- Haakonish -->
@@ -23373,6 +23671,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>410</ResearchProjectId> <!-- Compressed Fuel Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
@@ -23410,6 +23714,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>171</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>422</ResearchProjectId> <!-- Enhanced Storage -->
@@ -23854,6 +24164,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>417</ResearchProjectId> <!-- Enhanced Countermeasures -->
@@ -24354,6 +24670,12 @@
 		<Row>141</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>1026</ResearchProjectId> <!-- Advanced Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>431</ResearchProjectId> <!-- Stealth -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -24589,6 +24911,12 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>446</ResearchProjectId> <!-- Dense Fuel Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
@@ -24626,6 +24954,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>171</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>445</ResearchProjectId> <!-- Large Fuel Storage -->
@@ -25478,11 +25812,11 @@
 		<Components>
 			<Component>
 				<ComponentId>341</ComponentId> <!-- Dealbreaker Beam [S] -->
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>239</ComponentId> <!-- Dealbreaker Beam [L] -->
@@ -25532,6 +25866,12 @@
 			</RaceProbability>
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>379</ResearchProjectId> <!-- Advanced Star Fighters -->
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>285</ResearchProjectId> <!-- Attack Shuttles -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -26724,6 +27064,22 @@
 				<Role>Carrier</Role>
 				<Level>1</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>11</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -26776,12 +27132,24 @@
 				<Level>4</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>SpaceportLarge</Role>
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>SpaceportLarge</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ColonyShip</Role>
 				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>8</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -26838,6 +27206,22 @@
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>11</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -26901,6 +27285,22 @@
 			<ShipHullReference>
 				<Role>Cruiser</Role>
 				<Level>8</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>17</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>18</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>19</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>20</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -27071,6 +27471,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>455</ResearchProjectId> <!-- Advanced Countermeasures -->
@@ -27466,11 +27872,11 @@
 		<Components>
 			<Component>
 				<ComponentId>341</ComponentId> <!-- Dealbreaker Beam [S] -->
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 			<Component>
 				<ComponentId>239</ComponentId> <!-- Dealbreaker Beam [L] -->
@@ -27824,7 +28230,7 @@
 				<RaceId>10</RaceId> <!-- Dhayut -->
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>977</ResearchProjectId> <!-- Unlock Vault of the Shakturi Mind -->
+				<ResearchProjectId>981</ResearchProjectId> <!-- Unified Wormhole Theory -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>20</RaceId> <!-- Shakturi -->
@@ -28400,6 +28806,12 @@
 				<Priority>0</Priority>
 				<RaceId>0</RaceId> <!-- Human -->
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>549</ResearchProjectId> <!-- Superior Attack Shuttles -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId> <!-- Teekan -->
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
@@ -28421,25 +28833,25 @@
 		<ResearchProjectId>549</ResearchProjectId>
 		<Name>Super-Angriffsjäger 3m(7)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>47520</Size>
+		<Size>15840</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId> <!-- Steel -->
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId> <!-- Polymer -->
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId> <!-- Aculon -->
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId> <!-- Hexodorium -->
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -28449,7 +28861,7 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>107</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -28737,6 +29149,22 @@
 				<Role>Carrier</Role>
 				<Level>2</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>12</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>13</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>14</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>15</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -28795,8 +29223,16 @@
 				<Level>5</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>11</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ColonyShip</Role>
 				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>9</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -28848,6 +29284,22 @@
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>12</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>13</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>14</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>15</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -28998,6 +29450,12 @@
 		<Row>138</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>1026</ResearchProjectId> <!-- Advanced Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>521</ResearchProjectId> <!-- Superior Countermeasures -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>1</Priority>
@@ -29109,6 +29567,12 @@
 		<Column>7</Column>
 		<Row>141</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1027</ResearchProjectId> <!-- Superior Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>466</ResearchProjectId> <!-- Enhanced Stealth -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -29521,6 +29985,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>171</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>472</ResearchProjectId> <!-- Advanced Fuel Storage -->
@@ -30705,8 +31175,48 @@
 				<Level>3</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>16</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>17</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>18</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Carrier</Role>
+				<Level>19</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>16</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>17</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>18</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>CapitalShip</Role>
+				<Level>19</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>SpaceportLarge</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>SpaceportLarge</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>SpaceportLarge</Role>
+				<Level>4</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -30838,6 +31348,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>521</ResearchProjectId> <!-- Superior Countermeasures -->
@@ -30890,6 +31406,12 @@
 		<Column>8</Column>
 		<Row>141</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1028</ResearchProjectId> <!-- Optimal Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>561</ResearchProjectId> <!-- Advanced Stealth -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
@@ -33035,7 +33557,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33106,7 +33628,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33177,7 +33699,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33248,7 +33770,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33319,7 +33841,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33397,7 +33919,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.9</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -33921,6 +34443,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>137</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>560</ResearchProjectId> <!-- Superior Hologram Manipulation -->
@@ -34950,6 +35478,12 @@
 		<Row>138</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>430</ResearchProjectId> <!-- Enhanced Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>428</ResearchProjectId> <!-- Fleet Countermeasures -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -35027,16 +35561,52 @@
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>MiningShip</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>7</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>8</Level>
 			</ShipHullReference>
 			<ShipHullReference>
 				<Role>PassengerShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>PassengerShip</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>FuelTanker</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FuelTanker</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>6</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35082,8 +35652,24 @@
 				<Level>1</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>ExplorationShip</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>MiningShip</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>11</Level>
 			</ShipHullReference>
 			<ShipHullReference>
 				<Role>FreighterMedium</Role>
@@ -35094,8 +35680,28 @@
 				<Level>1</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>PassengerShip</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>FuelTanker</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FuelTanker</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterMedium</Role>
+				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterMedium</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterMedium</Role>
+				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35141,16 +35747,40 @@
 				<Level>1</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>FreighterLarge</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>3</Level>
 			</ShipHullReference>
 			<ShipHullReference>
 				<Role>PassengerShip</Role>
 				<Level>2</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>PassengerShip</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>FuelTanker</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FuelTanker</Role>
+				<Level>5</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35196,8 +35826,28 @@
 				<Level>2</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>ExplorationShip</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ColonyShip</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>7</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterLarge</Role>
+				<Level>6</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35219,8 +35869,16 @@
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ResearchStation</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ResearchStation</Role>
+				<Level>1</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35262,8 +35920,16 @@
 				<Level>1</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>ResortBase</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ResortBase</Role>
+				<Level>1</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35308,6 +35974,10 @@
 				<Role>MonitoringStation</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MonitoringStation</Role>
+				<Level>1</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -35350,6 +36020,10 @@
 			<ShipHullReference>
 				<Role>DefensiveBase</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>DefensiveBase</Role>
+				<Level>2</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35394,6 +36068,10 @@
 				<Role>DefensiveBase</Role>
 				<Level>1</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>DefensiveBase</Role>
+				<Level>3</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -35412,6 +36090,22 @@
 			<ShipHullReference>
 				<Role>Escort</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>6</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35451,6 +36145,22 @@
 			<ShipHullReference>
 				<Role>Frigate</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Frigate</Role>
+				<Level>7</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35495,6 +36205,22 @@
 				<Role>Destroyer</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>6</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Destroyer</Role>
+				<Level>7</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -35537,6 +36263,22 @@
 			<ShipHullReference>
 				<Role>Cruiser</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>9</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>10</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>11</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>Cruiser</Role>
+				<Level>12</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35593,6 +36335,10 @@
 				<Role>TroopTransport</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>6</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -35635,6 +36381,10 @@
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
 				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>7</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -35679,6 +36429,10 @@
 				<Role>TroopTransport</Role>
 				<Level>2</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>TroopTransport</Role>
+				<Level>8</Level>
+			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
@@ -35699,12 +36453,40 @@
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>ExplorationShip</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>MiningShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
 			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningShip</Role>
+				<Level>5</Level>
+			</ShipHullReference>
+			<ShipHullReference>
 				<Role>FreighterSmall</Role>
 				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>1</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FreighterSmall</Role>
+				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
@@ -40568,7 +41350,7 @@
 			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
-			<ResearchBonusType>ResearchHighTech</ResearchBonusType>
+			<ResearchBonusType>ResearchConstruction</ResearchBonusType>
 			<ResearchBonusAmount>0.2</ResearchBonusAmount>
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -41734,7 +42516,7 @@
 		<Row>37</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedos -->
+				<ResearchProjectId>37</ResearchProjectId> <!-- Enhanced Torpedoes -->
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -42041,7 +42823,7 @@
 		<ResearchProjectId>1019</ResearchProjectId>
 		<Name>Planetenkern-Experimente</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1600</Size>
+		<Size>1760</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -42055,6 +42837,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>204</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>451</ResearchProjectId> <!-- Structured Research -->
@@ -42069,5 +42857,435 @@
 			<short>135</short> <!-- Core-Linked Weapons Mega Lab -->
 		</PlanetaryFacilityIds>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1022</ResearchProjectId>
+		<Name>Mega Dense Fuel Storage</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>190080</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchIndustrial</ResearchBonusType>
+			<ResearchBonusAmount>0.7</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>172</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>571</ResearchProjectId> <!-- Ultra Dense Fuel Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>104</ComponentId> <!-- Mega-Density Fuel Cell -->
+				<Level>4</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1023</ResearchProjectId>
+		<Name>Gravitische Ströme</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2000</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>25</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>58</ResearchProjectId> <!-- Advanced Tractor Beams -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>317</ResearchProjectId> <!-- Extended Gravitic Weapons -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>421</ComponentId> <!-- Vortex Bomb [L] -->
+				<Level>0</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1024</ResearchProjectId>
+		<Name>Gravitische Wirbel</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>4000</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId> <!-- Argon -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId> <!-- Emeros Crystal -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId> <!-- Krypton -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId> <!-- Nekros Stone -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>25</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1023</ResearchProjectId> <!-- Gravitic Currents -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>421</ComponentId> <!-- Vortex Bomb [L] -->
+				<Level>1</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1025</ResearchProjectId>
+		<Name>Verbesserter Schaden bei Dealbreaker</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>47520</Size>
+		<InitiationCost>
+			<Money>40500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId> <!-- Osalia -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId> <!-- Tyderios -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId> <!-- Mebnar -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchWeapons</ResearchBonusType>
+			<ResearchBonusAmount>0.9</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>32</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>529</ResearchProjectId> <!-- Superior Gravitic Modulation -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>341</ComponentId> <!-- Dealbreaker Beam [S] -->
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>293</ComponentId> <!-- Dealbreaker Beam [M] -->
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>239</ComponentId> <!-- Dealbreaker Beam [L] -->
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+		</RepeatableComponentValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1026</ResearchProjectId>
+		<Name>Fortgeschrittenes Light Warping</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5280</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>140</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>430</ResearchProjectId> <!-- Enhanced Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>241</ComponentId> <!-- Starfield Generator -->
+				<Level>2</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1027</ResearchProjectId>
+		<Name>Überlegene Lichtverformung</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>47520</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>140</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1026</ResearchProjectId> <!-- Advanced Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>241</ComponentId> <!-- Starfield Generator -->
+				<Level>3</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1028</ResearchProjectId>
+		<Name>Optimale Lichtverzerrung</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>190080</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>138</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1027</ResearchProjectId> <!-- Superior Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>241</ComponentId> <!-- Starfield Generator -->
+				<Level>4</Level>
+			</Component>
+		</Components>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1029</ResearchProjectId>
+		<Name>Erweiterte Gegenmaßnahmen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>47520</Size>
+		<InitiationCost>
+			<Money>40500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId> <!-- Polymer -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId> <!-- Silicon -->
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<ResearchBonusType>ResearchSensors</ResearchBonusType>
+			<ResearchBonusAmount>0.9</ResearchBonusAmount>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>138</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1028</ResearchProjectId> <!-- Optimal Light Warping -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>241</ComponentId> <!-- Starfield Generator -->
+				<Values>
+					<ComponentStats>
+						<CountermeasuresBonus>0.05</CountermeasuresBonus>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+		</RepeatableComponentValues>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

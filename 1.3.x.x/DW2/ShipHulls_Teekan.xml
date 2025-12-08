@@ -16,6 +16,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -220,9 +222,9 @@
 		<Role>Escort</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>125</Size>
-		<MaximumSize>375</MaximumSize>
-		<DisplaySize>200</DisplaySize>
+		<Size>100</Size>
+		<MaximumSize>350</MaximumSize>
+		<DisplaySize>160</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Escort</ModelName>
 		<BaseCost>1400</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
@@ -230,6 +232,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -653,7 +657,7 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>62</Amount>
+				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Eskorte</Name>
@@ -675,6 +679,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -1395,6 +1401,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -2881,6 +2889,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -3397,6 +3407,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -3848,6 +3860,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -4196,6 +4210,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -4644,6 +4660,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -5300,6 +5318,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -6036,9 +6056,9 @@
 		<Role>Escort</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>140</Size>
-		<MaximumSize>415</MaximumSize>
-		<DisplaySize>208</DisplaySize>
+		<Size>112</Size>
+		<MaximumSize>387</MaximumSize>
+		<DisplaySize>166</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Escort</ModelName>
 		<BaseCost>1500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
@@ -6046,6 +6066,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -6490,11 +6512,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>70</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>70</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwere Eskorte</Name>
@@ -6506,9 +6528,9 @@
 		<Role>Escort</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>140</Size>
-		<MaximumSize>415</MaximumSize>
-		<DisplaySize>208</DisplaySize>
+		<Size>112</Size>
+		<MaximumSize>387</MaximumSize>
+		<DisplaySize>166</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Escort</ModelName>
 		<BaseCost>1500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
@@ -6516,6 +6538,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -6938,11 +6962,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>70</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>70</Amount>
+				<Amount>56</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Patrouilleneskorte</Name>
@@ -6954,9 +6978,9 @@
 		<Role>Frigate</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>150</Size>
-		<MaximumSize>450</MaximumSize>
-		<DisplaySize>250</DisplaySize>
+		<Size>120</Size>
+		<MaximumSize>420</MaximumSize>
+		<DisplaySize>200</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Frigate</ModelName>
 		<BaseCost>2500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
@@ -6964,6 +6988,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -7470,11 +7496,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>75</Amount>
+				<Amount>60</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>75</Amount>
+				<Amount>60</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Fregatte</Name>
@@ -7496,6 +7522,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -8086,6 +8114,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -9576,6 +9606,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -10061,6 +10093,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -10530,6 +10564,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -10966,6 +11002,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -10986,7 +11024,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -11003,7 +11041,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon2</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -11491,6 +11529,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -12277,8 +12317,10 @@
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -12997,9 +13039,9 @@
 		<Role>Frigate</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>165</Size>
-		<MaximumSize>490</MaximumSize>
-		<DisplaySize>267</DisplaySize>
+		<Size>132</Size>
+		<MaximumSize>457</MaximumSize>
+		<DisplaySize>214</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Frigate</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -13007,6 +13049,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.15</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<ModelSize>
@@ -13550,15 +13594,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwere Fregatte</Name>
@@ -13570,9 +13614,9 @@
 		<Role>Frigate</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>165</Size>
-		<MaximumSize>490</MaximumSize>
-		<DisplaySize>267</DisplaySize>
+		<Size>132</Size>
+		<MaximumSize>457</MaximumSize>
+		<DisplaySize>214</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Frigate</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -13580,6 +13624,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -14135,15 +14181,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schnelle Fregatte</Name>
@@ -14155,9 +14201,9 @@
 		<Role>Frigate</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>165</Size>
-		<MaximumSize>490</MaximumSize>
-		<DisplaySize>267</DisplaySize>
+		<Size>132</Size>
+		<MaximumSize>457</MaximumSize>
+		<DisplaySize>214</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Frigate</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -14165,6 +14211,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<Bonuses>
@@ -14737,15 +14785,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>99</Amount>
+				<Amount>79</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenfregatte</Name>
@@ -14757,9 +14805,9 @@
 		<Role>Destroyer</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>200</Size>
-		<MaximumSize>600</MaximumSize>
-		<DisplaySize>325</DisplaySize>
+		<Size>160</Size>
+		<MaximumSize>560</MaximumSize>
+		<DisplaySize>260</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Destroyer</ModelName>
 		<BaseCost>5000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -14767,6 +14815,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -15402,15 +15452,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>120</Amount>
+				<Amount>96</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>120</Amount>
+				<Amount>96</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>120</Amount>
+				<Amount>96</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Zerstörer</Name>
@@ -15432,6 +15482,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -16107,6 +16159,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.3</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -17765,6 +17819,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -18337,6 +18393,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -18878,6 +18936,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -19023,8 +19083,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
+				<Type>General</Type>
+				<MaximumComponentSize>100</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -19040,7 +19100,7 @@
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
 				<Type>General</Type>
-				<MaximumComponentSize>100</MaximumComponentSize>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -19383,6 +19443,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -19887,6 +19949,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -20349,9 +20413,9 @@
 		<Role>Destroyer</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>225</Size>
-		<MaximumSize>675</MaximumSize>
-		<DisplaySize>340</DisplaySize>
+		<Size>180</Size>
+		<MaximumSize>630</MaximumSize>
+		<DisplaySize>272</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Destroyer</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -20359,6 +20423,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -21026,15 +21092,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>216</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Zerstörer</Name>
@@ -21046,9 +21112,9 @@
 		<Role>Destroyer</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>225</Size>
-		<MaximumSize>675</MaximumSize>
-		<DisplaySize>340</DisplaySize>
+		<Size>180</Size>
+		<MaximumSize>630</MaximumSize>
+		<DisplaySize>272</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Destroyer</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -21056,6 +21122,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -21745,15 +21813,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>216</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schneller Zerstörer</Name>
@@ -21765,9 +21833,9 @@
 		<Role>Destroyer</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>225</Size>
-		<MaximumSize>675</MaximumSize>
-		<DisplaySize>340</DisplaySize>
+		<Size>180</Size>
+		<MaximumSize>630</MaximumSize>
+		<DisplaySize>272</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Destroyer</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
@@ -21775,6 +21843,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.05</CountermeasuresBonus>
 		<TargetingBonus>0.05</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.8</BuildSpeedFactor>
@@ -22442,15 +22512,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>270</Amount>
+				<Amount>216</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>135</Amount>
+				<Amount>108</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenzerstörer</Name>
@@ -22472,6 +22542,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -24390,6 +24462,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -25885,6 +25959,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -26457,6 +26533,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -27133,6 +27211,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -27685,6 +27765,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<ModelSize>
@@ -28229,9 +28311,9 @@
 		<Role>Cruiser</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>250</Size>
-		<MaximumSize>750</MaximumSize>
-		<DisplaySize>410</DisplaySize>
+		<Size>200</Size>
+		<MaximumSize>700</MaximumSize>
+		<DisplaySize>328</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>10000</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
@@ -28239,6 +28321,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -29108,15 +29192,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>350</Amount>
+				<Amount>280</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>175</Amount>
+				<Amount>140</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>175</Amount>
+				<Amount>140</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Kreuzer</Name>
@@ -29138,6 +29222,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -29862,6 +29948,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -31910,6 +31998,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -33535,6 +33625,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -34189,6 +34281,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -34795,6 +34889,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -35399,6 +35495,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.33</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -35576,6 +35674,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.12</CountermeasuresBonus>
 		<TargetingBonus>0.08</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -35770,6 +35870,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -35968,6 +36070,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.16</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -36182,6 +36286,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.14</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -36216,6 +36322,23 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>0.785</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<MeshName>#engine0</MeshName>
@@ -36232,7 +36355,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
+				<ComponentBayId>3</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<MeshName>#engine1</MeshName>
@@ -36249,7 +36372,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
+				<ComponentBayId>4</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<MeshName>#engine2</MeshName>
@@ -36266,24 +36389,8 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -36315,6 +36422,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>7</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -36363,6 +36486,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.4</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -36561,6 +36686,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -36775,6 +36902,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.26</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -36979,9 +37108,9 @@
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>400</Size>
-		<MaximumSize>1200</MaximumSize>
-		<DisplaySize>625</DisplaySize>
+		<Size>320</Size>
+		<MaximumSize>1120</MaximumSize>
+		<DisplaySize>500</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Battleship</ModelName>
 		<BaseCost>20000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
@@ -36989,6 +37118,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -38316,19 +38447,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>280</Amount>
+				<Amount>224</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>280</Amount>
+				<Amount>224</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>560</Amount>
+				<Amount>448</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>560</Amount>
+				<Amount>448</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schlachtkreuzer</Name>
@@ -38340,16 +38471,18 @@
 		<Role>Carrier</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>400</Size>
-		<MaximumSize>1200</MaximumSize>
-		<DisplaySize>625</DisplaySize>
+		<Size>320</Size>
+		<MaximumSize>1120</MaximumSize>
+		<DisplaySize>500</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Carrier</ModelName>
 		<BaseCost>20000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>6</EngineLimit>
-		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -39532,19 +39665,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>280</Amount>
+				<Amount>224</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>280</Amount>
+				<Amount>224</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>560</Amount>
+				<Amount>448</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>560</Amount>
+				<Amount>448</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Leichter Träger</Name>
@@ -39556,9 +39689,9 @@
 		<Role>Cruiser</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>280</Size>
-		<MaximumSize>840</MaximumSize>
-		<DisplaySize>428</DisplaySize>
+		<Size>224</Size>
+		<MaximumSize>784</MaximumSize>
+		<DisplaySize>342</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
@@ -39566,6 +39699,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -40522,19 +40657,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schneller Kreuzer</Name>
@@ -40546,9 +40681,9 @@
 		<Role>Cruiser</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>280</Size>
-		<MaximumSize>840</MaximumSize>
-		<DisplaySize>428</DisplaySize>
+		<Size>224</Size>
+		<MaximumSize>784</MaximumSize>
+		<DisplaySize>342</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
@@ -40556,6 +40691,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -41528,19 +41665,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Langstreckenkreuzer</Name>
@@ -41552,9 +41689,9 @@
 		<Role>Cruiser</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>280</Size>
-		<MaximumSize>840</MaximumSize>
-		<DisplaySize>428</DisplaySize>
+		<Size>224</Size>
+		<MaximumSize>784</MaximumSize>
+		<DisplaySize>342</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
@@ -41562,6 +41699,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -42529,19 +42668,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kommandokreuzer</Name>
@@ -42553,9 +42692,9 @@
 		<Role>Cruiser</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>280</Size>
-		<MaximumSize>840</MaximumSize>
-		<DisplaySize>428</DisplaySize>
+		<Size>224</Size>
+		<MaximumSize>784</MaximumSize>
+		<DisplaySize>342</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>11000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
@@ -42563,6 +42702,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -43531,19 +43672,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>196</Amount>
+				<Amount>157</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>392</Amount>
+				<Amount>314</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Kreuzer</Name>
@@ -43565,6 +43706,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -44398,9 +44541,9 @@
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>425</Size>
-		<MaximumSize>1300</MaximumSize>
-		<DisplaySize>658</DisplaySize>
+		<Size>340</Size>
+		<MaximumSize>1215</MaximumSize>
+		<DisplaySize>526</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Battleship</ModelName>
 		<BaseCost>22000</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
@@ -44408,6 +44551,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -45816,19 +45961,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>272</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>272</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>544</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>544</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schlachtschiff</Name>
@@ -45840,16 +45985,18 @@
 		<Role>Carrier</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>425</Size>
-		<MaximumSize>1300</MaximumSize>
-		<DisplaySize>658</DisplaySize>
+		<Size>340</Size>
+		<MaximumSize>1215</MaximumSize>
+		<DisplaySize>526</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Carrier</ModelName>
 		<BaseCost>22000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -47113,19 +47260,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>340</Amount>
+				<Amount>272</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>340</Amount>
+				<Amount>272</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>680</Amount>
+				<Amount>544</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>680</Amount>
+				<Amount>544</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Träger</Name>
@@ -47137,9 +47284,9 @@
 		<Role>Cruiser</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>300</Size>
-		<MaximumSize>900</MaximumSize>
-		<DisplaySize>442</DisplaySize>
+		<Size>240</Size>
+		<MaximumSize>840</MaximumSize>
+		<DisplaySize>354</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>12000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
@@ -47147,6 +47294,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -48129,19 +48278,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Aufklärungskreuzer</Name>
@@ -48153,9 +48302,9 @@
 		<Role>Cruiser</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>300</Size>
-		<MaximumSize>900</MaximumSize>
-		<DisplaySize>442</DisplaySize>
+		<Size>240</Size>
+		<MaximumSize>840</MaximumSize>
+		<DisplaySize>354</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>12000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
@@ -48163,6 +48312,8 @@
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -49174,19 +49325,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Patrouillenkreuzer</Name>
@@ -49198,9 +49349,9 @@
 		<Role>Cruiser</Role>
 		<Level>7</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>300</Size>
-		<MaximumSize>900</MaximumSize>
-		<DisplaySize>442</DisplaySize>
+		<Size>240</Size>
+		<MaximumSize>840</MaximumSize>
+		<DisplaySize>354</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>12000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
@@ -49208,6 +49359,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -50207,19 +50360,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenkommandokreuzer</Name>
@@ -50231,9 +50384,9 @@
 		<Role>Cruiser</Role>
 		<Level>8</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>300</Size>
-		<MaximumSize>900</MaximumSize>
-		<DisplaySize>442</DisplaySize>
+		<Size>240</Size>
+		<MaximumSize>840</MaximumSize>
+		<DisplaySize>354</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Cruiser</ModelName>
 		<BaseCost>12000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
@@ -50241,6 +50394,8 @@
 		<EngineLimit>6</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0.1</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -51230,19 +51385,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>240</Amount>
+				<Amount>192</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>480</Amount>
+				<Amount>384</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Kreuzer</Name>
@@ -51264,6 +51419,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -52253,6 +52410,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -54896,6 +55055,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -55574,9 +55735,9 @@
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>500</Size>
-		<MaximumSize>1500</MaximumSize>
-		<DisplaySize>700</DisplaySize>
+		<Size>400</Size>
+		<MaximumSize>1400</MaximumSize>
+		<DisplaySize>560</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Battleship</ModelName>
 		<BaseCost>24000</BaseCost>
 		<ArmorReactiveRating>10</ArmorReactiveRating>
@@ -55584,6 +55745,8 @@
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -57108,19 +57271,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>320</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>320</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>640</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>640</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schweres Schlachtschiff</Name>
@@ -57132,16 +57295,18 @@
 		<Role>Carrier</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>500</Size>
-		<MaximumSize>1500</MaximumSize>
-		<DisplaySize>700</DisplaySize>
+		<Size>400</Size>
+		<MaximumSize>1400</MaximumSize>
+		<DisplaySize>560</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Carrier</ModelName>
 		<BaseCost>24000</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>8</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.25</BuildSpeedFactor>
@@ -58520,19 +58685,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>400</Amount>
+				<Amount>320</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>400</Amount>
+				<Amount>320</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>800</Amount>
+				<Amount>640</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>800</Amount>
+				<Amount>640</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Schwerer Träger</Name>
@@ -58554,6 +58719,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -59624,6 +59791,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.33</BuildSpeedFactor>
@@ -60318,9 +60487,9 @@
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>600</Size>
-		<MaximumSize>1800</MaximumSize>
-		<DisplaySize>767</DisplaySize>
+		<Size>480</Size>
+		<MaximumSize>1680</MaximumSize>
+		<DisplaySize>614</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Battleship</ModelName>
 		<BaseCost>30000</BaseCost>
 		<ArmorReactiveRating>12</ArmorReactiveRating>
@@ -60328,6 +60497,8 @@
 		<EngineLimit>8</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -61852,19 +62023,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>540</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>540</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>1080</Amount>
+				<Amount>864</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>1080</Amount>
+				<Amount>864</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Super-Schlachtschiff</Name>
@@ -61876,16 +62047,18 @@
 		<Role>Carrier</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>600</Size>
-		<MaximumSize>1800</MaximumSize>
-		<DisplaySize>767</DisplaySize>
+		<Size>480</Size>
+		<MaximumSize>1680</MaximumSize>
+		<DisplaySize>614</DisplaySize>
 		<ModelName>Ships/Teekan/Teekan_Carrier</ModelName>
 		<BaseCost>30000</BaseCost>
 		<ArmorReactiveRating>10</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
 		<EngineLimit>8</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.2</BuildSpeedFactor>
@@ -63264,19 +63437,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId> <!-- Steel -->
-				<Amount>540</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId> <!-- Polymer -->
-				<Amount>540</Amount>
+				<Amount>432</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId> <!-- Aculon -->
-				<Amount>1080</Amount>
+				<Amount>864</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId> <!-- Hexodorium -->
-				<Amount>1080</Amount>
+				<Amount>864</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Flottenträger</Name>
@@ -63298,6 +63471,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -64864,6 +65039,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>94</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<RunningLights>
 			<RunningLight>
@@ -66009,6 +66200,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.46</CountermeasuresBonus>
 		<TargetingBonus>0.42</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.9</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -66211,6 +66404,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.37</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -66414,7 +66609,7 @@
 		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>397</ShipHullId> <!-- ZimZip Attack Shuttle -->
+		<ShipHullId>397</ShipHullId> <!-- ZimZip Attack Shuttle v2 -->
 		<RaceId>2</RaceId> <!-- Teekan -->
 		<Role>FighterInterceptor</Role>
 		<Level>11</Level>
@@ -66429,6 +66624,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.44</CountermeasuresBonus>
 		<TargetingBonus>0.4</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -66628,7 +66825,7 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Angriffs-Shuttle</Name>
+		<Name>ZimZip Angriffs-Shuttle v2</Name>
 		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -66647,6 +66844,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.5</CountermeasuresBonus>
 		<TargetingBonus>0.58</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -66850,7 +67049,7 @@
 		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>399</ShipHullId> <!-- ZimZip Attack Shuttle -->
+		<ShipHullId>399</ShipHullId> <!-- ZimZip Attack Shuttle v3 -->
 		<RaceId>2</RaceId> <!-- Teekan -->
 		<Role>FighterInterceptor</Role>
 		<Level>15</Level>
@@ -66865,6 +67064,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.54</CountermeasuresBonus>
 		<TargetingBonus>0.5</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -67064,7 +67265,7 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Angriffs-Shuttle</Name>
+		<Name>ZimZip Angriffs-Shuttle v3</Name>
 		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -67083,6 +67284,8 @@
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.54</CountermeasuresBonus>
 		<TargetingBonus>0.7</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.75</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -67301,6 +67504,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.26</CountermeasuresBonus>
 		<TargetingBonus>0.36</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -67535,6 +67740,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.3</CountermeasuresBonus>
 		<TargetingBonus>0.48</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -67785,6 +67992,8 @@
 		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.38</CountermeasuresBonus>
 		<TargetingBonus>0.6</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.55</TurnRollRate>
 		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
 		<Bonuses>
@@ -68052,6 +68261,8 @@
 		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
+		<Stealth>0</Stealth>
+		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
 		<Bonuses>
@@ -68072,7 +68283,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -68089,7 +68300,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon2</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>

@@ -88,8 +88,10 @@
 			<short>254</short> <!-- Starship Maneuvering -->
 			<short>394</short> <!-- Basic Recreation Systems -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>71</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>5</short> <!-- Seeking Missile [S] -->
 			<short>197</short> <!-- Seeking Missile [Ftr] -->
 			<short>17</short> <!-- Concussion Missile [S] -->
@@ -389,14 +391,17 @@
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -522,8 +527,10 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
 			<short>0</short> <!-- Early Beam Weapons -->
 			<short>254</short> <!-- Starship Maneuvering -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>72</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>227</short> <!-- Shatterforce Beam [L] -->
 			<short>29</short> <!-- Shatterforce Beam [M] -->
 			<short>28</short> <!-- Sentinel Multi-Beam Defense [PD] -->
@@ -742,14 +749,17 @@ Ihre bevorzugten Lebensräume sind die Tiefland-Ebenen der Kontinental-, Wald- o
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -799,10 +809,8 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>1</short> <!-- Mercantile Guild -->
-			<short>4</short> <!-- Monarchy -->
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
-			<short>0</short> <!-- Republic -->
 			<short>1</short> <!-- Mercantile Guild -->
 			<short>2</short> <!-- Democracy -->
 			<short>3</short> <!-- Feudalism -->
@@ -833,7 +841,22 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BombardmentResistance</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>GroundCombatResistance</Type>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</Bonuses>
@@ -890,9 +913,247 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 			<short>6</short> <!-- Ground Combat -->
 			<short>1</short> <!-- Early Ion Weapons -->
 			<short>35</short> <!-- Tractor Beams -->
+			<short>670</short>
+			<short>671</short>
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>28</ResourceId> <!-- Dantha Fur -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		<StartingArtifactIds>
+			<int>73</int>
+		</StartingArtifactIds>
+		<CanTransitionToRefugeeFleetWhenSingleColony>true</CanTransitionToRefugeeFleetWhenSingleColony>
+		<TreatyLevelModifierTypes>
+			<EmpireRelationType>RestrictedTrade</EmpireRelationType>
+			<EmpireRelationType>LimitedTrade</EmpireRelationType>
+			<EmpireRelationType>FreeTrade</EmpireRelationType>
+		</TreatyLevelModifierTypes>
+		<TreatyLevelModifierValues>
+			<float>-5</float>
+			<float>-5</float>
+			<float>-5</float>
+		</TreatyLevelModifierValues>
+		<ColonyAttackModifiers>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+		</ColonyAttackModifiers>
+		<ColonyDefendModifiers>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Militia</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.5</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Infantry</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Armored</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>PlanetaryDefense</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>SpecialForces</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Titan</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>10</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>19</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+			<TroopModifier>
+				<Type>Raider</Type>
+				<OrbTypeId>20</OrbTypeId>
+				<Amount>0.2</Amount>
+			</TroopModifier>
+		</ColonyDefendModifiers>
+		<NewColonyGameEventName>Wander Time (Teekan)</NewColonyGameEventName>
+		<SalvageBetterBenefitChance>0.5</SalvageBetterBenefitChance>
+		<SalvageBetterBenefitSuccessChance>0.75</SalvageBetterBenefitSuccessChance>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>12</short> <!-- Ion Bomb [L] -->
 			<short>1</short> <!-- Ion Field Projector [S] -->
 			<short>2</short> <!-- Wave Bomb [M] -->
@@ -1016,7 +1277,7 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
-				<Type>MostNonAggressionPacts</Type>
+				<Type>MostFreeTradeTreaties</Type>
 				<Proportion>0.2</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
@@ -1119,17 +1380,43 @@ Die Ackdarian bewohnen die kleinen Inseln und flachen Küstengebiete der Ozeanpl
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Wanderer</CharacterTraitType>
+			<CharacterTraitType>Haggler</CharacterTraitType>
+			<CharacterTraitType>Tinkerer</CharacterTraitType>
+			<CharacterTraitType>Bargainer</CharacterTraitType>
+			<CharacterTraitType>Unnoticed</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<FeatureExplanations>
+			<string>[HL]Modularer Schnellbau:[/HL] alle Schiffe, Basen und planetarischen Einrichtungen werden +30% schneller als normal gebaut</string>
+			<string>[HL]Natural Traders:[/HL] -5 Schwelle für die Unterzeichnung neuer Handelsverträge</string>
+			<string>[HL]Nomadenbevölkerung:[/HL] Die natürlich verstreute Bevölkerung bietet +30% Widerstand gegen Bombardierungen und Verluste im Bodenkampf</string>
+			<string>[HL]Wüstenbewohner:[/HL] Teekanische Miliztruppen erhalten +50% Angriffs- und Verteidigungsstärke und alle anderen teekanischen Truppen (d.h. Infanterie, Rüstung usw.) erhalten +20% Angriffs- und Verteidigungsstärke, wenn sie auf einem beliebigen Wüstenplaneten (Sandwüste, Felswüste, Wüstensavanne) kämpfen.</string>
+			<string>[HL]Galaktische Nomaden:[/HL] Wenn eine teekanische Fraktion nur eine Kolonie hat, kann sie sich entscheiden, diesen Planeten zu verlassen und sich als Flüchtlingsflotte auf die Suche nach einer neuen Heimat zu machen. Die gesamte Bevölkerung der letzten Kolonie wird auf das einzige Kolonieschiff geladen. Alle vorherigen Schiffe und Basen gehen verloren, mit Ausnahme der kleinen Flüchtlingsflotte. Um die Galaktischen Nomaden zu aktivieren, wählen Sie Ihre letzte Kolonie aus und klicken Sie auf die Aktionsschaltfläche 'Galaktische Nomaden' unter dem Auswahlfeld</string>
+			<string>[HL]Wanderzeit:[/HL] Wenn eine neue Kolonie gegründet wird, wird die Anziehungskraft auf die neue Kolonie 5 Jahre lang stark erhöht.</string>
+			<string>[HL]Große Bakdur-Jagd:[/HL] Teekanische Spieler können einmal alle 5 Jahre manuell eine Große Bakdur-Jagd in einer beliebigen Wüstenkolonie (Sandwüste, Felswüste, Wüstensavanne) für 25.000 Credits auslösen. Das Ergebnis der Jagd variiert, bietet aber immer einige Vorteile: in der Regel einen reichsweiten Glücksbonus und einen Entwicklungsbonus für die Kolonie.</string>
+			<string>[HL]Bergungskönige:[/HL] Wenn ein teekanisches Schiff Beute aus geborgenen Schiffstrümmern findet, hat es manchmal die Möglichkeit, auf den ursprünglichen Fund zu verzichten und stattdessen bessere Beute zu finden, indem es intensiver sucht. Manchmal bringt diese Option jedoch keine weiteren Vorteile mit sich. In diesem Fall wird nichts aus der Bergung gewonnen.</string>
+			<string>[HL]Zerbrechliche Rümpfe:[/HL] Alle militärischen Schiffsrümpfe sind 20% kleiner, was sie im Kampf zerbrechlicher macht.</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Wanderer:[/HL] +20% Anführer-Qualität für schnelleren Fertigkeitsfortschritt</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Feilscher:[/HL] +5% Handelseinkommen</string>
+			<string>[HL]Einzigartige Wissenschaftler-Eigenschaft - Tüftler:[/HL] +5% High-Tech-Forschung, +5% Industrieforschung</string>
+			<string>[HL]Einzigartige Botschaftereigenschaft - Feilscher:[/HL] +5% Handelseinkommen</string>
+			<string>[HL]Einzigartige Spionageeigenschaft - Unbemerkt:[/HL] +10% Tarnung</string>
+		</FeatureExplanations>
 		<DefaultInfantryId>7</DefaultInfantryId> <!-- Trapper Group -->
 		<Name>Teekan</Name>
 		<Description>\nDie Teekan sind eine kleine pelzige, nagetierähnliche Spezies mit drei Augen.
@@ -1181,18 +1468,48 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
-			<short>3</short> <!-- Feudalism -->
 			<short>1</short> <!-- Mercantile Guild -->
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
 			<short>0</short> <!-- Republic -->
 			<short>1</short> <!-- Mercantile Guild -->
-			<short>2</short> <!-- Democracy -->
 			<short>3</short> <!-- Feudalism -->
 			<short>4</short> <!-- Monarchy -->
 			<short>5</short> <!-- Military Dictatorship -->
 			<short>32759</short> <!-- Refugee Fleet -->
 		</AllowableGovernmentIds>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>19</ResourceId>
+				<!-- Ekarus Meat -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		<StartingGameEventNames>
+			<string>Startup Mining Ship (Haakonish)</string>
+		</StartingGameEventNames>
+		<ResourceFulfillmentTradeFactor>1</ResourceFulfillmentTradeFactor>
+		<WarDeclaredAgainstUsReputationImpact>-10</WarDeclaredAgainstUsReputationImpact>
+		<WarDeclaredAgainstUsReputationImpactDescription>Penalty Clauses impacted our reputation when we declared war on a Haakonish empire</WarDeclaredAgainstUsReputationImpactDescription>
+		<DeclareWarWarningMessage>
+			[HL]Penalty Clauses[/HL]\nDeclaring war on this Haakonish empire will give us an additional [BAD]-10 reputation penalty[/BAD].\n\nIt will also cause any [BAD]Independent Colonies to cancel their trade treaties with us[/BAD] if they also have trade treaties with this Haakonish empire</DeclareWarWarningMessage>
+		<WarStartedByOtherGameEventName>Penalty Clauses Triggered (Haakonish)</WarStartedByOtherGameEventName>
+		<ResearchProjectCompletedRaceSpecificColonyEventDefinitionId>139</ResearchProjectCompletedRaceSpecificColonyEventDefinitionId>
+
+		<TradeTreatyExploitationAmount>30000</TradeTreatyExploitationAmount>
+		<TradeTreatyExploitationAmountIndependent>15000</TradeTreatyExploitationAmountIndependent>
+		<TradeTreatyExploitationIncidentPenalty>-10</TradeTreatyExploitationIncidentPenalty>
+		<TradeTreatyExploitationIncidentPenaltyDecayRate>1</TradeTreatyExploitationIncidentPenaltyDecayRate>
+		<TradeConfiscationRateWhenOtherDeclaresWar>1</TradeConfiscationRateWhenOtherDeclaresWar>
+		
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>HardBargainer</CharacterTraitType>
+			<CharacterTraitType>Xenophile</CharacterTraitType>
+			<CharacterTraitType>MultiDimensional</CharacterTraitType>
+			<CharacterTraitType>Xenolocutor</CharacterTraitType>
+			<CharacterTraitType>Suspicious</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchEngines</Type>
@@ -1229,6 +1546,11 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
@@ -1263,11 +1585,13 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 		<StartingResearchProjectIds>
 			<short>2</short> <!-- Early Area Weapons -->
 			<short>6</short> <!-- Ground Combat -->
-			<short>768</short> <!-- Early Pulse Weapons -->
+			<short>0</short> <!-- Early Beam Weapons -->
 			<short>35</short> <!-- Tractor Beams -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>79</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>239</short> <!-- Dealbreaker Beam [L] -->
 			<short>293</short> <!-- Dealbreaker Beam [M] -->
 			<short>341</short> <!-- Dealbreaker Beam [S] -->
@@ -1463,17 +1787,37 @@ Die Teekan bewohnen die riesigen Wüstengebiete der Sandwüsten-, Felswüsten- u
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
+
+		<FeatureExplanations>
+			<string>[HL]Anspruchsvolles Design:[/HL] Alle Schiffs- und Basishüllen verbrauchen 20% mehr Ressourcen und kosten 10% mehr beim Bau. Planetare Einrichtungen sind 10% langsamer zu bauen.</string>
+			<string>[HL]Verbindliche Verträge:[/HL] andere Fraktionen, die einen Handelsvertrag mit den Haakonish haben, kaufen [B]mit größerer Wahrscheinlichkeit Ressourcen von haakonish Standorten[/B] statt von anderen ausländischen Lieferanten.</string>
+			<string>[HL]Strafklauseln:[/HL] Fraktionen, die einer haakonischen Fraktion den Krieg erklären, erleiden einen [B]-10 Rufabzug[/B]. Unabhängige Kolonien werden außerdem sofort [B]alle Handelsverträge mit der kriegführenden Fraktion kündigen[/B], wenn sie auch einen Handelsvertrag mit der haakonischen Fraktion haben.</string>
+			<string>[HL]Konfiszierung von Konten:[/HL] wenn eine Fraktion den Haakonish den Krieg erklärt, wird die haakonish Fraktion sofort [B]das Bonuseinkommen in Höhe des gesamten Handels[/B] mit der kriegführenden Fraktion im vergangenen Jahr einbehalten</string>
+			<string>[HL]Überlegene Bestimmung:[/HL] Jedes Mal, wenn ein Haakonish-spezifisches Forschungsprojekt abgeschlossen wird, erhalten Sie 2 Jahre lang einen [GUT]+5 reichsweiten Glücksbonus[/GUT].</string>
+			<string>[HL]Schlupflöcher ausnutzen:[/HL] Eine haakonische Fraktion kann einen Handelsvertrag mit einer anderen Fraktion ausnutzen, indem sie [GUT]Geld direkt von der anderen Fraktion nimmt[/GUT] (bis zu 30.000 Credits für Standardimperien, bis zu 15.000 Credits für unabhängige Kolonien). Diese Aktion führt jedoch dazu, dass die andere Fraktion den Handelsvertrag sofort [SCHLECHT]kündigt[/SCHLECHT] und unseren Ruf [SCHLECHT]schädigt[/SCHLECHT].</string>
+			<string>[HL]Wirtschaftsaufschwung:[/HL] Die kreative Buchführung [GUT]erhöht das Einkommen des Imperiums um +10%[/GUT] für 5 Jahre. Später löst sie jedoch auch eine [SCHLECHT]wachsende Korruption in allen Kolonien[/SCHLECHT] aus, die 5 Jahre lang anhält. Kann in jeder Kolonie einmal alle 8 Jahre ausgelöst werden.</string>
+			<string>[HL]Fremdenfeindliche Unruhen:[/HL] können in jeder Kolonie ausgelöst werden, um [B]die nicht-haakonische Bevölkerung in der Kolonie sofort um 25%[/B] zu reduzieren. Die Kolonie gewinnt außerdem 5 Jahre lang [GUT]+10 Glück[/GUT] und hat 10 Jahre lang [SCHLECHT]weniger Migration[/SchLECHT]. Die haakonische Fraktion erleidet außerdem einen [SCHLECHT]-10 Reputationsnachteil[/SCHLECHT].</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Harter Verhandler:[/HL] +10% Handelseinkommen, -5% Diplomatie</string>
+			<string>[HL]Einzigartige Anführer-Eigenschaft - Xenophil:[/HL] -5% Kolonieglück, -5% Gegenspionage</string>
+			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Mehrdimensional:[/HL] +5% Rüstungsforschung, +5% Konstruktionsforschung, +5% Motorenforschung, +5% Hightech-Forschung, +5% Hyperantriebsforschung, +5% Industrieforschung, +5% Reaktorforschung, +5% Sensorforschung, +5% Schildforschung, +5% Truppenforschung, +5% Waffenforschung</string>
+			<string>[HL]Einzigartige Botschaftereigenschaft - Xenolocutor:[/HL] +10% Diplomatie, -5% Gegenspionage</string>
+			<string>[HL]Einzigartige Spionageeigenschaft - Verdächtig:[/HL] +5% Gegenspionage, +5% Tarnung</string>
+		</FeatureExplanations>
+
 		<DefaultInfantryId>12</DefaultInfantryId> <!-- Battlematon Brigade -->
 		<Name>Haakonish</Name>
 		<Description>\nDie Haakonish sind eine zweibeinige Reptilienrasse. Sie haben breite, flache Köpfe mit markanten Vorsprüngen auf jeder Seite, wobei die Ausstülpungen Nasenhöhlen darstellen, die ihnen einen unübertroffenen Geruchssinn verleihen. Die Haakonish haben jedoch ein sehr schlechtes Sehvermögen, welches sie aber wiederum durch ihre hervorragende Geruchs- und Geschmackssinne kompensieren.
@@ -1625,8 +1969,10 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 			<short>384</short> <!-- Basic Target Tracking -->
 			<short>266</short> <!-- Armor Plating -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>74</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>342</short> <!-- Pulse Torpedo [S] -->
 			<short>253</short> <!-- Pulse Torpedo [L] -->
 			<short>258</short> <!-- Pulse Torpedo [M] -->
@@ -1874,14 +2220,17 @@ Die Haakonish leben typischerweise in vollständig geschlossenen Biosphären in 
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -1996,6 +2345,9 @@ Als Gesellschaft leben die Mortalen normalerweise in einfachen Blockbehausungen 
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<StartingArtifactIds>
+			<int>80</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -2239,8 +2591,10 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 			<short>768</short> <!-- Early Pulse Weapons -->
 			<short>6</short> <!-- Ground Combat -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>81</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>245</short> <!-- Plasma Blaster [Ftr] -->
 			<short>247</short> <!-- Plasma Blaster [S] -->
 			<short>250</short> <!-- Plasma Blaster [M] -->
@@ -2514,14 +2868,17 @@ Sie leben typischerweise in Baumbehausungen hoch in den Baumkronen auf Wald-, Su
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -2707,8 +3064,10 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 			<short>251</short> <!-- Early Energy Deflectors -->
 			<short>6</short> <!-- Ground Combat -->
 		</StartingResearchProjectIds>
-		<?ignore
-		<PreferredWeaponComponentIds>
+		<StartingArtifactIds>
+			<int>75</int>
+		</StartingArtifactIds>
+		<?ignore <PreferredWeaponComponentIds>
 			<short>244</short> <!-- Star Beam [Ftr] -->
 			<short>246</short> <!-- Star Beam [S] -->
 			<short>255</short> <!-- Star Beam [L] -->
@@ -2973,14 +3332,17 @@ Die Boskara bewohnen typischerweise das unwirtliche Terrain vulkanischer oder sc
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -3534,6 +3896,9 @@ Atuuks leben in primitiven Baumhütten auf Wald-, Grassland- oder Kontinentalpla
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
+		<StartingArtifactIds>
+			<int>82</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -3756,6 +4121,9 @@ Die natürlichen Lebensräume der Dhayuts sind felsige Rückzugsgebiete auf den 
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<StartingArtifactIds>
+			<int>83</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -3898,6 +4266,9 @@ Gizurean bauen ihre höhlenartigen unterirdischen Behausungen in der Regel in fe
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<StartingArtifactIds>
+			<int>84</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -3995,14 +4366,17 @@ Gizurean bauen ihre höhlenartigen unterirdischen Behausungen in der Regel in fe
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -4162,14 +4536,17 @@ Die Ketarov sind normalerweise in großen Gemeinschaften zu finden, die in den w
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -4255,6 +4632,9 @@ Die typischen Lebensräume der Kiadian sind die Berge und Hochebenen der Kontine
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
+		<StartingArtifactIds>
+			<int>76</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -4348,14 +4728,17 @@ Die typischen Lebensräume der Kiadian sind die Berge und Hochebenen der Kontine
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -4706,14 +5089,17 @@ Quameno-Gemeinschaften leben typischerweise in halbversunkenen, hochtechnisierte
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -4805,6 +5191,9 @@ Die Securan bewohnen die weiten, offenen Ebenen der Savannen-Wüsten-, Sand-Wüs
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
+		<StartingArtifactIds>
+			<int>85</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>3</RaceId> <!-- Haakonish -->
@@ -4854,14 +5243,17 @@ Die Securan bewohnen die weiten, offenen Ebenen der Savannen-Wüsten-, Sand-Wüs
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -4929,6 +5321,9 @@ Obwohl Shandar oft fleißig nach Edelsteinen schürfen, interessieren sie sich i
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<StartingArtifactIds>
+			<int>77</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -5022,14 +5417,17 @@ Obwohl Shandar oft fleißig nach Edelsteinen schürfen, interessieren sie sich i
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
@@ -5113,6 +5511,9 @@ Sluken sind meist auf Sumpf- oder Mangroven-Wald-Planeten zu finden.</Descriptio
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
+		<StartingArtifactIds>
+			<int>78</int>
+		</StartingArtifactIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId> <!-- Human -->
@@ -5206,14 +5607,17 @@ Sluken sind meist auf Sumpf- oder Mangroven-Wald-Planeten zu finden.</Descriptio
 			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
 			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
 			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
 			<CharacterMissionType>StealTechData</CharacterMissionType>
 			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
 			<CharacterMissionType>SabotageColony</CharacterMissionType>
 			<CharacterMissionType>DestroyBase</CharacterMissionType>
 			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
-			<CharacterMissionType>DefectCharacter</CharacterMissionType>
 			<CharacterMissionType>DestroyFacility</CharacterMissionType>
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>

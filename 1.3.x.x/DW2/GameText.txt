@@ -76,10 +76,12 @@ ShipMission Description LoadTroops		;Lade Truppen bei {0}
 ShipMission Description LoadTroops Unavailable		;Lade Truppen
 ShipMission Description LoadPopulation		;Lade Kolonisten bei {0}
 ShipMission Description LoadPopulation RACE		;Lade Kolonisten bei {0} ({1})
-ShipMission Description LoadCargo		;Transportgüter aufnehmen bei {0}
+ShipMission Description LoadCargo		;Treibstoff aufnehmen bei {0}
+ShipMission Description LoadCargo Resources		;Kaufe {1} bei {0}
 ShipMission Description TransferFuel		;Transferiere Treibstoff zu {0}
 ShipMission Description Mine		;Baut {0} ab, ladet es bei {1} ab
 ShipMission Description MineLoad		;Baut Treibstoff-Resource ab bei {0}
+ShipMission Description MineLoad NonFuel		;Baut Resourcen ab bei {0}
 ShipMission Description Move		;Bewege zu {0}
 ShipMission Description Move Coordinates		;Bewege zu {0}, {1}
 ShipMission Description Patrol		;Patrouilliere {0}
@@ -103,7 +105,10 @@ ShipMission Description Transport Tourists		;Transportiere Touristen von {0} nac
 ShipMission Description UnloadTroops		;Entlade Truppen bei {0}
 ShipMission Description UnloadPassengers		;Passagiere entladen bei {0}
 ShipMission Description UnloadCargo		;Entlade Fracht bei {0}
+ShipMission Description UnloadCargo Resources		;Verkauft {1} bei {0}
 ShipMission Description ExitYard		;Schiffs-Werft verlassen
+ShipMission Description Dock		;Andocken bei {0}
+ShipMission Description Undock		;Ausdocken von {0}
 
 ShipMission Description With Distance RamDestroyPlanet		;Ramme und zerstöre {0} ({1} entfernt)
 ShipMission Description RamDestroyPlanet		;Ramme und zerstöre {0}
@@ -146,9 +151,11 @@ ShipMission Description With Distance LoadTroops		;Lade Truppen bei {0} ({1} ent
 ShipMission Description With Distance LoadPopulation		;Lade Kolonisten bei {0} ({1} entfernt)
 ShipMission Description With Distance LoadPopulation RACE		;Lade Kolonisten bei {0} ({1}, {2} entfernt)
 ShipMission Description With Distance LoadCargo		;Tanke Treibstoff bei {0} ({1} entfernt)
+ShipMission Description With Distance LoadCargo Resources		;Kauft {1} bei {0} ({2} entfernt)
 ShipMission Description With Distance TransferFuel		;Transferiere Treibstoff nach {0} ({1} entfernt)
 ShipMission Description With Distance Mine		;Betreibe Abbau bei {0} ({2} entfernt), lade bei {1} ab ({3} entfernt)
-ShipMission Description With Distance MineLoad		;Fördere Treibstoff bei {0} ({1} entfernt)
+ShipMission Description With Distance MineLoad		;Fördert Treibstoff bei {0} ({1} entfernt)
+ShipMission Description With Distance MineLoad NonFuel		;Baut Ressourcen bei {0} ab ({1} entfernt)
 ShipMission Description With Distance Move		;Gehe nach {0} ({1} entfernt)
 ShipMission Description With Distance Move Coordinates		;Gehe nach {0}, {1} ({2} entfernt)
 ShipMission Description With Distance Patrol		;Patrolliere {0} ({1} entfernt)
@@ -171,6 +178,9 @@ ShipMission Description With Distance Transport Tourists		;Transportiere Tourist
 ShipMission Description With Distance UnloadTroops		;Lade Truppen bei {0} ab ({1} entfernt)
 ShipMission Description With Distance UnloadPassengers		;Lade Passagiere bei {0} ab ({1} entfernt)
 ShipMission Description With Distance UnloadCargo		;Entlade Fracht bei {0} ({1} entfernt)
+ShipMission Description With Distance UnloadCargo Resources		;Baut {1} bei {0} ab ({2} entfernt)
+ShipMission Description With Distance Dock		;Andocken an {0} an ({1} entfernt)
+ShipMission Description With Distance Undock		;Ausdocken von {0} ({1} entfernt)
 
 SYSTEMNAME system		;System {0}
 Quality		;Qualität
@@ -352,11 +362,13 @@ GameTaskType CancelQueueAttackTarget		;Widerrufe Angriff gegen {0}
 
 GameTaskType AssignQuest		;Akzeptiere Kriegsmission: {0}
 GameTaskType AssignQuest Contract		;Akzeptiere Vertrag: {0}
+GameTaskType AcceptQuest		;Akzeptiere Vertrag: {0}
 
 GameTaskType QueueClearDangerousLocation		;Reihenfolge für Untersuchung gefährlicher Orte bei {0} festlegen
 GameTaskType CancelQueueClearDangerousLocation		;Untersuchung gefährlicher Orte bei {0} abbrechen
 GameTaskType BuildPlanetaryFacility		;Baut {0} bei {1} für {2} Credits
 GameTaskType StartColonyEvent		;Startet {0} bei {1} für {2} credits
+GameTaskType StartColonyEvent No Cost		;Startet {0} bei {1}
 GameTaskType BuildShips		;Konstruiert Schiffe/Raumbasen bei {0} für {1} Credits
 GameTaskType BuildShips List		;Konstruiert Schiffe/Raumbasen bei {0} für {1} Credits:\n{2}
 GameTaskType BuildShips Single		;Konstruiert {0} ({1}) bei {2} für {3} Credits
@@ -449,6 +461,7 @@ GameTaskType SetFleetAllowShipRoleUpgrade			;Schiffs-/Basenrolle umrüsten: {0}
 GameTaskType SetFleetAllowTrimmingExcessShips			;Überzählige Schiffe reduzieren: {0}
 GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Auto-Aufrüstung spez. Designs: {0}
 GameTaskType SetCapital		;{0} als neue Hauptwelt festlegen
+GameTaskType TransitionToRefugeeFleet		;Verlasst {0} und werdet eine Flüchtlingsflotte. Ihr verliert alle Eure bestehenden Schiffe, Basen und Truppen. Stattdessen kommandiert Ihr eine kleine Flüchtlingsflotte auf der Suche nach einer neuen Heimat. Euer neues, einsames Kolonieschiff wird die gesamte Bevölkerung von {0} an Bord haben, bereit, eine neue Kolonie zu gründen
 GameTaskType AbandonColony		;Gebt {0} auf, erlaubt die Unabhängigkeit
 GameTaskType AbandonColony Outpost		;Gebt {0} auf. Das Aufgeben eines Außenpostens führt zu dessen völliger Zerstörung. Er wird nicht zu einer unabhängigen Kolonie.
 GameTaskType UpgradeOutpostToColony		;Rüste {0} von einem Außenposten zu einer vollen Kolonie auf für {1} Credits
@@ -603,6 +616,7 @@ GameTaskType Short SetFleetTemplate		;Flottenvorlage festlegen
 GameTaskType Short SetArmyTemplate		;Armeevorlage festlegen
 GameTaskType Short SetFleetFormationCoherence		;Flottenformation festlegen
 GameTaskType Short SetCapital		;Hauptwelt festlegen
+GameTaskType Short TransitionToRefugeeFleet		;Die letzte Kolonie aufgeben und zur Flüchtlingsflotte werden
 GameTaskType Short AbandonColony		;Gebt die Kolonie auf
 GameTaskType Short UpgradeOutpostToColony		;Upgrade To Colony
 GameTaskType Short StartColonyEvent		;Startet Ereignis {0}
@@ -714,6 +728,7 @@ EmpireRelationType MilitaryRefuelling		;Militärische Betankung
 EmpireRelationType MiningRights		;Schürfrechte
 EmpireRelationType PirateProtection		;Schutzabkommen
 EmpireRelationType PirateNeutral		;Neutral
+EmpireRelationType PirateHostile		;Feindlich
 EmpireRelationType NonAggression		;Nichtangriffsabkommen
 EmpireRelationType OperationsMapSharing		;Operationskarte teilen
 EmpireRelationType Research		;Forschungsabkommen
@@ -737,6 +752,7 @@ EmpireRelationType Short MilitaryRefuelling		;MilTank
 EmpireRelationType Short MiningRights		;Bergbau
 EmpireRelationType Short PirateProtection		;Schutz
 EmpireRelationType Short PirateNeutral		;Neutral
+EmpireRelationType Short PirateHostile		;Feindlich
 EmpireRelationType Short NonAggression		;NieAng
 EmpireRelationType Short OperationsMapSharing		;OpKarte
 EmpireRelationType Short Research		;Forschung
@@ -1177,6 +1193,7 @@ BonusType HyperDriveJumpAccuracy		;Hyperantrieb-Sprunggenauigkeit
 BonusType BombardmentResistance		;Widerstand gegen Bombardierung
 BonusType GroundCombatResistance		;Widerstand gegen Bodenkämpfe
 BonusType ColonyInfluenceRate		;Kolonie Einflussrate
+BonusType ColonyInfluenceIncome		;Colony Einfluss-Einkommen
 
 ComponentCategory AreaShieldRecharge		;Umgebungs-Schildregenerierung
 ComponentCategory Armor		;Panzerung
@@ -2675,6 +2692,9 @@ Colony Raid Unsuccessful		;Kolonie-Plünderung erfolglos
 Base Raid Unsuccessful		;Raumbasis-Plünderung erfolglos
 Base Raid Succeeds		;Raumbasis-Plünderung erfolgreich!
 
+Colony Raid Partially Successful		;Gescheiterter Raid bringt Beute
+Base Raid Partially Successful		;Gescheiterter Raid bringt Beute
+
 
 Facility Destroyed during Invasion		;{0} wurde während der Invasion zerstört
 Facility Destroyed during Invasion Description		;Die [FACILITY]{0}[/FACILITY] in unserer Kolonie auf [LOCATION]{1}[/LOCATION] wurde während eines Bodenkampfes von feindlichen Truppen angegriffen und zerstört.
@@ -2983,6 +3003,8 @@ AutomationCategory FundingLevels		;Finanzielle Mittel
 AutomationCategory Contracts		;Vertragsannahme
 AutomationCategory ContractOffers		;Vertragsangebot
 AutomationCategory PirateInfluence		;Pirateneinfluss
+AutomationCategory Artifacts		;Artefakte
+AutomationCategory Equipment		;Ausrüstung
 
 Pirate Raider		;Piraten-Plünderer
 Pirate Raider Leader Title		;Plünderer-Boss
@@ -3090,6 +3112,7 @@ Victory Condition CaptureMostCharacters		;Nehmt die meisten ausländischen Chara
 Victory Condition CaptureMostShips		;Erobert die meisten Schiffe und Raumbasen in der Galaxie
 Victory Condition PirateMostSuccessfulRaids		;Führt die erfolgreichsten Piratenüberfälle in der Galaxie durch
 
+Victory Condition MostFreeTradeTreaties		;Habt die meisten Freihandelsverträge in der Galaxie
 Victory Condition MostNonAggressionPacts		;Besitzt die meisten Nichtangriffspakte in der Galaxie
 Victory Condition MostDefenseTreaties		;Besitzt die meisten Verteidigungsabkommen in der Galaxie
 Victory Condition MostResearchFromSalvage		;Erhaltet die meiste Forschung und Technologie aus der Bergung
@@ -3171,6 +3194,7 @@ Victory Condition Detail PirateMostSuccessfulMissionsDefend		;{0} abgeschlossene
 Victory Condition Detail CaptureMostCharacters		;{0} gefangene Charaktere
 Victory Condition Detail CaptureMostShips		;{0} eroberte Schiffe und Raumbasen
 Victory Condition Detail PirateMostSuccessfulRaids		;{0} erfolgreiche Piratenüberfälle
+Victory Condition Detail MostFreeTradeTreaties		;{0} Freie Handelsverträge
 Victory Condition Detail MostNonAggressionPacts		;{0} Nichtangriffspakte
 Victory Condition Detail MostDefenseTreaties		;{0} Verteidigungsabkommen
 Victory Condition Detail MostResearchTreaties		;{0} Forschungsabkommen
@@ -3371,6 +3395,7 @@ EmpireIncidentFactorType ColonyDestroyed		;Zerstörte Kolonien
 EmpireIncidentFactorType ColonyInvaded		;Kolonie-Invasionen
 EmpireIncidentFactorType DestroyCreature		;Zerstörte Kreaturen
 EmpireIncidentFactorType DestroyPirateShipBase		;Piratenschiffe zerstört
+EmpireIncidentFactorType DestroyShadowport		;Neutraler Schattenhafen zerstört
 EmpireIncidentFactorType DiplomaticDemands		;Bedrohungen und Forderungen
 EmpireIncidentFactorType EnslavePopulation		;Versklavte Bevölkerung
 EmpireIncidentFactorType ExterminatePopulation		;Vernichtete Bevölkerung
@@ -3472,6 +3497,7 @@ EmpireIncidentFactorType Full ColonyDestroyed		;Wir sind schockiert und empört 
 EmpireIncidentFactorType Full ColonyInvaded		;Wir sind wütend über Eure Invasionen in unsere Kolonien
 EmpireIncidentFactorType Full DestroyCreature		;Wir schätzen die Eliminierung von aggressiven Weltraummonstern durch Euch
 EmpireIncidentFactorType Full DestroyPirateShipBase		;Wir schätzen Eure Eliminierung gefährlicher Piraten durch Euch
+EmpireIncidentFactorType Full DestroyShadowport		;Wir sind schockiert über eure Zerstörung eines neutralen Schattenhafens
 EmpireIncidentFactorType Full DiplomaticDemands		;Ihr habt beleidigende Forderungen an uns gestellt
 EmpireIncidentFactorType Full EnslavePopulation		;Wir sind verärgert über Eure grausame Versklavung unserer Spezies
 EmpireIncidentFactorType Full ExterminatePopulation		;Wir sind schockiert und empört über Euren Völkermord an unserer Spezies
@@ -4062,6 +4088,9 @@ Character Mission DefectCharacter		;Character Defection
 Character Mission InfectColonyWithPlague		;Kolonie mit der Pest infizieren
 Character Mission CreateFalseIncident		;Einen falschen Vorfall erstellen
 Character Mission ControlFactionLeader		;Kontrolliert den Fraktionsführer
+Character Mission CaptureCharacter		;Nehmt Charakter gefangen
+Character Mission RescueCharacter		;Rettet Charakter
+Character Mission StealArtifact		;Stehlt Artefakt
 
 Character Mission Description CounterIntelligence		;Spionageabwehr gegen feindliche Agenten
 Character Mission Description AssassinateCharacter		;Ermordet {0} {1}
@@ -4083,6 +4112,9 @@ Character Mission Description DefectCharacter		;Überredet {0} {1} zum Überlauf
 Character Mission Description InfectColonyWithPlague		;Infiziert {0} mit {1}
 Character Mission Description CreateFalseIncident		;Schafft einen negativen Vorfall mit {0} und beschuldigt {1}
 Character Mission Description ControlFactionLeader		;Gedankenkontrolle über den Anführer von {0}, was ihn zu einem Vasallen macht
+Character Mission Description CaptureCharacter		;Fangt und inhaftiert {0} {1}
+Character Mission Description RescueCharacter		;Rettet {0} {1} von einem ausländischen Gefängnis
+Character Mission Description StealArtifact		;Stehlt {0}
 
 Character Mission Description AssassinateCharacter Us		;Ermordet unseren {0} {1}
 Character Mission Description DeepCover Us		;Infiltriert unsere Operationen
@@ -4102,6 +4134,9 @@ Character Mission Description DefectCharacter Us		;Überzeugt {0} {1}, aus unser
 Character Mission Description InfectColonyWithPlague Us		;Infiziert {0} mit {1}
 Character Mission Description CreateFalseIncident Us		;Schafft einen negativen Vorfall mit uns und beschuldigt {1}
 Character Mission Description ControlFactionLeader Us		;Gedankenkontrolle über unseren Anführer, was uns zu Vasallen macht
+Character Mission Description CaptureCharacter Us		;Fangt und inhaftiert {0} {1}
+Character Mission Description RescueCharacter Us		;;Rettet {0} {1} von einem ausländischen Gefängnis
+Character Mission Description StealArtifact Us		;Stehlt {0} von uns
 
 Character Mission Outcome Success		;Unser Agent [CHARACTER]{0}[/CHARACTER] hat sich der Entdeckung entzogen, nachdem er seinen Auftrag in {1} erfolgreich ausgeführt hat.
 Character Mission Outcome Fail		;Unser Agent [CHARACTER]{0}[/CHARACTER] hat sich der Entdeckung entzogen, nachdem er bei {1} versagt hat.
@@ -4134,6 +4169,12 @@ Facility Destroyed Sabotage		;Einrichtung zerstört
 Facility Destroyed Sabotage Description		;Das [LOCATION]{0} in {1}[/LOCATION] wurde bei einer Explosion völlig zerstört!\n\nWir vermuten dringend Sabotage durch ausländische Geheimdienstagenten...
 Character Defects Persuaded		;{0} Überläufe
 Character Defects Persuaded Description		;[CHARACTER]{0} {1}[/CHARACTER] hat unser Imperium verlassen und ist zu den [FACTION]{2}[/FACTION] übergelaufen!\n\nWir haben den starken Verdacht, dass sie von ausländischen Geheimdienstagenten beeinflusst wurden...
+Character Captured Description		;[CHARACTER]{0} {1}[/CHARACTER] has been captured and imprisoned by the [FACTION]{2}[/FACTION]!
+Character Captured		;{0} Captured
+Character Rescued Description		;[CHARACTER]{0} {1}[/CHARACTER] has been rescued from a foreign prison! They have now been safely returned to our empire.
+Character Rescued		;{0} gerettet
+Artifact Stolen Description		;{0} wurde von einem fremden Imperium gestohlen! Es befindet sich nun sicher im Besitz unseres Imperiums.
+Artifact Stolen		;{0} gestohlen
 
 Foreign Agent Executed		;Diese wurden für ihre Verbrechen hingerichtet.
 Our Agent Executed		;[CHARACTER]{0}[/CHARACTER] ist von [FACTION]{1}[/FACTION] exekutiert worden.
@@ -4172,6 +4213,9 @@ Allow Control Faction Leader		;Erlaubt Kontrolle des Fraktions-Anführers
 Allow Defect Character		;Erlaubt Überlaufen eines Charakters
 Allow Destroy Facility		;Erlaubt Zerstörung einer Einrichtung
 Allow Infect Colony with Plague		;Erlaubt Kolonie mit der Pest infizieren
+Allow Steal Artifact		;Erlaubt Artefakt stehlen
+Allow Capture Character		;Erlaubt Charakter fangen
+Allow Rescue Character		;Erlaubt Charakter retten
 
 Intelligence Missions		;Geheimdiensteinsätze
 Characters		;Charaktere
@@ -4420,9 +4464,13 @@ Map Overlay Nebula Boundaries Key Explanation		;Orange = Galaktischer Sturm\nVio
 
 We have encountered a new empire		;Wir sind auf ein neues Volk gestoßen, [FACTION]{0}[/FACTION]]
 We have encountered a new empire SYSTEM		;Wir sind im System {0} auf ein neues Volk gestoßen, [FACTION]{1}[/FACTION]]
+We have encountered a new Shadowport		;Wir sind auf einen neuen Schattenhafen gestoßen, [FACTION]{0}[/FACTION]
+We have encountered a new Shadowport SYSTEM		;Wir sind auf einen neuen Schattenhafen gestoßen in {0}
 We have encountered a new pirate faction		;Wir sind auf eine neue Piratenfraktion gestoßen, die [FACTION]{0}[/FACTION]
 We have encountered a new pirate faction SYSTEM		;Wir sind im System {0} auf eine neue Piratenfraktion gestoßen, die [FACTION]{1}[/FACTION]
 We have encountered a new independent colony		;Wir sind auf eine neue unabhängige Kolonie von {0}, den [FACTION]{1}[/FACTION] im System {2} gestoßen
+Shadowport Explanation		;Schattenhäfen sind neutrale Basen, die Piraten und Schmugglern Dienste anbieten. Sie können Schiffe, Ausrüstung, Ressourcen und Informationen zum richtigen Preis verkaufen. Sie können auch Schiffe betanken und reparieren, die keine eigene Basis haben.\n\nShadowports bleiben lieber unabhängig und distanziert, mit ihrem Markt für alle freundlichen Besucher. Allerdings handeln sie nur mit Piraten und Schmugglern, nicht mit normalen Imperien.
+
 very friendly		;sehr freundlich
 friendly		;freundlich
 mildly friendly		;dezent freundlich
@@ -4863,6 +4911,7 @@ Artifact must be at a colony for bonuses to apply		;Das Artefakt muss sich in ei
 Artifact must be at your empire's capital for bonuses to apply		;Das Artefakt muss sich in der Hauptwelt Eures Volkes befinden, damit die Boni gelten
 
 Artifact Transfer Explanation		;Um ein Artefakt auf ein nahegelegenes Schiff, eine Raumbasis oder eine Kolonie Eures Herrschaftsgebietes zu verschieben, wählt zunächst den aktuellen Standort aus, haltet die Strg-Taste und klickt dann mit der rechten Maustaste auf den Zielort, um ein Popup-Menü mit der Option 'Sofort verschieben' anzuzeigen.\n\nAlternativ könnt Ihr es auf eine beliebig weit entfernte Kolonie, ein Schiff oder eine Raumbasis Eures Herrschaftsgebietes transferieren, indem Ihr wiederum die die Strg-Taste gedrückt haltet und dann mit der rechten Maustaste auf den entfernten Zielort klickt, um ein Popup-Menü mit der Option 'Transferieren' anzuzeigen.
+Equipment Transfer Explanation		;Um Ausrüstung zu einem nahegelegenen Schiff, einer Basis oder Kolonie deines Imperiums zu bewegen: Wähle zuerst den aktuellen Standort aus, dann klicke mit Strg-Rechtsklick auf das Ziel, um ein Pop-up-Menü mit der Option 'Sofort bewegen' anzuzeigen. Alternativ kannst du mit Strg-Rechtsklick auf das entfernte Ziel zu jeder Kolonie, jedem Schiff oder einer Basis in deinem Imperium wechseln, um ein Pop-up-Menü mit der Option 'Übertragen' anzuzeigen.
 Auto-Enabled		;Automatisch aktiviert
 Add Player Exploration Ship		;Erkundungsschiff für Spieler hinzufügen
 
@@ -4975,6 +5024,7 @@ Independent Colony Strategy Explanation Diplomacy		;Wenn die Diplomatie automati
 Independent Colony Strategy Explanation Invasion		;Wenn militärische Angriffe automatisiert sind, werden wir eine Invasionsflotte entsenden, um diese Kolonie mit Gewalt einzunehmen.
 Independent Colony Strategy Explanation Ignore		;Diese Kolonie wird ignoriert. Wir werden weder Geschenke noch Verträge anbieten, noch werden wir versuchen, sie zu kolonisieren oder zu erobern.
 Independent Colony Strategy Explanation Eliminate		;Diese Kolonie wird vernichtet. Wir werden die Bevölkerung bis zur Ausrottung bombardieren
+Independent Colony Strategy Explanation Influence		;Eure Piratenfraktion wird versuchen, die unabhängige Kolonie zu beeinflussen und zu kontrollieren, indem sie Schiffe zur Kolonie schickt, sie überfällt und versteckte Piratenanlagen baut, wenn Ihr könnt.
 
 Admirals		;Admiräle
 Generals		;Generäle
@@ -5107,16 +5157,18 @@ Diplomatic strategy for this empire is automated EXPLANATION		;Die diplomatische
 
 DiplomaticStrategy Ally		;Verbündeten-Vereinbarungen anstreben
 DiplomaticStrategy Befriend		;Freundschaft schließen
-DiplomaticStrategy Befriend Independent		;Friedliche Kolonisierung ermöglichen
 DiplomaticStrategy CloseAlly		;Allianz-Verträge anstreben
 DiplomaticStrategy Conquer		;Mit Gewalt erobern
-DiplomaticStrategy Conquer Independent		;Gewalttätige Übernahme ermöglichen
 DiplomaticStrategy Defend		;Verteidigen
 DiplomaticStrategy Raid		;Überfallen
-DiplomaticStrategy Raid Independent		;Eliminate
 DiplomaticStrategy Neutral		;Neutrale Beziehung anstreben
 DiplomaticStrategy Neutral Independent		;Ignore
 DiplomaticStrategy Undermine		;Mit Spionage und Sabotage beeinflussen
+
+DiplomaticStrategy Colonization		;Diplomacy leading to peaceful Colonization
+DiplomaticStrategy Eliminate		;Eliminieren
+DiplomaticStrategy Influence		;Beeinflussen und Kontrollieren
+DiplomaticStrategy Invade		;Invasion wenn möglch
 
 DiplomaticStrategy Explanation Ally		;Die Strategie 'Verbündeten-Vereinbarungen anstreben' bedeutet, dass Eure diplomatischen Vertreter eher auf hochrangige Verträge hinarbeiten (militärische Betankung, Forschung, Erkundung, Bergbaurechte). Es ist auch viel unwahrscheinlicher, dass Ihr Geheimdienstmissionen gegen dieses Volk durchführt.
 DiplomaticStrategy Explanation Befriend		;Die Strategie 'Freundschaft schließen' bedeutet, dass Eure diplomatischen Vertreter eher auf Verträge mittlerer Stufe hinarbeiten (Migration, gemeinsame Nutzung von Territoriumskarten, gemeinsame Nutzung von Galaxienkarten). Ihr werdet auch nur niederstufige Geheimdienstmissionen gegen dieses Volk durchführen (z.B. Diebstahl von Kartendaten).
@@ -5127,10 +5179,19 @@ DiplomaticStrategy Explanation Raid		;
 DiplomaticStrategy Explanation Neutral		;Die Strategie 'Neutrale Beziehung anstreben' bedeutet, dass Eure diplomatischen Vertreter eher auf Handelsverträge und Nichtangriffsverträge hinarbeitet. Ihr werdet in der Regel bereit sein, eine breite Palette von Geheimdienstmissionen gegen dieses Volk zu unternehmen, aber keine Sabotagemissionen.
 DiplomaticStrategy Explanation Undermine		;Die Strategie 'Mit Spionage und Sabotage beeinflussen' bedeutet, dass Euer Geheimdienst eine ganze Reihe von höherstufigen Spionage- und Sabotage-Missionen gegen dieses Volk durchführen wird, um es heimlich zu beeinflussen.
 
-DiplomaticStrategy Explanation Befriend Independent		;Euer Volk wird die Beziehungen zu der unabhängigen Kolonie durch Geschenke und Handelsverträge verbessern, bis diese eine friedliche Kolonisierung anbietet.
-DiplomaticStrategy Explanation Conquer Independent		;Euer Militär wird sich darauf vorbereiten, in die unabhängige Kolonie einzufallen und sie mit Gewalt zu erobern. Beachtet, dass die Invasion unabhängiger Kolonien mit einem Ruf-Verlust verbunden ist.
-DiplomaticStrategy Explanation Neutral Independent		;Euer Imperium wird diese unabhängige Kolonie ignorieren. Ihr werdet weder Geschenke noch Verträge anbieten, noch werdet Ihr versuchen, sie zu kolonisieren oder zu erobern.
-DiplomaticStrategy Explanation Raid Independent		;Euer Imperium wird diese Kolonie vernichten, indem es die Bevölkerung bis zur Ausrottung bombardiert.
+
+DiplomaticStrategy Explanation Befriend Pirate		;Die Freundschaftsstrategie bedeutet, dass Euer Imperium eher auf militärische Betankungsverträge hinarbeitet. Ihr werdet außerdem nur niedrigstufige Spionagemissionen gegen dieses Imperium verfolgen (Kartendaten stehlen).
+DiplomaticStrategy Explanation Neutral Pirate		;Neutrale Strategie bedeutet, dass Euer Imperium eher auf Nichtangriffsverträge hinarbeitet. Ihr seid in der Regel bereit, eine Vielzahl von Spionagemissionen gegen dieses Imperium zu übernehmen, aber keine Sabotagemissionen.
+
+
+DiplomaticStrategy Explanation Influence		;Eure Piratenfraktion wird versuchen, die unabhängige Kolonie zu beeinflussen und zu kontrollieren, indem sie Schiffe zur Kolonie schickt, sie überfällt und versteckte Piratenanlagen baut, wenn Ihr könnt.
+DiplomaticStrategy Explanation Neutral Pirate Independent		;Eure Piratenfraktion wird diese unabhängige Kolonie ignorieren. Ihr werdet keine Geschenke oder Verträge anbieten, noch werdet ihr versuchen, sie zu beeinflussen.
+
+
+DiplomaticStrategy Explanation Colonization		;Euer Imperium verbessert die Beziehungen zur unabhängigen Kolonie durch Geschenke und Handelsverträge, bis sie Euch zur friedlichen Kolonisierung einladen.
+DiplomaticStrategy Explanation Invade		;Euer Imperium wird sich darauf vorbereiten, die unabhängige Kolonie mit Gewalt zu erobern. Beachtet, dass die Invasion unabhängiger Kolonien eine Reputationsstrafe nach sich zieht.
+DiplomaticStrategy Explanation Neutral Independent		;Euer Imperium wird diese unabhängige Kolonie ignorieren. Ihr werdet keine Geschenke oder Verträge anbieten, noch werdet ihr versuchen, zu kolonisieren oder einzumarschieren
+DiplomaticStrategy Explanation Eliminate		;Euer Imperium wird diese Kolonie auslöschen, indem es die Bevölkerung bis zum Aussterben bombardiert.
 
 Standard Size Lists		;Standardgröße für Listen
 Smaller Lists		;Kleinere Schriften u. Symbole für Listen
@@ -5390,6 +5451,10 @@ PolicyExplanation MilitaryShipsNotInFleetRatio		;Legt den Anteil der Militärsch
 PolicyExplanation AutomationResearch		;Automatisiert die Auswahl neuer Forschungsprojekte, oder steuert diesen Bereich manuell.
 PolicyExplanation AutomationResearchCrash		;Automatisiert Entscheidungen darüber, wann Blitz-Forschungsprojekte durchgeführt werden sollen, oder steuert diesen Bereich manuell. Blitz-Forschung bedeutet, dass zusätzliche finanzielle Mitel verwendet werden (wenn möglich), um die Forschungsrate für ein Projekt zu verdoppeln, so dass Ihr neue Technologien schneller erwerben könnt.
 PolicyExplanation ResearchMaximumConcurrentProjects		;Die maximale Anzahl von Projekten, die gleichzeitig erforscht werden können. Wenn dieser Wert größer als eins ist, können mehrere Projekte gleichzeitig erforscht werden, wobei Eure Forschungsleistung auf diese Projekte aufgeteilt wird. Beachtet, dass für die Erforschung mehrerer gleichzeitiger Projekte auch mehrere Forschungsstationen erforderlich sind (eine Station pro Projekt).
+
+PolicyExplanation AutomationArtifacts		;Automatisiert die Bewegung von Artefakten an ihren optimalen Ort oder kontrolliert diesen Bereich manuell.
+PolicyExplanation AutomationEquipment		;Automatisiert die Bewegung der Schiffsausrüstung zu ihrem optimalen Schiff oder kontrolliert diesen Bereich manuell.
+
 PolicyExplanation AutomationCharacterMissions		;Automatisiert die Zuweisung von Geheimdienstmissionen für Eure Spione, oder steuert diesen Bereich manuell. Beachtet, dass Ihr die Automatisierung auch für einzelne Charaktere ein- bzw. ausschalten könnt.
 PolicyExplanation AutomationCharacterLocations		;Automatisiert die Verlegung Eurer Charaktere an ihren optimalen Einsatzort, oder steuert diesen Bereich manuell. Beachtet, dass Ihr die Automatisierung auch für einzelne Charaktere ein- bzw. ausschalten könnt.
 PolicyExplanation IntelligenceMissionCounterIntelRatio		;Verhältnis Eurer Spione, die für die Spionageabwehr eingesetzt werden, um gegnerische Geheimdienstmissionen abzuwehren.
@@ -5416,6 +5481,10 @@ PolicyExplanation IntelligenceMissionAllowDestroyFacility		;Erlauben oder verbie
 PolicyExplanation IntelligenceMissionAllowInfectColonyWithPlague		;Erlauben oder verbieten Sie Ihren Spionen Seuchenmissionen.
 PolicyExplanation IntelligenceMissionAllowCreateFalseIncident		;Erlauben oder verbieten Sie Ihren Spionen die Erstellung falscher Vorfallsmissionen.
 PolicyExplanation IntelligenceMissionAllowControlFactionLeader		;Erlauben oder verbieten Sie Ihren Spionen Kontrollmissionen für Fraktionsführer.
+
+PolicyExplanation IntelligenceMissionAllowStealArtifact		;Erlaubt oder verbietet Artefakt-Diebstahl-Missionen für eure Spione.
+PolicyExplanation IntelligenceMissionAllowCaptureCharacter		;Erlaubt oder verbietet Charakter Gefangennahme-Missionen für eure Spione.
+PolicyExplanation IntelligenceMissionAllowRescueCharacter		;Erlaubt oder verbietet Charakter Rettungs-Missionen für eure Spione.
 
 PolicyExplanation AutomationPreset		;Wählt eine voreingestellte Konfiguration von Automatisierungseinstellungen, die zu einem bestimmten Spielstil passt.
 
@@ -6158,6 +6227,7 @@ Duration X		;Dauer: {0} Jahre
 Duration X-Y		;Dauer: {0}-{1} Jahre
 Location only		;Nur Standort
 X is already started here		;{0} ist hier bereits gestartet
+Cannot start when X is still active here		;Kann nicht starten, solange {0} noch aktiv ist
 
 We are happy to have many troops to defend us		;Wir sind froh, viele Truppen zu haben, die uns verteidigen
 We are unhappy at the high troop level		;Wir sind mit der hohen Truppenstärke unzufrieden
@@ -6540,15 +6610,16 @@ Quest GameEventActionType AddBonusWarScore		;War Score
 Quest GameEventActionType VictoryConditionBonus		;Siegespunkt
 Quest GameEventActionType AddEmpireIncidentFactorGeneral Positive		;Verbessern Sie die Beziehungen zu {0}
 Quest GameEventActionType AddEmpireIncidentFactorGeneral Negative		;Harm Relations mit {0}
+Quest GameEventActionType AddColonyInfluence		;Einfluss {0}
 Quest GameEventActionType AdjustWarWeariness Increase		;Feindliche Kriegsmüdigkeit erhöhen
 Quest GameEventActionType AdjustWarWeariness Reduce		;Reduzieren Sie die Kriegsmüdigkeit
 Quest GameEventActionType AchieveVictoryObjective		;Siegziele
 Quest GameEventActionType GenerateShipBase		;Gebe neues Schiff
-Quest GameEventActionType GenerateBonusAtOrb		;Reveal bonus at colony
-Quest GameEventActionType NavigationalCoordinatesExistingRuins		;Reveal Special Location
-Quest GameEventActionType NavigationalCoordinatesExistingIndependentColony		;Reveal Special Location
-Quest GameEventActionType NavigationalCoordinatesDebrisField		;Reveal Special Location
-Quest GameEventActionType NavigationalCoordinatesExistingAbandonedShip		;Reveal Special Location
+Quest GameEventActionType GenerateBonusAtOrb		;Zeige Bonus bei Kolonie
+Quest GameEventActionType NavigationalCoordinatesExistingRuins		;Zeige Speziellen Ort
+Quest GameEventActionType NavigationalCoordinatesExistingIndependentColony		;Zeige Speziellen Ort
+Quest GameEventActionType NavigationalCoordinatesDebrisField		;Zeige Speziellen Ort
+Quest GameEventActionType NavigationalCoordinatesExistingAbandonedShip		;Zeige Speziellen Ort
 Quest GameEventActionType SetDiplomaticRelationType		;Unterzeichnet den Vertrag
 Quest GameEventActionType SetIndependentColonyRelationType		;Unterzeichnet den Vertrag
 Quest GameEventActionType GenerateTroops		;Gebt Truppen
@@ -7256,6 +7327,11 @@ Quest Pirate Description Deliver Resources		;Liefert {0} {1} an {2}
 Quest Pirate Title Obtain Artifact		;Artefakt erlangen
 Quest Pirate Description Obtain Artifact		;Erhaltet {0}, zuletzt gesehen bei {1}
 
+Quest Shadowport Title Destroy Base		;Zerstört Basis
+Quest Shadowport Description Destroy Base		;Zerstört {0} vonn den {1}
+Quest Shadowport Title Deliver Resources		;Liefert Ressourcen
+Quest Shadowport Description Deliver Resources		;Liefert {0} {1} an {2}
+
 Quest General Reward Description REQUESTER		;{0} bietet die folgende Belohnung für die Erfüllung dieses Vertrags:
 
 We are pleased at your completion of our contract		;Wir freuen uns, dass Sie unseren Vertrag abgeschlossen haben.
@@ -7321,7 +7397,8 @@ Offer Amount		;Angebot Betrag
 Offer Amount Explanation		;Geben Sie die finanzielle Belohnung für die Erfüllung des Vertrags an
 TRIGGERACTION TARGETNAME		;{0} {1}
 TRIGGERACTION Deliver AMOUNT RESOURCES TARGETNAME		;Liefern Sie {0} {1} an {2}
-TRIGGERACTION Defend TARGETNAME DATE		;Verteidigen Sie {0} bis {1}
+TRIGGERACTION Defend TARGETNAME DATE		;Verteidigt {0} bis {1}
+TRIGGERACTION Defend TARGETNAME DATEYEARS		;Verteidigt {0} {1} Jahre lang
 TRIGGERACTION Research PROJECT		;Vollständige Forschung in {0}
 TRIGGERACTION Research Steal PROJECT		;Forschung stehlen in {0}
 TRIGGERACTION Rescue CHARACTER EMPIRE		;Rettung {0} der {1}
@@ -7436,6 +7513,9 @@ Bonus Income Explanation Pirate		;Das diesjährige Bonuseinkommen aus nicht-regu
 Cash Explanation Detailed Pirate		;Bargeld auf der Hand. Dieses Geld kann für neue Einheiten, den Bau von Piratenanlagen, den Kauf von Ressourcen und viele andere Dinge ausgegeben werden. Das Bargeld wird erhöht, indem Sie sicherstellen, dass der Cashflow größer als Null ist, d.h. dass Ihre Ausgaben geringer sind als Ihre Einnahmen.
 
 Pirate factions cannot change their government		;Piratenfraktionen können ihre Regierung nicht ändern
+Pirate factions cannot change their government Details		;Piratenfraktionen können ihre Regierung nicht ändern, bis sie auf einer der von ihnen beeinflussten Kolonien ein kriminelles Netzwerk-Wonder errichtet haben. Sobald sie ein kriminelles Netzwerk aufgebaut haben, wird hier die Option aktiviert, die Regierung zu wechseln.\n\nWenn Piratenfraktionen die Regierung wechseln, wandeln sie dauerhaft in ein Standard-Imperium, was dazu führt, dass sie ihre Piratengewohnheiten aufgeben und die Piratenspielelemente und den Spielstil hinter sich lassen.\n\n\nAlternativ können sie einen Regierungswechsel vermeiden und stattdessen als Piraten bleiben.
+Pirate Change Government Warning Title		;Warnung: Piraten-Gameplay wird dauerhaft verlassen
+Pirate Change Government Warning		;Wenn Piratenfraktionen die Regierung wechseln, werden sie [WARN]dauerhaft zu einem Standard-Imperium[/WARN] umgewandelt, sodass sie ihre Piratengewohnheiten aufgeben und die Piratenspielelemente und den Spielstil hinter sich lassen.\n\nAlternativ können sie einen Regierungswechsel vermeiden und stattdessen Piraten bleiben.
 
 Cannot build facilities at foreign colonies		;Kann keine Einrichtungen in fremden Kolonien bauen
 
@@ -7449,3 +7529,290 @@ PolicyExplanation ShipAttackMinimumLevel		;Das Mindeststärkeverhältnis, das ei
 PolicyExplanation ShipDefendMinimumLevel		;Das Mindeststärkeverhältnis, das ein Schiff außerhalb einer Flotte benötigt, um ein feindliches Ziel anzugreifen. Bei dieser Bewertung wird die gesamte feindliche Stärke am Zielort berücksichtigt, z.B. alle feindlichen Schiffe am Ort oder alle feindlichen Kreaturen am Ort.\n\nDas Schiff wird das Ziel also nur dann angreifen, wenn es genügend andere Schiffe in der Nähe koordinieren kann, um alle feindlichen Bedrohungen am Zielort angemessen zu bewältigen (d.h. über genügend Stärke zu verfügen, um diesen Wert zu erreichen).\n\nDiese Einstellung bezieht sich auf [B]Angriffe auf Zielorte, an denen unser Reich Kolonien oder Basen hat, die verteidigt werden müssen[/B]. Beachten Sie, dass diese Einstellung nicht von Schiffen in Flotten verwendet wird.
 
 Attack all threats		;Alle Bedrohungen angreifen
+Maximum influence income for this colony		;Maximales Einflusseinkommen für diese Kolonie
+Maximum influence income for COLONY		;Maximales Einflusseinkommen für {0}
+
+Contracts		;Verträge
+Available Contracts		;Verfügbare Verträge
+Accepted Contracts		;Akzeptierte Verträge
+Contract Offered		;Angebotener Vertrag
+Contract Offered to ACTION		;Vertrag angeboten an {0}
+
+Pirate factions cannot create Alliances		;Piratenfraktionen können keine Allianzen bilden
+We are hostile with this faction		;Wir sind mit dieser Fraktion verfeindet
+
+Buy		;Kaufen
+Sell		;Verkaufen
+Buy Price		;Preis kaufen
+Buy Price Explanation		;Der Preis pro Einheit, für den dieser Standort diese Ressource kaufen wird
+Sell Price		;Verkaufspreis
+Sell Price Explanation		;Der Preis pro Einheit, für den dieser Standort diese Ressource verkaufen wird
+
+Shadowport		;Schattenhafen
+
+ShadowportTheme BountyHunterGuild		;Kopfgeldjäger
+ShadowportTheme MercenaryGuild		;Söldner
+ShadowportTheme SmugglerOutpost		;Schmuggler
+ShadowportTheme JunkDealer		;Schrotthändler
+ShadowportTheme HuntingGuild		;Jagen
+
+Shadowport TYPE		;{0} Schattenhafen
+You destroyed SHADOWPORT		;Sie haben {0} zerstört!
+
+Weapon Fire Rate		;Feuerrate der Waffe
+Equipment		;Ausrüstung
+Equipment & Upgrades		;Ausrüstung & Upgrades
+We have discovered a valuable equipment		;Wir haben den [ARTIFACT]{0}[/ARTIFACT], ein wertvolles Gerät, entdeckt. {1}Wir haben die {0} auf unser Schiff gebracht.
+We have discovered a valuable equipment Short		;Wir haben die [ARTIFACT]{0}[/ARTIFACT] entdeckt, ein wertvolles Gerät
+Valuable Equipment Discovered		;Wertvolle Ausrüstung entdeckt
+
+Buy Equipment		;Ausrüstung kaufen
+Buy Ship		;Schiff kaufen
+Trade Resources		;Handel Ressourcen
+Undock and Leave		;Abdocken und verlassen
+Refuel for X credits		;Tanken Sie für {0} Credits
+Repair for X credits		;
+No fuel required		;Kein Kraftstoff erforderlich
+Cannot afford refuelling		;Kann sich das Tanken nicht leisten\n({0} Credits)
+No repairs needed		;Keine Reparaturen erforderlich
+Cannot afford repairs		;Sie können sich keine Reparaturen leisten
+None available		;Keine verfügbar
+X available		;{0} verfügbar
+Must be docked at friendly pirate base or Shadowport		;Muss an einer befreundeten Piratenbasis oder einem Schattenhafen angedockt sein
+Must be docked at Shadowport		;Muss in Shadowport angedockt sein
+Select Equipment to buy		;Wählen Sie Ausrüstung zum Kauf
+Buy Equipment Explanation		;Wenn Sie mit dem Mauszeiger über einen Ausrüstungsgegenstand aus der untenstehenden Liste fahren, werden dessen Werte angezeigt. Wenn Sie auf einen Ausrüstungsgegenstand klicken, wird die Ausrüstung ausgewählt und die endgültigen Werte für Ihr Schiff angezeigt, einschließlich der bereits vorhandenen Ausrüstung. Klicken Sie auf die Schaltfläche Kaufen, um die ausgewählte Ausrüstung zu kaufen.
+Combined Stats Equipment Explanation		;Die kombinierten Werte für alle Ausrüstungsgegenstände an Bord dieses Schiffes werden unten angezeigt. Dazu gehören auch alle ausgewählten Ausrüstungsgegenstände aus dem obigen Abschnitt Verfügbare Ausrüstung. Beachten Sie, dass die Werte mit jedem zusätzlichen Ausrüstungsgegenstand sinken (50% des vorherigen Wertes).
+Equipment Available		;Ausrüstung verfügbar
+Equipment Onboard		;Ausrüstung an Bord
+Combined Stats		;Kombinierte Statistiken
+Buy EQUIPMENT for X credits		;Kaufen Sie {0} für {1} Credits
+Cannot afford EQUIPMENT for X credits		;Kann sich {0} für {1} Credits nicht leisten
+Select Equipment to sell		;Wählen Sie Ausrüstung zum Verkauf
+Sell EQUIPMENT for X credits		;Verkaufen Sie {0} für {1} Credits
+Docked at X		;Angedockt bei {0}
+
+Buy AMOUNT RESOURCE CREDITS		;Kaufen Sie {0} {1} für {2} Credits
+Sell AMOUNT RESOURCE CREDITS		;Verkaufen Sie {0} {1} für {2} Credits
+Price - lowest first		;Preis - niedrigster
+Price - highest first		;Preis - höchster
+Cargo available at X		;Cargo verfügbar bei {0}
+Remaining Cargo Space		;Verbleibender Laderaum
+No cargo space available		;Kein Laderaum verfügbar
+No cargo to sell		;Keine Fracht zu verkaufen
+No resources available		;Keine Ressourcen verfügbar
+Trade Resources at X		;Handelsressourcen bei {0}
+
+Price is zero when loading cargo from own empire		;Der Preis ist Null, wenn Sie Fracht aus Ihrem eigenen Reich laden
+Price is zero when unloading cargo at own empire		;Der Preis ist Null, wenn die Fracht im eigenen Reich entladen wird
+X years from acceptance		;{0} Jahre ab Annahme
+
+Our faction is known as the X		;Unsere Fraktion ist bekannt als die {0}.
+We are GOVERNMENT		;Wir sind {0}.
+We are the RACE		;Wir sind die {0}
+who are typically X		;die typischerweise {0} sind
+RACE have natural skills in X		;{0} haben natürliche Fähigkeiten in {1}
+Our leader is NAME		;Unser Anführer ist {0}
+Our leader is NAME, skilled in X		;Unser Anführer ist {0}, erfahren in {1}
+Our home base is X		;Unsere Heimatbasis ist {0}
+Our home base is X in the Y system		;Unsere Heimatbasis ist {0} im System {1}
+Nearby is the PLANETTYPE PLANETMOON NAME		;In der Nähe befindet sich die {0} {1} {2}
+Explore, Expand and Conquer!		;
+
+Cannot dock here		;
+Dangerous threats at location		;
+Same System		;Gleiches System
+Move and Dock		;Bewegen und andocken
+Move to TARGET and dock to trade resources		;Gehen Sie zu {0} und docken Sie an, um Ressourcen zu handeln
+No ship selected		;Kein Schiff ausgewählt
+Already docked at TARGET		;Bereits an {0} angedockt
+Already docking at TARGET		;Bereits angedockt bei {0}
+
+Trading Points		;Handelspunkte
+Amount available at location		;Verfügbare Menge vor Ort
+Distance from X		;Entfernung von {0}
+Amount Abbreviation		;Amt
+Distance Abbreviation		;Dist
+
+Failure Penalty		;Strafe bei Nichterfüllung
+We have failed to complete a contract for OFFERER		;Wir haben einen Vertrag für {0} nicht abgeschlossen.
+Contract Failed		;Vertrag gescheitert
+This failure has cost us the following penalty		;Dieses Versäumnis hat uns die folgende Strafe gekostet
+You failed to complete our contract!		;Sie haben unseren Vertrag nicht erfüllt!
+
+We have no known sources for this resource		;Wir haben keine bekannten Quellen für diese Ressource
+We currently have indequate amounts of this resource at our Spaceports and Mining stations		;Wir verfügen derzeit über ausreichende Mengen dieser Ressource in unseren Raumhäfen und Bergbaustationen.
+We have no military ships that can handle the damaging effects at this location		;Wir haben keine Militärschiffe, die die schädlichen Auswirkungen an diesem Ort bewältigen können.
+We have no freighters that can handle the damaging effects at this location		;Wir haben keine Frachter, die die schädlichen Auswirkungen an diesem Ort bewältigen können
+We have no individual military ships or fleets that are strong enough to attack this target		;Wir haben keine einzelnen militärischen Schiffe oder Flotten, die stark genug sind, um dieses Ziel anzugreifen.
+We have no individual military ship with adequate Boarding strength to capture this target		;Wir haben kein einzelnes Militärschiff mit ausreichender Boardingstärke, um dieses Ziel zu erobern.
+We have no freighters available for this contract		;Wir haben keine Frachter für diesen Auftrag zur Verfügung
+We have no military ships available for this contract		;Wir haben keine Militärschiffe für diesen Auftrag zur Verfügung
+
+Multiple Spies assigned		;Mehrere Spione, die diesen Auftrag erfüllen sollen
+Multiple Ships assigned		;Mehrere Schiffe zur Erfüllung dieses Vertrages eingesetzt
+Multiple Fleets assigned		;Mehrere Flotten zur Erfüllung dieses Vertrages eingesetzt
+X assigned to fulfill this contract		;{0} zugewiesen, um diesen Vertrag zu erfüllen
+X contracts available		;{0} Verträge verfügbar
+Contracts from X		;Kontrakte von {0}
+
+Cannot Dock No Military Refuelling		;Militärschiffe können ohne ein Abkommen über die militärische Betankung nicht andocken
+Cannot Dock Not Met		;Wir haben keine Beziehungen mit dem Ziel
+Cannot Dock Hostile Target		;Wir haben feindliche Beziehungen zu dem Ziel
+Cannot Dock No Docking Bays		;Das Ziel hat keine Andockbuchten
+Cannot Dock Target Destroyed		;Das Ziel wurde zerstört
+Cannot Dock Abandoned Base		;Die Basis ist aufgegeben
+
+Show resource amounts and prices for X		;Ressourcenmengen und Preise für {0} anzeigen
+Cannot view resource details for this location		;Kann keine Ressourcendetails für diesen Ort anzeigen
+
+SHIP guarding LOCATION		;{0} bewacht {1}
+Multiple Ships guarding LOCATION		;Mehrere Schiffe bewachen {0}
+
+Maximum influence income		;Maximales Einkommen beeinflussen
+
+Cannot accept contracts where the target is our own empire		;Wir können keine Verträge akzeptieren, bei denen das Ziel unser eigenes Reich ist.
+Cannot bid on contracts where the target is our own empire		;Wir können nicht auf Verträge bieten, bei denen das Ziel unser eigenes Reich ist.
+
+This target is beyond the fuel range of our freighters		;Dieses Ziel liegt außerhalb der Treibstoffreichweite unserer Frachter
+This target is beyond the fuel range of our military ships		;Dieses Ziel liegt außerhalb der Treibstoffreichweite unserer Militärschiffe
+We have no spies to perform this mission		;Wir haben keine Spione für diese Mission
+
+Upgrade Ship		;Schiff aufrüsten
+Upgrade Costs		;Upgrade Kosten
+You cannot afford this upgrade		;Sie können sich dieses Upgrade nicht leisten
+Click Pay button above to initiate upgrade		;Klicken Sie oben auf die Schaltfläche Bezahlen, um das Upgrade zu starten.
+Money Available		;Verfügbares Geld
+Pay and Upgrade		;Bezahlen und aktualisieren
+Pay and Build		;Zahlen und Bauen
+Trade Equipment		;Handel Ausrüstung
+
+Ships at X		;Schifft um {0}
+Ships for sale at X		;Schiffe zum Verkauf bei\n{0}
+Ships for sale at		;
+Select Empty Ship Hull		;
+Select Ship Hull with Components		;Schiffsrumpf mit Komponenten auswählen
+Select Empty Ship Hull X credits		;Wählen Sie Leeres Schiff Hull\n({0} Credits)
+Select Ship Hull with Components X credits		;Wählen Sie Schiffsrumpf mit Komponenten\n({0} Credits)
+Buy Ships		;Schiffe kaufen
+Buy Ships at X		;Kaufen Sie Schiffe für {0}
+General Info		;Allgemeine Informationen
+You cannot afford this Ship		;Sie können sich dieses Schiff nicht leisten
+Select a Hull from the list at the left		;Wählen Sie einen Rumpf aus der Liste links
+YARD begins building our new ship		;{0} beginnt mit dem Bau unseres neuen Schiffes
+YARD has begun construction on our new ship SHIP		;{0} hat mit dem Bau unseres neuen Schiffes {1} begonnen.\n\nWir erwarten, dass wir unser fertiges Schiff sehr bald sehen werden!
+
+X will buy up to Y units		;{0} wird bis zu {1} Einheiten kaufen
+X will buy at least Y units		;{0} wird mindestens {1} Einheiten kaufen
+This location is unwilling to buy any of this resource		;Dieser Standort ist nicht bereit, diese Ressource zu kaufen.
+Buy Price Explanation More		;Der Preis, den wir zahlen, um eine Einheit dieser Ressource zu kaufen, d.h. der Preis, für den dieser Standort eine Einheit dieser Ressource verkauft.
+Sell Price Explanation More		;Der Preis, den wir beim Verkauf einer Einheit dieser Ressource erzielen, d.h. der Preis, den dieser Ort für eine Einheit dieser Ressource zahlen wird.
+
+Pirate Colony Takeover Invasion Title		;Piraten kämpfen um die Übernahme von {0}!
+Pirate Colony Takeover Invasion Description		;Die {1} haben sich von ihrem Piratenleben losgesagt und eine offizielle Regierung eingesetzt.\n\n Zu unserem Unglück bedeutet das, dass sie unsere Kolonie {0} übernehmen wollen, da sie dort großen Einfluss haben.\n\n In {0} ist ein Bodenkampf ausgebrochen, da die {1} versuchen, uns die Kontrolle über die Kolonie zu entreißen!
+Pirate Faction Becomes Empire Title		;{0} verlässt seine Piratengewohnheiten
+Pirate Faction Becomes Empire Description		;Die {0} haben sich von ihrem Piratentum losgesagt und eine formelle Regierung gegründet.\n\n Sie haben durch ihren Einfluss {1} Kolonien erworben.{2}
+Pirate Faction Becomes Empire Colony Battles Description		; In {0} Kolonien toben Bodenkämpfe, da sie versuchen, den derzeitigen Besitzern die Kontrolle über die Kolonien zu entreißen.
+
+Victory Condition BuildMostPirateFacilities		;Bauen Sie die meisten Pirateneinrichtungen (versteckte Basen, versteckte Festungen, kriminelle Netzwerke)
+Victory Condition CompletedContracts		;Schließen Sie die meisten Verträge ab
+Victory Condition CompletedContractsResourceTrading		;Schließen Sie die meisten Ressourcenhandelsverträge ab
+Victory Condition CompletedContractsDestroyTarget		;Schließen Sie die meisten Zerstörungszielverträge ab.
+Victory Condition CompletedContractsDefendTarget		;Schließen Sie die meisten Zielverteidigungsaufträge ab
+Victory Condition TradeMostResources		;Handeln Sie die meisten Ressourcen mit anderen Fraktionen
+
+Victory Condition Detail BuildMostPirateFacilities		;{0} Pirateneinrichtungen gebaut
+Victory Condition Detail CompletedContracts		;{0} Verträge abgeschlossen
+Victory Condition Detail CompletedContractsResourceTrading		;{0} Ressourcenhandelskontrakte abgeschlossen
+Victory Condition Detail CompletedContractsDestroyTarget		;{0} Zielkontrakte zerstören abgeschlossen
+Victory Condition Detail CompletedContractsDefendTarget		;{0} Zielverträge verteidigen abgeschlossen
+Victory Condition Detail TradeMostResources		;{0} gehandelte Ressourcen
+
+Victory Conditions		;Bedingungen für den Sieg
+
+SHIP guarding or raiding LOCATION		;{0} Bewachung oder Überfall {1}
+Multiple Ships guarding or raiding LOCATION		;Mehrere Schiffe, die bewachen oder plündern {0}
+
+ARTIFACT has been transferred to REQUESTER		;[B]{0} wurde an {1} übertragen, womit unser Vertrag mit ihnen abgeschlossen ist.[/B]
+Amount Delivered		;Gelieferte Menge
+
+Other Pirate Factions Influencing COLONY		;Andere Piratenfraktionen, die Einfluss nehmen {0}
+
+Cannot transition to Refugee Fleet when have more than one colony		;Kein Übergang zur Flüchtlingsflotte möglich, wenn Sie mehr als eine Kolonie haben
+Cannot transition to Refugee Fleet when have inadequate tech Explanation		;Sie können nicht zur Flüchtlingsflotte wechseln, wenn Sie über unzureichende Technologie verfügen. Sie müssen ein baubares Kolonieschiff mit einer Sprungreichweite von 50M oder mehr haben.
+
+You will lose your last colony COLONY and transition to a Refugee Fleet Explanation		;Diese Aktion führt dazu, dass Sie [WARN]Ihre letzte Kolonie {0} verlieren und zu einer Flüchtlingsflotte[/WARN] werden.\n\nSie behalten Ihr gesamtes Forschungswissen, Ihre Explorationsdaten und Ihre diplomatischen Beziehungen.\n\nAber Sie werden [WARN]alle Ihre bestehenden Schiffe, Basen und Truppen[/WARN] verlieren.\n\nSie werden stattdessen eine kleine Flüchtlingsflotte auf der Suche nach einer neuen Heimat befehligen. Ihr neues einsames Kolonieschiff wird die gesamte Bevölkerung von {0} an Bord haben, bereit, eine neue Kolonie zu besiedeln.\n\nAlle Ihre bestehenden Charaktere und Artefakte werden ebenfalls auf Ihre neue Flüchtlingsflotte geladen.
+Are you sure you want to abandon COLONY and become a Refugee Fleet		;Sind Sie sicher, dass Sie {0} aufgeben und ein Flüchtling werden wollen Flotte
+Become Refugee Fleet		;Flüchtlingsflotte werden
+
+Character Trait Wanderer		;Wanderer
+Character Trait Haggler		;Feilscher
+Character Trait Tinkerer		;Tüftler
+Character Trait Bargainer		;Schnäppchenjäger
+Character Trait Unnoticed		;Unbemerkt
+
+Salvage Kings Title		;Bergungs-Könige
+Salvage Kings Description		;Bei der Bergung einer {0} im {1} System haben wir die folgende Entdeckung gemacht:\n{2}\n\nWährend dies eine schöne Entdeckung ist, ist unser Bergungsteam sicher, dass es [HL]noch bessere Entdeckungen[/HL] zu machen gibt.\Sie empfehlen uns, die Trümmer vollständig zu dekonstruieren, um nach [HL]verbesserten Vorteilen[/HL] zu suchen, die vermutlich existieren. Beachten Sie, dass wir dadurch [WARN]die oben erwähnten ersten Entdeckungen[/WARN] einbüßen. Und es kann sein, dass wir gar keine verbesserten Vorteile finden, in diesem Fall würden wir nichts gewinnen.\n\nWas sollen wir tun? Diese bereits entdeckten Vorteile nutzen? Oder intensiver nach besseren suchen?
+Take the existing discovery		;Nehmen Sie die vorhandene Entdeckung
+Search for better items		;Suche nach besseren Artikeln
+Salvage Kings Keep Initial Title		;Behalten Sie, was wir bereits gefunden haben
+Salvage Kings Keep Initial Description		;Es ist eine faire Entscheidung, das zu behalten, was wir bereits gefunden haben. Wir würden es vorziehen, Risiko und Ungewissheit zu vermeiden.\n\nIn der {0} haben wir Folgendes gefunden:\n\n{1}
+Salvage Kings Success Title		;Eine noch bessere Entdeckung!
+Salvage Kings Success Description		;Unsere Suche nach weiteren Entdeckungen war erfolgreich!\n\nIn der {0} haben wir folgendes gefunden:\n\n{1}
+Salvage Kings Failure Title		;Keine weiteren Vorteile gefunden...
+Salvage Kings Failure Description		;Leider ist unsere Suche nach verbesserten Vorteilen aus dem {0} ins Leere gelaufen - wir konnten nichts mehr finden.\n\nBedauerlicherweise haben wir auch die Vorteile verloren, die wir anfangs in diesem Trümmerfeld entdeckt haben.\n\nDie Rettung ist ein ungenaues und unsicheres Unterfangen...
+
+Independent Colony Cancels Trade Treaty Title		;{0} Kündigt Handelsvertrag
+Independent Colony Cancels Trade Treaty Description		;[FACTION]{0}[/FACTION] hat den Handelsvertrag mit uns gekündigt!\n\nDas liegt an der [HL]Strafklausel[/HL] ihres Handelsvertrags mit der [FACTION]{1}[/FACTION], die sie verpflichtet, den Handel mit jedem zu beenden, der der {1} den Krieg erklärt.\n\nUnser Krieg gegen die {1} hat unerwünschte Nebenwirkungen...
+
+Independent Colony Cancels Trade Treaty With Other Title		;{0} kündigt Handelsvertrag mit {1}
+Independent Colony Cancels Trade Treaty With Other Description		;[FACTION]{0}[/FACTION] hat den Handelsvertrag mit [FACTION]{1}[/FACTION] gekündigt!\n\nDies steht im Einklang mit der [HL]Strafklausel[/HL] unseres Handelsvertrags mit {0}, die sie verpflichtet, den Handel mit jedem zu beenden, der uns den Krieg erklärt.\n\nStrafklauseln können so nützlich sein!...
+
+Account Confiscation Title		;Konto Konfiszierung
+Account Confiscation Description		;Die jüngste Kriegserklärung der [FACTION]{0}[/FACTION] gegen uns hat die [HL]Kontokonfiszierung[/HL] ausgelöst.\n\nDamit können wir einen Bonus von {1} aller Handelseinnahmen mit der {0} im vergangenen Jahr kassieren!\n\nDiese Kontokonfiszierung belief sich auf [GUT]{2} Credits[/GUT].
+
+Account Confiscation Target Title		;Konto Konfiszierung
+Account Confiscation Target Description		;Unsere jüngste Kriegserklärung gegen die [FACTION]{0}[/FACTION] hat die [HL]Kontokonfiszierung[/HL] aktiviert.\n\nDadurch konnte die {0} ein Bonuseinkommen von {1} aller Handelseinnahmen mit uns im vergangenen Jahr erpressen! Obwohl das Geld von unseren Händlern und nicht von uns direkt gestohlen wurde, ist dies immer noch ein ungeheuerlicher Missbrauch!\n\nDiese Konfiszierung hat insgesamt [BAD]{2} Credits[/BAD] eingebracht.
+
+Character Trait HardBargainer		;Hartnäckiger Verhandlungspartner
+Character Trait Xenophile		;Xenophil
+Character Trait MultiDimensional		;Mehrdimensional
+Character Trait Xenolocutor		;Xenolocutor
+Character Trait Suspicious		;Verdächtig
+
+Exploit Trade Loopholes		;Schlupflöcher im Handel ausnutzen
+Exploit Trade Loopholes Explanation		;Wir können Schlupflöcher in unserem Handelsvertrag ausnutzen, um [GUT]{0} Credits von dieser Fraktion zu nehmen[/GUT].\n\nSie werden zweifellos sehr verärgert über diese Aktion sein und wahrscheinlich [SCHLECHT]unseren Handelsvertrag[/SCHLECHT] mit ihnen kündigen.\n\nDas wird auch [SCHLECHT]unseren Ruf[/SCHLECHT] schädigen.
+Exploit Trade Title		;{0} Nutzt Handelsschlupflöcher aus
+Exploit Trade Description		;Die [FACTION]{0}[/FACTION] haben Schlupflöcher in ihrem Handelsvertrag mit uns ausgenutzt, um [BAD]{1} Credits von uns zu stehlen![/BAD]\n\nDie {0} behaupten, dass dies alles völlig legal und richtig ist, aber wir sind ganz sicher nicht mit diesen Dieben einverstanden!
+We have cancelled our trade treaty with them		;Wir haben unser Handelsabkommen mit ihnen gekündigt.
+We do not have a trade treaty with this faction		;Wir haben kein Handelsabkommen mit dieser Fraktion
+Exploit Trade Initiator Title		;Wir haben Handelsschlupflöcher ausgenutzt!
+Exploit Trade Initiator Description		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit der [FACTION]{0}[/FACTION] ausgenutzt, um ihnen [GUT]{1} Kredite zu entziehen![/GUT]\n\nDie {0} sind darüber ziemlich verärgert, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
+Exploit Trade Initiator Description Independent		;Wir haben das Kleingedruckte in unserem Handelsvertrag mit [FACTION]{0}[/FACTION] ausgenutzt, um [GUT]{1} Kredite von ihnen zu erhalten![/GUT]\n\n{0} sind ziemlich verärgert darüber, aber sie sollten ihre Handelsverträge wirklich sorgfältiger lesen.\n\nLoopholes sind praktische Dinge!
+
+AUTOMATION CATEGORY is LEVEL		;{0} wird auf {1} gesetzt
+Click to cycle to the next setting		;Klicken Sie auf , um zur nächsten Einstellung zu gelangen
+View all Automation settings in the Policy screen		;Alle Automatisierungseinstellungen auf dem Bildschirm Richtlinie anzeigen
+
+Automation Summary Title		;Automatisierungseinstellungen überprüfen
+Automation Summary Explanation		;Distant Worlds 2 ist ein komplexes Spiel mit vielen Funktionen. Aber Sie können so viel oder so wenig steuern, wie Sie möchten. Sie können jeden Teil des Spiels [HL]automatisieren[/HL], so dass Sie sich auf andere Teile konzentrieren können, die Sie bevorzugen. In vielen Bereichen gibt es auch [HL]Berater-Vorschläge[/HL], die Ihnen Empfehlungen geben, was Sie als nächstes in diesem Bereich tun sollten.\n\nEs ist wichtig, dass Sie die Automatisierung so einstellen, dass sie Ihrem Spielstil entspricht. Sie können [HL]Ihre Automatisierungseinstellungen im Richtlinienbildschirm (Taste P)[/HL] überprüfen und ändern.\n\nBeachten Sie, dass der Richtlinienbildschirm auch viele Untereinstellungen hat, mit denen Sie die Behandlung eines Bereichs verfeinern können, falls Sie sich für die Automatisierung entscheiden. Wenn Sie sich die QuickInfos zu den einzelnen Einstellungen ansehen, können Sie besser verstehen, wie Sie die Automatisierung für sich nutzen können.
+
+Your current automation settings are below		;Ihre aktuellen Automatisierungseinstellungen werden unten angezeigt:
+
+No threats detected		;Keine Bedrohungen entdeckt
+
+Refuel or repair each fleet ship at their nearest location		;Tanken oder reparieren Sie jedes Flottenschiff an seinem nächstgelegenen Standort
+Fleet is Dispersed		;Die Flotte ist verstreut
+Refuelling or Repairing each fleet ship at their nearest location		;Betanken oder Reparieren jedes Flottenschiffs an seinem nächstgelegenen Standort
+
+Fleet Fuel Tanker Explanation Manual		;Dieser Flottentankwagen wird [HL]manuell gesteuert[/HL]. Er bewegt sich mit der Flotte[/B]. Sie müssen dieses Schiff manuell steuern, um Treibstoff abzubauen oder zu laden. Sie können auch Schiffe der Flotte manuell auftanken, entweder einzeln oder mit dem Flottenbefehl 'Auftanken aus Treibstofftankern'.
+Fleet Fuel Tanker Explanation Automated		;Dieser Flottentankwagen ist [HL]automatisiert[/HL]. Obwohl er der Flotte zugewiesen ist, arbeitet er [B]unabhängig, um Treibstoff abzubauen oder zu laden[/B].\Nach Bedarf betankt er die Flotte automatisch. Beachten Sie, dass Sie auch den Flottenbefehl 'Tanken aus Treibstofftankern' verwenden können, um das Betanken der Flotte einzuleiten.
+
+Galactic Nomads		;Galaktische Nomaden
+
+Empire-wide		;Reichsweit
+Requires at least AMOUNT RACE		;Benötigt mindestens {0} {1} in der Kolonie
+Requires at least AMOUNT		;Erfordert mindestens {0} Bevölkerung in der Kolonie
+Requires non-RACE population at the colony		;Erfordert eine Nicht-{0}-Bevölkerung in der Kolonie
+
+Required by colony Army Template		;Erforderlich für Kolonie Army Vorlage

@@ -899,4 +899,294 @@
 		<Description>Eine vielschichtige Sammlung integrierter Computerserver, die vor rohem Potenzial sprühen. Dieses Gerät besteht aus dichtem Metall und ist ziemlich schwer, obwohl fünf oder sechs starke Mitglieder der meisten empfindungsfähigen Spezies es heben könnten. Der S.L.I.T.H.E.R.I.N.E.-Großrechner ist bemerkenswert leistungsstark und nicht zu unterschätzen.</Description>
 		<ImageFilename>Artifacts/Slitherine Mainframe</ImageFilename>
 	</Artifact>
+	<Artifact>
+		<ArtifactId>71</ArtifactId> <!-- Cartographer's Log -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Logbuch des Kartographen</Name>
+		<Description>Dieses in Leder gebundene Tagebuch enthält handgezeichnete Sternenkarten, die von frühen menschlichen Entdeckern erstellt wurden, als sie ihre Heimatwelt verließen. Durch den Kataklysmus sind zwar viele Einträge veraltet, aber einige versteckte Routen sind immer noch genau. Schiffe, die diese Aufzeichnungen verwenden, können die Genauigkeit ihrer Hyperraumsprünge erheblich verbessern.</Description>
+		<ImageFilename>Artifacts/cartographers log</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>72</ArtifactId> <!-- Tech Trader Coin -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Tech Trader Münze</Name>
+		<Description>Diese aufwändig gestaltete Münze wurde einst als Zeichen des Vertrauens unter einer gesetzlosen Bande von Technologiehändlern verwendet. Der Träger der Münze wurde zu Verhandlungen zugelassen, die allen anderen verboten waren. Auch wenn es diese alten Händler nicht mehr gibt, kann der Besitzer der Münze nicht anders, als mit einem neuen Gefühl der Zuversicht in die Verhandlungen zu gehen.</Description>
+		<ImageFilename>Artifacts/tech trader coin</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>73</ArtifactId> <!-- The Persuasive Disc -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
+		<Name>Die überzeugende Scheibe</Name>
+		<Description>Eine glänzende Metallscheibe, in die uralte Handelsrunen eingebettet sind, deren Bedeutung im Laufe der Zeit verloren gegangen ist. Ursprünglich wurde die Scheibe von teekanischen Schmugglern verwendet, um sich günstige Geschäfte zu sichern. Sie ist nach wie vor ein bekanntes Symbol für energische Verhandlungen.</Description>
+		<ImageFilename>Artifacts/the persuasive disc</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>74</ArtifactId> <!-- The Hunter's Blade -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Die Klinge des Jägers</Name>
+		<Description>Diese zerschundene Klinge aus einem unbekannten Metall wurde einst von einem berühmten Mortalen-Kopfgeldjäger benutzt, der sein Leben gab, um einen brutalen Piratenkriegsherrn aufzuhalten. Sie ist zu einem Symbol der Entschlossenheit der Mortalen geworden.</Description>
+		<ImageFilename>Artifacts/the hunters blade</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>75</ArtifactId> <!-- Digitromacus of the Survivors -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Digitromacus der Überlebenden</Name>
+		<Description>Ein abgenutztes Rechengerät, das von den alten, vorindustriellen Zenox verwendet wurde und immer noch von einigen Zenox-Mathematikern bevorzugt wird, die behaupten, dass es einzigartige und sonst unzugängliche Erkenntnisse liefert. Logistiker, die es einsetzen, berichten von bemerkenswerten Einsparungen bei der Wartung.</Description>
+		<ImageFilename>Artifacts/digitromacus of the survivors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>76</ArtifactId> <!-- Battle Plans of the Heroes -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>14</RaceId>
+		<Name>Schlachtpläne der Helden</Name>
+		<Description>Diese Pläne sind so zerfleddert und verblasst, dass die seltsamen Kreuz- und Kreissymbole auf ihnen kaum noch zu erkennen sind. Es heißt, sie stammen aus dem Kampfcomputer des Flaggschiffs einer naxxilianischen Flotte, die eine ganze Kolonie vor einem blutrünstigen Piratenangriff gerettet hat. Sie bieten effektive Muster für Schießübungen und Ausweichmanöver im Raumkampf.</Description>
+		<ImageFilename>Artifacts/battle plans of the heroes</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>77</ArtifactId> <!-- The Helping Additional Hand -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>18</RaceId>
+		<Name>Die helfende zusätzliche Hand</Name>
+		<Description>Es handelt sich um ein grobes mechanisches Glied, das zu massiv ist, um an einem lebenden Sluken-Körper befestigt zu werden. Man nimmt an, dass dieses Anhängsel auf dem Rücken eines riesigen Automaten aus der alten Galaxie angebracht wurde. Obwohl es nicht wie ursprünglich vorgesehen verwendet werden kann, enthält es doch eine bemerkenswerte Anzahl von Erkennungs- und Verteidigungscomputern, die in jedes planetarische Verteidigungsnetzwerk eingebunden werden können.</Description>
+		<ImageFilename>Artifacts/the helping additional hand</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>78</ArtifactId> <!-- Void Kings Power Injector -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>19</RaceId>
+		<Name>Void Kings Energie-Injektor</Name>
+		<Description>Dieser stark modifizierte Antriebsbeschleuniger wurde von einer gefährlichen Piratenfraktion, den Void Kings, geborgen. Obwohl seine Funktionsweise unklar ist, verbessert der Injektor die Geschwindigkeit und Manövrierfähigkeit des Schiffes dramatisch, wenn er in den Navigationscomputer integriert wird.</Description>
+		<ImageFilename>Artifacts/void kings power injector</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>79</ArtifactId> <!-- Black Market Infiltrator -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Schwarzmarkt-Infiltrator</Name>
+		<Description>Ein kompaktes Gerät, das entwickelt wurde, um die Anti-Infiltrationssysteme von Schiffen zu schwächen. Es wurde ursprünglich für Piraten entwickelt, wurde aber bei einem erfolglosen Überfall auf die haakonischen Handelsrouten mitgenommen.</Description>
+		<ImageFilename>Artifacts/black market neural stimulator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>80</ArtifactId> <!-- Hyper Express' Organizational Paperweight -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Hyper Express' Organisatorischer Briefbeschwerer</Name>
+		<Description>Dieser glatte Plastik-Sphärokubus war einst der Schreibtischschmuck des Admirals der Hyper Express Schmugglerflotte. Dieser berüchtigte Pirat vermittelte zahlreiche Geschäfte mit Randkolonien und Unabhängigen, und viele vermuteten, dass der Sphärokubus den Einfluss des Admirals auf seine Verhandlungspartner ausübte.</Description>
+		<ImageFilename>Artifacts/hyper express organizational paperweight</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>81</ArtifactId> <!-- Marching Song of the Devourers -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>RecruitedTroopStrengthAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Marschlied der Verschlinger</Name>
+		<Description>Der einzige Inhalt, der auf einem uralten Aufnahmegerät gefunden wurde. Dieser Marsch wurde erstmals von den alten Boskara gespielt, als sie sich in den Jahren nach dem Kataklysmus gegen Piraten verteidigten. Der Rhythmus stimuliert bestimmte aggressive Zentren im Gehirn der Boskara und es wird gemunkelt, dass er auch bei anderen Spezies funktioniert. Wenn er über ein Schlachtfeld übertragen wird, verstärkt er die Wirkung von Bodenangriffen erheblich.</Description>
+		<ImageFilename>Artifacts/marching song of the devourers</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>82</ArtifactId> <!-- Grudgehold Subversion Cylinders -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Grudgehold Subversion-Zylinder</Name>
+		<Description>Dieses Gerät ist mit zwei goldenen Datenzylindern verbunden und enthält jahrhundertelang verschlüsselte Kommunikation, die gesammelt wurde, als Außenstehende eine beliebte und berüchtigte Piratenkampfarena besuchten. Diese Kampfgrube wurde oft als Treffpunkt für verschiedene Konfliktparteien genutzt und das Wissen über diese Treffen wurde von einer Vielzahl von Piratengruppen routinemäßig ausgenutzt. Die Spionagemeister der Dhayut haben festgestellt, dass die Daten entscheidende Einblicke in die psychologischen Techniken der meisten bekannten Spezies bieten.</Description>
+		<ImageFilename>Artifacts/grudgehold subversion cylinders</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>83</ArtifactId> <!-- Crystal of Inspiration -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
+		<Name>Kristall der Inspiration</Name>
+		<Description>Dieser unscheinbar aussehende Kristall ist in der Lage, das Potenzial einer Vielzahl von Planetentypen zu erkennen. Er sendet dann ein Unterschallsignal aus, das die Umwelt stimulieren kann und neue Möglichkeiten für Wachstum und Entwicklung schafft.</Description>
+		<ImageFilename>Artifacts/crystal of inspiration</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>84</ArtifactId> <!-- Statuette of Vigilance -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>12</RaceId>
+		<Name>Statuette der Wachsamkeit</Name>
+		<Description>Ein kleines Aufzeichnungsgerät, das von einer fortgeschrittenen KI bewohnt wird, die über eine bemerkenswerte Beobachtungsgabe verfügt. Die KI hat die Aufgabe, jede Abweichung von bekannten Mustern und Verhaltensweisen zu melden, die sie dann auf mögliche Absichten hin analysiert. Der sorgfältige Einsatz des Geräts kann dazu beitragen, die Machenschaften von Geheimagenten aufzudecken.</Description>
+		<ImageFilename>Artifacts/statuette of vigilance</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>85</ArtifactId> <!-- Crown of Efficiency -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>17</RaceId>
+		<Name>Die Krone der Effizienz</Name>
+		<Description>Diese kunstvoll gestaltete Kopfbedeckung, die mit dem Fell einer unbekannten Kreatur gefüttert ist, verbessert die Fähigkeit des Trägers, die Logistik mehrerer Bergbaunetzwerke mit bemerkenswerter Geschwindigkeit zu organisieren. Obwohl sie jeweils nur von einem Ingenieur getragen werden kann, ist sie in der Lage, die Bergbaukapazitäten eines ganzen Imperiums durch eine Art von eingebauter Hyperraumkommunikation zu verbessern.</Description>
+		<ImageFilename>Artifacts/crown of efficiency</ImageFilename>
+	</Artifact>
 </ArrayOfArtifact>

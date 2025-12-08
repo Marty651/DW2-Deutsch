@@ -225,7 +225,7 @@ Um herauszufinden, was mit dem Forschungskomplex passiert ist, ist viel Arbeit e
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Continue Investigation</ChoiceButtonText>
+				<ChoiceButtonText>Untersuchung fortsetzen</ChoiceButtonText>
 				<GeneratedItemName>Continue Investigation (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -249,7 +249,7 @@ Um herauszufinden, was mit dem Forschungskomplex passiert ist, ist viel Arbeit e
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Harvest the Hexodorium</ChoiceButtonText>
+				<ChoiceButtonText>Das Hexodorium ernten</ChoiceButtonText>
 				<GeneratedItemName>Harvest the Hexodorium (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -2877,6 +2877,11 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
+
+				<GeneratedItemEventNames>
+					<string>PreWarpHomeSystem_JunkYard_Civilian_Explanation</string>
+				</GeneratedItemEventNames>
+				
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateAbandonedShipBase</Type>
@@ -39032,14 +39037,14 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>BuildFacility</Type>
+				<Type>GenerateOwnedColony</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>78</Id1> <!-- Facility Id (-1=Ruins), Current Value = Terraforming Facility -->
-				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0</Value2> <!-- Discovery Level -->
+				<Id1>-1</Id1> <!-- Owning Race Id -->
+				<Id2>2</Id2> <!-- Population Race Id, Current Value = Teekan -->
+				<Value1>1000000</Value1> <!-- Population Amount -->
+				<Value2>0.25</Value2> <!-- Development Level (0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -39054,14 +39059,14 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>GenerateOwnedColony</Type>
+				<Type>BuildFacility</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Owning Race Id -->
-				<Id2>2</Id2> <!-- Population Race Id, Current Value = Teekan -->
-				<Value1>1000000</Value1> <!-- Population Amount -->
-				<Value2>0.25</Value2> <!-- Development Level (0 to 1) -->
+				<Id1>78</Id1> <!-- Facility Id (-1=Ruins), Current Value = Terraforming Facility -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -40105,7 +40110,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>12</Id2> <!-- Population Race Id, Current Value = Ketarov -->
-				<Value1>750000000</Value1> <!-- Population Amount -->
+				<Value1>45000000</Value1> <!-- Population Amount -->
 				<Value2>0.8</Value2> <!-- Development Level (0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -40130,7 +40135,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>16</Id2> <!-- Population Race Id, Current Value = Securan -->
-				<Value1>750000000</Value1> <!-- Population Amount -->
+				<Value1>44000000</Value1> <!-- Population Amount -->
 				<Value2>0.8</Value2> <!-- Development Level (0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -40611,8 +40616,8 @@ Während der Verhandlungen konnten unsere Diplomaten einige Fakten über die alt
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -40638,8 +40643,8 @@ Während der Verhandlungen konnten unsere Diplomaten einige Fakten über die alt
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -40755,6 +40760,27 @@ Teekan, wir haben von eurer Erfahrung im Bergbau gehört. Werdet ihr uns helfen?
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>30</DelaySecondsMinimum>
 				<DelaySecondsMaximum>30</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TransferMoney</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>20000</Value1> <!-- Amount -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -40882,8 +40908,8 @@ Leider stehen wir vor einem neuen Dilemma. Die Überreste des Schiffes wurden an
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -40915,7 +40941,7 @@ Während ein Teil des Teams die Bergleute zurück an die Oberfläche führte, wa
 				<ActionLocationItemType>Orb</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -41033,7 +41059,7 @@ Die Wesen von Horazon sind nach wie vor unzufrieden. Unsere Verzögerung hat kei
 				<ActionLocationItemType>Orb</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
 				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

@@ -3449,10 +3449,13 @@ EmpireIncidentFactorType ReleasePrisoner		;Zurückgekehrte Gefangene
 EmpireIncidentFactorType DestroyThreat		;Hauptbedrohungen vernichtet
 EmpireIncidentFactorType ResearchDiplomacy		;Diplomatie erforscht
 
+EmpireIncidentFactorType PirateInfluence		;Pirateneinfluss
+
 EmpireIncidentFactorType Full ReleasePrisoner		;Wir sind Euch dankbar, dass Ihr uns einen Gefangenen zurückgegeben habt
 EmpireIncidentFactorType Full DestroyThreat		;Wir danken Euch für die Beseitigung gefährlicher Bedrohungen
 EmpireIncidentFactorType Full ResearchDiplomacy		;Wir respektieren Eure Bemühungen, andere Kulturen zu verstehen
 
+EmpireIncidentFactorType Full PirateInfluence		;Wir bevorzugen unabhängig zu bleiben
 
 EmpireIncidentFactorType IllegalActionsAsVassal		;Unzulässige Handlungen als Vasall
 EmpireIncidentFactorType Full IllegalActionsAsVassal		;Wir sind empört über Eure verbotenen Aktionen gegen andere Fraktionen, während Ihr unser Vasall seid
@@ -4169,12 +4172,17 @@ Facility Destroyed Sabotage		;Einrichtung zerstört
 Facility Destroyed Sabotage Description		;Das [LOCATION]{0} in {1}[/LOCATION] wurde bei einer Explosion völlig zerstört!\n\nWir vermuten dringend Sabotage durch ausländische Geheimdienstagenten...
 Character Defects Persuaded		;{0} Überläufe
 Character Defects Persuaded Description		;[CHARACTER]{0} {1}[/CHARACTER] hat unser Imperium verlassen und ist zu den [FACTION]{2}[/FACTION] übergelaufen!\n\nWir haben den starken Verdacht, dass sie von ausländischen Geheimdienstagenten beeinflusst wurden...
-Character Captured Description		;[CHARACTER]{0} {1}[/CHARACTER] has been captured and imprisoned by the [FACTION]{2}[/FACTION]!
-Character Captured		;{0} Captured
-Character Rescued Description		;[CHARACTER]{0} {1}[/CHARACTER] has been rescued from a foreign prison! They have now been safely returned to our empire.
-Character Rescued		;{0} gerettet
-Artifact Stolen Description		;{0} wurde von einem fremden Imperium gestohlen! Es befindet sich nun sicher im Besitz unseres Imperiums.
-Artifact Stolen		;{0} gestohlen
+Character Captured Description		;[CHARACTER]{0} {1}[/CHARACTER] wurde gefangen und inhaftiert von den [FACTION]{2}[/FACTION]!
+Character Captured		;{0} Gefangen
+Character Rescued Description		;Unser Gefangener [CHARACTER]{0} {1}[/CHARACTER] ist mit Hilfe eines feindlichen Exfiltrationsteams entkommen! Er wurde nun sicher zu seiner Fraktion zurückgebracht.
+Character Rescued		;{0} Entkommen
+Artifact Stolen Description		;Das {0} wurde von feindlichen Agenten aus unserem Imperium gestohlen! Es befindet sich nun in den Händen eines fremden Imperiums.
+Artifact Stolen		;{0} Gestohlen
+
+Character Rescued Description Us		;[CHARACTER]{0} {1}[/CHARACTER] has been rescued from a foreign prison! They have now been safely returned to our empire.
+Character Rescued Us		;{0} gerettet
+Artifact Stolen Description Us		;{0} wurde von einem fremden Imperium gestohlen! Es befindet sich nun sicher im Besitz unseres Imperiums.
+Artifact Stolen Us		;{0} gestohlen
 
 Foreign Agent Executed		;Diese wurden für ihre Verbrechen hingerichtet.
 Our Agent Executed		;[CHARACTER]{0}[/CHARACTER] ist von [FACTION]{1}[/FACTION] exekutiert worden.
@@ -7815,4 +7823,7 @@ Requires at least AMOUNT RACE		;Benötigt mindestens {0} {1} in der Kolonie
 Requires at least AMOUNT		;Erfordert mindestens {0} Bevölkerung in der Kolonie
 Requires non-RACE population at the colony		;Erfordert eine Nicht-{0}-Bevölkerung in der Kolonie
 
-Required by colony Army Template		;Erforderlich für Kolonie Army Vorlage
+Required by colony Army Template		;Erforderlich für Kolonie-Armee Vorlage
+
+Upgrades to FACILITY for X credits		;Upgrade auf {0} für {1} C,redits
+Facility Upgrade UI Explanation		;Klicken um Einrichtung auszuwählen und Upgrade Knopf unten klicken

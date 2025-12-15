@@ -6212,11 +6212,11 @@ ColonyEvent ProveYourself Title		;Beweist euch selbst
 ColonyEvent ProveYourself Description		;Die Zeit ist gekommen für eine Waffenprobe für einen unserer Leute.\n\nSich im Kampf zu beweisen, kann einem Charakter eine neue vorteilhafte Eigenschaft verleihen. Es könnte aber auch ihre Fehler aufdecken und eine negative Eigenschaft hinzufügen.\n\nWir haben zwei Kandidaten für diesen Waffentest ausgewählt: [CHARACTER]{0}[/CHARACTER] und [CHARACTER]{1}[/CHARACTER]. Sie müssen auswählen, welcher Kandidat sich bewähren wird.\n\nWen wählen Sie aus?
 ColonyEvent ProveYourself Outcome		;{0} {1} hat eine neue Eigenschaft erhalten: {3}
 
-Government TradeIncomePerYearPerRestrictedTradeTreaty		;Eingeschränktes Handelsbonus-Jahreseinkommen
+Government TradeIncomePerYearPerRestrictedTradeTreaty		;Eingeschränkter Handel - Bonus/Jahr
 Government TradeIncomePerYearPerRestrictedTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes eingeschränkte Handelsabkommen, das das Imperium mit anderen Fraktionen hat
-Government TradeIncomePerYearPerLimitedTradeTreaty		;Begrenztes Handelsabkommen mit Bonus-Jahreseinkommen
+Government TradeIncomePerYearPerLimitedTradeTreaty		;Begrenzter Handel - Bonus/Jahr
 Government TradeIncomePerYearPerLimitedTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes begrenzte Handelsabkommen, das das Imperium mit anderen Fraktionen hat
-Government TradeIncomePerYearPerFreeTradeTreaty		;Freihandelsabkommen Bonus-Jahreseinkommen
+Government TradeIncomePerYearPerFreeTradeTreaty		;Freier Handel - Bonus/Jahr
 Government TradeIncomePerYearPerFreeTradeTreaty Explanation		;Höhe des jährlichen Bonuseinkommens für jedes Freihandelsabkommen, das das Imperium mit anderen Fraktionen hat
 
 Government BonusesPerTreatyType		;Vertragsboni

@@ -350,12 +350,8 @@
 				<Factor>0.025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.12</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>41</OrbTypeId>
-				<Factor>0.12</Factor>
+				<Factor>0.03</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -549,6 +545,10 @@
 				<OrbTypeId>30</OrbTypeId>
 				<Factor>0.025</Factor>
 			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>41</OrbTypeId>
+				<Factor>0.04</Factor>
+			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>8</ChildCountMaximum>
@@ -708,6 +708,10 @@
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
 				<Factor>0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>40</OrbTypeId>
+				<Factor>0.05</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -878,11 +882,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.12</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>41</OrbTypeId>
-				<Factor>0.12</Factor>
+				<Factor>0.10</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -6483,306 +6483,6 @@
 	</OrbType>
 
 <!--
-	<OrbType>
-		<OrbTypeId>40</OrbTypeId>
-		<Category>Planet</Category>
-		<Name>Algaic Forest</Name>
-		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
-		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
-		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Volcanic</FullsizeImageFilename>
-		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Volcanic_SulphurVolcanic</LandscapeImageFilename>
-		<LandscapeOutpostImageFilename>Environment/OrbTypes/Outposts/Volcanic_SulphurVolcanic</LandscapeOutpostImageFilename>
-		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Volcanic</VagueLandscapeImageFilename>
-		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
-		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames>
-		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames>
-		</AtmosphereMaterialFilenames>
-		<AtmosphereColor>
-			<B>56</B>
-			<G>48</G>
-			<R>192</R>
-			<A>255</A>
-		</AtmosphereColor>
-		<AtmosphereDensity>0.7</AtmosphereDensity>
-		<CloudColor>
-			<B>36</B>
-			<G>30</G>
-			<R>108</R>
-			<A>255</A>
-		</CloudColor>
-		<CloudDensity>0.5</CloudDensity>
-		<CloudStormChance>0.15</CloudStormChance>
-		<AltitudeGradient1>CoreEffects/ShaderGradients/AlgaicForestAltitude1</AltitudeGradient1>
-		<AltitudeGradient2>CoreEffects/ShaderGradients/AlgaicForestAltitude2</AltitudeGradient2>
-		<OceanGradient>CoreEffects/ShaderGradients/AlgaicForestOcean</OceanGradient>
-		<SeaLevelMinimum>0.03</SeaLevelMinimum>
-		<SeaLevelMaximum>0.08</SeaLevelMaximum>
-		<MountainFactorMinimum>1.85</MountainFactorMinimum>
-		<MountainFactorMaximum>1.95</MountainFactorMaximum>
-		<CloudCoverageMinimum>0.85</CloudCoverageMinimum>
-		<CloudCoverageMaximum>0.86</CloudCoverageMaximum>
-		<HasGasSurface>false</HasGasSurface>
-		<GasPerturbationMinimum>0</GasPerturbationMinimum>
-		<GasPerturbationMaximum>1</GasPerturbationMaximum>
-		<GasGradientPrimaryColor>
-			<B>0</B>
-			<G>0</G>
-			<R>0</R>
-			<A>0</A>
-		</GasGradientPrimaryColor>
-		<GasGradientColorVariationFactor>1</GasGradientColorVariationFactor>
-		<AmbientLightColor>
-			<B>48</B>
-			<G>24</G>
-			<R>160</R>
-			<A>255</A>
-		</AmbientLightColor>
-		<AmbientLightIntensity>0.07</AmbientLightIntensity>
-		<LandSpecularIntensityModifier>0.1</LandSpecularIntensityModifier>
-		<MinimumCityLightLevelOffset>0.001</MinimumCityLightLevelOffset>
-		<CityLightColor>
-			<B>64</B>
-			<G>16</G>
-			<R>255</R>
-			<A>255</A>
-		</CityLightColor>
-		<ColorBlendNoiseFactor>0.07</ColorBlendNoiseFactor>
-		<LandscapeGainFactor>0.85</LandscapeGainFactor>
-		<MountainGainFactor>0.59</MountainGainFactor>
-		<LatitudeColorPerturbationFactor>0.2</LatitudeColorPerturbationFactor>
-		<EnergyOutputMinimum>0</EnergyOutputMinimum>
-		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses>
-			<BonusRange>
-				<Type>Scenery</Type>
-				<Minimum>0.03</Minimum>
-				<Maximum>0.10</Maximum>
-				<AppearanceChance>0.13</AppearanceChance>
-				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Primeval Fungal Forest</string>
-					<string>Great Algae Ocean Reef</string>
-				</Descriptions>
-			</BonusRange>
-			<BonusRange>
-				<Type>ResearchHyperDrive</Type>
-				<Minimum>0.04</Minimum>
-				<Maximum>0.12</Maximum>
-				<AppearanceChance>0.12</AppearanceChance>
-				<Descriptions>
-					<string>Sentient Quantum Fungal Network</string>
-					<string>Symbiotic Algal Mass</string>
-				</Descriptions>
-			</BonusRange>
-			<BonusRange>
-				<Type>PlagueCuring</Type>
-				<Minimum>0.04</Minimum>
-				<Maximum>0.12</Maximum>
-				<AppearanceChance>0.11</AppearanceChance>
-				<Descriptions>
-					<string>Cyanobacterial Bioreserve</string>
-					<string>Deep Ocean Kelp Forest</string>
-				</Descriptions>
-			</BonusRange>
-		</CommonBonuses>
-		<RingsProbability>0.05</RingsProbability>
-		<RingsPrimaryColor>
-			<B>48</B>
-			<G>24</G>
-			<R>160</R>
-			<A>0</A>
-		</RingsPrimaryColor>
-		<RingsColorVariationFactor>1</RingsColorVariationFactor>
-		<AsteroidFieldProbability>0.07</AsteroidFieldProbability>
-		<AsteroidFieldOrbTypeId>16</AsteroidFieldOrbTypeId>
-		<ChildTypes>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>0.40</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>0.35</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>0.25</Factor>
-			</OrbTypeFactor>
-		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>1</ChildCountMaximum>
-		<QualityRangeMinimum>0.2</QualityRangeMinimum>
-		<QualityRangeMaximum>0.55</QualityRangeMaximum>
-		<QualityRangeMedian>0.3</QualityRangeMedian>
-		<OrbitalDistanceFromSunRatioMinimum>0.192</OrbitalDistanceFromSunRatioMinimum>
-		<OrbitalDistanceFromSunRatioMaximum>0.448</OrbitalDistanceFromSunRatioMaximum>
-		<DiameterMinimum>4000</DiameterMinimum>
-		<DiameterMaximum>6500</DiameterMaximum>
-		<ResourceCountMinimum>0</ResourceCountMinimum>
-		<ResourceCountMaximum>3</ResourceCountMaximum>
-		<PossibleResources>
-		</PossibleResources>
-		<RuinLocationDescriptions>
-			<string>lie at the bottom of a deep valley covered in tall red fungal growths</string>
-			<string>lie in the midst of a vast plain filled with thousands of strange trees with glowing red branches</string>
-			<string>sit at the top of a small hill surrounded by a dense matting of deep red algae</string>
-		</RuinLocationDescriptions>
-	</OrbType>
-
-	<OrbType>
-		<OrbTypeId>41</OrbTypeId>
-		<Category>Planet</Category>
-		<Name>Rocky Desert Volcanic</Name>
-		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
-		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
-		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Volcanic</FullsizeImageFilename>
-		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Volcanic_SulphurVolcanic</LandscapeImageFilename>
-		<LandscapeOutpostImageFilename>Environment/OrbTypes/Outposts/Volcanic_SulphurVolcanic</LandscapeOutpostImageFilename>
-		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Volcanic</VagueLandscapeImageFilename>
-		<SurfaceDrawType>PlanetSolidEmissiveOceans</SurfaceDrawType>
-		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames>
-		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames>
-		</AtmosphereMaterialFilenames>
-		<AtmosphereColor>
-			<B>16</B>
-			<G>20</G>
-			<R>24</R>
-			<A>64</A>
-		</AtmosphereColor>
-		<AtmosphereDensity>0.01</AtmosphereDensity>
-		<CloudColor>
-			<B>16</B>
-			<G>17</G>
-			<R>18</R>
-			<A>255</A>
-		</CloudColor>
-		<CloudDensity>0.5</CloudDensity>
-		<CloudStormChance>0.05</CloudStormChance>
-		<AltitudeGradient1>CoreEffects/ShaderGradients/RockyDesertVolcanicAltitude1</AltitudeGradient1>
-		<AltitudeGradient2>CoreEffects/ShaderGradients/RockyDesertVolcanicAltitude2</AltitudeGradient2>
-		<OceanGradient>CoreEffects/ShaderGradients/VolcanicOcean</OceanGradient>
-		<SeaLevelMinimum>-0.05</SeaLevelMinimum>
-		<SeaLevelMaximum>-0.03</SeaLevelMaximum>
-		<MountainFactorMinimum>1.75</MountainFactorMinimum>
-		<MountainFactorMaximum>1.85</MountainFactorMaximum>
-		<CloudCoverageMinimum>0.865</CloudCoverageMinimum>
-		<CloudCoverageMaximum>0.875</CloudCoverageMaximum>
-		<HasGasSurface>false</HasGasSurface>
-		<GasPerturbationMinimum>0</GasPerturbationMinimum>
-		<GasPerturbationMaximum>1</GasPerturbationMaximum>
-		<GasGradientPrimaryColor>
-			<B>0</B>
-			<G>0</G>
-			<R>0</R>
-			<A>0</A>
-		</GasGradientPrimaryColor>
-		<GasGradientColorVariationFactor>1</GasGradientColorVariationFactor>
-		<AmbientLightColor>
-			<B>208</B>
-			<G>224</G>
-			<R>240</R>
-			<A>255</A>
-		</AmbientLightColor>
-		<AmbientLightIntensity>0.05</AmbientLightIntensity>
-		<LandSpecularIntensityModifier>0.12</LandSpecularIntensityModifier>
-		<MinimumCityLightLevelOffset>0.02</MinimumCityLightLevelOffset>
-		<CityLightColor>
-			<B>224</B>
-			<G>144</G>
-			<R>96</R>
-			<A>255</A>
-		</CityLightColor>
-		<ColorBlendNoiseFactor>0.03</ColorBlendNoiseFactor>
-		<LandscapeGainFactor>0.85</LandscapeGainFactor>
-		<MountainGainFactor>0.59</MountainGainFactor>
-		<LatitudeColorPerturbationFactor>0.1</LatitudeColorPerturbationFactor>
-		<EnergyOutputMinimum>0</EnergyOutputMinimum>
-		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses>
-			<BonusRange>
-				<Type>Scenery</Type>
-				<Minimum>0.03</Minimum>
-				<Maximum>0.10</Maximum>
-				<AppearanceChance>0.11</AppearanceChance>
-				<Descriptions>
-					<string>Dust Rings of {0}</string>
-					<string>Burning Lava Lakes</string>
-					<string>Fire Caverns of {0}</string>
-					<string>Great Lava River</string>
-				</Descriptions>
-			</BonusRange>
-			<BonusRange>
-				<Type>ResearchConstruction</Type>
-				<Minimum>0.05</Minimum>
-				<Maximum>0.14</Maximum>
-				<AppearanceChance>0.09</AppearanceChance>
-				<Descriptions>
-					<string>Deformable Molten Structures</string>
-					<string>Plasticized Glass Crystals</string>
-				</Descriptions>
-			</BonusRange>
-			<BonusRange>
-				<Type>ResearchArmor</Type>
-				<Minimum>0.04</Minimum>
-				<Maximum>0.12</Maximum>
-				<AppearanceChance>0.07</AppearanceChance>
-				<Descriptions>
-					<string>SuperDense Lava Tunnels</string>
-					<string>Crystal Lattice Rock Formations</string>
-				</Descriptions>
-			</BonusRange>
-		</CommonBonuses>
-		<RingsProbability>0.05</RingsProbability>
-		<RingsPrimaryColor>
-			<B>96</B>
-			<G>100</G>
-			<R>104</R>
-			<A>0</A>
-		</RingsPrimaryColor>
-		<RingsColorVariationFactor>1</RingsColorVariationFactor>
-		<AsteroidFieldProbability>0.15</AsteroidFieldProbability>
-		<AsteroidFieldOrbTypeId>16</AsteroidFieldOrbTypeId>
-		<ChildTypes>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>0.40</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>0.35</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>0.25</Factor>
-			</OrbTypeFactor>
-		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>1</ChildCountMaximum>
-		<QualityRangeMinimum>0.1</QualityRangeMinimum>
-		<QualityRangeMaximum>0.4</QualityRangeMaximum>
-		<QualityRangeMedian>0.15</QualityRangeMedian>
-		<OrbitalDistanceFromSunRatioMinimum>0.056</OrbitalDistanceFromSunRatioMinimum>
-		<OrbitalDistanceFromSunRatioMaximum>0.206</OrbitalDistanceFromSunRatioMaximum>
-		<DiameterMinimum>4000</DiameterMinimum>
-		<DiameterMaximum>6500</DiameterMaximum>
-		<ResourceCountMinimum>0</ResourceCountMinimum>
-		<ResourceCountMaximum>3</ResourceCountMaximum>
-		<PossibleResources>
-		</PossibleResources>
-		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a fiery lake of lava</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are located next to a molten river of lava</string>
-			<string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
-		</RuinLocationDescriptions>
-	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>42</OrbTypeId>
 		<Category>Planet</Category>

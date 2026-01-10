@@ -3450,12 +3450,14 @@ EmpireIncidentFactorType DestroyThreat		;Hauptbedrohungen vernichtet
 EmpireIncidentFactorType ResearchDiplomacy		;Diplomatie erforscht
 
 EmpireIncidentFactorType PirateInfluence		;Pirateneinfluss
+EmpireIncidentFactorType EliminatedPirateFaction		;Eliminierte Piratenfraktion
 
 EmpireIncidentFactorType Full ReleasePrisoner		;Wir sind Euch dankbar, dass Ihr uns einen Gefangenen zurückgegeben habt
 EmpireIncidentFactorType Full DestroyThreat		;Wir danken Euch für die Beseitigung gefährlicher Bedrohungen
 EmpireIncidentFactorType Full ResearchDiplomacy		;Wir respektieren Eure Bemühungen, andere Kulturen zu verstehen
 
 EmpireIncidentFactorType Full PirateInfluence		;Wir bevorzugen unabhängig zu bleiben
+EmpireIncidentFactorType Full EliminatedPirateFaction		;Ihr habt eine Piratenfraktion eliminiert
 
 EmpireIncidentFactorType IllegalActionsAsVassal		;Unzulässige Handlungen als Vasall
 EmpireIncidentFactorType Full IllegalActionsAsVassal		;Wir sind empört über Eure verbotenen Aktionen gegen andere Fraktionen, während Ihr unser Vasall seid
@@ -7827,3 +7829,20 @@ Required by colony Army Template		;Erforderlich für Kolonie-Armee Vorlage
 
 Upgrades to FACILITY for X credits		;Upgrade auf {0} für {1} C,redits
 Facility Upgrade UI Explanation		;Klicken um Einrichtung auszuwählen und Upgrade Knopf unten klicken
+
+You eliminated another Pirate Faction		;Ihr habe eine andere Piratenfraktion eliminiert
+You eliminated a Pirate Faction		;Ihr habt eine Piratenfraktion eliminiert
+
+Problem loading file		;Problem beim Laden einer Datei
+Mod Load Errors		;Mod-Ladefehler
+Mod Load Errors Explanation		;Es gab ein Problem, Datendateien von einem oder mehreren Mods zu laden.\n\nUm diese Probleme zu beheben, deaktivieren Sie bitte [WARN] alle Mods[/WARN]. Sie können dann versuchen, Mods einzeln wieder zu aktivieren, um herauszufinden, welcher Mod das Problem verursacht. Die folgenden Fehlermeldungen können Ihnen auch helfen, den Mod zu identifizieren.\n\nWenn möglich, könnten Sie auch den Mod-Autor kontaktieren, um ihn über das Problem zu informieren.\n\nSpezifische Dateien und Ladefehler sind unten aufgeführt:
+Mod Load Errors With Mod Names Explanation		;Es gab ein Problem, Datendateien von einem oder mehreren Mods zu laden. Diese fehlerhaften Dateien stammen wahrscheinlich von folgenden Mods: [WARN]{0}[/WARN]\n\nSie sollten [WARN]diese Mods deaktivieren[/WARN].\n\nSie könnten auch nach aktualisierten Versionen dieser Mods suchen oder die Mod-Autoren über das Problem informieren.\n\nSpezifische Dateien und Ladefehler sind unten aufgeführt:
+
+Our ship's Faction and Role is hidden from EMPIRE		;Die Fraktion und Rolle unseres Schiffes ist vor {0} verborgen.
+Our ship's Faction is hidden from EMPIRE		;Die Fraktion unseres Schiffes ist vor {0} verborgen.
+Our ship's Role is hidden from EMPIRE		;Die Rolle unseres Schiffes ist vor {0} verborgen.
+Cloaking Failure		;Tarnungsfehler
+Our ship has been identified!		;Unser Schiff wurde identifiziert!
+
+Extended Music		;Erweiterte Musik
+Settings Explanation ExtendedMusicEnabled		;Aktivieren Sie zusätzliche Musik aus Distant Worlds Universe. [WARN]Beachten Sie, dass diese zusätzliche Musik möglicherweise nicht für das Streaming geeignet ist.[/WARN]

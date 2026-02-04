@@ -736,8 +736,8 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
 				<float>1</float> <!-- EnemyRaids -->
 			</ExpenseFactors>
 		</EconomicFactors>
-		<LeaderReplacementTypicalPeriod>25</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>12</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
 		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
@@ -877,7 +877,7 @@ Die Bürger demokratischer Regierungen genießen allgemein anerkannte Freiheiten
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 			</Bonus>
@@ -1232,7 +1232,7 @@ Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit e
 			</ExpenseFactors>
 		</EconomicFactors>
 		<LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>18</LeaderReplacementDisruption>
+		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool>
 			<CharacterRole>FleetAdmiral</CharacterRole>
@@ -1332,12 +1332,14 @@ Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit e
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
+			<!--
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
 				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 			</Bonus>
+			-->
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
 				<Amount>0.4</Amount>
@@ -1370,7 +1372,7 @@ Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit e
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.15</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 			</Bonus>
@@ -1450,7 +1452,7 @@ Monarchen können mit absoluter Macht regieren, oder sie können die Macht mit e
 			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
 			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
 		</FeatureExplanations>
-		<Name>Militär- Diktatur</Name>
+		<Name>Militärdiktatur</Name>
 		<Description>Die Militärdiktatur ist eine autokratische Form der absoluten Herrschaft, die nicht durch Gesetze, Verfassungen oder andere soziale und politische Faktoren eingeschränkt ist.
 
 Militärdiktaturen regeln nahezu jeden Aspekt des öffentlichen und privaten Verhaltens ihrer Untertanen. Ihre politische, soziale und zivile Struktur ist auf militärische Belange und Kriegsführung ausgerichtet. Diese Arten von Regierungssystemen sind typischerweise auf Eroberung und Expansion fixiert.</Description>
@@ -1864,7 +1866,7 @@ Die Regierungsform 'Technokratie' ist nur für die Ackdarian und Zenox verfügba
 			</Bonus>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>-0.15</Amount>
+				<Amount>-0.08</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 			</Bonus>

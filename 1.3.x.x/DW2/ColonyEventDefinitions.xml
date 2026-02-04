@@ -164,46 +164,46 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 		<ColonyEventDefinitionId>6</ColonyEventDefinitionId> <!-- Hekretos Fever -->
 		<Type>Plague</Type>
 		<IconFilename>Environment/Events/Icons/HekretosFever</IconFilename>
-		<DurationMinimum>1.5</DurationMinimum>
-		<DurationMaximum>3</DurationMaximum>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
 		<PopulationAmount>-0.05</PopulationAmount>
 		<ColonyHappiness>-5</ColonyHappiness>
 		<SpreadToOtherColoniesChance>1</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0.01</RandomInitiationChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.007</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Hekretos Fieber</Name>
-		<Description>Hekretos Fieber ist eine tödliche Infektion, die die inneren Organe angreift und eine schnelle Degeneration und den Tod verursacht. Ein Ausbruch des Hekretos Fiebers dauert typischerweise etwa 1,5-3 Jahre.</Description>
+		<Description>Hekretos Fieber ist eine tödliche Infektion, die die inneren Organe angreift und eine schnelle Degeneration und den Tod verursacht. Ein Ausbruch des Hekretos Fiebers dauert typischerweise etwa 1-2 Jahre.</Description>
 		<ImageFilename>Environment/Events/HekretosFever</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>7</ColonyEventDefinitionId> <!-- Dekara Virus -->
 		<Type>Plague</Type>
 		<IconFilename>Environment/Events/Icons/DekaraVirus</IconFilename>
-		<DurationMinimum>2</DurationMinimum>
-		<DurationMaximum>4</DurationMaximum>
+		<DurationMinimum>1.5</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
 		<PopulationAmount>-0.06</PopulationAmount>
 		<ColonyHappiness>-8</ColonyHappiness>
-		<SpreadToOtherColoniesChance>1.3</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0.005</RandomInitiationChance>
+		<SpreadToOtherColoniesChance>1.2</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.1</PlagueCuringFactor>
 		<Name>Dekara-Virus</Name>
-		<Description>Das Dekara Virus ist eine sehr schmerzhafte Krankheit, die das zentrale Nervensystem eines jeden Lebewesens, das es infiziert, langsam lähmt und schließlich zum Tod führt. Ein Ausbruch des Dekara Virus dauert typischerweise etwa 2-4 Jahre.</Description>
+		<Description>Das Dekara Virus ist eine sehr schmerzhafte Krankheit, die das zentrale Nervensystem eines jeden Lebewesens, das es infiziert, langsam lähmt und schließlich zum Tod führt. Ein Ausbruch des Dekara Virus dauert typischerweise etwa 1-3 Jahre.</Description>
 		<ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>8</ColonyEventDefinitionId> <!-- Genetic Scrambling Syndrome -->
 		<Type>Plague</Type>
 		<IconFilename>Environment/Events/Icons/GeneticScramblingSyndrome</IconFilename>
-		<DurationMinimum>1.5</DurationMinimum>
+		<DurationMinimum>1</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
 		<PopulationAmount>-0.15</PopulationAmount>
 		<ColonyHappiness>-10</ColonyHappiness>
-		<SpreadToOtherColoniesChance>1.6</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>300000000</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0.002</RandomInitiationChance>
+		<SpreadToOtherColoniesChance>1.4</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0015</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.2</PlagueCuringFactor>
 		<Name>Genetisches verschlüsseltes Syndrom</Name>
@@ -214,17 +214,17 @@ Infolgedessen gab es umfangreiche Verluste an Menschenleben und die Eruption hat
 		<ColonyEventDefinitionId>9</ColonyEventDefinitionId> <!-- Merturov Plague -->
 		<Type>Plague</Type>
 		<IconFilename>Environment/Events/Icons/MerturovPlague</IconFilename>
-		<DurationMinimum>2</DurationMinimum>
-		<DurationMaximum>3</DurationMaximum>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
 		<PopulationAmount>-0.12</PopulationAmount>
 		<ColonyHappiness>-12</ColonyHappiness>
-		<SpreadToOtherColoniesChance>2</SpreadToOtherColoniesChance>
-		<SpreadToOtherColoniesRange>300000000</SpreadToOtherColoniesRange>
-		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<SpreadToOtherColoniesChance>1.6</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0007</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.4</PlagueCuringFactor>
 		<Name>Merturowsche Pest</Name>
-		<Description>Die Merturowsche Pest ist die tödlichste Krankheit in der bekannten Galaxie. Sie frisst schnell das Gehirn der infizierten Kreatur und verursacht nach und nach Geisteskrankheit, Immobilisierung und schließlich den Tod. Die Merturowsche Pest ist ein sehr widerstandsfähiges Virus, das durch die Luft übertragen wird und daher sehr ansteckend ist. Ein Ausbruch der Merturowschen Pest dauert normalerweise 2-3 Jahre.</Description>
+		<Description>Die Merturowsche Pest ist die tödlichste Krankheit in der bekannten Galaxie. Sie frisst schnell das Gehirn der infizierten Kreatur und verursacht nach und nach Geisteskrankheit, Immobilisierung und schließlich den Tod. Die Merturowsche Pest ist ein sehr widerstandsfähiges Virus, das durch die Luft übertragen wird und daher sehr ansteckend ist. Ein Ausbruch der Merturowschen Pest dauert normalerweise 1-2 Jahre.</Description>
 		<ImageFilename>Environment/Events/MerturovPlague</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

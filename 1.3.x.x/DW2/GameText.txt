@@ -4669,6 +4669,7 @@ SpaceItemType CreatureCarcass		;Kreaturenkadaver
 SpaceItemType CreatureDebris		;Biologische Trümmerteile
 SpaceItemType EscapePod		;Rettungskapsel
 SpaceItemType ShipDebris		;Trümmer
+SpaceItemType UnrepairableShip		;Stark beschädigter Rumpf
 
 EMPIRE begins constructing WONDER at COLONY		;{0} beginnt den Bau von {1} bei {2}
 The EMPIRE have begun construction of the WONDER at their colony COLONY in the SYSTEM system		;Die [FACTION]{0}[/FACTION] haben mit dem Bau von [FACILITY]{1}[/FACILITY] in ihrer Kolonie auf [LOCATION]{2}[/LOCATION] im System {3} begonnen.
@@ -7846,3 +7847,23 @@ Our ship has been identified!		;Unser Schiff wurde identifiziert!
 
 Extended Music		;Erweiterte Musik
 Settings Explanation ExtendedMusicEnabled		;Aktivieren Sie zusätzliche Musik aus Distant Worlds Universe. [WARN]Beachten Sie, dass diese zusätzliche Musik möglicherweise nicht für das Streaming geeignet ist.[/WARN]
+
+Abandoned ROLE		;Verlassen {0}
+Abandoned Unrepairable Ship Explanation ROLE LOCATION SYSTEM		;Wir sind bei {1} im {2} System auf eine schwer beschädigte, verlassene {0} gestoßen.\n\n[B]Sie ist irreparabel beschädigt[/B]. [WARN]Wir können es nur noch bergen[/WARN] und hoffen, dass wir in den Trümmern etwas Brauchbares finden.
+
+Pirate factions must have one pirate facility for each additional spaceport they build		;Piratenfraktionen müssen für jeden zusätzlichen Raumhafen, den sie bauen, eine Pirateneinrichtung besitzen.
+
+Include Standard Empires		;Standard-Imperien einbeziehen
+Include Standard Empires Explanation		;Die Galaxie [B]umfasst Standard-Planetenreiche[/B] in den unten angegebenen Mengen.\n\Als Pirat müssen Sie gegen andere Piratenfraktionen antreten und um den Sieg kämpfen.\n\Sie sollten auch verhindern, dass die Planetenreiche expandieren und sie zu Ihrem Vorteil ausbeuten.\n\Außerdem sollten Sie verhindern, dass unabhängige Kolonien wachsen und ebenfalls zu Planetenreichen werden.
+Age of Shadows		;Zeitalter der Schatten
+Age of Shadows Explanation		;In der Galaxie gibt es [B]keine Standard-Planetenimperien[/B]. Stattdessen gibt es nur andere Piratenfraktionen und einige unabhängige Kolonien. Als Pirat müssen Sie im Kampf um den Sieg gegen andere Piratenfraktionen antreten. Sie arbeiten auch daran, zu verhindern, dass unabhängige Kolonien wachsen und zu expandierenden planetarischen Imperien werden.
+Pirate Starting Situation		;Piraten Ausgangssituation
+Pirate Starting Situation Explanation		;Wenn Sie als Pirat spielen, geben Sie an, ob es in der Galaxie Standard-Planetenimperien gibt. Oder spielen Sie stattdessen im Zeitalter der Schatten, wo es keine Planetenimperien gibt, sondern nur andere Piratenfraktionen und unabhängige Kolonien.
+
+Troops are preparing for battle		;Die Truppen bereiten sich auf die Schlacht vor
+
+Owned by X		;Im Besitz von {0}
+
+Known Influenced Colonies		;Bekannte beeinflusste Kolonien
+Known Influenced Population		;Bekannte Beeinflusste Bevölkerung
+Known Colony Crime Revenue		;Bekannte Kolonie Kriminalitätseinnahmen

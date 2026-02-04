@@ -2336,6 +2336,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>44</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>44</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>22</WeaponIonSensorDamage>
 				<WeaponIonShieldDamage>22</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>44</WeaponIonWeaponDamage>
 				<WeaponRange>1770</WeaponRange>
@@ -2369,6 +2370,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>70</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>70</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>35</WeaponIonSensorDamage>
 				<WeaponIonShieldDamage>35</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>70</WeaponIonWeaponDamage>
 				<WeaponRange>2200</WeaponRange>
@@ -2402,6 +2404,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>88</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>88</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>44</WeaponIonSensorDamage>
 				<WeaponIonShieldDamage>44</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>88</WeaponIonWeaponDamage>
 				<WeaponRange>3170</WeaponRange>
@@ -2435,6 +2438,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>110</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>110</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>55</WeaponIonSensorDamage>
 				<WeaponIonShieldDamage>55</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>110</WeaponIonWeaponDamage>
 				<WeaponRange>3900</WeaponRange>
@@ -14392,6 +14396,7 @@
 				<WeaponFireType>Seeking</WeaponFireType>
 				<WeaponIonEngineDamage>150</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>150</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>75</WeaponIonSensorDamage>
 				<WeaponIonShieldDamage>75</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>150</WeaponIonWeaponDamage>
 				<WeaponRange>4000</WeaponRange>
@@ -28732,7 +28737,7 @@
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponRange>1650</WeaponRange>
 				<WeaponRawDamage>52</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -28753,7 +28758,7 @@
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponRange>2060</WeaponRange>
 				<WeaponRawDamage>90</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -28774,7 +28779,7 @@
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponRange>2490</WeaponRange>
 				<WeaponRawDamage>141</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -28795,7 +28800,7 @@
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponRange>3020</WeaponRange>
 				<WeaponRawDamage>220</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -33693,7 +33698,7 @@
 				<WeaponInterceptRange>688</WeaponInterceptRange>
 				<WeaponRange>1375</WeaponRange>
 				<WeaponRawDamage>28</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -33721,7 +33726,7 @@
 				<WeaponInterceptRange>688</WeaponInterceptRange>
 				<WeaponRange>1375</WeaponRange>
 				<WeaponRawDamage>45</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -33749,7 +33754,7 @@
 				<WeaponInterceptRange>830</WeaponInterceptRange>
 				<WeaponRange>1660</WeaponRange>
 				<WeaponRawDamage>70</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -33777,7 +33782,7 @@
 				<WeaponInterceptRange>1005</WeaponInterceptRange>
 				<WeaponRange>2010</WeaponRange>
 				<WeaponRawDamage>110</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -41406,7 +41411,7 @@
 				<WeaponInterceptRange>755</WeaponInterceptRange>
 				<WeaponRange>1510</WeaponRange>
 				<WeaponRawDamage>22</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -41430,7 +41435,7 @@
 				<WeaponInterceptRange>830</WeaponInterceptRange>
 				<WeaponRange>1660</WeaponRange>
 				<WeaponRawDamage>35</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -41458,7 +41463,7 @@
 				<WeaponInterceptRange>1005</WeaponInterceptRange>
 				<WeaponRange>2010</WeaponRange>
 				<WeaponRawDamage>55</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -45605,7 +45610,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponRange>1500</WeaponRange>
 				<WeaponRawDamage>40</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>250</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
@@ -45634,7 +45639,7 @@
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
 				<WeaponRange>1800</WeaponRange>
 				<WeaponRawDamage>50</WeaponRawDamage>
-				<WeaponShieldBypass>0.3</WeaponShieldBypass>
+				<WeaponShieldBypass>0.4</WeaponShieldBypass>
 				<WeaponSpeed>250</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>

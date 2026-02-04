@@ -3,8 +3,8 @@
 	<OrbType>
 		<OrbTypeId>0</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Hauptreihenstern</Name>
-		<Description></Description>
+		<Name>Main Sequence</Name>
+		<Description>Main Sequence star systems often contain an abundance of planets, some of which are habitable.</Description>
 		<ImageFilename>Environment/OrbTypes/MainSequence</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MainSequence</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MainSequence</FullsizeImageFilename>
@@ -175,8 +175,8 @@
 	<OrbType>
 		<OrbTypeId>1</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Roter Riese</Name>
-		<Description></Description>
+		<Name>Red Giant</Name>
+		<Description>Red Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
 		<ImageFilename>Environment/OrbTypes/RedGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedGiant</FullsizeImageFilename>
@@ -371,8 +371,8 @@
 	<OrbType>
 		<OrbTypeId>2</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Überriese</Name>
-		<Description></Description>
+		<Name>Super Giant</Name>
+		<Description>Super Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
 		<ImageFilename>Environment/OrbTypes/SuperGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SuperGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SuperGiant</FullsizeImageFilename>
@@ -567,8 +567,8 @@
 	<OrbType>
 		<OrbTypeId>3</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Weißer Zwerg</Name>
-		<Description></Description>
+		<Name>White Dwarf</Name>
+		<Description>White Dwarf stars sometimes have a small system of planets and moons.</Description>
 		<ImageFilename>Environment/OrbTypes/WhiteDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/WhiteDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/WhiteDwarf</FullsizeImageFilename>
@@ -711,7 +711,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>0.10</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -731,8 +731,8 @@
 	<OrbType>
 		<OrbTypeId>4</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Roter Zwerg</Name>
-		<Description></Description>
+		<Name>Red Dwarf</Name>
+		<Description>Red Dwarf stars sometimes have a small system of planets and moons.</Description>
 		<ImageFilename>Environment/OrbTypes/RedDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedDwarf</FullsizeImageFilename>
@@ -882,7 +882,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.18</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -902,8 +902,8 @@
 	<OrbType>
 		<OrbTypeId>5</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Neutronenstern</Name>
-		<Description></Description>
+		<Name>Neutron</Name>
+		<Description>Neutron stars may occasionally have a system of one or two planets.\n\nThey emit intense radio waves that are worthy of close study. For this reason research stations constructed near a Neutron star often receive a research bonus.</Description>
 		<ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
@@ -1040,8 +1040,8 @@
 	<OrbType>
 		<OrbTypeId>6</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Schwarzes Loch</Name>
-		<Description></Description>
+		<Name>Black Hole</Name>
+		<Description>Black Holes are super-dense, collapsed stars. Their huge mass has been packed into a tiny space, giving them irresistible gravitational pull.\n\nBlack Holes can suck passing starships into their vortex, destroying them completely. For this reason it is wise to keep a safe distance from their edge.\n\nBlack Holes are worthy of close scientific study - research stations constructed near a Black Hole often receive a research bonus.</Description>
 		<ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
@@ -1162,8 +1162,8 @@
 	<OrbType>
 		<OrbTypeId>7</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Kontinental</Name>
-		<Description></Description>
+		<Name>Continental</Name>
+		<Description>Continental planets feature earth-like, varied terrain with rich vegetation. They can supply a diverse range of resources.\n\nMajestic snow-capped mountain ranges soar above lush woodland valleys. Enormous primeval forests cover hills and lowland regions. Fertile grassland plains swathe coastal areas. Sparkling oceans are dotted with jungle islands and tropical atolls.</Description>
 		<ImageFilename>Environment/OrbTypes/Continental</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Continental</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Continental</FullsizeImageFilename>
@@ -1363,8 +1363,8 @@
 	<OrbType>
 		<OrbTypeId>8</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Sumpfland</Name>
-		<Description></Description>
+		<Name>Marshy Swamp</Name>
+		<Description>Marshy Swamp planets are covered by dense rainforests and swampy marshlands.\n\nThick, impenetrable jungles envelop entire continents. Lush green woodlands are dotted with innumerable trickling streams and deep underground springs.</Description>
 		<ImageFilename>Environment/OrbTypes/MarshySwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MarshySwamp</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MarshySwamp</FullsizeImageFilename>
@@ -1559,8 +1559,8 @@
 	<OrbType>
 		<OrbTypeId>9</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Ozean</Name>
-		<Description></Description>
+		<Name>Ocean</Name>
+		<Description>Ocean planets are covered by vast, deep seas dotted with occasional small isolated islands.\n\nFar beneath the ocean's surface, deep underwater chasms conceal dark crevices and meandering tunnels. Immense towers of rock rise from the ocean floor. These areas are home to an amazing diversity of plant and animal life.</Description>
 		<ImageFilename>Environment/OrbTypes/Ocean</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Ocean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Ocean</FullsizeImageFilename>
@@ -1760,8 +1760,8 @@
 	<OrbType>
 		<OrbTypeId>10</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Sand-Wüsten</Name>
-		<Description></Description>
+		<Name>Sandy Desert</Name>
+		<Description>Sandy Desert planets feature dry, dusty plains and rocky mountains.\n\nVast deserts with endless sand dunes stretch out for hundreds of kilometers. Lofty mesas loom above arid rocky wastelands. Desolate mountain ranges are interspersed with deep winding canyons.</Description>
 		<ImageFilename>Environment/OrbTypes/SandyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SandyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SandyDesert</FullsizeImageFilename>
@@ -1951,8 +1951,8 @@
 	<OrbType>
 		<OrbTypeId>11</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Eis</Name>
-		<Description></Description>
+		<Name>Ice</Name>
+		<Description>Ice planets are covered with frozen tundra and snowy mountains.\n\nFreezing blizzard winds continually blow across endless plains of ice and snow. Rocky highlands are covered by enormous glaciers. Snowy valleys hide innumerable treacherous crevasses.</Description>
 		<ImageFilename>Environment/OrbTypes/Ice</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceGlacial</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceGlacial</FullsizeImageFilename>
@@ -2139,8 +2139,8 @@
 	<OrbType>
 		<OrbTypeId>12</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Vulkan</Name>
-		<Description></Description>
+		<Name>Volcanic</Name>
+		<Description>Volcanic planets have extensive lava flows, volcanic steam vents and stifling hot air.\n\nBoundless fields of hot ash and blazing rock cover the surface. Dense smoke and poisonous fumes rise from smoldering lakes of lava. Intensely bright fires burn in volcanic craters brimming with molten rock.</Description>
 		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Volcanic</FullsizeImageFilename>
@@ -2342,8 +2342,8 @@
 	<OrbType>
 		<OrbTypeId>13</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Silizium</Name>
-		<Description></Description>
+		<Name>Rocky Silicon</Name>
+		<Description>Rocky Silicon planets have no breathable atmosphere. They are often rich in deposits of Silicon.\n\nStark, shadowy mountains tower above dusty star-lit plains. Deep canyons and crevices conceal dark caves and tunnels.\n\nRocky Silicon planets are quite inhospitable and are never suitable to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/RockySilicon</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BarrenRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockySilicon</LandscapeImageFilename>
@@ -2466,8 +2466,8 @@
 	<OrbType>
 		<OrbTypeId>14</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Großer Gas-</Name>
-		<Description></Description>
+		<Name>Gas Giant</Name>
+		<Description>Gas Giants are super-size, Jupiter-like planets composed primarily of gases. They are the primary supply of Caslon, the universal fuel resource.\n\nTheir upper atmospheres are often ravaged by turbulent storm winds that leave trails of swirling gas in their wake. Gas Giant planets are often orbited by a number of moons, some of which may be colonizable.\n\nHowever Gas Giant planets themselves cannot be colonized, because they are too inhospitable and lack a solid surface.</Description>
 		<ImageFilename>Environment/OrbTypes/GasGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/GasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/GasGiant</FullsizeImageFilename>
@@ -2663,8 +2663,8 @@
 	<OrbType>
 		<OrbTypeId>15</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Gefrorener Gas-</Name>
-		<Description></Description>
+		<Name>Frozen Gas Giant</Name>
+		<Description>Frozen Gas Giants are large Neptune-like planets composed primarily of inert frozen gases. They can be an excellent source of exotic gas resources like Argon or Krypton.\n\nTheir upper atmospheres are packed with countless tiny frozen gas crystals, floating in seas of super-cold gas.\n\nFrozen Gas Giants cannot be colonized, because they are too inhospitable and lack a solid surface.</Description>
 		<ImageFilename>Environment/OrbTypes/FrozenGas</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenGasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenGasGiant</FullsizeImageFilename>
@@ -2815,8 +2815,8 @@
 	<OrbType>
 		<OrbTypeId>16</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Fels-Asteroid</Name>
-		<Description></Description>
+		<Name>Rocky Asteroid</Name>
+		<Description>Rocky Asteroids are rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -2943,8 +2943,8 @@
 	<OrbType>
 		<OrbTypeId>17</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Wald</Name>
-		<Description></Description>
+		<Name>Forest</Name>
+		<Description>Forest planets feature dense woodlands, towering forests and overgrown jungles.\n\nEnormous primeval forests cover hills and lowland regions. Vegetation is often thick and closely packed, even impenetrable.\n\nThere is animal life at all levels: on the dark forest floor, amongst the leafy tree branches, and high above in the forest canopy.</Description>
 		<ImageFilename>Environment/OrbTypes/Forest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Forest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Forest</FullsizeImageFilename>
@@ -3141,8 +3141,8 @@
 	<OrbType>
 		<OrbTypeId>18</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Grasland</Name>
-		<Description></Description>
+		<Name>Grasslands</Name>
+		<Description>Grassland planets feature mostly low-lying plains. The surface is covered with vast fields of various types of grasses that stretch as far as the eye can see.</Description>
 		<ImageFilename>Environment/OrbTypes/Grasslands</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Grasslands</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Grasslands</FullsizeImageFilename>
@@ -3302,8 +3302,8 @@
 	<OrbType>
 		<OrbTypeId>19</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Fels-Wüsten</Name>
-		<Description></Description>
+		<Name>Rocky Desert</Name>
+		<Description>Rocky Desert planets feature dry, rocky plains along with much rugged mountainous terrain.\n\nLofty mesas loom above arid rocky wastelands. Desolate mountain ranges are interspersed with deep winding canyons. Vast cave and tunnel systems are common.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyDesert</FullsizeImageFilename>
@@ -3512,8 +3512,8 @@
 	<OrbType>
 		<OrbTypeId>20</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Savannen-Wüsten</Name>
-		<Description></Description>
+		<Name>Desert Savanna</Name>
+		<Description>Desert Savanna planets have dry and dusty plains interspersed with short grass and scraggly bushes.\n\nLarge fresh-water lakes are often present, surrounded by sparse groups of low trees.</Description>
 		<ImageFilename>Environment/OrbTypes/DesertSavanna</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SavannaDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SavannaDesert</FullsizeImageFilename>
@@ -3666,8 +3666,8 @@
 	<OrbType>
 		<OrbTypeId>21</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Eis-Tundra</Name>
-		<Description></Description>
+		<Name>Ice Tundra</Name>
+		<Description>Ice Tundra planets feature large areas of frozen icy wastelands. Rocky highlands contain enormous glaciers.\n\nNear the low-lying coastline the ice and snow is mixed with alpine forests, providing a somewhat more hospitable region.</Description>
 		<ImageFilename>Environment/OrbTypes/IceTundra</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceTundra</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceTundra</FullsizeImageFilename>
@@ -3821,8 +3821,8 @@
 	<OrbType>
 		<OrbTypeId>22</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Permafrost</Name>
-		<Description></Description>
+		<Name>Frozen Ice</Name>
+		<Description>Frozen Ice planets are covered with deep layers of ice and snow.\n\nFrigid blizzard winds continually blow across the endless frozen plains. Rocky highlands are covered by colossal glaciers, hundreds of kilometers wide.\n\nOccasional warm geothermal springs melt intricate tunnel systems through the super-dense ice.</Description>
 		<ImageFilename>Environment/OrbTypes/FrozenIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenIce</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenIce</FullsizeImageFilename>
@@ -4015,8 +4015,8 @@
 	<OrbType>
 		<OrbTypeId>23</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Tiefsee</Name>
-		<Description></Description>
+		<Name>Deep Ocean</Name>
+		<Description>Deep Ocean planets are covered by vast oceans, often without any visible land.\n\nFar beneath the surface, deep underwater chasms conceal dark crevices and meandering tunnels. These rocky labyrinths can reach far down towards the planet core.</Description>
 		<ImageFilename>Environment/OrbTypes/DeepOcean</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/DeepOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/DeepOcean</FullsizeImageFilename>
@@ -4214,8 +4214,8 @@
 	<OrbType>
 		<OrbTypeId>24</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Brauner Zwerg-</Name>
-		<Description></Description>
+		<Name>Brown Dwarf</Name>
+		<Description>Brown Dwarfs are very large gas giant planets that lack enough mass to collapse into a proper star.\n\nHowever they are dense enough to sustain a low level of nuclear fusion, and thus emit some light and energy as they burn some of their surface gases.\n\nThey can sometimes be a source of Caslon, the universal reactor fuel. Their unusual characteristics can also often provide research bonuses.</Description>
 		<ImageFilename>Environment/OrbTypes/BrownDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BrownDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BrownDwarf</FullsizeImageFilename>
@@ -4382,8 +4382,8 @@
 	<OrbType>
 		<OrbTypeId>25</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Metall-Fels</Name>
-		<Description></Description>
+		<Name>Rocky Metallic</Name>
+		<Description>Rocky Metallic planets have no breathable atmosphere. They are often rich in deposits of metal ores.\n\nStark, shadowy mountains tower above dusty star-lit plains. Deep canyons and crevices conceal dark caves and tunnels.\n\nRocky Metallic planets are quite inhospitable and are never suitable to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyMetallic</LandscapeImageFilename>
@@ -4537,8 +4537,8 @@
 	<OrbType>
 		<OrbTypeId>26</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Eis-Fels</Name>
-		<Description></Description>
+		<Name>Rocky Ice</Name>
+		<Description>Rocky Ice planets have no breathable atmosphere. They sometimes have deposits of frozen Tyderios gas.\n\nVast plains of ice and snow are interspersed with fields of dust and rocks.\n\nRocky Ice planets are quite inhospitable and are never suitable to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyIce</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyIce</LandscapeImageFilename>
@@ -4665,8 +4665,8 @@
 	<OrbType>
 		<OrbTypeId>27</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Mangroven-Wald</Name>
-		<Description></Description>
+		<Name>Mangrove Forest</Name>
+		<Description>Mangrove Forest planets are covered by swampy wetlands packed with dense mangrove thickets.\n\nElevated, dry land is rare. Instead marshy jungles sink into shallow seas.</Description>
 		<ImageFilename>Environment/OrbTypes/MangroveForest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MangroveForest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MangroveForest</FullsizeImageFilename>
@@ -4862,8 +4862,8 @@
 	<OrbType>
 		<OrbTypeId>28</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Blauer Riese</Name>
-		<Description></Description>
+		<Name>Blue Giant</Name>
+		<Description>Blue Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
 		<ImageFilename>Environment/OrbTypes/BlueGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlueGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlueGiant</FullsizeImageFilename>
@@ -5055,8 +5055,8 @@
 	<OrbType>
 		<OrbTypeId>29</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Kohlenstoff</Name>
-		<Description></Description>
+		<Name>Carbonaceous</Name>
+		<Description>Carbonaceous planets have smoldering volcanoes and extensive geothermal activity.\n\nThe air is typically thick with smoke and ash. They often have large lakes of methane and other hydrocarbons.</Description>
 		<ImageFilename>Environment/OrbTypes/Carbonaceous</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Carbonaceous</FullsizeImageFilename>
@@ -5245,8 +5245,8 @@
 	<OrbType>
 		<OrbTypeId>30</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Schwefel-Vulkan</Name>
-		<Description></Description>
+		<Name>Sulphur Volcanic</Name>
+		<Description>Sulphur Volcanic planets are covered in thick layers of sulphur oxides, giving their distinctive yellow-orange appearance.\n\nVolcanic vents spew tall plumes of sulphur into the atmosphere, spreading the material across the planet surface. Corrosive clouds of acid consume most other materials, leaving behind nothing but vast plains of yellow sulphur snow.</Description>
 		<ImageFilename>Environment/OrbTypes/SulphurVolcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SulphurVolcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SulphurVolcanic</FullsizeImageFilename>
@@ -5414,8 +5414,8 @@
 	<OrbType>
 		<OrbTypeId>31</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Eis-Asteroid</Name>
-		<Description></Description>
+		<Name>Ice Asteroid</Name>
+		<Description>Ice Asteroids are frozen rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/IceAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5537,8 +5537,8 @@
 	<OrbType>
 		<OrbTypeId>32</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Metall-Asteroid</Name>
-		<Description></Description>
+		<Name>Metallic Asteroid</Name>
+		<Description>Metallic Asteroids are rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
 		<ImageFilename>Environment/OrbTypes/MetallicAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5676,7 +5676,7 @@
 	<OrbType>
 		<OrbTypeId>33</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_01</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_01</LargeImageFilename>
@@ -5787,7 +5787,7 @@
 	<OrbType>
 		<OrbTypeId>34</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_02</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_02</LargeImageFilename>
@@ -5898,7 +5898,7 @@
 	<OrbType>
 		<OrbTypeId>35</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_03</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_03</LargeImageFilename>
@@ -6009,7 +6009,7 @@
 	<OrbType>
 		<OrbTypeId>36</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_04</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_04</LargeImageFilename>
@@ -6120,7 +6120,7 @@
 	<OrbType>
 		<OrbTypeId>37</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_05</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_05</LargeImageFilename>
@@ -6231,7 +6231,7 @@
 	<OrbType>
 		<OrbTypeId>38</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Planetensplitter</Name>
+		<Name>Destroyed Planet Shard</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_06</LargeImageFilename>
@@ -6343,7 +6343,7 @@
 	<OrbType>
 		<OrbTypeId>39</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Zerstörter Planeten-Asteroid</Name>
+		<Name>Destroyed Planet Asteroid</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06_Large</LargeImageFilename>

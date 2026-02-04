@@ -3,8 +3,8 @@
 	<OrbType>
 		<OrbTypeId>0</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Main Sequence</Name>
-		<Description>Main Sequence star systems often contain an abundance of planets, some of which are habitable.</Description>
+		<Name>Hauptreihenstern</Name>
+		<Description>Hauptsequenz-Sternsysteme enthalten oft eine Fülle von Planeten, von denen einige bewohnbar sind.</Description>
 		<ImageFilename>Environment/OrbTypes/MainSequence</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MainSequence</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MainSequence</FullsizeImageFilename>
@@ -175,8 +175,8 @@
 	<OrbType>
 		<OrbTypeId>1</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Red Giant</Name>
-		<Description>Red Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
+		<Name>Roter Riese</Name>
+		<Description>Rote-Riesen-Sternsysteme enthalten oft eine Fülle von Planeten, von denen einige bewohnbar sind.</Description>
 		<ImageFilename>Environment/OrbTypes/RedGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedGiant</FullsizeImageFilename>
@@ -223,10 +223,10 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.0085</AppearanceChance>
 				<Descriptions>
-					<string>Dense Plasma Vortices</string>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Stable Gravimetric Pulses</string>
+					<string>Dichte Plasmawirbel</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Stabile gravimetrische Pulse</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -235,10 +235,10 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.007</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Inversion Fields</string>
-					<string>Stable Gravimetric Pulses</string>
-					<string>Turbulent Energy Oscillations</string>
-					<string>Powerful Magnetic Bursts</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Stabile gravimetrische Pulse</string>
+					<string>Turbulente Energie Oszillationen</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -371,8 +371,8 @@
 	<OrbType>
 		<OrbTypeId>2</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Super Giant</Name>
-		<Description>Super Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
+		<Name>Überriese</Name>
+		<Description>Super-Giganten-Sternsysteme enthalten oft eine Fülle von Planeten, von denen einige bewohnbar sind.</Description>
 		<ImageFilename>Environment/OrbTypes/SuperGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SuperGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SuperGiant</FullsizeImageFilename>
@@ -419,10 +419,10 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Arcing Energy Paths</string>
-					<string>Streaming Plasma Eruptions</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Bogenförmige Energiepfade</string>
+					<string>Strömende Plasmaeruptionen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -431,10 +431,10 @@
 				<Maximum>0.18</Maximum>
 				<AppearanceChance>0.015</AppearanceChance>
 				<Descriptions>
-					<string>Turbulent Energy Oscillations</string>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Streaming Plasma Eruptions</string>
-					<string>Cool Plasma Eddies</string>
+					<string>Turbulente Energie Oszillationen</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Strömende Plasmaeruptionen</string>
+					<string>Kühle Plasmawirbel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -567,8 +567,8 @@
 	<OrbType>
 		<OrbTypeId>3</OrbTypeId>
 		<Category>Star</Category>
-		<Name>White Dwarf</Name>
-		<Description>White Dwarf stars sometimes have a small system of planets and moons.</Description>
+		<Name>Weißer Zwerg</Name>
+		<Description>Weiße Zwergsterne haben manchmal ein kleines System von Planeten und Monden.</Description>
 		<ImageFilename>Environment/OrbTypes/WhiteDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/WhiteDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/WhiteDwarf</FullsizeImageFilename>
@@ -615,10 +615,10 @@
 				<Maximum>0.2</Maximum>
 				<AppearanceChance>0.024</AppearanceChance>
 				<Descriptions>
-					<string>Dense Plasma Vortices</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Highly-charged Particle Showers</string>
+					<string>Dichte Plasmawirbel</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Hochgeladene Partikelschauer</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -627,10 +627,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Streaming Plasma Eruptions</string>
-					<string>Antimatter Plasma Torrents</string>
-					<string>Cool Plasma Eddies</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Strömende Plasmaeruptionen</string>
+					<string>Antimaterie Plasmaströme</string>
+					<string>Kühle Plasmawirbel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -731,8 +731,8 @@
 	<OrbType>
 		<OrbTypeId>4</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Red Dwarf</Name>
-		<Description>Red Dwarf stars sometimes have a small system of planets and moons.</Description>
+		<Name>Roter Zwerg</Name>
+		<Description>Rote Zwergsterne haben manchmal ein kleines System von Planeten und Monden.</Description>
 		<ImageFilename>Environment/OrbTypes/RedDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedDwarf</FullsizeImageFilename>
@@ -779,10 +779,10 @@
 				<Maximum>0.05</Maximum>
 				<AppearanceChance>0.024</AppearanceChance>
 				<Descriptions>
-					<string>Dense Plasma Vortices</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Arcing Energy Paths</string>
-					<string>Cool Plasma Eddies</string>
+					<string>Dichte Plasmawirbel</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Bogenförmige Energiepfade</string>
+					<string>Kühle Plasmawirbel</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -791,10 +791,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.015</AppearanceChance>
 				<Descriptions>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Stable Gravimetric Pulses</string>
-					<string>Unstable Neutron Surges</string>
-					<string>Sustained Neutron Surges</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Stabile gravimetrische Pulse</string>
+					<string>Instabile Neutronenstöße</string>
+					<string>Anhaltende Neutronenstöße</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -803,10 +803,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.012</AppearanceChance>
 				<Descriptions>
-					<string>Turbulent Energy Oscillations</string>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Highly-charged Particle Showers</string>
-					<string>Antimatter Plasma Torrents</string>
+					<string>Turbulente Energie Oszillationen</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Hochgeladene Partikelschauer</string>
+					<string>Antimaterie Plasmaströme</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -815,9 +815,9 @@
 				<Maximum>0.1</Maximum>
 				<AppearanceChance>0.2</AppearanceChance>
 				<Descriptions>
-					<string>Spectacular Coronal Eruptions</string>
-					<string>Towering Plasma Geysers</string>
-					<string>Intense Plasma Aurorae</string>
+					<string>Spektakuläre koronale Eruptionen</string>
+					<string>Hoch aufragende Plasma-Geysire</string>
+					<string>Intensive Plasma-Auroräen</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -902,8 +902,8 @@
 	<OrbType>
 		<OrbTypeId>5</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Neutron</Name>
-		<Description>Neutron stars may occasionally have a system of one or two planets.\n\nThey emit intense radio waves that are worthy of close study. For this reason research stations constructed near a Neutron star often receive a research bonus.</Description>
+		<Name>Neutronenstern</Name>
+		<Description>Neutronensterne können gelegentlich ein System mit einem oder zwei Planeten haben. Sie senden intensive Radiowellen aus, die es wert sind, näher untersucht zu werden. Aus diesem Grund erhalten Forschungsstationen, die in der Nähe eines Neutronensterns errichtet werden, oft einen Forschungsbonus.</Description>
 		<ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
@@ -949,10 +949,10 @@
 				<Maximum>0.05</Maximum>
 				<AppearanceChance>0.025</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Inversion Fields</string>
-					<string>Arcing Energy Paths</string>
-					<string>Stable Gravimetric Pulses</string>
-					<string>Unstable Neutron Surges</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Bogenförmige Energiepfade</string>
+					<string>Stabile gravimetrische Pulse</string>
+					<string></string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -961,10 +961,10 @@
 				<Maximum>0.3</Maximum>
 				<AppearanceChance>0.025</AppearanceChance>
 				<Descriptions>
-					<string>Turbulent Energy Oscillations</string>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Streaming Plasma Eruptions</string>
-					<string>Sustained Neutron Surges</string>
+					<string>Turbulente Energie Oszillationen</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Strömende Plasmaeruptionen</string>
+					<string>Anhaltende Neutronenstöße</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -973,10 +973,10 @@
 				<Maximum>0.3</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Dense Plasma Vortices</string>
-					<string>Highly-charged Particle Showers</string>
-					<string>Antimatter Plasma Torrents</string>
-					<string>Whirling Graviton Fluxes</string>
+					<string>Dichte Plasmawirbel</string>
+					<string>Hochgeladene Partikelschauer</string>
+					<string>Antimaterie Plasmaströme</string>
+					<string>Wirbelnde Gravitonenflüsse</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -985,9 +985,9 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.2</AppearanceChance>
 				<Descriptions>
-					<string>Spectacular Coronal Eruptions</string>
-					<string>Neutron Shell Bursts</string>
-					<string>Sparkling Neutron Pulses</string>
+					<string>Spektakuläre koronale Eruptionen</string>
+					<string>Neutronenschalenausbrüche</string>
+					<string>Funkelnde Neutronenpulse</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1040,8 +1040,8 @@
 	<OrbType>
 		<OrbTypeId>6</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Black Hole</Name>
-		<Description>Black Holes are super-dense, collapsed stars. Their huge mass has been packed into a tiny space, giving them irresistible gravitational pull.\n\nBlack Holes can suck passing starships into their vortex, destroying them completely. For this reason it is wise to keep a safe distance from their edge.\n\nBlack Holes are worthy of close scientific study - research stations constructed near a Black Hole often receive a research bonus.</Description>
+		<Name>Schwarzes Loch</Name>
+		<Description>Schwarze Löcher sind extrem dichte, kollabierte Sterne. Ihre riesige Masse wurde auf kleinstem Raum zusammengepresst, was ihnen eine unwiderstehliche Anziehungskraft verleiht.\n\nSchwarze Löcher können vorbeifliegende Raumschiffe in ihren Strudel saugen und sie vollständig zerstören. Aus diesem Grund ist es ratsam, einen sicheren Abstand zu ihrem Rand einzuhalten.\n\nSchwarze Löcher sind es wert, genauestens wissenschaftlich untersucht zu werden - Forschungsstationen, die in der Nähe eines Schwarzen Lochs errichtet werden, erhalten oft einen Forschungsbonus.</Description>
 		<ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
@@ -1081,9 +1081,9 @@
 				<Maximum>0.30</Maximum>
 				<AppearanceChance>0.3</AppearanceChance>
 				<Descriptions>
-					<string>Impressive Event Horizon</string>
-					<string>Glowing Plasma Bursts</string>
-					<string>Shimmering Energy Vortex</string>
+					<string>Beeindruckender Ereignishorizont</string>
+					<string>Glühende Plasmaausbrüche</string>
+					<string>Schimmernder Energiewirbel</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1092,10 +1092,10 @@
 				<Maximum>0.2</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Arcing Energy Paths</string>
-					<string>Unstable Neutron Surges</string>
-					<string>Highly-charged Particle Showers</string>
-					<string>Ruptured Graviton Bursts</string>
+					<string>Bogenförmige Energiepfade</string>
+					<string>Instabile Neutronenstöße</string>
+					<string>Hochgeladene Partikelschauer</string>
+					<string>Aufgebrochene Gravitonausbrüche</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1104,10 +1104,10 @@
 				<Maximum>0.30</Maximum>
 				<AppearanceChance>0.030</AppearanceChance>
 				<Descriptions>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Stable Gravimetric Pulses</string>
-					<string>Turbulent Energy Oscillations</string>
-					<string>Whirling Graviton Fluxes</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Stabile gravimetrische Pulse</string>
+					<string>Turbulente Energie Oszillationen</string>
+					<string>Wirbelnde Gravitonenflüsse</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1116,10 +1116,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Supercharged Gaseous Flow</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Sustained Neutron Surges</string>
-					<string>Whirling Graviton Fluxes</string>
+					<string>Aufgeladene Gasströmung</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Anhaltende Neutronenstöße</string>
+					<string>Wirbelnde Gravitonenflüsse</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1128,10 +1128,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Antimatter Plasma Torrents</string>
-					<string>Whirling Graviton Fluxes</string>
-					<string>Ruptured Graviton Bursts</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Antimaterie Plasmaströme</string>
+					<string>Wirbelnde Gravitonenflüsse</string>
+					<string>Aufgebrochene Gravitonausbrüche</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1162,8 +1162,8 @@
 	<OrbType>
 		<OrbTypeId>7</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Continental</Name>
-		<Description>Continental planets feature earth-like, varied terrain with rich vegetation. They can supply a diverse range of resources.\n\nMajestic snow-capped mountain ranges soar above lush woodland valleys. Enormous primeval forests cover hills and lowland regions. Fertile grassland plains swathe coastal areas. Sparkling oceans are dotted with jungle islands and tropical atolls.</Description>
+		<Name>Kontinental</Name>
+		<Description>Kontinentalplaneten weisen ein erdähnliches, abwechslungsreiches Terrain mit reicher Vegetation auf. Sie können eine Vielzahl von Ressourcen liefern. Majestätische schneebedeckte Bergketten erheben sich über üppig bewaldete Täler. Riesige Urwälder bedecken Hügel und Tieflandregionen. Fruchtbare Grasebenen erstrecken sich über die Küstengebiete. Die glitzernden Ozeane sind mit Dschungelinseln und tropischen Atollen übersät.</Description>
 		<ImageFilename>Environment/OrbTypes/Continental</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Continental</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Continental</FullsizeImageFilename>
@@ -1234,14 +1234,14 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.1</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Great Petrified Forest</string>
-					<string>Grand Fjords</string>
-					<string>Pristine Lakes</string>
-					<string>Idyllic Coastal Islands</string>
-					<string>Great Caverns of {0}</string>
-					<string>Majestic Waterfalls</string>
-					<string>Great Tropical Lagoon</string>
+					<string>Ringe von {0}</string>
+					<string>Großer versteinerter Wald</string>
+					<string>Große Fjorde</string>
+					<string>Unberührte Seen</string>
+					<string>Idyllische Küsteninseln</string>
+					<string>Große Kavernen von {0}</string>
+					<string>Majestätische Wasserfälle</string>
+					<string>Große tropische Lagune</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1250,9 +1250,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.04</AppearanceChance>
 				<Descriptions>
-					<string>Rich Biological Ecosystem</string>
-					<string>Rare Plant Nutrients</string>
-					<string>Giant Fungal Bioreserve</string>
+					<string>Reiches biologisches Ökosystem</string>
+					<string>Seltene Pflanzennährstoffe</string>
+					<string>Riesige Pilz-Bioreserve</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1261,8 +1261,8 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Idyllic Warm Climate</string>
-					<string>Lofty Mountain Ranges</string>
+					<string>Idyllisches warmes Klima</string>
+					<string>Erhabene Gebirgsketten</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1352,19 +1352,19 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in a dense forest</string>
-			<string>sit on a rocky mountain outcrop</string>
-			<string>are located in the midst of a grassy plain</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
+			<string>liegen tief in einem dichten Wald</string>
+			<string>auf einem felsigen Bergvorsprung sitzen</string>
+			<string>befinden sich inmitten einer grasbewachsenen Ebene</string>
+			<string>sitzen am Fuße eines waldbedeckten Tals</string>
+			<string>befinden sich auf felsigen Küstenklippen mit Blick auf einen weiten Ozean</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>8</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Marshy Swamp</Name>
-		<Description>Marshy Swamp planets are covered by dense rainforests and swampy marshlands.\n\nThick, impenetrable jungles envelop entire continents. Lush green woodlands are dotted with innumerable trickling streams and deep underground springs.</Description>
+		<Name>Sumpfland</Name>
+		<Description>Sumpfige Sumpfplaneten sind von dichten Regenwäldern und sumpfigen Marschlandschaften bedeckt. Dichte, undurchdringliche Dschungel umhüllen ganze Kontinente. Üppige grüne Wälder sind mit unzähligen rieselnden Bächen und tiefen unterirdischen Quellen durchzogen.</Description>
 		<ImageFilename>Environment/OrbTypes/MarshySwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MarshySwamp</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MarshySwamp</FullsizeImageFilename>
@@ -1439,11 +1439,11 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Great Marshlands</string>
-					<string>Sinkhole of {0}</string>
-					<string>Watery Caverns of {0}</string>
-					<string>Uplifted Highland Waterfalls</string>
+					<string>Ringe von {0}</string>
+					<string>Große Sumpfgebiete</string>
+					<string>Sinkloch von {0}</string>
+					<string>Wässrige Kavernen von {0}</string>
+					<string>Erhöhte Hochland-Wasserfälle</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1452,9 +1452,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.03</AppearanceChance>
 				<Descriptions>
-					<string>Rich Biological Ecosystem</string>
-					<string>Rare Plant Nutrients</string>
-					<string>Giant Fungal Bioreserve</string>
+					<string>Reiches biologisches Ökosystem</string>
+					<string>Seltene Pflanzennährstoffe</string>
+					<string>Riesige Pilz-Bioreserve</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1463,8 +1463,8 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Deep Crustal Sinkholes</string>
-					<string>Highly Porous Mantle</string>
+					<string>Tiefe Erdkrusten-Sinklöcher</string>
+					<string>Hochgradig poröser Mantel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1548,19 +1548,19 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are surrounded by lush jungle</string>
-			<string>are situated on a reed-covered island in the middle of a marshy bog</string>
-			<string>are located in a clearing in the heart of a swampy jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
+			<string>sind von üppigem Dschungel umgeben</string>
+			<string>befinden sich auf einer schilfbewachsenen Insel inmitten eines sumpfigen Moors</string>
+			<string>befinden sich auf einer Lichtung im Herzen eines sumpfigen Dschungels</string>
+			<string>sitzen Sie auf einer grasbewachsenen Lichtung am Flussufer vor einem großen Wasserfall</string>
+			<string>sind halb vergraben im Unterholz in der Nähe einer riesigen sumpfigen Einöde</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>9</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Ocean</Name>
-		<Description>Ocean planets are covered by vast, deep seas dotted with occasional small isolated islands.\n\nFar beneath the ocean's surface, deep underwater chasms conceal dark crevices and meandering tunnels. Immense towers of rock rise from the ocean floor. These areas are home to an amazing diversity of plant and animal life.</Description>
+		<Name>Ozean</Name>
+		<Description>Die Ozeanplaneten sind von weiten, tiefen Meeren bedeckt, in denen gelegentlich kleine, isolierte Inseln liegen. Weit unter der Meeresoberfläche verbergen sich tiefe Unterwasserabgründe mit dunklen Spalten und gewundenen Tunneln. Riesige Felstürme erheben sich aus dem Meeresboden. Diese Gebiete beherbergen eine erstaunliche Vielfalt an Pflanzen und Tieren.</Description>
 		<ImageFilename>Environment/OrbTypes/Ocean</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Ocean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Ocean</FullsizeImageFilename>
@@ -1631,11 +1631,11 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.2</AppearanceChance>
 				<Descriptions>
-					<string>Great Tropical Lagoon</string>
-					<string>Underwater Caves of {0}</string>
-					<string>Vast Underwater Tunnel Network</string>
-					<string>Rings of {0}</string>
-					<string>Great Coral Reef</string>
+					<string>Große tropische Lagune</string>
+					<string>Unterwasserhöhlen von {0}</string>
+					<string>Riesiges Unterwasser-Tunnelnetz</string>
+					<string>Ringe von {0}</string>
+					<string>Großes Korallenriff</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1644,8 +1644,8 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.025</AppearanceChance>
 				<Descriptions>
-					<string>Underwater Geothermal Vent</string>
-					<string>Great Tidal Whirlpool</string>
+					<string>Geothermischer Unterwasser-Schlot</string>
+					<string>Großer Gezeitenwirbel</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1654,9 +1654,9 @@
 				<Maximum>0.08</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Deep Underwater Retreat</string>
-					<string>Coastal Cave Network</string>
-					<string>Bottomless Undersea Labyrinth</string>
+					<string>Tiefes Unterwasser-Retreat</string>
+					<string>Netzwerk der Küstenhöhlen</string>
+					<string>Bodenloses Unterwasser-Labyrinth</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1752,16 +1752,16 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
-			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
+			<string>auf einer felsigen Insel sitzen, die von riesigen Sturmwellen aus dem Meer umspült wird</string>
+			<string>halb untergetaucht auf einem riesigen Riff inmitten eines endlosen Ozeans sitzen</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>10</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Sandy Desert</Name>
-		<Description>Sandy Desert planets feature dry, dusty plains and rocky mountains.\n\nVast deserts with endless sand dunes stretch out for hundreds of kilometers. Lofty mesas loom above arid rocky wastelands. Desolate mountain ranges are interspersed with deep winding canyons.</Description>
+		<Name>Sand-Wüsten</Name>
+		<Description>Sandige Wüstenplaneten zeichnen sich durch trockene, staubige Ebenen und felsige Berge aus. Riesige Wüsten mit endlosen Sanddünen erstrecken sich über Hunderte von Kilometern. Erhabene Tafelberge erheben sich über trockene, felsige Einöden. Trostlose Gebirgszüge sind von tiefen, gewundenen Canyons durchzogen.</Description>
 		<ImageFilename>Environment/OrbTypes/SandyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SandyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SandyDesert</FullsizeImageFilename>
@@ -1832,9 +1832,9 @@
 				<Maximum>0.06</Maximum>
 				<AppearanceChance>0.04</AppearanceChance>
 				<Descriptions>
-					<string>Dust Rings of {0}</string>
-					<string>Sinking Sand Fields</string>
-					<string>Giant Sand Dunes</string>
+					<string>Staubige Ringe von {0}</string>
+					<string>Versinkende Sandfelder</string>
+					<string>Riesige Sanddünen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1843,9 +1843,9 @@
 				<Maximum>0.13</Maximum>
 				<AppearanceChance>0.015</AppearanceChance>
 				<Descriptions>
-					<string>Layered Rock Formations</string>
-					<string>Ultra-Hardened Sand Pillars</string>
-					<string>Wind-blasted Sand Canyons</string>
+					<string>Geschichtete Felsformationen</string>
+					<string>Ultra-gehärtete Sand-Säulen</string>
+					<string>Windgepustete Sandschluchten</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -1854,9 +1854,9 @@
 				<Maximum>0.13</Maximum>
 				<AppearanceChance>0.015</AppearanceChance>
 				<Descriptions>
-					<string>Layered Rock Formations</string>
-					<string>Ultra-Hardened Sand Pillars</string>
-					<string>Wind-blasted Sand Canyons</string>
+					<string>Geschichtete Felsformationen</string>
+					<string>Ultra-gehärtete Sand-Säulen</string>
+					<string>Windgepustete Sandschluchten</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -1940,19 +1940,19 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
+			<string>liegen halb begraben unter tiefen Sandverwehungen</string>
+			<string>werden fast von einer riesigen Sandbank verschlungen</string>
+			<string>sind in die Wand einer felsigen Schlucht eingelassen</string>
+			<string>sitzen auf einem Abgrund und überblicken eine weite, staubige Ebene</string>
+			<string>befinden sich auf einem großen Tafelberg in einer Wüstenebene</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>11</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Ice</Name>
-		<Description>Ice planets are covered with frozen tundra and snowy mountains.\n\nFreezing blizzard winds continually blow across endless plains of ice and snow. Rocky highlands are covered by enormous glaciers. Snowy valleys hide innumerable treacherous crevasses.</Description>
+		<Name>Eis</Name>
+		<Description>Eisplaneten sind mit gefrorener Tundra und schneebedeckten Bergen bedeckt.\n\nEisige Schneesturmwinde wehen ständig über endlose Ebenen aus Eis und Schnee. Das felsige Hochland ist von riesigen Gletschern bedeckt. Verschneite Täler verbergen unzählige tückische Gletscherspalten.</Description>
 		<ImageFilename>Environment/OrbTypes/Ice</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceGlacial</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceGlacial</FullsizeImageFilename>
@@ -2029,10 +2029,10 @@
 				<Maximum>0.12</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Ice Rings of {0}</string>
-					<string>Colossal Crevasse</string>
-					<string>Glacial Rivers</string>
-					<string>Ice Caverns of {0}</string>
+					<string>Eis-Ringe von {0}</string>
+					<string>Kolossale Gletscherspalte</string>
+					<string>Gletscherflüsse</string>
+					<string>Eishöhlen von {0}</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2041,8 +2041,8 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Ice Crystals</string>
-					<string>Neutrino-Free Deep Ice Cavern</string>
+					<string>Magnetische Eiskristalle</string>
+					<string>Neutrino-freie tiefe Eiskaverne</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2051,9 +2051,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Ice Cave Network</string>
-					<string>Deep Ice Caverns</string>
-					<string>Ice Canyon Maze</string>
+					<string>Eishöhlen-Netzwerk</string>
+					<string>Tiefe Eishöhlen</string>
+					<string>Eisschlucht-Labyrinth</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -2131,16 +2131,16 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
+			<string>liegen tief in Schneeverwehungen auf dem Gipfel eines windgepeitschten Bergpasses</string>
+			<string>befinden sich in der Nähe des Randes einer eisigen Tundra-Einöde</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>12</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Volcanic</Name>
-		<Description>Volcanic planets have extensive lava flows, volcanic steam vents and stifling hot air.\n\nBoundless fields of hot ash and blazing rock cover the surface. Dense smoke and poisonous fumes rise from smoldering lakes of lava. Intensely bright fires burn in volcanic craters brimming with molten rock.</Description>
+		<Name>Vulkan</Name>
+		<Description>Vulkanische Planeten haben ausgedehnte Lavaströme, vulkanische Dampfschlote und erstickend heiße Luft.\n\nAusgedehnte Felder aus heißer Asche und glühendem Gestein bedecken die Oberfläche. Dichter Rauch und giftige Dämpfe steigen aus schwelenden Lavaseen auf. Intensiv leuchtende Feuer brennen in vulkanischen Kratern, die mit geschmolzenem Gestein gefüllt sind.</Description>
 		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Volcanic</FullsizeImageFilename>
@@ -2217,10 +2217,10 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.07</AppearanceChance>
 				<Descriptions>
-					<string>Fire Rings of {0}</string>
-					<string>Burning Lava Lakes</string>
-					<string>Fire Caverns of {0}</string>
-					<string>Great Lava Geyser</string>
+					<string>Feuerringe von {0}</string>
+					<string>Brennende Lavaseen</string>
+					<string>Feuer-Höhlen von {0}</string>
+					<string>Großer Lava-Geysir</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2229,9 +2229,9 @@
 				<Maximum>0.18</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Towering Lava Formations</string>
-					<string>Molten Glass River</string>
-					<string>Magma Venting Pools</string>
+					<string>Hoch aufragende Lavaformationen</string>
+					<string>Fluss aus geschmolzenem Glas</string>
+					<string>Magma-Entlüftungspools</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2240,9 +2240,9 @@
 				<Maximum>0.12</Maximum>
 				<AppearanceChance>0.015</AppearanceChance>
 				<Descriptions>
-					<string>Magma Geyser</string>
-					<string>Atmospheric Firestorms</string>
-					<string>Deep Mantle Tunnels</string>
+					<string>Magma Geysir</string>
+					<string>Atmosphärische Feuerstürme</string>
+					<string>Tiefe Manteltunnel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -2332,18 +2332,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a fiery lake of lava</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are located next to a molten river of lava</string>
-			<string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
+			<string>sitzen auf einem steinernen Vorsprung mit Blick auf einen feurigen Lavasee</string>
+			<string>liegen inmitten einer riesigen felsigen Ebene, die mit Tausenden von geothermischen Dampfschloten übersät ist</string>
+			<string>befinden sich neben einem geschmolzenen Fluss aus Lava</string>
+			<string>sitzen auf einer kleinen felsigen Insel, die aus dem umgebenden Ozean aus heller geschmolzener Lava leuchtet</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>13</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Rocky Silicon</Name>
-		<Description>Rocky Silicon planets have no breathable atmosphere. They are often rich in deposits of Silicon.\n\nStark, shadowy mountains tower above dusty star-lit plains. Deep canyons and crevices conceal dark caves and tunnels.\n\nRocky Silicon planets are quite inhospitable and are never suitable to be colonized.</Description>
+		<Name>Silizium</Name>
+		<Description>Felsige Siliziumplaneten haben keine atembare Atmosphäre. Sie sind oft reich an Siliziumvorkommen.\n\nStarke, schattige Berge erheben sich über staubige, von Sternen erleuchtete Ebenen. Tiefe Schluchten und Spalten verbergen dunkle Höhlen und Tunnel.\n\nFelsige Siliziumplaneten sind recht unwirtlich und eignen sich niemals für eine Kolonisierung.</Description>
 		<ImageFilename>Environment/OrbTypes/RockySilicon</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BarrenRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockySilicon</LandscapeImageFilename>
@@ -2409,8 +2409,8 @@
 				<Maximum>0.18</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Gravimetric Distortions</string>
-					<string>Magnetic Anomaly</string>
+					<string>Gravimetrische Verzerrungen</string>
+					<string>Magnetische Anomalie</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -2458,16 +2458,16 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
+			<string>sitzen in der Mitte einer schattigen, sternbeleuchteten Ebene</string>
+			<string>liegen auf dem Grund eines trostlosen, felsigen Tals</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>14</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Gas Giant</Name>
-		<Description>Gas Giants are super-size, Jupiter-like planets composed primarily of gases. They are the primary supply of Caslon, the universal fuel resource.\n\nTheir upper atmospheres are often ravaged by turbulent storm winds that leave trails of swirling gas in their wake. Gas Giant planets are often orbited by a number of moons, some of which may be colonizable.\n\nHowever Gas Giant planets themselves cannot be colonized, because they are too inhospitable and lack a solid surface.</Description>
+		<Name>Großer Gas-</Name>
+		<Description>Gasriesen sind übergroße, jupiterähnliche Planeten, die hauptsächlich aus Gasen bestehen. Sie sind der Hauptlieferant von Caslon, dem universellen Brennstoff. Ihre oberen Atmosphären werden oft von turbulenten Sturmwinden verwüstet, die Spuren von wirbelndem Gas hinterlassen. Gasriesenplaneten werden oft von einer Reihe von Monden umkreist, von denen einige möglicherweise kolonisierbar sind.\n\nDie Gasriesenplaneten selbst können jedoch nicht kolonisiert werden, da sie zu unwirtlich sind und keine feste Oberfläche haben.</Description>
 		<ImageFilename>Environment/OrbTypes/GasGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/GasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/GasGiant</FullsizeImageFilename>
@@ -2522,9 +2522,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.007</AppearanceChance>
 				<Descriptions>
-					<string>Gaseous Plasma Flows</string>
-					<string>High-speed Wind Vortex</string>
-					<string>Polar Wind Currents</string>
+					<string>Gasförmige Plasmaströme</string>
+					<string>Hochgeschwindigkeits-Windwirbel</string>
+					<string>Polare Windströme</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2533,9 +2533,9 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.0085</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Anomaly</string>
-					<string>Gravimetric Distortion</string>
-					<string>Unusual Neutron Radiation</string>
+					<string>Magnetische Anomalie</string>
+					<string>Gravimetrische Verzerrung</string>
+					<string>Ungewöhnliche Neutronenstrahlung</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -2663,8 +2663,8 @@
 	<OrbType>
 		<OrbTypeId>15</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Frozen Gas Giant</Name>
-		<Description>Frozen Gas Giants are large Neptune-like planets composed primarily of inert frozen gases. They can be an excellent source of exotic gas resources like Argon or Krypton.\n\nTheir upper atmospheres are packed with countless tiny frozen gas crystals, floating in seas of super-cold gas.\n\nFrozen Gas Giants cannot be colonized, because they are too inhospitable and lack a solid surface.</Description>
+		<Name>Gefrorener Gas-</Name>
+		<Description>Gefrorene Gasriesen sind große, neptunähnliche Planeten, die hauptsächlich aus inerten, gefrorenen Gasen bestehen. Sie können eine hervorragende Quelle für exotische Gasressourcen wie Argon oder Krypton sein. Ihre oberen Atmosphären sind vollgepackt mit zahllosen winzigen gefrorenen Gaskristallen, die in Meeren aus superkaltem Gas schwimmen.\n...</Description>
 		<ImageFilename>Environment/OrbTypes/FrozenGas</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenGasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenGasGiant</FullsizeImageFilename>
@@ -2719,9 +2719,9 @@
 				<Maximum>0.12</Maximum>
 				<AppearanceChance>0.008</AppearanceChance>
 				<Descriptions>
-					<string>Unstable Plasma Discharges</string>
-					<string>Charged Plasma Fields</string>
-					<string>Turbulent Electrical Currents</string>
+					<string>Instabile Plasma-Entladungen</string>
+					<string>Geladene Plasmafelder</string>
+					<string>Turbulente elektrische Ströme</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -2730,9 +2730,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.012</AppearanceChance>
 				<Descriptions>
-					<string>Dense Gas Pockets</string>
-					<string>Gaseous Crystal Formations</string>
-					<string>Crystal Windstorm</string>
+					<string>Dichte Gasblasen</string>
+					<string>Gasförmige Kristallgebilde</string>
+					<string>Kristalliner Windsturm</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -2815,8 +2815,8 @@
 	<OrbType>
 		<OrbTypeId>16</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Rocky Asteroid</Name>
-		<Description>Rocky Asteroids are rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
+		<Name>Fels-Asteroid</Name>
+		<Description>Felsige Asteroiden sind felsige Trümmer, die oft reich an Metallerzen sind. Größere Asteroiden können ausgedehnte Netzwerke von Tunneln und Höhlen verbergen. Sie sind in den meisten Sternensystemen zu finden, oft allein, aber manchmal auch als Teil großer Asteroidenfelder.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -2936,15 +2936,15 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>sind in die Wand eines tiefen Canyons eingelassen</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>17</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Forest</Name>
-		<Description>Forest planets feature dense woodlands, towering forests and overgrown jungles.\n\nEnormous primeval forests cover hills and lowland regions. Vegetation is often thick and closely packed, even impenetrable.\n\nThere is animal life at all levels: on the dark forest floor, amongst the leafy tree branches, and high above in the forest canopy.</Description>
+		<Name>Wald</Name>
+		<Description>Auf Waldplaneten gibt es dichte Wälder, hoch aufragende Wälder und überwucherte Dschungel.\n\n Riesige Urwälder bedecken Hügel und Tieflandregionen. Die Vegetation ist oft dicht und dicht gedrängt, ja sogar undurchdringlich. \n\nEs gibt tierisches Leben auf allen Ebenen: auf dem dunklen Waldboden, zwischen den belaubten Ästen der Bäume und hoch oben in den Baumkronen.</Description>
 		<ImageFilename>Environment/OrbTypes/Forest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Forest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Forest</FullsizeImageFilename>
@@ -3021,13 +3021,13 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.25</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Ancient Rain Forest</string>
-					<string>Grand Fjords</string>
-					<string>Pristine Lakes</string>
-					<string>Idyllic Coastal Islands</string>
-					<string>Great Caverns of {0}</string>
-					<string>Majestic Waterfalls</string>
+					<string>Ringe von {0}</string>
+					<string>Uralter Regenwald</string>
+					<string>Große Fjorde</string>
+					<string>Unberührte Seen</string>
+					<string>Idyllische Küsteninseln</string>
+					<string>Große Kavernen von {0}</string>
+					<string>Majestätische Wasserfälle</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3036,8 +3036,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.06</AppearanceChance>
 				<Descriptions>
-					<string>Rich Biological Ecosystem</string>
-					<string>Rare Plant Nutrients</string>
+					<string>Reiches biologisches Ökosystem</string>
+					<string>Seltene Pflanzennährstoffe</string>
 					<string>Lush Forest Root Network</string>
 				</Descriptions>
 			</BonusRange>
@@ -3047,9 +3047,9 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Idyllic Warm Climate</string>
-					<string>Grand Forest Canopy</string>
-					<string>Exotic Jungle Blossoms</string>
+					<string>Idyllisches warmes Klima</string>
+					<string>Grand Forest Vordach</string>
+					<string>Exotische Dschungelblüten</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -3127,22 +3127,22 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in a dense forest</string>
-			<string>sit on a rocky mountain outcrop</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
-			<string>are surrounded by lush jungle</string>
-			<string>are located in a clearing in the heart of a dense jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth of an ancient forest</string>
+			<string>liegen tief in einem dichten Wald</string>
+			<string>auf einem felsigen Bergvorsprung sitzen</string>
+			<string>sitzen am Fuße eines waldbedeckten Tals</string>
+			<string>befinden sich auf felsigen Küstenklippen mit Blick auf einen weiten Ozean</string>
+			<string>sind von üppigem Dschungel umgeben</string>
+			<string>befinden sich auf einer Lichtung im Herzen eines dichten Dschungels</string>
+			<string>sitzen Sie auf einer grasbewachsenen Lichtung am Flussufer vor einem großen Wasserfall</string>
+			<string>sind halb vergraben im Unterholz eines uralten Waldes</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>18</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Grasslands</Name>
-		<Description>Grassland planets feature mostly low-lying plains. The surface is covered with vast fields of various types of grasses that stretch as far as the eye can see.</Description>
+		<Name>Grasland</Name>
+		<Description>Grasland-Planeten bestehen meist aus tief liegenden Ebenen. Die Oberfläche ist mit weiten Feldern verschiedener Gräserarten bedeckt, die sich so weit das Auge reicht, erstrecken.</Description>
 		<ImageFilename>Environment/OrbTypes/Grasslands</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Grasslands</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Grasslands</FullsizeImageFilename>
@@ -3215,8 +3215,8 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.03</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Wildflower Plains</string>
+					<string>Ringe von {0}</string>
+					<string>Wildblumen-Ebenen</string>
 					<string>Great River Gorge</string>
 				</Descriptions>
 			</BonusRange>
@@ -3226,7 +3226,7 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Idyllic Warm Climate</string>
+					<string>Idyllisches warmes Klima</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -3292,18 +3292,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are located in the midst of a grassy plain</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are located on a grassy hilltop overlooking the ocean</string>
+			<string>befinden sich inmitten einer grasbewachsenen Ebene</string>
+			<string>sitzen am Fuße eines waldbedeckten Tals</string>
+			<string>sitzen Sie auf einer grasbewachsenen Lichtung am Flussufer vor einem großen Wasserfall</string>
+			<string>liegen auf einer grasbewachsenen Anhöhe mit Blick auf den Ozean</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>19</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Rocky Desert</Name>
-		<Description>Rocky Desert planets feature dry, rocky plains along with much rugged mountainous terrain.\n\nLofty mesas loom above arid rocky wastelands. Desolate mountain ranges are interspersed with deep winding canyons. Vast cave and tunnel systems are common.</Description>
+		<Name>Fels-Wüsten</Name>
+		<Description>Felswüstenplaneten zeichnen sich durch trockene, felsige Ebenen und zerklüftetes Bergland aus. Weiche Tafelberge erheben sich über trockene, felsige Einöden. Trostlose Gebirgszüge sind mit tiefen, gewundenen Canyons durchsetzt. Weitläufige Höhlen- und Tunnelsysteme sind weit verbreitet.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyDesert</FullsizeImageFilename>
@@ -3380,10 +3380,10 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Dust Rings of {0}</string>
-					<string>Canyon of {0}</string>
-					<string>Grand Mesa Highland</string>
-					<string>Rock Spires of {0}</string>
+					<string>Staubige Ringe von {0}</string>
+					<string>Canyon von {0}</string>
+					<string>Grand Mesa Hochland</string>
+					<string>Felsspitzen von {0}</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3392,9 +3392,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Weathered Rock Formations</string>
-					<string>SuperDense Rock Layers</string>
-					<string>Crystal-suffused Rock Structures</string>
+					<string>Verwitterte Felsformationen</string>
+					<string>SuperDichte Gesteinsschichten</string>
+					<string>Kristallgeschwängerte Felsstrukturen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3403,9 +3403,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Weathered Rock Formations</string>
-					<string>SuperDense Rock Layers</string>
-					<string>Crystal-suffused Rock Structures</string>
+					<string>Verwitterte Felsformationen</string>
+					<string>SuperDichte Gesteinsschichten</string>
+					<string>Kristallgeschwängerte Felsstrukturen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3414,8 +3414,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.07</AppearanceChance>
 				<Descriptions>
-					<string>Extensive Cave Network</string>
-					<string>Deep Strong Caverns</string>
+					<string>Ausgedehntes Höhlennetz</string>
+					<string>Tiefe starke Kavernen</string>
 					<string>Canyon Redoubt of {0}</string>
 				</Descriptions>
 			</BonusRange>
@@ -3500,20 +3500,20 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
-			<string>sit on a vast rocky plain strewn with boulders</string>
+			<string>liegen halb begraben unter tiefen Sandverwehungen</string>
+			<string>werden fast von einer riesigen Sandbank verschlungen</string>
+			<string>sind in die Wand einer felsigen Schlucht eingelassen</string>
+			<string>sitzen auf einem Abgrund und überblicken eine weite, staubige Ebene</string>
+			<string>befinden sich auf einem großen Tafelberg in einer Wüstenebene</string>
+			<string>sitzen auf einer weiten felsigen Ebene, die mit Felsbrocken übersät ist</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>20</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Desert Savanna</Name>
-		<Description>Desert Savanna planets have dry and dusty plains interspersed with short grass and scraggly bushes.\n\nLarge fresh-water lakes are often present, surrounded by sparse groups of low trees.</Description>
+		<Name>Savannen-Wüsten</Name>
+		<Description>Wüstensavannen haben trockene und staubige Ebenen, die mit kurzem Gras und dürren Büschen durchsetzt sind.\n\nGroße Süßwasserseen sind oft vorhanden, die von spärlichen Gruppen von niedrigen Bäumen umgeben sind.</Description>
 		<ImageFilename>Environment/OrbTypes/DesertSavanna</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SavannaDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SavannaDesert</FullsizeImageFilename>
@@ -3588,7 +3588,7 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
+					<string>Ringe von {0}</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -3654,20 +3654,20 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
-			<string>are located next to a small lake in dense woodland</string>
+			<string>liegen halb begraben unter tiefen Sandverwehungen</string>
+			<string>werden fast von einer riesigen Sandbank verschlungen</string>
+			<string>sind in die Wand einer felsigen Schlucht eingelassen</string>
+			<string>sitzen auf einem Abgrund und überblicken eine weite, staubige Ebene</string>
+			<string>befinden sich auf einem großen Tafelberg in einer Wüstenebene</string>
+			<string>befinden sich neben einem kleinen See in einem dichten Waldgebiet</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>21</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Ice Tundra</Name>
-		<Description>Ice Tundra planets feature large areas of frozen icy wastelands. Rocky highlands contain enormous glaciers.\n\nNear the low-lying coastline the ice and snow is mixed with alpine forests, providing a somewhat more hospitable region.</Description>
+		<Name>Eis-Tundra</Name>
+		<Description>Auf den Eistundra-Planeten gibt es große Gebiete mit gefrorenen Eiswüsten. Im felsigen Hochland befinden sich riesige Gletscher. In der Nähe der niedrig gelegenen Küstenlinie vermischen sich Eis und Schnee mit alpinen Wäldern, die eine etwas gastfreundlichere Region darstellen.</Description>
 		<ImageFilename>Environment/OrbTypes/IceTundra</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceTundra</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceTundra</FullsizeImageFilename>
@@ -3742,10 +3742,10 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Ice Rings of {0}</string>
-					<string>Ice Caverns of {0}</string>
-					<string>Grand Ice Spires</string>
-					<string>Great Alpine Forest</string>
+					<string>Eis-Ringe von {0}</string>
+					<string>Eishöhlen von {0}</string>
+					<string>Große Eistürme</string>
+					<string>Großer Alpenwald</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -3811,18 +3811,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
-			<string>are located on the shores of an icy ocean</string>
-			<string>are surrounded by a vast tundra forest</string>
+			<string>liegen tief in Schneeverwehungen auf dem Gipfel eines windgepeitschten Bergpasses</string>
+			<string>befinden sich in der Nähe des Randes einer eisigen Tundra-Einöde</string>
+			<string>befinden sich an den Ufern eines eisigen Ozeans</string>
+			<string>sind von einem riesigen Tundra-Wald umgeben</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>22</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Frozen Ice</Name>
-		<Description>Frozen Ice planets are covered with deep layers of ice and snow.\n\nFrigid blizzard winds continually blow across the endless frozen plains. Rocky highlands are covered by colossal glaciers, hundreds of kilometers wide.\n\nOccasional warm geothermal springs melt intricate tunnel systems through the super-dense ice.</Description>
+		<Name>Permafrost</Name>
+		<Description>Gefrorene Eisplaneten sind mit tiefen Eis- und Schneeschichten bedeckt. Strenge Schneesturmwinde wehen ständig über die endlosen gefrorenen Ebenen. Das felsige Hochland ist von kolossalen Gletschern bedeckt, die Hunderte von Kilometern breit sind. Gelegentlich schmelzen warme geothermische Quellen verschlungene Tunnelsysteme durch das superdichte Eis.</Description>
 		<ImageFilename>Environment/OrbTypes/FrozenIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenIce</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenIce</FullsizeImageFilename>
@@ -3893,11 +3893,11 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Ice Rings of {0}</string>
-					<string>Ice Caverns of {0}</string>
-					<string>Grand Ice Spires</string>
-					<string>Vast Ice Tunnel Network</string>
-					<string>Grand Glacier</string>
+					<string>Eis-Ringe von {0}</string>
+					<string>Eishöhlen von {0}</string>
+					<string>Große Eistürme</string>
+					<string>Riesiges Eistunnelnetz</string>
+					<string>Großer Gletscher</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3906,8 +3906,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>SuperDense Ice Sheets</string>
-					<string>Cryogenic Rock Formations</string>
+					<string>Superdichte Eisschichten</string>
+					<string>Kryogene Gesteinsformationen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3916,8 +3916,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Monatomic Water Caverns</string>
-					<string>Dense Crystalline Ice Formations</string>
+					<string>Kavernen mit monomischem Wasser</string>
+					<string>Dichte kristalline Eisgebilde</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3926,8 +3926,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.08</AppearanceChance>
 				<Descriptions>
-					<string>Extensive Ice Tunnel Network</string>
-					<string>Deep Ice Caverns</string>
+					<string>Ausgedehntes Netz von Eistunneln</string>
+					<string>Tiefe Eishöhlen</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4005,18 +4005,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
-			<string>are situated at the entrance to a vast network of ice tunnels</string>
-			<string>are half-buried under a thick glacial ice-sheet covering a wide valley</string>
+			<string>liegen tief in Schneeverwehungen auf dem Gipfel eines windgepeitschten Bergpasses</string>
+			<string>befinden sich in der Nähe des Randes einer eisigen Tundra-Einöde</string>
+			<string>befinden sich am Eingang zu einem riesigen Netz von Eistunneln</string>
+			<string>sind halb unter einer dicken Gletscherdecke begraben, die ein breites Tal bedeckt</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>23</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Deep Ocean</Name>
-		<Description>Deep Ocean planets are covered by vast oceans, often without any visible land.\n\nFar beneath the surface, deep underwater chasms conceal dark crevices and meandering tunnels. These rocky labyrinths can reach far down towards the planet core.</Description>
+		<Name>Tiefsee</Name>
+		<Description>Tiefseeplaneten sind von riesigen Ozeanen bedeckt, oft ohne sichtbares Land. Weit unter der Oberfläche verbergen sich in tiefen Unterwasserabgründen dunkle Spalten und gewundene Tunnel. Diese felsigen Labyrinthe können bis weit in den Planetenkern hineinreichen.</Description>
 		<ImageFilename>Environment/OrbTypes/DeepOcean</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/DeepOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/DeepOcean</FullsizeImageFilename>
@@ -4087,8 +4087,8 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>SuperDense Water Pockets</string>
-					<string>Very Deep Underwater Caverns</string>
+					<string>SuperDichte Wasserbeutel</string>
+					<string>Sehr tiefe Unterwasser-Höhlen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4097,8 +4097,8 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.027</AppearanceChance>
 				<Descriptions>
-					<string>Compressed Seismic Layers</string>
-					<string>Geomagnetic Anomaly</string>
+					<string>Komprimierte seismische Schichten</string>
+					<string>Geomagnetische Anomalie</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4107,9 +4107,9 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.15</AppearanceChance>
 				<Descriptions>
-					<string>Deep Underwater Tunnel Network</string>
-					<string>Coral Forest of {0}</string>
-					<string>Grand Underwater Cavern</string>
+					<string>Tiefes Unterwasser-Tunnelnetz</string>
+					<string>Korallenwald von {0}</string>
+					<string>Große Unterwasserhöhle</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4118,9 +4118,9 @@
 				<Maximum>0.08</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Deep Underwater Retreat</string>
-					<string>Dark Sea Abyss</string>
-					<string>Bottomless Undersea Labyrinth</string>
+					<string>Tiefes Unterwasser-Retreat</string>
+					<string>Dunkler Meeresabgrund</string>
+					<string>Bodenloses Unterwasser-Labyrinth</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4204,18 +4204,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
-			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
-			<string>are submerged in the shallow water atop a sub-oceanic ridge</string>
-			<string>are submerged deep underwater amidst a network of ocean ridges</string>
+			<string>auf einer felsigen Insel sitzen, die von riesigen Sturmwellen aus dem Meer umspült wird</string>
+			<string></string>
+			<string>sind im flachen Wasser auf einem subozeanischen Bergrücken untergetaucht</string>
+			<string>befinden sich tief unter Wasser inmitten eines Netzwerks von Meereskämmen</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>24</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Brown Dwarf</Name>
-		<Description>Brown Dwarfs are very large gas giant planets that lack enough mass to collapse into a proper star.\n\nHowever they are dense enough to sustain a low level of nuclear fusion, and thus emit some light and energy as they burn some of their surface gases.\n\nThey can sometimes be a source of Caslon, the universal reactor fuel. Their unusual characteristics can also often provide research bonuses.</Description>
+		<Name>Brauner Zwerg-</Name>
+		<Description>Braune Zwerge sind sehr große Gasriesenplaneten, die nicht genug Masse haben, um zu einem richtigen Stern zu kollabieren. Sie sind jedoch dicht genug, um ein geringes Maß an Kernfusion aufrechtzuerhalten und geben daher etwas Licht und Energie ab, wenn sie einige ihrer Oberflächengase verbrennen. Ihre ungewöhnlichen Eigenschaften sind oft auch für die Forschung von Vorteil.</Description>
 		<ImageFilename>Environment/OrbTypes/BrownDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BrownDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BrownDwarf</FullsizeImageFilename>
@@ -4281,9 +4281,9 @@
 				<Maximum>0.35</Maximum>
 				<AppearanceChance>0.044</AppearanceChance>
 				<Descriptions>
-					<string>Gravimetric Distortion</string>
-					<string>Turbulent Plasma Flow</string>
-					<string>Magnetic Storm</string>
+					<string>Gravimetrische Verzerrung</string>
+					<string>Turbulenter Plasmafluss</string>
+					<string>Magnetischer Sturm</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4292,9 +4292,9 @@
 				<Maximum>0.35</Maximum>
 				<AppearanceChance>0.033</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Anomaly</string>
-					<string>Plasma Fireballs</string>
-					<string>Plasma Lightning</string>
+					<string>Magnetische Anomalie</string>
+					<string>Plasma-Feuerkugeln</string>
+					<string>Plasma-Blitz</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4303,9 +4303,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.2</AppearanceChance>
 				<Descriptions>
-					<string>Plasma Rings of {0}</string>
-					<string>Spectacular Plasma Discharges</string>
-					<string>Gaseous Flow Vortex</string>
+					<string>Plasma-Ringe von {0}</string>
+					<string>Spektakuläre Plasma-Entladungen</string>
+					<string>Gasförmige Strömung Wirbel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4382,8 +4382,8 @@
 	<OrbType>
 		<OrbTypeId>25</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Rocky Metallic</Name>
-		<Description>Rocky Metallic planets have no breathable atmosphere. They are often rich in deposits of metal ores.\n\nStark, shadowy mountains tower above dusty star-lit plains. Deep canyons and crevices conceal dark caves and tunnels.\n\nRocky Metallic planets are quite inhospitable and are never suitable to be colonized.</Description>
+		<Name>Metall-Fels</Name>
+		<Description>Metallische Felsplaneten haben keine atembare Atmosphäre. Sie sind oft reich an Ablagerungen von Metallerzen.\n\nStarke, schattige Berge erheben sich über staubige, von Sternen erleuchtete Ebenen. Tiefe Schluchten und Spalten verbergen dunkle Höhlen und Tunnel.\n\nFelsige Metallplaneten sind recht unwirtlich und eignen sich niemals für eine Kolonisierung.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyMetallic</LandscapeImageFilename>
@@ -4450,9 +4450,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.007</AppearanceChance>
 				<Descriptions>
-					<string>Dense Metallic Pockets</string>
-					<string>Metallic Lattice Networks</string>
-					<string>Compressed Ore Structures</string>
+					<string>Dichte Metallic-Taschen</string>
+					<string>Metallische Gitternetze</string>
+					<string>Komprimierte Erz-Strukturen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4461,9 +4461,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.007</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Anomaly</string>
-					<string>Gravimetric Distortion</string>
-					<string>Magnetic Field Polarization</string>
+					<string>Magnetische Anomalie</string>
+					<string>Gravimetrische Verzerrung</string>
+					<string>Magnetische Feldpolarisation</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4529,16 +4529,16 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
+			<string>sitzen in der Mitte einer schattigen, sternbeleuchteten Ebene</string>
+			<string>liegen auf dem Grund eines trostlosen, felsigen Tals</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>26</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Rocky Ice</Name>
-		<Description>Rocky Ice planets have no breathable atmosphere. They sometimes have deposits of frozen Tyderios gas.\n\nVast plains of ice and snow are interspersed with fields of dust and rocks.\n\nRocky Ice planets are quite inhospitable and are never suitable to be colonized.</Description>
+		<Name>Eis-Fels</Name>
+		<Description>Felseneisplaneten haben keine atembare Atmosphäre. Manchmal gibt es dort Ablagerungen von gefrorenem Tyderios-Gas. Weite Ebenen aus Eis und Schnee sind mit Feldern aus Staub und Gestein durchsetzt.\n\nFelsige Eisplaneten sind recht unwirtlich und eignen sich niemals für eine Besiedlung.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyIce</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyIce</LandscapeImageFilename>
@@ -4607,8 +4607,8 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.0085</AppearanceChance>
 				<Descriptions>
-					<string>Icy Silicate Deposits</string>
-					<string>Densified Frozen Gases</string>
+					<string>Eisige Silikatvorkommen</string>
+					<string>Verdichtete gefrorene Gase</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4656,17 +4656,17 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
-			<string>are located on the edge of an icy plain</string>
+			<string>sitzen in der Mitte einer schattigen, sternbeleuchteten Ebene</string>
+			<string>liegen auf dem Grund eines trostlosen, felsigen Tals</string>
+			<string>befinden sich am Rande einer eisigen Ebene</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>27</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Mangrove Forest</Name>
-		<Description>Mangrove Forest planets are covered by swampy wetlands packed with dense mangrove thickets.\n\nElevated, dry land is rare. Instead marshy jungles sink into shallow seas.</Description>
+		<Name>Mangroven-Wald</Name>
+		<Description>Mangrovenwälder sind von sumpfigen Feuchtgebieten mit dichtem Mangroven-Dickicht bedeckt.\n\nErhöhtes, trockenes Land ist selten. Stattdessen versinken sumpfige Dschungel in flachen Meeren.</Description>
 		<ImageFilename>Environment/OrbTypes/MangroveForest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MangroveForest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MangroveForest</FullsizeImageFilename>
@@ -4743,10 +4743,10 @@
 				<Maximum>0.10</Maximum>
 				<AppearanceChance>0.1</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Great Mangrove Swamp</string>
-					<string>Vast Swampy Jungle</string>
-					<string>Swampy Caverns of {0}</string>
+					<string>Ringe von {0}</string>
+					<string>Großer Mangrovensumpf</string>
+					<string>Riesiger sumpfiger Dschungel</string>
+					<string>Sumpfige Höhlen von {0}</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4755,9 +4755,9 @@
 				<Maximum>0.20</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Rich Biological Ecosystem</string>
-					<string>Rare Plant Nutrients</string>
-					<string>Vast Fungal Forest</string>
+					<string>Reiches biologisches Ökosystem</string>
+					<string>Seltene Pflanzennährstoffe</string>
+					<string>Riesiger Pilzwald</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4766,8 +4766,8 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Deep Crustal Sinkholes</string>
-					<string>Highly Porous Mantle</string>
+					<string>Tiefe Erdkrusten-Sinklöcher</string>
+					<string>Hochgradig poröser Mantel</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -4851,19 +4851,19 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are surrounded by lush jungle</string>
-			<string>are situated on a reed-covered island in the middle of a marshy bog</string>
-			<string>are located in a clearing in the heart of a swampy jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
+			<string>sind von üppigem Dschungel umgeben</string>
+			<string>befinden sich auf einer schilfbewachsenen Insel inmitten eines sumpfigen Moors</string>
+			<string>befinden sich auf einer Lichtung im Herzen eines sumpfigen Dschungels</string>
+			<string>sitzen Sie auf einer grasbewachsenen Lichtung am Flussufer vor einem großen Wasserfall</string>
+			<string>sind halb vergraben im Unterholz in der Nähe einer riesigen sumpfigen Einöde</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>28</OrbTypeId>
 		<Category>Star</Category>
-		<Name>Blue Giant</Name>
-		<Description>Blue Giant star systems often contain an abundance of planets, some of which are habitable.</Description>
+		<Name>Blauer Riese</Name>
+		<Description>Blaue-Riesen-Sternsysteme enthalten oft eine Fülle von Planeten, von denen einige bewohnbar sind.</Description>
 		<ImageFilename>Environment/OrbTypes/BlueGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlueGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlueGiant</FullsizeImageFilename>
@@ -4911,10 +4911,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.02</AppearanceChance>
 				<Descriptions>
-					<string>Dense Plasma Vortices</string>
-					<string>Magnetic Inversion Fields</string>
-					<string>Unstable Neutron Surges</string>
-					<string>Turbulent Energy Oscillations</string>
+					<string>Dichte Plasmawirbel</string>
+					<string>Magnetische Inversionsfelder</string>
+					<string>Instabile Neutronenstöße</string>
+					<string>Turbulente Energie Oszillationen</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -4923,10 +4923,10 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.037</AppearanceChance>
 				<Descriptions>
-					<string>Stable Gravimetric Pulses</string>
-					<string>Powerful Magnetic Bursts</string>
-					<string>Streaming Plasma Eruptions</string>
-					<string>Antimatter Plasma Torrents</string>
+					<string>Stabile gravimetrische Pulse</string>
+					<string>Leistungsstarke magnetische Ausbrüche</string>
+					<string>Strömende Plasmaeruptionen</string>
+					<string>Antimaterie Plasmaströme</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -5055,8 +5055,8 @@
 	<OrbType>
 		<OrbTypeId>29</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Carbonaceous</Name>
-		<Description>Carbonaceous planets have smoldering volcanoes and extensive geothermal activity.\n\nThe air is typically thick with smoke and ash. They often have large lakes of methane and other hydrocarbons.</Description>
+		<Name>Kohlenstoff</Name>
+		<Description>Auf kohlenstoffhaltigen Planeten gibt es schwelende Vulkane und umfangreiche geothermische Aktivitäten. Die Luft ist typischerweise dick mit Rauch und Asche. Sie haben oft große Seen aus Methan und anderen Kohlenwasserstoffen.</Description>
 		<ImageFilename>Environment/OrbTypes/Carbonaceous</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Carbonaceous</FullsizeImageFilename>
@@ -5127,11 +5127,11 @@
 				<Maximum>0.08</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Rings of {0}</string>
-					<string>Great Hydrocarbon Geyser</string>
-					<string>Smoke Crater of {0}</string>
-					<string>Grand Valley of Steam Vents</string>
-					<string>Lava Caverns of {0}</string>
+					<string>Ringe von {0}</string>
+					<string>Großer Kohlenwasserstoff-Geysir</string>
+					<string>Rauchkrater von {0}</string>
+					<string>Grand Valley der Dampfentlüftung</string>
+					<string>Lava-Höhlen von {0}</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -5140,8 +5140,8 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.025</AppearanceChance>
 				<Descriptions>
-					<string>Super Hard Molten Formations</string>
-					<string>Carbonized Magma Flows</string>
+					<string>Superharte geschmolzene Formationen</string>
+					<string>Karbonisierte Magmaströme</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -5150,8 +5150,8 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.025</AppearanceChance>
 				<Descriptions>
-					<string>Super Hard Molten Formations</string>
-					<string>Carbonized Magma Flows</string>
+					<string>Superharte geschmolzene Formationen</string>
+					<string>Karbonisierte Magmaströme</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -5160,9 +5160,9 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.03</AppearanceChance>
 				<Descriptions>
-					<string>Magma Distortion</string>
-					<string>Hot Densified Methane Pockets</string>
-					<string>Molten Glass Formations</string>
+					<string>Magma-Verzerrung</string>
+					<string>Heiße verdichtete Methantaschen</string>
+					<string>Formationen aus geschmolzenem Glas</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -5234,19 +5234,19 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a hydrocarbon lake</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are in a rocky valley littered with shards of hardened molten glass</string>
-			<string>are located next to a molten river of lava</string>
-			<string>are situated on a vast plain covered in thick black soot and ash</string>
+			<string>auf einem steinernen Felsvorsprung mit Blick auf einen Kohlenwasserstoffsee sitzen</string>
+			<string>liegen inmitten einer riesigen felsigen Ebene, die mit Tausenden von geothermischen Dampfschloten übersät ist</string>
+			<string>befinden sich in einem felsigen Tal, das mit Scherben von gehärtetem geschmolzenem Glas übersät ist</string>
+			<string>befinden sich neben einem geschmolzenen Fluss aus Lava</string>
+			<string>liegen auf einer weiten Ebene, die mit dichtem schwarzen Ruß und Asche bedeckt ist</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>30</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Sulphur Volcanic</Name>
-		<Description>Sulphur Volcanic planets are covered in thick layers of sulphur oxides, giving their distinctive yellow-orange appearance.\n\nVolcanic vents spew tall plumes of sulphur into the atmosphere, spreading the material across the planet surface. Corrosive clouds of acid consume most other materials, leaving behind nothing but vast plains of yellow sulphur snow.</Description>
+		<Name>Schwefel-Vulkan</Name>
+		<Description>Schwefel Vulkanische Planeten sind mit dicken Schichten von Schwefeloxiden bedeckt, die ihnen ihr charakteristisches gelb-oranges Aussehen verleihen. Vulkanische Schlote spucken hohe Schwefelschwaden in die Atmosphäre und verteilen das Material über die Planetenoberfläche. Ätzende Säurewolken verzehren die meisten anderen Materialien und hinterlassen nichts als weite Ebenen mit gelbem Schwefelschnee.</Description>
 		<ImageFilename>Environment/OrbTypes/SulphurVolcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SulphurVolcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SulphurVolcanic</FullsizeImageFilename>
@@ -5317,11 +5317,11 @@
 				<Maximum>0.08</Maximum>
 				<AppearanceChance>0.05</AppearanceChance>
 				<Descriptions>
-					<string>Sulphur Rings of {0}</string>
-					<string>Great Sulphur Geyser</string>
-					<string>Grand Valley of Steam Vents</string>
-					<string>Vast Burning Sulphur Lake</string>
-					<string>Sulphur Caverns of {0}</string>
+					<string>Schwefel-Ringe von {0}</string>
+					<string>Großer Schwefelgeysir</string>
+					<string>Grand Valley der Dampfentlüftung</string>
+					<string>Großer brennender Schwefelsee</string>
+					<string>Schwefelkavernen von {0}</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -5330,9 +5330,9 @@
 				<Maximum>0.25</Maximum>
 				<AppearanceChance>0.03</AppearanceChance>
 				<Descriptions>
-					<string>Magma Distortion</string>
-					<string>Sulphur Ceramic Formations</string>
-					<string>Molten Glass Formations</string>
+					<string>Magma-Verzerrung</string>
+					<string>Schwefelkeramische Formationen</string>
+					<string>Formationen aus geschmolzenem Glas</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -5404,18 +5404,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a firey lake of sulphur</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are in a rocky valley littered with shards of hardened molten glass</string>
-			<string>are situated on a vast plain deeply covered in bright yellow sulphur</string>
+			<string>sitzen auf einem steinernen Vorsprung mit Blick auf einen feurigen Schwefelsee</string>
+			<string>liegen inmitten einer riesigen felsigen Ebene, die mit Tausenden von geothermischen Dampfschloten übersät ist</string>
+			<string>befinden sich in einem felsigen Tal, das mit Scherben von gehärtetem geschmolzenem Glas übersät ist</string>
+			<string>befinden sich in einer weiten Ebene, die tief mit leuchtend gelbem Schwefel bedeckt ist.</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>31</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Ice Asteroid</Name>
-		<Description>Ice Asteroids are frozen rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
+		<Name>Eis-Asteroid</Name>
+		<Description>Eis-Asteroiden sind gefrorene felsige Trümmer, die oft reich an Metallerzen sind. Größere Asteroiden können ausgedehnte Netzwerke von Tunneln und Höhlen verbergen. Sie sind in den meisten Sternensystemen zu finden, oft allein, aber manchmal auch als Teil großer Asteroidenfelder.</Description>
 		<ImageFilename>Environment/OrbTypes/IceAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5529,16 +5529,16 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep ice canyon</string>
-			<string>are buried under a thick sheet of ice</string>
+			<string>sind in die Wand einer tiefen Eisschlucht eingelassen</string>
+			<string>sind unter einer dicken Eisschicht begraben</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>32</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Metallic Asteroid</Name>
-		<Description>Metallic Asteroids are rocky debris, often rich with metal ores. Larger asteroids can conceal extensive networks of tunnels and caves.\n\nThey can be found in most star systems, often alone, but sometimes as part of large asteroid fields.\n\nAsteroids are never hospitable enough to be colonized.</Description>
+		<Name>Metall-Asteroid</Name>
+		<Description>Metallische Asteroiden sind felsige Trümmer, die oft reich an Metallerzen sind. Größere Asteroiden können ausgedehnte Netzwerke von Tunneln und Höhlen verbergen. Sie sind in den meisten Sternensystemen zu finden, oft allein, aber manchmal auch als Teil großer Asteroidenfelder.</Description>
 		<ImageFilename>Environment/OrbTypes/MetallicAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5613,9 +5613,9 @@
 				<Maximum>0.18</Maximum>
 				<AppearanceChance>0.0014</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Anomaly</string>
-					<string>Unusual Ore Concentrations</string>
-					<string>Gravimetric Distortion</string>
+					<string>Magnetische Anomalie</string>
+					<string>Ungewöhnliche Erzkonzentrationen</string>
+					<string>Gravimetrische Verzerrung</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -5669,14 +5669,14 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>sind in die Wand eines tiefen Canyons eingelassen</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
 	<OrbType>
 		<OrbTypeId>33</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_01</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_01</LargeImageFilename>
@@ -5787,7 +5787,7 @@
 	<OrbType>
 		<OrbTypeId>34</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_02</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_02</LargeImageFilename>
@@ -5898,7 +5898,7 @@
 	<OrbType>
 		<OrbTypeId>35</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_03</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_03</LargeImageFilename>
@@ -6009,7 +6009,7 @@
 	<OrbType>
 		<OrbTypeId>36</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_04</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_04</LargeImageFilename>
@@ -6120,7 +6120,7 @@
 	<OrbType>
 		<OrbTypeId>37</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_05</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_05</LargeImageFilename>
@@ -6231,7 +6231,7 @@
 	<OrbType>
 		<OrbTypeId>38</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Shard</Name>
+		<Name>Zerstörte Planetenscherbe</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_06</LargeImageFilename>
@@ -6343,7 +6343,7 @@
 	<OrbType>
 		<OrbTypeId>39</OrbTypeId>
 		<Category>Asteroid</Category>
-		<Name>Destroyed Planet Asteroid</Name>
+		<Name>Zerstörter Planet Asteroid</Name>
 		<Description></Description>
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06_Large</LargeImageFilename>
@@ -6423,9 +6423,9 @@
 				<Maximum>0.13</Maximum>
 				<AppearanceChance>0.0014</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Anomaly</string>
-					<string>Unusual Ore Concentrations</string>
-					<string>Gravimetric Distortion</string>
+					<string>Magnetische Anomalie</string>
+					<string>Ungewöhnliche Erzkonzentrationen</string>
+					<string>Gravimetrische Verzerrung</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -6478,7 +6478,7 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>sind in die Wand eines tiefen Canyons eingelassen</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -6623,10 +6623,10 @@
 		<PossibleResources>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
-			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
-			<string>overlook a long sandy beach constantly washed by gentle waves</string>
-			<string>lie overgrown with vines and greenery in the midst of a dense tropical jungle</string>
+			<string>sitzt auf einer felsigen Insel, die von riesigen Sturmwellen des umgebenden Meeres gepeitscht wird</string>
+			<string>Halb versunken auf einem riesigen Riff mitten in einem endlosen Ozean liegen</string>
+			<string>Sie blicken auf einen langen Sandstrand, der ständig von sanften Wellen gespült wird</string>
+			<string>überwuchert von Ranken und Grün inmitten eines dichten tropischen Dschungels</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 -->

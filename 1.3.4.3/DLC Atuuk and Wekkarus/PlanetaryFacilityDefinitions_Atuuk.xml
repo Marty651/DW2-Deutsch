@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>129</PlanetaryFacilityDefinitionId> <!-- Collection of Great Things -->
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerGalaxy>1</MaximumBuildCountPerGalaxy>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<FacilityFamilyId>67</FacilityFamilyId>
+		<Name>Sammlung großer Dinge</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/collection of great things</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>130</PlanetaryFacilityDefinitionId> <!-- Intergalactic Welcome Center -->
+		<EmpireBonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>25000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<FacilityFamilyId>68</FacilityFamilyId>
+		<EmpireMigrationFactor>1</EmpireMigrationFactor>
+		<Name>Intergalaktisches Willkommenszentrum</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/intergalactic welcome center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

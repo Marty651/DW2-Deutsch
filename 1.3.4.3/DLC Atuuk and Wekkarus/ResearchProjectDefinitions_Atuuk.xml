@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResearchProjectDefinition>
+		<ResearchProjectId>535</ResearchProjectId>
+		<Name>Alte Freunde entdeckt</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>380160</Size>
+		<InitiationCost>
+			<Money>50000</Money>
+		</InitiationCost>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>283</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<DiplomacyFactors>
+			<EmpireIncidentFactor>
+				<Type>Undefined</Type>
+				<Description>Ihre Erkenntnisse über die Vergangenheit haben unsere Beziehungen verbessert</Description>
+				<Amount>10</Amount>
+				<DecayRate>0</DecayRate>
+				<TargetValue>10</TargetValue>
+				<AdditionalValue>0</AdditionalValue>
+			</EmpireIncidentFactor>
+		</DiplomacyFactors>
+		<DiplomacyFactorRaceIds>
+			<unsignedByte>0</unsignedByte> <!-- Human -->
+			<unsignedByte>1</unsignedByte> <!-- Ackdarian -->
+			<unsignedByte>5</unsignedByte> <!-- Ikkuro -->
+			<unsignedByte>7</unsignedByte> <!-- Zenox -->
+		</DiplomacyFactorRaceIds>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>923</ResearchProjectId>
+		<Name>Großartige-Dinge-Ausstellung</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>1760</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>202</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>451</ResearchProjectId> <!-- Structured Research -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>444</ResearchProjectId> <!-- Large Cargo Storage -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>129</short> <!-- Collection of Great Things -->
+		</PlanetaryFacilityIds>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>924</ResearchProjectId>
+		<Name>Neue Freunde willkommen heißen</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>880</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId> <!-- Steel -->
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>202</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>413</ResearchProjectId> <!-- Recreation Systems -->
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>130</short> <!-- Intergalactic Welcome Center -->
+		</PlanetaryFacilityIds>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
+	</ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

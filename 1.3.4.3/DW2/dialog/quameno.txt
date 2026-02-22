@@ -1,0 +1,68 @@
+
+
+GREETING_INTRODUCTION			;Wir sind die {0}.\n\nWir streben nach Verständnis für alle in der Galaxie, einschließlich Ihres einzigartigen Imperiums.\n\nBitte erzählen Sie uns etwas über sich
+GREETING_FRIENDLY			;Liebe Freunde, worüber möchten Sie mit uns sprechen?
+GREETING_NEUTRAL			;Können wir etwas für Sie tun?
+GREETING_ANGRY				;Sie stellen unsere Geduld auf die Probe.\n\nErläutern Sie Ihr Unternehmen schnell
+
+GIFT_PROPOSE				;Was für ein Geschenk haben Sie im Sinn?
+GIFT_THANKS_ANGRY				;Wir nehmen Ihr kleines Geschenk an
+GIFT_THANKS_NEUTRAL				;Wir danken Ihnen für Ihr Geschenk
+GIFT_THANKS_FRIENDLY				;Ihr freundliches Geschenk wurde sehr geschätzt. Danke schön!
+
+OFFER_DEAL				;Würden Sie diesen Handel annehmen?
+PIRATEPROTECTION_DEAL				;In den kalten, dunklen Tiefen des Weltraums kann es sehr gefährlich sein. Ihre Schiffe oder Stützpunkte könnten angegriffen werden oder Schlimmeres.\n\nFür die sehr günstige monatliche Gebühr von {0} Credits können wir dafür sorgen, dass Sie sicher bleiben, zumindest vor uns.\n\nWas sagen Sie?
+DEAL_BEGIN				;Was schlägst du vor?
+DEAL_ACCEPT				;Dieser Deal macht Sinn – wir akzeptieren ihn
+DEAL_ACCEPT_RESPONSE		;Großartig!
+DEAL_REJECT_RESPONSE		;Wie unlogisch und traurig
+DEAL_REJECT				;Dieser Deal geht nicht auf – wir lehnen ihn ab
+
+TREATY_PROPOSAL				;Ein Vertragsvorschlag? Wir sind gespannt auf Ihre Idee
+TREATY_ACCEPTRESPONSE			;Wir freuen uns sehr über Ihre Aufnahme, unser neuer Verbündeter.\n\nSie können uns jederzeit Ihre Gedanken mitteilen
+TREATY_REJECTRESPONSE			;Vielleicht werden Sie ein anderes Mal anders empfinden
+PROTECTION_ACCEPTRESPONSE		;Du bist logisch. Wir freuen uns auf Ihre monatlichen Zahlungen
+PROTECTION_REJECTRESPONSE		;Das macht keinen Sinn. Jetzt bezahlen ist günstiger als später bezahlen...
+
+SWAP_MAPS		;Welche Art von Karte möchten Sie tauschen?
+
+WAR_END_ACCEPT				;Ja, dieser Krieg hat keinen Zweck. Wir befehlen unseren Streitkräften, die Kämpfe einzustellen
+WAR_END_REJECT				;Für Frieden ist es jetzt zu spät.\n\nDieser Krieg wird weitergehen, bis du besiegt bist
+WAR_END_ACCEPT_RESPONSE			;Eine logische Wahl. Unsere Streitkräfte ziehen sich jetzt zurück
+
+WAR_END_ACCEPT_BECOMEVASSAL				;Wir stimmen zu, Ihr Vasall zu werden. Wir werden die Feindseligkeiten sofort einstellen und mit unseren monatlichen Tributzahlungen beginnen
+WAR_END_REJECT_BECOMEVASSAL				;Nein, wir weigern uns, uns als Ihr Vasall zu unterwerfen
+WAR_END_ACCEPT_ACCEPTVASSAL				;Wir stimmen Ihrer Kapitulation und Unterwerfung als unserem Vasallen zu. Wir freuen uns über Ihre monatlichen Tributzahlungen
+WAR_END_REJECT_ACCEPTVASSAL				;Nein, wir lehnen Ihr Angebot der Unterwerfung als unser Vasall ab. Dieser Krieg ist noch nicht vorbei
+
+WAR_DECLARE_RESPONSE_ANGRY		;Es kommt nicht oft vor, dass wir den Krieg suchen. Aber in Ihrem Fall begrüßen wir es.\n\nWir erwarten Ihre baldige Niederlage
+WAR_DECLARE_RESPONSE_NEUTRAL		;Wir mögen friedlich sein, aber wir sind auch vorbereitet.\n\nWenn Sie den Krieg suchen, werden wir ihn Ihnen geben
+WAR_DECLARE_RESPONSE_FRIENDLY		;Wir verstehen Ihre Aggression nicht.\n\nWir werden uns verteidigen, aber wir flehen Sie an, noch einmal darüber nachzudenken
+
+TREATY_ACCEPT			;Wir nehmen Ihr Angebot von {0} an
+TREATY_REJECT			;Nein, wir wollen {0} im Moment nicht
+TREATY_REJECT_TOOSOON_NEUTRAL			;Es tut uns leid, aber {0} mit Ihnen würde im Moment nicht funktionieren. Es ist zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_ANGRY			;Wir haben kein Interesse an {0} mit Ihnen. Außerdem ist es zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_FRIENDLY			;Es tut uns leid, Freund, aber {0} mit dir wäre im Moment nicht für uns geeignet. Es ist zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_ACCEPT_NEUTRAL			;{0} bei dir? Wir nehmen es gerne an!\n\nWir werden es unseren Botschaftern überlassen, die Einzelheiten des Vertrags für uns auszuarbeiten
+TREATY_REJECT_NEUTRAL			;Es tut uns leid, aber {0} mit Ihnen würde im Moment nicht funktionieren.\n\nSie können es später aber jederzeit noch einmal versuchen
+TREATY_ACCEPT_ANGRY			;Wir nehmen Ihr Angebot von {0} an. Aber verstehen Sie sich nicht falsch – wir mögen Sie immer noch nicht besonders
+TREATY_REJECT_ANGRY			;Wir haben kein Interesse an {0} mit Ihnen
+TREATY_ACCEPT_FRIENDLY			;{0} bei dir? Wir nehmen es gerne an!\n\nWir werden es unseren Botschaftern überlassen, die Einzelheiten des Vertrags für uns auszuarbeiten
+TREATY_REJECT_FRIENDLY			;Es tut uns leid, Freund, aber {0} mit dir wäre im Moment nicht für uns geeignet.\n\nVielleicht sollten wir dieses Thema zu einem späteren Zeitpunkt noch einmal aufgreifen
+
+PROTECTION_ACCEPT		;Wir nehmen Ihren Antrag auf Schutz entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_NEUTRAL		;Wir nehmen Ihren Antrag auf Schutz entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_ACCEPT_ANGRY		;Exzellent! Unser „Schutz“ kostet Sie {0} Credits pro Monat. Du darfst jetzt gehen
+PROTECTION_ACCEPT_FRIENDLY		;Wir nehmen Ihr sinnvolles Schutzgesuch entgegen. Die monatliche Gebühr beträgt {0} Credits
+PROTECTION_REJECT			;Nein, wir sind derzeit nicht an Schutz interessiert
+PROTECTION_REJECT_NEUTRAL		;Nein, es wäre zu viel Arbeit, dich zu beschützen
+PROTECTION_REJECT_ANGRY		;Nein, wir wollen Sie nicht schützen. Viel lieber würden wir Sie überfallen
+PROTECTION_REJECT_FRIENDLY		;Nein, wir wollen keine Schutzvereinbarung mit Ihnen
+
+CANCELTREATY_RESPONSE_FRIENDLY		;Das enttäuscht uns. Wir waren der Meinung, dass sich dieser Vertrag am meisten gelohnt hat.\n\nAber wir respektieren Ihre Entscheidung, ihn zu beenden
+CANCELTREATY_RESPONSE_NEUTRAL		;Wie bedauerlich.\n\nAber es ist gut, in diesen wichtigen Angelegenheiten offen miteinander zu sprechen
+CANCELTREATY_RESPONSE_ANGRY		;Ihre Gefühle stimmen mit unseren überein – auch wir wollen diesen Vertrag nicht mehr.\n\nAm besten endet er
+CANCELPROTECTION_RESPONSE_FRIENDLY		;Wie unlogisch. Wir dachten, dass diese monatlichen Zahlungen zumindest für uns gut funktionierten
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Oh je, das ist bedauerlich für dich. Jetzt müssen wir andere Wege finden, um diese monatlichen Zahlungen zu erhalten ...
+CANCELPROTECTION_RESPONSE_ANGRY		;Du ergibst keinen Sinn. Jetzt werden wir diese Credits einfach auf andere Weise von Ihnen erhalten ...

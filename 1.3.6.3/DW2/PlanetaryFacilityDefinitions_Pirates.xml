@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>139</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>300</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.9</BombardmentResistance>
+		<GroundCombatResistance>0.8</GroundCombatResistance>
+		<ColonyInfluenceLevelToBuild>0.5</ColonyInfluenceLevelToBuild>
+		<ColonyInfluenceFloor>0.5</ColonyInfluenceFloor>
+		<ColonyInfluenceIncrease>0.02</ColonyInfluenceIncrease>
+		<ColonyInfluenceIncreaseLimit>0.6</ColonyInfluenceIncreaseLimit>
+		<ColonyInfluenceDefendingTroopStrength>200</ColonyInfluenceDefendingTroopStrength>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<FacilityFamilyId>72</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Versteckte Piratenbasis</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Hidden Pirate Base</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>140</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>25000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.95</BombardmentResistance>
+		<GroundCombatResistance>0.85</GroundCombatResistance>
+		<ColonyInfluenceLevelToBuild>0.75</ColonyInfluenceLevelToBuild>
+		<ColonyInfluenceFloor>0.75</ColonyInfluenceFloor>
+		<ColonyInfluenceIncrease>0.02</ColonyInfluenceIncrease>
+		<ColonyInfluenceIncreaseLimit>0.85</ColonyInfluenceIncreaseLimit>
+		<ColonyInfluenceDefendingTroopStrength>400</ColonyInfluenceDefendingTroopStrength>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyInfluenceIncome</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<FacilityFamilyId>72</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Versteckte Piratenfestung</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Hidden Pirate Fortress</ImageFilename>
+	</PlanetaryFacilityDefinition>
+
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>141</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>700</MaintenanceCost>
+		<Size>100</Size>
+		<BombardmentResistance>0.95</BombardmentResistance>
+		<GroundCombatResistance>0.85</GroundCombatResistance>
+		<ColonyInfluenceLevelToBuild>0.95</ColonyInfluenceLevelToBuild>
+		<ColonyInfluenceFloor>0.95</ColonyInfluenceFloor>
+		<ColonyInfluenceIncrease>0.02</ColonyInfluenceIncrease>
+		<ColonyInfluenceIncreaseLimit>1.0</ColonyInfluenceIncreaseLimit>
+		<ColonyInfluenceDefendingTroopStrength>1200</ColonyInfluenceDefendingTroopStrength>
+		<AllowPirateTransitionToStandard>true</AllowPirateTransitionToStandard>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyInfluenceIncome</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<FacilityFamilyId>72</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Kriminelles Netzwerk</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Criminal Network</ImageFilename>
+	</PlanetaryFacilityDefinition>
+
+</ArrayOfPlanetaryFacilityDefinition>

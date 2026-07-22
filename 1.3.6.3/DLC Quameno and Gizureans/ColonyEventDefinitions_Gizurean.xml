@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>66</ColonyEventDefinitionId> <!-- Scouring Unhappiness -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Unglück beseitigen</Name>
+		<Description>Unsere kürzliche 'Durchsuchung' dieser Kolonie hat die Zufriedenheit verringert</Description>
+		<ImageFilename>Environment/Events/the scouring</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>67</ColonyEventDefinitionId> <!-- Scouring Gizurean Population Growth -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Untersuchung des Bevölkerungswachstums der Gizurean</Name>
+		<Description>Unsere jüngste 'Säuberung' dieser Kolonie hat die Wachstumsrate der gizureanischen Bevölkerung in unserem gesamten Reich beschleunigt</Description>
+		<ImageFilename>Environment/Events/the scouring</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>68</ColonyEventDefinitionId> <!-- Tribal Conflict -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>11</unsignedByte> <!-- Gizurean -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Stammeskonflikt</Name>
+		<Description>Es sind Konflikte zwischen Stämmen ausgebrochen.\n\nDies hat das Bevölkerungswachstum der Gizurean in unserem ganzen Reich erhöht.\n\nAllerdings hat es auch das Glück im ganzen Reich verringert.\n\nWir gehen davon aus, dass dieser Stammeskonflikt zwischen ein und zwei Jahren andauern wird drei Jahre.</Description>
+		<ImageFilename>Environment/Events/tribe-wars</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>69</ColonyEventDefinitionId> <!-- Tasty Teekans -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Leckere Teekans</Name>
+		<ImageFilename>UserInterface/Races/Teekan</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>70</ColonyEventDefinitionId> <!-- Proud Gizureans -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Stolze Gizurean</Name>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>71</ColonyEventDefinitionId> <!-- Destroyed Dangerous Ship -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Zerstörtes gefährliches Schiff</Name>
+		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>72</ColonyEventDefinitionId> <!-- Shakturi Psionic Virus - Delta Variant -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/PsionicMindVirus</IconFilename>
+		<DurationMinimum>4</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<PopulationAmount>-0.08</PopulationAmount>
+		<ColonyHappiness>-15</ColonyHappiness>
+		<SpreadToOtherColoniesChance>0.5</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>150000000</SpreadToOtherColoniesRange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueModifiersPerRaceId>
+			<unsignedByte>20</unsignedByte> <!-- Shakturi -->
+		</PlagueModifiersPerRaceId>
+		<PlagueModifiersPerRaceAmount>
+			<float>0</float>
+		</PlagueModifiersPerRaceAmount>
+		<PlagueCuringFactor>1.5</PlagueCuringFactor>
+		<Name>Shakturi Psionisches Virus – Delta-Variante</Name>
+		<Description>Das Shakturi-Psi-Virus macht eine Spezies anfälliger für die psychischen Kräfte der Shakturi.\n\nDies ist eine besonders tödliche Variante.\n\nInfizierte Opfer unterliegen einer Form psychischer Suggestion, wodurch sie sich auf eine Weise verhalten, die die Ausbreitung des Virus maximiert. Daher ist das Shakturi Psionische Virus sehr ansteckend und kann sich schnell verbreiten.</Description>
+		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>73</ColonyEventDefinitionId> <!-- Breeding World -->
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Zuchtwelt</Name>
+		<Description>Wir vernichten ausländische Populationen in unserer Kolonie {0} und bieten eine schmackhafte Nahrungsquelle für eine neue Generation von Gizureanern!\n\nJede Brutwelt in unserem Imperium bietet einen kumulativen [BONUS]+10 % Bonus auf die Wachstumsrate der Gizurean-Bevölkerung[/ BONUS].</Description>
+		<ImageFilename>Environment/Events/breeding world</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>41</ArtifactId> <!-- Ancient Guardian Development Drone -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Entwicklungsdrohne des Alten Wächters</Name>
+		<Description>Eine Drohne, die den Wiederaufbau von Kolonien unterstützen soll, die im Krieg von den Shakturi zerstört wurden. Sie beschleunigt den Aufbau der Infrastruktur und der Wirtschaftszentren und verhilft so der Kolonie zu einem schnelleren Aufschwung. Die Drohne widersetzt sich aktiv allen Versuchen, ihre Technologie zu analysieren. Ihre Konstrukteure haben große Anstrengungen unternommen, um sicherzustellen, dass sie nicht nachgebaut werden kann.</Description>
+		<ImageFilename>Artifacts/ancient guardian development drone</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>42</ArtifactId> <!-- World Improvement Plan X-1084-W -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Weltverbesserungsplan X-1084-W</Name>
+		<Description>Ein Datenkristall, der Informationen enthält, die sowohl die grundlegende Entwicklung von Kolonien als auch die Entwicklung und Instandhaltung fortgeschrittener Einrichtungen erleichtern sollen. Er wurde während des Shakturi-Krieges verfasst und scheint eine Zeit vorwegzunehmen, in der die Galaxie nach einem vollständigen Zusammenbruch der Zivilisation wieder aufgebaut werden muss. Dennoch konzentriert sich der Text auf praktische Verfahren und ist völlig frei von Gefühlen.</Description>
+		<ImageFilename>Artifacts/world improvement plan x-1084-w</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>43</ArtifactId> <!-- Unveiling Crystal -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Enthüllungskristall</Name>
+		<Description>Welches rationale Wesen kann einen Gegenstand von Shakturi-Design ergründen? Es enthält keine Elemente der Technologie, wie wir sie kennen. Es ist nur ein Gewirr sich kreuzender Kristalle, und doch wird dieses Gerät uns erlauben, die Sensorwerte in unserem ganzen Reich zu verbessern. Was könnten die Shakturi sonst noch tun?</Description>
+		<ImageFilename>Artifacts/Unveiling Crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>44</ArtifactId> <!-- Secrets of the Builders -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Geheimnisse der Baumeister</Name>
+		<Description>Maschinen denken nicht so, wie es organische Wesen verstehen können. Die Entscheidung der Alten Wächter, wissenserhaltende Gewölbe zu errichten, wurde über einen unvorstellbar langen Zeitraum hinweg getroffen. Es geschah auch in einem Wimpernschlag. Versucht nicht zu ergründen, wie diese beiden Dinge wahr sein können. Ihr müsst einfach akzeptieren, dass es so ist.
+
+Als die alten Wächter die Bedeutung der Bewahrung des galaktischen Wissens erkannten, begannen sie, Gewölbe mit einer für organische Wesen unvorstellbaren Geschwindigkeit zu errichten. Viele ihrer Techniken sind nur für maschinelle Intelligenzen anwendbar, aber ein kleiner Teil ihrer Weisheit kann an biologische Wesen weitergegeben werden, um ihnen bei ihren eigenen Konstruktionsbemühungen zu helfen</Description>
+		<ImageFilename>Artifacts/Secrets of the Builders</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

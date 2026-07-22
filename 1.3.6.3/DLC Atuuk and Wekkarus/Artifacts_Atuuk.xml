@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>63</ArtifactId> <!-- The Soldiers' Anthem -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
+		<Name>Die Hymne der Soldaten</Name>
+		<Description>Dieses Audiowiedergabegerät enthält eine einzige Aufnahme von bemerkenswerter Klangtreue. Viele Spezies werden nicht in der Lage sein, den Text zu entziffern, aber alle, die zuhören, werden mit Mut erfüllt und zu neuen Höhen der kriegerischen Fähigkeiten inspiriert.</Description>
+		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>64</ArtifactId> <!-- Tactical Bombardment Computer -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BombardmentDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Computer für taktische Bombardierung</Name>
+		<Description>Ein kleiner, tragbarer Computer mit einem Gehäuse, das der Ästhetik von Boskara entspricht. Dieses Gerät ist so konzipiert, dass es problemlos mit anderen Computersystemen verbunden werden kann, um die Effektivität der Bombardierung zu maximieren.</Description>
+		<ImageFilename>Artifacts/tactical bombardment computer</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>69</ArtifactId> <!-- The Figurine of Inspiring Heroes -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
+		<Name>Die Figur der inspirierenden Helden</Name>
+		<Description>Diese leichte Statuette zeigt eine wichtig aussehende Atuuk-Figur, die zufrieden nach außen blickt. Es gibt sichtbare Nähte, wo Teile der Statuette zusammengefügt wurden. Dieses Relikt aus der alten Galaxie wäre ein hervorragendes Museumsstück und wird wahrscheinlich bei allen, die es betrachten, Freude und Staunen hervorrufen.</Description>
+		<ImageFilename>Artifacts/figurine of inspiring heroes</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>132</ColonyEventDefinitionId> <!-- We Reign Supreme -->
+		<Type>Undefined</Type>
+		<DurationMinimum>10</DurationMinimum>
+		<DurationMaximum>10</DurationMaximum>
+		<EmpireHappiness>0</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<Name>Wir herrschen über alles</Name>
+		<Description>Unsere Eroberung der Heimatwelt eines anderen Imperiums hat unsere Bevölkerung mit euphorischem Stolz erfüllt!</Description>
+		<ImageFilename>Environment/Events/Boskara We Reign Supreme</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>133</ColonyEventDefinitionId> <!-- Total War -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<MustNotBeAtWar>true</MustNotBeAtWar>
+		<RaceFilterIds>
+			<unsignedByte>6</unsignedByte>
+		</RaceFilterIds>
+		<EmpireHappiness>0</EmpireHappiness>
+		<DamagePerYear>0.05</DamagePerYear>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Bonuses>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<Name>Totaler Krieg</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/Boskara Total War</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>134</ColonyEventDefinitionId> <!-- War Spawning -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<RaceFilterIds>
+			<unsignedByte>6</unsignedByte>
+		</RaceFilterIds>
+		<EmpireHaveAnyCharacterAvailableWithTrait>Warspawn</EmpireHaveAnyCharacterAvailableWithTrait>
+		<MinimumPopulationAmount>1000000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
+		<GameEventName>War Spawning (Boskara)</GameEventName>
+		<EmpireHappiness>0</EmpireHappiness>
+		<DamagePerYear>0</DamagePerYear>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Kriegsplawning</Name>
+		<Description>Konvertiert 10% der Bevölkerung der Kolonie in 10 Infanterieeinheiten</Description>
+		<ImageFilename>Environment/Events/Boskara War Spawning</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

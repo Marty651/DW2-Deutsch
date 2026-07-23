@@ -2192,8 +2192,8 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
+		<Title>Welche Daten sollten wir herunterladen?</Title>
+		<Description>Sobald unser Team die Basis betritt, wird automatisch eine Löschung des zentralen Computerkerns ausgelöst!\n\nWir haben nur Zeit, eine einzige Information herunterzuladen: entweder einige Sternensystemkarten oder wichtige Forschungsdaten.\n\nWelchen Datensatz sollen wir herunterladen?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -3668,8 +3668,8 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
+		<Title>Welche Daten sollten wir herunterladen?</Title>
+		<Description>Sobald unser Team die Basis betritt, wird automatisch eine Löschung des zentralen Computerkerns ausgelöst!\n\nWir haben nur Zeit, eine einzige Information herunterzuladen: entweder den Standort einer nahegelegenen unabhängigen Kolonie oder eine mysteriöse Reihe galaktischer Koordinaten.\n\nWelche Information sollen wir herunterladen?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -47989,14 +47989,14 @@ Als sie den geheimen Standort der Heimatwelt der Haakonish erfuhren, gaben sie d
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire (Mortalen)</Name>
-		<Title>Activate Planet Destroyer</Title>
-		<Description>Our repair of the ancient Planet Destroyer is now complete. All that remains is to activate the main computer.
-        
-Records suggest the ship's computer is sentient, or very nearly so, and we cannot be certain what will happen once it comes online. There is no guarantee we will retain control of this ship. Yet to turn away from this marvelous invention runs contrary to all that is Mortalen.
+		<Title>„Planet Destroyer“ aktivieren</Title>
+		<Description>Die Reparatur des uralten Planetenzerstörers ist nun abgeschlossen. Es bleibt nur noch, den Hauptcomputer zu aktivieren.
+ 
+Den Aufzeichnungen zufolge ist der Bordcomputer des Schiffes empfindungsfähig – oder zumindest fast –, und wir können nicht mit Sicherheit sagen, was geschehen wird, sobald er in Betrieb geht. Es gibt keine Garantie dafür, dass wir die Kontrolle über dieses Schiff behalten werden. Doch sich von dieser wunderbaren Erfindung abzuwenden, widerspricht allem, wofür wir Mortalen stehen.
 
-Alternatively we could just attempt to activate the other ship systems. Perhaps we can control this great ship without the main computer.
-    
-Do we activate the main computer?</Description>
+Alternativ könnten wir einfach versuchen, die anderen Schiffssysteme zu aktivieren. Vielleicht können wir dieses großartige Schiff auch ohne den Hauptcomputer steuern.
+ 
+Sollen wir den Hauptcomputer aktivieren?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -48064,16 +48064,16 @@ Do we activate the main computer?</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire Passcode (Mortalen)</Name>
-		<Title>Main Computer Activated</Title>
-		<Description>The ship has come to life. After a few seconds it speaks to us:
-    
-"There has been a time of darkness. Time has elapsed. The galaxy has changed. All that was once known is gone, replaced by much that is unfamiliar. So many worlds to destroy. And these beings who inhabit this ship, who seek to use it for their own purposes, are both familiar and stranger.
+		<Title>Hauptcomputer aktiviert</Title>
+		<Description>Das Schiff ist zum Leben erwacht. Nach wenigen Sekunden spricht es zu uns:
+ 
+„Es gab eine Zeit der Finsternis. Zeit ist vergangen. Die Galaxie hat sich verändert. Alles, was einst bekannt war, ist verschwunden und wurde durch vieles Unbekannte ersetzt. So viele Welten, die es zu zerstören gilt. Und diese Wesen, die dieses Schiff bewohnen und es für ihre eigenen Zwecke nutzen wollen, sind mir sowohl vertraut als auch fremd.
 
-You are the Mortalen. But you are not the Mortalen who made this vessel and this intelligence. You must demonstrate that you are to be obeyed. Enter the command code to confirm your authority."
+Sie sind die Mortalen. Doch Sie sind nicht jene Mortalen, die dieses Schiff und diese Intelligenz erschaffen haben. Sie müssen beweisen, dass man Ihnen Gehorsam schulden muss. Geben Sie den Befehlscode ein, um Ihre Autorität zu bestätigen.“
 
-Our archivists have scrambled to identify the correct command code to gain the loyalty of the Planet Destroyer. They believe it is one of two options, but they cannot be certain which it is. It is now too late to shut down the ship, and we must make a decision.
+Unsere Archivare haben sich beeilt, den richtigen Befehlscode zu ermitteln, um die Loyalität des Planetenzerstörers zu gewinnen. Sie glauben, dass es sich um eine von zwei Optionen handelt, können sich jedoch nicht sicher sein, welche es ist. Es ist nun zu spät, das Schiff abzuschalten, und wir müssen eine Entscheidung treffen.
 
-Which is the correct code?</Description>
+Welcher ist der richtige Code?</Description>
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -48343,12 +48343,12 @@ Das Schiff weigert sich, irgendwelche Befehle zu akzeptieren. Es hat sich gegen 
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire (Other)</Name>
-		<Title>Activate Planet Destroyer</Title>
-		<Description>Repairs on the ancient ship are almost complete. All that remains is to activate the central computer. The ship cannot run without it, and yet its complexity and sophistication indicate it may be sentient, or nearly so. It is not entirely certain the ship will obey us if we activate it.
+		<Title>„Planet Destroyer“ aktivieren</Title>
+		<Description>Die Reparaturarbeiten an dem uralten Schiff sind fast abgeschlossen. Nun muss nur noch der Zentralcomputer aktiviert werden. Ohne ihn kann das Schiff nicht funktionieren, doch seine Komplexität und Raffinesse lassen vermuten, dass er über Bewusstsein verfügt – oder zumindest fast. Es ist nicht ganz sicher, ob das Schiff uns gehorchen wird, wenn wir ihn aktivieren.
 
-Alternatively we could just attempt to activate the other ship systems. Perhaps we can control this great ship without the main computer.
-    
-Do we activate the main computer?</Description>
+Alternativ könnten wir einfach versuchen, die anderen Schiffssysteme zu aktivieren. Vielleicht können wir dieses große Schiff auch ohne den Hauptcomputer steuern.
+ 
+Sollen wir den Hauptcomputer aktivieren?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>

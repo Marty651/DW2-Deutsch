@@ -351,7 +351,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>41</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.06</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -547,7 +547,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>41</OrbTypeId>
-				<Factor>0.04</Factor>
+				<Factor>0.08</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -711,7 +711,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.15</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -882,7 +882,7 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>40</OrbTypeId>
-				<Factor>0.18</Factor>
+				<Factor>0.27</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -3038,7 +3038,7 @@
 				<Descriptions>
 					<string>Reiches biologisches Ökosystem</string>
 					<string>Seltene Pflanzennährstoffe</string>
-					<string>Lush Forest Root Network</string>
+					<string>Lush-Wald Wurzel-Netzwerk</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3217,7 +3217,7 @@
 				<Descriptions>
 					<string>Ringe von {0}</string>
 					<string>Wildblumen-Ebenen</string>
-					<string>Great River Gorge</string>
+					<string>Great River Schlucht</string>
 				</Descriptions>
 			</BonusRange>
 			<BonusRange>
@@ -3416,7 +3416,7 @@
 				<Descriptions>
 					<string>Ausgedehntes Höhlennetz</string>
 					<string>Tiefe starke Kavernen</string>
-					<string>Canyon Redoubt of {0}</string>
+					<string>Canyon-Stützpunkt von {0}</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -6623,10 +6623,10 @@
 		<PossibleResources>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sitzt auf einer felsigen Insel, die von riesigen Sturmwellen des umgebenden Meeres gepeitscht wird</string>
-			<string>Halb versunken auf einem riesigen Riff mitten in einem endlosen Ozean liegen</string>
-			<string>Sie blicken auf einen langen Sandstrand, der ständig von sanften Wellen gespült wird</string>
-			<string>überwuchert von Ranken und Grün inmitten eines dichten tropischen Dschungels</string>
+			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
+			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
+			<string>overlook a long sandy beach constantly washed by gentle waves</string>
+			<string>lie overgrown with vines and greenery in the midst of a dense tropical jungle</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 -->

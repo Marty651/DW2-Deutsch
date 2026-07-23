@@ -1874,7 +1874,7 @@
 		<ResearchProjectId>928</ResearchProjectId>
 		<Name>Kreatur Technik</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>47520</Size>
+		<Size>95040</Size>
 		<InitiationCost>
 			<Money>40500</Money>
 			<Resources>
@@ -1929,7 +1929,7 @@
 		<PlanetaryFacilityIds>
 			<short>122</short> <!-- Rift Strider Breeding Facility -->
 		</PlanetaryFacilityIds>
-		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>929</ResearchProjectId>
@@ -3660,7 +3660,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>961</ResearchProjectId>
-		<Name>Shakturi Psionischer Virus</Name>
+		<Name>Heilt Shakturi Psionic Virus</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>14400</Size>
 		<InitiationCost>
@@ -3691,7 +3691,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>962</ResearchProjectId>
-		<Name>Erweitertes psionisches Virus</Name>
+		<Name>Heilt Erweitertes Psionic Virus</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -3703,7 +3703,7 @@
 		<Row>196</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>961</ResearchProjectId> <!-- Shakturi Psionic Virus -->
+				<ResearchProjectId>961</ResearchProjectId> <!-- Cure Shakturi Psionic Virus -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -3722,7 +3722,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>963</ResearchProjectId>
-		<Name>Fortgeschrittener psionischer Virus</Name>
+		<Name>Heilt Fortgeschrittenes Psionic Virus</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>86400</Size>
 		<InitiationCost>
@@ -3734,7 +3734,7 @@
 		<Row>196</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>962</ResearchProjectId> <!-- Enhanced Psionic Virus -->
+				<ResearchProjectId>962</ResearchProjectId> <!-- Cure Enhanced Psionic Virus -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -3753,7 +3753,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>964</ResearchProjectId>
-		<Name>Ultimativer psionischer Virus</Name>
+		<Name>Heilt Ultimatives Psionic Virus</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>86400</Size>
 		<InitiationCost>
@@ -3765,7 +3765,7 @@
 		<Row>196</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>963</ResearchProjectId> <!-- Advanced Psionic Virus -->
+				<ResearchProjectId>963</ResearchProjectId> <!-- Cure Advanced Psionic Virus -->
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -5368,7 +5368,6 @@
 		</Components>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
-
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1020</ResearchProjectId>
 		<Name>Pulswellen-Superwaffen</Name>
@@ -5415,7 +5414,6 @@
 		</Components>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
-
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1021</ResearchProjectId>
 		<Name>Super-Abbruchwaffen</Name>
@@ -5472,11 +5470,10 @@
 		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>420</ComponentId> <!-- Boom Device [X] -->
+				<ComponentId>420</ComponentId> <!-- The Boom Device [X] -->
 				<Level>0</Level>
 			</Component>
 		</Components>
 		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
-
 </ArrayOfResearchProjectDefinition>

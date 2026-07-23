@@ -11,6 +11,13 @@
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -134,6 +141,13 @@ Freundschaft erwartet Sie!</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -650,6 +664,13 @@ Wir haben etwas erhalten:
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -1108,6 +1129,13 @@ Die Figur ist innen hohl und aus erstaunlich leichtem Kunststoff gefertigt. Manc
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1506,6 +1534,13 @@ Die Leute zu Hause scheinen es sehr zu schätzen, dass wir unsere Zeit nicht dam
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1929,7 +1964,7 @@ Außerirdische kamen zu dieser Forschungseinrichtung und die Attuk hielten sie w
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Aquire Tiassale (All)</Name>
+		<Name>Acquire Tiassale (All)</Name>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -1984,7 +2019,7 @@ Außerirdische kamen zu dieser Forschungseinrichtung und die Attuk hielten sie w
 
 "Wir nehmen Sie vorsichtig zur Kenntnis, Fremde. Wir sind auch verwirrt, denn wir haben seit vielen Jahrhunderten von keinem anderen Atuuk gehört. Warum sollte das so sein? Wenn es irgendeine galaktische Krise gegeben hätte, die eine Kommunikation verhindert hätte, hätten wir davon gewusst. Wir sind zu klug, um so etwas zu übersehen. Daraus können wir nur schließen, dass wir gemieden werden.
 
-"Wir haben uns lange gefragt, warum andere Atuuk so gemein zu uns sind, und wir haben erkannt, dass die einzige Antwort Eifersucht ist. Sie sind neidisch, dass wir so viel klüger sind als andere Atuuk. Und jetzt kommen Sie zu uns, wahrscheinlich weil Sie etwas wollen. Wir haben hier nicht viel, aber wir haben unseren Stolz. Und unsere Intelligenz! Wir werden uns anhören, was Sie zu sagen haben, aber erwarten Sie nicht, dass wir Ihnen einen großen Gefallen tun. Wir sind immer noch wütend."</Description>
+Wir haben uns lange gefragt, warum andere Atuuk so gemein zu uns sind, und wir haben erkannt, dass die einzige Antwort Eifersucht ist. Sie sind neidisch, dass wir so viel klüger sind als andere Atuuk. Und jetzt kommen Sie zu uns, wahrscheinlich weil Sie etwas wollen. Wir haben hier nicht viel, aber wir haben unseren Stolz. Und unsere Intelligenz! Wir werden uns anhören, was Sie zu sagen haben, aber erwarten Sie nicht, dass wir Ihnen einen großen Gefallen tun. Wir sind immer noch wütend."</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2457,6 +2492,13 @@ Jetzt mögen sie uns nicht, was sehr schade ist. Ihre Welt ist rückständig und
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -2960,6 +3002,13 @@ Bevor das Schiff für immer verloren war, weil der Boden unter unserem Team zusa
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3305,6 +3354,13 @@ Es gibt noch mehr zu erfahren, aber das Schiff läuft Gefahr, in den Abgrund zu 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -3727,6 +3783,13 @@ Ansonsten haben wir einige Datenkristalle mit technischen Spezifikationen gefund
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3992,6 +4055,13 @@ Wir haben auch einige Datenkristalle mit technischen Spezifikationen gefunden, d
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -4641,6 +4711,13 @@ Wir haben so viel Gehirnschmalz darauf verwendet, die Technologie der Long-Ago-F
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4907,6 +4984,13 @@ Wir haben so viel Gehirnschmalz darauf verwendet, die Technologie der Long-Ago-F
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5154,6 +5238,13 @@ Wir haben einige medizinische Akten über die Anatomie der Atuuk gefunden, insbe
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5316,6 +5407,13 @@ Wir haben auch eine Sternenkarte mit [LOCATION]einem identifizierten Ort[/LOCATI
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>9</PlacementRaceId> <!-- Atuuk -->
 		<PlacementActions>
@@ -5624,6 +5722,13 @@ Wir haben auch eine Sternenkarte mit [LOCATION]einem identifizierten Ort[/LOCATI
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5668,6 +5773,13 @@ Wir haben auch eine Sternenkarte mit [LOCATION]einem identifizierten Ort[/LOCATI
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5711,6 +5823,13 @@ Wir haben auch eine Sternenkarte mit [LOCATION]einem identifizierten Ort[/LOCATI
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6108,6 +6227,13 @@ Dies waren einige beunruhigende Enthüllungen, aber wir haben viel gelernt und s
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6271,6 +6397,13 @@ Die Atuuk waren in der Lage, die Boskara-Technologie zurückzuentwickeln. Die At
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6433,6 +6566,13 @@ Den Atuuk gelang es in erstaunlich kurzer Zeit, die Boskara-Technologie zurückz
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6578,6 +6718,13 @@ Diese Waffenakademie wird uns helfen, uns zu schützen, unsere Zukunft selbst in
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6719,6 +6866,13 @@ Diese Waffenakademie wird uns helfen, uns zu schützen, unsere Zukunft selbst in
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>

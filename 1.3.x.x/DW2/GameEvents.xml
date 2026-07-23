@@ -11,6 +11,13 @@
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -180,7 +187,7 @@ Wenn wir unserem Wesen treu bleiben und danach streben, viel zu gewinnen und wen
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>78</Id1> <!-- Resource Id (-1=Random, Current Value = Hexodorium) -->
+				<Id1>78</Id1> <!-- Resource Id (-1=Random), Current Value = Hexodorium -->
 				<Value1>0.25</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
 				<Value2>50</Value2> <!-- Discovery Level -->
 				<Value3>0</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
@@ -200,7 +207,6 @@ Wenn wir unserem Wesen treu bleiben und danach streben, viel zu gewinnen und wen
 		</PlacementActions>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -215,10 +221,6 @@ Um herauszufinden, was mit dem Forschungskomplex passiert ist, ist viel Arbeit e
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -239,10 +241,6 @@ Um herauszufinden, was mit dem Forschungskomplex passiert ist, ist viel Arbeit e
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -271,7 +269,6 @@ Um herauszufinden, was mit dem Forschungskomplex passiert ist, ist viel Arbeit e
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -306,10 +303,6 @@ Aufgrund der extremen Entfernung von ihrem Planeten und der Langeweile und Isola
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -337,7 +330,6 @@ Aufgrund der extremen Entfernung von ihrem Planeten und der Langeweile und Isola
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -374,10 +366,6 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -405,7 +393,6 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -413,7 +400,7 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Erbe von Code Force</MessageTitle>
 				<Description>Unsere Wissenschaftler glauben, dass die alte KI, die sich nun in einem sicheren und modifizierten Zustand befindet, wiederbelebt werden kann. Sie stellt keine Gefahr dar und wird unserem Volk mit Sicherheit eine Quelle sicherer und fesselnder Unterhaltung sein. Aufgrund der Natur der KI-Spiele glauben wir, dass das Spielen einige unserer taktischen Fähigkeiten verbessern wird.
-				
+
 Wir haben jetzt den [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Großrechner[/ARTIFACT] in unserer Heimatkolonie installiert.</Description>
 				<ImageFilepath>Artifacts/Slitherine Mainframe</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -468,7 +455,6 @@ Wir haben jetzt den [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Großrechner[/ARTIFACT] in un
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -522,10 +508,6 @@ Wir haben jetzt den [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Großrechner[/ARTIFACT] in un
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -553,7 +535,6 @@ Wir haben jetzt den [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Großrechner[/ARTIFACT] in un
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -588,10 +569,6 @@ Aufgrund der extremen Entfernung von ihrem Planeten und der Langeweile und Isola
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -619,7 +596,6 @@ Aufgrund der extremen Entfernung von ihrem Planeten und der Langeweile und Isola
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -627,7 +603,7 @@ Aufgrund der extremen Entfernung von ihrem Planeten und der Langeweile und Isola
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Geheimnis der Matrix-Spiele</MessageTitle>
 				<Description>Wer von den Matrix-Spielen besessen war, verlernte allmählich die Kommunikation mit anderen Menschen. Die Gehirne dieser isolierten Betroffenen wurden so umprogrammiert, dass sie an nichts anderes mehr denken konnten als an die Strategien ihrer Lieblingsspiele.
-				
+
 Die anderen Bewohner glaubten zunächst, es handele sich um Einzelfälle. Erst zu spät erkannten sie, dass bald alle von dem, was S.L.I.T.H.E.R.I.N.E. geschaffen hatte, besessen sein würden. Als sich die Lebensbedingungen im Komplex verschlechterten, gründeten die nicht betroffenen Bewohner eine Einheit von Elite-Programmierern, die Code Force. Ihnen gelang es, die KI lange genug abzuwehren, um S.L.I.T.H.E.R.I.N.E. so umzuprogrammieren, dass seine Spiele zwar nicht mehr tödlich, aber immer noch extrem unterhaltsam waren. Die Code Force war erfolgreich, doch ihre Bemühungen kamen zu spät. Atmosphäre und Ernährungssysteme waren irreparabel beschädigt. Als das nächste menschliche Versorgungsschiff eintraf, waren die Bewohner der Station tot.
 
 Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außerirdischen Bedrohung zum Opfer gefallen war, der sie nicht mehr begegnen konnten. Außerdem waren andere, ergiebigere Hexodorium-Quellen entdeckt worden. Daraufhin wurde der Außenposten aufgegeben und die Menschen erklärten den Planeten zur Sperrzone.</Description>
@@ -656,10 +632,6 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -687,7 +659,6 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>-1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -728,6 +699,13 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActions>
@@ -839,6 +817,13 @@ Auf der Heimatwelt der Menschen befürchtete man, dass die Station einer außeri
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -955,6 +940,13 @@ Lasst uns die Arbeit vollenden, die sie uns aufgetragen haben, und uns von der W
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActions>
@@ -1074,6 +1066,13 @@ Es wird neue Reichtümer geben, die wir entdecken und uns zu eigen machen könne
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -1190,6 +1189,13 @@ Wir werden das Sternen-Triebwerk nutzen, den unsere Vorfahren uns hinterlassen h
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>6</PlacementRaceId> <!-- Boskara -->
 		<PlacementActions>
@@ -1307,6 +1313,13 @@ Wer es wagt, die Boskara zu bedrohen, wird vernichtet werden. Wenn sie sich uns 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -2062,6 +2075,13 @@ Die {0} rast nun durch den Hyperraum - wer weiß, was sie noch alles entdecken w
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -2110,6 +2130,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2173,6 +2200,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2254,6 +2288,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
@@ -2337,6 +2378,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2417,6 +2465,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2496,6 +2551,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2574,6 +2636,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2653,6 +2722,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -2826,514 +2902,6 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_JunkYard_Civilian</Name>
-		<TriggerType>EncounterLocation</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementActions>
-			<GameEventAction>
-				<Type>GenerateAsteroidField</Type>
-				<ActionLocationHint>HomeSystem</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>16</Id1> <!-- Orb Type Id, Current Value = Rocky Asteroid -->
-				<Value1>20</Value1> <!-- Asteroid Amount -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GeneratePirateFaction</Type>
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1> <!-- Race Id, Current Value = Teekan -->
-				<Id2>1</Id2> <!-- 1=Dormant Faction -->
-				<Value1>2</Value1> <!-- Tech Level -->
-				<Value2>0</Value2> <!-- Amount Of Ships -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Dekrat Junk Dealers</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-
-				<GeneratedItemEventNames>
-					<string>PreWarpHomeSystem_JunkYard_Civilian_Explanation</string>
-				</GeneratedItemEventNames>
-				
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>250</Id1> <!-- Race Id, Current Value = Independant -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.2</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>FreighterSmall</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>250</Id1> <!-- Race Id, Current Value = Independant -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.35</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>FreighterSmall</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>250</Id1> <!-- Race Id, Current Value = Independant -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.25</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>FreighterSmall</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>250</Id1> <!-- Race Id, Current Value = Independant -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.27</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>FreighterMedium</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>250</Id1> <!-- Race Id, Current Value = Independant -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.15</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>FreighterMedium</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateShipDebris</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>100</Value1> <!-- Amount of Debris -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateSpaceItem</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>31</Id1> <!-- Space Item Id, Current Value = Computer Core -->
-				<Id2>-1</Id2> <!-- Salvage Bonus Type (0=Research, 1=Money, 2=Basic System Maps, 3=Detailed System Maps) -->
-				<Value1>0</Value1> <!-- Unused with this Id2 value -->
-				<Value2>0</Value2> <!-- Unused with this Id2 value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateSpaceItem</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>31</Id1> <!-- Space Item Id, Current Value = Computer Core -->
-				<Id2>-1</Id2> <!-- Salvage Bonus Type (0=Research, 1=Money, 2=Basic System Maps, 3=Detailed System Maps) -->
-				<Value1>0</Value1> <!-- Unused with this Id2 value -->
-				<Value2>0</Value2> <!-- Unused with this Id2 value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</PlacementActions>
-		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Schrottplatz entdeckt</MessageTitle>
-				<Description>Wir haben einen Schrottplatz in unserem Heimatsystem entdeckt. Der Schrottplatz wird von einer großen Basis geschützt.\n\nEine Sammlung von Schiffen liegt verstreut um die Basis herum, in verschiedenen Zuständen der Verwahrlosung. Außerdem treiben in der Nähe andere Schrottteile und Trümmer, von denen einige wertvoll aussehen.\n\nDie Basis scheint bewohnt und aktiv zu sein, was uns daran hindert, die Schiffe oder Trümmer zu reparieren und zu bergen...</Description>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>-1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_JunkYard_Military</Name>
-		<TriggerType>EncounterLocation</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>true</PlacementAtGameStart>
-		<PlacementActions>
-			<GameEventAction>
-				<Type>GenerateAsteroidField</Type>
-				<ActionLocationHint>HomeSystem</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>16</Id1> <!-- Orb Type Id, Current Value = Rocky Asteroid -->
-				<Value1>20</Value1> <!-- Asteroid Amount -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GeneratePirateFaction</Type>
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>4</Id1> <!-- Race Id, Current Value = Mortalen -->
-				<Id2>1</Id2> <!-- 1=Dormant Faction -->
-				<Value1>2</Value1> <!-- Tech Level -->
-				<Value2>0</Value2> <!-- Amount Of Ships -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ghoran's Military Salvage</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>4</Id1> <!-- Race Id, Current Value = Mortalen -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.2</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>Frigate</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1> <!-- Race Id, Current Value = Teekan -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.35</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>Destroyer</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>251</Id1> <!-- Race Id, Current Value = Abandoned -->
-				<Id2>4</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.85</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>Destroyer</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateAbandonedShipBase</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>1</Id1> <!-- Race Id, Current Value = Ackdarian -->
-				<Id2>3</Id2> <!-- Tech Level -->
-				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
-				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
-				<Value2>0.27</Value2> <!-- Damage Level (0 to 1) -->
-				<ShipRole>Escort</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateShipDebris</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>100</Value1> <!-- Amount of Debris -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateSpaceItem</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>31</Id1> <!-- Space Item Id, Current Value = Computer Core -->
-				<Id2>-1</Id2> <!-- Salvage Bonus Type (0=Research, 1=Money, 2=Basic System Maps, 3=Detailed System Maps) -->
-				<Value1>0</Value1> <!-- Unused with this Id2 value -->
-				<Value2>0</Value2> <!-- Unused with this Id2 value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateSpaceItem</Type>
-				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>31</Id1> <!-- Space Item Id, Current Value = Computer Core -->
-				<Id2>-1</Id2> <!-- Salvage Bonus Type (0=Research, 1=Money, 2=Basic System Maps, 3=Detailed System Maps) -->
-				<Value1>0</Value1> <!-- Unused with this Id2 value -->
-				<Value2>0</Value2> <!-- Unused with this Id2 value -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</PlacementActions>
-		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Schrottplatz entdeckt</MessageTitle>
-				<Description>Wir haben einen Schrottplatz in unserem Heimatsystem entdeckt. Der Schrottplatz wird von einer großen Basis geschützt.\n\nEine Sammlung von Schiffen liegt verstreut um die Basis herum, in verschiedenen Zuständen der Verwahrlosung. Außerdem treiben in der Nähe andere Schrottteile und Trümmer, von denen einige wertvoll aussehen.\n\nDie Basis scheint bewohnt und aktiv zu sein, was uns daran hindert, die Schiffe oder Trümmer zu reparieren und zu bergen...</Description>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>-1</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_TinyDebrisField_2</Name>
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
@@ -3341,6 +2909,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3379,6 +2954,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3417,6 +2999,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3481,6 +3070,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3545,6 +3141,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3608,6 +3211,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
@@ -3671,6 +3281,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3729,6 +3346,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3788,6 +3412,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3848,6 +3479,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3906,6 +3544,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -3964,6 +3609,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -4024,6 +3676,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -4102,6 +3761,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
@@ -4186,6 +3852,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -4266,6 +3939,13 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActions>
@@ -8679,6 +8359,13 @@ Wir haben einen Standort-Ping für die Koordinaten zur galaktischen Karte hinzug
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>255</PlacementRaceId> <!-- Player -->
 		<PlacementActions>
@@ -8846,6 +8533,13 @@ Wir sollten dieses seltsame Vorkommnis untersuchen, aber es ist Vorsicht geboten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -8937,6 +8631,13 @@ Ein Forschungsprojekt wurde in unserem Tech-Baum aktiviert (Mysteriöse Seuche).
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -10477,6 +10178,13 @@ Der letzte Teil der Nachricht ist ein kurzer Videoclip, in dem der Kommandant de
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActions>
@@ -10592,6 +10300,13 @@ Der letzte Teil der Nachricht ist ein kurzer Videoclip, in dem der Kommandant de
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActions>
 			<GameEventAction>
@@ -13163,6 +12878,13 @@ Die Ruinen erweisen sich auch als reichhaltige Quelle verschiedener wichtiger un
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -13267,6 +12989,13 @@ Die Ruinen erweisen sich auch als reichhaltige Quelle verschiedener wichtiger un
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActions>
@@ -13586,6 +13315,13 @@ Die Ruinen erweisen sich auch als reichhaltige Quelle verschiedener wichtiger un
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -13804,6 +13540,13 @@ Wir haben auch die Ruinen eines Raumhafens aus der Zeit vor den Kataklysmen gefu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -14914,6 +14657,13 @@ Kein Bote ist zurückgekehrt, und weder die Shakturi noch unsere anderen Verbün
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -15431,6 +15181,13 @@ Gewonnen haben wir:</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -15851,6 +15608,13 @@ Wir haben auch ein Hyperantriebs-Forschungslabor entdeckt, das den Absturz über
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -16242,6 +16006,13 @@ Wir haben auch Informationen über die uralte Hyperantriebstechnologie der Ackda
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -16379,6 +16150,13 @@ Dieses ansprechend gestaltete Bauwerk scheint durch ein gewaltiges Beben zerstö
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -16779,6 +16557,13 @@ Wir haben 5k für die zerstörte Ausrüstung verloren, aber wir haben einen Tech
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -16818,6 +16603,13 @@ Wir haben 5k für die zerstörte Ausrüstung verloren, aber wir haben einen Tech
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -17158,6 +16950,13 @@ Wir haben 5k für die zerstörte Ausrüstung verloren, aber wir haben einen Tech
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -17506,6 +17305,13 @@ Außerdem haben wir einen Technologieschub beim Bau leichter Kreuzer erhalten.</
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -17802,6 +17608,13 @@ Außerdem haben wir einen Technologieschub beim Bau leichter Kreuzer erhalten.</
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -18456,6 +18269,13 @@ Wir haben auch das Gebiet zweier uralter ackdarianischer Kolonien aufgedeckt. Ei
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
@@ -18583,6 +18403,13 @@ Wir haben auch das Gebiet zweier uralter ackdarianischer Kolonien aufgedeckt. Ei
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -19031,6 +18858,13 @@ Wir haben eine Technologie und eine beschädigte Schiffswerft sowie die Navigati
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -19390,6 +19224,13 @@ Wir haben eine Technologie und eine beschädigte Schiffswerft entdeckt, sowie di
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -19846,6 +19687,13 @@ Während der Erkundung haben sich dann aber die Forscher auf unerklärliche Weis
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -20209,6 +20057,13 @@ Während der Erkundung haben sich einige der Forscher auf unerklärliche Weise g
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -20489,6 +20344,13 @@ Und doch haben wir überlebt. Wir haben uns in die Galaxie gewagt, um unsere Per
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -20559,6 +20421,13 @@ Und doch haben wir überlebt. Wir haben uns in die Galaxie gewagt, um unsere Per
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -20629,6 +20498,13 @@ Und doch haben wir überlebt. Wir haben uns in die Galaxie gewagt, um unsere Per
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -20847,6 +20723,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActions>
@@ -20938,6 +20821,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -20979,6 +20869,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -21020,6 +20917,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -21206,6 +21110,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>1</PlacementRaceId> <!-- Ackdarian -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -21270,6 +21181,13 @@ Wenn wir ihn studieren, werden wir in der Lage sein, selbst wunderbare Stationen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -21387,6 +21305,13 @@ Wir haben auch eine stark beschädigte planetarische Bastion gefunden, die wir u
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -21531,6 +21456,13 @@ Diese Außerirdischen haben sich nicht nur durch ihr Aussehen, sondern auch durc
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -21613,6 +21545,13 @@ Diese Außerirdischen haben sich nicht nur durch ihr Aussehen, sondern auch durc
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -21659,6 +21598,13 @@ Diese Außerirdischen haben sich nicht nur durch ihr Aussehen, sondern auch durc
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -21704,6 +21650,13 @@ Wir konnten zwar keine Daten oder Logbücher bergen, aber wir haben erfahren, da
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -21823,6 +21776,13 @@ Wir haben versucht, ihr mitzuteilen, dass wir Mortalen sind und nicht als Feind 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -21884,6 +21844,13 @@ Wir haben versucht, ihr mitzuteilen, dass wir Mortalen sind und nicht als Feind 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -21973,6 +21940,13 @@ Durch die Untersuchung der Überreste der Station konnten wir einige Geheimnisse
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -22060,6 +22034,13 @@ Durch die Untersuchung der Überreste der Station konnten wir einige Geheimnisse
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -22191,6 +22172,13 @@ Unter den Daten haben wir einige interessante Informationen gefunden, die unsere
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -22787,6 +22775,13 @@ Sie sagen, dass ihre Vorfahren einst von einer Spezies brutaler Reptilienkrieger
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -23318,6 +23313,13 @@ Noch beunruhigender ist, dass es Anzeichen dafür gibt, dass die Klone einen Vir
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -23714,6 +23716,13 @@ Noch beunruhigender ist, dass es Anzeichen dafür gibt, dass die Klone einen Vir
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -24034,6 +24043,13 @@ Einige Daten in den Wrackteilen weisen auch auf den Ort der alten Heimatwelt der
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -24123,6 +24139,13 @@ Einige Daten in den Wrackteilen weisen auch auf den Ort der alten Heimatwelt der
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -24283,6 +24306,13 @@ Das Schiff schien zunächst verlassen zu sein, aber dann schaltete es sich plöt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -24431,6 +24461,13 @@ Die Daten in einigen der Wrackteile weisen auf den Standort der alten Heimatwelt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -24489,6 +24526,13 @@ Die Daten in einigen der Wrackteile weisen auf den Standort der alten Heimatwelt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -24847,6 +24891,13 @@ Das Schiff schien zunächst verlassen zu sein, aber dann schaltete es sich plöt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -24986,6 +25037,13 @@ Am Rande der totalen Niederlage scheinen unsere Vorfahren etwas Bemerkenswertes 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -25122,6 +25180,13 @@ In der Anlage haben wir einen einzigen verbliebenen Versuchstorpedo entdeckt, vo
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActions>
@@ -25256,6 +25321,13 @@ In der Anlage haben wir einen einzigen verbliebenen Versuchstorpedo entdeckt, vo
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -25363,6 +25435,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -25468,6 +25547,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>4</PlacementRaceId> <!-- Mortalen -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -25573,6 +25659,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>6</PlacementRaceId> <!-- Boskara -->
 		<PlacementActions>
@@ -25642,6 +25735,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>6</PlacementRaceId> <!-- Boskara -->
 		<PlacementActions>
@@ -25743,6 +25843,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -25829,6 +25936,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -25896,6 +26010,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -25958,8 +26079,8 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<GeneratedItemEventNames>				 
-					<string>Contact Slave World 1 (Boskara)</string>
+				<GeneratedItemEventNames>
+					<string>Contact Former Boskara Slave World 1 (Boskara)</string>
 					<string>Acquire Slave World 1 (Non Boskara)</string>
 					<string>Acquire Slave World 1 (Boskara)</string>
 				</GeneratedItemEventNames>
@@ -26175,6 +26296,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -26245,6 +26373,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -26561,6 +26696,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -26631,6 +26773,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -26923,6 +27072,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -26993,6 +27149,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -27309,6 +27472,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -27379,6 +27549,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -27521,6 +27698,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -27583,6 +27767,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -27648,6 +27839,13 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -28316,6 +28514,13 @@ Diese Boskara sind verwirrt, korrumpiert, durch Zeit und Isolation geschwächt. 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -28440,6 +28645,13 @@ Aber es gibt noch mehr. Einige ihrer Aufzeichnungen über die Vergangenheit sind
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -28770,6 +28982,13 @@ Und doch enthalten ihre Aufzeichnungen beunruhigende Enthüllungen. Es gibt Gesc
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -28875,6 +29094,13 @@ Doch es gibt noch mehr. Einige ihrer Aufzeichnungen aus der Vergangenheit sind v
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>6</PlacementRaceId> <!-- Boskara -->
 		<PlacementActions>
@@ -29270,6 +29496,13 @@ Insektoide Ruinen auf einem Planeten. Vielleicht alte Boskara. Vielleicht Shaktu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -29335,6 +29568,13 @@ Aus den Daten geht nicht hervor, was die Boskara planten oder ob sie es überhau
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>6</PlacementRaceId> <!-- Boskara -->
 		<PlacementActions>
@@ -29735,6 +29975,13 @@ Du antwortest sofort. 'Ihr müsst nicht wissen, wer wir sind. Was wir hier suche
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -29983,6 +30230,13 @@ Es gibt jedoch noch mehr. Wir haben einen weiteren Stützpunkt entdeckt, der sow
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -30048,6 +30302,13 @@ Als Antwort können wir versuchen, die Wachen zu täuschen oder sie zu hacken.</
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -30131,6 +30392,13 @@ Als Antwort können wir versuchen, die Wachen zu täuschen oder sie zu hacken.</
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -30248,6 +30516,13 @@ Als Antwort können wir versuchen, die Wachen zu täuschen oder sie zu hacken.</
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -32032,7 +32307,7 @@ Wichtige Enthüllung. Lage der Heimatwelt der Boskara entdeckt! Der Ursprung uns
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Shahad</ActionLocationItemName>
+				<ActionLocationItemName>Nayli</ActionLocationItemName>
 				<ActionLocationItemType>Orb</ActionLocationItemType>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -32060,6 +32335,13 @@ Wichtige Enthüllung. Lage der Heimatwelt der Boskara entdeckt! Der Ursprung uns
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -32119,14 +32401,15 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Type>NavigationalCoordinates</Type>
 				<ActionLocationHint>NearbyEmptyCoordinates</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
+				<ActionLocationItemName>Nayli</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Nayli</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -32218,6 +32501,13 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -32600,7 +32890,8 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Type>ChangeFacilityDiscoveryLevel</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ActionLocationItemName>Nayli Control Centre</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Facility Id (-1=First Ruins) -->
 				<Id2>30</Id2> <!-- New Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
@@ -32609,7 +32900,6 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Nayli Control Centre</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -32666,7 +32956,8 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Type>ChangeFacilityDiscoveryLevel</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ActionLocationItemName>Nayli Control Centre</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Facility Id (-1=First Ruins) -->
 				<Id2>30</Id2> <!-- New Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
@@ -32675,7 +32966,6 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Nayli Control Centre</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -32732,7 +33022,8 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Type>ChangeFacilityDiscoveryLevel</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<ActionLocationItemName>Nayli Control Centre</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Facility Id (-1=First Ruins) -->
 				<Id2>30</Id2> <!-- New Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
@@ -32741,7 +33032,6 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Nayli Control Centre</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -32771,6 +33061,13 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -32879,6 +33176,13 @@ Die Artefakte, die wir in den Ruinen gefunden haben, könnten dabei helfen.  Es 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -32979,6 +33283,13 @@ Die Artefakte, die wir in den Ruinen gefunden haben, könnten dabei helfen.  Es 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -33389,6 +33700,13 @@ Die Artefakte, die wir in den Ruinen gefunden haben, könnten dabei helfen.  Es 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -33666,6 +33984,13 @@ Und das Profitieren hat bereits begonnen. Wir haben aus dem Wrack dieses Schiffe
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -34031,6 +34356,13 @@ Und das Profitieren hat bereits begonnen. Wir haben aus dem Wrack dieses Schiffe
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -34173,6 +34505,13 @@ Krieg verschlingt Kredite, und es gibt immer Opportunitätskosten für das, was 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -34655,6 +34994,13 @@ Die Außerirdischen haben unseren Ingenieuren erlaubt, bei der Reparatur ihres S
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -35383,6 +35729,13 @@ Die Außerirdischen haben unseren Ingenieuren erlaubt, bei der Reparatur ihres S
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -35754,6 +36107,13 @@ Wir haben jedoch erst begonnen, all das aufzudecken, was diese Welt zu bieten ha
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -35918,6 +36278,13 @@ Wir haben jedoch erst begonnen, all das aufzudecken, was diese Welt zu bieten ha
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -35941,7 +36308,7 @@ In unserem Volk hat es Unruhen, Selbstmorde und sogar Hungerstreiks gegeben. Die
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<ChoiceButtonText>30.000cr in Initiative zur Moralsteigerung investieren.</ChoiceButtonText>
-				<GeneratedItemName>Morale ImprovementInitiative (Haakonish)</GeneratedItemName>
+				<GeneratedItemName>Morale Improvement Initiative (Haakonish)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -36106,6 +36473,13 @@ In unserem Volk hat es Unruhen, Selbstmorde und sogar Hungerstreiks gegeben. Die
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -36618,6 +36992,13 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -36746,6 +37127,13 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -36789,6 +37177,13 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -36920,6 +37315,13 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>3</PlacementRaceId> <!-- Haakonish -->
 		<PlacementActions>
@@ -37725,6 +38127,13 @@ Die Datenbanken haben uns weitere wertvolle technologische Geheimnisse enthüllt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -37829,6 +38238,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -37929,6 +38345,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -37972,6 +38395,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -38015,6 +38445,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -38058,6 +38495,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -38101,6 +38545,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -38144,6 +38595,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -38187,6 +38645,13 @@ Nun sind wir aufgrund der Fehler kleingeistiger Außerirdischer gezwungen, erneu
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActions>
@@ -38524,9 +38989,6 @@ Es besteht die Möglichkeit, die Schiffsüberreste zu untersuchen, oder vielleic
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<GeneratedItemEventNames>
-					<string>Post Colonize Results (Teekan)</string>
-				</GeneratedItemEventNames>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -38658,6 +39120,13 @@ Es besteht die Möglichkeit, die Schiffsüberreste zu untersuchen, oder vielleic
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActionEventHostIndex>2</PlacementActionEventHostIndex>
@@ -39195,6 +39664,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActions>
@@ -39297,6 +39773,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39452,6 +39935,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39497,6 +39987,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39652,6 +40149,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39773,6 +40277,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39856,6 +40367,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -39977,6 +40495,13 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -41127,6 +41652,13 @@ Die Wesen von Horazon sind nach wie vor unzufrieden. Unsere Verzögerung hat kei
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActions>
@@ -41574,6 +42106,13 @@ In den Datenbanken sind noch zwei weitere Orte zu finden. Es ist unwahrscheinlic
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -41637,6 +42176,13 @@ In den Datenbanken sind noch zwei weitere Orte zu finden. Es ist unwahrscheinlic
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActions>
@@ -41683,8 +42229,8 @@ In den Datenbanken sind noch zwei weitere Orte zu finden. Es ist unwahrscheinlic
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<GeneratedItemEventNames>
-					<string>Acquire Airless Wanderers Base (Non Teekan)</string>
-					<string>Encounter Airless Wanderers Base (Non Teekan)</string>
+					<string>Acquire Wanderers Skybase (Non Teekan)</string>
+					<string>Encounter Wanderers Skybase (Non Teekan)</string>
 					<string>Acquire Wanderers Skybase (Teekan)</string>
 				</GeneratedItemEventNames>
 				<ActionObjectId>0</ActionObjectId>
@@ -42376,6 +42922,13 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -42477,6 +43030,13 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -42727,7 +43287,7 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Encounter Teekan Outposts B (Teekan)</Name>
+		<Name>Encounter Lost Teekan Outposts B (Teekan)</Name>
 		<TriggerType>Encounter</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -42737,6 +43297,13 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActionEventHostIndex>5</PlacementActionEventHostIndex>
@@ -42771,7 +43338,7 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Investigate Teekan Outposts B (Teekan)</Name>
+		<Name>Investigate Lost Teekan Outposts B (Teekan)</Name>
 		<TriggerType>Investigate</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -42781,6 +43348,13 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActionEventHostIndex>5</PlacementActionEventHostIndex>
@@ -42927,6 +43501,13 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -42970,6 +43551,13 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -43222,6 +43810,13 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>2</PlacementRaceId> <!-- Teekan -->
 		<PlacementActionEventHostIndex>2</PlacementActionEventHostIndex>
@@ -43330,6 +43925,13 @@ Es ist eine traurige Ironie, dass unsere Vorfahren aus diesem Zufluchtsort geflo
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -43413,6 +44015,13 @@ Wir haben hier wunderbare Artefakte der Teekan entdeckt. Sie werden uns zweifell
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -43421,7 +44030,7 @@ Wir haben hier wunderbare Artefakte der Teekan entdeckt. Sie werden uns zweifell
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>137</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id1>137</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Crashed Ship -->
 				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
 				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
 				<Value2>5</Value2> <!-- Discovery Level -->
@@ -43666,6 +44275,13 @@ Bevor es abstürzte, konnte das haakonische Schiff den Planeten scannen. Wir kö
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -43674,7 +44290,7 @@ Bevor es abstürzte, konnte das haakonische Schiff den Planeten scannen. Wir kö
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>137</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id1>137</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Crashed Ship -->
 				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
 				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
 				<Value2>8</Value2> <!-- Discovery Level -->
@@ -43921,6 +44537,13 @@ Jetzt müssen wir das Wissen wiederfinden, das uns verloren gegangen ist. Der Be
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -44441,6 +45064,13 @@ Da euer Ruf euch vorauseilt, wissen wir, dass ihr der Verlockung neuer Informati
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -44759,6 +45389,13 @@ Wie wir befürchtet hatten, sind die Computersysteme der Station schwer beschäd
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -44822,6 +45459,13 @@ Wie wir befürchtet hatten, sind die Computersysteme der Station schwer beschäd
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -45417,6 +46061,13 @@ Wir haben unsere besten Techno-Agenten entsandt, um uns Zugang zu ihren planetar
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -45625,6 +46276,13 @@ In den Ruinen entdeckten wir ein weiteres verlorenes Artefakt aus unserer glorre
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -45925,6 +46583,13 @@ In den Ruinen entdeckten wir auch ein altes Gedicht mit dem Titel 'Das Epos des 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -46016,6 +46681,13 @@ In den Ruinen entdeckten wir auch ein altes Gedicht mit dem Titel 'Das Epos des 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -46107,6 +46779,13 @@ In den Ruinen entdeckten wir auch ein altes Gedicht mit dem Titel 'Das Epos des 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -46171,6 +46850,13 @@ Dann gab es irgendwann einen Durchbruch: In unserem genetischen Code wurde etwas
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -46300,6 +46986,13 @@ Wir haben auch den Standort einer weiteren Forschungseinrichtung gefunden, aber 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -46652,6 +47345,13 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -47106,6 +47806,13 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -47197,6 +47904,13 @@ Und doch wurden die Shakturi vernichtet. Wir wissen nicht, ob die Waffe der Frei
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -47292,6 +48006,13 @@ Do we activate the main computer?</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -47637,6 +48358,13 @@ Do we activate the main computer?</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementRaceId>0</PlacementRaceId> <!-- Human -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>

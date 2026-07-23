@@ -13,8 +13,7 @@
 				<Type>CheckOrbResourceCount</Type>
 				<LookupValue>0</LookupValue>
 				<ComparisonType>LessThan</ComparisonType>
-				<ComparisonValue>5</ComparisonValue>
-				<!-- Total Resources Amount -->
+				<ComparisonValue>5</ComparisonValue> <!-- Total Resources Amount -->
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
@@ -50,7 +49,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>We Reign Supreme (Boskara)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -73,8 +71,10 @@
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>132</Id1>
-				<Value1>1</Value1>
+				<Id1>132</Id1> <!-- Colony Event Id, Current Value = We Reign Supreme -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -90,7 +90,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Crazed Cannibalism (Boskara)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -113,8 +112,10 @@
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>19</Id1>
-				<Value1>1</Value1>
+				<Id1>19</Id1> <!-- Colony Event Id, Current Value = Crazed Cannibalism -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -130,7 +131,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Warspawn (Boskara)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -142,6 +142,7 @@
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireNotHaveAnyCharacterAvailableWithTrait</Type>
+				<LookupValue>0</LookupValue>
 				<VariableName>Warspawn</VariableName>
 				<ComparisonType>Undefined</ComparisonType>
 			</GameEventCondition>
@@ -222,7 +223,6 @@
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<ChoiceButtonText>Verwenden Sie keinen Warspawn</ChoiceButtonText>
-				<GeneratedItemName></GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -267,7 +267,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>War Spawning (Boskara)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -287,7 +286,7 @@
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.9</Value1>
+				<Value1>0.9</Value1> <!-- Ratio Amount (>0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -306,8 +305,8 @@
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>10</Value1>
+				<Id1>22</Id1> <!-- Troop Id, Current Value = Executioner Hive -->
+				<Value1>10</Value1> <!-- Troop Amount -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -323,5 +322,4 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 </ArrayOfGameEvent>

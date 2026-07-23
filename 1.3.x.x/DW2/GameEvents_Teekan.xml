@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<GameEvent>
 		<Name>Wander Time (Teekan)</Name>
@@ -20,12 +20,9 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>135</Id1> <!-- Colony Event Id, Current Value = Wander Time -->
-				<Id2>-1</Id2>
-				<!-- 0=Send Message -->
-				<Id3>-1</Id3>
-				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
-				<Value1>0</Value1>
-				<!-- 1=Restart With New Duration Period -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -49,14 +46,10 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1>
-				<!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
-				<Id2>-1</Id2>
-				<!-- Receiving Empire Id (-1=Unused) -->
-				<Id3>-1</Id3>
-				<!-- 1=Concatenate all descriptions when delayed -->
-				<Value1>0</Value1>
-				<!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -72,7 +65,6 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Great Bakdur Hunt (Teekan)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -87,23 +79,20 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
-			
 			<GameEventAction>
 				<Type>SetGlobalVariableRandomRange</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1>
-				<Id2>-1</Id2>
-				<Value1>0</Value1>
-				<Value2>100</Value2>
-				<GeneratedItemName>Great Bakdur Hunt Outcome</GeneratedItemName>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
+				<GeneratedItemName>Great Bakdur Hunt Outcome</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -111,7 +100,6 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 				<ActionObjectId>-1</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -121,6 +109,12 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 				<Id2>0</Id2> <!-- 0=Send Message -->
 				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
 				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -139,31 +133,26 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Dialog</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>137</Id1> <!-- Colony Event Id, Current Value = Good Bakdur Hunt -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>-1</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-
-			<GameEventAction>
-				<Type>StartColonyEvent</Type>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>137</Id1>
-				<!-- Colony Event Id, Current Value = Good Bakdur Hunt -->
-				<Id2>0</Id2>
-				<!-- 0=Send Message -->
-				<Id3>-1</Id3>
-				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
-				<Value1>0</Value1>
-				<!-- 1=Restart With New Duration Period -->
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -182,31 +171,26 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Dialog</MessageViewMode>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>138</Id1> <!-- Colony Event Id, Current Value = Oustanding Bakdur Hunt -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>-1</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-
-			<GameEventAction>
-				<Type>StartColonyEvent</Type>
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>138</Id1>
-				<!-- Colony Event Id, Current Value = Outstanding Bakdur Hunt -->
-				<Id2>0</Id2>
-				<!-- 0=Send Message -->
-				<Id3>-1</Id3>
-				<!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
-				<Value1>0</Value1>
-				<!-- 1=Restart With New Duration Period -->
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -225,21 +209,13 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Dialog</MessageViewMode>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>-1</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Outstanding Bakdur Hunt Spice (Teekan)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -259,9 +235,8 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>18</Id1>
-				<Id2>-1</Id2>
-				<Value1>1000</Value1>
+				<Id1>18</Id1> <!-- Resource Id, Current Value = Korabbian Spice -->
+				<Value1>1000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -277,5 +252,4 @@ Daher wird [LOCATION]{6}[/LOCATION] in den nächsten 5 Jahren ein sehr beliebtes
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 </ArrayOfGameEvent>

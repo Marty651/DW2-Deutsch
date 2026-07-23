@@ -11,6 +11,13 @@
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActions>
@@ -560,6 +567,13 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -599,6 +613,13 @@ Wir müssen die Wahrheit herausfinden. Unser Studium uralter Relikte und Ruinen 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1369,6 +1390,13 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -1700,6 +1728,13 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -1808,6 +1843,13 @@ Wir können uns jetzt auf positive Beziehungen zu den Dhayut von Damazy verlasse
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActions>
@@ -2244,6 +2286,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2317,6 +2366,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2642,6 +2698,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2699,6 +2762,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3088,6 +3158,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3563,6 +3640,13 @@ Euer primitives Beharren auf der Weltbewohnung stört uns jedoch nicht. Wir resp
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3685,6 +3769,13 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4160,6 +4251,13 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4283,6 +4381,13 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4759,6 +4864,13 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5035,6 +5147,13 @@ Wir haben auch einen uralten Wälzer entdeckt, das 'Buch der harmonischen Notwen
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5098,6 +5217,13 @@ Fast keine der größeren Einrichtungen stehen noch oder sind sogar begehbar, ab
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5162,6 +5288,13 @@ Fast keine der größeren Einrichtungen stehen noch oder sind sogar begehbar, ab
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6208,6 +6341,13 @@ Wir haben auch einen Hinweis auf eine Terraforming-Forschungseinrichtung gefunde
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6271,6 +6411,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6425,6 +6572,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6891,6 +7045,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6991,6 +7152,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -7092,6 +7260,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -8921,6 +9096,13 @@ Unsere Ingenieure haben Scans der Verteidigungsplattformen studiert und glauben,
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9233,6 +9415,13 @@ Meinungsumfragen auf unserer Heimatwelt zeigen weitgehend Unterstützung für de
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9276,6 +9465,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9552,6 +9748,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9609,6 +9812,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9686,6 +9896,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9762,6 +9979,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -9961,6 +10185,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -10139,6 +10370,13 @@ Insbesondere sind sie zu der Annahme gelangt, dass die alten Ikkuro eine Völker
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -10500,6 +10738,11 @@ Unsere Ingenieure glauben, dass sie zumindest einige der automatisierten Abwehrm
 				<ComparisonType>Equals</ComparisonType>
 				<ComparisonValue>0</ComparisonValue>
 			</GameEventCondition>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -10586,6 +10829,11 @@ Jetzt müssen wir, wie unsere Vorfahren, eine schwierige moralische Entscheidung
 				<VariableName>DamazyOutOfPlay</VariableName>
 				<ComparisonType>Equals</ComparisonType>
 				<ComparisonValue>1</ComparisonValue>
+			</GameEventCondition>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
 			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
@@ -11047,6 +11295,13 @@ Wir haben eine weitere bedeutende Entdeckung auf der Oberfläche von Kasim gemac
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -11433,6 +11688,13 @@ Was die verdrehten, nutzlosen Dhayut dieser Welt betrifft, müssen wir entscheid
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -11730,6 +11992,13 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
@@ -11774,6 +12043,13 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
@@ -11819,6 +12095,13 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>5</PlacementRaceId> <!-- Ikkuro -->
 		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
@@ -11863,6 +12146,13 @@ Unter den Aufzeichnungen haben wir den Ort der alten Heimatwelt der Ikkuro entde
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -11988,6 +12278,13 @@ Diese Welt war einst ein florierendes Zentrum der gesamten Ikkuro-Forschung. Der
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -12114,6 +12411,13 @@ Die erbärmlichen Ikkuro-Tüftler betrieben hier das, was sie Forschung nannten.
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>

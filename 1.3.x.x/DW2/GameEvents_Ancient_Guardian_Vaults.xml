@@ -162,6 +162,13 @@ Vielleicht wollen sie uns mit ihren Rätseln auf die Probe stellen? Es gibt kein
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -211,6 +218,11 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsPlayer</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
 				<LookupValue>0</LookupValue>
 				<ComparisonType>Undefined</ComparisonType>
 			</GameEventCondition>
@@ -336,6 +348,13 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -440,6 +459,13 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1055,6 +1081,13 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1159,6 +1192,13 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1702,7 +1742,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ancient Guardian Medical Ethics (Vaults)</GeneratedItemName>
+				<GeneratedItemName>Ancient Guardian Medical Ethics Completed (Vaults)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -1894,6 +1934,13 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1998,6 +2045,13 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2615,6 +2669,13 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2719,6 +2780,13 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3334,6 +3402,13 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3438,6 +3513,13 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4057,6 +4139,13 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4161,6 +4250,13 @@ Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4778,6 +4874,13 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -4882,6 +4985,13 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5501,6 +5611,13 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -5605,6 +5722,13 @@ Die richtige Platzierung hängt sicherlich mit dem Verständnis der Alten Wächt
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6226,6 +6350,13 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6330,6 +6461,13 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -6947,6 +7085,13 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -7051,6 +7196,13 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>

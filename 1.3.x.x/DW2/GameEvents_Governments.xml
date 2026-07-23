@@ -15,41 +15,6 @@
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Republic)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Republic)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Republik</MessageTitle>
 				<Description>Aufgrund unserer ausgewählten Regierung haben wir Einsicht bekommen in:
@@ -72,8 +37,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -94,8 +59,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -114,8 +79,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -135,42 +100,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<TechLevelThreshold>1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Democracy)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Democracy)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>1</TechLevelThreshold>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -194,8 +123,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -214,8 +143,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -234,8 +163,8 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -254,41 +183,6 @@ Unsere erste Einrichtung wurde bereits auf unserer Heimatwelt gebaut.</Descripti
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Feudalism)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Feudalism)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -315,8 +209,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -335,8 +229,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -355,8 +249,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -375,8 +269,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -403,8 +297,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -431,8 +325,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -459,8 +353,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -487,8 +381,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -515,8 +409,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -543,8 +437,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -571,8 +465,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -599,8 +493,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -627,8 +521,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -648,42 +542,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<TechLevelThreshold>1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Mercantile Guild)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Mercantile Guild)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TechLevelThreshold>1</TechLevelThreshold>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -707,8 +565,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -727,8 +585,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -747,8 +605,8 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -767,41 +625,6 @@ Eine Infantrie-Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Military Dictatorship)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Military Dictatorship)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -828,8 +651,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -848,8 +671,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -868,8 +691,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -888,8 +711,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -916,8 +739,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -944,8 +767,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -972,8 +795,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1000,8 +823,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1028,8 +851,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1056,8 +879,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1084,8 +907,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1112,8 +935,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1140,8 +963,8 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1160,41 +983,6 @@ Eine bewaffnete Truppe ist auch auf unserer Heimatwelt verfügbar.</Description>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Monarchy)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Monarchy)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -1221,8 +1009,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1241,8 +1029,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1261,8 +1049,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1281,8 +1069,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1303,8 +1091,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1331,8 +1119,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1359,8 +1147,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1387,8 +1175,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1415,8 +1203,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1443,8 +1231,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1471,8 +1259,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1499,8 +1287,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1527,8 +1315,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1555,8 +1343,8 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1577,41 +1365,6 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Technocracy)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Technocracy)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Technokratie</MessageTitle>
 				<Description>Aufgrund unserer ausgewählten Regierung haben wir Einsicht bekommen in:
@@ -1619,7 +1372,7 @@ Unser Palast und eine Infantrietruppe ist auch bereits auf unserer Heimatwelt ve
 [ULI][RESEARCH]Erkundungs-Scanner[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetare Erkundung[/RESEARCH][/ULI]
 
-Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwelt verfügbar..</Description>
+Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwelt verfügbar.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1635,8 +1388,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1655,8 +1408,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1675,8 +1428,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1694,8 +1447,8 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1714,41 +1467,6 @@ Ein [CHARACTER]Wissenschaftler[/CHARACTER] ist auch bereits auf unserer Heimatwe
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TriggerActions>
-			<GameEventAction>
-				<Type>TriggerEvent</Type>
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Initialise Government 2 (Hive Mind)</GeneratedItemName>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-		</TriggerActions>
-	</GameEvent>
-	<GameEvent>
-		<Name>Initialise Government 2 (Hive Mind)</Name>
-		<TriggerType>Undefined</TriggerType>
-		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
-		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerPriority>0</TriggerPriority>
-		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
-		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
-		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
-		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
@@ -1774,8 +1492,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1794,8 +1512,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1814,8 +1532,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1842,8 +1560,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1870,8 +1588,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1898,8 +1616,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1926,8 +1644,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1954,8 +1672,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1982,8 +1700,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2010,8 +1728,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2038,8 +1756,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2066,8 +1784,8 @@ Eine Infantrietruppe ist auch bereits auf unserer Heimatwelt verfügbar.</Descri
 					</GameEventCondition>
 				</Conditions>
 				<MessageViewMode>Undefined</MessageViewMode>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>

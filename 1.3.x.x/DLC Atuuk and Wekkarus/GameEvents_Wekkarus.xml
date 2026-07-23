@@ -11,6 +11,13 @@
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -126,6 +133,13 @@ Wir müssen unser Versprechen an diejenigen einlösen, die vor uns kamen, und wi
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -964,6 +978,13 @@ Wir haben jetzt eine Richtung. Zu gegebener Zeit können wir die verlorenen Arte
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -1285,6 +1306,13 @@ Wir müssen entscheiden, welcher Weg für diese Generation der richtige ist. Die
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -1573,6 +1601,13 @@ Wir müssen entscheiden, welche Lehren wir daraus ziehen wollen.</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -1866,6 +1901,13 @@ Welchen Weg sollen wir einschlagen?</Description>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -2525,6 +2567,13 @@ Die Nähe zum Kenotaph lässt uns eine stärkere Verbindung zu unseren Vorfahren
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -3148,6 +3197,13 @@ Was den Bibliothekar dazu getrieben hat, mehrere Leben der Bewahrung der Shaktur
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -3714,6 +3770,13 @@ Wir haben die Karte erhalten:
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -4228,6 +4291,13 @@ Wir haben erhalten:
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActions>
@@ -4722,6 +4792,13 @@ Und ja, trotz unserer besten Vorsichtsmaßnahmen haben uns die Shakturi immer ge
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -5327,6 +5404,13 @@ Trotz ihrer besten Vorsichtsmaßnahmen fanden die Shakturi die Wekkarus immer. E
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -5497,6 +5581,13 @@ Wir haben auch eine Sternenkarte entdeckt, die den [LOCATION]Standort einer wich
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -5888,6 +5979,13 @@ Wir haben auch eine Sternenkarte entdeckt, die den [LOCATION]Standort einer wich
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -6184,6 +6282,13 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -6251,6 +6356,13 @@ Die Arbeit wird schwierig und der Ausgang ungewiss sein, aber wir müssen uns be
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
@@ -6539,6 +6651,13 @@ Außerdem haben wir das [ARTIFACT]Devastator-Kompendium[/ARTIFACT] gefunden, ein
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
+		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>

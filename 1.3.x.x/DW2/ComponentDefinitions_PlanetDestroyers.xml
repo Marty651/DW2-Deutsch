@@ -105,8 +105,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -287,8 +287,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -465,8 +465,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -647,8 +647,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -829,8 +829,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -1007,8 +1007,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectFilepath>Effects/Weapons/Smoke05</TrailEffectFilepath>
 			<TrailEffectTintColor>
 				<R>64</R>
@@ -1186,8 +1186,8 @@
 				<A>0</A>
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperLaser_Chargeup_Long</WeaponChargeupSoundEffectFilepath>
-		<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-		<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
+			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectFilepath>Effects/Weapons/Smoke05</TrailEffectFilepath>
 			<TrailEffectTintColor>
 				<R>32</R>
@@ -1811,9 +1811,8 @@
 		<Name>Zenox Super-Tarnung</Name>
 		<ImageFilename>Environment/Components/407-Zenox Super Stealth</ImageFilename>
 	</ComponentDefinition>
-
 	<ComponentDefinition>
-		<ComponentId>419</ComponentId> <!-- Super Pulse Wave Cannon -->
+		<ComponentId>419</ComponentId> <!-- Super Pulse Wave Cannon [X] -->
 		<Size>150</Size>
 		<Category>WeaponStandoff</Category>
 		<Family>Blasters</Family>
@@ -1884,7 +1883,6 @@
 				<A>255</A>
 			</FiringEffectTintColor>
 			<WeaponChargeupLength>30</WeaponChargeupLength>
-			<WeaponChargeupMeshName></WeaponChargeupMeshName>
 			<WeaponChargeupPulseColor1>
 				<R>0</R>
 				<G>0</G>
@@ -1923,7 +1921,7 @@
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/SuperPulseWave_Chargeup</WeaponChargeupSoundEffectFilepath>
 			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-			<TrailEffectFilepath></TrailEffectFilepath>
+			<FiringEffectScaleFromShip>true</FiringEffectScaleFromShip>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -1966,9 +1964,9 @@
 				<WeaponBombardDamageQuality>1600</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0.02</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponDwellTime>1</WeaponDwellTime>
 				<WeaponEnergyPerShot>600</WeaponEnergyPerShot>
 				<WeaponFireRate>180</WeaponFireRate>
-				<WeaponDwellTime>1</WeaponDwellTime>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponRange>9600</WeaponRange>
 				<WeaponRawDamage>1280000</WeaponRawDamage>
@@ -1979,12 +1977,10 @@
 		<Name>Super-Pulswellenkanone [X]</Name>
 		<ImageFilename>Environment/Components/Super Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
-
 	<ComponentDefinition>
-		<ComponentId>420</ComponentId> <!-- Boom Device -->
+		<ComponentId>420</ComponentId> <!-- The Boom Device [X] -->
 		<Size>150</Size>
 		<Category>PlanetaryDetonator</Category>
-		<Family></Family>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
@@ -2028,10 +2024,8 @@
 				<A>0</A>
 			</TextureTintColor2>
 			<TintCycleLength>0</TintCycleLength>
-			<FiringEffectFilepath></FiringEffectFilepath>
 			<ArmorImpactEffectFilepath>VFXPrefabs/PulseTorpedoHitNonPen</ArmorImpactEffectFilepath>
 			<HullImpactEffectFilepath>VFXPrefabs/PulseTorpedoHit</HullImpactEffectFilepath>
-			<FiringSoundEffectFilepath></FiringSoundEffectFilepath>
 			<ArmorImpactEffectTintColor>
 				<R>0</R>
 				<G>160</G>
@@ -2051,7 +2045,6 @@
 				<A>255</A>
 			</FiringEffectTintColor>
 			<WeaponChargeupLength>200</WeaponChargeupLength>
-			<WeaponChargeupMeshName></WeaponChargeupMeshName>
 			<WeaponChargeupPulseColor1>
 				<R>0</R>
 				<G>0</G>
@@ -2090,7 +2083,6 @@
 			</WeaponChargeupEffectTintColor>
 			<WeaponChargeupSoundEffectFilepath>Sounds/Components/BoomDevice_Chargeup</WeaponChargeupSoundEffectFilepath>
 			<WeaponChargeupEffectScaleFromShip>true</WeaponChargeupEffectScaleFromShip>
-			<TrailEffectFilepath></TrailEffectFilepath>
 			<TrailEffectTintColor>
 				<R>0</R>
 				<G>0</G>
@@ -2162,5 +2154,4 @@
 		<Name>Das Boom-Gerät [X]</Name>
 		<ImageFilename>Environment/Components/Boom Device</ImageFilename>
 	</ComponentDefinition>
-
 </ArrayOfComponentDefinition>

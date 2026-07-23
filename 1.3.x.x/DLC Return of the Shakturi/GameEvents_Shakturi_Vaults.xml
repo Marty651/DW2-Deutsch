@@ -1279,6 +1279,11 @@ Die Kontrolle der Loros-Frucht und ihr Schutz vor den Händen des Feindes muss o
 				<LookupValue>0</LookupValue>
 				<ComparisonType>Undefined</ComparisonType>
 			</GameEventCondition>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+				<LookupValue>0</LookupValue>
+				<ComparisonType>Undefined</ComparisonType>
+			</GameEventCondition>
 		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>255</PlacementRaceId> <!-- Player -->
@@ -3213,7 +3218,7 @@ Es mag möglich sein, die Anlage zu öffnen, ohne weitere Forschungen anzustelle
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Investigate Shakturi Genetic Engineering Archive 3</GeneratedItemName>
+				<GeneratedItemName>Investigate Shakturi Genetic Engineering Archive 2</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>1</DelaySecondsMinimum>

@@ -115,9 +115,10 @@
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>127</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>127</Id1> <!-- Colony Event Id, Current Value = Wonders of the Past - Happiness -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -154,9 +155,10 @@
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>128</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>128</Id1> <!-- Colony Event Id, Current Value = Wonders of the Past - Research -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -172,7 +174,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Predictive History (Zenox)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -257,7 +258,6 @@
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
 				<ChoiceButtonText>Wenden Sie unsere Entdeckungen NICHT an</ChoiceButtonText>
-				<GeneratedItemName></GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -284,13 +284,13 @@
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Prädiktive Geschichte</MessageTitle>
-				<ImageFilename>Environment/Events/Predictive History</ImageFilename>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>16</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>16</Id1> <!-- Colony Event Id, Current Value = Predictive History -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -306,7 +306,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Preserve the Ruins (Zenox)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -422,7 +421,7 @@
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -443,8 +442,10 @@
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>38</Id1>
-				<Value1>1</Value1>
+				<Id1>38</Id1> <!-- Facility Id (-1=Ruins), Current Value = Planetary Administration Center -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Discovery Level -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -481,8 +482,7 @@
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1>
-				<Value1>1.5</Value1>
+				<Value1>1.5</Value1> <!-- Multiplier -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -498,7 +498,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Search the Archives (Zenox)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -518,9 +517,8 @@
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0</Value1>
-				<Value2>100</Value2>
-				<GeneratedItemName>SearchTheArchives_RandomValue</GeneratedItemName>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -537,123 +535,124 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat verschollene wissenschaftliche Erkenntnisse zutage gefördert, die unsere Forschungsanstrengungen beschleunigen!\n\nFür die nächsten zwei Jahre wird unser Reich von einem [BONUS]+5% Alle Forschungen[/BONUS] Bonus profitieren.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<MessageTitle>Suche im Archiv</MessageTitle>
-				<Description>Unsere Suche in den Archiven hat verschollene wissenschaftliche Erkenntnisse zutage gefördert, die unsere Forschungsanstrengungen beschleunigen!\n\nFür die nächsten zwei Jahre wird unser Reich von einem [BONUS]+5% Alle Forschungen[/BONUS] Bonus profitieren.</Description>
-				<MessageViewMode>Dialog</MessageViewMode>
-				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
-				<Id1>130</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>130</Id1> <!-- Colony Event Id, Current Value = Search the Archives - Research Boost -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>GreaterThanOrEqual</ComparisonType>
 						<ComparisonValue>0</ComparisonValue>
 					</GameEventCondition>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>LessThan</ComparisonType>
 						<ComparisonValue>25</ComparisonValue>
 					</GameEventCondition>
 				</Conditions>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>-1</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat weitere Details über die alten Zenox zutage gefördert, die die Menschen in unserem Reich faszinieren!\n\n In den nächsten zwei Jahren wird unsere Kolonie von einem [HL]+10 Glück[/HL] Schub profitieren.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<MessageTitle>Suche im Archiv</MessageTitle>
-				<Description>Unsere Suche in den Archiven hat weitere Details über die alten Zenox zutage gefördert, die die Menschen in unserem Reich faszinieren!\n\n In den nächsten zwei Jahren wird unsere Kolonie von einem [HL]+10 Glück[/HL] Schub profitieren.</Description>
-				<MessageViewMode>Dialog</MessageViewMode>
-				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
-				<Id1>131</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
+				<Id1>131</Id1> <!-- Colony Event Id, Current Value = Search the Archives - Happiness Boost -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>GreaterThanOrEqual</ComparisonType>
 						<ComparisonValue>25</ComparisonValue>
 					</GameEventCondition>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>LessThan</ComparisonType>
 						<ComparisonValue>50</ComparisonValue>
 					</GameEventCondition>
 				</Conditions>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>-1</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 			<GameEventAction>
 				<Type>NavigationalCoordinatesRandomSelection</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat einen besonderen Ort in der Galaxie aufgedeckt.\n\nDie Details über diesen Ort sind sehr dünn. Wir konnten nur durch beiläufige Erwähnungen in den Archiven auf diesen Ort schließen. Wir wissen also nicht viel über diesen Ort, außer dass er eine gewisse Bedeutung hat. Wir sollten diesen Ort wahrscheinlich untersuchen.\n\nEine [HL]Navigationsmarkierung ping[/HL] wurde zu unserer Galaxiekarte hinzugefügt. Diesen Ort finden Sie auch in unserer Liste der besonderen Orte im Abschnitt Erkundung.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<MessageTitle>Suche im Archiv</MessageTitle>
-				<Description>Unsere Suche in den Archiven hat einen besonderen Ort in der Galaxie aufgedeckt.\n\nDie Details über diesen Ort sind sehr dünn. Wir konnten nur durch beiläufige Erwähnungen in den Archiven auf diesen Ort schließen. Wir wissen also nicht viel über diesen Ort, außer dass er eine gewisse Bedeutung hat. Wir sollten diesen Ort wahrscheinlich untersuchen.\n\nEine [HL]Navigationsmarkierung ping[/HL] wurde zu unserer Galaxiekarte hinzugefügt. Diesen Ort finden Sie auch in unserer Liste der besonderen Orte im Abschnitt Erkundung.</Description>
-				<MessageViewMode>Dialog</MessageViewMode>
-				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
-				<Id2>1</Id2>
+				<Id2>1</Id2> <!-- Unknown -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>GreaterThanOrEqual</ComparisonType>
 						<ComparisonValue>50</ComparisonValue>
 					</GameEventCondition>
 					<GameEventCondition>
 						<Type>VariableComparison</Type>
+						<LookupValue>0</LookupValue>
 						<VariableName>SearchTheArchives_RandomValue</VariableName>
 						<ComparisonType>LessThan</ComparisonType>
 						<ComparisonValue>101</ComparisonValue>
 					</GameEventCondition>
 				</Conditions>
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>-1</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 		</TriggerActions>
 	</GameEvent>
-
 </ArrayOfGameEvent>

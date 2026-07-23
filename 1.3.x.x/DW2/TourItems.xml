@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ArrayOfTourItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <TourItem>
     <Title>Basic Tour</Title>
@@ -13,7 +13,7 @@ Jedes Element wird durch einen farbigen Rahmen hervorgehoben, wenn es erklärt w
 
 Klicken Sie auf die Schaltfläche "Weiter" unten, um loszulegen!</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string />
         </RelatedControlNames>
       </TourStep>
       <TourStep>
@@ -24,7 +24,7 @@ Zusätzlich können Sie die Hauptansicht auch schwenken, indem Sie Ihre Maus an 
 
 Sie können die Ansicht mit dem Mausrad oder mit den Tasten PageUp und PageDown vergrößern oder verkleinern.</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string></string>
         </RelatedControlNames>
       </TourStep>
       <TourStep>
@@ -332,14 +332,14 @@ Sie sollten auch die Galactopedia durchstöbern, um detaillierte Informationen z
 
 Erforschen, Expandieren und Erobern!</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string></string>
         </RelatedControlNames>
       </TourStep>
     </Steps>
   </TourItem>
   
   <TourItem>
-    <Title>Euer Volk</Title>
+    <Title>Your Empire</Title>
     <Steps>
       <TourStep>
         <StepTitle>Wirtschaft</StepTitle>
@@ -445,7 +445,7 @@ Der obere Bereich "Berater und Automatisierung" fasst alle Automatisierungseinst
   </TourItem>
 
   <TourItem>
-    <Title>Diplomatie</Title>
+    <Title>Diplomacy</Title>
     <Steps>
       <TourStep>
         <StepTitle>Diplomatische Beziehungen</StepTitle>
@@ -642,7 +642,7 @@ Sie können die Details jedes gefangenen feindlichen Charakters sehen, indem Sie
   </TourItem>
 
   <TourItem>
-    <Title>Charaktere</Title>
+    <Title>Characters</Title>
     <Steps>
       <TourStep>
         <StepTitle>Charaktere</StepTitle>
@@ -714,7 +714,7 @@ Sie können die Details jedes gefangenen feindlichen Charakters sehen, indem Sie
   </TourItem>
 
   <TourItem>
-    <Title>Kolonien</Title>
+    <Title>Colonies</Title>
     <Steps>
       <TourStep>
         <StepTitle>Kolonien</StepTitle>
@@ -844,7 +844,7 @@ Wenn Sie den Mauszeiger über ein Artefakt in der Liste bewegen, wird auf der re
   </TourItem>
 
   <TourItem>
-    <Title>Erkundung</Title>
+    <Title>Exploration</Title>
     <Steps>
       <TourStep>
         <StepTitle>Erkundungsschiffe</StepTitle>
@@ -921,7 +921,7 @@ Wenn Sie den Mauszeiger über einen besonderen Ort in der Liste bewegen, wird re
   </TourItem>
 
   <TourItem>
-    <Title>Ressourcen und Bergbau</Title>
+    <Title>Resources and Mining</Title>
     <Steps>
       <TourStep>
         <StepTitle>Rohstoffe</StepTitle>
@@ -1020,7 +1020,7 @@ Jedes Objekt in der Liste zeigt die aktuelle Ladung und Mission des Tankers an.<
   </TourItem>
 
   <TourItem>
-    <Title>Konstruktion</Title>
+    <Title>Construction</Title>
     <Steps>
       <TourStep>
         <StepTitle>Schiffsbau</StepTitle>
@@ -1201,7 +1201,7 @@ Sie können auch wie folgt vorgehen:
 [H3]Triebwerksplatzierung[/H3]
 Beachten Sie, dass beim Hinzufügen von Triebwerken zu einem Schiffsentwurf die tatsächliche Einbaubucht, in der das Triebwerk hinzugefügt wird, von der von Ihnen ausgewählten Einbaubucht abweichen kann. Das liegt daran, dass Triebwerke symmetrisch bleiben müssen und daher immer auf abwechselnden Seiten des Designs hinzugefügt werden.</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string></string>
         </RelatedControlNames>
       </TourStep>
       <TourStep>
@@ -1312,7 +1312,7 @@ Oder Sie klicken auf die Schaltfläche Abbrechen, um zur Hauptansicht zurückzuk
   </TourItem>
 
   <TourItem>
-    <Title>Forschung</Title>
+    <Title>Research</Title>
     <Steps>
       <TourStep>
         <StepTitle>Forschung</StepTitle>
@@ -1446,7 +1446,7 @@ Wenn Ihr Spiel so eingestellt ist, dass Sie blind forschen, können Sie nur die 
 
 Wenn Sie Ihr Spiel so eingestellt haben, dass alle Forschungen angezeigt werden, können Sie alle Projekte ab Spielbeginn sehen.</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string></string>
         </RelatedControlNames>
       </TourStep>
       <TourStep>
@@ -1503,7 +1503,7 @@ Um Blitzforschung für ein Projekt zu betreiben:
 [ULI]klicken Sie auf das Projekt in der Ansicht[/ULI]
 [ULI]es erscheint ein Fenster, in dem Sie aufgefordert werden, die Zahlung für die Blitzforschung des Projekts zu genehmigen[/ULI]</MarkupText>
         <RelatedControlNames>
-          <string/>
+          <string></string>
         </RelatedControlNames>
       </TourStep>
       <TourStep>
@@ -1544,7 +1544,7 @@ Ganz oben befindet sich die Schaltfläche Forschung beenden. Klicken Sie auf die
   </TourItem>
 
   <TourItem>
-    <Title>Militär</Title>
+    <Title>Military</Title>
     <Steps>
       <TourStep>
         <StepTitle>Militärschiffe</StepTitle>
@@ -1705,7 +1705,7 @@ Es gibt 4 grundlegende Arten von Armeevorlagen:
 Für jeden Typ gibt es eine Standardvorlage, aber Sie können diese modifizieren oder zusätzliche Vorlagen erstellen, die Ihren Bedürfnissen entsprechen.
 
 [H3]Armeevorlagen zuweisen[/H3]
-Sie können eine Armeevorlage für eine Kolonie auswählen, indem Sie die Kolonie markieren und die Schaltflächen 'Kolonie Automatisierung festlegen' > 'Armeevorlage' unter dem Auswahlfenster verwenden. Daraufhin wird eine Liste mit allen Armeevorlagen angezeigt, die Sie verwenden können. 
+Sie können eine Armeevorlage für eine Kolonie auswählen, indem Sie die Kolonie markieren und die Schaltflächen 'Kolonie Automatisierung festlegen' &gt; 'Armeevorlage' unter dem Auswahlfenster verwenden. Daraufhin wird eine Liste mit allen Armeevorlagen angezeigt, die Sie verwenden können. 
 
 Wählen Sie die Vorlage, die Sie für die Kolonie verwenden möchten, indem Sie sie in der Liste anklicken. Die Kolonie wird dann versuchen, Verteidigungstruppen in dem Verhältnis zu rekrutieren, das in der Vorlage angegeben ist.
 
@@ -1825,7 +1825,7 @@ Wenn Sie das Gebiet nicht erkunden können, wird die Schaltfläche Warteschlange
   </TourItem>
 
   <TourItem>
-    <Title>Ziviler Sektor</Title>
+    <Title>Civilian</Title>
     <Steps>
       <TourStep>
         <StepTitle>Alle Zivilschiffe</StepTitle>
@@ -1906,5 +1906,5 @@ Nicht-militärische Schiffe werden nicht zu einem gefährlichen Gebiet reisen. D
       </TourStep>
     </Steps>
   </TourItem>
-
+	
 </ArrayOfTourItem>

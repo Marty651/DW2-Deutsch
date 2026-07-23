@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<GameEvent>
 		<Name>Startup Mining Ship (Haakonish)</Name>
@@ -11,17 +11,18 @@
 		<PlacementAtGameStart>false</PlacementAtGameStart>
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TechLevelThreshold>0</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
-		<TechLevelThreshold>0</TechLevelThreshold>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GenerateShipBase</Type>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-2</Id1> <!-- Owning Race Id -->
-				<Id2>-2</Id2>
+				<Id2>-2</Id2> <!-- Unknown -->
 				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
 				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
@@ -40,7 +41,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Penalty Clauses Triggered (Haakonish)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -60,10 +60,9 @@
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<Id1>1</Id1>
-				<Id2>1</Id2>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>1</Id1> <!-- Unknown -->
+				<Id2>1</Id2> <!-- Unknown -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -79,7 +78,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Start Economic Boost (Haakonish)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -140,7 +138,6 @@
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
-
 	<GameEvent>
 		<Name>Start Xenophobic Riots (Haakonish)</Name>
 		<TriggerType>Undefined</TriggerType>
@@ -201,13 +198,13 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>ChangeEmpireReputation</Type>
+				<Description>Fremdenfeindliche Ausschreitungen</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>-1</Id1> <!-- Race Id -->
 				<Value1>-10</Value1> <!-- Amount Of Change (-100 To 100) -->
-				<Value2>0.2</Value2>
-				<Description>Fremdenfeindliche Ausschreitungen</Description>
+				<Value2>0.2</Value2> <!-- Unknown -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -226,8 +223,8 @@
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>3</Id1>
-				<Value1>0.75</Value1>
+				<Id1>3</Id1> <!-- Unknown -->
+				<Value1>0.75</Value1> <!-- Ratio Amount (>0 to 1) -->
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -241,8 +238,6 @@
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-
 		</TriggerActions>
 	</GameEvent>
-
 </ArrayOfGameEvent>

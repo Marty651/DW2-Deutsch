@@ -51,7 +51,7 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyInfluenceIncome</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -69,6 +69,7 @@
 		</BuildCost>
 		<MaintenanceCost>700</MaintenanceCost>
 		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<BombardmentResistance>0.95</BombardmentResistance>
 		<GroundCombatResistance>0.85</GroundCombatResistance>
 		<ColonyInfluenceLevelToBuild>0.95</ColonyInfluenceLevelToBuild>
@@ -80,14 +81,14 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyInfluenceIncome</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -96,6 +97,57 @@
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<Name>Kriminelles Netzwerk</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Criminal Network</ImageFilename>
+	</PlanetaryFacilityDefinition>
+
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>142</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>300000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerGalaxy>1</MaximumBuildCountPerGalaxy>
+		<BombardmentResistance>0.99</BombardmentResistance>
+		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<ColonyInfluenceLevelToBuild>0.95</ColonyInfluenceLevelToBuild>
+		<ColonyInfluenceFloor>0.95</ColonyInfluenceFloor>
+		<ColonyInfluenceIncrease>0.02</ColonyInfluenceIncrease>
+		<ColonyInfluenceIncreaseLimit>1.0</ColonyInfluenceIncreaseLimit>
+		<ColonyInfluenceDefendingTroopStrength>3000</ColonyInfluenceDefendingTroopStrength>
+		<AllowPirateTransitionToStandard>false</AllowPirateTransitionToStandard>
+		<MinimumPopulationRequired>1000000000</MinimumPopulationRequired>
+		<PlanetaryShieldMaximumDamageAbsorbed>35</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
+		<HyperDenyRange>25000</HyperDenyRange>
+		<HyperDenyStrength>50</HyperDenyStrength>
+		<EnableGovernmentIds>
+			<short>32730</short>
+		</EnableGovernmentIds>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyInfluenceIncome</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<VictoryBonusAmount>0.2</VictoryBonusAmount>
+		<FacilityFamilyId>72</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<Name>Anarchopolis</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Anarchopolis</ImageFilename>
 	</PlanetaryFacilityDefinition>
 
 </ArrayOfPlanetaryFacilityDefinition>

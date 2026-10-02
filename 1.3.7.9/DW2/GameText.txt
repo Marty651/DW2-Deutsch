@@ -218,8 +218,8 @@ Captured Base Scrapped		;Eroberte Raumbasis verschrottet
 Captured Ship Scrapped		;Erbeutetes Schiff verschrottet
 Captured Base Scrapped Description		;Im Einklang mit unserer Herrschaftspolitik haben wir die eroberte Raumbasis [LOCATION]{0}[/LOCATION]] sofort verschrottet und dafür einen Geldbonus von {1} Credits erhalten.
 Captured Ship Scrapped Description		;Im Einklang mit unserer Herrschaftspolitik haben wir das erbeutete Schiff [LOCATION]{0}[/LOCATION] sofort verschrottet und dafür einen Geldbonus von {1} Credits erhalten.
-Captured Base Scrapped Description Lone Pirate		;Da wir als Solopiraten eroberte Stützpunkte nicht halten können, haben wir den eroberten Stützpunkt [LOCATION]{0}[/LOCATION] sofort vor Ort abgebaut und dafür einen Geldbonus von {1} Credits erhalten.
-Captured Ship Scrapped Description Lone Pirate		;Als Solopiraten können wir erbeutete Schiffe nicht behalten, daher haben wir das erbeutete Schiff [LOCATION]{0}[/LOCATION] sofort vor Ort verschrottet und dafür einen Geldbonus von {1} Credits erhalten.
+Captured Base Scrapped Description Lone Pirate		;Da wir als einsame Piraten eroberte Stützpunkte nicht halten können, haben wir den eroberten Stützpunkt [LOCATION]{0}[/LOCATION] sofort vor Ort abgebaut und dafür einen Geldbonus von {1} Credits erhalten.
+Captured Ship Scrapped Description Lone Pirate		;Als einsame Piraten können wir erbeutete Schiffe nicht behalten, daher haben wir das erbeutete Schiff [LOCATION]{0}[/LOCATION] sofort vor Ort verschrottet und dafür einen Geldbonus von {1} Credits erhalten.
 
 During our recent conquest of COLONY we acquired the following		;Während unserer kürzlichen Eroberung von [LOCATION]{0}[/LOCATION] von [FACTION]{1}[/FACTION] haben wir Folgendes erbeutet: {2}
 During the recent conquest of COLONY EMPIRE acquired the following		;Bei der kürzlichen Eroberung unserer Kolonie auf [LOCATION]{0}[/LOCATION] durch [FACTION]{1}[/FACTION] ist es ihnen gelungen, folgendes von uns zu erbeuten: {2}
@@ -2404,10 +2404,10 @@ StartNewGame_OtherEmpires		;Andere Völker
 StartNewGame_VictoryConditions		;Siegbedingungen
 StartNewGame_StartGame		;Spiel starten
 
-StartNewGame_PlayMode		;Play Mode
-StartNewGame_PirateFactionSettings		;Pirate Faction
-StartNewGame_PiratePlaystyle		;Pirate Playstyle
-StartNewGame_LonePirate		;Lone Pirate Starting Ship
+StartNewGame_PlayMode		;Spielmodus
+StartNewGame_PirateFactionSettings		;Piratenfraktion
+StartNewGame_PiratePlaystyle		;Piraten-Spielstil
+StartNewGame_LonePirate		;Einsamer Pirat Startschiff
 
 Galaxy Expansion Random		;Zufällig
 Galaxy Expansion PreWarp		;Raketen- Zeitalter
@@ -3730,7 +3730,7 @@ Independent Colonies only		;Nur unabhängige Kolonien
 All Pirate Types		;Alle Piratentypen
 Pirate Factions only		;Nur Piratenfraktionen
 Shadowports only		;Nur Schattenhäfen
-Lone Pirates only		;Nur Solopiraten
+Lone Pirates only		;Nur einsame Piraten
 Pirate Factions		;Piratenfraktionen
 Friends		;Freunde
 Enemies		;Feinde
@@ -7602,8 +7602,8 @@ Playmode Standard Empire		;Standard-Imperium
 Playmode Pirate Faction		;Piratenfraktion
 Playmode Lone Pirate		;Einsamer Pirat
 Playmode Refugee Fleet		;Flüchtlingsflotte
-Lone		;Solo
-Lone TYPE		;Solo {0}
+Lone		;Einsam
+Lone TYPE		;Einsam {0}
 
 Playmode Description Standard Empire		;Spielen Sie als [HL]Standard-Imperium[/HL] und ziehen Sie von Ihrer Heimatwelt aus los, um neue Kolonien zu gründen.\n\nErforschen Sie neue Sternensysteme, um Ressourcen und andere wertvolle Orte zu finden.\n\nErweitern Sie sich, indem Sie neue Bergbaustationen, Forschungsstationen und Resort-Basen bauen.\n\nForschen Sie, um neue Technologien freizuschalten.\n\nBauen Sie ein starkes Militär auf, um mit Bedrohungen durch andere Imperien und Piraten fertig zu werden.\n\nNutzen Sie die Diplomatie, um Freunde zu gewinnen und Feinde abzuschrecken.\n\nErforschen, erweitern und erobern Sie!
 Playmode Description Pirate Faction		;Spielen Sie als [HL]Piratenfraktion[/HL], die außerhalb der Regeln agiert, als Gesetz für sich selbst.\n\nMächtige Sternenimperien beginnen sich über die Sterne auszubreiten und bringen Ordnung in eine einst chaotische Galaxie. Können Sie diese Reiche zu Ihrem Vorteil ausnutzen? Können Sie in den unberührten Außengebieten der Galaxie genug Einfluss behalten, um zu überleben?...\n\nAls Piratenfraktion werden Sie sich darauf konzentrieren, [HL]Kolonien[/HL] zu beeinflussen, um Ihr eigenes kriminelles Netzwerk aufzubauen. Schöpfen Sie die Einnahmen aus diesen kontrollierten Kolonien ab, um sich selbst zu bereichern und zu stärken.\n\n[HL]Überfallen und plündern[/HL] Sie feindliche Kolonien und Basen, um weitere Einnahmen zu erzielen. [HL]Erfüllen Sie Verträge[/HL], die von anderen Fraktionen angeboten werden, und verdienen Sie so mehr Geld. Wenn Sie wachsen, können Sie sich auch als [HL]Freibeuter[/HL] versuchen.\n\nEndlich können Sie sich sogar dafür entscheiden, von einer Piratenfraktion zu einem normalen Imperium mit eigenen Kolonien zu werden.
@@ -8067,7 +8067,7 @@ ShadowNet Threat Empire Title		;ShadowNet: Bedenkliche Fraktion identifiziert
 ShadowNet Threat Empire Description		;[FACTION]{0}[/FACTION] wächst weiter und wird stärker. Diese planetenbewohnende Fraktion konzentriert sich auf das {1}-System mit ihrer Hauptstadt in {2}.\n\nWir müssen dieses expandierende Imperium zurückdrängen, es daran hindern, weiter zu wachsen und so die Kontrolle der Piraten zu schwächen. Das bedeutet, dass wir ihre Schiffe und Basen angreifen müssen.\n\nWir haben ein geeignetes Ziel ausgemacht: [HL]{3}[/HL] im {4} System. Besuchen Sie den Bildschirm Verträge für Details.
 ShadowNet		;SchattenNetz
 ShadowNet Contract		;SchattenNetz Vertrag
-ShadowNet contracts are available for Lone Pirates		;SchattenNetz-Verträge stehen für Solo Pirates zur Verfügung, wenn sie an einem Schattenhafen angedockt sind.
+ShadowNet contracts are available for Lone Pirates		;SchattenNetz-Verträge stehen für einsame Piraten zur Verfügung, wenn sie an einem Schattenhafen angedockt sind.
 Check messages for a ShadowNet contract		;Überprüfe die Nachrichten auf einen SchattenNetz Vertrag
 
 Special Request		;Besondere Anfrage

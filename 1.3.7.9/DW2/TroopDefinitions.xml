@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+<ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TroopDefinition>
+		<TroopDefinitionId>0</TroopDefinitionId> <!-- Battle Robot Brigade -->
+		<RaceId>255</RaceId> <!-- All -->
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>1250</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<AttackStrength>60</AttackStrength>
+		<DefendStrength>75</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampfroboter Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>1</TroopDefinitionId> <!-- Synthetics Brigade -->
+		<RaceId>255</RaceId> <!-- All -->
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>150</MaintenanceCost>
+		<AttackStrength>120</AttackStrength>
+		<DefendStrength>150</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Synthetik Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Synthetic_troops</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>2</TroopDefinitionId> <!-- Strike Trooper Brigade -->
+		<RaceId>0</RaceId> <!-- Human -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>120</AttackStrength>
+		<DefendStrength>180</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Sturmtruppen Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>3</TroopDefinitionId> <!-- Heavy Armor Brigade -->
+		<RaceId>0</RaceId> <!-- Human -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>288</AttackStrength>
+		<DefendStrength>120</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Schwere Panzer Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>4</TroopDefinitionId> <!-- Aerospace Defense Brigade -->
+		<RaceId>0</RaceId> <!-- Human -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>48</AttackStrength>
+		<DefendStrength>144</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Luft &amp; Raumfahrt Verteidigungsbrigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>5</TroopDefinitionId> <!-- Special Forces Group -->
+		<RaceId>0</RaceId> <!-- Human -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>240</AttackStrength>
+		<DefendStrength>135</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Spezialkräfte</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>6</TroopDefinitionId> <!-- Titan Company -->
+		<RaceId>0</RaceId> <!-- Human -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>600</AttackStrength>
+		<DefendStrength>360</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Titan-Mech Kompanie</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>7</TroopDefinitionId> <!-- Trapper Group -->
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>65</AttackStrength>
+		<DefendStrength>98</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Trapper Gruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>8</TroopDefinitionId> <!-- Armored Destroyer Group -->
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<Type>Armored</Type>
+		<Size>8000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>156</AttackStrength>
+		<DefendStrength>65</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Gepanzerte Zerstörergruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>9</TroopDefinitionId> <!-- Defense Group -->
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<Type>PlanetaryDefense</Type>
+		<Size>12000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>26</AttackStrength>
+		<DefendStrength>78</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Verteidigungsgruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>10</TroopDefinitionId> <!-- Hunting Group -->
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<Type>SpecialForces</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>130</AttackStrength>
+		<DefendStrength>73</DefendStrength>
+		<SabotageStrength>150</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Jagdgruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>11</TroopDefinitionId> <!-- Mobile Fortress -->
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<Type>Titan</Type>
+		<Size>16000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>325</AttackStrength>
+		<DefendStrength>195</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Mobile Festung</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>12</TroopDefinitionId> <!-- Battlematon Brigade -->
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>125</AttackStrength>
+		<DefendStrength>188</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampfmaton Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>13</TroopDefinitionId> <!-- Gravity Brigade -->
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>300</AttackStrength>
+		<DefendStrength>125</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Gravitations Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>14</TroopDefinitionId> <!-- Interceptor Brigade -->
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>50</AttackStrength>
+		<DefendStrength>150</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Abfang Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>15</TroopDefinitionId> <!-- Reconaissance Brigade -->
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>250</AttackStrength>
+		<DefendStrength>141</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Aufklärungs Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>16</TroopDefinitionId> <!-- Battle Mech Company -->
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>625</AttackStrength>
+		<DefendStrength>375</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampf Mech-Kompanie</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>17</TroopDefinitionId> <!-- Conqueror Force -->
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>140</AttackStrength>
+		<DefendStrength>210</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Eroberungstruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>18</TroopDefinitionId> <!-- Armored Conqueror Force -->
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>336</AttackStrength>
+		<DefendStrength>140</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Gepanzerte Eroberungstruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>19</TroopDefinitionId> <!-- Repulser Force -->
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>56</AttackStrength>
+		<DefendStrength>168</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Befreiertruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>20</TroopDefinitionId> <!-- Commando Force -->
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>280</AttackStrength>
+		<DefendStrength>158</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kommandotruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>21</TroopDefinitionId> <!-- Assault Titan Force -->
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>700</AttackStrength>
+		<DefendStrength>420</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Angriffs Titan-Mecheinheiten</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>22</TroopDefinitionId> <!-- Executioner Hive -->
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>135</AttackStrength>
+		<DefendStrength>203</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Vollstrecker Schwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>23</TroopDefinitionId> <!-- Vanguard Hive -->
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>324</AttackStrength>
+		<DefendStrength>135</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Vorhut Schwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>24</TroopDefinitionId> <!-- Defense Hive -->
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>54</AttackStrength>
+		<DefendStrength>162</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Verteidigungs Schwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>25</TroopDefinitionId> <!-- Hidden Hive -->
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>270</AttackStrength>
+		<DefendStrength>152</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Verdeckter Schwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>26</TroopDefinitionId> <!-- Juggernaut Cluster -->
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>675</AttackStrength>
+		<DefendStrength>405</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Juggernaut-Cluster</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>27</TroopDefinitionId> <!-- Defender Brigade -->
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>90</AttackStrength>
+		<DefendStrength>135</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Verteidiger Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>28</TroopDefinitionId> <!-- Armored Brigade -->
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>216</AttackStrength>
+		<DefendStrength>90</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Gepanzerte Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>29</TroopDefinitionId> <!-- Interceptor Force -->
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>36</AttackStrength>
+		<DefendStrength>108</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Abfangtruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>30</TroopDefinitionId> <!-- Special Operations Force -->
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>180</AttackStrength>
+		<DefendStrength>101</DefendStrength>
+		<SabotageStrength>110</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Sondereinsatzkommando</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>31</TroopDefinitionId> <!-- Mobile Titan Force -->
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>450</AttackStrength>
+		<DefendStrength>270</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Mobile Titan-Mecheinheiten</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>32</TroopDefinitionId> <!-- Robo-Guard Force -->
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>105</AttackStrength>
+		<DefendStrength>158</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Robo Wächtertruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>33</TroopDefinitionId> <!-- Robo-Mech Force -->
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>252</AttackStrength>
+		<DefendStrength>105</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Robo Mech-Truppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>34</TroopDefinitionId> <!-- Robo-Battery Group -->
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>42</AttackStrength>
+		<DefendStrength>126</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Robo-Batterie Gruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>35</TroopDefinitionId> <!-- Robo-Commando Force -->
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>210</AttackStrength>
+		<DefendStrength>118</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Robo Kommandotruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>36</TroopDefinitionId> <!-- Robo-Titan Group -->
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>15000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>525</AttackStrength>
+		<DefendStrength>315</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Titan-Mechroboter</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>37</TroopDefinitionId> <!-- Sentinel Force -->
+		<RaceId>5</RaceId> <!-- Ikkuro -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>134</AttackStrength>
+		<DefendStrength>201</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Wächtertruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>42</TroopDefinitionId> <!-- Guardian Brigade -->
+		<RaceId>8</RaceId> <!-- Wekkarus -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>84</AttackStrength>
+		<DefendStrength>126</DefendStrength>
+		<PsychicDefense>5</PsychicDefense>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Wächter Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>43</TroopDefinitionId> <!-- Hunting Party -->
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>1800</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>180</MaintenanceCost>
+		<AttackStrength>68</AttackStrength>
+		<DefendStrength>102</DefendStrength>
+		<PsychicDefense>20</PsychicDefense>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Jagdverbund</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>44</TroopDefinitionId> <!-- Mercenary Brigade -->
+		<RaceId>10</RaceId> <!-- Dhayut -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>126</AttackStrength>
+		<DefendStrength>189</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Söldner Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>45</TroopDefinitionId> <!-- War Swarm -->
+		<RaceId>11</RaceId> <!-- Gizurean -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>92</AttackStrength>
+		<DefendStrength>138</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kriegsschwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>46</TroopDefinitionId> <!-- Battle Group -->
+		<RaceId>12</RaceId> <!-- Ketarov -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>72</AttackStrength>
+		<DefendStrength>108</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampfgruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>47</TroopDefinitionId> <!-- Battle Trooper Brigade -->
+		<RaceId>13</RaceId> <!-- Kiadian -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>128</AttackStrength>
+		<DefendStrength>192</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampftruppen Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>48</TroopDefinitionId> <!-- Fighting Clan -->
+		<RaceId>14</RaceId> <!-- Naxxilian -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>129</AttackStrength>
+		<DefendStrength>194</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kämpfer Clan</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>49</TroopDefinitionId> <!-- BattleMech Brigade -->
+		<RaceId>15</RaceId> <!-- Quameno -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>96</AttackStrength>
+		<DefendStrength>144</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kampf-Mech Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>50</TroopDefinitionId> <!-- Scout Group -->
+		<RaceId>16</RaceId> <!-- Securan -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>76</AttackStrength>
+		<DefendStrength>114</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Spähgruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>51</TroopDefinitionId> <!-- Protector Force -->
+		<RaceId>17</RaceId> <!-- Shandar -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>81</AttackStrength>
+		<DefendStrength>122</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Schutztruppe</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>52</TroopDefinitionId> <!-- Terminator Brigade -->
+		<RaceId>18</RaceId> <!-- Sluken -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>130</AttackStrength>
+		<DefendStrength>195</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Terminator-Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>53</TroopDefinitionId> <!-- WarBot Brigade -->
+		<RaceId>19</RaceId> <!-- Ugnari -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>72</AttackStrength>
+		<DefendStrength>108</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Kriegsbots Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>54</TroopDefinitionId> <!-- Slayer Swarm -->
+		<RaceId>20</RaceId> <!-- Shakturi -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>2000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>200</MaintenanceCost>
+		<AttackStrength>170</AttackStrength>
+		<DefendStrength>255</DefendStrength>
+		<PsychicStrength>10</PsychicStrength>
+		<PsychicDefense>10</PsychicDefense>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Slayer Schwarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>55</TroopDefinitionId> <!-- Mech Guardians -->
+		<RaceId>21</RaceId> <!-- Ancient Guardian -->
+		<Type>Infantry</Type>
+		<Size>5000</Size>
+		<MaintenanceCost>0</MaintenanceCost>
+		<IsRobotic>false</IsRobotic>
+		<Name>Mech-Wächter</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>32764</TroopDefinitionId> <!-- Hive Raider -->
+		<RaceId>249</RaceId> <!-- Crazed Hive Insectoids -->
+		<Type>Raider</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>0</MaintenanceCost>
+		<AttackStrength>40</AttackStrength>
+		<DefendStrength>20</DefendStrength>
+		<EvasionArmor>0.15</EvasionArmor>
+		<EvasionTitan>0.15</EvasionTitan>
+		<EvasionPlanetaryDefense>0.15</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Schwarm-Raider</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>32765</TroopDefinitionId> <!-- Standard Raider -->
+		<RaceId>255</RaceId> <!-- All -->
+		<Type>Raider</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>0</MaintenanceCost>
+		<AttackStrength>10</AttackStrength>
+		<DefendStrength>10</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Standard-Raider</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>32766</TroopDefinitionId> <!-- Standard Militia -->
+		<RaceId>255</RaceId> <!-- All -->
+		<Type>Militia</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>0</MaintenanceCost>
+		<AttackStrength>40</AttackStrength>
+		<DefendStrength>60</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Standard-Miliz</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>32767</TroopDefinitionId> <!-- Standard Infantry -->
+		<RaceId>255</RaceId> <!-- All -->
+		<Type>Infantry</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<AttackStrength>30</AttackStrength>
+		<DefendStrength>100</DefendStrength>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Standard-Infantrie</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+</ArrayOfTroopDefinition>

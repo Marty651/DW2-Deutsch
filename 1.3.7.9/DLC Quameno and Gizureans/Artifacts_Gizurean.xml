@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>45</ArtifactId> <!-- Tactical Balance Datacore -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
+		<Name>Taktischer Balance-Datenkern</Name>
+		<Description>Ein Kompendium von Beobachtungen und Strategien, das von den alten Gizurean zusammengestellt wurde und sowohl offensive als auch defensive Strategien beschreibt. Ein Großteil des Inhalts ist in dem für die alten Gizurean typischen, knappen Stil verfasst, aber es gibt Anmerkungen, die darauf hindeuten, dass der Inhalt auch Beiträge von mindestens einem Taktiker einer anderen Spezies enthalten haben könnte.</Description>
+		<ImageFilename>Artifacts/tactical balance datacore</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>46</ArtifactId> <!-- Gizurean Shipyard Schematic -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
+		<Name>Bauplan der Gizureanischen Werft</Name>
+		<Description>Ein von den alten Gizurean verfasstes Handbuch, das die besten Praktiken für den Schiffsbau und die Wartung von Schiffen beschreibt. Einige Hinweise im Text lassen vermuten, dass das Dokument in den letzten Tagen des Shakturi-Krieges verfasst wurde, als die Schwarmintelligenz-Spezies der Galaxis gegen ihre ehemaligen Verbündeten ums Überleben kämpften. Der Ton der Verzweiflung ist etwas... beunruhigend.</Description>
+		<ImageFilename>Artifacts/gizurean shipyard schematic</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>47</ArtifactId> <!-- Hive Fleet Compendium -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
+		<Name>Kompendium der Schwarmflotte</Name>
+		<Description>Eine Analyse der Schwarm-Schiffe, die von den alten Gizurean während der Zeit des Kataklysmus durchgeführt wurde. Sie befasst sich insbesondere mit den Techniken der Schwarm zum schnellen Entern feindlicher Schiffe.</Description>
+		<ImageFilename>Artifacts/hive fleet compendium</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

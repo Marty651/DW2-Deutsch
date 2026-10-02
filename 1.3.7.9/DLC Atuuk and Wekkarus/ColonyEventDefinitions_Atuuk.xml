@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>100</ColonyEventDefinitionId> <!-- Learned Troubling Things -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Beunruhigende Dinge gelernt</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>101</ColonyEventDefinitionId> <!-- Avoided Hard Questions -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Vermeidet harte Fragen</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>102</ColonyEventDefinitionId> <!-- Learned of Ancient Cruelty -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Von antiker Grausamkeit gelernt</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>103</ColonyEventDefinitionId> <!-- We Found the Friend Map -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wir haben die Freundeskarte gefunden</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>106</ColonyEventDefinitionId> <!-- Tired Scientists -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Müde Wissenschaftler</Name>
+		<ImageFilename>Environment/Events/negative research</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>107</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueContainment</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Smarter</Name>
+		<ImageFilename>Environment/Events/great direction - smarter</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>108</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>The Great Direction - Freundlicher</Name>
+		<ImageFilename>Environment/Events/great direction - friendlier</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>109</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Stronger</Name>
+		<ImageFilename>Environment/Events/great direction - stronger</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>110</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Richer</Name>
+		<ImageFilename>Environment/Events/great direction - richer</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>111</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Schneller</Name>
+		<ImageFilename>Environment/Events/great direction - faster</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>112</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Sabotage</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Sneakier</Name>
+		<ImageFilename>Environment/Events/great direction - sneakier</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>113</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Die große Richtung - Multiplizieren</Name>
+		<ImageFilename>Environment/Events/great direction - multiply</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>114</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.10</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Richtung Zweifel</Name>
+		<ImageFilename>Environment/Events/direction doubt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>115</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Sie haben den Knopf nicht gedrückt</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>116</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wir sind großartig!</Name>
+		<ImageFilename>Environment/Events/we are great</ImageFilename>
+	</ColonyEventDefinition>
+
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>117</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Taste - Sensor Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>118</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Taste - Waffenforschungsbonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>119</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was macht diese Taste - HyperDrive Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>120</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Taste - Reaktor Forschungsbonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>121</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Schaltfläche - Schildforschungsbonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>122</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Schaltfläche - Engine Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>123</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Schaltfläche - Rüstungsforschungsbonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>124</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Schaltfläche - Construction Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>125</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Taste - HighTech Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>126</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.20</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Was bewirkt diese Taste - Industrial Research Bonus</Name>
+		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

@@ -1,0 +1,67 @@
+GREETING_INTRODUCTION ;Willkommen! Wir sind {0}.\n\nWir lieben es, Maschinen zu reparieren und Bakdurs zu jagen.\n\nWir mögen weder Bäder noch völkermordende Diktatoren
+GREETING_FRIENDLY ;Willkommen unser bescheidener Kamerad!\n\nWorüber reden wir?
+GREETING_NEUTRAL ;Was tun wir für Sie?
+GREETING_ANGRY ;Ich freue mich nicht, Sie zu sehen, ok.\n\nSo machen Sie es schnell
+
+OFFER_DEAL ;Sie nehmen den Handel an?
+OFFER_DEAL_RESPONSE ;Ah! Ein Handel! Was für einen Handel wollen Sie?
+
+PIRATEPROTECTION_DEAL ;Viele unheimliche Dinge und verrückte Aliens im Weltraum... Sie wollen nicht, dass sich Ihre Schiffe oder Basen in netten Schrott verwandeln... \n\nFür geringe monatliche Kosten von {0} Credits können wir dafür sorgen, dass verrückte Schiffskapitäne keinen Schaden an Ihren Sachen anrichten.\n\nGuter Deal, ok? Keine Unfälle mehr...
+
+DEAL_BEGIN ;Was wollen Sie wissen?
+DEAL_ACCEPT ;Wir stimmen Ihrem Vorschlag zu
+DEAL_ACCEPT_RESPONSE ;Ah! Großartig!
+DEAL_REJECT_RESPONSE ;Wir sind enttäuscht...
+DEAL_REJECT ;Vorschlag ist nicht gut für uns - kein Deal
+
+SWAP_MAPS ;Welche Art von Karte wollen Sie tauschen?
+
+WAR_END_ACCEPT ;Ok, der Krieg ist beendet.\n\n Es ist sowieso bald Jagdsaison in Bakdur
+WAR_END_REJECT ;Haben Sie genug vom Kampf gegen Bakdur?\n\nWir nicht! Wir jagen euch weiter!
+
+TREATY_ACCEPT ;Wir nehmen Ihr Angebot an einem {0} an
+TREATY_REJECT ;Nein, wir sind jetzt nicht an einem {0} interessiert
+TREATY_REJECT_TOOSOON_NEUTRAL ;Nein, wir sind nicht an einem {0} interessiert. Zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_ANGRY ;Wir haben kein Interesse an einem {0} mit Ihnen! Außerdem, zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_REJECT_TOOSOON_FRIENDLY ;Tut uns leid, aber wir haben kein Interesse an einem {0}. Zu früh nach der letzten Änderung unserer Beziehungen
+TREATY_ACCEPT_NEUTRAL ;Wir nehmen Ihr Angebot an einem {0} an
+TREATY_REJECT_NEUTRAL ;Nein, wir sind jetzt nicht an einem {0} interessiert
+TREATY_ACCEPT_ANGRY ;Wir nehmen Ihr Angebot an einem {0} an
+TREATY_REJECT_ANGRY ;Wir haben kein Interesse an einem {0} mit Ihnen!
+TREATY_ACCEPT_FRIENDLY ;Wir nehmen Ihr Angebot an einem {0} gerne an!
+TREATY_REJECT_FRIENDLY ;Tut uns leid, aber wir haben kein Interesse an einem {0}
+
+PROTECTION_ACCEPT ;Wir akzeptieren Ihre Bitte um Schutz. Die monatlichen Kosten betragen {0} Credits
+PROTECTION_ACCEPT_NEUTRAL ;Wir akzeptieren Ihre Anfrage nach Schutz. Die monatlichen Kosten betragen {0} Credits
+PROTECTION_ACCEPT_ANGRY ;Huh, Ihre Schwäche muss groß sein für Ihre Bitte. Unser 'Schutz' wird {0} Credits pro Monat kosten.
+PROTECTION_ACCEPT_FRIENDLY ;Wir akzeptieren Ihre Bitte um Schutz. Die monatlichen Kosten betragen {0} Credits
+PROTECTION_REJECT ;Nein, wir sind jetzt nicht an Schutz interessiert
+PROTECTION_REJECT_NEUTRAL ;Nein, wir möchten keinen Schutz mit Ihnen vereinbaren
+PROTECTION_REJECT_ANGRY ;Nein, wir wollen Ihr wertloses Zeug nicht beschützen müssen!
+PROTECTION_REJECT_FRIENDLY ;Nein, wir wollen keine Schutzvereinbarung mit Ihnen
+
+CANCELTREATY ;{0} mit Ihnen ist nicht mehr gut. Alles beendet
+CANCELTREATY_RESPONSE_FRIENDLY ;Sie mögen uns nicht mehr? Wie kriegen wir das wieder hin?\n\n Wir haben sogar ein Bad, wenn Sie wollen.
+CANCELTREATY_RESPONSE_NEUTRAL ;Huh? Mögen Sie uns jetzt nicht mehr?\n\nOk dann
+CANCELTREATY_RESPONSE_ANGRY ;Kein Vertrag jetzt?\n\nNun, wir dachten, Sie sehen sowieso komisch aus. Sie haben keinen Geruch! Und zu sauber
+
+CANCELPROTECTION_RESPONSE_FRIENDLY ;Seltsam. Na ja.
+CANCELPROTECTION_RESPONSE_NEUTRAL ;Dumme Entscheidung. Vielleicht finden wir andere Wege, um an die Kosten zu kommen...
+CANCELPROTECTION_RESPONSE_ANGRY ;Dumm! Glauben Sie, Sie können ohne 'Schutz' überleben?!
+
+TREATY_PROPOSAL ;Ohhh, Vertrag, Vertrag! Wie aufregend!\n\nOk, jetzt hören wir zu. Erzählen Sie uns Ihren Plan
+TREATY_ACCEPTRESPONSE ;Yeehaa! Neuer Freund!\n\nSie haben kaputten Schrott, den Sie nicht wollen? Wir nehmen es für Euch, ja?
+TREATY_REJECTRESPONSE ;Schade. Wir hatten die Feierlichkeiten schon im Griff.\n\nAber jetzt nicht mehr.
+
+PROTECTION_ACCEPTRESPONSE ;Aufregend! Wir freuen uns auf Ihre monatlichen Kosten
+PROTECTION_REJECTRESPONSE ;Dumm gelaufen! Sie werden als Schrott enden, den wir sammeln...
+
+GIFT_GIVE ;Etwas für Sie: {0} Credits.\n\nWir wünschen Ihnen eine schöne Zeit, ok?
+GIFT_THANKS_ANGRY ;Wir haben Ihr kleines Geschenk erhalten. Ist unterwegs etwas heruntergefallen?
+GIFT_THANKS_NEUTRAL ;Wir freuen uns über Ihr nettes Geschenk. Vielen Dank!
+GIFT_THANKS_FRIENDLY ;Yeehaa! Wir freuen uns sehr über Ihr großes Geschenk!
+GIFT_PROPOSE ;An was für ein Geschenk denken Sie?
+
+WAR_DECLARE_RESPONSE_ANGRY ;Wir freuen uns auf den Kampf mit Ihnen! Sie sind zu sauber, haben keinen Gestank!\n\nAchtung: Große Jagdschiffe sind hinter Ihnen her!
+WAR_DECLARE_RESPONSE_NEUTRAL ;Also gut. Wir machen Sie jetzt richtig fertig!
+WAR_DECLARE_RESPONSE_FRIENDLY ;Krieg sagen Sie? Nicht gut!\n\nDas macht keinen Sinn

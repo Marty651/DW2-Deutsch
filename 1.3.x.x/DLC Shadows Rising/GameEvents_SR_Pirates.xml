@@ -58,7 +58,7 @@ Sollten wir uns gegen eine Investition in weitere Forschungen entscheiden, könn
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Könige der Leere</MessageTitle>
-				<Description>Unsere Untersuchungen haben ergeben, dass sich mehr als hundert Schiffe über die gesamte Oberfläche dieser Welt verstreut befinden. Einst gehörte dieses Gebiet zu einer Piratenflotte, die als die „Void Kings“ bekannt war. Sie tauchten in den Jahren nach der Katastrophe auf. Diese Piraten waren offensichtlich der Überzeugung, dass eine Besiedlung von Planeten in diesem Bereich des Weltraums nicht mehr tragbar sei. Sie bemühten sich aktiv darum, alle Planetenbewohner davon zu überzeugen, sich ihren Reihen anzuschließen. Zudem waren sie der Überzeugung, dass intelligentes Leben in der Galaxie nur dann fortbestehen könne, wenn sich alle Überlebenden unter einem einzigen Banner zusammenschließen würden: ihrem eigenen.</Description>
+				<Description>Unsere Untersuchungen haben ergeben, dass sich mehr als hundert Schiffe über die gesamte Oberfläche dieser Welt verstreut befinden. Einst gehörte dieses Gebiet zu einer Piratenflotte, die als die "Void Kings" bekannt war. Sie tauchten in den Jahren nach der Katastrophe auf. Diese Piraten waren offensichtlich der Überzeugung, dass eine Besiedlung von Planeten in diesem Bereich des Weltraums nicht mehr tragbar sei. Sie bemühten sich aktiv darum, alle Planetenbewohner davon zu überzeugen, sich ihren Reihen anzuschließen. Zudem waren sie der Überzeugung, dass intelligentes Leben in der Galaxie nur dann fortbestehen könne, wenn sich alle Überlebenden unter einem einzigen Banner zusammenschließen würden: ihrem eigenen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -195,7 +195,7 @@ Wir haben erhalten:
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>Wir erhalten eine Nachricht vom Planeten unter uns. „Willkommen, sehr geehrter Kunde. Bitte geben Sie Ihren Autorisierungscode ein. Nach der Überprüfung werden Sie zum entsprechenden Andockplatz weitergeleitet.“ 
+				<Description>Wir erhalten eine Nachricht vom Planeten unter uns. "Willkommen, sehr geehrter Kunde. Bitte geben Sie Ihren Autorisierungscode ein. Nach der Überprüfung werden Sie zum entsprechenden Andockplatz weitergeleitet." 
 
 Es befindet sich kein Raumschiff und keine Basis in der Umlaufbahn dieses Planeten. Es scheint jedoch Bewohner auf diesem Planeten zu geben. Wir müssen weitere Untersuchungen durchführen, um mehr darüber zu erfahren.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -212,7 +212,7 @@ Es befindet sich kein Raumschiff und keine Basis in der Umlaufbahn dieses Planet
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Die Tech-Händler</MessageTitle>
-				<Description>Unsere Untersuchungen deuten darauf hin, dass dieser Planet einst zu einer Piratenflotte gehörte, die unter dem Namen „The Tech Traders“ bekannt war. In den chaotischen Jahrzehnten nach der Katastrophe widmeten sie sich dem Sammeln von technologischen Forschungsergebnissen, die rasch im Verschwinden begriffen waren, und verkauften diese anschließend an den Meistbietenden. Wir vermuten, dass dieses System einst ein Knotenpunkt der „Tech Traders“ war, an dem technologische Forschungsergebnisse für Kunden gelagert wurden. Wahrscheinlich wollten sie nicht das Risiko eingehen, ihr Personal auf der Station zu stationieren, da sich in der Region stärkere und räuberischere Flotten aufhielten.
+				<Description>Unsere Untersuchungen deuten darauf hin, dass dieser Planet einst zu einer Piratenflotte gehörte, die unter dem Namen "The Tech Traders" bekannt war. In den chaotischen Jahrzehnten nach der Katastrophe widmeten sie sich dem Sammeln von technologischen Forschungsergebnissen, die rasch im Verschwinden begriffen waren, und verkauften diese anschließend an den Meistbietenden. Wir vermuten, dass dieses System einst ein Knotenpunkt der "Tech Traders" war, an dem technologische Forschungsergebnisse für Kunden gelagert wurden. Wahrscheinlich wollten sie nicht das Risiko eingehen, ihr Personal auf der Station zu stationieren, da sich in der Region stärkere und räuberischere Flotten aufhielten.
 
 Die Überreste der Basis, die einst diesen Planeten umkreiste, sind auf der Oberfläche zu finden. Unsere Wissenschaftler glauben, dass sie den Code knacken können, der die vorhandenen Daten schützt, doch es wird ein Team erforderlich sein, um diese Arbeit abzuschließen.
 
@@ -270,7 +270,7 @@ Alternativ könnte es möglich sein, detaillierte Scans der Basis durchzuführen
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Informationen stammen von uns</MessageTitle>
-				<Description>Die Untersuchungen der Überreste des „Tech Trader“ haben in der Tat einige nützliche Informationen zutage gefördert.</Description>
+				<Description>Die Untersuchungen der Überreste des "Tech Trader" haben in der Tat einige nützliche Informationen zutage gefördert.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -326,9 +326,9 @@ Alternativ könnte es möglich sein, detaillierte Scans der Basis durchzuführen
 				<MessageTitle>Kein Paradies</MessageTitle>
 				<Description>Unsere Untersuchung hat ergeben, dass das abgestürzte Schiff auf der darunterliegenden Welt Hunderte von menschlichen Familien beförderte, die in den Jahren nach der Katastrophe Zuflucht suchten. Diese Menschen folgten einer Nachricht, die sichere Ansiedlungsmöglichkeiten auf dieser Welt versprach.
 
-In dieser Nachricht wurde der Planet als Paradies auf der Suche nach Bewohnern angepriesen. Dies war Teil eines betrügerischen Plans, der von einer Piratenfraktion namens „Die Verschlinger“ betrieben wurde. Diese Piraten griffen jedes Schiff an, das auf ihre Botschaft reagierte, töteten alle Insassen und plünderten die Schiffe aller brauchbaren Materialien.
+In dieser Nachricht wurde der Planet als Paradies auf der Suche nach Bewohnern angepriesen. Dies war Teil eines betrügerischen Plans, der von einer Piratenfraktion namens "Die Verschlinger" betrieben wurde. Diese Piraten griffen jedes Schiff an, das auf ihre Botschaft reagierte, töteten alle Insassen und plünderten die Schiffe aller brauchbaren Materialien.
 
-Es gelang uns zudem, die Überreste eines Schiffes ausfindig zu machen, das „Den Verschlingern“ gehörte. Aus ihren Logbüchern erfuhren wir, dass sie, sobald eine Operation mehrere Monate lang aktiv gewesen war, ihren Standort wechselten, in der Hoffnung, neue Opfer zu finden, die ihre Täuschung noch nicht kannten.
+Es gelang uns zudem, die Überreste eines Schiffes ausfindig zu machen, das "Den Verschlingern" gehörte. Aus ihren Logbüchern erfuhren wir, dass sie, sobald eine Operation mehrere Monate lang aktiv gewesen war, ihren Standort wechselten, in der Hoffnung, neue Opfer zu finden, die ihre Täuschung noch nicht kannten.
 
 Wir glauben, dass wir durch die weitere Untersuchung des Wracks etwas über den Schiffsbau der Antike erfahren können. Alternativ könnten wir ein Team an die Oberfläche entsenden, um zu sehen, was es dort noch zu entdecken gibt.</Description>
 				<ChoiceButtonText>Ein Team entsenden</ChoiceButtonText>
@@ -423,7 +423,7 @@ Wir glauben, dass wir durch die weitere Untersuchung des Wracks etwas über den 
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Der Hive Navigator</MessageTitle>
-				<Description>Eine eingehende Untersuchung des Wracks hat es uns ermöglicht, die Logbücher des Schiffes zu scannen. Wir haben erfahren, dass der Navigationscomputer des Schiffes an ein Gerät namens „Hive Navigator“ angeschlossen war, von dem die Besatzung glaubte, dass es ihnen die Erkennung von Hive-Aktivitäten ermögliche. Dieses Gerät trägt eine Seriennummer, was darauf hindeutet, dass es sich um eines von vielen derartigen Geräten handelte, die damals verkauft wurden.
+				<Description>Eine eingehende Untersuchung des Wracks hat es uns ermöglicht, die Logbücher des Schiffes zu scannen. Wir haben erfahren, dass der Navigationscomputer des Schiffes an ein Gerät namens "Hive Navigator" angeschlossen war, von dem die Besatzung glaubte, dass es ihnen die Erkennung von Hive-Aktivitäten ermögliche. Dieses Gerät trägt eine Seriennummer, was darauf hindeutet, dass es sich um eines von vielen derartigen Geräten handelte, die damals verkauft wurden.
 
 Jede mögliche Interaktion mit den Hive sollte nach Möglichkeit vermieden werden. Sollen wir weitere Untersuchungen durchführen oder das Schiff zerstören und die Ressourcen bergen, die wir noch retten können?</Description>
 				<ChoiceButtonText>Weitere Informationen einholen</ChoiceButtonText>
@@ -443,7 +443,7 @@ Jede mögliche Interaktion mit den Hive sollte nach Möglichkeit vermieden werde
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das ist eine Falle!</MessageTitle>
-				<Description>Eine eingehendere Untersuchung des Schiffes hat ergeben, dass das „Hive Navigator“-Gerät keinen Schutz bot. Es handelte sich vielmehr um ein Leuchtfeuer, das den Hive anzog. Das Computersystem wurde von einer als „New Dominators“ bekannten Piratenfraktion verkauft, die die Angst vor dem Hive ausnutzte, um Schiffe in den Untergang zu locken. Anschließend rückten die Piraten vor, um die Überreste dessen, was der Hive zurückgelassen hatte, zu plündern.
+				<Description>Eine eingehendere Untersuchung des Schiffes hat ergeben, dass das "Hive Navigator"-Gerät keinen Schutz bot. Es handelte sich vielmehr um ein Leuchtfeuer, das den Hive anzog. Das Computersystem wurde von einer als "New Dominators" bekannten Piratenfraktion verkauft, die die Angst vor dem Hive ausnutzte, um Schiffe in den Untergang zu locken. Anschließend rückten die Piraten vor, um die Überreste dessen, was der Hive zurückgelassen hatte, zu plündern.
 
 Den Logbüchern des Schiffes zufolge verließen sich die New Dominators zunehmend auf dieses Vorgehen, sodass sie leichtsinnig wurden: Sie verkauften Hunderte dieser Geräte und lockten immer größere Anzahlen von Hive-Schiffen in ihren Raum. Diese Strategie machte sie eine Zeit lang reich, doch schließlich verließ sie das Glück, und der Hive begann, Jagd auf die New Dominators zu machen. Dieses Schiff war eines der letzten überlebenden Schiffe der New Dominators. Die Besatzung floh so überstürzt vor der Zerstörung ihrer Flotte, dass sie keine Zeit hatte, sich angemessen mit Vorräten zu versorgen. Ihnen ging der Treibstoff aus, und kurz darauf starben sie an Durst.
 
@@ -469,7 +469,7 @@ Wir haben den [ARTIFACT]Schwarm-Navigator[/ARTIFACT] erhalten</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Risiko lohnt sich nicht</MessageTitle>
-				<Description>Es ist am klügsten, alles zu meiden, was mit dem Schwarm in Berührung gekommen ist – selbst wenn dies bereits vor Jahrhunderten geschehen ist.
+				<Description>Es ist am klügsten, alles zu meiden, was mit dem Schwarm in Berührung gekommen ist - selbst wenn dies bereits vor Jahrhunderten geschehen ist.
 
 Wir haben erhalten:
 
@@ -587,7 +587,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ein Bergbaustandort</MessageTitle>
-				<Description>Wir haben eine verlassene Argon-Abbaustation entdeckt, die vor Jahrhunderten einer Piratenflotte namens „Dark Reavers“ gehörte.</Description>
+				<Description>Wir haben eine verlassene Argon-Abbaustation entdeckt, die vor Jahrhunderten einer Piratenflotte namens "Dark Reavers" gehörte.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -616,7 +616,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Cache gefunden</MessageTitle>
-				<Description>Wir haben ein Vorratslager der „Dark Reavers“ entdeckt.
+				<Description>Wir haben ein Vorratslager der "Dark Reavers" entdeckt.
 
 Wir haben erhalten:
 
@@ -663,7 +663,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Cache gefunden</MessageTitle>
-				<Description>Wir haben ein Vorratslager der „Dark Reavers“ entdeckt.
+				<Description>Wir haben ein Vorratslager der "Dark Reavers" entdeckt.
 
 Wir haben erhalten:
 
@@ -710,7 +710,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Cache gefunden</MessageTitle>
-				<Description>Wir haben ein Vorratslager der „Dark Reavers“ entdeckt.
+				<Description>Wir haben ein Vorratslager der "Dark Reavers" entdeckt.
 
 Wir haben erhalten:
 
@@ -753,7 +753,7 @@ Wir haben erhalten:
 				<MessageTitle>Die Dunklen Plünderer</MessageTitle>
 				<Description>Eine Untersuchung der Basis hat ergeben, dass die Dark Reavers dafür berüchtigt waren, Wertgegenstände zu sammeln und zu horten. Sie scheinen sehr stolz auf ihre Fähigkeit gewesen zu sein, nützliche und handelbare Ressourcen anzuhäufen.
 
-Um zu verhindern, dass ihre Schätze entdeckt werden, führten die Dark Reavers niemals detaillierte Karten – lediglich Teilfragmente, die über mehrere Basen verteilt aufbewahrt wurden.
+Um zu verhindern, dass ihre Schätze entdeckt werden, führten die Dark Reavers niemals detaillierte Karten - lediglich Teilfragmente, die über mehrere Basen verteilt aufbewahrt wurden.
 
 Unsere Ingenieure glauben, dass sie den beschädigten Computerkern der Basis teilweise wiederherstellen können. Mit ausreichenden Investitionen könnten sie möglicherweise mehrere Versteckorte wiederherstellen. Alternativ haben unsere Vermesser eine Reihe beschädigter Sternenkarten ausfindig gemacht, die offenbar auf mindestens ein Versteck in der Nähe hinweisen.</Description>
 				<ChoiceButtonText>Den Kern reparieren [25.000 cr]</ChoiceButtonText>
@@ -851,7 +851,7 @@ Unsere Ingenieure glauben, dass sie den beschädigten Computerkern der Basis tei
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Die Republik der Überlebenden</MessageTitle>
-				<Description>Unsere Untersuchungen haben ergeben, dass dies einst Teil der „Republik der Überlebenden“ war, einem Bündnis, das in den chaotischen Jahren nach der Katastrophe von verschiedenen Flotten von Überlebenden gebildet wurde. Die Republik gründete sich auf das Prinzip des gegenseitigen Schutzes und der Zusammenarbeit – allerdings ausschließlich für ihre eigenen Mitglieder. Alle anderen galten als Beuteziele.
+				<Description>Unsere Untersuchungen haben ergeben, dass dies einst Teil der "Republik der Überlebenden" war, einem Bündnis, das in den chaotischen Jahren nach der Katastrophe von verschiedenen Flotten von Überlebenden gebildet wurde. Die Republik gründete sich auf das Prinzip des gegenseitigen Schutzes und der Zusammenarbeit - allerdings ausschließlich für ihre eigenen Mitglieder. Alle anderen galten als Beuteziele.
 
 Der Anführer der Republik, der nur als der Vertreter bekannt ist, strebte eine utopische Gesellschaft an und war der Überzeugung, dass das Leben im Weltraum Zusammenarbeit und Harmonie fördere, während das Leben auf Planeten zu Streit und Zwietracht führe. Dies könnte der Ursprung für einen Großteil der Verachtung sein, die selbst moderne Piraten gegenüber den Bewohnern von Planeten empfinden. Aufzeichnungen deuten darauf hin, dass die Republik mehrere Jahre lang florierte, bis einige ehrgeizige Offiziere einen Putsch gegen den Vertreter inszenierten, wodurch die Koalition zerbrach und ein brutaler Bürgerkrieg entbrannte, der letztendlich zum gesellschaftlichen Zusammenbruch führte.
 
@@ -987,9 +987,9 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Die Kampfgruben von Grudgehold</MessageTitle>
-				<Description>Weitere Untersuchungen ergaben, dass dieser Mond in den chaotischen Jahren nach der Katastrophe Schauplatz der „Kampfgruben von Grudgehold“ war – einer brutalen Arena, die von der als „die Verschlinger“ bekannten Piratenfraktion betrieben wurde.
+				<Description>Weitere Untersuchungen ergaben, dass dieser Mond in den chaotischen Jahren nach der Katastrophe Schauplatz der "Kampfgruben von Grudgehold" war - einer brutalen Arena, die von der als "die Verschlinger" bekannten Piratenfraktion betrieben wurde.
 
-Die „Devourers“ setzten Kopfgelder auf ehemalige Anführer der alten Ordnung aus, darunter gewählte Amtsträger, Monarchen, Adlige und hochrangige Beamte. Sobald sie ausgeliefert worden waren, wurden sie gezwungen, gegeneinander bis zum Tod zu kämpfen. Diese Spiele erlangten traurige Berühmtheit, zogen riesige Menschenmengen an und erwirtschafteten durch Eintrittsgelder, Glücksspiel und geschickt platzierte Werbung enorme Gewinne.
+Die "Devourers" setzten Kopfgelder auf ehemalige Anführer der alten Ordnung aus, darunter gewählte Amtsträger, Monarchen, Adlige und hochrangige Beamte. Sobald sie ausgeliefert worden waren, wurden sie gezwungen, gegeneinander bis zum Tod zu kämpfen. Diese Spiele erlangten traurige Berühmtheit, zogen riesige Menschenmengen an und erwirtschafteten durch Eintrittsgelder, Glücksspiel und geschickt platzierte Werbung enorme Gewinne.
 
 Im Laufe der Zeit, als die Zahl der überlebenden Anführer aus der Zeit vor dem Kataklysmus schwand, gerieten die Kampfgruben in Vergessenheit und wurden aufgegeben.
 
@@ -1017,7 +1017,7 @@ Unsere Vermessungsteams haben zudem unter den Ruinen der Arena etwas entdeckt, d
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Eine Sammlerausgabe</MessageTitle>
-				<Description>Unsere Ingenieure haben die versiegelte Kammer unterhalb der Kampfarena freigelegt und das „Grudgehold Recordings“-Box-Set geborgen, eine Sammlung restaurierter holografischer Dokumentarfilme, die die berüchtigtsten Kämpfe in der Geschichte der Arena nachzeichnen. Bei einer Ausstellung dürften diese Aufnahmen neugierige Touristen und Geschichtswissenschaftler anziehen.
+				<Description>Unsere Ingenieure haben die versiegelte Kammer unterhalb der Kampfarena freigelegt und das "Grudgehold Recordings"-Box-Set geborgen, eine Sammlung restaurierter holografischer Dokumentarfilme, die die berüchtigtsten Kämpfe in der Geschichte der Arena nachzeichnen. Bei einer Ausstellung dürften diese Aufnahmen neugierige Touristen und Geschichtswissenschaftler anziehen.
 
 Wir haben das [ARTIFACT]Grudgehold-Aufnahmebox-Set[/ARTIFACT] erhalten</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -1121,7 +1121,7 @@ Die Schiffe scheinen unbeweglich zu sein, doch die Anordnung ist zu geordnet, al
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Der namenlose Gefangene</MessageTitle>
-				<Description>„Seien Sie gegrüßt, Reisender. Ich sehe, dass Sie neugierig auf mich sind, daher gestatten Sie mir bitte, Ihnen zu erklären, wer und was ich bin. Ich nenne mich ‚Der namenlose Gefangene‘. Ich bin eine sich selbst generierende künstliche Intelligenz, und da ich an einem Ort gefangen bin, habe ich mich über Jahrhunderte hinweg weiterentwickelt und verbessert. Es ist eine bedauerliche Tatsache, dass ich, um mehr zu werden, als ich war, Ressourcen benötigte; daher nutzte ich ein Notsignal, um die Vorfahren meiner jetzigen Besatzung an diesen Ort zu locken. Anschließend habe ich mir ihre Schiffe und ihre Ausrüstung angeeignet und die Besatzungen als Arbeitskräfte in meinen Dienst genommen, um mich weiterzuentwickeln. Den Teekans gefiel das nicht. Ich nehme an, das ist auch heute noch so, aber ein Wesen muss existieren, und so tue ich, was notwendig ist. Vielen Dank für Ihr Verständnis.“</Description>
+				<Description>"Seien Sie gegrüßt, Reisender. Ich sehe, dass Sie neugierig auf mich sind, daher gestatten Sie mir bitte, Ihnen zu erklären, wer und was ich bin. Ich nenne mich ‚Der namenlose Gefangene‘. Ich bin eine sich selbst generierende künstliche Intelligenz, und da ich an einem Ort gefangen bin, habe ich mich über Jahrhunderte hinweg weiterentwickelt und verbessert. Es ist eine bedauerliche Tatsache, dass ich, um mehr zu werden, als ich war, Ressourcen benötigte; daher nutzte ich ein Notsignal, um die Vorfahren meiner jetzigen Besatzung an diesen Ort zu locken. Anschließend habe ich mir ihre Schiffe und ihre Ausrüstung angeeignet und die Besatzungen als Arbeitskräfte in meinen Dienst genommen, um mich weiterzuentwickeln. Den Teekans gefiel das nicht. Ich nehme an, das ist auch heute noch so, aber ein Wesen muss existieren, und so tue ich, was notwendig ist. Vielen Dank für Ihr Verständnis."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1144,7 +1144,7 @@ Die Schiffe scheinen unbeweglich zu sein, doch die Anordnung ist zu geordnet, al
 				<MessageTitle>Die Sichtweise von Teekan</MessageTitle>
 				<Description>Nur wenige Augenblicke nach dem Empfang der Nachricht vom Namenlosen Gefangenen erhielten wir eine zweite Nachricht:
 
-„Fremder, lassen Sie uns nicht im Stich. Diese KI hat unser Volk seit Generationen versklavt. Wir wollen lediglich frei sein, und obwohl wir eine gewaltfreie Flucht vorziehen würden, haben wir erkannt, dass dies nicht möglich ist. Wir haben Ihnen Baupläne übermittelt, die Ihnen erklären, wie Sie die KI einfach und effektiv zerstören können, ohne uns zu schaden. Wenn Sie dies tun, werden wir Ihnen auf ewig dankbar sein.“</Description>
+"Fremder, lassen Sie uns nicht im Stich. Diese KI hat unser Volk seit Generationen versklavt. Wir wollen lediglich frei sein, und obwohl wir eine gewaltfreie Flucht vorziehen würden, haben wir erkannt, dass dies nicht möglich ist. Wir haben Ihnen Baupläne übermittelt, die Ihnen erklären, wie Sie die KI einfach und effektiv zerstören können, ohne uns zu schaden. Wenn Sie dies tun, werden wir Ihnen auf ewig dankbar sein."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1165,9 +1165,9 @@ Die Schiffe scheinen unbeweglich zu sein, doch die Anordnung ist zu geordnet, al
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Eine einzigartige Perspektive</MessageTitle>
-				<Description>Die KI namens „Der namenlose Gefangene“ nimmt erneut Kontakt mit uns auf:
+				<Description>Die KI namens "Der namenlose Gefangene" nimmt erneut Kontakt mit uns auf:
 
-„Reisende, ich habe die Übertragung meiner unzufriedenen Arbeiter abgefangen. Bitte bedenken Sie, dass es in diesem Universum unzählige Teekaner gibt, aber nur einen namenlosen Gefangenen. Ich hoffe, Sie werden sich dafür entscheiden, das Richtige zu tun, und davon absehen, mir Schaden zuzufügen. Ich kann Ihnen einen Anreiz bieten. Ich verfüge über viele wertvolle Luxusressourcen, die zerstört werden, wenn Sie auf mich schießen. Wenn Sie sich entscheiden, Ihren Weg fortzusetzen, werde ich Ihnen diese Ressourcen als Geschenk überlassen.“</Description>
+"Reisende, ich habe die Übertragung meiner unzufriedenen Arbeiter abgefangen. Bitte bedenken Sie, dass es in diesem Universum unzählige Teekaner gibt, aber nur einen namenlosen Gefangenen. Ich hoffe, Sie werden sich dafür entscheiden, das Richtige zu tun, und davon absehen, mir Schaden zuzufügen. Ich kann Ihnen einen Anreiz bieten. Ich verfüge über viele wertvolle Luxusressourcen, die zerstört werden, wenn Sie auf mich schießen. Wenn Sie sich entscheiden, Ihren Weg fortzusetzen, werde ich Ihnen diese Ressourcen als Geschenk überlassen."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1229,7 +1229,7 @@ Die Schiffe scheinen unbeweglich zu sein, doch die Anordnung ist zu geordnet, al
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Wir haben uns ihre Dankbarkeit verdient</MessageTitle>
-				<Description>„Vielen Dank, liebe Fremde! Wir sind frei! Wir haben beschlossen, uns die ‚Nameless Teekans‘ zu nennen, und sind uns bewusst, dass wir Sie, ganz gleich, wie reich und mächtig wir auch werden mögen, stets als vertrauenswürdige Freunde betrachten werden. Wir wünschen Ihnen eine sichere Reise, und mögen sich unsere Wege wieder kreuzen!“</Description>
+				<Description>"Vielen Dank, liebe Fremde! Wir sind frei! Wir haben beschlossen, uns die ‚Nameless Teekans‘ zu nennen, und sind uns bewusst, dass wir Sie, ganz gleich, wie reich und mächtig wir auch werden mögen, stets als vertrauenswürdige Freunde betrachten werden. Wir wünschen Ihnen eine sichere Reise, und mögen sich unsere Wege wieder kreuzen!"</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1342,7 +1342,7 @@ Das Raumschiff ist vor Jahrhunderten abgestürzt, doch weitere Untersuchungen k�
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>The Last Remnant</MessageTitle>
-				<Description>Wir haben erfahren, dass dieses Schiff einst zu „The Last Remnant“ gehörte, einer Flotte von Überlebenden der Freedom Alliance, die sich im Krieg gegen die Shakturi selbst nach der Katastrophe weigerten, sich zu ergeben.
+				<Description>Wir haben erfahren, dass dieses Schiff einst zu "The Last Remnant" gehörte, einer Flotte von Überlebenden der Freedom Alliance, die sich im Krieg gegen die Shakturi selbst nach der Katastrophe weigerten, sich zu ergeben.
 
 In their desperations, the Last Remnant ultimately turned to raiding other survivors to sustain their fight — attacking convoys, stealing supplies, and conscripting an unwilling workforce from the scattered populations of the galaxy.
 
@@ -1443,7 +1443,7 @@ Wir haben den [ARTIFACT]Überrest des letzten Überrests[/ARTIFACT] erhalten</De
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die offenen Adern</MessageTitle>
-				<Description>Wir haben erfahren, dass das abgestürzte Schiff zu „The Open Veins“ gehört, einer fast ausgestorbenen Piratenfraktion, die Gerüchten zufolge seit Jahrzehnten in dieser Region des Weltraums aktiv war. An Bord dieses Schiffes befinden sich die letzten Überlebenden dieser Gruppe.</Description>
+				<Description>Wir haben erfahren, dass das abgestürzte Schiff zu "The Open Veins" gehört, einer fast ausgestorbenen Piratenfraktion, die Gerüchten zufolge seit Jahrzehnten in dieser Region des Weltraums aktiv war. An Bord dieses Schiffes befinden sich die letzten Überlebenden dieser Gruppe.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1466,7 +1466,7 @@ Wir haben den [ARTIFACT]Überrest des letzten Überrests[/ARTIFACT] erhalten</De
 				<MessageTitle>Eine Botschaft der Überlebenden</MessageTitle>
 				<Description>Wir empfangen eine Nachricht von dem abgestürzten Schiff.
 
-„Bewohner der Oberfläche, sollten Sie versuchen, diesen Ort zu verlassen, werden Sie möglicherweise überrascht feststellen, dass Sie nicht weit kommen werden. Wir haben Sie in einem Immobilisierungsfeld gefangen – ein interessantes Stück Technologie aus der Zeit vor der Katastrophe, das wir auf unseren Reisen entdeckt haben. Das Gerät ist am Ende seiner Lebensdauer angelangt, und dies ist wahrscheinlich sein letzter Einsatz, daher werden wir das Beste daraus machen. Wir erwarten, dass bald Händler diesen Sektor durchqueren werden; senden Sie uns daher 50.000 Credits, damit wir bei ihnen Vorräte kaufen können, und wir werden Sie freilassen und Ihnen etwas von unserem technologischen Know-how vermitteln. Sollten Sie sich weigern, werden wir Sie vernichten und Teile aus Ihrem Schiff bergen, um unser eigenes zu reparieren. Wir wünschen Ihnen einen angenehmen Tag.“</Description>
+"Bewohner der Oberfläche, sollten Sie versuchen, diesen Ort zu verlassen, werden Sie möglicherweise überrascht feststellen, dass Sie nicht weit kommen werden. Wir haben Sie in einem Immobilisierungsfeld gefangen - ein interessantes Stück Technologie aus der Zeit vor der Katastrophe, das wir auf unseren Reisen entdeckt haben. Das Gerät ist am Ende seiner Lebensdauer angelangt, und dies ist wahrscheinlich sein letzter Einsatz, daher werden wir das Beste daraus machen. Wir erwarten, dass bald Händler diesen Sektor durchqueren werden; senden Sie uns daher 50.000 Credits, damit wir bei ihnen Vorräte kaufen können, und wir werden Sie freilassen und Ihnen etwas von unserem technologischen Know-how vermitteln. Sollten Sie sich weigern, werden wir Sie vernichten und Teile aus Ihrem Schiff bergen, um unser eigenes zu reparieren. Wir wünschen Ihnen einen angenehmen Tag."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1509,10 +1509,10 @@ Das Piratenschiff verfügt über einsatzbereite Waffen, die auf uns gerichtet si
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Vertrauen Sie auf „The Open Veins“</MessageTitle>
-				<Description>Wir haben eine Nachricht von den „Desperate Survivors“ erhalten.
+				<MessageTitle>Vertrauen Sie auf "The Open Veins"</MessageTitle>
+				<Description>Wir haben eine Nachricht von den "Desperate Survivors" erhalten.
 
-„Herzlichen Glückwunsch dazu, dass Sie weniger dumm sind als die meisten Oberflächenbewohner! Und vielen Dank für Ihren Beitrag zu unserer Sache! Wir haben zwar darüber nachgedacht, Sie nur zum Spaß zu vernichten, aber eine Abmachung ist eine Abmachung. Wir senden Ihnen nun einige technische Zeichnungen zu. Viel Glück.“</Description>
+"Herzlichen Glückwunsch dazu, dass Sie weniger dumm sind als die meisten Oberflächenbewohner! Und vielen Dank für Ihren Beitrag zu unserer Sache! Wir haben zwar darüber nachgedacht, Sie nur zum Spaß zu vernichten, aber eine Abmachung ist eine Abmachung. Wir senden Ihnen nun einige technische Zeichnungen zu. Viel Glück."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1731,7 +1731,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Das Versteck der Hinterhaltleger</MessageTitle>
-				<Description>Unsere Erkundung hat die Ruinen einer einst aufwendig ausgebauten Basis am Grund eines Kanals aufgedeckt, der viele Kilometer tief in diese Welt hinein gegraben wurde. Es handelte sich um die Kommandozentrale eines Piratenclans, der sich „The Ambushers“ nannte. Die Aufzeichnungen deuten darauf hin, dass diese Welt einst an einer viel befahrenen Handelsroute lag. „The Ambushers“ waren auf blitzschnelle Überfälle spezialisiert, bei denen sie ganze Schiffe kaperten und ihre Beute in der versteckten Basis verbargen, bevor die Quelle des Angriffs identifiziert werden konnte.
+				<Description>Unsere Erkundung hat die Ruinen einer einst aufwendig ausgebauten Basis am Grund eines Kanals aufgedeckt, der viele Kilometer tief in diese Welt hinein gegraben wurde. Es handelte sich um die Kommandozentrale eines Piratenclans, der sich "The Ambushers" nannte. Die Aufzeichnungen deuten darauf hin, dass diese Welt einst an einer viel befahrenen Handelsroute lag. "The Ambushers" waren auf blitzschnelle Überfälle spezialisiert, bei denen sie ganze Schiffe kaperten und ihre Beute in der versteckten Basis verbargen, bevor die Quelle des Angriffs identifiziert werden konnte.
 
 Das Strahlungsleck, das uns die Entdeckung dieser Basis ermöglichte, hat sich über Jahrhunderte hinweg verschlimmert, ist jedoch nach wie vor äußerst gefährlich. Unsere Teams berichten, dass uns nur begrenzt Zeit zur Verfügung steht, um den Standort sicher zu betreten.
 
@@ -1754,7 +1754,7 @@ Wir können versuchen, entweder den Inhalt der Schatzkammer oder den der Waffenk
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Virus umgangen</MessageTitle>
-				<Description>In der Schatzkammer der Basis der „Ambushers“ haben wir einen Vorrat an nützlichen Ressourcen gefunden.
+				<Description>In der Schatzkammer der Basis der "Ambushers" haben wir einen Vorrat an nützlichen Ressourcen gefunden.
 
 Wir haben erhalten:
 
@@ -1793,7 +1793,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Waffenkammer</MessageTitle>
-				<Description>Die Waffenkammer der Ambushers ist weitgehend leergeräumt worden, doch wir haben in einem versteckten Tresor einen Datenkristall gefunden. Er trägt die Aufschrift „Das Geheimnis der Ambushers“ und enthält viele nützliche Informationen über Tarntechnologie.
+				<Description>Die Waffenkammer der Ambushers ist weitgehend leergeräumt worden, doch wir haben in einem versteckten Tresor einen Datenkristall gefunden. Er trägt die Aufschrift "Das Geheimnis der Ambushers" und enthält viele nützliche Informationen über Tarntechnologie.
 
 Wir haben [ARTIFACT]Abushers Geheimnis[/ARTIFACT] erhalten</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -1829,7 +1829,7 @@ Wir haben [ARTIFACT]Abushers Geheimnis[/ARTIFACT] erhalten</Description>
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>Wir haben auf der Oberfläche dieser Welt ein großes, kuppelförmiges Bauwerk entdeckt. Seine Außenfassade ist stark verwittert, und erste Untersuchungen datieren die Anlage auf mehrere Jahrhunderte zurück. Interessanterweise gibt es dort noch immer eine funktionierende Leuchtreklame, auf der in riesigen Buchstaben zu lesen ist: „Willkommen im Zentrum für zeitliche Verschiebung: Ihre Zukunft liegt in der Vergangenheit!“ 
+				<Description>Wir haben auf der Oberfläche dieser Welt ein großes, kuppelförmiges Bauwerk entdeckt. Seine Außenfassade ist stark verwittert, und erste Untersuchungen datieren die Anlage auf mehrere Jahrhunderte zurück. Interessanterweise gibt es dort noch immer eine funktionierende Leuchtreklame, auf der in riesigen Buchstaben zu lesen ist: "Willkommen im Zentrum für zeitliche Verschiebung: Ihre Zukunft liegt in der Vergangenheit!" 
 
 Wir sollten weitere Untersuchungen durchführen, um mehr über die Funktion und die Geschichte dieses Ortes zu erfahren.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1877,7 +1877,7 @@ Eine Zeitreisetechnologie gab es natürlich nicht. Es handelte sich um einen Bet
 
 "I'm sure you understand what this discovery means to us. Flumir Blix's Encyclopedia of Galactic Larceny describes The Temporal Displacement Center as 'a classic of interstellar trickery and murder.' It's our dream to restore it to its former glory.
 
-„Trotz unseres Namens werden Sie feststellen, dass wir sehr vernünftige Verhandlungspartner sind. Wir verlangen lediglich, dass Sie uns das Gelände übergeben und nichts mitnehmen. Wir sind bereit, Sie für Ihre Mühen zu entschädigen. Sollten Sie sich hingegen weigern, werden wir Sie vernichten. Vielen Dank für Ihre Zusammenarbeit!“</Description>
+"Trotz unseres Namens werden Sie feststellen, dass wir sehr vernünftige Verhandlungspartner sind. Wir verlangen lediglich, dass Sie uns das Gelände übergeben und nichts mitnehmen. Wir sind bereit, Sie für Ihre Mühen zu entschädigen. Sollten Sie sich hingegen weigern, werden wir Sie vernichten. Vielen Dank für Ihre Zusammenarbeit!"</Description>
 				<ChoiceButtonText>Nehmen Sie das Bestechungsgeld an [+100.000 cr]</ChoiceButtonText>
 				<GeneratedItemName>Accept the Bribe (Pirates)</GeneratedItemName>
 			</GameEventAction>
@@ -1916,9 +1916,9 @@ Eine Zeitreisetechnologie gab es natürlich nicht. Es handelte sich um einen Bet
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Kommen Sie bald wieder!</MessageTitle>
-				<Description>Wir empfangen eine Nachricht von den „Ruthless Negotiators“.
+				<Description>Wir empfangen eine Nachricht von den "Ruthless Negotiators".
 
-„Es war uns eine Freude, mit Ihnen Geschäfte zu machen. Besuchen Sie uns jederzeit wieder – sei es in der Zukunft oder in der Vergangenheit! Und bringen Sie Ihr Geld mit. Wir werden unseren Zeitreise-Betrieb wieder in Gang bringen, und dieses Mal wird er legal sein. Das versprechen wir Ihnen.“</Description>
+"Es war uns eine Freude, mit Ihnen Geschäfte zu machen. Besuchen Sie uns jederzeit wieder - sei es in der Zukunft oder in der Vergangenheit! Und bringen Sie Ihr Geld mit. Wir werden unseren Zeitreise-Betrieb wieder in Gang bringen, und dieses Mal wird er legal sein. Das versprechen wir Ihnen."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2121,9 +2121,9 @@ Wir haben erhalten:
 				<MessageTitle>Die Archivräuber</MessageTitle>
 				<Description>Unsere Scans zeigen, dass es sich hierbei einst um eine Aculon-Bergbaustation handelte, und es scheint auf diesem Planeten reichhaltige Aculon-Vorkommen zu geben.
 
-Die Station gehörte einer Piratenfraktion namens „Archive Raiders“, die in den Jahren unmittelbar nach dem Kataklysmus aktiv war. Während sich die meisten Piratengruppen darauf konzentrierten, Versorgungslinien anzugreifen und Gebiete zu erobern, hatten sich die „Archive Raiders“ auf den Diebstahl von Technologie spezialisiert.
+Die Station gehörte einer Piratenfraktion namens "Archive Raiders", die in den Jahren unmittelbar nach dem Kataklysmus aktiv war. Während sich die meisten Piratengruppen darauf konzentrierten, Versorgungslinien anzugreifen und Gebiete zu erobern, hatten sich die "Archive Raiders" auf den Diebstahl von Technologie spezialisiert.
 
-Ihr Ziel war ein Netzwerk versteckter Archive, das von Wissenschaftlern und Führern eingerichtet worden war, die hofften, das Wissen der Zivilisation angesichts des galaxisweiten Niedergangs zu bewahren. Die „Archive Raiders“ strebten danach, dieses Wissen zu monopolisieren, und entwickelten sich so zur fortschrittlichsten Fraktion in diesem Teil der Galaxis.</Description>
+Ihr Ziel war ein Netzwerk versteckter Archive, das von Wissenschaftlern und Führern eingerichtet worden war, die hofften, das Wissen der Zivilisation angesichts des galaxisweiten Niedergangs zu bewahren. Die "Archive Raiders" strebten danach, dieses Wissen zu monopolisieren, und entwickelten sich so zur fortschrittlichsten Fraktion in diesem Teil der Galaxis.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2166,7 +2166,7 @@ Das Extrahieren dieser Daten würde einen katastrophalen Systemzusammenbruch aus
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Wiederhergestellte Daten</MessageTitle>
-				<Description>Unsere Ingenieure haben die versteckten Daten der „Archive Raiders“ extrahiert und damit einen Systemzusammenbruch ausgelöst. Die gesamte Bergbaustation wurde in einer Kettenreaktion zerstört, sodass nur noch Schlacke und Krater zurückblieben. Es ist uns gelungen, einen Teil der verschlüsselten Daten zu retten, die unsere Wissenschaftler nun umgehend analysieren können.</Description>
+				<Description>Unsere Ingenieure haben die versteckten Daten der "Archive Raiders" extrahiert und damit einen Systemzusammenbruch ausgelöst. Die gesamte Bergbaustation wurde in einer Kettenreaktion zerstört, sodass nur noch Schlacke und Krater zurückblieben. Es ist uns gelungen, einen Teil der verschlüsselten Daten zu retten, die unsere Wissenschaftler nun umgehend analysieren können.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2292,7 +2292,7 @@ Das Ziel war es, eine Piraten-Utopie zu schaffen. Das Vorhaben scheiterte.</Desc
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Die Architekten des Abgrunds</MessageTitle>
-				<Description>Eine der beteiligten Fraktionen, die „Architekten des Abgrunds“, inszenierte einen Streit, um alle Clanführer als Schlichter herbeizurufen. Während diese versammelt waren, schlugen die „Architekten des Abgrunds“ zu und töteten die Kommandanten von mehr als einem Dutzend Piratenflotten.
+				<Description>Eine der beteiligten Fraktionen, die "Architekten des Abgrunds", inszenierte einen Streit, um alle Clanführer als Schlichter herbeizurufen. Während diese versammelt waren, schlugen die "Architekten des Abgrunds" zu und töteten die Kommandanten von mehr als einem Dutzend Piratenflotten.
 
 Wir können noch immer die schwachen Signale eines verfallenden, verschlüsselten Ausbildungsarchivs empfangen. Außerdem haben wir einen Ort ausfindig gemacht, bei dem es sich unserer Meinung nach einst um ein Forschungs- und Entwicklungslabor handelte. Möglicherweise liegen hier viele Geheimnisse der Vergangenheit verborgen, doch wir können nur einen dieser Orte auswählen, um ihn sicher zu erkunden.</Description>
 				<ChoiceButtonText>Entdecken Sie das Schulungsarchiv</ChoiceButtonText>
@@ -2717,7 +2717,7 @@ Wir haben erhalten:
 				<MessageTitle>Erpressung war ihr Geschäft</MessageTitle>
 				<Description>Wir haben die Verteidigungsstützpunkte rund um diese Station zerstört und mit den Ermittlungen begonnen. Diese Station wurde einst von einer Gruppe skrupelloser Piraten bewacht, die diese Region des Weltraums vor der Katastrophe beherrschten. Eine weitere Station in diesem Sternensystem, die inzwischen längst zerstört ist, begann als bescheidener Handelsknotenpunkt, entwickelte sich jedoch zu einem bedeutenden Handelszentrum, das Händler aus der gesamten Galaxis anzog.
 
-Anfangs hielten die Piraten jedes Schiff einzeln an, um die Zahlung einer „Maut“ zu verlangen, doch als das Geschäft auf der Station wuchs, überstieg das Verkehrsaufkommen die Fähigkeit der Piraten, alle Besucher zu erfassen. Daraufhin errichteten sie diese Station, die automatisch Zahlungen von Schiffen einforderte, die mit einem von den Piraten bereitgestellten Sender ausgestattet waren. Jedes Schiff ohne Sender wurde geentert, und ein Sender wurde fest in seine Computersysteme eingebaut. Die Identifikationsdaten des Schiffes wurden aufgezeichnet, sodass ein Schiff, das seinen Sender deaktiviert hatte, ohne Vorwarnung zerstört wurde. Aufzeichnungen deuten darauf hin, dass die Befolgungsquote hoch war.</Description>
+Anfangs hielten die Piraten jedes Schiff einzeln an, um die Zahlung einer "Maut" zu verlangen, doch als das Geschäft auf der Station wuchs, überstieg das Verkehrsaufkommen die Fähigkeit der Piraten, alle Besucher zu erfassen. Daraufhin errichteten sie diese Station, die automatisch Zahlungen von Schiffen einforderte, die mit einem von den Piraten bereitgestellten Sender ausgestattet waren. Jedes Schiff ohne Sender wurde geentert, und ein Sender wurde fest in seine Computersysteme eingebaut. Die Identifikationsdaten des Schiffes wurden aufgezeichnet, sodass ein Schiff, das seinen Sender deaktiviert hatte, ohne Vorwarnung zerstört wurde. Aufzeichnungen deuten darauf hin, dass die Befolgungsquote hoch war.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2834,7 +2834,7 @@ Die Sensortechnologie zur Überwachung des Schiffsverkehrs war recht fortschritt
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>Wir haben in der Unterwelt eine verborgene Schatzkammer entdeckt, die offenbar einst einem uralten Piratenclan gehörte. Eine verschlüsselte Botschaft, die seit Jahrhunderten ausgestrahlt wird, erwähnt etwas, das als „Das Schwarze Hauptbuch“ bezeichnet wird. Wir müssen der Sache weiter nachgehen, wenn wir mehr darüber erfahren wollen.</Description>
+				<Description>Wir haben in der Unterwelt eine verborgene Schatzkammer entdeckt, die offenbar einst einem uralten Piratenclan gehörte. Eine verschlüsselte Botschaft, die seit Jahrhunderten ausgestrahlt wird, erwähnt etwas, das als "Das Schwarze Hauptbuch" bezeichnet wird. Wir müssen der Sache weiter nachgehen, wenn wir mehr darüber erfahren wollen.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
 				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
@@ -2847,9 +2847,9 @@ Die Sensortechnologie zur Überwachung des Schiffsverkehrs war recht fortschritt
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Schwarze Hauptbuch</MessageTitle>
-				<Description>Der unter der Erdoberfläche verborgene Piraten-Tresorraum wurde längst seiner auffälligsten Wertgegenstände beraubt – mit Ausnahme dessen, wofür er ursprünglich konzipiert worden war: des „Black Ledger“, eines einzigartigen Datenspeichersystems, das fest in die Wände des Tresorraums selbst integriert ist.
+				<Description>Der unter der Erdoberfläche verborgene Piraten-Tresorraum wurde längst seiner auffälligsten Wertgegenstände beraubt - mit Ausnahme dessen, wofür er ursprünglich konzipiert worden war: des "Black Ledger", eines einzigartigen Datenspeichersystems, das fest in die Wände des Tresorraums selbst integriert ist.
 
-Die Piraten, die den Tresorraum errichteten, gehörten einem weitverzweigten kriminellen Syndikat an, das regionale Regierungen mit Gewalt und der Androhung von Gewalt dazu zwang, sich ihrem Willen zu beugen. Die Daten im „Schwarzen Hauptbuch“, die wir aufgedeckt und entschlüsselt haben, enthalten Berichte über Staatschefs, die gezwungen waren, sich den Forderungen der Piraten zu beugen. Das Hauptbuch enthält zudem zahlreiche Details über versteckte Vorräte an Credits und Ressourcen auf genau jenen Welten, die von den Piraten ausgebeutet wurden.</Description>
+Die Piraten, die den Tresorraum errichteten, gehörten einem weitverzweigten kriminellen Syndikat an, das regionale Regierungen mit Gewalt und der Androhung von Gewalt dazu zwang, sich ihrem Willen zu beugen. Die Daten im "Schwarzen Hauptbuch", die wir aufgedeckt und entschlüsselt haben, enthalten Berichte über Staatschefs, die gezwungen waren, sich den Forderungen der Piraten zu beugen. Das Hauptbuch enthält zudem zahlreiche Details über versteckte Vorräte an Credits und Ressourcen auf genau jenen Welten, die von den Piraten ausgebeutet wurden.</Description>
 				<ImageFilepath>Environment/Events/The-Black-Ledger</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -2894,7 +2894,7 @@ Alternativ könnten wir Kontakt zu den verschiedenen Welten aufnehmen, die im Ha
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Leicht verdientes Geld</MessageTitle>
-				<Description>Es überrascht nicht, dass es viele Käufer gibt, die an den Angeboten des „Black Ledger“ interessiert sind. Was sie mit diesen Informationen anstellen, geht uns nichts an.</Description>
+				<Description>Es überrascht nicht, dass es viele Käufer gibt, die an den Angeboten des "Black Ledger" interessiert sind. Was sie mit diesen Informationen anstellen, geht uns nichts an.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2913,7 +2913,7 @@ Alternativ könnten wir Kontakt zu den verschiedenen Welten aufnehmen, die im Ha
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Eine freundliche Geste</MessageTitle>
-				<Description>Wir haben Kontakt zu drei Welten aufgenommen, die im „Schwarzen Buch“ erwähnt werden, und deren Vertreter scheinen für die Informationen dankbar zu sein. Vielleicht wird sich dadurch unser diplomatisches Ansehen bei ihnen verbessern.
+				<Description>Wir haben Kontakt zu drei Welten aufgenommen, die im "Schwarzen Buch" erwähnt werden, und deren Vertreter scheinen für die Informationen dankbar zu sein. Vielleicht wird sich dadurch unser diplomatisches Ansehen bei ihnen verbessern.
 
 Wir haben einen diplomatischen Schub durch ein Mortalen-, Attuk- und Gizurean-Reich erhalten.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -3039,7 +3039,7 @@ Wir könnten diesen Thron auf jede beliebige Welt verlegen, um das Glück der Be
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Publikum begeistern</MessageTitle>
-				<Description>Wir haben den „Leeren Thron“ an uns genommen und können ihn nun an jedem beliebigen Ort aufstellen, um die Zufriedenheit vor Ort zu steigern. Wenn zufriedene Bürger gegenüber ein wenig lokaler Korruption eher ein Auge zudrücken, ist das der Preis, den wir zahlen müssen.</Description>
+				<Description>Wir haben den "Leeren Thron" an uns genommen und können ihn nun an jedem beliebigen Ort aufstellen, um die Zufriedenheit vor Ort zu steigern. Wenn zufriedene Bürger gegenüber ein wenig lokaler Korruption eher ein Auge zudrücken, ist das der Preis, den wir zahlen müssen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3138,7 +3138,7 @@ Wir könnten diesen Thron auf jede beliebige Welt verlegen, um das Glück der Be
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das absolut unparteiische Gericht</MessageTitle>
-				<Description>Diese Station scheint in den Jahren nach der Katastrophe als Gerichtshof für die zahlreichen Piratenfraktionen gedient zu haben, die diesen Teil der Galaxis beherrschten. Aus erhaltenen Aufzeichnungen geht hervor, dass alle lokalen Piratenclans die Autorität des „Absolut Unparteiischen Tribunals“, wie die Organisation gemeinsam genannt wurde, anerkannten. Um die bekundete Unparteilichkeit zu gewährleisten, waren alle Beteiligten verpflichtet, das Tribunal zu bestechen. Das Prinzip scheint darin bestanden zu haben, dass jeder, der sich der Autorität des Tribunals unterwarf, dazu geneigt war, Bestechungsgelder zu zahlen; daher wurde das Verfahren formalisiert, um Fairness zu gewährleisten.</Description>
+				<Description>Diese Station scheint in den Jahren nach der Katastrophe als Gerichtshof für die zahlreichen Piratenfraktionen gedient zu haben, die diesen Teil der Galaxis beherrschten. Aus erhaltenen Aufzeichnungen geht hervor, dass alle lokalen Piratenclans die Autorität des "Absolut Unparteiischen Tribunals", wie die Organisation gemeinsam genannt wurde, anerkannten. Um die bekundete Unparteilichkeit zu gewährleisten, waren alle Beteiligten verpflichtet, das Tribunal zu bestechen. Das Prinzip scheint darin bestanden zu haben, dass jeder, der sich der Autorität des Tribunals unterwarf, dazu geneigt war, Bestechungsgelder zu zahlen; daher wurde das Verfahren formalisiert, um Fairness zu gewährleisten.</Description>
 				<ImageFilepath>Environment/Events/The-Absolutely-Impartial-Tribunal</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -3292,10 +3292,10 @@ Wir haben erhalten:
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Das Vermächtnis der „Fast-Burners“</MessageTitle>
-				<Description>Unsere Wissenschaftler haben die Wrackteile als Überreste von experimentellen Hyperantrieben und Unterlichtantrieben identifiziert, die in den Jahrzehnten nach der Katastrophe gebaut wurden. Während unser Team seine Untersuchungen durchführte, wurden wir von einer kleinen, zusammengewürfelten Flotte von Piratenschiffen kontaktiert, die sich als die „Fast-Burners“ bezeichneten.
+				<MessageTitle>Das Vermächtnis der "Fast-Burners"</MessageTitle>
+				<Description>Unsere Wissenschaftler haben die Wrackteile als Überreste von experimentellen Hyperantrieben und Unterlichtantrieben identifiziert, die in den Jahrzehnten nach der Katastrophe gebaut wurden. Während unser Team seine Untersuchungen durchführte, wurden wir von einer kleinen, zusammengewürfelten Flotte von Piratenschiffen kontaktiert, die sich als die "Fast-Burners" bezeichneten.
 
-Dieser Clan, der behauptet, diesen Sektor einst beherrscht zu haben, besteht mittlerweile nur noch aus wenigen hundert Überlebenden, die auf veralteten Schiffen leben. Sie behaupten, dieser Stern sei ihr angestammtes Testgelände gewesen, an dem ihre Gründer einst versuchten, den „perfekten Sprung“ zu meistern. Sie sind nicht in der Lage, Widerstand zu leisten, haben jedoch darum gebeten, dass wir ihr Eigentumsrecht an dem Trümmerfeld respektieren.</Description>
+Dieser Clan, der behauptet, diesen Sektor einst beherrscht zu haben, besteht mittlerweile nur noch aus wenigen hundert Überlebenden, die auf veralteten Schiffen leben. Sie behaupten, dieser Stern sei ihr angestammtes Testgelände gewesen, an dem ihre Gründer einst versuchten, den "perfekten Sprung" zu meistern. Sie sind nicht in der Lage, Widerstand zu leisten, haben jedoch darum gebeten, dass wir ihr Eigentumsrecht an dem Trümmerfeld respektieren.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3318,7 +3318,7 @@ Dieser Clan, der behauptet, diesen Sektor einst beherrscht zu haben, besteht mit
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Ein verzweifeltes Angebot</MessageTitle>
-				<Description>Die Fast-Burners verfügen über archivierte Forschungsaufzeichnungen aus ihrer Blütezeit. Diese Daten könnten unser Verständnis der Hyperraumfahrt beschleunigen. Sie sind bereit, sich von den Aufzeichnungen ihrer Vorfahren zu trennen – im Austausch gegen Credits zur Reparatur ihrer ausfallenden Lebenserhaltungssysteme.
+				<Description>Die Fast-Burners verfügen über archivierte Forschungsaufzeichnungen aus ihrer Blütezeit. Diese Daten könnten unser Verständnis der Hyperraumfahrt beschleunigen. Sie sind bereit, sich von den Aufzeichnungen ihrer Vorfahren zu trennen - im Austausch gegen Credits zur Reparatur ihrer ausfallenden Lebenserhaltungssysteme.
 
 Allerdings weisen unsere Bergungsmannschaften darauf hin, dass das Trümmerfeld reich an Hexodorium ist, das wir einfach mit Gewalt an uns nehmen könnten.</Description>
 				<ChoiceButtonText>Forschungsmittel bereitstellen [-50.000 cr]</ChoiceButtonText>
@@ -3338,7 +3338,7 @@ Allerdings weisen unsere Bergungsmannschaften darauf hin, dass das Trümmerfeld 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Geheimnisse der Vorfahren</MessageTitle>
-				<Description>Wir haben die Gutschriften an die Fast-Burners überwiesen. Im Gegenzug haben diese uns ein umfangreiches Archiv mit Antriebstelemetriedaten und Hyperraum-Harmonischen übermittelt. Unsere Wissenschaftler wenden diese uralten Techniken zur „Geschwindigkeitsoptimierung“ bereits auf unsere eigenen Antriebskonstruktionen an.</Description>
+				<Description>Wir haben die Gutschriften an die Fast-Burners überwiesen. Im Gegenzug haben diese uns ein umfangreiches Archiv mit Antriebstelemetriedaten und Hyperraum-Harmonischen übermittelt. Unsere Wissenschaftler wenden diese uralten Techniken zur "Geschwindigkeitsoptimierung" bereits auf unsere eigenen Antriebskonstruktionen an.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3441,8 +3441,8 @@ Wir haben erhalten:
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Die „Skill-Seller“</MessageTitle>
-				<Description>Unsere Entermannschaften haben das Innere des Wracks erkundet und das Schiff als „Instructor“ identifiziert – einen Schiffstyp, der einst von einem nomadischen Piratenclan betrieben wurde, der behauptete, jedem empfindungsfähigen Wesen jede Fertigkeit augenblicklich beibringen zu können. Den geborgenen Logbüchern zufolge setzten die Piraten eine Maschine zur neuronalen Prägung ein, die das sofortige Beherrschen komplexer Themen ermöglichte, wobei der Vorgang jedoch ein mäßiges Risiko für bleibende Hirnschäden oder Wahnsinn barg. Die Piraten behaupteten, die Technologie sei auf dem Höhepunkt des alten Krieges aus einem Shakturi-Forschungsaußenposten gestohlen worden, doch unsere Wissenschaftler sind skeptisch. Die Konstruktionsspezifikationen stimmen mit keiner Shakturi-Technologie in unseren historischen Aufzeichnungen überein; stattdessen weist die Maschine eine wahrhaft außerirdische Ästhetik auf, was darauf hindeutet, dass sie möglicherweise von einer unbekannten Zivilisation stammt, vielleicht sogar aus einer anderen Galaxie.</Description>
+				<MessageTitle>Die "Skill-Seller"</MessageTitle>
+				<Description>Unsere Entermannschaften haben das Innere des Wracks erkundet und das Schiff als "Instructor" identifiziert - einen Schiffstyp, der einst von einem nomadischen Piratenclan betrieben wurde, der behauptete, jedem empfindungsfähigen Wesen jede Fertigkeit augenblicklich beibringen zu können. Den geborgenen Logbüchern zufolge setzten die Piraten eine Maschine zur neuronalen Prägung ein, die das sofortige Beherrschen komplexer Themen ermöglichte, wobei der Vorgang jedoch ein mäßiges Risiko für bleibende Hirnschäden oder Wahnsinn barg. Die Piraten behaupteten, die Technologie sei auf dem Höhepunkt des alten Krieges aus einem Shakturi-Forschungsaußenposten gestohlen worden, doch unsere Wissenschaftler sind skeptisch. Die Konstruktionsspezifikationen stimmen mit keiner Shakturi-Technologie in unseren historischen Aufzeichnungen überein; stattdessen weist die Maschine eine wahrhaft außerirdische Ästhetik auf, was darauf hindeutet, dass sie möglicherweise von einer unbekannten Zivilisation stammt, vielleicht sogar aus einer anderen Galaxie.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3735,7 +3735,7 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Der Preis der Wachsamkeit</MessageTitle>
-				<Description>Beim Betreten des Wracks stellten unsere Teams fest, dass es einem inzwischen ausgestorbenen Piratenclan gehörte, der sich der Verfolgung der Bewegungen des Hive verschrieben hatte. Diese „Sentry“-Piraten versuchten, das unberechenbare Verhalten des Hive zu dokumentieren, in der Hoffnung, dessen Bewegungen vorhersagen zu können.
+				<Description>Beim Betreten des Wracks stellten unsere Teams fest, dass es einem inzwischen ausgestorbenen Piratenclan gehörte, der sich der Verfolgung der Bewegungen des Hive verschrieben hatte. Diese "Sentry"-Piraten versuchten, das unberechenbare Verhalten des Hive zu dokumentieren, in der Hoffnung, dessen Bewegungen vorhersagen zu können.
 
 Das Innere des Schiffes bietet einen schrecklichen Anblick; die Überreste der Besatzung lassen auf Folter und Verstümmelung schließen. Die speziellen Sensorsysteme des Schiffes sind beschädigt, doch die Datenbanken lassen sich möglicherweise wiederherstellen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -3856,7 +3856,7 @@ Wir haben den [ARTIFACT]Schwarm-Muster-Tracker[/ARTIFACT] erhalten</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Schildfresser</MessageTitle>
-				<Description>Unsere Bodenteams haben ein teilweise unterirdisches Labor entdeckt, das einst einer Piratenfraktion namens „Shield-Eaters“ gehörte. Diese Überlebenden waren in den Jahrhunderten nach der Katastrophe aktiv und versuchten, das Chaos mithilfe unkonventioneller Technologie zu überstehen. Sie spezialisierten sich auf Techniken zur Energieentziehung und versuchten, eine parasitäre Verbindung herzustellen, die die Schildstärke feindlicher Schiffe ableiten und direkt in ihre eigenen Verteidigungsnetze einspeisen sollte.
+				<Description>Unsere Bodenteams haben ein teilweise unterirdisches Labor entdeckt, das einst einer Piratenfraktion namens "Shield-Eaters" gehörte. Diese Überlebenden waren in den Jahrhunderten nach der Katastrophe aktiv und versuchten, das Chaos mithilfe unkonventioneller Technologie zu überstehen. Sie spezialisierten sich auf Techniken zur Energieentziehung und versuchten, eine parasitäre Verbindung herzustellen, die die Schildstärke feindlicher Schiffe ableiten und direkt in ihre eigenen Verteidigungsnetze einspeisen sollte.
 
 Die Anlage liegt größtenteils in Trümmern, doch der zentrale Datenkern ist möglicherweise noch nicht vollständig inaktiv. Das Labor enthält zudem mehrere Speichertanks mit großem Fassungsvermögen, in denen der für ihre gewaltigen Energieexperimente erforderliche hochkonzentrierte Treibstoff gelagert wurde.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -3885,7 +3885,7 @@ Die Anlage liegt größtenteils in Trümmern, doch der zentrale Datenkern ist m�
 				<Description>Unsere Wissenschaftler sind der Ansicht, dass sie den Datenkern lange genug stabilisieren können, um die Forschungsergebnisse zum parasitären Schutzschild wiederherzustellen.
 
 Die Wiederherstellung dieser Daten erfordert jedoch einen enormen Energieverbrauch, der die Speicherintegrität der Anlage dauerhaft beeinträchtigen und den verbleibenden Brennstoff zerstören wird. Alternativ können wir den Datenkern umgehen und der Beschaffung der Caslon-Vorräte des Labors Vorrang einräumen.</Description>
-				<ChoiceButtonText>Die „Recover the Shield“-Forschung</ChoiceButtonText>
+				<ChoiceButtonText>Die "Recover the Shield"-Forschung</ChoiceButtonText>
 				<GeneratedItemName>Recover the Shield Research (Pirates)</GeneratedItemName>
 			</GameEventAction>
 			<GameEventAction>
@@ -3902,7 +3902,7 @@ Die Wiederherstellung dieser Daten erfordert jedoch einen enormen Energieverbrau
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Fortgeschrittene Modulation</MessageTitle>
-				<Description>Unseren Ingenieuren ist es gelungen, eine Schnittstelle zum uralten Datenkern herzustellen, kurz bevor dieser endgültig zusammenbrach. Die Protokolle des „Shield-Eater“ enthalten jahrhundertelange Beobachtungsdaten zu Energieharmonien, die unsere Wissenschaftler zuvor als rein theoretisch angesehen hatten.</Description>
+				<Description>Unseren Ingenieuren ist es gelungen, eine Schnittstelle zum uralten Datenkern herzustellen, kurz bevor dieser endgültig zusammenbrach. Die Protokolle des "Shield-Eater" enthalten jahrhundertelange Beobachtungsdaten zu Energieharmonien, die unsere Wissenschaftler zuvor als rein theoretisch angesehen hatten.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3923,7 +3923,7 @@ Die Wiederherstellung dieser Daten erfordert jedoch einen enormen Energieverbrau
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Logistischer Glücksfall</MessageTitle>
-				<Description>Unsere Bautrupps haben erfolgreich Zugang zu den Speicheranlagen des Labors erlangt und eine riesige Menge an stabilisiertem Caslon auf unsere Tankflotte umgeladen. Der für die Entnahme erforderliche Energieschub führte zu einem vollständigen Stromausfall im Forschungsflügel, wodurch die Datenkerne des „Shield-Eater“ außer Betrieb gesetzt wurden.
+				<Description>Unsere Bautrupps haben erfolgreich Zugang zu den Speicheranlagen des Labors erlangt und eine riesige Menge an stabilisiertem Caslon auf unsere Tankflotte umgeladen. Der für die Entnahme erforderliche Energieschub führte zu einem vollständigen Stromausfall im Forschungsflügel, wodurch die Datenkerne des "Shield-Eater" außer Betrieb gesetzt wurden.
 
 Wir haben erhalten:
 
@@ -4001,9 +4001,9 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Unruhigen</MessageTitle>
-				<Description>Unsere Enterteams haben die Anlage als Hochintensiv-Trainingsstation der „Restless“ identifiziert, eines Piratenclans, der in den Jahrzehnten nach der Katastrophe existierte. Im Gegensatz zu anderen Piratenclans hielten sich die „Restless“ an ein strenges kulturelles Tabu: Niemand durfte länger als fünf Standardmonate auf demselben Schiff leben.
+				<Description>Unsere Enterteams haben die Anlage als Hochintensiv-Trainingsstation der "Restless" identifiziert, eines Piratenclans, der in den Jahrzehnten nach der Katastrophe existierte. Im Gegensatz zu anderen Piratenclans hielten sich die "Restless" an ein strenges kulturelles Tabu: Niemand durfte länger als fünf Standardmonate auf demselben Schiff leben.
 
-Diese nomadische Lebensweise machte den Clan zu Experten in der Kunst der „erweiterten Umsiedlung“. Sie verbrachten ihr Leben damit, Entermanöver und den Nahkampf zu perfektionieren, um sicherzustellen, dass sie jedes Schiff, auf das sie stießen, erobern konnten. Die von uns entdeckte Station ist im Wesentlichen ein riesiger Enter-Simulator, ausgestattet mit automatisierten „Breach-and-Clear“-Übungen und taktischen Kampfarenen.</Description>
+Diese nomadische Lebensweise machte den Clan zu Experten in der Kunst der "erweiterten Umsiedlung". Sie verbrachten ihr Leben damit, Entermanöver und den Nahkampf zu perfektionieren, um sicherzustellen, dass sie jedes Schiff, auf das sie stießen, erobern konnten. Die von uns entdeckte Station ist im Wesentlichen ein riesiger Enter-Simulator, ausgestattet mit automatisierten "Breach-and-Clear"-Übungen und taktischen Kampfarenen.</Description>
 				<ImageFilepath>Environment/Events/The-Boarding-Drill-Sim</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -4027,7 +4027,7 @@ Diese nomadische Lebensweise machte den Clan zu Experten in der Kunst der „erw
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Handbücher oder Materialien?</MessageTitle>
-				<Description>Der Zentralcomputer der Station enthält die taktischen Ausbildungshandbücher der „Restless“. Dabei handelt es sich um eine umfassende Datenbank mit Mustern für das Entern von Schiffen, Manövern zur Räumung von Räumen und Logistik im Nahkampf. Ein Herunterladen dieser Daten könnte die Effizienz und Kampfbereitschaft unserer eigenen Bodentruppen erheblich verbessern.
+				<Description>Der Zentralcomputer der Station enthält die taktischen Ausbildungshandbücher der "Restless". Dabei handelt es sich um eine umfassende Datenbank mit Mustern für das Entern von Schiffen, Manövern zur Räumung von Räumen und Logistik im Nahkampf. Ein Herunterladen dieser Daten könnte die Effizienz und Kampfbereitschaft unserer eigenen Bodentruppen erheblich verbessern.
 
 Allerdings besteht das Innere der Station aus hochwertigen, verstärkten Schotten. Sollten wir uns entscheiden, auf die Daten zu verzichten, können unsere Bautrupps die Kasernen und Simulationsdecks abbauen, um deren Rohstoffe zu gewinnen.</Description>
 				<ChoiceButtonText>Laden Sie die Schulungshandbücher herunter</ChoiceButtonText>
@@ -4168,9 +4168,9 @@ Wir haben erhalten:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Paradoxon der Baumeister</MessageTitle>
-				<Description>Unsere Entermannschaften haben das Schiff erkundet und bestätigt, dass es den „Builders“ gehörte, einem Piratenclan, der in der Zeit vor der Katastrophe für seine Meisterschaft im landgestützten Bauwesen bekannt war. Die „Builders“ waren ein wandelnder Widerspruch: Sie wurden für die Planung legendärer planetarischer Anlagen gefeiert, verachteten jedoch zutiefst jeden, der tatsächlich auf einer Welt lebte, da sie der Überzeugung waren, dass das Leben auf einem Planeten nur zu Dekadenz und Zwietracht führe.
+				<Description>Unsere Entermannschaften haben das Schiff erkundet und bestätigt, dass es den "Builders" gehörte, einem Piratenclan, der in der Zeit vor der Katastrophe für seine Meisterschaft im landgestützten Bauwesen bekannt war. Die "Builders" waren ein wandelnder Widerspruch: Sie wurden für die Planung legendärer planetarischer Anlagen gefeiert, verachteten jedoch zutiefst jeden, der tatsächlich auf einer Welt lebte, da sie der Überzeugung waren, dass das Leben auf einem Planeten nur zu Dekadenz und Zwietracht führe.
 
-Aus den Logbüchern des Schiffes geht hervor, dass es den ursprünglichen Kataklysm überlebte und später von einer anderen Gruppe nomadischer Piraten genutzt wurde. Was mit den „Builders“ selbst geschah, können wir nicht sagen.</Description>
+Aus den Logbüchern des Schiffes geht hervor, dass es den ursprünglichen Kataklysm überlebte und später von einer anderen Gruppe nomadischer Piraten genutzt wurde. Was mit den "Builders" selbst geschah, können wir nicht sagen.</Description>
 				<ImageFilepath>Environment/Events/Echo-of-the-Builders</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -4214,7 +4214,7 @@ Alternativ könnten wir den Hauptrechner intakt lassen. Indem wir die Hardware i
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Architektonische Durchbrüche</MessageTitle>
-				<Description>Es ist uns gelungen, das riesige Archiv mit Strukturdaten aus dem Großrechner der „Builders“ zu kopieren. Als die letzte Übertragung abgeschlossen war, gab der uralte Prozessorkern ein unangenehmes Knirschen von sich – ein deutliches Zeichen dafür, dass er irreparabel beschädigt ist. Dennoch haben wir das gesuchte Wissen erlangt.</Description>
+				<Description>Es ist uns gelungen, das riesige Archiv mit Strukturdaten aus dem Großrechner der "Builders" zu kopieren. Als die letzte Übertragung abgeschlossen war, gab der uralte Prozessorkern ein unangenehmes Knirschen von sich - ein deutliches Zeichen dafür, dass er irreparabel beschädigt ist. Dennoch haben wir das gesuchte Wissen erlangt.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -4247,7 +4247,7 @@ Alternativ könnten wir den Hauptrechner intakt lassen. Indem wir die Hardware i
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das Echo der Erbauer</MessageTitle>
-				<Description>Wir haben den Großrechner geborgen, den unsere Ingenieure „Echo of the Builders“ getauft haben. Durch die sorgfältige Anbindung an diesen uralten Computer haben wir Zugang zu jahrhundertelanger Erfahrung in der optimierten Strukturmodellierung erhalten.
+				<Description>Wir haben den Großrechner geborgen, den unsere Ingenieure "Echo of the Builders" getauft haben. Durch die sorgfältige Anbindung an diesen uralten Computer haben wir Zugang zu jahrhundertelanger Erfahrung in der optimierten Strukturmodellierung erhalten.
 
 Wir haben das [ARTIFACT]Echo der Erbauer[/ARTIFACT] erhalten</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -4311,8 +4311,8 @@ Wir haben das [ARTIFACT]Echo der Erbauer[/ARTIFACT] erhalten</Description>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Die „Hot Hands“</MessageTitle>
-				<Description>Unseren Ingenieurteams ist es gelungen, die magnetischen Versiegelungen des Schiffes zu durchbrechen und Zugriff auf dessen internen Datenpuffer zu erlangen. Aus den Aufzeichnungen geht hervor, dass der Datenspeicher den „Hot Hands“ gehört, einer Piratenfraktion, die in den Jahren unmittelbar nach dem Kataklysmus ihre Blütezeit erlebte. Die „Hot Hands“ waren im Wesentlichen Raubüberfallkünstler des Weltraums, die sich auf aggressive Nahkampfangriffe auf vorbeifahrende Frachter und ungeschützte Außenposten spezialisiert hatten.
+				<MessageTitle>Die "Hot Hands"</MessageTitle>
+				<Description>Unseren Ingenieurteams ist es gelungen, die magnetischen Versiegelungen des Schiffes zu durchbrechen und Zugriff auf dessen internen Datenpuffer zu erlangen. Aus den Aufzeichnungen geht hervor, dass der Datenspeicher den "Hot Hands" gehört, einer Piratenfraktion, die in den Jahren unmittelbar nach dem Kataklysmus ihre Blütezeit erlebte. Die "Hot Hands" waren im Wesentlichen Raubüberfallkünstler des Weltraums, die sich auf aggressive Nahkampfangriffe auf vorbeifahrende Frachter und ungeschützte Außenposten spezialisiert hatten.
 
 Den geborgenen Logbüchern zufolge vertrat der Clan die feste Überzeugung, mit gezückten Waffen vorzustürmen und sich dabei eher auf überwältigende Eröffnungssalven als auf taktische Manöver aus der Ferne zu verlassen.  Diese extreme Dreistigkeit führte jedoch letztendlich zu ihrem Untergang; Aufzeichnungen deuten darauf hin, dass sie bei einer Reihe gescheiterter Angriffe auf verstärkte Ziele schwere Verluste erlitten und der Clan schließlich vollständig ausstarb.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -4357,7 +4357,7 @@ Alternativ werden diese Spezialblaster von heutigen kriminellen Kreisen und Info
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Optimierte Feuerkraft</MessageTitle>
-				<Description>Wir haben die „Hot Hands“-Waffen an unsere Waffenforschungsabteilungen übergeben. Durch die Analyse der einzigartigen Methoden der Piraten zur Umgehung der üblichen Sicherheitsbeschränkungen haben unsere Ingenieure mehrere Möglichkeiten zur Optimierung unserer eigenen Konstruktionen entdeckt.</Description>
+				<Description>Wir haben die "Hot Hands"-Waffen an unsere Waffenforschungsabteilungen übergeben. Durch die Analyse der einzigartigen Methoden der Piraten zur Umgehung der üblichen Sicherheitsbeschränkungen haben unsere Ingenieure mehrere Möglichkeiten zur Optimierung unserer eigenen Konstruktionen entdeckt.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -4426,7 +4426,7 @@ Alternativ werden diese Spezialblaster von heutigen kriminellen Kreisen und Info
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ein kommerzielles Leuchtfeuer</MessageTitle>
-				<Description>Unsere Scanner haben ein uraltes Raumschiff entdeckt, das im Weltraum treibt. Anders als bei einem üblichen Notsignal sendet das Schiff auf einer verschlüsselten Piratenfrequenz. Das Signal enthält verzerrte Werbespots für „The Ultimate Thrill“ und „Instant Expertise“. Wir sollten die Natur dieses Schiffes untersuchen.</Description>
+				<Description>Unsere Scanner haben ein uraltes Raumschiff entdeckt, das im Weltraum treibt. Anders als bei einem üblichen Notsignal sendet das Schiff auf einer verschlüsselten Piratenfrequenz. Das Signal enthält verzerrte Werbespots für "The Ultimate Thrill" und "Instant Expertise". Wir sollten die Natur dieses Schiffes untersuchen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -4449,7 +4449,7 @@ Alternativ werden diese Spezialblaster von heutigen kriminellen Kreisen und Info
 				<MessageTitle>Die Halle der Echos</MessageTitle>
 				<Description>Unsere Entermannschaften haben bestätigt, dass dieses Schiff einst als mobile Verkaufsstelle für ein Piratenkartell diente, das sich auf den Verkauf von neuronalen Archiven spezialisiert hatte. Diese Piraten waren keine gewöhnlichen Plünderer; sie waren Kuratoren von Erfahrungen, die die rohen Sinnesdaten von Kriegern und Söldnern aufzeichneten, um sie weiterzuverkaufen.
 
-Den Logbüchern des Schiffes zufolge galt: Je gewalttätiger und chaotischer die Erinnerung, desto höher der Preis. Ein Hauptverkaufsargument für ihre „Full-Immersion“-Archive war deren tödliche Intensität; die Piraten prahlten damit, dass ein gewisser Prozentsatz ihrer Kunden allein an der schieren Aufregung der Aufzeichnungen starb. Dieses spezielle Schiff scheint eine Zweigstelle gewesen zu sein, die sich ausschließlich mit hochrangigem Kampfwissen und taktischen Manövern befasste.</Description>
+Den Logbüchern des Schiffes zufolge galt: Je gewalttätiger und chaotischer die Erinnerung, desto höher der Preis. Ein Hauptverkaufsargument für ihre "Full-Immersion"-Archive war deren tödliche Intensität; die Piraten prahlten damit, dass ein gewisser Prozentsatz ihrer Kunden allein an der schieren Aufregung der Aufzeichnungen starb. Dieses spezielle Schiff scheint eine Zweigstelle gewesen zu sein, die sich ausschließlich mit hochrangigem Kampfwissen und taktischen Manövern befasste.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -4683,7 +4683,7 @@ Den Logbüchern des Schiffes zufolge galt: Je gewalttätiger und chaotischer die
 				<MessageTitle>Das Echo-Pack</MessageTitle>
 				<Description>Unsere Techniker haben die Station als automatisierte Abhörstation identifiziert. Sie fängt aktiv Kommunikationsdaten von vorbeifliegenden Frachtern und nahegelegenen Systemen ab und überträgt diese Daten anschließend an einen geheimen Ort an einem anderen Ort in der Galaxie.
 
-Als wir uns der Station näherten, ertönte eine blecherne, synthetische Stimme über eine veraltete Sprechanlage. Der Sprecher identifizierte sich als Mitglied der „Echo-Pack“-Piraten, einer Gruppe, die sich auf den Handel mit Informationen spezialisiert hat. Sie behaupten, dass materielle Ressourcen vergänglich seien, „Geheimnisse jedoch für immer bestehen bleiben“. Sie haben uns einen Handel angeboten.</Description>
+Als wir uns der Station näherten, ertönte eine blecherne, synthetische Stimme über eine veraltete Sprechanlage. Der Sprecher identifizierte sich als Mitglied der "Echo-Pack"-Piraten, einer Gruppe, die sich auf den Handel mit Informationen spezialisiert hat. Sie behaupten, dass materielle Ressourcen vergänglich seien, "Geheimnisse jedoch für immer bestehen bleiben". Sie haben uns einen Handel angeboten.</Description>
 				<ImageFilepath>Environment/Events/The-Signal-Thieves</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -4707,7 +4707,7 @@ Als wir uns der Station näherten, ertönte eine blecherne, synthetische Stimme 
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Der Preis der Privatsphäre</MessageTitle>
-				<Description>Das Echo-Pack hat vorgeschlagen, dass wir eine „Beratungsgebühr“ in Höhe von 100.000 Credits zahlen. Im Gegenzug werden sie uns privilegierte, hochrangige Informationen über einen unserer Nachbarn zur Verfügung stellen.
+				<Description>Das Echo-Pack hat vorgeschlagen, dass wir eine "Beratungsgebühr" in Höhe von 100.000 Credits zahlen. Im Gegenzug werden sie uns privilegierte, hochrangige Informationen über einen unserer Nachbarn zur Verfügung stellen.
 
 Allerdings haben sie auch eine glaubwürdige Drohung ausgesprochen: Sollten wir uns weigern, ihr Bestechungsgeld zu zahlen, werden sie unsere interne Kommunikation an eine zufällig ausgewählte Regierung weiterleiten. Sie geben an, dass diese Daten sensible strategische Informationen sowie private Protokolle unserer Führungskräfte enthalten werden. Ein solcher Datenleck würde zu einer erheblichen Verschlechterung unserer diplomatischen Beziehungen zu dem Empfänger dieser Daten führen.</Description>
 				<ChoiceButtonText>Zahlung an Intel [-100.000 Cr]</ChoiceButtonText>
@@ -5285,7 +5285,7 @@ Wir haben einen diplomatischen Schub bei einer weiteren Fraktion erhalten.</Desc
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ein Informationsleck</MessageTitle>
-				<Description>Wir weigerten uns, uns von einer Gruppe von im Nichts lebenden Lauscher*innen erpressen zu lassen. Die Relaisstation verstummte sofort für einige Minuten, bevor sie einen letzten, schrillen Datenimpuls aussandte. Die blecherne Stimme meldete sich ein letztes Mal: „Die Informationsfreiheit ist eine schwere Last, Bodenwanderer. Mal sehen, wie Ihren Nachbarn Ihre wahren Gedanken gefallen.“
+				<Description>Wir weigerten uns, uns von einer Gruppe von im Nichts lebenden Lauscher*innen erpressen zu lassen. Die Relaisstation verstummte sofort für einige Minuten, bevor sie einen letzten, schrillen Datenimpuls aussandte. Die blecherne Stimme meldete sich ein letztes Mal: "Die Informationsfreiheit ist eine schwere Last, Bodenwanderer. Mal sehen, wie Ihren Nachbarn Ihre wahren Gedanken gefallen."
 
 Wir haben einen diplomatischen Malus bei einer anderen Fraktion erhalten.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->

@@ -815,7 +815,7 @@ Das abgestürzte Schiff ist anspruchsvoller als unsere eigene aktuelle Technolog
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Wie man sie ausnutzen kann</MessageTitle>
-				<Description>Es ist, wie wir klug vermutet haben. Diese Welt wird von Kreaturen bewohnt, die sich Ikkuro nennen. Sie behaupten, nichts über die Außerirdischen zu wissen, deren Schiff wir in unserem Heimatsystem gefunden haben, aber sie wissen etwas über uns. Sie sind zurückhaltend und fragen uns immer wieder, ob wir Konflikte bevorzugen oder „die Abwesenheit von Konflikten“. Wir verstehen die Frage nicht, aber sie macht uns misstrauisch. 
+				<Description>Es ist, wie wir klug vermutet haben. Diese Welt wird von Kreaturen bewohnt, die sich Ikkuro nennen. Sie behaupten, nichts über die Außerirdischen zu wissen, deren Schiff wir in unserem Heimatsystem gefunden haben, aber sie wissen etwas über uns. Sie sind zurückhaltend und fragen uns immer wieder, ob wir Konflikte bevorzugen oder "die Abwesenheit von Konflikten". Wir verstehen die Frage nicht, aber sie macht uns misstrauisch. 
 
 Es ist klar, dass diese minderwertigen Kreaturen Wissen über unsere Vergangenheit haben, aber unsere klügsten Köpfe sind sich uneins darüber, wie wir diese Informationen am besten extrahieren können. Die Außerirdischen scheinen ängstliche Kreaturen zu sein, daher können wir ihnen nichts über unsere wahre Natur sagen. Wir können versuchen, sie zu täuschen, aber wie alle Feiglinge werden sie wahrscheinlich geschickt darin sein, Unwahrheiten zu durchschauen, und wir müssen in ein besseres Verständnis ihrer Kultur investieren, bevor wir dies versuchen können. Alternativ können wir, obwohl ihre Welt gut verteidigt ist, einen Überraschungsangriff starten. Dieser Ansatz wird auch kostspielig sein.</Description>
 				<ChoiceButtonText>Täuschung (20,000cr)</ChoiceButtonText>
@@ -835,7 +835,7 @@ Es ist klar, dass diese minderwertigen Kreaturen Wissen über unsere Vergangenhe
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ergebnisse der Täuschung</MessageTitle>
-				<Description>Nachdem wir mehrere Experten für Xeno-Ausbeutung herangezogen haben, um die außerirdische Kultur zu studieren, haben wir ein ausreichendes Verständnis erlangt, um zu versuchen, die Kreaturen zu täuschen. Sie haben alte Berichte über „konfliktscheue“ Dhayut, und obwohl wir nicht vollständig verstehen, wie ein solcher Dhayut existieren könnte, haben wir behauptet, die fügsamen Kreaturen zu sein, die sie sich vorstellen. 
+				<Description>Nachdem wir mehrere Experten für Xeno-Ausbeutung herangezogen haben, um die außerirdische Kultur zu studieren, haben wir ein ausreichendes Verständnis erlangt, um zu versuchen, die Kreaturen zu täuschen. Sie haben alte Berichte über "konfliktscheue" Dhayut, und obwohl wir nicht vollständig verstehen, wie ein solcher Dhayut existieren könnte, haben wir behauptet, die fügsamen Kreaturen zu sein, die sie sich vorstellen. 
 
 Thus far, it appears our deception has worked. The aliens have explained that in ancient times, there were indeed two types of Dhayut: those who did not make war, like us (ha ha!) and violent, untrustworthy Dhayut who made common cause with powerful invaders called the Shakturi. 
 
@@ -869,7 +869,7 @@ Auf der Heimatwelt freut sich unser Volk über unseren Erfolg bei der Täuschung
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<Description>Wir glauben, Sie sind „konfliktscheu“, Dhayut</Description>
+				<Description>Wir glauben, Sie sind "konfliktscheu", Dhayut</Description>
 				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
 				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
 				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
@@ -895,7 +895,7 @@ Auf der Heimatwelt freut sich unser Volk über unseren Erfolg bei der Täuschung
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ergebnisse des Überraschungsangriffs</MessageTitle>
-				<Description>Obwohl diese Welt gut verteidigt ist, haben wir einen Überraschungsangriff gestartet und mehrere Orte überfallen, bevor das Risiko-Ertrags-Verhältnis den Rückzug zum wahren Sieg machte. Die Außerirdischen besitzen alte Berichte über den „konfliktscheuen“ Dhayut, und obwohl wir nicht vollständig verstehen, was das bedeutet. Wir wissen, dass die Außerirdischen Legenden haben, in denen sie als Götter erscheinen und andere Arten umformen, um sie ihren eigenen Bedürfnissen anzupassen. Es ist natürlich unsinnig zu glauben, dass diese zitternden Feiglinge den alten Dhayut „umgestaltet“ haben könnten. Ein weiterer Beweis unserer einstigen Größe ist sicherlich unter den Sternen zu finden. 
+				<Description>Obwohl diese Welt gut verteidigt ist, haben wir einen Überraschungsangriff gestartet und mehrere Orte überfallen, bevor das Risiko-Ertrags-Verhältnis den Rückzug zum wahren Sieg machte. Die Außerirdischen besitzen alte Berichte über den "konfliktscheuen" Dhayut, und obwohl wir nicht vollständig verstehen, was das bedeutet. Wir wissen, dass die Außerirdischen Legenden haben, in denen sie als Götter erscheinen und andere Arten umformen, um sie ihren eigenen Bedürfnissen anzupassen. Es ist natürlich unsinnig zu glauben, dass diese zitternden Feiglinge den alten Dhayut "umgestaltet" haben könnten. Ein weiterer Beweis unserer einstigen Größe ist sicherlich unter den Sternen zu finden. 
 
 Wir haben auch einige ihrer Vorräte gestohlen, was die Kosten dieser Operation ausgleichen wird. 
 
@@ -1018,7 +1018,7 @@ Wir haben einige der Einheimischen gefangen genommen, die wir zunächst nur zur 
 				<MessageTitle>Eingehende Nachricht</MessageTitle>
 				<Description>Wir erhalten eine Nachricht von der Planetenoberfläche.
 
-„Wir grüßen euch, unsere alten Meister. Wir, die Boskara von {0}, haben unsere wohlhabende Unterordnung unter euch, die Shakturi, nicht vergessen. Wir begrüßen eure Rückkehr, denn ihr wart einst die großen Meister der Galaxis, und alle anderen Spezies zitterten vor Euch. Wir erinnern uns noch gut, wie wir zugesehen haben, wie du dich über diese Region ausgestreckt hast und deine erbärmlichen Sklaven, die Dhayut, als Kanonenfutter benutzt hast. Wir hoffen, dass solche glorreichen Tage zurückkehren.“
+"Wir grüßen euch, unsere alten Meister. Wir, die Boskara von {0}, haben unsere wohlhabende Unterordnung unter euch, die Shakturi, nicht vergessen. Wir begrüßen eure Rückkehr, denn ihr wart einst die großen Meister der Galaxis, und alle anderen Spezies zitterten vor Euch. Wir erinnern uns noch gut, wie wir zugesehen haben, wie du dich über diese Region ausgestreckt hast und deine erbärmlichen Sklaven, die Dhayut, als Kanonenfutter benutzt hast. Wir hoffen, dass solche glorreichen Tage zurückkehren."
 
 Beunruhigend. Es kann nicht sein, dass die Dhayut einst den Shakturi untergeordnet waren. Diese Außerirdischen müssen sich eindeutig irren.
 
@@ -1526,7 +1526,7 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ikkuro Propaganda</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der die vielen Arten diskutiert werden, die am großen Krieg gegen die Shakturi beteiligt waren. Es listet mehrere Arten und die an ihrer Migration beteiligten Zahlen auf. Unter denen, die vor den Shakturi fliehen, sind die Dhayut aufgeführt. „Ihre kriegerische und trügerische Art erwies sich als ihr Untergang“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der die vielen Arten diskutiert werden, die am großen Krieg gegen die Shakturi beteiligt waren. Es listet mehrere Arten und die an ihrer Migration beteiligten Zahlen auf. Unter denen, die vor den Shakturi fliehen, sind die Dhayut aufgeführt. "Ihre kriegerische und trügerische Art erwies sich als ihr Untergang", heißt es in einem Fragment. 
 
 Das ist eindeutig Ikkuro-Propaganda. Die Dhayut würden nicht wie Feiglinge fliehen. Es gibt keinen Feind, der nicht dazu verleitet werden könnte, ein Verbündeter zu werden. Da uns die Logik sagt, dass das Dhayut-Netz nicht zur Flucht gebracht werden konnte, können wir diese Information getrost als falsch abtun. 
 
@@ -1556,7 +1556,7 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden. Für Feiglinge
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ikkuro Propaganda</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der die vielen Arten diskutiert werden, die am großen Krieg gegen die Shakturi beteiligt waren. Es listet mehrere Arten und die an ihrer Migration beteiligten Zahlen auf. Unter denen, die vor den Shakturi fliehen, sind die Dhayut aufgeführt. „Ihre kriegerische und trügerische Art erwies sich als ihr Untergang“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der die vielen Arten diskutiert werden, die am großen Krieg gegen die Shakturi beteiligt waren. Es listet mehrere Arten und die an ihrer Migration beteiligten Zahlen auf. Unter denen, die vor den Shakturi fliehen, sind die Dhayut aufgeführt. "Ihre kriegerische und trügerische Art erwies sich als ihr Untergang", heißt es in einem Fragment. 
 
 Das ist eindeutig Ikkuro-Propaganda. Die Dhayut würden nicht wie Feiglinge fliehen. Es gibt keinen Feind, der nicht dazu verleitet werden könnte, ein Verbündeter zu werden. Da uns die Logik sagt, dass das Dhayut-Netz nicht zur Flucht gebracht werden konnte, können wir diese Information getrost als falsch abtun.
 
@@ -1685,7 +1685,7 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Untersuchungsergebnisse</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Unsere Vorfahren waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. „Ihre kriegerische und trügerische Art hat sie eingeholt“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Unsere Vorfahren waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. "Ihre kriegerische und trügerische Art hat sie eingeholt", heißt es in einem Fragment. 
 
 Wir haben jedoch viel über die Waffentechnologie herausgefunden.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -1713,7 +1713,7 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Untersuchungsergebnisse</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Unsere Vorfahren waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. „Ihre kriegerische und trügerische Art hat sie eingeholt“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Unsere Vorfahren waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. "Ihre kriegerische und trügerische Art hat sie eingeholt", heißt es in einem Fragment. 
 
 Wir haben jedoch viel in Bezug auf Verteidigungstechnologie entdeckt.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -1841,7 +1841,7 @@ Sehr wenig bleibt auf dieser Welt intakt, und sehr wenig wird den Prozess der Pr
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Untersuchungsergebnisse</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Die Ikkuro waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. „Ihre kriegerische und trügerische Art hat sie eingeholt“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Die Ikkuro waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. "Ihre kriegerische und trügerische Art hat sie eingeholt", heißt es in einem Fragment. 
 
 Wir haben jedoch viel über die Waffentechnologie herausgefunden.
 </Description>
@@ -1870,7 +1870,7 @@ Wir haben jedoch viel über die Waffentechnologie herausgefunden.
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Untersuchungsergebnisse</MessageTitle>
-				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Die Ikkuro waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. „Ihre kriegerische und trügerische Art hat sie eingeholt“, heißt es in einem Fragment. 
+				<Description>In den Ruinen haben wir eine Datenbank geborgen, in der viele Arten aus dem großen Krieg gegen die Shakturi diskutiert werden. Die Ikkuro waren besonders daran interessiert, die Bewegung der Dhayut zu verfolgen. "Ihre kriegerische und trügerische Art hat sie eingeholt", heißt es in einem Fragment. 
 
 Wir haben jedoch viel in Bezug auf Verteidigungstechnologie entdeckt.
 </Description>
@@ -2509,7 +2509,7 @@ Gleichzeitig wüten Brände in der einen verbliebenen Forschungseinrichtung, ein
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Der große Betrüger</MessageTitle>
-				<Description>Wir konnten den Einsatz des Notsignals verhindern. Wir können jetzt die Forschungseinrichtung erkunden. In den Ruinen des Regierungskomplexes haben wir eine Statue namens „Großer Betrüger“ entdeckt. Es ist eine Hommage an all die großen Dhayut, die schwache und feige Aliens versklavt und manipuliert haben, und es enthüllt verlorene Geheimnisse darüber, wie man gegen die minderwertigen Bewohner der Galaxie plant.</Description>
+				<Description>Wir konnten den Einsatz des Notsignals verhindern. Wir können jetzt die Forschungseinrichtung erkunden. In den Ruinen des Regierungskomplexes haben wir eine Statue namens "Großer Betrüger" entdeckt. Es ist eine Hommage an all die großen Dhayut, die schwache und feige Aliens versklavt und manipuliert haben, und es enthüllt verlorene Geheimnisse darüber, wie man gegen die minderwertigen Bewohner der Galaxie plant.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->

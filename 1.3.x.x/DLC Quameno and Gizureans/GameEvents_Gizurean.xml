@@ -7,7 +7,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Die Säuberung</MessageTitle>
-				<Description>Mit unserer jüngsten Eroberung der Kolonie {0} können wir entscheiden, ob wir „Die Säuberung“ implementieren möchten.
+				<Description>Mit unserer jüngsten Eroberung der Kolonie {0} können wir entscheiden, ob wir "Die Säuberung" implementieren möchten.
 
 Wenn wir diese neu erworbene Kolonie säubern, erhalten wir eine [RESEARCH]zusätzliche Technologie[/RESEARCH] aus dieser Eroberung.
 
@@ -19,7 +19,7 @@ Durch die Reinigung wird außerdem die Zufriedenheit der Kolonie für zwei Jahre
 
 Es wird auch unserem Ruf bei anderen Fraktionen schaden.
 
-Sollten wir „Die Säuberung“ in unserer neuen Kolonie {0} einführen?</Description>
+Sollten wir "Die Säuberung" in unserer neuen Kolonie {0} einführen?</Description>
 				<ImageFilepath>Environment/Events/the scouring</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ChoiceButtonText>Die Kolonie durchsuchen!</ChoiceButtonText>
@@ -503,7 +503,7 @@ Es ist Zeit, nach weiteren Außerirdischen zu suchen!</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Außerirdische, die sprechen</MessageTitle>
-				<Description>„Grüße, Reisende! Wir sind Teekans und heißen Euch als Handelspartner willkommen. Wir freuen uns, dass Ihr hier sind, denn wir brauchen Eure Hilfe.
+				<Description>"Grüße, Reisende! Wir sind Teekans und heißen Euch als Handelspartner willkommen. Wir freuen uns, dass Ihr hier sind, denn wir brauchen Eure Hilfe.
 
 Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir mehr über Euch erfahren und den Weg zu einer vorteilhaften Handelsbeziehung ebnen können. Leider haben wir den Kontakt zu unseren Forschern verloren. Wisst Ihr etwas über ihre Umstände?"</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -546,7 +546,7 @@ Wir haben in Eurem Heimatsystem eine Forschungsbasis eingerichtet, damit wir meh
 				<MessageTitle>Stolze Gizurean!</MessageTitle>
 				<Description>Wir haben folgende Nachricht gesendet:
 
-„Warmblütige Außerirdische, der Grund, warum ihr nichts von Eurem Wissenschaftler gehört habt, ist, dass wir sie gegessen haben, und verschlungene Außerirdische haben nicht viel zu sagen. Wir haben ihr Fleisch und ihre Forschungsstation genommen, und jetzt gehören sie uns. Vielleicht auch Euch, aber die ganze Welt wird eines Tages - oder schon bald - uns gehören.“</Description>
+"Warmblütige Außerirdische, der Grund, warum ihr nichts von Eurem Wissenschaftler gehört habt, ist, dass wir sie gegessen haben, und verschlungene Außerirdische haben nicht viel zu sagen. Wir haben ihr Fleisch und ihre Forschungsstation genommen, und jetzt gehören sie uns. Vielleicht auch Euch, aber die ganze Welt wird eines Tages - oder schon bald - uns gehören."</Description>
 				<ImageFilepath>UserInterface/Races/Gizurean</ImageFilepath>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
@@ -609,11 +609,11 @@ Um uns zu trösten, beanspruchten wir eure Forschungsbasis und nutzten sie, um u
 				<MessageTitle>Sie reden immer noch</MessageTitle>
 				<Description>Wir erhalten eine weitere Übertragung aus Manabu.
 
-„Vielen Dank für Euren Bericht. Wir trauern um unsere verlorenen Wissenschaftler, aber wir schätzen Eure Bemühungen, sie zu retten. Wir müssen an unserem Verständnis Eurer Sprache arbeiten, denn unsere Übersetzungen lassen Euch ein wenig irrational klingen, aber wir glauben, dass das so ist; - unsere Schuld."
+"Vielen Dank für Euren Bericht. Wir trauern um unsere verlorenen Wissenschaftler, aber wir schätzen Eure Bemühungen, sie zu retten. Wir müssen an unserem Verständnis Eurer Sprache arbeiten, denn unsere Übersetzungen lassen Euch ein wenig irrational klingen, aber wir glauben, dass das so ist; - unsere Schuld."
 
-„Als Zeichen unseres guten Willens, werden unsere Wissenschaftler einige unserer kürzlich erworbenen Erkenntnisse mit Euch teilen.“
+"Als Zeichen unseres guten Willens, werden unsere Wissenschaftler einige unserer kürzlich erworbenen Erkenntnisse mit Euch teilen."
 
-„Vielleicht möchten Ihr wissen, dass andere Reisende über Sichtungen von Außerirdischen berichtet haben, die Eurer Spezies ähneln, aber sie werden als unfähig zur Kommunikation beschrieben ? Sie wurden als gedankenlose Verschlinger bezeichnet. Wir wollten Euch warnen, damit Ihr ihnen nicht begegnet.“</Description>
+"Vielleicht möchten Ihr wissen, dass andere Reisende über Sichtungen von Außerirdischen berichtet haben, die Eurer Spezies ähneln, aber sie werden als unfähig zur Kommunikation beschrieben ? Sie wurden als gedankenlose Verschlinger bezeichnet. Wir wollten Euch warnen, damit Ihr ihnen nicht begegnet."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -659,9 +659,9 @@ Dennoch gibt es vieles, was wir nicht wissen, z.B. wer wir vor der 'Großen Kata
 				<MessageTitle>Sie reden wieder</MessageTitle>
 				<Description>Wir erhalten eine weitere Übertragung aus Manabu. Diese Außerirdischen sind sehr gesprächig.
 
-„Wir möchten noch etwas besprechen. Vor langer Zeit entdeckte eines unserer Forschungsschiffe einen Außerirdischen in Kryosuspension. Wir erkannten seine Art nicht und wussten nicht, was wir mit ihm machen sollten, aber jetzt sehen wir, dass es sich bei diesem Wesen um einen Gizurean handelt.“ . Nachdem wir Euch getroffen haben, haben wir diesen Schläfer geweckt, der tatsächlich ein Gizurean von vor langer Zeit ist. Tatsächlich ein Wissenschaftler.
+"Wir möchten noch etwas besprechen. Vor langer Zeit entdeckte eines unserer Forschungsschiffe einen Außerirdischen in Kryosuspension. Wir erkannten seine Art nicht und wussten nicht, was wir mit ihm machen sollten, aber jetzt sehen wir, dass es sich bei diesem Wesen um einen Gizurean handelt." . Nachdem wir Euch getroffen haben, haben wir diesen Schläfer geweckt, der tatsächlich ein Gizurean von vor langer Zeit ist. Tatsächlich ein Wissenschaftler.
 
-Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um unsere Lager- und Wiederbelebungskosten zu decken, verstehen Ihr?“</Description>
+Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um unsere Lager- und Wiederbelebungskosten zu decken, verstehen Ihr?"</Description>
 				<ChoiceButtonText>Ablehnen</ChoiceButtonText>
 				<GeneratedItemName>Decline Offer Choice (Gizurean)</GeneratedItemName>
 			</GameEventAction>
@@ -732,7 +732,7 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Das ist interessant</MessageTitle>
-				<Description>„Wir schicken Euch jetzt Euren Wissenschaftler. Er ist etwas... Besonderes. Nennen wir ihn etwas Besonderes. Und er ist ein sehr intelligenter Wissenschaftler, also viel Glück für Euch, Freunde. Ich hoffe, wir können bald wieder Geschäfte machen.“</Description>
+				<Description>"Wir schicken Euch jetzt Euren Wissenschaftler. Er ist etwas... Besonderes. Nennen wir ihn etwas Besonderes. Und er ist ein sehr intelligenter Wissenschaftler, also viel Glück für Euch, Freunde. Ich hoffe, wir können bald wieder Geschäfte machen."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -754,7 +754,7 @@ Wir sind bereit, ihn zu einem sehr geringen Preis an Euch zurückzugeben. Nur um
 				<MessageTitle>Das ist interessant</MessageTitle>
 				<Description>Der Wissenschaftler, den die Außerirdischen übergeben haben, ist irrational. Er stammt aus einer Zeit vor langer Zeit, aus einer Zeit, als die Gizurean weitaus mehr wussten und über die ganze Galaxie verstreut waren. Dieses Wissen sollte sich als sehr nützlich erweisen, aber es gibt einige Probleme.
 
-Der Wissenschaftler hat Schwierigkeiten, über seine Zeit zu sprechen. Meistens schimpft er über das Fehlen von Stimmen in seinem Kopf. Wir wünschten, er könnte klarer kommunizieren, aber er sagt nur: „Worte reichen nicht aus und waren früher unnötig.“
+Der Wissenschaftler hat Schwierigkeiten, über seine Zeit zu sprechen. Meistens schimpft er über das Fehlen von Stimmen in seinem Kopf. Wir wünschten, er könnte klarer kommunizieren, aber er sagt nur: "Worte reichen nicht aus und waren früher unnötig."
 
 Niemand arbeitet gerne mit diesem Wissenschaftler zusammen. Trotzdem ist er sehr schlau.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -2416,7 +2416,7 @@ Dennoch haben wir viel über das uralte Gizurean-Systemdesign herausgefunden, da
 				<MessageTitle>Ein schlechter erster Eindruck</MessageTitle>
 				<Description>Wir erhalten eine Nachricht von der Oberfläche von Paxon.
 
-„Gizurean! Wir kennen Euch. Diese Welt gehörte Euch, vor der 'Großen Katastrophe'. Ihr möchtet sie zurückhaben. Das ist ganz einfach zu regeln. Alles, was Ihr tun müsst, ist ein Freihandelsabkommen zu unterzeichnen. Außerdem könnt Ihr uns 100.000 CR zahlen. Wir haben sorgfältig darüber nachgedacht und halten das für fair.“</Description>
+"Gizurean! Wir kennen Euch. Diese Welt gehörte Euch, vor der 'Großen Katastrophe'. Ihr möchtet sie zurückhaben. Das ist ganz einfach zu regeln. Alles, was Ihr tun müsst, ist ein Freihandelsabkommen zu unterzeichnen. Außerdem könnt Ihr uns 100.000 CR zahlen. Wir haben sorgfältig darüber nachgedacht und halten das für fair."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3727,7 +3727,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 				<MessageTitle>Sie sind seltsam</MessageTitle>
 				<Description>Der 'Schwarm' versucht, mit uns zu kommunizieren.
 
-„Gizureanische Dinge. Alt. Ältere Version. Vergessen. Ersetzt. Verlorene Cousins. Absorption! Ihr werdet zerstört und willkommen sein. Wir werden konsumieren. Verzehren. Schrecklicher, amüsanter Tod. Vielleicht vermieden, wenn Ihr mit Eurem Verstand sprecht.“</Description>
+"Gizureanische Dinge. Alt. Ältere Version. Vergessen. Ersetzt. Verlorene Cousins. Absorption! Ihr werdet zerstört und willkommen sein. Wir werden konsumieren. Verzehren. Schrecklicher, amüsanter Tod. Vielleicht vermieden, wenn Ihr mit Eurem Verstand sprecht."</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -3836,7 +3836,7 @@ Wir haben außerdem eine Karte gefunden, auf der der vermutlich alte Heimatplane
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ekelhafte Dinge passieren</MessageTitle>
-				<Description>Nachdem sich Sawa Echigo mit seinem Schicksal abgefunden hatte, fand er einfach einen Platz, an dem er ruhig sitzen konnte, und „öffnete seinen Geist“, wie er es selbst ausdrückte, für den 'Schwarm'.
+				<Description>Nachdem sich Sawa Echigo mit seinem Schicksal abgefunden hatte, fand er einfach einen Platz, an dem er ruhig sitzen konnte, und "öffnete seinen Geist", wie er es selbst ausdrückte, für den 'Schwarm'.
 
 Es war schrecklich anzusehen. Er schrie und krümmte sich. Blut strömte aus seinem Mund und seinen Nasenlöchern. Dann fiel er tot um. Niemand wird ihn vermissen, aber trotzdem. Das war ein lobenswertes Verhalten. Vor allem, weil wenige Augenblicke später der Haupt-Schwarm-Träger, der Dirann umkreiste, zu explodieren begann.
 

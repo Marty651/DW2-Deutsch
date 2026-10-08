@@ -1498,7 +1498,7 @@
 					[H3]Neue Forschungsstationen in die Warteschlange stellen[/H3]
 					Über die Schaltfläche rechts kannst du den Bau einer neuen Forschungsstation an diesem Standort in die Warteschlange stellen. Sobald das nächste Bauschiff verfügbar ist, wird hier eine Forschungsstation errichtet. Du kannst die Schaltfläche erneut anklicken, um den Bau abzubrechen.
 
-					Wenn du an diesem Ort nicht bauen kannst, ist die Schaltfläche „Warteschlange“ deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum du dort nicht bauen kannst.
+					Wenn du an diesem Ort nicht bauen kannst, ist die Schaltfläche "Warteschlange" deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum du dort nicht bauen kannst.
 
 					[H3]Gefährliche Orte[/H3]
 					Neben dem Namen eines Ortes wird ein rotes Blitzsymbol angezeigt, wenn dieser Ort als gefährlich eingestuft wird. Ein Ort gilt als gefährlich, wenn dort unbewältigte Bedrohungen wie Piraten oder tödliche Weltraumkreaturen vorhanden sind.
@@ -2147,7 +2147,7 @@ Interessierte Fraktionen überlegen, ob sie bereit sind, einen niedrigeren Preis
 			</TourStep>
 			<TourStep>
 				<StepTitle>Akzeptierte Verträge</StepTitle>
-				<MarkupText>Die Liste „Angenommene Aufträge“ zeigt alle Aufträge an, die Ihre Fraktion angenommen hat. Außerdem werden dort alle von Ihnen zugewiesenen Aufträge angezeigt, die von anderen Fraktionen angenommen wurden.
+				<MarkupText>Die Liste "Angenommene Aufträge" zeigt alle Aufträge an, die Ihre Fraktion angenommen hat. Außerdem werden dort alle von Ihnen zugewiesenen Aufträge angezeigt, die von anderen Fraktionen angenommen wurden.
 
 Wenn Sie mit der Maus über einen Vertrag in der Liste fahren, werden die Details angezeigt, darunter die Belohnung, das Ablaufdatum und etwaige Strafen bei Nichterfüllung. In der Regel wird zudem der Zielort des Vertrags auf der Galaxiekarte markiert (sofern er Ihrer Fraktion bekannt ist).
 
@@ -2156,7 +2156,7 @@ Durch Anklicken eines Vertrags wird das Ziel des Vertrags ausgewählt (sofern be
 Wurde ein Schiff zur Erfüllung des Auftrags zugewiesen (z. B. zur Lieferung von Ressourcen), wird dieses rechts neben der Auftragszeile angezeigt.
 
 [H3]Automatisierungseinstellungen[/H3]
-Der Bildschirm „Imperiale Richtlinien“ enthält im Abschnitt „Diplomatie“ Automatisierungseinstellungen für Aufträge: „Auftragsannahme“ und „Auftragsangebot“.</MarkupText>
+Der Bildschirm "Imperiale Richtlinien" enthält im Abschnitt "Diplomatie" Automatisierungseinstellungen für Aufträge: "Auftragsannahme" und "Auftragsangebot".</MarkupText>
 				<RelatedControlNames>
 					<string>ContractsAccepted_SubSection</string>
 				</RelatedControlNames>
@@ -2175,7 +2175,7 @@ Der Bildschirm „Imperiale Richtlinien“ enthält im Abschnitt „Diplomatie�
 
 Unter dem Handel mit Ressourcen versteht man den Kauf und Verkauf von Ressourcen in der gesamten Galaxie. In der Regel kaufen Sie Ressourcen zum niedrigsten Preis, den Sie finden können, und suchen dann nach dem Zielort, an dem die Ressource zum höchsten Preis abgenommen wird.
 				
-Sie müssen zudem die Entfernung zwischen Herkunftsort und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft wird. Diese Obergrenze kann oft bei Null liegen, d. h., der Ort kauft gar nichts von dieser Ressource.</MarkupText>
+Sie müssen zudem die Entfernung zwischen Herkunftsort und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft wird. Diese Obergrenze kann oft bei Null liegen, d.h., der Ort kauft gar nichts von dieser Ressource.</MarkupText>
 				<RelatedControlNames>
 				</RelatedControlNames>
 			</TourStep>
@@ -2188,12 +2188,12 @@ Piraten können zudem direkt an Orten anlegen und Ressourcen manuell kaufen und 
 				</RelatedControlNames>
 			</TourStep>
 			<TourStep>
-				<StepTitle>Bildschirm „Handelspunkte“</StepTitle>
-				<MarkupText>Um Handelsorte anzuzeigen, können Sie den Bildschirm „Handelsorte“ nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Ort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
+				<StepTitle>Bildschirm "Handelspunkte"</StepTitle>
+				<MarkupText>Um Handelsorte anzuzeigen, können Sie den Bildschirm "Handelspunkte" nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Ort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
 
-Sie können außerdem auf die Schaltfläche „Bewegen und andocken“ rechts neben jedem Ort klicken, um Ihr ausgewähltes Schiff sofort an diesen Ort zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
+Sie können außerdem auf die Schaltfläche "Bewegen und andocken" rechts neben jedem Ort klicken, um Ihr ausgewähltes Schiff sofort an diesen Ort zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
 
-Wenn Sie mit der Maus über einen Ort fahren, wird dessen Position auf der Galaxiekarte markiert. Durch Klicken auf den Standort wird dieser ausgewählt und die Liste wird neu sortiert, sodass die dem ausgewählten Standort am nächsten gelegenen anderen Standorte angezeigt werden (wenn „Sortieren“ auf „Entfernung vom ausgewählten Element“ eingestellt ist).
+Wenn Sie mit der Maus über einen Ort fahren, wird dessen Position auf der Galaxiekarte markiert. Durch Klicken auf den Standort wird dieser ausgewählt und die Liste wird neu sortiert, sodass die dem ausgewählten Standort am nächsten gelegenen anderen Standorte angezeigt werden (wenn "Sortieren" auf "Entfernung vom ausgewählten Element" eingestellt ist).
 
 Wenn Sie die Liste der Handelspunkte nach einer bestimmten Ressource filtern, werden die Mengen, Preise und Limits für diese Ressource an jedem Standort direkt in der Liste der Handelspunkte angezeigt.</MarkupText>
 				<RelatedControlNames>
@@ -2201,10 +2201,10 @@ Wenn Sie die Liste der Handelspunkte nach einer bestimmten Ressource filtern, we
 				</RelatedControlNames>
 			</TourStep>
 			<TourStep>
-				<StepTitle>Bildschirm „Ressourcenhandel“</StepTitle>
-				<MarkupText>Wenn Sie an einem Ort angedockt sind, können Sie den Bildschirm „Ressourcenhandel“ (Schaltfläche „Ressourcen handeln“) öffnen, der eine vollständige Liste aller dort zum Handel verfügbaren Ressourcen anzeigt.
+				<StepTitle>Bildschirm "Ressourcenhandel"</StepTitle>
+				<MarkupText>Wenn Sie an einem Ort angedockt sind, können Sie den Bildschirm "Ressourcenhandel" (Schaltfläche "Ressourcen handeln") öffnen, der eine vollständige Liste aller dort zum Handel verfügbaren Ressourcen anzeigt.
  					
-Über die Schaltflächen „Kaufen“ und „Verkaufen“ können Sie Ressourcen sofort zwischen dem Laderaum Ihres Schiffes und dem jeweiligen Ort übertragen. Sie können Ressourcen in Einheiten von 10, 100 oder „Alle verfügbaren“ übertragen.
+Über die Schaltflächen "Kaufen" und "Verkaufen" können Sie Ressourcen sofort zwischen dem Laderaum Ihres Schiffes und dem jeweiligen Ort übertragen. Sie können Ressourcen in Einheiten von 10, 100 oder "Alle verfügbaren" übertragen.
 					
 Sie erhalten Geld für verkaufte Ressourcen, sobald Sie diese übertragen. Ebenso bezahlen Sie für gekaufte Ressourcen, sobald Sie diese übertragen.
 					
@@ -2219,10 +2219,10 @@ Beachten Sie, dass jeder Standort eine Obergrenze dafür hat, wie viel von einer
 				<StepTitle>Schmuggel</StepTitle>
 				<MarkupText>Piraten können sich auch dafür entscheiden, verbotene Ressourcen vom Schwarzmarkt zu schmuggeln. Kolonien, die unter dem Einfluss von Piratenfraktionen stehen, produzieren verbotene Ressourcen, die zu einem deutlich niedrigeren Preis als üblich erworben werden können.
 
-Ressourcen vom Schwarzmarkt werden am Ende der Liste im Bildschirm „Ressourcenhandel“ angezeigt.
+Ressourcen vom Schwarzmarkt werden am Ende der Liste im Bildschirm "Ressourcenhandel" angezeigt.
 
 [H3]Schmuggel ist riskant[/H3]
-Der Schmuggel verbotener Ressourcen ist jedoch riskant – werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
+Der Schmuggel verbotener Ressourcen ist jedoch riskant - werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
 
 Andere Fraktionen können Schmuggler aufspüren, wenn ihre Schiffe über leistungsstarke Ortungsscanner verfügen. Piraten können die Entdeckung geschmuggelter Ressourcen verhindern, indem sie ihre Schiffe mit einer guten Scanner-Störanlage ausstatten und Abstand zu potenziellen Scannern halten (die Erkennungsreichweite von Spurenscannern nimmt mit zunehmender Entfernung ab).
 
@@ -2242,7 +2242,7 @@ Der Schmuggel bietet die Möglichkeit höherer Belohnungen, birgt jedoch auch da
 				<MarkupText>Das Spielen als Pirat unterscheidet sich erheblich vom Spielen als normales planetares Imperium. Ihre Aktivitäten finden hauptsächlich im Weltraum statt und nicht auf Planeten.
  
 [H3]Alle Schiffe bauen und steuern[/H3]
-Sie können alle Ihre Schiffe steuern, sowohl staatliche als auch zivile – für Piraten gibt es keinen privaten Sektor.
+Sie können alle Ihre Schiffe steuern, sowohl staatliche als auch zivile - für Piraten gibt es keinen privaten Sektor.
 
 Sie können also Frachter und andere zivile Schiffe direkt in Ihren Weltraushäfen bauen. Außerdem können Sie ihnen manuell Missionen zuweisen, um an einem Ort anzudocken und Ressourcen zu kaufen oder zu verkaufen.
  				
@@ -2250,7 +2250,7 @@ Sie können also Frachter und andere zivile Schiffe direkt in Ihren Weltraushäf
 Während planetare Imperien durch die Kolonisierung neuer Welten expandieren, beuten Piraten stattdessen bestehende Kolonien (unabhängige und imperiale) aus, indem sie Einfluss auf sie nehmen und einen Teil ihrer Einnahmen für sich selbst abschöpfen.
 				
 [H3]Einnahmen und Ausgaben[/H3]
-Ihre Kosten für die Schiffswartung sind deutlich geringer als bei herkömmlichen Planetenimperien, allerdings wird es Ihnen auch schwerer fallen, Einnahmen zu erzielen. Ihre einzigen regelmäßigen Einnahmequellen sind beeinflusste Kolonien („Koloniekriminalität“) und Schutzabkommen. Der Rest Ihrer Einnahmen stammt aus dem Rohstoffhandel, aus Aufträgen, Überfällen, Spionage und Verhandlungen.</MarkupText>
+Ihre Kosten für die Schiffswartung sind deutlich geringer als bei herkömmlichen Planetenimperien, allerdings wird es Ihnen auch schwerer fallen, Einnahmen zu erzielen. Ihre einzigen regelmäßigen Einnahmequellen sind beeinflusste Kolonien ("Koloniekriminalität") und Schutzabkommen. Der Rest Ihrer Einnahmen stammt aus dem Rohstoffhandel, aus Aufträgen, Überfällen, Spionage und Verhandlungen.</MarkupText>
 				<RelatedControlNames>
 					<string>EmpireEconomy_SubSection</string>
 				</RelatedControlNames>
@@ -2281,8 +2281,8 @@ Der Bergbau verschafft Ihnen Zugang zu Ressourcen, die Sie selbst für den Bau n
 				<StepTitle>Handel mit Rohstoffen und Schmuggel</StepTitle>
 				<MarkupText>Der Handel mit Rohstoffen kann eine sehr lukrative Einnahmequelle sein, insbesondere wenn Sie die Rohstoffe selbst mit Bergbauschiffen oder Bergbaustationen abbauen.
  
-[H3]Bildschirm „Handelsstellen“[/H3]
-Der Bildschirm „Handelsstellen“ bietet leistungsstarke Werkzeuge, um Orte zu finden, an denen Sie bestimmte Rohstoffe zu einem guten Preis handeln können.
+[H3]Bildschirm "Handelspunkte"[/H3]
+Der Bildschirm "Handelspunkte" bietet leistungsstarke Werkzeuge, um Orte zu finden, an denen Sie bestimmte Rohstoffe zu einem guten Preis handeln können.
 
 An einigen Standorten können Sie zudem verbotene Schwarzmarkt-Ressourcen schmuggeln. Diese Ressourcen sind zu einem niedrigeren Preis erhältlich, was einen höheren Gewinn ermöglicht, jedoch mit einem erhöhten Risiko der Aufdeckung und Festnahme verbunden ist.</MarkupText>
 				<RelatedControlNames>
@@ -2293,7 +2293,7 @@ An einigen Standorten können Sie zudem verbotene Schwarzmarkt-Ressourcen schmug
 				<StepTitle>Verträge</StepTitle>
 				<MarkupText>Aufträge sind eine weitere wichtige Einnahmequelle.
 
-Aufträge werden von Shadowports, unabhängigen Kolonien, Planetenimperien und sogar anderen Piraten ausgeschrieben. Sie können sogar selbst Aufträge erstellen, die andere für Sie erfüllen sollen.
+Aufträge werden von Schattenhäfen, unabhängigen Kolonien, Planetenimperien und sogar anderen Piraten ausgeschrieben. Sie können sogar selbst Aufträge erstellen, die andere für Sie erfüllen sollen.
 
 Diese Missionen beziehen sich in der Regel auf die Lieferung von Ressourcen, den Angriff auf und die Zerstörung bestimmter Ziele oder den Diebstahl von Gegenständen (wie beispielsweise eines Artefakts). In der Regel gibt es eine finanzielle Belohnung, doch oft gewinnen Sie auch an Einfluss und verbessern Ihre Beziehungen, wenn Sie einen Auftrag für jemanden erfüllen.</MarkupText>
 				<RelatedControlNames>
@@ -2306,7 +2306,7 @@ Diese Missionen beziehen sich in der Regel auf die Lieferung von Ressourcen, den
 				
 Um die Dienstleistungen eines Schattenhafens in Anspruch zu nehmen, entsenden Sie ein Schiff dorthin, damit es dort anlegt. Wählen Sie das Schiff aus, sobald es angelegt hat; daraufhin erscheint ein Menü, in dem Sie auswählen können, was Sie tun möchten.
 
-Als Freibeuter können Sie sich dafür bezahlen lassen, die feindlichen Schiffe und Stützpunkte einer Fraktion zu zerstören. Sie können Freibeuterverträge im Bildschirm „Diplomatie – Handel“ abschließen.</MarkupText>
+Als Freibeuter können Sie sich dafür bezahlen lassen, die feindlichen Schiffe und Stützpunkte einer Fraktion zu zerstören. Sie können Freibeuterverträge im Bildschirm "Diplomatie - Handel" abschließen.</MarkupText>
 				<RelatedControlNames>
 					<string>DiplomacyPiratesShadowports_SubSection</string>
 				</RelatedControlNames>
@@ -2314,8 +2314,8 @@ Als Freibeuter können Sie sich dafür bezahlen lassen, die feindlichen Schiffe 
 			<TourStep>
 				<StepTitle>Piraten-Ziele</StepTitle>
 				<MarkupText>Letztendlich stehen Ihnen als Pirat zwei Wege offen:
-[ULI]Wachsen Sie so stark, dass Sie zu einem regelrechten planetarischen Imperium werden, indem Sie in Ihrer größten Kolonie eine „Criminal Network“-Einrichtung errichten und Ihr Piratenleben für immer hinter sich lassen[/ULI]
-[ULI]ODER Sie können stattdessen das einzigartige Weltwunder „Anarchopolis“ errichten, wodurch Sie den Status einer legendären Piratenfraktion erlangen und eine Weltraumfraktion bleiben können[/ULI]
+[ULI]Wachsen Sie so stark, dass Sie zu einem regelrechten planetarischen Imperium werden, indem Sie in Ihrer größten Kolonie eine "Criminal Network"-Einrichtung errichten und Ihr Piratenleben für immer hinter sich lassen[/ULI]
+[ULI]ODER Sie können stattdessen das einzigartige Weltwunder "Anarchopolis" errichten, wodurch Sie den Status einer legendären Piratenfraktion erlangen und eine Weltraumfraktion bleiben können[/ULI]
 
 Die Entscheidung liegt bei Ihnen!</MarkupText>
 				<RelatedControlNames>
@@ -2332,7 +2332,7 @@ Die Entscheidung liegt bei Ihnen!</MarkupText>
 		<Steps>
 			<TourStep>
 				<StepTitle>Überblick</StepTitle>
-				<MarkupText>Als „Lone Pirate“ verfügen Sie über ein einziges Schiff, mit dem Sie durch die Sterne reisen. Sie besitzen weder Stützpunkte noch weitere Schiffe. Es steht Ihnen frei, jeden beliebigen Weg einzuschlagen:
+				<MarkupText>Als "Einsamer Pirat" verfügen Sie über ein einziges Schiff, mit dem Sie durch die Sterne reisen. Sie besitzen weder Stützpunkte noch weitere Schiffe. Es steht Ihnen frei, jeden beliebigen Weg einzuschlagen:
 [ULI]Einfacher Handel mit gefragten Ressourcen quer durch die Galaxie[/ULI]
 [ULI]Actiongeladene Überfälle und Kämpfe, um Beute zu machen und zu plündern oder neue Schiffe zu erwerben[/ULI]
 [ULI]Führen Sie heimlich Aufträge im Auftrag anderer aus, jagen Sie Kopfgeldjäger, vernichten Sie Ziele oder suchen Sie nach Gegenständen[/ULI]
@@ -2342,9 +2342,9 @@ Die Entscheidung liegt bei Ihnen!</MarkupText>
 			</TourStep>
 			<TourStep>
 				<StepTitle>Unterschiede zum normalen Spielverlauf</StepTitle>
-				<MarkupText>Als einsamer Pirat haben Sie – anders als sonst üblich – weder regelmäßige Einnahmen noch Ausgaben. Sie verdienen Geld ganz einfach je nach Ihren Handlungen. Um Treibstoff, Reparaturen, Upgrades oder sogar ein komplett neues Schiff zu bezahlen, müssen Sie durch verschiedene Aktivitäten aktiv Geld verdienen.
+				<MarkupText>Als einsamer Pirat haben Sie - anders als sonst üblich - weder regelmäßige Einnahmen noch Ausgaben. Sie verdienen Geld ganz einfach je nach Ihren Handlungen. Um Treibstoff, Reparaturen, Upgrades oder sogar ein komplett neues Schiff zu bezahlen, müssen Sie durch verschiedene Aktivitäten aktiv Geld verdienen.
 				
-Einige andere Aktivitäten, die für das Standard-Gameplay von „Distant Worlds“ typisch sind, fehlen im „Lone Pirate“-Gameplay größtenteils:
+Einige andere Aktivitäten, die für das Standard-Gameplay von "Distant Worlds" typisch sind, fehlen im "Einsamer Pirat"-Gameplay größtenteils:
 [ULI]Keine Forschung[/ULI]
 [ULI]Kein Schiffsdesign oder -bau, außer beim Aufrüsten oder Kauf neuer Schiffe in Schattenhäfen[/ULI]
 [ULI]Kein Abbau von Ressourcen[/ULI]</MarkupText>
@@ -2354,7 +2354,7 @@ Einige andere Aktivitäten, die für das Standard-Gameplay von „Distant Worlds
 			</TourStep>
 			<TourStep>
 				<StepTitle>Vereinfachte Benutzeroberfläche</StepTitle>
-				<MarkupText>„Lone Pirates“ verwendet eine vereinfachte Benutzeroberfläche mit weniger Bereichen, sodass Sie sich leichter auf die wichtigsten Aktivitäten konzentrieren können. Dazu gehören Bereiche wie Erkundung, Diplomatie, Aufträge und Rohstoffhandel.
+				<MarkupText>"Einsamer Pirat" verwendet eine vereinfachte Benutzeroberfläche mit weniger Bereichen, sodass Sie sich leichter auf die wichtigsten Aktivitäten konzentrieren können. Dazu gehören Bereiche wie Erkundung, Diplomatie, Aufträge und Rohstoffhandel.
 				
 Die Kopfzeile am oberen Rand der Hauptansicht zeigt Ihnen als einsamer Pirat zudem wichtige Informationen an: einen Schnellzugriff auf Ihr eigenes Schiff sowie Schnellzugriffe auf alle bekannten Schattenhäfen.</MarkupText>
 				<RelatedControlNames>
@@ -2364,11 +2364,11 @@ Die Kopfzeile am oberen Rand der Hauptansicht zeigt Ihnen als einsamer Pirat zud
 			</TourStep>
 			<TourStep>
 				<StepTitle>Impliziertes Verhalten</StepTitle>
-				<MarkupText>Wenn Sie als einzelner Pirat mit nur einem Schiff spielen, können einige der Schaltflächen der Benutzeroberfläche auch implizites Verhalten aufweisen.
+				<MarkupText>Wenn Sie als einsamer Pirat mit nur einem Schiff spielen, können einige der Schaltflächen der Benutzeroberfläche auch implizites Verhalten aufweisen.
 				
 So ist es beispielsweise oft nicht erforderlich, Ihr Schiff auszuwählen, um Missionen zuzuweisen. Stattdessen klicken Sie einfach auf die Aktionsschaltflächen unter dem ausgewählten Element, um sich zu bewegen, anzulegen, anzugreifen usw.
 
-Ebenso können Sie durch Klicken auf die Schaltfläche „Bewegen und anlegen“ in der Liste der Handelsstationen Ihrem Schiff sofort eine Anlege-Mission zuweisen, ohne es zuvor auswählen zu müssen.</MarkupText>
+Ebenso können Sie durch Klicken auf die Schaltfläche "Bewegen und anlegen" in der Liste der Handelspunkte Ihrem Schiff sofort eine Anlege-Mission zuweisen, ohne es zuvor auswählen zu müssen.</MarkupText>
 				<RelatedControlNames>
 					<string>ActionButtons</string>
 				</RelatedControlNames>
@@ -2391,14 +2391,14 @@ Durch die sorgfältige Auswahl geeigneter Aufträge können Sie Geld verdienen u
 				<StepTitle>Rohstoffhandel</StepTitle>
 				<MarkupText>Der Handel mit Ressourcen bedeutet, Ressourcen in der gesamten Galaxie zu kaufen und zu verkaufen. In der Regel kaufen Sie Ressourcen zum niedrigsten Preis, den Sie finden können, und suchen dann nach dem Zielort, an dem die Ressource zum höchsten Preis abgenommen wird.
 				
-Sie müssen zudem die Entfernung zwischen Herkunfts- und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft werden kann. Diese Obergrenze liegt häufig bei null, d. h., der Ort kauft überhaupt keine dieser Ressourcen.
+Sie müssen zudem die Entfernung zwischen Herkunfts- und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft werden kann. Diese Obergrenze liegt häufig bei null, d.h., der Ort kauft überhaupt keine dieser Ressourcen.
 
-[H3]Bildschirm „Handelsstellen“[/H3]
-Um Handelsstandorte anzuzeigen, können Sie den Bildschirm „Handelsstellen“ nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Standort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
+[H3]Bildschirm "Handelspunkte"[/H3]
+Um Handelspunkte anzuzeigen, können Sie den Bildschirm "Handelspunkte" nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Standort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
 
-Sie können außerdem auf die Schaltfläche „Bewegen und andocken“ rechts neben jedem Standort klicken, um Ihr Schiff sofort dorthin zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
+Sie können außerdem auf die Schaltfläche "Bewegen und andocken" rechts neben jedem Standort klicken, um Ihr Schiff sofort dorthin zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
 
-Wenn Sie die Liste der Handelsstellen nach einer bestimmten Ressource filtern, werden die Mengen, Preise und Limits direkt in der Liste der Handelsstellen angezeigt.</MarkupText>
+Wenn Sie die Liste der Handelspunkte nach einer bestimmten Ressource filtern, werden die Mengen, Preise und Limits direkt in der Liste der Handelspunkte angezeigt.</MarkupText>
 				<RelatedControlNames>
 					<string>ResourceTradingPoints_SubSection</string>
 				</RelatedControlNames>
@@ -2407,7 +2407,7 @@ Wenn Sie die Liste der Handelsstellen nach einer bestimmten Ressource filtern, w
 				<StepTitle>Schmuggel</StepTitle>
 				<MarkupText>Piraten können sich auch dafür entscheiden, verbotene Ressourcen vom Schwarzmarkt zu schmuggeln. Kolonien, die unter dem Einfluss von Piratenfraktionen stehen, produzieren verbotene Ressourcen, die zu einem deutlich niedrigeren Preis als üblich erworben werden können.
 				
-Der Schmuggel verbotener Ressourcen ist jedoch riskant – werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
+Der Schmuggel verbotener Ressourcen ist jedoch riskant - werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
 
 Andere Fraktionen können Schmuggler aufspüren, wenn ihre Schiffe über leistungsfähige Ortungsscanner verfügen. Piraten können die Entdeckung geschmuggelter Ressourcen verhindern, indem sie ihre Schiffe mit einer guten Scanner-Störanlage ausstatten und Abstand zu potenziellen Scannern halten (die Erkennungsreichweite von Trace-Scannern nimmt mit zunehmender Entfernung ab).
 
@@ -2437,11 +2437,11 @@ Um die Dienste eines Schattenhafens in Anspruch zu nehmen, müssen Sie dorthin r
 			</TourStep>
 			<TourStep>
 				<StepTitle>Cockpit-Modus</StepTitle>
-				<MarkupText>Im Cockpit-Modus sitzen Sie „am Steuer“ und können Ihr Schiff direkt über ein Gamepad oder die Tastatur steuern.
+				<MarkupText>Im Cockpit-Modus sitzen Sie "am Steuer" und können Ihr Schiff direkt über ein Gamepad oder die Tastatur steuern.
  
 Im Cockpit selbst befindet sich unten rechts ein Feld, das den aktuellen Status Ihres Schiffes anzeigt, ähnlich wie das Auswahlfeld auf der linken Seite. Außerdem gibt es Ziel- und Auswahlfelder mit Tastenkombinationen, mit denen Sie schnell durch alle Objekte und feindlichen Ziele an der aktuellen Position blättern können.
 
-Sie können den Cockpit-Modus über die Schaltfläche „Cockpit betreten“ unten rechts auf dem Bildschirm aktivieren und wieder verlassen.</MarkupText>
+Sie können den Cockpit-Modus über die Schaltfläche "Cockpit betreten" unten rechts auf dem Bildschirm aktivieren und wieder verlassen.</MarkupText>
 				<RelatedControlNames>
 					<string>LonePirateViewCycleButton</string>
 				</RelatedControlNames>
@@ -2452,14 +2452,14 @@ Sie können den Cockpit-Modus über die Schaltfläche „Cockpit betreten“ unt
 				<MarkupText>Letztendlich stehen Ihnen als einzelner Pirat zwei Wege offen:
 
 [H3]Gründen Sie eine vollwertige Piratenfraktion[/H3]
-Sie können genug Geld verdienen, um eine vollwertige Piratenfraktion zu werden. Dazu müssen Sie einen geeigneten Standort für Ihre Piratenbasis finden und einen Schattenhafen damit beauftragen, die Basis für Sie zu errichten. Sobald dieser Raumhafen fertiggestellt ist, ändert sich Ihr Spielerlebnis vom „einsamen Piraten“ zur „Piratenfraktion“.
+Sie können genug Geld verdienen, um eine vollwertige Piratenfraktion zu werden. Dazu müssen Sie einen geeigneten Standort für Ihre Piratenbasis finden und einen Schattenhafen damit beauftragen, die Basis für Sie zu errichten. Sobald dieser Raumhafen fertiggestellt ist, ändert sich Ihr Spielerlebnis vom "einsamen Piraten" zur "Piratenfraktion".
 
 [H3]Werden Sie ein legendärer Einzelpirat[/H3]
 Wenn Sie als Einzelpirat erfolgreich genug sind, könnten Sie sich die Feindseligkeit anderer neidischer Piratenfraktionen zuziehen, die Sie als Bedrohung ansehen. Dies kann dazu führen, dass diese einen Kopfgeldjäger auf Sie ansetzen, um Sie zu vernichten.
 
-Wenn Sie den Kopfgeldjäger besiegen, erlangen Sie den Status eines legendären Einzelpiraten. Dadurch werden Sie automatisch auf den Regierungsstil „Legendärer Einzelpirat“ umgestellt, der alle Vorteile der verschiedenen Stile der Einzelpiraterie (Piraten, Schmuggler, Plünderer, Söldner) in einer einzigen Regierungsform vereint.
+Wenn Sie den Kopfgeldjäger besiegen, erlangen Sie den Status eines legendären Einzelpiraten. Dadurch werden Sie automatisch auf den Regierungsstil "Legendärer Einzelpirat" umgestellt, der alle Vorteile der verschiedenen Stile der Einzelpiraterie (Piraten, Schmuggler, Plünderer, Söldner) in einer einzigen Regierungsform vereint.
 
-Als „Legendärer Einzelpirat“ haben Sie dann in den Schattenhäfen Zugang zu Kreuzer- und Großfrachter-Schiffsrümpfen, wodurch Sie Ihr Schiff noch weiter aufrüsten können.</MarkupText>
+Als "Legendärer Einzelpirat" haben Sie dann in den Schattenhäfen Zugang zu Kreuzer- und Großfrachter-Schiffsrümpfen, wodurch Sie Ihr Schiff noch weiter aufrüsten können.</MarkupText>
 				<RelatedControlNames>
 				</RelatedControlNames>
 			</TourStep>

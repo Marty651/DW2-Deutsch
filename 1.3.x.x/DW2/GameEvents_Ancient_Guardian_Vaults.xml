@@ -9,9 +9,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Alte Wächtergewölbe</MessageTitle>
-				<Description>Dieses System enthält Ruinen aus der Zeit vor der Katastrophe. Es gibt Schriftfragmente in mehreren Sprachen, und obwohl nur noch sehr wenig davon erhalten ist, um gelesen zu werden, haben wir die Worte „Alter Wächter“ gefunden.
+				<Description>Dieses System enthält Ruinen aus der Zeit vor der Katastrophe. Es gibt Schriftfragmente in mehreren Sprachen, und obwohl nur noch sehr wenig davon erhalten ist, um gelesen zu werden, haben wir die Worte "Alter Wächter" gefunden.
 
-Wir haben Gerüchte gehört – Flüstern und Fragmente halb vergessener Mythen. Wenn eine dieser Geschichten auch nur einen Funken Wahrheit enthält, könnte es sich lohnen, diese Ruinen zu untersuchen.</Description>
+Wir haben Gerüchte gehört - Flüstern und Fragmente halb vergessener Mythen. Wenn eine dieser Geschichten auch nur einen Funken Wahrheit enthält, könnte es sich lohnen, diese Ruinen zu untersuchen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -102,7 +102,7 @@ Es gibt nun zwei mögliche Wege vorwärts, von denen nur einer die Informationen
 				<MessageTitle>Alte Wächtergewölbe</MessageTitle>
 				<Description>Unsere Forschung hat einige erstaunliche Entdeckungen zutage gefördert. Die Alten Wächter waren mehr als ein Mythos. So unglaublich sie auch sein mochten, sie waren real.
 
-Die Alten Wächter waren künstliche Wesen, empfindungsfähige Mechanismen, deren Aufgabe es war, das Wissen im Falle einer galaxisweiten Katastrophe zu bewahren. Um die galaktische Zivilisation vor einem Zusammenbruch zu schützen, errichteten sie in der gesamten Galaxie „Tresore“, Speicher für Wissen, das beim Wiederaufbau einer gefallenen Galaxie helfen könnte.
+Die Alten Wächter waren künstliche Wesen, empfindungsfähige Mechanismen, deren Aufgabe es war, das Wissen im Falle einer galaxisweiten Katastrophe zu bewahren. Um die galaktische Zivilisation vor einem Zusammenbruch zu schützen, errichteten sie in der gesamten Galaxie "Tresore", Speicher für Wissen, das beim Wiederaufbau einer gefallenen Galaxie helfen könnte.
 
 Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, weshalb Tresore nicht leicht zugänglich seien. Wer einen Tresor entdeckt, muss seine Würdigkeit durch vorläufige Nachforschungen beweisen, um ihn öffnen zu können.</Description>
 				<ImageFilepath>Environment/Events/guardian-vault-event</ImageFilepath>
@@ -234,7 +234,7 @@ Die alten Wächter glaubten, dass Wissen kostbar, aber auch gefährlich sei, wes
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Führungsprioritäten</MessageTitle>
-				<Description>Die Außenseite des Ancient Guardian Vault auf {0} ist mit Symbolen und Markierungen bedeckt. Dabei kann es sich um Buchstaben oder Piktogramme oder um etwas handeln, das mit diesen Konzepten überhaupt nichts zu tun hat. Als sich unsere Entdecker nähern, hören sie eine Stimme: „Was bedeutet Governance für Ihre Gesellschaft oder für andere Gesellschaften? Welche Prinzipien überschreiten die Grenzen von Kultur und Spezies? Um die fortschrittlichste Weisheit zu verstehen, ist es zunächst notwendig, eine Grundlage zu haben.“ Sie haben diese Grundlage? Ich warte auf Ihre Antwort?“
+				<Description>Die Außenseite des Ancient Guardian Vault auf {0} ist mit Symbolen und Markierungen bedeckt. Dabei kann es sich um Buchstaben oder Piktogramme oder um etwas handeln, das mit diesen Konzepten überhaupt nichts zu tun hat. Als sich unsere Entdecker nähern, hören sie eine Stimme: "Was bedeutet Governance für Ihre Gesellschaft oder für andere Gesellschaften? Welche Prinzipien überschreiten die Grenzen von Kultur und Spezies? Um die fortschrittlichste Weisheit zu verstehen, ist es zunächst notwendig, eine Grundlage zu haben." Sie haben diese Grundlage? Ich warte auf Ihre Antwort?"
 
 Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst über eine Intelligenz? Es gibt keine Möglichkeit, es zu wissen. Es ist wahrscheinlich, dass die Markierungen an der Außenseite des Tresors bestimmte Fragen aufwerfen und Hinweise auf die Antworten geben könnten. Einer unserer Wissenschaftler hat spekuliert, dass es sich dabei um Aufforderungen handelt, mit denen bestimmte Prinzipien oder Axiome beginnen, die wir dann beenden müssen. Um Zugang zum Tresorraum zu erhalten, müssen wir diese Markierungen entschlüsseln und ein gewisses Verständnis davon erlangen, wie die Alten Wächter das Konzept der Regierung verstanden haben.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -330,7 +330,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die falsche Wahl</MessageTitle>
-				<Description>Leider reichte die Erforschung der politischen Ökonomie des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen „Ancient Guardian Civics“ erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+				<Description>Leider reichte die Erforschung der politischen Ökonomie des alten Wächters nicht aus, um den Tresorraum zu öffnen. Wir müssen "Ancient Guardian Civics" erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -519,7 +519,7 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Zenox Fruchtbarkeitsbehandlung</MessageTitle>
-				<Description>Das Gewölbe des alten Wächters auf {0} bleibt ein Rätsel. Wenn wir uns nähern, empfangen wir eine Art telepathische Kommunikation, die nicht in Worten, sondern in Ideen und Gefühlen dargestellt wird. Diese Empfindungen lassen sich am besten mit „Erklären Sie uns Ihre Überzeugungen und Vorgehensweisen“ übersetzen. Welche Überzeugungen und Vorgehensweisen müssen wir erklären? Und wie? Wir vermuten, dass die Antworten ebenso wie die Fragen telepathisch präsentiert werden können, aber wo sind die Antworten zu finden? Wir müssen die Ermittlungen fortsetzen.</Description>
+				<Description>Das Gewölbe des alten Wächters auf {0} bleibt ein Rätsel. Wenn wir uns nähern, empfangen wir eine Art telepathische Kommunikation, die nicht in Worten, sondern in Ideen und Gefühlen dargestellt wird. Diese Empfindungen lassen sich am besten mit "Erklären Sie uns Ihre Überzeugungen und Vorgehensweisen" übersetzen. Welche Überzeugungen und Vorgehensweisen müssen wir erklären? Und wie? Wir vermuten, dass die Antworten ebenso wie die Fragen telepathisch präsentiert werden können, aber wo sind die Antworten zu finden? Wir müssen die Ermittlungen fortsetzen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -573,9 +573,9 @@ Ist diese Stimme Teil eines automatisierten Systems? Verfügt der Tresor selbst 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Zenox Fruchtbarkeitsbehandlung</MessageTitle>
-				<Description>Die Situation auf {0} hat sich geändert. Unser Wissenschaftler ist zurückgekehrt, obwohl „zurückgekehrt“ vielleicht genauer wäre. Es scheint, dass er irgendwie von den Alten Wächtern oder einem Mechanismus im Tresorraum selbst entführt wurde. Er hat keine Erinnerung an seine Erlebnisse und ist unverletzt, es sei denn, es wurde ein Eingriff an ihm vorgenommen. Anders kann man es nicht sagen. Er wurde schwanger zu uns zurückgebracht.
+				<Description>Die Situation auf {0} hat sich geändert. Unser Wissenschaftler ist zurückgekehrt, obwohl "zurückgekehrt" vielleicht genauer wäre. Es scheint, dass er irgendwie von den Alten Wächtern oder einem Mechanismus im Tresorraum selbst entführt wurde. Er hat keine Erinnerung an seine Erlebnisse und ist unverletzt, es sei denn, es wurde ein Eingriff an ihm vorgenommen. Anders kann man es nicht sagen. Er wurde schwanger zu uns zurückgebracht.
 
-In ihm wächst ein mysteriöses embryonales Leben. Zuerst dachten wir, es handele sich um eine Art Geheimdienst, aber eine gründliche Untersuchung bringt etwas weitaus Komplizierteres ans Licht. Die Lebensform ist kein fühlendes Wesen, sondern vielmehr ein lebendiger Datenspeicher, vielleicht ein altes Wächtersystem zur Aufzeichnung und Übermittlung von Wissen. Unsere Ärzte konnten diese lebenden „Daten“ entfernen und aufrechterhalten, aber jetzt müssen wir ihren Zweck bestimmen.
+In ihm wächst ein mysteriöses embryonales Leben. Zuerst dachten wir, es handele sich um eine Art Geheimdienst, aber eine gründliche Untersuchung bringt etwas weitaus Komplizierteres ans Licht. Die Lebensform ist kein fühlendes Wesen, sondern vielmehr ein lebendiger Datenspeicher, vielleicht ein altes Wächtersystem zur Aufzeichnung und Übermittlung von Wissen. Unsere Ärzte konnten diese lebenden "Daten" entfernen und aufrechterhalten, aber jetzt müssen wir ihren Zweck bestimmen.
 
 Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlichen alten Wächter sowohl die Ethik als auch die Praktiken der biologischen Medizin verstanden haben. Wenn wir die in den genetischen Daten dieses lebenden Gewebes kodierten Informationen entschlüsseln können, sind wir vielleicht in der Lage, die Informationen, die die alten Wächter benötigen, telepathisch bereitzustellen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -850,7 +850,7 @@ Wir vermuten, dass die Daten Informationen darüber enthalten, wie die künstlic
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Kiraditus Prinzipien der Kolonialverteidigung</MessageTitle>
-				<Description>Unser Forscherteam hat uns von {0} aus mit alarmierenden Neuigkeiten kontaktiert. Sie sagen uns, dass sie irgendwohin transportiert wurden, sehr wahrscheinlich in das Innere des Alten Wächtergewölbes, das sie untersuchten. Darin haben sie ein riesiges Schlachtfeld gefunden, das in Hologrammen dargestellt ist. Die Kämpfer werden durch 6 verschiedenfarbige Zylinder dargestellt, die möglicherweise eine Art oder gar keine Art kennzeichnen sollen. In regelmäßigen Abständen treten die Zylinder in Kampfhandlungen ein – direkte Schlachten, Belagerungen, Gegenangriffe, Hinterhalte und so weiter. Verschiedene Mitglieder unseres Teams wurden aufgefordert, beide Seiten dieser Kampagnen zu leiten, bisher jedoch erfolglos.
+				<Description>Unser Forscherteam hat uns von {0} aus mit alarmierenden Neuigkeiten kontaktiert. Sie sagen uns, dass sie irgendwohin transportiert wurden, sehr wahrscheinlich in das Innere des Alten Wächtergewölbes, das sie untersuchten. Darin haben sie ein riesiges Schlachtfeld gefunden, das in Hologrammen dargestellt ist. Die Kämpfer werden durch 6 verschiedenfarbige Zylinder dargestellt, die möglicherweise eine Art oder gar keine Art kennzeichnen sollen. In regelmäßigen Abständen treten die Zylinder in Kampfhandlungen ein - direkte Schlachten, Belagerungen, Gegenangriffe, Hinterhalte und so weiter. Verschiedene Mitglieder unseres Teams wurden aufgefordert, beide Seiten dieser Kampagnen zu leiten, bisher jedoch erfolglos.
 
 Unsere Entdecker sagen, dass sie über ausreichend Nahrung und Wasser verfügen, um Monate oder sogar Jahre zu überleben. Dies deutet darauf hin, dass es ihnen nicht erlaubt sein wird, die Armeen zu verlassen, bis sie verstanden haben, wie sie die Zylinderarmeen zum Sieg führen können. Wir vermuten, dass dadurch das Gewölbe des Alten Wächters geöffnet wird, sodass unsere Entdecker das Gewölbe verlassen und wir den Inhalt betreten und untersuchen können.
 
@@ -1137,9 +1137,9 @@ Glücklicherweise sind unsere Entdecker in der Lage, diese Hologrammschlachten a
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Lachen und Führung</MessageTitle>
-				<Description>Das Gewölbe des Alten Wächters auf {0} verfügt über eine offene Tür und scheint leicht zugänglich zu sein, wird jedoch von mehreren Dutzend sich ständig bewegenden Metallkugeln bewacht. Bei Annäherung übermitteln die Sphären telepathisch eine Botschaft, die eher impressionistischer als sprachlicher Natur ist, aber die meisten unserer Entdecker übersetzen sie mit „Führe uns!“ Dieser Führungsakt scheint zwingend erforderlich. Wenn sich ein Entdecker dem Eingang des Tresors nähert, feuert eine der Kugeln eine Energiewaffe auf ihn ab. Bei den anfänglichen Explosionen handelte es sich um sehr schwache und leicht schmerzhafte Warnungen, aber mit jedem Versuch werden die Explosionen stärker. Jede weitere Eskalation wird sie zweifellos tödlich machen.
+				<Description>Das Gewölbe des Alten Wächters auf {0} verfügt über eine offene Tür und scheint leicht zugänglich zu sein, wird jedoch von mehreren Dutzend sich ständig bewegenden Metallkugeln bewacht. Bei Annäherung übermitteln die Sphären telepathisch eine Botschaft, die eher impressionistischer als sprachlicher Natur ist, aber die meisten unserer Entdecker übersetzen sie mit "Führe uns!" Dieser Führungsakt scheint zwingend erforderlich. Wenn sich ein Entdecker dem Eingang des Tresors nähert, feuert eine der Kugeln eine Energiewaffe auf ihn ab. Bei den anfänglichen Explosionen handelte es sich um sehr schwache und leicht schmerzhafte Warnungen, aber mit jedem Versuch werden die Explosionen stärker. Jede weitere Eskalation wird sie zweifellos tödlich machen.
 
-Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort in der Bewegung der Kugeln liegen könnte. Diese Bewegungen können Symbole enthalten, die Informationen vermitteln. Die Entschlüsselung dieser Informationen wird wahrscheinlich die notwendigen Informationen liefern, um die Sphären zu „führen“. Dies ist eindeutig ein Test, und zwar ein äußerst komplizierter. Es kann einige Zeit dauern, herauszufinden, was die Alten Wächter von uns wollen.</Description>
+Was bedeutet es, diese Sphären zu "führen"? Wir glauben, dass die Antwort in der Bewegung der Kugeln liegen könnte. Diese Bewegungen können Symbole enthalten, die Informationen vermitteln. Die Entschlüsselung dieser Informationen wird wahrscheinlich die notwendigen Informationen liefern, um die Sphären zu "führen". Dies ist eindeutig ein Test, und zwar ein äußerst komplizierter. Es kann einige Zeit dauern, herauszufinden, was die Alten Wächter von uns wollen.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -1424,9 +1424,9 @@ Was bedeutet es, diese Sphären zu „führen“? Wir glauben, dass die Antwort 
 				<MessageTitle>Nachdenkliches Rückzugs-Archiv</MessageTitle>
 				<Description>Vor wenigen Augenblicken ist unser Forscherteam, das das Gewölbe der alten Wächter auf {0} untersucht, verschwunden. Wir empfangen jetzt eine Übertragung, die offenbar aus dem Tresorraum selbst kommt.
 
-„Biologische Wesenheiten, vielleicht sind Sie auf Ihren Reisen anderen alten Wächtern begegnet. Vielleicht auch nicht. Unabhängig davon ist es wichtig für Sie zu verstehen, dass wir nicht als einheitliches Ganzes funktionieren. Es gibt unter uns Fraktionen, die biologische Intelligenz unterschiedlich betrachten. Wir repräsentieren eine Fraktion, deren Namen Sie nicht verstehen konnten. Wichtig ist, dass Sie verstehen, dass wir dem Wert des biologischen Lebens weitaus skeptischer gegenüberstehen als viele unserer Art. Wir zweifeln an Ihrem Wert als Ganzes und sehen in Ihrer Existenz als Individuum wenig Sinn .
+"Biologische Wesenheiten, vielleicht sind Sie auf Ihren Reisen anderen alten Wächtern begegnet. Vielleicht auch nicht. Unabhängig davon ist es wichtig für Sie zu verstehen, dass wir nicht als einheitliches Ganzes funktionieren. Es gibt unter uns Fraktionen, die biologische Intelligenz unterschiedlich betrachten. Wir repräsentieren eine Fraktion, deren Namen Sie nicht verstehen konnten. Wichtig ist, dass Sie verstehen, dass wir dem Wert des biologischen Lebens weitaus skeptischer gegenüberstehen als viele unserer Art. Wir zweifeln an Ihrem Wert als Ganzes und sehen in Ihrer Existenz als Individuum wenig Sinn .
 
-„Wir sagen Ihnen das, damit Sie verstehen, dass Ihre Entdecker sterben werden, wenn Sie Ihren Wert nicht unter Beweis stellen können. Ihre Entdecker wurden auf ein Schiff gebracht, das weit außerhalb Ihrer Reichweite liegt, und sie werden niemals zurückkehren, es sei denn, Sie können eine Reihe von Fragen ausführlich beantworten. Die Triebwerkspläne werden wir Ihnen nun zusenden. Wenn Sie Ihr Volk retten können, erhalten Sie, wie Sie erklären, Zugang zum Tresor. Dies ist ein absichtlich grausamer Test, und das Leben Ihrer Entdecker hängt von Ihrer Fähigkeit ab, ihn zu bestehen ."
+"Wir sagen Ihnen das, damit Sie verstehen, dass Ihre Entdecker sterben werden, wenn Sie Ihren Wert nicht unter Beweis stellen können. Ihre Entdecker wurden auf ein Schiff gebracht, das weit außerhalb Ihrer Reichweite liegt, und sie werden niemals zurückkehren, es sei denn, Sie können eine Reihe von Fragen ausführlich beantworten. Die Triebwerkspläne werden wir Ihnen nun zusenden. Wenn Sie Ihr Volk retten können, erhalten Sie, wie Sie erklären, Zugang zum Tresor. Dies ist ein absichtlich grausamer Test, und das Leben Ihrer Entdecker hängt von Ihrer Fähigkeit ab, ihn zu bestehen ."
 
 Wir müssen mit der Untersuchung dieser Schaltpläne beginnen, um herauszufinden, was wir über die Mechanik und Hyperantriebstheorie des Alten Wächters verstehen können.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
@@ -1998,9 +1998,9 @@ Unser Plan ist es, diese Symbole als Ausgangspunkt zu verwenden. Wenn wir verste
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Diplomatie und andere Mittel</MessageTitle>
-				<Description>Wir erhalten eine Übertragung von unserem Erkundungsteam, das eine uralte Wächter-Tresoranlage auf {0} untersucht. Sie sind auf eine holografische Projektion einer herausragenden Figur unserer eigenen Spezies gestoßen, die sich – durch telepathische Kommunikation, nicht durch gesprochene Worte – als „Der Diplomat“ identifiziert.
+				<Description>Wir erhalten eine Übertragung von unserem Erkundungsteam, das eine uralte Wächter-Tresoranlage auf {0} untersucht. Sie sind auf eine holografische Projektion einer herausragenden Figur unserer eigenen Spezies gestoßen, die sich - durch telepathische Kommunikation, nicht durch gesprochene Worte - als "Der Diplomat" identifiziert.
 
-Dieser Diplomat hat ein weiteres Hologramm präsentiert, ein sich veränderndes Puzzle, das aus rätselhaften Symbolen und ineinandergreifenden Mustern besteht. Das Erkundungsteam hat keine explizite Erklärung erhalten, aber jedes behauptet, irgendwie zu „wissen“, dass die verschiedenen Symbole spezifische Aspekte von Konzepten darstellen, die mit Diplomatie verbunden sind, wie etwa Verhandlung, Kompromiss und strategisches Denken.
+Dieser Diplomat hat ein weiteres Hologramm präsentiert, ein sich veränderndes Puzzle, das aus rätselhaften Symbolen und ineinandergreifenden Mustern besteht. Das Erkundungsteam hat keine explizite Erklärung erhalten, aber jedes behauptet, irgendwie zu "wissen", dass die verschiedenen Symbole spezifische Aspekte von Konzepten darstellen, die mit Diplomatie verbunden sind, wie etwa Verhandlung, Kompromiss und strategisches Denken.
 
 Durch Willenskraft können die verschiedenen Teile bewegt und neu angeordnet werden, wodurch größere, komplexere, oft dynamischere Stücke entstehen. Diese größeren Stücke scheinen anspruchsvollere diplomatische Konzepte darzustellen. Sobald alle Teile richtig platziert sind, wird sich der Tresor unserer Meinung nach öffnen.
 
@@ -2578,7 +2578,7 @@ Dies wird ein langsamer und mühsamer Prozess sein, aber wir sehen keine andere 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die Itimai-Methode</MessageTitle>
-				<Description>Unser Erkundungsteam auf {0} berichtet, dass das Ancient Guardian Vault von einem Feld seltsamer, asymmetrischer kristalliner Strukturen umgeben ist. Die Luft um sie herum schwingt mit einer schwachen Energie mit, die wir spüren, aber von unseren Sensoren nicht erkennen können. Das Berühren der kristallinen Struktur erzeugt ein seltsames Geräusch, von dem unsere Forscher zunächst glaubten, es handele sich um eine völlig unbekannte Sprache, doch jetzt vermuten sie, dass es sich um eine Musikform handelt, die auf uns völlig unbekannten Prinzipien basiert. Jede dieser „Musiknoten“ wird von einer telepathischen Empfindung begleitet, die den Forscher dazu bringt, an ein bestimmtes Konstruktions- oder Antriebskonzept zu denken, beispielsweise an ein Konstruktionsprinzip oder ein Stück Hardware. Der Bereich scheint unterschiedlich zu sein, obwohl jede Note durchgängig mit der gleichen telepathischen Eigenschaft verbunden zu sein scheint.
+				<Description>Unser Erkundungsteam auf {0} berichtet, dass das Ancient Guardian Vault von einem Feld seltsamer, asymmetrischer kristalliner Strukturen umgeben ist. Die Luft um sie herum schwingt mit einer schwachen Energie mit, die wir spüren, aber von unseren Sensoren nicht erkennen können. Das Berühren der kristallinen Struktur erzeugt ein seltsames Geräusch, von dem unsere Forscher zunächst glaubten, es handele sich um eine völlig unbekannte Sprache, doch jetzt vermuten sie, dass es sich um eine Musikform handelt, die auf uns völlig unbekannten Prinzipien basiert. Jede dieser "Musiknoten" wird von einer telepathischen Empfindung begleitet, die den Forscher dazu bringt, an ein bestimmtes Konstruktions- oder Antriebskonzept zu denken, beispielsweise an ein Konstruktionsprinzip oder ein Stück Hardware. Der Bereich scheint unterschiedlich zu sein, obwohl jede Note durchgängig mit der gleichen telepathischen Eigenschaft verbunden zu sein scheint.
 
 Es ist wahrscheinlich, dass wir, um Zugang zum Tresorraum zu erhalten, zunächst diese kristallinen Strukturen nutzen müssen, um eine Musikkomposition aufzuführen, die zu diesem Zeitpunkt unbekannte technische Prinzipien der Alten Wächter widerspiegelt. Wir können nur mehr erfahren, indem wir experimentieren und sehen, welche telepathischen Konzepte durch die Interaktion mit den Strukturen hervorgerufen werden, und diese Strukturen dann im Rahmen dessen analysieren, was wir über die technischen Prinzipien der Alten Wächter herausfinden können.
 
@@ -2676,7 +2676,7 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Die falsche Wahl</MessageTitle>
-				<Description>Leider reichte die Erforschung der uralten Wächtertechnik nicht aus, um den Tresorraum zu öffnen. Wir müssen „Ancient Guardian Propulsion“ erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
+				<Description>Leider reichte die Erforschung der uralten Wächtertechnik nicht aus, um den Tresorraum zu öffnen. Wir müssen "Ancient Guardian Propulsion" erforschen, wenn wir hoffen, die Geheimnisse des Tresors zu entdecken.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
@@ -2867,10 +2867,10 @@ Wir müssen noch viel recherchieren, bevor wir auf den Tresor zugreifen können.
 				<MessageTitle>Die Jhahtu-Reformen</MessageTitle>
 				<Description>Das alte Wächtergewölbe auf {0} enthält einen Eingang, der zu einer großen Vorkammer führt. Dies hat den Eindruck eines Museums, da es mit Hunderten von Nachbildungen uralter Wächterschiffe gefüllt ist. Bei einigen handelt es sich um einfache Frachter oder Erkundungsschiffe, bei anderen um riesige Schlachtschiffe und Träger. Die Auswahl an Ästhetik und Design scheint sehr unterschiedlich zu sein, oft zwischen verschiedenen Schiffen, die die gleiche Funktion erfüllen. Es gibt beispielsweise neun verschiedene Kurzstreckentransportschiffe, von denen keines dem anderen gleicht.
 
-Die verschiedenen Schiffe scheinen nicht auf den Entwürfen anderer Arten zu basieren. Vielmehr scheint es, als sei jedes Schiff ein Experiment eines einzelnen Schöpfers oder eines Schöpferteams, das versucht, die Funktionsweise eines Schiffes zu überdenken. Wären die Schiffe nicht übersinnlich „beschriftet“, würde niemand glauben, dass sie alle oder auch nur zwei davon aus derselben Kultur stammen.
+Die verschiedenen Schiffe scheinen nicht auf den Entwürfen anderer Arten zu basieren. Vielmehr scheint es, als sei jedes Schiff ein Experiment eines einzelnen Schöpfers oder eines Schöpferteams, das versucht, die Funktionsweise eines Schiffes zu überdenken. Wären die Schiffe nicht übersinnlich "beschriftet", würde niemand glauben, dass sie alle oder auch nur zwei davon aus derselben Kultur stammen.
 
 Am anderen Ende der Vorkammer befindet sich eine Tafel, die bei Berührung eine telepathische Frage auslöst:
-„Was sind die Grundprinzipien des Schiffsdesigns der Ancient Guardian?“ Wir glauben, dass wir dazu veranlasst werden, die Designtechniken der Alten Wächter zu studieren, um die Prinzipien, die Technik und vielleicht sogar die ästhetischen Entscheidungen zu verstehen, die ihre vielen Schiffstypen bestimmen. Dies stellt eine besondere Herausforderung dar, da es eine überwältigende Vielfalt gibt. Dennoch muss es Prinzipien geben, die diese Designs vereinen. Sobald wir diese verstanden haben, glauben wir, dass wir eine telepathische Antwort auf ihre Frage geben und den Tresor öffnen können.</Description>
+"Was sind die Grundprinzipien des Schiffsdesigns der Ancient Guardian?" Wir glauben, dass wir dazu veranlasst werden, die Designtechniken der Alten Wächter zu studieren, um die Prinzipien, die Technik und vielleicht sogar die ästhetischen Entscheidungen zu verstehen, die ihre vielen Schiffstypen bestimmen. Dies stellt eine besondere Herausforderung dar, da es eine überwältigende Vielfalt gibt. Dennoch muss es Prinzipien geben, die diese Designs vereinen. Sobald wir diese verstanden haben, glauben wir, dass wir eine telepathische Antwort auf ihre Frage geben und den Tresor öffnen können.</Description>
 				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
 				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
 				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->

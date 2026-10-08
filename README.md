@@ -6,7 +6,7 @@ Die ursprünglichen Übersetzungen bis zur Version 1.0.8.6 stammen von Amalek. M
 <h2>Downloads für Version 1.3.7.9:</h2>
 
 Deutsche Dateien für Version 1.3.7.9:
-[Deutsch 1.3.7.9 v3.0](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.6.3-(2026.10.07)/DW2-Deutsch_1.3.6.3_v3.0.zip)
+[Deutsch 1.3.7.9 v3.0](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.7.9-(2026.10.07)/DW2-Deutsch_1.3.7.9_v3.0.zip)
 
 Deutsche Dateien für DLC Ikkuro & Dhayut (Release-Version 1.3.7.9):
 [DLC I&D v2.2](https://github.com/Marty651/DW2-Deutsch/releases/download/v.1.3.7.9-(2026.10.07)/DW2-Deutsch_1.3.7.9_DLC_Ikkuro_and_Dhayut_v2.2.zip)

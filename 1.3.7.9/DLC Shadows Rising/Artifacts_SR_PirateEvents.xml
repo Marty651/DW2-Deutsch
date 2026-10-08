@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>86</ArtifactId> <!-- The Hive Navigator -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Der Hive Navigator</Name>
+		<Description>Obwohl dieser Computer ursprünglich dazu konzipiert war, Hive-Schiffe in den Untergang zu locken, wurde er umfunktioniert, um Schiffen dabei zu helfen, der Zielerfassungstechnologie des Feindes zu entgehen. Auch wenn dieses Gerät uralt und beschädigt wirkt, bietet es selbst in der heutigen gefährlichen Galaxie einen wirksamen Schutz.</Description>
+		<ImageFilename>Environment/Events/the hive navigator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>87</ArtifactId> <!-- Grudgehold Recordings Box Set -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Grudgehold Recordings Box-Set</Name>
+		<Description>Es könnte zwar eine Herausforderung sein, ein modernes Videowiedergabegerät zu finden, das mit diesen Aufzeichnungen kompatibel ist, doch die Mühe würde sich auf jeden Fall lohnen. Die Belege dafür, dass Piraten Politiker, Oligarchen und Adlige zu Kämpfen auf Leben und Tod zwangen, sind eine eindringliche Mahnung an die Gefahren und Möglichkeiten der Anarchie. Sicherlich würden Besucher aus den entlegensten Winkeln der Galaxie anreisen, um diese Aufnahmen zu sehen.</Description>
+		<ImageFilename>Environment/Events/the grudgehold recordings box set</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>88</ArtifactId> <!-- Remnant of the Last Remnant -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Überbleibsel des letzten Überbleibsels</Name>
+		<Description>In den Jahren nach dem Shakturi-Krieg kämpfte die „Last Remnant“ weiter gegen die letzten Überreste der Shaktur-Achse. Zusammengewürfelte Gruppen von Überlebenden der Freiheitsallianz griffen oft zu unaussprechlichen Mitteln, um jeden Feind zu bedrängen. Dieses Gerät ermöglichte es ihnen, gefährliche (oder lukrative) Ziele leichter zu besiegen.</Description>
+		<ImageFilename>Environment/Events/remnant of the last remnant</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>89</ArtifactId> <!-- The Ambushers' Secret -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Das Geheimnis der Hinterhalter</Name>
+		<Description>Dieser Datenkristall gehörte einst den „Ambushers“, einem Piratenclan, der sich auf Blitzangriffe aus versteckten Stützpunkten spezialisiert hatte. Er ist nach wie vor nützlich, um unentdeckt zu bleiben, und wird von jedem Schiffskapitän geschätzt, der die Bedeutung der Tarnung zu schätzen weiß.</Description>
+		<ImageFilename>Environment/Events/the ambushers secret</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>95</ArtifactId> <!-- The Empty Throne -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Der leere Thron</Name>
+		<Description>Dies ist der Thron eines alten Piratenkönigs. Der Stuhl ist groß und aufwendig verziert und offensichtlich darauf ausgelegt, ein Gefühl von Autorität und Erhabenheit zu vermitteln.</Description>
+		<ImageFilename>Artifacts/The Empty Throne</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>96</ArtifactId> <!-- The Instructor -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Der Kursleiter</Name>
+		<Description>Diese Maschine mit ihren komplexen neuronalen Relais, die direkt am Schädel des Benutzers befestigt werden, vermittelt eine wahrhaft außerirdische Ästhetik und könnte auf einer Technologie basieren, die ihren Ursprung in einer anderen Galaxie hat. Die seltsamen Konturen des Geräts und seine Asymmetrie lösen bei manchen Betrachtern ein Unbehagen aus.</Description>
+		<ImageFilename>Artifacts/The Instructor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>97</ArtifactId> <!-- Hive-Pattern Tracker -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Hive-Muster-Tracker</Name>
+		<Description>Dies ist ein Teil eines Sensorarrays, das ursprünglich zur Verfolgung der Bewegungen von Hive-Schiffen entwickelt wurde. Nachdem das Gerät nun modifiziert wurde, ist es bereit für die Integration in moderne Sensorsysteme, wo es die Zielerfassung im Kampf verbessern soll.</Description>
+		<ImageFilename>Artifacts/The Hive-Pattern Tracker</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>98</ArtifactId> <!-- Echo of the Builders -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Das Echo der Erbauer</Name>
+		<Description>Ein Großrechner, der die Datenbanken einer uralten Piratenfraktion namens „Die Erbauer“ enthält. Es handelt sich um ein auf den ersten Blick unscheinbares Computergerät, das jedoch einen wahren Schatz an architektonischem Wissen birgt.</Description>
+		<ImageFilename>Artifacts/Echo of the Builder</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

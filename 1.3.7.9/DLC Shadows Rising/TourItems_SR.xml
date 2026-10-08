@@ -1,0 +1,2469 @@
+<?xml version="1.0"?>
+<ArrayOfTourItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TourItem>
+		<Title>Basic Tour</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Einführung</StepTitle>
+				<MarkupText>
+					Willkommen bei Distant Worlds 2!
+
+					Diese kurze Tour gibt Ihnen einen Überblick über die wichtigsten Elemente der Benutzeroberfläche.
+
+					Jedes Element wird durch einen farbigen Rahmen hervorgehoben, wenn es erklärt wird.
+
+					Klicken Sie auf die Schaltfläche Weiter unten, um loszulegen!
+				</MarkupText>
+				<RelatedControlNames>
+					<string />
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Umziehen</StepTitle>
+				<MarkupText>
+					Sie können die Hauptansicht schwenken, indem Sie mit der linken Maustaste klicken und die Maus ziehen oder die Tasten W,A,S,D verwenden.
+
+					Zusätzlich können Sie die Hauptansicht auch schwenken, indem Sie die Maus an den Rand des Bildschirms bewegen.
+
+					Sie können mit dem Scrollrad der Maus oder mit den Tasten PageUp und PageDown die Ansicht vergrößern oder verkleinern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string></string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Spiel-Menü</StepTitle>
+				<MarkupText>
+					Sie können das Spielmenü öffnen, indem Sie auf diese Schaltfläche klicken. Oder drücken Sie die Escape-Taste.
+
+					Von hier aus können Sie Folgendes tun:
+					[ULI]Spiele laden und speichern[/ULI]
+					[ULI]Spieleinstellungen ändern[/ULI]
+					[ULI]diese Basic Tour neu starten[/ULI]
+					[ULI]den Spiele-Editor aufrufen[/ULI]
+					[ULI]zurück zum Hauptmenü[/ULI]
+					[ULI]das Spiel beenden[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>GameMenuButton</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Spiel-Einstellungen</StepTitle>
+				<MarkupText>
+					Wie im vorigen Schritt erwähnt, können Sie den Bildschirm Spieleinstellungen über das Spielmenü aufrufen. Sie können die Spieleinstellungen auch mit der Taste / öffnen.
+
+					[H3]Größe der Benutzeroberfläche[/H3]
+					In den Spieleinstellungen können Sie unter dem Abschnitt Anzeige die Größe der Benutzeroberfläche auswählen. Damit können Sie die Größe von Text und anderen Elementen auf hochauflösenden Bildschirmen erhöhen.
+
+					[H3]Farbschema der Benutzeroberfläche[/H3]
+					Sie können auch ein neues Farbschema aus den verfügbaren Optionen auswählen.
+
+					Wenn Sie Ihre Einstellungen geändert haben, klicken Sie auf die Schaltfläche 'Übernehmen', um die Änderungen zu speichern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>GameSettingsDialog</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Pause/Fortsetzen &amp; Spielgeschwindigkeit</StepTitle>
+				<MarkupText>
+					Mit der mittleren Taste können Sie das Spiel anhalten und fortsetzen, oder Sie verwenden die Leertaste.
+
+					Mit der linken und rechten Taste steuern Sie die Spielgeschwindigkeit und erhöhen oder verringern die Zeit. Sie können auch die Tasten + oder - verwenden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>PlayPause</string>
+					<string>GameSpeedSlower</string>
+					<string>GameSpeedFaster</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Hauptansicht Kopfzeile</StepTitle>
+				<MarkupText>
+					Diese Kopfzeile zeigt wichtige Informationen über das Spiel an. Von links nach rechts zeigt sie:
+					[ULI]die aktuellen Forschungsprojekte[/ULI]
+					[ULI]die Anzahl der Kolonien und die Gesamtbevölkerung Ihres Reiches[/ULI]
+					[ULI]den aktuellen Kassenbestand und Cashflow Ihres Reiches[/ULI]
+					[ULI]das Sterndatum der Galaxie[/ULI]
+					Wenn Sie mit dem Mauszeiger über diese Punkte fahren, erhalten Sie weitere Informationen. Wenn Sie darauf klicken, gelangen Sie zu einem Bildschirm mit noch mehr Details.
+
+					In dieser Kopfzeile werden manchmal auch zusätzliche Informationen angezeigt, z. B:
+					[ULI]Warnungen vor rebellierenden Kolonien[/ULI]
+					[ULI]Warnungen vor hoher Kriegsmüdigkeit[/ULI]
+					[ULI]Kriegsfortschrittsberichte[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MainViewHeader</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Kontrollzentrum</StepTitle>
+				<MarkupText>
+					Das Control Center bietet eine Fülle von Informationen sowie viele leistungsstarke Tools, die Ihnen bei der Verwaltung Ihres Imperiums helfen.
+
+					Wenn Sie mit dem Mauszeiger über eine der 10 Hauptschaltflächen fahren, wird der darunter liegende Bereich aufgeklappt und Sie erhalten eine Zusammenfassung Ihres Reiches in diesem Bereich.
+
+					Wenn Sie den Mauszeiger über die Kopfzeile bewegen, werden die darunter liegenden Untermenüs aufgeklappt, die noch mehr Details zu den verschiedenen Unterbereichen enthalten. Klicken Sie auf eine Schaltfläche eines Untermenüs, um zwischen den Unterabschnitten zu wechseln.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireSectionList</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Control Center - Verriegelungstafeln öffnen</StepTitle>
+				<MarkupText>
+					Jeder der Abschnitte im Control Center kann durch Klicken auf einen beliebigen Punkt des erweiterten Abschnitts geschlossen werden. Andernfalls wird der Bereich automatisch geschlossen, wenn Sie Ihre Maus wegbewegen.
+
+					Sie können einen erweiterten Bereich auch sperren, indem Sie auf die entsprechende Hauptschaltfläche oben im Control Center klicken.
+
+					Um einen Abschnitt wieder zu öffnen und zu schließen, klicken Sie erneut auf die entsprechende Hauptschaltfläche im oberen Bereich des Control Centers.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireSectionList</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Auswahlgremium</StepTitle>
+				<MarkupText>
+					Die Auswahltafel enthält detaillierte Informationen über das aktuell ausgewählte Objekt. Dazu gehören Schiffe, Basen, Kolonien, Planeten, Monde, Asteroiden, Weltraumkreaturen oder Weltraumschrott.
+
+					[H3]Auswählen von Gegenständen[/H3]
+					Sie können Gegenstände auswählen, indem Sie sie in der Hauptansicht anklicken. Wenn ein Gegenstand ausgewählt ist, wird er von einem Auswahlkreis umgeben. Sie können auch Gegenstände aus einigen der Unterlisten im Kontrollzentrum auswählen.
+
+					Um mehrere Schiffe auszuwählen, halten Sie die Strg-Taste gedrückt, während Sie mit der linken Maustaste ziehen. Es erscheint ein Auswahlrechteck, in dem alle vollständig konstruierten Schiffe innerhalb des Rechtecks ausgewählt werden.
+
+					[H3]Erkundung der Informationen im Panel[/H3]
+					Je nachdem, was Sie ausgewählt haben, werden unterschiedliche Informationen angezeigt. Viele der angezeigten Daten liefern weitere Informationen, wenn Sie den Mauszeiger darüber bewegen, und zwar über Tooltips oder ausklappbare Seitenfenster mit zusätzlichen Steuerelementen.
+
+					Mit den Links- und Rechtspfeilen am oberen Rand des Auswahlfensters können Sie in Ihrer Auswahlhistorie vorwärts und rückwärts navigieren. Sie können auch durch verschiedene Elemente in Ihrem Imperium blättern, indem Sie eine Taste drücken, z.B. 'C' blättert durch alle Ihre Kolonien, 'X' blättert durch alle Ihre Erkundungsschiffe. Weitere Optionen finden Sie unter den Tastenbelegungen in den Spieleinstellungen.
+
+					[H3]Gegenstände umbenennen[/H3]
+					Sie können den Namen jedes Gegenstands, den Sie besitzen (Schiff, Basis, Kolonie), ändern, indem Sie in der Auswahltafel auf den Namen des Gegenstands klicken. Dadurch können Sie den Namen bearbeiten. Klicken Sie irgendwo außerhalb des Bearbeitungsfeldes, um Ihre Änderungen zu speichern.
+
+					[H3]Auf Gegenstand zoomen[/H3]
+					Um die Hauptansicht sofort auf das ausgewählte Element zu zoomen, klicken Sie auf eine beliebige freie Stelle in der Kopfzeile des Auswahlbereichs. Oder Sie können die Rücktaste verwenden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>SelectionPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Action-Schaltflächen</StepTitle>
+				<MarkupText>
+					Mit den Aktionsschaltflächen unter dem Auswahlbereich können Sie Aktionen für das ausgewählte Objekt durchführen.
+
+					Für jedes ausgewählte Objekt sind verschiedene Aktionen verfügbar. Wenn Sie den Mauszeiger über eine Aktionsschaltfläche bewegen, erhalten Sie weitere Informationen.
+
+					Einige Beispiele für Aktionsschaltflächen:
+					[ULI]das ausgewählte Schiff auftanken und reparieren[/ULI]
+					[ULI]den Steuersatz für die ausgewählte Kolonie erhöhen[/ULI]
+					[ULI]die ausgewählte Basis auf das neueste Design umrüsten[/ULI]
+					[ULI]stellen Sie den Bau einer neuen Bergbaustation auf dem ausgewählten Planeten in die Warteschlange[/ULI]
+
+					[H3]Zusätzliche Aktionen[/H3]
+					Einige Aktionsschaltflächen führen zu einer weiteren Ebene von Aktionen, z.B. wenn Sie einen Raumhafen ausgewählt haben, bietet die Schaltfläche Bau Aktionen zum Bau aller aktiven Schiffsdesigns in Ihrem Reich. Sie können zur obersten Ebene der Aktionen zurückkehren, indem Sie die Schaltfläche 'Zurück zum Anfang' ganz rechts verwenden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ActionButtons</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Zoom-Voreinstellungen und andere</StepTitle>
+				<MarkupText>
+					Mit diesen Schaltflächen können Sie schnell auf verschiedene Ebenen zoomen: einen einzelnen Ort, ein ganzes Sternensystem, eine große Region und die gesamte Galaxie.
+
+					Sie können auch schnell auf das ausgewählte Objekt zoomen. Oder verwenden Sie die Rücktaste, um das Gleiche zu tun.
+
+					Andere Schaltflächen ermöglichen das Umschalten von Schiffs- und Basissymbolen auf Standortebene und die Anzeige der Waffenreichweite für das ausgewählte Schiff oder die Basis.
+
+					[H3]Kameraansichten[/H3]
+					Mit der Schaltfläche ganz rechts können Sie die Kameraansicht ändern. Folgende Einstellungen sind möglich:
+					[ULI]Standardansicht von 45 Grad[/ULI]
+					[ULI]Winkel von oben nach unten[/ULI]
+					[ULI]Hoher Winkel[/ULI]
+					[ULI]Niedriger Winkel[/ULI]
+					Wenn Sie in die Standortebene gezoomt haben und ein Schiff oder eine Basis ausgewählt haben, können Sie zusätzlich
+					[ULI]Schleppende Schiffs- oder Basisansicht[/ULI]
+					[ULI]Ansicht des Brückenschiffs oder der Basis[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>LocationShipSymbolButton</string>
+					<string>WeaponRangeDisplayButton</string>
+					<string>ZoomInButton</string>
+					<string>ZoomOutButton</string>
+					<string>ZoomToItemButton</string>
+					<string>ZoomLocationButton</string>
+					<string>ZoomSystemButton</string>
+					<string>ZoomSectorButton</string>
+					<string>ZoomGalaxyButton</string>
+					<string>CameraModeButton</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Galaxy Zoomstufe und Abzeichen</StepTitle>
+				<MarkupText>
+					Wenn Sie auf die Ebene der Galaxie herauszoomen, können Sie die Sternensysteme und Nebelwolken sehen, aus denen die Galaxie besteht.
+
+					[H3]Systemabzeichen[/H3]
+					Auf der Galaxieebene können Sie auch die Abzeichen für kolonisierte Systeme sehen. Diese Plaketten geben einen Überblick darüber, was sich in dem System befindet.
+
+					Die Hintergrundfarbe jedes Abzeichens entspricht der Farbe des Kolonialreichs.
+
+					In der ersten Zeile der Plakette steht der Name des Systems. Wenn das System die Hauptstadt des Imperiums ist, wird links neben dem Namen ein Stern angezeigt.
+
+					In der nächsten Zeile sehen Sie ein Bild der wichtigsten Ethnie in der Kolonie sowie die Bevölkerungszahl. Daneben befindet sich ein Symbol, das die Genehmigungsrate der Kolonie anzeigt.
+
+					Wenn das System über einen Raumhafen verfügt, wird ein gelbes Symbol für einen Bauhof angezeigt. Wenn das System über eine Tankstelle verfügt, wird ein blaues Symbol für "Tanken" angezeigt.
+
+					Die dritte Zeile zeigt die wichtigsten Ressourcen in dem System an.
+
+					Eine vierte Zeile kann auch die Flotten- und Schiffsstärke unseres Reiches im System anzeigen (weißer Text und gelbes Blitzsymbol). Wenn es in dem System feindliche Bedrohungen gibt, wird deren Stärke angezeigt (roter Text und Lichtbolzen-Symbol).
+
+					[H3]Standortabzeichen[/H3]
+					Wenn Sie auf die Systemebene gezoomt haben, können Sie Abzeichen für die Standorte der Kolonien im System sehen.
+
+					Diese Plaketten zeigen ähnliche Daten an wie die Systemplaketten.
+
+					[H3]Kolonie-Abzeichen[/H3]
+					Wenn Sie auf die Standortebene gezoomt haben und den Mauszeiger über eine Kolonie bewegen, wird ein Kolonieabzeichen mit den wichtigsten Daten wie den folgenden angezeigt:
+					[ULI]Name der Kolonie und Erkundungsstufe[/ULI]
+					[ULI]Art und Größe des Planeten oder Mondes[/ULI]
+					[ULI]Qualität des Planeten oder Mondes[/ULI]
+					[ULI]Bevölkerung, Zulassung und Entwicklungsstufe der Kolonie[/ULI]
+					[ULI]Symbole, die einen Raumhafen oder eine Betankungsquelle in der Kolonie anzeigen[/ULI]
+					[ULI]Ressourcen, die in der Kolonie abgebaut werden[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ZoomGalaxyButton</string>
+					<string>MapOverlays_Cartouches</string>
+				</RelatedControlNames>
+				<ZoomMode>Galaxy</ZoomMode>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Karten Overlays</StepTitle>
+				<MarkupText>
+					Es gibt viele Karten-Overlays, die angezeigt werden können, wenn Sie auf die Galaxie-Ebene herauszoomen.
+
+					Dazu gehören die folgenden:
+					[ULI]Ressourcenströme vom Abbauort zum Zielort[/ULI]
+					[ULI]Migrationsströme von etablierten Kolonien zu neuen Kolonien[/ULI]
+					[ULI]Tourismusströme von Kolonien zu Resort-Basen[/ULI]
+					[ULI]Nebel-Grenzmarkierungen[/ULI]
+					[ULI]Abdeckung durch Langstreckenscanner[/ULI]
+					[ULI]Schiffsreisevektoren[/ULI]
+					[ULI]System- und Standortabzeichen[/ULI]
+					[ULI]Erkundungs-Overlay[/ULI]
+					[ULI]Diplomatie-Overlay[/ULI]
+
+					Außerdem gibt es eine Option, mit der Sie den größten Teil der Benutzeroberfläche ausblenden können, so dass Sie sich ganz auf die Szene in der Hauptansicht konzentrieren können.
+
+					Bewegen Sie den Mauszeiger über die einzelnen Karten-Overlay-Schaltflächen, um weitere Details zu erfahren.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MapOverlayButtons</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Zusammenfassung ansehen</StepTitle>
+				<MarkupText>
+					Die Ansichtsübersicht ist ein sehr leistungsfähiges Verwaltungstool, das Ihnen einen schnellen Überblick über alle sichtbaren Elemente in der aktuellen Ansicht gibt. Diese Übersicht wird automatisch aktualisiert, wenn sich Ihre Ansicht beim Schwenken oder Zoomen ändert.
+
+					Wenn Sie den Mauszeiger über ein Element in der Übersicht bewegen, erhalten Sie weitere Informationen sowie eine Übersichtslinie, die Ihnen zeigt, wo sich das Element in der Hauptansicht befindet.
+
+					Wenn Sie auf ein Element klicken, wird es im Auswahlbereich ausgewählt. Ein Doppelklick auf ein Element zoomt die Hauptansicht auf das Element.
+
+					Wenn es viele Elemente gibt, können einige Daten mit einem Symbol zusammen mit der Anzahl der Elemente zusammengefasst werden. Wenn Sie den Mauszeiger über dieses Symbol bewegen, werden die Elemente auf einzelne Einheiten erweitert, die Sie dann auswählen können.
+
+					[H3]Galaxie-Ebene[/H3]
+					Wenn Sie auf die Galaxieebene herausgezoomt haben, können Sie durch Anklicken eines Systemabzeichens die Ansicht Zusammenfassung ändern, um die bekannten Objekte in diesem System anzuzeigen. Sie können dann mit diesen Gegenständen interagieren, indem Sie sie auswählen und sich zu ihnen bewegen, auch wenn Sie auf die Galaxieebene herausgezoomt sind.
+
+					Klicken Sie erneut auf das Systemabzeichen, um zur Anzeige der Galaxieobjekte zurückzukehren. Sie können auch einfach mit dem Scrollrad der Maus hinein- oder herauszoomen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>SystemSummary</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Nachrichten</StepTitle>
+				<MarkupText>
+					Eingehende Nachrichten werden auf der rechten Seite des Bildschirms angezeigt.
+
+					Die Nachrichten laufen allmählich ab und verschwinden, was durch den Fortschrittsbalken am unteren Rand jeder Nachricht angezeigt wird.
+
+					Wenn Sie mit dem Mauszeiger über eine Nachricht fahren, erhalten Sie detailliertere Informationen und oft auch die Möglichkeit, Ihre Ansicht an den Ort der Nachricht zu verschieben.
+
+					Wenn Sie den Mauszeiger über eine Nachricht bewegen, wird auch der Ort in der Hauptansicht angezeigt, so dass Sie den Ort des Ereignisses in der Galaxie sehen können (wenn Sie auf die Ebene der Galaxie herauszoomen).
+
+					Wenn Sie mit der linken Maustaste auf eine Nachricht klicken, können Sie alle zugehörigen Elemente in der Auswahltafel auswählen.
+
+					Wenn Sie mit der rechten Maustaste auf eine Nachricht klicken, wird sie aus der Liste entfernt. Die Nachricht wird jedoch weiterhin im Nachrichtenprotokoll gespeichert (siehe unten).
+
+					Nachrichten können auch Vorschläge von Beratern enthalten, die Ihnen Ratschläge für das weitere Vorgehen geben. Wenn Sie den Mauszeiger über die Nachricht bewegen, können Sie den Vorschlag des Beraters annehmen oder ablehnen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MessageListView</string>
+				</RelatedControlNames>
+				<ZoomMode>Capital</ZoomMode>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Nachrichtenprotokoll und Filterung</StepTitle>
+				<MarkupText>
+					Um alle Ihre vergangenen Nachrichten zu sehen, öffnen Sie das Nachrichtenprotokoll über die angegebene Schaltfläche. Sie können dann mit dem Mauszeiger über jede Nachricht fahren, um sie im Detail zu betrachten.
+
+					[H3]Filtern von Nachrichten[/H3]
+					Im Nachrichtenprotokoll können Sie auch filtern, welche Arten von Nachrichten Sie sehen möchten, indem Sie auf den Filtertext am oberen Rand klicken. Dadurch werden die Filterschaltflächen erweitert.
+
+					Sie können die Nachrichtenfilter nach Fraktion oder Kategorie aktivieren oder deaktivieren.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MessageLogButton</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Galaktopädie</StepTitle>
+				<MarkupText>
+					Die Galactopedia bietet umfassende Hilfe zu jedem Gegenstand im Spiel.
+
+					Dazu gehören Themen aus den folgenden Bereichen:
+					[ULI]Spielkonzepte[/ULI]
+					[ULI]Spielbildschirme[/ULI]
+					[ULI]Sternen- und Planetentypen[/ULI]
+					[ULI]Abbaubare Ressourcen[/ULI]
+					[ULI]Weltraumkreaturen[/ULI]
+					[ULI]Außerirdische Spezies[/ULI]
+					[ULI]Regierungsformen[/ULI]
+					[ULI]Schiffskomponenten[/ULI]
+					[ULI]Planetare Einrichtungen[/ULI]
+
+					Navigieren Sie in der Galactopedia, indem Sie die Themen im rechten Bereich des Galactopedia-Bildschirms erweitern und anklicken.
+
+					[H3]Spiel-Konzepte[/H3]
+					Um die Funktionsweise von Distant Worlds 2 besser zu verstehen, sollten Sie sich insbesondere die Themen unter Spielkonzepte ansehen.
+
+					Diese Themen werden Ihnen helfen, Ihr Imperium effektiver zu erweitern. Sie enthalten auch Tipps zur Optimierung Ihres Spiels, selbst für erfahrene Spieler.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>GalactopediaButton</string>
+					<string>GalactopediaDialog</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Vollständig!</StepTitle>
+				<MarkupText>
+					Vielen Dank für Ihre Teilnahme an der Basic Tour von Distant Worlds 2!
+
+					Sie können diese Basistour jederzeit über den Bildschirm Touren im Spielmenü (Escape-Taste) wiederholen.
+
+					Andere Touren sind ebenfalls verfügbar, indem Sie in jedem Bereich der Benutzeroberfläche auf die Schaltfläche 'Tour starten' klicken.
+
+					Sie sollten auch die Galactopedia durchstöbern, um detaillierte Informationen zu allen Elementen des Spiels zu erhalten.
+
+					Erforschen, Erweitern und Erobern!
+				</MarkupText>
+				<RelatedControlNames>
+					<string></string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Euer Reich</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Wirtschaft</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm zeigt eine Aufschlüsselung Ihrer staatlichen und privaten Wirtschaft an.
+
+					Jede Art von Einnahmen und Ausgaben wird für das aktuelle und das vorangegangene Jahr aufgelistet, ebenso wie eine Projektion der erwarteten Beträge für das laufende Jahr. Sie können mit dem Mauszeiger über jeden Betrag fahren, um weitere Informationen zu erhalten.
+
+					[H3]Wirtschaft des Staates[/H3]
+					Der obere Bereich Ihrer Staatswirtschaft zeigt die erwarteten regelmäßigen Einnahmen und Ausgaben. Diese Beträge ändern sich im Laufe der Zeit langsam, wenn Ihr Reich wächst.
+
+					Der untere Bereich Ihrer Staatswirtschaft zeigt unregelmäßige Bonuseinnahmen. Diese Beträge können stark schwanken und setzen sich oft aus den Einnahmen aus dem privaten Schiffsbau zusammen, bei dem der private Sektor Ihres Reiches neue Schiffe kauft.
+
+					[H3]Private Wirtschaft[/H3]
+					Der Abschnitt Privatwirtschaft zeigt die Einnahmen und Ausgaben des privaten Sektors Ihres Reiches. Sie haben keine direkte Kontrolle darüber, wie der private Sektor Geld einnimmt oder ausgibt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireEconomy_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Empire-Finanzierungsniveaus</StepTitle>
+				<MarkupText>
+					Wenn Sie möchten, können Sie die Verwendung Ihres Einkommens auf dem Bildschirm Bonusfinanzierungsstufen genau festlegen. Bewegen Sie den Mauszeiger über jeden Wert, um eine detaillierte Erklärung zu erhalten.
+
+					Beachten Sie, dass die Empire Funding Levels automatisch von Ihren Beratern verwaltet werden. Die manuelle Steuerung dieser Stufen ist eine fortgeschrittene Option. Um die Automatisierung zu deaktivieren und die Finanzierungsniveaus selbst zu kontrollieren, besuchen Sie den Abschnitt "Wirtschaft" im Bildschirm "Reichspolitik".
+
+					[H3]Unterhaltsgelder zuweisen[/H3]
+					Wenn Sie sich für die manuelle Kontrolle der Finanzierungsniveaus entscheiden, können Sie in diesem Bildschirm prozentuale Werte für jeden Ihrer wichtigsten regelmäßigen Ausgabenbereiche festlegen: Wartung von Schiffen und Basen, Wartung von Truppen und Wartung von Einrichtungen. Diese Prozentsätze begrenzen, wie viel Ihre Berater bereit sind, in jedem Bereich auszugeben.
+
+					Wenn Sie also 50% Ihres Einkommens für die Instandhaltung von Schiffen ausgeben, werden Ihre Berater bereit sein, Schiffe und Basen bis zu einer Instandhaltungsgrenze von 50% Ihrer Wirtschaft zu bauen. Aber sie werden Ihnen keine neuen Schiffe empfehlen, sobald Sie das festgelegte Limit erreicht haben.
+
+					Die Begrenzung der Ausgaben in den einzelnen Bereichen ermöglicht eine gleichmäßigere Verteilung Ihres Einkommens auf alle Bereiche Ihrer Wirtschaft und verhindert, dass Sie in einem Bereich zu viel ausgeben.
+
+					Sie können auch einen Prozentsatz Ihres Einkommens festlegen, der nicht ausgegeben wird, und so einen Bargeldvorrat anlegen, der für Einkäufe und andere Ausgaben verwendet werden kann.
+
+					[H3]Überschüssige Mittel für Koloniewachstum und Forschung[/H3]
+					Überschüssiges Einkommen kann entweder dem Wachstum der Kolonie oder der Forschung zugeführt werden. Die Zuweisung von Mitteln für diese 2 Bereiche erhöht die Wachstumsrate der Kolonie oder die Geschwindigkeit der Forschung, die Ihr Reich durchführen kann.
+
+					Wenn Sie die Finanzierungsstufen automatisieren (die Standardeinstellung), verwenden Ihre Wirtschaftsberater alle überschüssigen Einnahmen, um die volle Forschungsgeschwindigkeit aufrechtzuerhalten, während sie den Rest in die Wachstumsraten der Kolonien leiten.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireFundingLevels_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Wartung</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm zeigt die Schiffsunterhaltskosten für alle Schiffe und Basen in Ihrem Reich an, unabhängig davon, ob sie sich in staatlichem oder privatem Besitz befinden.
+
+					Der Abschnitt Militär zeigt die Anzahl und den gesamten Unterhalt der Militärschiffe für jede Rolle an.
+
+					Der Abschnitt Andere Staaten zeigt für jede Rolle die Anzahl und den gesamten Unterhalt der Schiffe und Basen anderer Staaten an.
+
+					Der Abschnitt Privat zeigt die Anzahl und den gesamten Unterhalt der privaten Schiffe und Basen für jede Rolle an.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireMaintenance_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Regierung</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm zeigt die Details zu Ihrer aktuellen Regierung und eine Zusammenfassung aller reichsweiten Boni für Ihr Reich an.
+
+					[H3]Ändern Ihrer Regierung[/H3]
+					Sie können Ihre Regierung ändern, indem Sie eine andere Art von Regierung aus der Dropdown-Liste am oberen Rand des Abschnitts auswählen.
+
+					Nachdem Sie die Statistiken zwischen Ihrer aktuellen Regierung und der ausgewählten Regierung verglichen haben, können Sie zu der neuen Regierung wechseln, indem Sie auf die Schaltfläche 'Revolution haben' am unteren Rand dieses Abschnitts klicken.
+
+					[H3]Reichsboni[/H3]
+					Der Abschnitt 'Reichsboni aus allen Quellen' enthält eine Liste aller Ihrer Boni. Wenn Sie mit dem Mauszeiger über jede Zeile fahren, erhalten Sie eine vollständige Aufschlüsselung der verschiedenen Faktoren, die zu den einzelnen Bonustypen beitragen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireGovernment_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Anführer</StepTitle>
+				<MarkupText>
+					Der Anführer Ihres Reiches wird hier angezeigt. Ihr Anführer ist ein sehr wichtiger Charakter für Ihr Imperium. Seine Fähigkeiten gelten für Ihr gesamtes Reich und bieten Vorteile oder Nachteile in verschiedenen Bereichen.
+
+					Sie können die Details Ihres Anführers einsehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu öffnen.
+
+					Sie können den Namen Ihres Anführers ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Standort des Anführers[/H3]
+					Ihr Anführer sollte sich in der Hauptstadt Ihres Reiches befinden. Wenn Sie möchten, können Sie ihn aber auch an einen anderen Ort versetzen, indem Sie die Dropdown-Liste und die Schaltfläche Versetzen unten verwenden.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen Ihr Anführer beteiligt war. Verschiedene Ereignisse können die Fähigkeiten Ihres Anführers verbessern oder verschlechtern oder ihm neue Charaktereigenschaften verleihen.
+
+					[H3]Entlassung Ihres Anführers[/H3]
+					Wenn Ihr Anführer sehr schlechte Fähigkeiten hat, können Sie ihn über die Schaltfläche unter seinem Porträt entlassen. Ein neuer Anführer wird dann ausgewählt, um ihn zu ersetzen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CharactersLeader_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Richtlinien-Einstellungen</StepTitle>
+				<MarkupText>
+					Auf dem Bildschirm Richtlinieneinstellungen können Sie festlegen, welche Teile Ihres Reiches automatisiert werden, in welchen Bereichen Sie von Beratern unterstützt werden möchten und welche Bereiche Sie vollständig selbst kontrollieren möchten.
+
+					Sie können jeden Bereich erweitern oder reduzieren, indem Sie auf die Kopfleisten klicken. Zusätzlich zu den übergeordneten Automatisierungssteuerungen gibt es in jedem Bereich viele weitere Einstellungen, mit denen Sie die Dinge im Detail anpassen können. Fahren Sie mit dem Mauszeiger über jede Einstellung, um eine Erklärung zu erhalten.
+
+					Der obere Bereich 'Berater und Automatisierung' fasst alle Automatisierungseinstellungen für Ihr Reich zusammen und bietet einen zentralen Ort, an dem Sie ändern können, welche Bereiche automatisiert, von Beratern gesteuert oder manuell kontrolliert werden. Sie können sogar eine der voreingestellten Konfigurationen aus der Dropdown-Liste am oberen Rand auswählen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>EmpirePolicy_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Diplomatie</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Diplomatische Beziehungen</StepTitle>
+				<MarkupText>
+					Wenn Sie auf andere Fraktionen treffen, können Sie mit ihnen diplomatisch verhandeln. Die Diplomatie umfasst das Schließen von Verträgen, das Überreichen von Geschenken und Handelsabkommen. Wenn die Dinge nicht gut laufen, kann sie auch die Erklärung eines Krieges und den Abschluss eines Friedens beinhalten.
+
+					Zu Beginn des Spiels haben Sie noch niemanden getroffen. Aber wenn Sie diese Tour wiederholen, sobald Sie mit einer anderen Fraktion Kontakt aufgenommen haben, werden weitere, unten beschriebene Gegenstände sichtbar sein.
+
+					[H3]Beziehungsliste[/H3]
+					Dieser Bildschirm listet alle Ihre Beziehungen zu anderen Imperien auf. Beachten Sie, dass Piratenfraktionen und unabhängige Kolonien standardmäßig nicht berücksichtigt werden. Prüfen Sie die verschiedenen Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Jedes Listenelement zeigt an, wie das andere Reich zu Ihnen steht und wie sich Ihre Beziehung entwickelt.
+
+					Wenn Sie auf ein Beziehungselement in der Liste klicken, wird die Hauptstadt der Fraktion ausgewählt, falls bekannt.
+
+					[H3]Beziehungs-Detailfenster[/H3]
+					Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird rechts das Beziehungs-Detailfenster angezeigt. Wenn Sie auf das Listenelement oder das Detailfenster klicken, wird es geöffnet.
+
+					Die Detailtafel bietet einen vollständigen Überblick über Ihre Beziehung zu dem ausgewählten Reich. Oben werden die Flagge des Reiches und alle Völker des Reiches angezeigt. Fahren Sie mit dem Mauszeiger über die einzelnen Völker, um die Gesamtbevölkerung des Reiches und eine Zusammenfassung ihrer Eigenschaften anzuzeigen.
+
+					Der Regierungsstil wird unter dem Namen des Reiches angezeigt.
+
+					Darunter befindet sich die Schaltfläche 'Sprechen', mit der Sie ein Gespräch mit der anderen Fraktion beginnen können.
+
+					[H3]Sprechen mit einer anderen Fraktion[/H3]
+					Wenn Sie mit der anderen Fraktion sprechen, haben Sie eine Reihe von Möglichkeiten, wie z.B. das Anbieten von Verträgen und Geschenken und das Aushandeln detaillierter Handelsabkommen. Klicken Sie auf 'Auf Wiedersehen' oder die Schaltfläche 'Schließen' oben rechts, um das Gespräch zu beenden.
+
+					[H3]Ansehen[/H3]
+					Die aktuelle Reputation des Reiches zeigt an, wie andere dieses Reich im Allgemeinen sehen. Der Ruf eines Reiches ergibt sich aus seinen Handlungen. Bewegen Sie den Mauszeiger über den Wert, um eine Liste der Faktoren zu sehen, die zum Ansehen des Reiches beitragen.
+
+					[H3]Kriegsmüdigkeit[/H3]
+					Die Kriegsmüdigkeit nimmt mit der Zeit zu, wenn sich ein Imperium im Krieg mit einer anderen Fraktion befindet. Sie nimmt stark zu, wenn das Imperium in der Schlacht erhebliche Verluste erleidet. Hohe Kriegsmüdigkeit führt zu Unzufriedenheit und Unruhen in den Kolonien.
+
+					Daher strebt ein Imperium in der Regel nach Frieden, wenn seine Kriegsmüdigkeit hoch ist.
+
+					Manchmal kann der Wert der Kriegsmüdigkeit eines Imperiums jedoch auch positiv sein, wenn es Opfer einer ungerechtfertigten Kriegserklärung durch eine andere Fraktion ist. In diesem Fall haben sie eine zusätzliche Motivation, gegen die Aggressoren zu kämpfen.
+
+					[H3]Strategie[/H3]
+					Der Abschnitt Strategie zeigt, wie Ihr Reich mit der anderen Fraktion umzugehen gedenkt. Sie können diese Einstellung automatisieren und so Ihre Berater eine geeignete Strategie auswählen lassen.
+
+					Alternativ können Sie die Strategie auch manuell steuern, indem Sie die Automatisierung über die Schaltfläche auf der linken Seite ausschalten und dann die gewünschte Strategie aus der Dropdown-Liste auf der rechten Seite auswählen. Bewegen Sie den Mauszeiger über die aktuelle Strategie, um eine Erklärung zu erhalten, was sie im Umgang mit der anderen Fraktion bedeutet.
+
+					[H3]Status und Verträge[/H3]
+					Alle aktuellen Verträge werden oben im Abschnitt Status aufgeführt.
+
+					Der nächste Teil des Abschnitts Status zeigt, wie die anderen Fraktionen zu Ihnen stehen. Der Wert auf der linken Seite ist der Gesamtwert, der angibt, wie sie über Sie denken. Ein positiver Wert bedeutet, dass man Sie mag, ein negativer Wert, dass man Sie nicht mag.
+
+					Dieses Gefühl wird durch den Text in der Mitte beschrieben. Wenn Sie den Mauszeiger über diesen Text bewegen, sehen Sie, was Ihre Berater über die andere Fraktion denken. Der aktuelle Beziehungstrend wird rechts angezeigt.
+
+					Unter der zusammengefassten Gesamtsumme finden Sie eine vollständige Liste aller Faktoren, die zur Bewertung der anderen Fraktion über Sie beitragen. Einige dieser Faktoren können statisch sein und sich nicht verändern, während andere sich im Laufe der Zeit verändern und an Wert gewinnen oder verlieren können. Jede Tendenz für jeden Faktor wird rechts angezeigt.
+
+					[H3]Sonstige Informationen[/H3]
+					Im Abschnitt Reichsinfo werden die wichtigsten Informationen angezeigt, die Sie über die andere Fraktion wissen. Beachten Sie, dass einige der Informationen hier unvollständig sein können, z.B. zeigt die bekannte Militärstärke nur die Stärke der Militärschiffe an, die Sie gesehen haben.
+
+					Der Abschnitt Ressourcenversorgung zeigt alle Handelseinnahmen mit der anderen Fraktion an. Das heißt, die Ressourcen, die Sie mit ihr gekauft und verkauft haben.
+
+					In diesem Abschnitt werden auch die einzigartigen Ressourcen angezeigt, die Ihnen die andere Fraktion liefern kann (sobald Sie ein Handelsabkommen geschlossen haben). Dabei handelt es sich um Ressourcen, an denen Sie Mangel haben, mit denen das andere Reich aber handeln kann.
+
+					[H3]Ihre Beziehungen zu anderen Fraktionen[/H3]
+					Der Abschnitt Beziehungen zu anderen zeigt die Beziehungen der anderen Fraktion zu allen anderen Reichen, denen Sie begegnet sind, einschließlich etwaiger Verträge und ihrer Gefühle füreinander.
+
+					Bewegen Sie den Mauszeiger über die Gefühlsbeschreibung, um zu erfahren, was beide Seiten füreinander empfinden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyRelations_SubSection</string>
+					<string>EmpireRelationPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Piraten Beziehungen</StepTitle>
+				<MarkupText>
+					Piraten sind gesetzlose Fraktionen, die ausschließlich im Weltraum leben, auf Schiffen oder Basen. Sie haben keine Kolonien. Piraten sind im Allgemeinen unfreundlich und feindselig. Sie überfallen und plündern und nehmen sich, was sie wollen.
+
+					Sie können jedoch die Beziehungen zu den Piraten verbessern, indem Sie "Schutz"-Abkommen akzeptieren oder ihnen Geschenke anbieten. Alternativ können Sie auch einfach Ihre Streitkräfte aufstocken und sie auslöschen.
+
+					[H3]Liste der Piratenfraktionen[/H3]
+					Dieser Bildschirm listet alle Ihre Beziehungen zu Piratenfraktionen auf. Prüfen Sie die verschiedenen Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Jedes Listenelement zeigt an, wie die Piratenfraktion zu Ihnen steht und wie sich Ihre Beziehung entwickelt.
+
+					Wenn Sie auf ein Beziehungselement in der Liste klicken, wird die Piratenbasis der Fraktion ausgewählt, falls bekannt.
+
+					[H3]Beziehungs-Detailfenster[/H3]
+					Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird rechts das Beziehungs-Detailfenster angezeigt. Wenn Sie auf das Listenelement oder das Detailfenster klicken, wird es geöffnet.
+
+					Die Detailtafel bietet eine vollständige Zusammenfassung Ihrer Beziehung zu der ausgewählten Piratenfraktion mit ähnlichen Informationen, wie Sie sie bei der Interaktion mit einem anderen Reich sehen würden.
+
+					[H3]Sprechen mit Piraten[/H3]
+					Sie können sich mit den Piraten unterhalten, indem Sie auf die Schaltfläche 'Sprechen' unter ihrem Namen im Detailfenster klicken. Im Gespräch mit den Piraten haben Sie die Möglichkeit, Verträge und Geschenke anzubieten und detaillierte Handelsabkommen auszuhandeln.
+
+					Die Piraten verfügen oft über viele geheime Informationen über die Galaxie, die sie Ihnen möglicherweise verkaufen, wenn die Beziehungen freundlich genug sind.
+
+					Klicken Sie auf 'Auf Wiedersehen' oder die Schaltfläche 'Schließen' oben rechts, um das Gespräch zu beenden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyPirates_SubSection</string>
+					<string>EmpireRelationPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Unabhängige Kolonien</StepTitle>
+				<MarkupText>
+					Unabhängige Kolonien sind besiedelte Welten, die keiner Fraktion angehören. Sie sind neutrale Welten und weitgehend unentwickelt.
+
+					Sie können sich mit ihnen anfreunden, indem Sie Handelsverträge abschließen und ihnen Geschenke anbieten. Wenn Sie ihnen sympathisch genug sind, werden sie Sie vielleicht bitten, sie zu kolonisieren und sich Ihrem Imperium anzuschließen. Die großen, bereits etablierten Bevölkerungen unabhängiger Kolonien können Ihrem Imperium einen großen Schub geben, wenn es noch im Wachstum begriffen ist.
+
+					Eine andere Strategie, um mit unabhängigen Kolonien umzugehen, besteht darin, einfach Ihre Truppen aufzustocken und dort einzumarschieren. Allerdings schadet dies Ihrem Ruf bei anderen Fraktionen.
+
+					[H3]Liste unabhängiger Kolonien[/H3]
+					Dieser Bildschirm listet alle Ihre Beziehungen zu unabhängigen Kolonien auf. Prüfen Sie die verschiedenen Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Unabhängige Kolonien gehören zu keiner Fraktion. Sie können mit ihnen Handel gegen Ressourcen treiben. Sie können sie auch in Ihr Imperium integrieren, entweder mit Gewalt oder durch Diplomatie.
+
+					Jeder Listenpunkt zeigt, wie die unabhängige Kolonie zu Ihnen steht und wie sich Ihre Beziehung entwickelt.
+
+					Wenn Sie auf ein Beziehungselement in der Liste klicken, wird die unabhängige Kolonie ausgewählt, sofern sie bekannt ist.
+
+					[H3]Beziehungs-Detailfenster[/H3]
+					Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird rechts das Beziehungs-Detailfenster angezeigt. Wenn Sie auf das Listenelement oder das Detailfenster klicken, wird es geöffnet.
+
+					Die Detailtafel bietet eine vollständige Zusammenfassung Ihrer Beziehung zu der ausgewählten unabhängigen Kolonie mit ähnlichen Informationen, wie Sie sie bei der Interaktion mit einem anderen Reich sehen würden.
+
+					[H3]Strategie[/H3]
+					Im Abschnitt Strategie können Sie festlegen, wie Sie mit der Kolonie interagieren wollen. Sie können versuchen, sie durch Geschenke und Diplomatie zu integrieren, was schließlich zu einer Einladung zur Kolonisierung führt. Oder Sie entscheiden sich für eine Invasion und nehmen die Kolonie mit Gewalt ein.
+
+					[H3]Sprechen mit einer unabhängigen Kolonie[/H3]
+					Sie können sich mit der unabhängigen Kolonie unterhalten, indem Sie auf die Schaltfläche 'Sprechen' unter ihrem Namen im Detailfenster klicken. In Gesprächen mit unabhängigen Kolonien können Sie beispielsweise Verträge und Geschenke anbieten oder sogar detaillierte Handelsabkommen aushandeln.
+
+					Unabhängige Kolonien verfügen oft über Wissen über geheime Orte in der Galaxie, das sie Ihnen vielleicht verkaufen, wenn die Beziehungen freundlich genug sind.
+
+					Klicken Sie auf 'Auf Wiedersehen' oder die Schaltfläche 'Schließen' oben rechts, um das Gespräch zu beenden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyIndependentColonies_SubSection</string>
+					<string>EmpireRelationPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Botschafter</StepTitle>
+				<MarkupText>
+					Alle Botschaftercharaktere in Ihrem Reich werden in dieser Liste angezeigt.
+
+					Sie können die Details jedes Botschafters sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu schließen.
+
+					Sie können den Namen eines Botschafters ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Standort des Botschafters[/H3]
+					Botschafter verschaffen Ihnen diplomatische und spionagetechnische Vorteile in Ihren Beziehungen zu einer anderen Fraktion. Um einen Botschafter einer bestimmten Fraktion zuzuweisen, sollten Sie ihn in die Hauptstadt der Fraktion schicken.
+
+					Verwenden Sie die Dropdown-Liste Standort und die Schaltfläche 'Übertragen', um sie der gewünschten Fraktion zuzuweisen.
+
+					Alternativ können Sie den Botschafter auch automatisieren, so dass Ihre diplomatischen Berater den besten Ort für ihn auswählen. Verwenden Sie dazu die Schaltfläche 'Automatisieren' unter dem Botschafterporträt auf der rechten Seite.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Botschafter beteiligt war. Verschiedene Ereignisse können seine Fähigkeiten verbessern oder verschlechtern oder ihm neue Charaktereigenschaften verleihen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CharactersAmbassadors_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Spione</StepTitle>
+				<MarkupText>
+					Alle Spionagecharaktere in Ihrem Reich werden in dieser Liste angezeigt.
+
+					Sie können die Details zu jedem Spion sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu schließen.
+
+					Sie können den Namen eines Spions ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Geheimdiensteinsätze[/H3]
+					Spione führen Aufklärungsmissionen gegen andere Fraktionen durch, stehlen Karten und Technologie oder sabotieren eine andere Fraktion auf verschiedene Weise.
+
+					Sie können auch Gegenspionage betreiben und Ihr Imperium vor feindlichen Spionagemissionen schützen.
+
+					Die Fähigkeiten jedes Spions bestimmen stark, welche Art von Missionen er am besten beherrscht.
+
+					[H3]Missionen zuweisen[/H3]
+					Um einem Spion eine Mission zuzuweisen, wählen Sie das Zielimperium, den Missionstyp, ein bestimmtes Missionsziel und die Zeit bis zum Abschluss aus den Dropdown-Listen im Missionsabschnitt aus und klicken dann auf die Schaltfläche 'Mission zuweisen'.
+
+					Während Sie die verschiedenen Optionen auswählen, wird rechts die Erfolgschance der Mission angezeigt. Achten Sie darauf, dass Sie keine zu schwierigen Missionen zuweisen. Andernfalls könnte Ihr Spion abgefangen und sogar gefangen genommen werden, was schwerwiegende diplomatische Konsequenzen nach sich ziehen würde.
+
+					Wenn Sie vollständig automatisieren möchten, welche Missionen einem Spion zugewiesen werden, können Sie den Spion automatisieren, indem Sie die Schaltfläche 'Automatisieren' unter dem Spionporträt auf der rechten Seite verwenden.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Spion beteiligt war. Durch verschiedene Ereignisse können Sie Ihre Fähigkeiten verbessern oder verringern oder neue Charaktereigenschaften erhalten. Das erfolgreiche Abschließen von Geheimdienstmissionen kann die Fähigkeiten Ihres Spions besonders verbessern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacySpies_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Gefangene</StepTitle>
+				<MarkupText>
+					Alle gefangenen Charaktere anderer Fraktionen werden in dieser Liste angezeigt.
+
+					Sie können die Details jedes gefangenen feindlichen Charakters sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel rechts klicken, um es zu öffnen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyPrisoners_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Charaktere</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Zeichen</StepTitle>
+				<MarkupText>
+					Die Charaktere Ihres Reiches werden in dieser Liste angezeigt. Standardmäßig ist diese Liste so gefiltert, dass nur Charaktere angezeigt werden, die keine Spione sind. Prüfen Sie die verschiedenen anderen Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Sie können die Details jedes Charakters sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu öffnen.
+
+					Sie können den Namen eines Charakters ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen eingeben.
+
+					Bei den meisten Charakteren sind ihre Fähigkeiten und Eigenschaften zu Beginn unbekannt. Wenn Sie den Charakter benutzen, werden seine Fähigkeiten und Eigenschaften aufgedeckt und entwickeln sich mit der Zeit.
+
+					[H3]Standorte der Charaktere[/H3]
+					Die meisten Charaktere wenden ihre Fähigkeiten auf ihren aktuellen Standort an. Ein Admiral zum Beispiel wendet seine militärischen Fähigkeiten auf die Flotte an, der er angehört. Wissenschaftler wenden ihre Forschungsfähigkeiten auf die Forschungsstation an, in der sie sich befinden.
+
+					Ihr Anführer wendet seine Fähigkeiten auf das gesamte Reich an und verbessert es auf unterschiedliche Weise. Umgekehrt kann ein Anführer mit negativen Fähigkeiten Ihr gesamtes Imperium in bestimmten Bereichen beeinträchtigen.
+
+					Um einen Charakter an einen bestimmten Ort zu versetzen, wählen Sie den Ort aus der Dropdown-Liste aus und klicken dann auf die Schaltfläche 'Versetzen', um ihn dorthin zu versetzen.
+
+					Wenn Sie den Standort eines Charakters vollständig automatisieren möchten, können Sie die Schaltfläche 'Automatisieren' unter dem Charakterporträt auf der rechten Seite verwenden.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Charakter beteiligt war. Verschiedene Ereignisse können die Fähigkeiten des Charakters verbessern oder verschlechtern oder ihm neue Charaktereigenschaften verleihen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>Characters_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Spione</StepTitle>
+				<MarkupText>
+					Alle Spionagecharaktere in Ihrem Reich werden in dieser Liste angezeigt.
+
+					Sie können die Details zu jedem Spion sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu schließen.
+
+					Sie können den Namen eines Spions ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Geheimdiensteinsätze[/H3]
+					Spione führen Aufklärungsmissionen gegen andere Fraktionen durch, stehlen Karten und Technologie oder sabotieren eine andere Fraktion auf verschiedene Weise.
+
+					Sie können auch Gegenspionage betreiben und Ihr Imperium vor feindlichen Spionagemissionen schützen.
+
+					Die Fähigkeiten jedes Spions bestimmen stark, welche Arten von Missionen er am besten beherrscht.
+
+					[H3]Missionen zuweisen[/H3]
+					Um einem Spion eine Mission zuzuweisen, wählen Sie das Zielimperium, den Missionstyp, ein bestimmtes Missionsziel und die Zeit bis zum Abschluss aus den Dropdown-Listen im Missionsabschnitt aus und klicken dann auf die Schaltfläche 'Mission zuweisen'.
+
+					Während Sie die verschiedenen Optionen auswählen, wird rechts die Erfolgschance der Mission angezeigt. Achten Sie darauf, dass Sie keine zu schwierigen Missionen zuweisen. Andernfalls könnte Ihr Spion abgefangen und sogar gefangen genommen werden, was schwerwiegende diplomatische Konsequenzen nach sich ziehen würde.
+
+					Wenn Sie vollständig automatisieren möchten, welche Missionen einem Spion zugewiesen werden, können Sie den Spion automatisieren, indem Sie die Schaltfläche 'Automatisieren' unter dem Spionporträt auf der rechten Seite verwenden.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Spion beteiligt war. Durch verschiedene Ereignisse können Sie Ihre Fähigkeiten verbessern oder verringern oder neue Charaktereigenschaften erhalten. Das erfolgreiche Abschließen von Geheimdienstmissionen kann die Fähigkeiten Ihres Spions besonders verbessern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CharactersSpies_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Gefangene</StepTitle>
+				<MarkupText>
+					Alle gefangenen Charaktere anderer Fraktionen werden in dieser Liste angezeigt.
+
+					Sie können die Details jedes gefangenen feindlichen Charakters sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel rechts klicken, um es zu öffnen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>Prisoners_SubSection</string>
+					<string>CharacterPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Kolonien</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Kolonien</StepTitle>
+				<MarkupText>
+					Kolonien sind die besiedelten Welten Ihres Reiches. Sie sorgen für den größten Teil des Wohlstands und des Einkommens Ihres Reiches. Sie nehmen einen Teil dieses Einkommens ein, indem Sie Ihre Kolonien besteuern.
+
+					Mit der Zeit wachsen die Kolonien sowohl in ihrer Bevölkerung als auch in ihrem Entwicklungsstand. Größere, besser entwickelte Kolonien sorgen für höhere Einnahmen.
+
+					Damit Ihre Kolonien schneller wachsen und sich weiter entwickeln, sollten Sie dafür sorgen, dass die Bevölkerung zufrieden ist und sie mit reichlich Bau- und Luxusressourcen versorgt wird. Sie können das Wachstum Ihrer Kolonien auch beschleunigen, indem Sie auf dem Bildschirm Finanzierungsstufen im Abschnitt Ihr Imperium Finanzmittel zuweisen.
+
+					[H3]Kolonieliste[/H3]
+					Dieser Bildschirm listet alle kolonisierten Welten Ihres Reiches auf. Prüfen Sie die verschiedenen Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Kolonien auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Eintrag in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Eintrag klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Listenelement zeigt die Bevölkerungszahl, die Genehmigungsrate, die Entwicklungsstufe und die Steuereinnahmen jeder Kolonie an.
+
+					Wenn Sie auf eine Kolonie in der Liste klicken, wird diese ausgewählt. Außerdem öffnet sich dadurch das Kolonie-Detailfenster auf der rechten Seite. Ein Doppelklick auf die Kolonie verschiebt die Ansicht auf die Kolonie. Sie können das Kolonie-Detailfenster auch öffnen, indem Sie mit dem Mauszeiger auf den Pfeil ganz rechts neben dem Listenelement zeigen.
+
+					[H3]Kolonie-Detailfenster[/H3]
+					Das Panel Kolonie-Details bietet eine vollständige Übersicht über Ihre Kolonie. Außerdem bietet es eine Reihe von erweiterten Optionen zur Verwaltung Ihrer Kolonie.
+
+					Der obere Bereich zeigt die Entwicklung und die Wirtschaft der Kolonie. Mit den Schaltflächen unterhalb dieses Bereichs können Sie den Steuersatz ändern und entscheiden, ob Sie verschiedene Bereiche Ihrer Kolonie automatisieren möchten. Sie können auch eine bestimmte Armeevorlage zuweisen, die festlegt, welche Art von Verteidigungstruppen die Kolonie haben soll.
+
+					[H3]Bevölkerung[/H3]
+					Der Abschnitt Bevölkerung zeigt alle Ethnien in der Kolonie an. Wenn Sie den Mauszeiger über die einzelnen Ethnien bewegen, sehen Sie deren Reproduktionsrate und Assimilationsgrad.
+
+					In diesem Abschnitt wird auch die allgemeine Zustimmung der Kolonie zu Ihnen aufgeführt, zusammen mit einer Aufschlüsselung aller Faktoren, die zu dieser Zustimmung beitragen.
+
+					[H3]Truppen und Charaktere[/H3]
+					Der Abschnitt Truppen und Charaktere zeigt alle Truppenteile und Charaktere der Kolonie an.
+
+					Über die Schaltflächen unter diesem Abschnitt können Sie neue Truppenteile rekrutieren. Wenn Sie einzelne Truppenteile auswählen, können Sie die Einheit auch auflösen oder als Garnison einsetzen.
+
+					[H3]Planetarische Einrichtungen[/H3]
+					Der Abschnitt Planetarische Einrichtungen zeigt alle Einrichtungen, Wunder und Ruinen der Kolonie an.
+
+					Mit den Schaltflächen unter diesem Abschnitt können Sie neue Einrichtungen errichten. Wenn Sie einzelne Einrichtungen auswählen, können Sie das Gebäude auch verschrotten.
+
+					[H3]Bau[/H3]
+					Der Abschnitt Bau zeigt alle Schiffe oder Basen an, die derzeit in der Kolonie gebaut werden. Über die Schaltflächen unter diesem Bereich können Sie neue Schiffe oder Basen bauen.
+
+					Klicken Sie auf die Schaltfläche Schließen oben rechts im Fenster, um es zu schließen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyColonies_SubSection</string>
+					<string>ColonyDetailPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Kolonien</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle potenziellen neuen Kolonien auf, die Sie anvisieren können. Prüfen Sie die umfangreichen Sortier- und Filteroptionen am oberen Rand des Fensters. Mit den Filteroptionen können Sie bestimmte Eignungsstufen, außerirdische Ethnien oder Planetentypen anvisieren.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der neuen Kolonien auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Eintrag in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Eintrag klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht an diesen Ort.
+
+					Jeder Eintrag in der Liste zeigt die Größe und die Besiedelungseignung des Planeten oder Mondes an. Wenn Sie den Mauszeiger über die Eignungsbewertung bewegen, erhalten Sie eine detaillierte Zusammenfassung darüber, wie geeignet die neue Kolonie für jede Ethnie in Ihrem Reich ist.
+
+					[H3]Unabhängige Welten kolonisieren[/H3]
+					Wenn die potenzielle neue Kolonie bereits von einer unabhängigen fremden Ethnie (einer unabhängigen Kolonie) bewohnt wird, werden die Ethnie und die Bevölkerungszahl sowie die aktuelle Chance auf eine erfolgreiche Kolonisierung der unabhängigen Kolonie angezeigt, d.h. wie wahrscheinlich es ist, dass diese Ethnie den Beitritt zu Ihrem Imperium begrüßt.
+
+					[H3]Kolonisierung in der Warteschlange[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie die Kolonisierung des Planeten oder Mondes in die Warteschlange stellen. Dadurch wird ein neues Kolonieschiff gebaut, mit Kolonisten aus einer Ihrer Kolonien gefüllt und das neue Kolonieschiff dann zur Zielwelt geschickt, um diese zu kolonisieren.
+
+					Wenn es in Ihrem Reich bereits ein geeignetes Kolonieschiff gibt, können Sie stattdessen auch dieses für die Kolonisierung der neuen Welt verwenden.
+
+					[H3]Gefährliche Orte[/H3]
+					Ein rotes Blitzsymbol wird neben dem Ortsnamen angezeigt, wenn der Ort als gefährlich eingestuft wird. Ein Ort gilt als gefährlich, wenn dort ungeklärte Gefahren lauern, wie z.B. Piraten oder tödliche Weltraumkreaturen.
+
+					Nicht-militärische Schiffe werden nicht zu einem gefährlichen Ort reisen. Die Bedrohungen müssen erst von Militärschiffen oder einer Flotte beseitigt werden. Das bedeutet, dass Sie zwar den Bau einer neuen Kolonie an einem gefährlichen Ort in die Warteschlange stellen können, aber die Kolonieschiffe werden nicht dorthin reisen, bevor die Bedrohungen beseitigt sind.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyNewColonies_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Kolonie-Schiffe</StepTitle>
+				<MarkupText>
+					Kolonieschiffe sind spezielle Transportschiffe, die eine große Anzahl von Kolonisten aufnehmen können, um eine neue Welt für Ihr Imperium zu besiedeln.
+
+					Wenn die Kolonieschiffe ihr Ziel erreichen, werden sie zerlegt und die Rohstoffe für den Aufbau der neuen Kolonie verwendet. Kolonieschiffe können also nur für die Kolonisierung einer einzigen Welt verwendet werden. Sie müssen für jede Welt, die Sie kolonisieren möchten, ein neues Kolonieschiff bauen.
+
+					[H3]Kolonieschiffsliste[/H3]
+					Dieser Bildschirm listet alle Kolonieschiffe in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Kolonieschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Listenelement zeigt die Baustufe, die aktuelle Mission und alle geladenen Kolonisten an Bord an.
+
+					[H3]Automatisierungsstatus[/H3]
+					Sie können den Automatisierungsstatus des Kolonieschiffs über die Schaltfläche ganz rechts neben dem Listenelement ändern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyColonyShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Planetarische Einrichtungen</StepTitle>
+				<MarkupText>
+					Planetare Einrichtungen werden in Kolonien Ihres Reiches gebaut. Sie bieten verschiedene Boni oder neue Fähigkeiten für die Kolonie.
+
+					Einige Einrichtungen ermöglichen die Rekrutierung neuer Truppentypen. Andere bieten bodengestützte Waffen zur Verteidigung der Kolonie. Andere Einrichtungen geben Boni auf die Regierungsführung, reduzieren die Korruption und verbessern die Zufriedenheit und erhöhen so die Einnahmen der Kolonie.
+
+					Neue Einrichtungen werden durch Forschung ermöglicht: Schauen Sie sich die Projekte auf dem Forschungsbildschirm an, um zu sehen, welche Einrichtungen Sie freischalten können.
+
+					[H3]Neue Einrichtungen bauen[/H3]
+					Um eine neue Einrichtung in einer Kolonie zu bauen, wählen Sie die Kolonie aus und verwenden Sie die Aktionsschaltfläche 'Einrichtungen bauen' unter dem Auswahlfenster. Daraufhin wird eine Liste von Schaltflächen mit allen Einrichtungen angezeigt, die in der Kolonie gebaut werden können.
+
+					Bewegen Sie den Mauszeiger über jede Schaltfläche, um eine Übersicht über die Einrichtung zu erhalten. Klicken Sie auf eine Schaltfläche, um die Baukosten zu bezahlen und mit dem Bau der Einrichtung zu beginnen.
+
+					[H3]Einrichtungsliste[/H3]
+					Dieser Bildschirm listet alle planetarischen Einrichtungen, Wunder und Ruinen in den Kolonien Ihres Reiches auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Mit den Filteroptionen können Sie sich auf bestimmte Anlagentypen konzentrieren, z.B. Waffenanlagen, Truppenrekrutierung oder Regierungsgebäude.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Einrichtungen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird es ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Wenn Sie mit dem Mauszeiger über ein Listenelement fahren, wird eine detaillierte Zusammenfassung der Einrichtung in einem Feld auf der rechten Seite angezeigt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyFacilities_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Artefakte</StepTitle>
+				<MarkupText>
+					Auf diesem Bildschirm werden alle Artefakte aufgelistet, die sich im Besitz Ihres Reiches befinden.
+
+					Artefakte sind Objekte, die Sie durch Erkundung erwerben können. Sie geben Ihrem Reich oder ihrem Standort in der Regel Boni. Manchmal müssen sich Artefakte in einer Kolonie oder in Ihrer Hauptstadt befinden, um ihren Nutzen zu entfalten.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Artefakte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht an diesen Ort.
+
+					Wenn Sie den Mauszeiger über ein Artefakt in der Liste bewegen, wird auf der rechten Seite eine detaillierte Zusammenfassung angezeigt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyArtifacts_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Erkundung</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Erkundungsschiffe</StepTitle>
+				<MarkupText>
+					Bei der Erkundung werden Erkundungsschiffe ausgesandt, um unbekannte Welten aufzusuchen und ihre Ressourcen, ihre Eignung für die Kolonisierung und eventuelle Sonderboni zu ermitteln. Sie können auch auf uralte Ruinen oder verlassene Schiffe oder Basen stoßen, die Sie untersuchen können.
+
+					Die Orte können auf verschiedenen Ebenen erforscht werden. Die anfängliche Erkundung offenbart eher offensichtliche Daten, wie die Qualität eines Planeten oder die Ressourcen auf der Oberfläche.
+
+					Auf tieferen Ebenen der Erkundung können jedoch auch andere Dinge versteckt sein. Dazu können Boni, alte Ruinen, Ressourcen oder sogar seltene Artefakte gehören.
+
+					Die Erkundung auf einer tieferen Ebene erfordert bessere Komponenten mit einer höheren Bewertung, entweder Vermessungsmodule oder Erkundungsscanner.
+
+					An jedem Ort schickt das Erkundungsschiff Erkundungsteams aus, um den Planeten zu untersuchen. Die Erkundung ist langsam und zeitaufwändig.
+
+					Höhere Technologiestufen schalten Erkundungsscanner-Komponenten frei, die eine schnellere Erkundung ermöglichen. Langsamere Erkundungsteams können jedoch immer noch nützlich sein, um einen Ort gründlicher zu erkunden und so tief verborgene Gegenstände aufzudecken.
+
+					[H3]Liste der Erkundungsschiffe[/H3]
+					Dieser Bildschirm listet alle Erkundungsschiffe in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Erkundungsschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Sie können den Automatisierungsstatus des Erkundungsschiffs über die Schaltfläche ganz rechts neben dem Listenelement ändern.
+
+					[H3]Überlagerung der Erkundungskarte[/H3]
+					Wenn die Liste der Erkundungsschiffe geöffnet ist, wird das Overlay der Erkundungsgalaxie automatisch aktiviert und zeigt den Erkundungsstatus für jedes System an. Grüne Systeme sind vollständig erforscht, während gelbe Systeme teilweise erforscht sind.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ExplorationShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bekannte Ruinen</StepTitle>
+				<MarkupText>
+					Bei der Erkundung können Sie gelegentlich antike Ruinen an einigen Orten entdecken. Diese Ruinen können Geheimnisse und andere Gegenstände von Wert enthalten.
+
+					[H3]Liste der bekannten Ruinen[/H3]
+					Dieser Bildschirm listet alle Ruinen auf, die Sie bei Ihrer Erkundung der Galaxie gefunden haben.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der Ruinen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jeder Gegenstand in der Liste zeigt alle relevanten Boni an, die die Ruinen bieten. Sie können diese Boni für Ihr Imperium erhalten, indem Sie den Planeten, auf dem sich die Ruinen befinden, kolonisieren. Sie können Forschungsboni erhalten, indem Sie eine Forschungsstation an diesem Ort errichten. Sie können Landschaftsboni erhalten, indem Sie an diesem Ort eine Resort-Basis errichten.
+
+					Wenn Sie den Mauszeiger über eine Ruine in der Liste bewegen, wird auf der rechten Seite eine detaillierte Zusammenfassung angezeigt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ExplorationRuins_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Verlassene Schiffe und Basen</StepTitle>
+				<MarkupText>
+					Bei der Erkundung können Sie gelegentlich verlassene Schiffe oder Basen entdecken. Diese können wichtige Informationen enthalten, die Sie erhalten können, wenn Sie an Bord gehen und sie untersuchen. Sie können in der Regel auch geborgen werden, indem Sie ein Konstruktionsschiff schicken, um sie zu reparieren.
+
+					[H3]Liste der verlassenen Schiffe und Basen[/H3]
+					Dieser Bildschirm listet alle bekannten verlassenen Schiffe und Basen auf, auf die Sie bei Ihrer Erkundung der Galaxie gestoßen sind.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Standorte der verlassenen Schiffe und Basen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird das verlassene Schiff oder der Stützpunkt ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Mit der Schaltfläche auf der rechten Seite können Sie die Reparatur und Untersuchung des verlassenen Schiffes oder der Basis in die Warteschlange stellen. Dadurch wird ein Konstruktionsschiff zur Reparatur des Objekts geschickt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ExplorationAbandonedShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Besondere Orte</StepTitle>
+				<MarkupText>
+					Manchmal kann die Erkundung ungewöhnliche Orte zutage fördern. Dazu können Felder mit Schiffstrümmern aus alten Schlachten oder andere noch seltsamere Phänomene gehören.
+
+					[H3]Liste der besonderen Orte[/H3]
+					Dieser Bildschirm listet alle bekannten besonderen Orte auf, auf die Sie bei Ihrer Erkundung der Galaxie gestoßen sind.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die besonderen Orte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Punkt in der Liste bewegen, wird der Ort auf der Karte angezeigt. Wenn Sie auf den Eintrag klicken, wird der Ort ausgewählt.
+
+					Wenn Sie den Mauszeiger über einen besonderen Ort in der Liste bewegen, wird auf der rechten Seite eine detaillierte Zusammenfassung angezeigt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ExplorationSpecialLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Ressourcen und Bergbau</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Ressourcen</StepTitle>
+				<MarkupText>
+					Ressourcen sind die Rohstoffe, die auf Planeten, Monden und Asteroiden zu finden sind. Dazu können metallische Erze, Gase, Mineralien, Textilien, Nahrungsmittel, Getränke und viele andere Dinge gehören.
+
+					Sie können diese Ressourcen abbauen, um sie für Ihr Reich zu nutzen.
+
+					Einige Ressourcen werden für den Bau neuer Schiffe und für die Verbesserung des Wachstums Ihrer Kolonien verwendet. Andere Ressourcen werden verwendet, um die Entwicklung Ihrer Kolonien zu steigern - das sind Luxusressourcen. Und eine Ressource (Caslon) wird als universeller Reaktortreibstoff verwendet.
+
+					[H3]Ressourcenliste[/H3]
+					Dieser Bildschirm listet alle Ressourcen in der Galaxie auf.
+
+					Standardmäßig sind die Ressourcen so gefiltert, dass nur die Treibstoff- und Bauressourcen angezeigt werden, die Ihr Imperium derzeit nutzt. Die Standard-Sortierreihenfolge priorisiert die Ressourcen, bei denen Ihr Imperium einen Produktionsengpass hat.
+
+					Überprüfen Sie die Sortier- und Filtereinstellungen oben im Panel, um weitere Optionen zu erhalten. Zu den weiteren Filteroptionen gehört die Anzeige von Luxusressourcen, die zur Entwicklung Ihrer Kolonien beitragen. Zu den Sortieroptionen gehören Abbauraten, Nachfrage, Anzahl der Quellen und Lagerbestände in Ihrem Reich.
+
+					[H3]Überlagerung der Ressourcenflusskarte[/H3]
+					Wenn die Ressourcenliste geöffnet ist, wird das Overlay der Ressourcenfluss-Galaxiekarte automatisch aktiviert und zeigt den Ressourcenfluss zwischen den Sternensystemen Ihres Reiches an. Auf diese Weise können Sie den Fluss der Fracht, die von Frachtern und Minenschiffen zwischen den Kolonien und Basen Ihres Reiches transportiert wird, visualisieren.
+
+					Wenn Sie auf eine einzelne Ressource in der Liste klicken, wird das Overlay der Ressourcenflusskarte so gefiltert, dass nur der Frachttransport für die ausgewählte Ressource angezeigt wird. Alle bekannten Quellen für die ausgewählte Ressource werden auch auf der Galaxiekarte hervorgehoben. Ein erneuter Klick auf die Ressource hebt die Markierung wieder auf.
+
+					Jedes Listenelement zeigt den aktuellen Vorrat, die Produktionsrate und die Anzahl der bekannten und ausgebeuteten Quellen für die Ressource an.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesKnown_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bergbau Standorte</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle aktuellen Minenstandorte in Ihrem Reich auf. Dazu gehören Kolonien und Bergbaustationen. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach einzelnen Ressourcen filtern, um schnell alle Standorte für eine bestimmte Ressource in Ihrem Reich zu finden.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Abbauorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Element in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Listenelement zeigt alle bekannten Ressourcen, die an diesem Ort abgebaut werden, zusammen mit ihrer Häufigkeit an. Wenn bei einer Ressource ein Produktionsdefizit besteht, ist ihr Bild von einem gestrichelten roten Rahmen umgeben. Bewegen Sie den Mauszeiger über jede Ressource, um weitere Details zu sehen, einschließlich aller Boni, die sie bietet.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesMiningStations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Bergbaugebiete</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet potenzielle neue Abbauorte auf, die Sie ansteuern können. An diesen Orten sollten Sie neue Bergbaustationen errichten.
+
+					Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Mit den Filteroptionen können Sie bestimmte Ressourcen anvisieren. Gelb gefärbte Filterelemente sind Bauressourcen, die für den Bau neuer Schiffe und Basen verwendet werden. Hellblaue Filterelemente sind Luxusressourcen, die für den Ausbau Ihrer Kolonien verwendet werden.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die neuen Abbauorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Element in der Liste zeigt die bekannten Ressourcen und die Menge an, die an diesem Ort vorhanden ist. Wenn die Ressource in Ihrem Reich knapp ist, wird sie von einem gestrichelten roten Rahmen umgeben. Bewegen Sie den Mauszeiger über jede Ressource, um eine vollständige Übersicht zu erhalten, einschließlich aller Boni, die sie bietet.
+
+					[H3]Neue Bergbaustationen in die Warteschlange stellen[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie den Bau einer neuen Bergbaustation an diesem Ort in die Warteschlange stellen. Wenn das nächste Bauschiff verfügbar ist, wird es hier eine Bergbaustation errichten. Sie können die Schaltfläche erneut anklicken, um den Bau abzubrechen.
+
+					Wenn Sie an diesem Ort nicht bauen können, wird die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie dort nicht bauen können.
+
+					[H3]Gefährliche Orte[/H3]
+					Ein rotes Blitzsymbol wird neben dem Ortsnamen angezeigt, wenn der Ort als gefährlich eingestuft wird. Ein Ort gilt als gefährlich, wenn er von nicht beseitigten Gefahren wie Piraten oder tödlichen Weltraumkreaturen bedroht wird.
+
+					Nicht-militärische Schiffe werden nicht zu einem gefährlichen Ort reisen. Die Bedrohungen müssen erst von Militärschiffen oder einer Flotte beseitigt werden. Das bedeutet, dass Sie zwar den Bau neuer Bergbaustationen an einem gefährlichen Ort in die Warteschlange stellen können, aber die Bauschiffe werden nicht dorthin fahren, um die neue Station zu bauen, bevor die Bedrohungen beseitigt sind.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesNewMiningLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bergbau-Schiffe</StepTitle>
+				<MarkupText>
+					Bergbauschiffe sind mobile Schiffe zur Rohstoffgewinnung. Sie reisen zu Abbaustätten, um dort Ressourcen abzubauen. Sobald sie voll beladen sind, bringen sie die abgebauten Ressourcen zum nächsten Raumhafen zurück.
+
+					Bergbauschiffe sind Teil Ihrer zivilen Wirtschaft, daher können Sie ihnen normalerweise keine Aufträge erteilen. Stattdessen suchen sie auf eigene Faust nach Abbaustätten und bevorzugen dabei Ressourcen, die in Ihrem Reich sehr gefragt sind.
+
+					Einige Regierungsstile erlauben es Ihnen jedoch, den Bergbauschiffen direkt Missionen zuzuweisen. Sie können dann auswählen, wo jedes Bergbauschiff abbauen soll, indem Sie es auswählen und mit der rechten Maustaste auf den Zielabbauort klicken.
+
+					[H3]Bergbauschiff-Liste[/H3]
+					Dieser Bildschirm listet alle Minenschiffe in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach den Arten von Ressourcen filtern, die abgebaut werden: Treibstoff, Bau- oder Luxusressourcen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Bergbauschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die Ressourcen an, die das Bergbauschiff gerade abbaut, sowie die aktuelle Mission.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesMiningShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Kraftstofftankwagen</StepTitle>
+				<MarkupText>
+					Tanker sind unterwegs, um Schiffe mit wenig Treibstoff aufzutanken. Wenn Sie die Tanker einer Flotte zuweisen, werden sie vorrangig die Schiffe ihrer Flotte auftanken.
+
+					Sie können überall dort Treibstoff abbauen, wo es eine Treibstoffquelle gibt. Sie ziehen es jedoch vor, Treibstoff von einem Raumhafen oder einer Kolonie zu laden, da dies in der Regel ein schnellerer Weg ist, um Treibstoff zu erhalten.
+
+					[H3]Treibstofftanker-Liste[/H3]
+					Dieser Bildschirm listet alle Treibstofftanker in Ihrem Reich auf.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Treibstofftanker auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Ladung und Mission des Tankers an.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesFuelTankers_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Konstruktion</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Schiffsbau</StepTitle>
+				<MarkupText>
+					Diese Schaltfläche öffnet die Designliste, in der Sie alle Schiffs- und Basisdesigns für Ihr Reich sehen können.
+
+					Von dieser Liste aus können Sie Designs ansehen oder bearbeiten oder neue Designs erstellen.
+
+					Um einen neuen Entwurf hinzuzufügen, wählen Sie eine Schiffshülle aus und fügen dann im Bildschirm Schiffsentwurf Komponenten zu dem Entwurf hinzu.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ShipDesignScreenButton</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bauhöfe</StepTitle>
+				<MarkupText>
+					In den Bauwerften bauen Sie neue Schiffe für Ihr Imperium. Dazu gehören Raumhäfen, die in der Regel der schnellste Weg sind, neue Schiffe zu bauen. Auch Ihre Kolonien können Schiffe und Basen bauen.
+
+					[H3]Liste der Bauwerften[/H3]
+					Dieser Bildschirm listet alle aktuellen Bauwerften in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach Baugeschwindigkeit oder aktueller Wartezeit auf den Bau sortieren.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Bauwerften auf der Karte hervorgehoben. System- und Standortabzeichen zeigen Raumhäfen auch durch das gelbe Bausymbol an. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht an diesen Ort.
+
+					[H3]Warteschlange und Wartezeit[/H3]
+					Jedes Listenelement zeigt die aktuelle Bauwartezeit an. Dies ist die Zeit, bevor ein neuer Bau begonnen wird.
+
+					Außerdem werden die Schiffe oder Basen in der Warteschlange angezeigt, einschließlich der Schiffe, die zur Reparatur oder Nachrüstung eintreffen (noch nicht eingetroffen). Bewegen Sie den Mauszeiger über jedes Schiff oder jede Basis, um weitere Details zu sehen, einschließlich des prozentualen Baufortschritts.
+
+					Wenn Sie mit dem Mauszeiger über ein Listenelement fahren, wird auf der rechten Seite eine Zusammenfassung angezeigt. Diese Zusammenfassung zeigt an, wie viele einzelne Bauwerften der Standort hat. Sie zeigt auch die aktuelle Wartezeit sowie die Bau- und Reparaturgeschwindigkeit an.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ConstructionSpaceports_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Standorte für neue Bauhöfe</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet die Kolonien auf, auf denen Sie neue Raumhäfen bauen können. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die neuen Raumhafenstandorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Eintrag in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Eintrag klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht zu diesem Ort.
+
+					[H3]Neue Raumhäfen in die Warteschlange stellen[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie den Bau eines neuen Raumhafens in der Kolonie in die Warteschlange stellen.
+
+					Wenn Sie an diesem Ort nicht bauen können, wird die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie dort nicht bauen können.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ConstructionNewSpaceportLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bau-Schiffe</StepTitle>
+				<MarkupText>
+					Konstruktionsschiffe sind mobile Bauwerften. Sie bauen Basen verschiedener Art: Bergbaustationen, Forschungsstationen, Resort-Basen, Überwachungsstationen. Sie können auch unbewegliche beschädigte Schiffe reparieren. Sie können sogar verlassene Schiffe und Basen reparieren, auf die sie bei der Erkundung gestoßen sind.
+
+					Für den Bau eines neuen Stützpunktes werden Baumaterialien benötigt. Die erste Aktion eines Bauschiffs, das einen Bauauftrag erhält, besteht also darin, zum nächstgelegenen Raumhafen zu reisen, um die benötigten Baumaterialien zu laden.
+
+					[H3]Liste der Bauschiffe[/H3]
+					Auf diesem Bildschirm werden alle Konstruktionsschiffe in Ihrem Reich aufgelistet.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Konstruktionsschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird die Position auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission des Bauschiffs an.
+
+					[H3]Automatisierungsstatus[/H3]
+					Mit der kleinen Schaltfläche auf der rechten Seite können Sie den Automatisierungsstatus des Schiffes ändern. So können Sie das Konstruktionsschiff manuell steuern oder es vollständig automatisieren, so dass es seine eigenen Missionen auswählen kann.
+
+					Oder Sie können eine spezifischere Automatisierung festlegen, bei der das Konstruktionsschiff nur Bergbaustationen, Forschungsstationen, Überwachungsstationen, Resortbasen baut oder verlassene Schiffe und Basen birgt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ConstructionShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Auftrag erstellen</StepTitle>
+				<MarkupText>
+					Der Bildschirm Bauauftrag bietet eine schnelle Möglichkeit, eine große Anzahl von Schiffen zu bauen. In jeder Zeile ist eine einzelne Schiffsrolle zusammen mit einem Mengenfeld aufgeführt. Ändern Sie die zu bauende Menge in dem numerischen Feld. Sie können auch aus der Dropdown-Liste in der Mitte jeder Zeile das Design auswählen, das Sie für jede Rolle bauen möchten.
+
+					Sobald Sie die Menge und das Design, das Sie für jede Rolle bauen möchten, festgelegt haben, klicken Sie auf die Schaltfläche Kaufen am oberen Rand des Fensters, um die neuen Schiffe zu kaufen und mit dem Bau zu beginnen. Die neuen Schiffe werden in der besten verfügbaren Werft Ihres Reiches gebaut. Oft bedeutet dies, dass Sie mehrere über Ihr Reich verteilte Bauwerften nutzen.
+
+					[H3]Pro Rolle Karten-Overlay[/H3]
+					Wenn Sie auf eine Rollenzeile klicken, können Sie die Anzahl und den Bauplatz jedes neuen Schiffes festlegen, indem Sie mit der linken Maustaste auf die gelben Bauwerftabzeichen klicken, die auf der Galaxieebene angezeigt werden.
+
+					Wenn Sie einmal mit der linken Maustaste auf ein Bauwerftabzeichen klicken, wird der Bau eines einzelnen Schiffes für diese Rolle an diesem Ort in die Warteschlange gestellt. Wenn Sie mit der rechten Maustaste auf das Abzeichen klicken, wird der Bau eines einzelnen Schiffes für diese Rolle an diesem Ort entfernt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ConstructionBuildOrder_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Ship Design Screen</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Einführung</StepTitle>
+				<MarkupText>
+					Auf dem Bildschirm Schiffsentwurf können Sie einen neuen Entwurf für ein Schiff, eine Basis oder einen Raumjäger erstellen.
+
+					Sie erstellen einen neuen Entwurf, indem Sie Komponenten zu den Schächten in einer Hülle hinzufügen.
+
+					Ihr neuer Entwurf muss viele Anforderungen erfüllen, um als gültig zu gelten. Zum Beispiel:
+					[ULI]alle Entwürfe müssen eine Kommandozentrale haben[/ULI]
+					[ULI]alle Entwürfe müssen Treibstoff speichern, um Energie aus einem Reaktor zu erzeugen[/ULI]
+					[ULI]alle Schiffe müssen über Motoren verfügen, um mobil zu sein[/ULI]
+
+					Es gibt noch viele weitere Anforderungen, die für jede Rolle spezifisch sind.
+
+					[H3]Schaltfläche Empfehlungen[/H3]
+					Überprüfen Sie die Schaltfläche Empfehlungen und das Popup-Fenster, wenn Sie Komponenten zu Ihrem Entwurf hinzufügen (oben in der Entwurfsübersicht). Einige Empfehlungen sind optional (in gelb dargestellt). Andere Empfehlungen sind obligatorisch (in rot dargestellt).
+
+					Sie können Ihren Entwurf erst dann speichern, wenn alle Anforderungen erfüllt sind.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>Warnings</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Verfügbare Komponenten</StepTitle>
+				<MarkupText>
+					Die Liste Verfügbare Komponenten zeigt alle recherchierten Komponenten an, die Sie dem Entwurf hinzufügen können.
+
+					Es werden nur Komponenten angezeigt, die für die jeweilige Rolle gültig sind. Jäger sehen also keine Schiffskomponenten und umgekehrt. Komponenten werden auch ausgeschlossen, wenn sie zu groß für irgendwelche Schächte in der Hülle sind.
+
+					Sie können die Komponenten mit Hilfe der Dropdown-Liste oben links im Fenster weiter filtern. So können Sie nach Schachttyp filtern oder nur die neueste Komponente pro Kategorie anzeigen.
+
+					Sie können die Komponenten mithilfe der Dropdown-Liste oben rechts im Fenster sortieren. Hier können Sie nach Name, Kategorie, technischem Niveau oder Größe sortieren.
+
+					[H3]Komponentenübersicht[/H3]
+					Wenn Sie mit dem Mauszeiger über eine Komponente fahren, erscheint rechts eine Zusammenfassung mit den technischen Daten der Komponente.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>AvailableComponentContainer</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Design Buchten</StepTitle>
+				<MarkupText>
+					Die Liste der Konstruktionsschächte zeigt alle Komponentenschächte des Schiffsrumpfs an.
+
+					Die Komponenten, die der Liste Design Bays hinzugefügt werden, sind das Herzstück des Entwurfs. Die hier hinzugefügten Komponenten definieren die Fähigkeiten und das Verhalten des Entwurfs.
+
+					Jeder Schacht hat einen Typ und eine Größe. Sie können nur dann Komponenten in einem Feld platzieren, wenn es sich um einen passenden Typ handelt und wenn die Größe der Komponente in das Feld passt.
+
+					Es gibt 6 Typen von Komponentenfeldern. Jeder Buchtyp erlaubt nur bestimmte Arten von Komponenten:
+					[ULI]Allgemein: Kommandozentralen, Mannschaftsquartiere, Brennstoffzellen, Reaktoren, Hyperantriebe, Ladebuchten, Passagierräume, Truppenräume, Bergbautriebwerke, Energiesammler und alle anderen[/ULI]
+					[ULI]Waffen: Waffen oder Traktorstrahlen[/ULI]
+					[ULI]Triebwerke: Triebwerke und Vektortriebwerke[/ULI]
+					[ULI]Verteidigung: Panzerung, Schilde oder Schadenskontrolle[/ULI]
+					[ULI]Hangars: Andockbuchten, Bauwerften oder Kampfflugzeugschächte[/ULI]
+					[ULI]Sensoren: Scanner, Gegenmaßnahmen, Zielcomputer, Überwachungsmodule, Scanner-Störsender[/ULI]
+
+					So fügen Sie eine Komponente zu einem Feld hinzu:
+					[OLI]wählen Sie die gewünschte Komponente aus der Liste Verfügbare Komponenten[/OLI]
+					[OLI]suchen Sie in der Liste Entwurfsschächte einen Schacht des passenden Typs und der passenden Größe[/OLI]
+					[OLI]Klicken Sie mit der linken Maustaste in das Feld, um die Komponente zu platzieren[/OLI]
+
+					Sie können auch Folgendes tun:
+					[ULI]Wenn Sie den Mauszeiger über ein Feld bewegen, das bereits eine Komponente enthält, wird ein Popup-Vergleichsfenster angezeigt. So können Sie schnell die Unterschiede zwischen den Komponenten sehen[/ULI]
+					[ULI]mit der rechten Maustaste auf ein Feld klicken, um eine vorhandene Komponente zu entfernen[/ULI]
+
+					[H3]Externe Schächte[/H3]
+					Beachten Sie, dass einige Komponentenschächte im Vorschaumodell extern sind. Mit anderen Worten, sie sind an der Außenseite des Schiffes oder der Basis zu sehen.
+
+					Externe Schächte werden in der Liste der Entwurfsschächte durch ein 'Ansicht'-Symbol auf der linken Seite angezeigt. Sie können auf das Ansichtssymbol klicken, um die Vorschau so zu drehen, dass das externe Feld angezeigt wird.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DesignComponentsContainer</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Design Vorschau</StepTitle>
+				<MarkupText>
+					In der Mitte des Bildschirms sehen Sie eine Vorschau des Entwurfs.
+
+					Sie können die Ansicht drehen, indem Sie die rechte Maustaste gedrückt halten und die Maus nach links/rechts und oben/unten bewegen.
+
+					Verwenden Sie das Mausrad, um die Vorschau zu vergrößern oder zu verkleinern.
+
+					[H3]Externe Schachtmarkierungen[/H3]
+					Die externen Schächte werden in der Vorschau durch eine kugelförmige Markierung angezeigt. Die Farbe der Markierung entspricht dem Typ des Feldes.
+
+					Sie können die Markierungen für die externen Schächte mit der Schaltfläche rechts neben dem taktischen Einstellungsbereich ein- und ausschalten.
+
+					Sie können ausgewählte Komponenten direkt in die externen Schächte in der Vorschau platzieren:
+					[OLI]wählen Sie eine Komponente in der Liste Verfügbare Komponenten[/OLI]
+					[OLI]die gültigen Schächte werden dann in der Vorschau hervorgehoben[/OLI]
+					[OLI]klicken Sie mit der linken Maustaste auf einen gültigen Schacht, in den Sie die Komponente einfügen möchten[/OLI]
+
+					Sie können auch wie folgt vorgehen:
+					[ULI]Klicken Sie mit der rechten Maustaste auf eine Feldposition in der Vorschau, um eine vorhandene Komponente aus dem externen Feld zu entfernen[/ULI]
+
+					[H3]Triebwerksplatzierung[/H3]
+					Beachten Sie, dass beim Hinzufügen von Triebwerken zu einem Schiffsentwurf die tatsächliche Bucht, in der das Triebwerk hinzugefügt wird, von der von Ihnen ausgewählten Bucht abweichen kann. Das liegt daran, dass die Triebwerke symmetrisch bleiben müssen und daher immer auf abwechselnden Seiten des Entwurfs hinzugefügt werden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string></string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Design Übersicht</StepTitle>
+				<MarkupText>
+					Die Design-Übersicht zeigt alle aktuellen Werte für Ihr Design an. Die Werte in diesem Bereich ändern sich, wenn Sie Komponenten zum Rumpf hinzufügen oder entfernen.
+
+					Es gibt viele Abschnitte in der Designübersicht, in denen Daten zu verschiedenen Aspekten des Designs angezeigt werden. Viele der Daten enthalten weitere Informationen, wenn Sie mit dem Mauszeiger darüber fahren.
+
+					Ganz oben steht der Name des Entwurfs. Klicken Sie hier, um einen neuen Namen einzugeben.
+
+					[H3]Empfehlungen[/H3]
+					Als nächstes sehen Sie die Schaltfläche Empfehlungen. Hier wird eine Zusammenfassung aller Warnungen und Fehler im aktuellen Entwurf angezeigt.
+
+					Bewegen Sie den Mauszeiger über die Schaltfläche Empfehlungen, um ein größeres Übersichtsfenster zu öffnen. Klicken Sie auf die Schaltfläche, um das Fenster mit den Empfehlungen zu schließen.
+
+					Der Entwurf ist erst gültig (und kann nicht gespeichert werden), wenn alle Fehler behoben sind.
+
+					[H3]Kerninformationen zum Entwurf[/H3]
+					Als nächstes folgt eine Zusammenfassung der wichtigsten Entwurfsdaten. Dazu gehören auch Informationen über die Anschaffungs- und Unterhaltskosten.
+
+					Es werden auch einige wichtige Anforderungen genannt:
+					[ULI]der Entwurf darf nicht größer sein als die für den Rumpf zulässige Höchstgröße[/ULI]
+					[ULI]es muss eine angemessene Besatzung für den Entwurf vorhanden sein[/ULI]
+
+					[H3]Bewertung[/H3]
+					Der Abschnitt Bewertung fasst die Daten über den Entwurf in 4 Schlüsselbereichen zusammen: Angriffsstärke, Verteidigungsstärke, Geschwindigkeit und Manövrierfähigkeit sowie Scanner.
+
+					Bewegen Sie den Mauszeiger über jeden Wert, um eine Aufschlüsselung der Faktoren zu erhalten, die zur Bewertung in jedem Bereich beitragen.
+
+					[H3]Energie[/H3]
+					Der Abschnitt Energie fasst die Energieerzeugung, -speicherung und -verteilung im Entwurf zusammen.
+
+					Er zeigt auch Diagramme, die den Energieverbrauch sowohl bei Unterlichtgeschwindigkeit im Kampf als auch bei Hyperraumreisen darstellen. Für Basen wird nur ein Diagramm angezeigt.
+
+					Ein wichtiger Wert ist die Energieerzeugungsrate des Reaktors pro Treibstoffeinheit. Dieser Wert zeigt die Effizienz des Reaktortreibstoffs an, was sich direkt darauf auswirkt, wie schnell ein Schiff auftanken muss.
+
+					[H3]Bewegung[/H3]
+					Dieser Abschnitt ist nur für Schiffe relevant. Er zeigt die Bewegungsgeschwindigkeit und den Energieverbrauch auf verschiedenen Ebenen an.
+
+					Außerdem werden hier die Sprungreichweite des Hyperantriebs und die Gesamttreibstoffreichweite angezeigt.
+
+					Die Sprunggenauigkeit des Hyperantriebs gibt die minimale Sprungreichweite an, wenn Sie zu einem Ort ohne eigene Kolonie oder Basis reisen, z.B. wenn Sie einen feindlichen Ort angreifen.
+
+					Das bedeutet, dass das Schiff den Sprung ungefähr in dieser Entfernung verlässt und dann mit Unterlichtgeschwindigkeit zum Zielort reisen muss.
+
+					[H3]Waffen[/H3]
+					Im Abschnitt Waffen finden Sie eine Übersicht über die Reichweite der Waffen und die Schadensraten pro Sekunde für die verschiedenen Waffenkategorien.
+
+					Wenn Sie den Mauszeiger über die Schadensdiagramme der Waffen bewegen, erhalten Sie weitere Informationen.
+
+					Außerdem werden die Kämpferkapazität und die Baurate angezeigt.
+
+					[H3]Verteidigung[/H3]
+					Der Abschnitt Verteidigung zeigt die Schild-, Panzerungs- und Schadensreparaturwerte für den Entwurf an.
+
+					Wenn Sie den Mauszeiger über die Schild- und Panzerungsdiagramme bewegen, werden weitere Informationen angezeigt.
+
+					Außerdem wird die Verteidigungsstärke des Schiffes angezeigt.
+
+					[H3]Zielen und Gegenmaßnahmen[/H3]
+					In diesem Abschnitt werden die Boni für Zielerfassung und Gegenmaßnahmen angezeigt.
+
+					Durch verbessertes Zielen werden die Waffen präziser und treffen mit größerer Wahrscheinlichkeit ihr Ziel.
+
+					Verbesserte Gegenmaßnahmen sorgen dafür, dass ein Design besser in der Lage ist, feindliche Waffen abzuwehren und so Schaden zu vermeiden.
+
+					[H3]Sensoren[/H3]
+					Der Abschnitt Sensoren beschreibt die Stärke und Reichweite einer Reihe verschiedener Scannertypen:
+					[ULI]allgemeine Kurz- und Langstreckenscanner zum Aufspüren entfernter Schiffe[/ULI]
+					[ULI]Hypersprungverfolgung feindlicher Schiffe, wenn diese von Ihrem Standort wegspringen[/ULI]
+					[ULI]Spurensuche nach internen Informationen über feindliche Schiffe in der Nähe[/ULI]
+					[ULI]Scanner-Störung, die vor dem Scannen durch Feinde schützt[/ULI]
+
+					[H3]Industrie[/H3]
+					Der Abschnitt Industrie enthält Werte für verschiedene Industriekategorien wie Frachtlager, Andockdurchsatz, Bergbau, Forschung und andere.
+
+					[H3]Boni[/H3]
+					Der Abschnitt Boni fasst alle Boni zusammen, die durch die Hülle oder andere Komponenten des Schiffsdesigns gewährt werden.
+
+					[H3]Benötigte Ressourcen für den Bau[/H3]
+					In diesem Abschnitt werden die gesamten Ressourcen angegeben, die für den Bau eines neuen Exemplars dieses Entwurfs erforderlich sind.
+
+					Dazu gehören die Ressourcen der Hülle und aller Komponenten des Entwurfs.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>DesignSummaryContainer</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Taktische Einstellungen</StepTitle>
+				<MarkupText>
+					Verwenden Sie die Schaltflächen für die taktischen Einstellungen, um die Standardtaktiken für das neue Design festzulegen. Diese Standardtaktiken werden für neue Schiffe und Basen verwendet, die das Design verwenden.
+
+					Sobald die Schiffe gebaut sind, können sie ihre eigene Taktik festlegen, aber ihre anfängliche Taktik stammt von ihrem Entwurf.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>TacticsButtonStrip</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Speichern und Beenden</StepTitle>
+				<MarkupText>
+					Wenn Sie alle Komponenten zu Ihrem Entwurf hinzugefügt haben und alle Anforderungen erfüllt sind, klicken Sie auf die Schaltfläche Speichern und Beenden, um zur Hauptansicht zurückzukehren.
+
+					Oder Sie klicken auf die Schaltfläche Abbrechen, um zur Hauptansicht zurückzukehren, ohne den aktuellen Entwurf zu speichern.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>Close</string>
+					<string>Save</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Forschung</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Forschung</StepTitle>
+				<MarkupText>
+					Die Forschung schaltet neue Technologien frei, mit denen Sie Ihr Imperium auf verschiedene Weise verbessern können:
+					[ULI]neue Schiffsrümpfe und Komponenten ermöglichen es Ihnen, größere und bessere Schiffe und Basen zu bauen[/ULI]
+					[ULI]neue planetare Einrichtungen helfen Ihnen, Ihre Kolonien zu verbessern[/ULI]
+					[ULI]Verbesserungen für Ihre Fähigkeit, neue Welten zu kolonisieren[/ULI]
+					[ULI]Verbesserungen für Ihre Bodentruppen[/ULI]
+					[ULI]bietet verschiedene Boni, einschließlich der Verbesserung Ihrer diplomatischen Beziehungen zu anderen Fraktionen[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchSection_SectionHeader</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Forschungsbildschirm und Output</StepTitle>
+				<MarkupText>
+					Diese Schaltfläche öffnet den Forschungsbildschirm, in dem Sie den gesamten Technologiebaum einsehen und neue Projekte für die Forschung auswählen können.
+
+					Sie können den Forschungsfortschritt auch beschleunigen, indem Sie für die "Crash-Forschung" eines Projekts bezahlen.
+
+					[H3]Gleichzeitige Projekte[/H3]
+					Wenn Sie über mehrere Forschungsstationen verfügen, können Sie mehr als ein Projekt gleichzeitig erforschen.
+
+					Mit diesem Wert legen Sie die Obergrenze fest, wie viele Projekte Sie gleichzeitig erforschen können.
+
+					[H3]Quellen und Output[/H3]
+					Der Forschungsoutput stammt sowohl von den Populationen in Ihren Kolonien als auch von den Forschungsstationen, die Sie bauen.
+
+					Um Ihren Forschungsoutput voll auszuschöpfen, sollten Sie auch überschüssige Mittel für die Forschung ausgeben. Vollständig finanzierte Forschung bedeutet schnelleren Zugang zu neuen Technologien.
+
+					Sie können die Forschungsmittel auf dem Bildschirm Finanzierungsstufen (Strg-F2) im Abschnitt Reich zuweisen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchScreenButton</string>
+					<string>Research_MaximumConcurrentProjects</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Forschungsstationen</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle aktuellen Forschungsstandorte in Ihrem Reich auf. Dazu gehören Forschungsstationen und alle anderen Basen mit Forschungslabors. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach bestimmten Forschungsboni filtern, um schnell alle Standorte für ein bestimmtes Forschungsgebiet in Ihrem Reich zu finden.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Forschungsstandorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht zu diesem Ort.
+
+					[H3]Forschungsleistung[/H3]
+					Jedes Listenelement zeigt die Forschungsleistung des Ortes an. Außerdem sind alle Forschungsboni an diesem Ort aufgeführt. Bewegen Sie den Mauszeiger über die Beschreibung der Boni, um eine vollständige Übersicht über alle Forschungsboni an diesem Ort zu erhalten, einschließlich der Quellen, aus denen sie stammen. Wenn sich Wissenschaftler an Bord der Basis befinden, werden sie ebenfalls hier oben rechts angezeigt.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchResearchStations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Forschungsstandorte</StepTitle>
+				<MarkupText>
+					Auf diesem Bildschirm werden dir bereits erkundete Orte angezeigt, die besondere Forschungsboni bieten. An diesen Orten solltest du neue Forschungsstationen errichten. Nutze die Sortier- und Filteroptionen oben im Fenster. Du kannst nach bestimmten Forschungsboni filtern, um schnell neue Standorte für einen bestimmten Forschungsbereich zu finden.
+
+					Wenn man auf Galaxie- oder Systemebene herauszoomt, werden die neuen Forschungsstandorte auf der Karte hervorgehoben. Wenn man mit der Maus über einen Eintrag in der Liste fährt, wird der Standort auf der Karte markiert. So lässt sich leicht erkennen, wo sich ein Standort im Verhältnis zu anderen befindet.
+
+					Durch Klicken auf einen Listeneintrag wird dieser ausgewählt. Durch Doppelklicken auf einen Eintrag wird die Ansicht an diese Stelle verschoben.
+
+					Jeder Listeneintrag zeigt die Forschungsboni an diesem Ort an. Wenn du mit der Maus über die Bonusbeschreibung fährst, erhältst du eine vollständige Übersicht über alle Forschungsboni an diesem Ort, einschließlich ihrer Herkunft.
+
+					[H3]Neue Forschungsstationen in die Warteschlange stellen[/H3]
+					Über die Schaltfläche rechts kannst du den Bau einer neuen Forschungsstation an diesem Standort in die Warteschlange stellen. Sobald das nächste Bauschiff verfügbar ist, wird hier eine Forschungsstation errichtet. Du kannst die Schaltfläche erneut anklicken, um den Bau abzubrechen.
+
+					Wenn du an diesem Ort nicht bauen kannst, ist die Schaltfläche „Warteschlange“ deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum du dort nicht bauen kannst.
+
+					[H3]Gefährliche Orte[/H3]
+					Neben dem Namen eines Ortes wird ein rotes Blitzsymbol angezeigt, wenn dieser Ort als gefährlich eingestuft wird. Ein Ort gilt als gefährlich, wenn dort unbewältigte Bedrohungen wie Piraten oder tödliche Weltraumkreaturen vorhanden sind.
+
+					Nicht-Militärschiffe begeben sich nicht an gefährliche Orte. Die Bedrohungen müssen zunächst von Militärschiffen oder einer Flotte beseitigt werden. Das bedeutet, dass du zwar den Bau neuer Forschungsstationen an einem gefährlichen Ort in die Warteschlange stellen kannst, die Bauschiffe jedoch erst dann dorthin fahren, um die neue Station zu errichten, wenn die Bedrohungen beseitigt sind.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchNewResearchLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Forschungsbonus Beträge</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle Forschungsboni in Ihrem Reich auf, aufgeteilt nach Typ. Forschungsboni sind in zweierlei Hinsicht wichtig:
+					[ULI]Die Forschungsgeschwindigkeit wird für Projekte mit dem entsprechenden Bonustyp erhöht, z.B. wird die Erforschung neuer Schiffsrümpfe beschleunigt, wenn Sie Forschungsboni für den Bau haben[/ULI]
+					[ULI]Einige Forschungsprojekte haben zusätzliche Anforderungen, die nur erfüllt werden können, wenn Sie über genügend Forschungsboni eines bestimmten Typs verfügen, z.B. müssen Sie für einige hochwertige Schildprojekte eine bestimmte Anzahl von Schildforschungsboni haben[/ULI]
+
+					Wenn Sie mit dem Mauszeiger über die einzelnen Forschungsbonustypen fahren, wird in einem Feld auf der rechten Seite eine vollständige Aufschlüsselung aller Quellen für den jeweiligen Bonus angezeigt.
+
+					Zu diesen Quellen können Orte gehören, an denen Sie eine Forschungsstation errichtet haben. Sie können auch Wissenschaftler und andere Charaktere enthalten. Andere Quellen können Boni von Ethnien oder Regierungen sein.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchBonusAmounts_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Wissenschaftler</StepTitle>
+				<MarkupText>
+					Alle Wissenschaftlercharaktere in Ihrem Reich werden in dieser Liste angezeigt.
+
+					Sie können die Details jedes Wissenschaftlers sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu öffnen.
+
+					Sie können den Namen eines Wissenschaftlers ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Standorte von Wissenschaftlern[/H3]
+					Wissenschaftler wenden Forschungsvorteile an, wenn sie sich an Bord einer Forschungsstation befinden. Sie sollten die Dropdown-Liste der Standorte und die Schaltfläche 'Übertragen' verwenden, um sie einem bestimmten Standort zuzuweisen.
+
+					Alternativ können Sie den Wissenschaftler auch automatisieren, so dass Ihre Forschungsberater den besten Standort für ihn auswählen. Verwenden Sie dazu die Schaltfläche 'Automatisieren' unter dem Wissenschaftlerporträt auf der rechten Seite.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Wissenschaftler beteiligt war. Verschiedene Ereignisse können seine Fähigkeiten verbessern oder verschlechtern oder ihm neue Charaktereigenschaften verleihen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CharactersScientists_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Research Screen</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Übersicht</StepTitle>
+				<MarkupText>
+					Der Bildschirm Forschung zeigt alle Forschungsprojekte an.
+
+					Projekte müssen erforscht werden, um ihren Nutzen freizusetzen. Das Erforschen braucht Zeit. Die Geschwindigkeit der Forschung wird durch die Forschungsleistung Ihrer Kolonien und Forschungsstationen bestimmt.
+
+					Forschungsprojekte liefern die folgenden Arten neuer Technologien, die Ihr Imperium auf verschiedene Weise verbessern können:
+					[ULI]neue Schiffsrümpfe und Komponenten ermöglichen es Ihnen, größere und bessere Schiffe und Basen zu bauen[/ULI]
+					[ULI]neue planetare Einrichtungen helfen Ihnen, Ihre Kolonien zu verbessern[/ULI]
+					[ULI]verbessern Sie Ihre Fähigkeit, neue Welten zu kolonisieren[/ULI]
+					[ULI]verbessern Ihre Bodentruppen[/ULI]
+					[ULI]bieten verschiedene Boni, einschließlich der Verbesserung Ihrer diplomatischen Beziehungen zu anderen Fraktionen[/ULI]
+
+					Die linke Seite des Bildschirms ist die niedrigste Technologiestufe. Dies sind die Techs, die Sie zu Beginn eines neuen Spiels haben.
+
+					Je weiter Sie auf der rechten Seite des Bildschirms vorankommen, desto höher wird die Tech-Stufe.
+
+					[H3]Reihenfolge der Forschung[/H3]
+					Die Projekte sind durch Pfade miteinander verbunden. Übergeordnete Projekte müssen vor untergeordneten Projekten erforscht werden. Wenn Sie ein Projekt erforschen, werden alle untergeordneten Projekte (normalerweise auf der rechten Seite) für die Forschung freigeschaltet.
+
+					[H3]Blinde versus nicht blinde Forschung[/H3]
+					Wenn Ihr Spiel für die blinde Forschung eingerichtet wurde, können Sie nur die nächsten verfügbaren Projekte sehen, die über die bereits erforschten hinausgehen.
+
+					Wenn Ihr Spiel nicht auf blinde Forschung eingestellt ist, können Sie alle Projekte ab Spielbeginn sehen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string></string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Navigieren auf dem Recherchebildschirm</StepTitle>
+				<MarkupText>
+					Sie können die Ansicht im Recherchebildschirm verschieben, indem Sie mit der linken Maustaste klicken und die Maus ziehen.
+
+					Mit dem Scrollrad der Maus können Sie die Ansicht schnell nach oben oder unten verschieben.
+
+					Sie können die Ansicht vergrößern oder verkleinern, um mehr oder weniger der verfügbaren Projekte zu sehen. Sie können dies auf 2 Arten tun:
+					[ULI]Halten Sie die Strg-Taste gedrückt, während Sie das Scrollrad der Maus benutzen[/ULI]
+					[ULI]klicken Sie auf die Schaltflächen Vergrößern oder Verkleinern im Bedienfeld auf der rechten Seite[/ULI]
+
+					Sie können auch die Pfeiltasten verwenden, um nach oben/unten/links/rechts zu scrollen.
+
+					Um die Ansicht schnell nach oben oder unten zu verschieben, verwenden Sie die Tasten PageUp und PageDown.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>Research_ZoomIn</string>
+					<string>Research_ZoomOut</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Anzeigen und Recherchieren eines Projekts</StepTitle>
+				<MarkupText>
+					Wenn Sie den Mauszeiger über ein Projekt bewegen, wird eine Zusammenfassung des Projekts angezeigt, einschließlich der Vorteile, die es freisetzt. Wenn Sie den Mauszeiger länger über ein Projekt bewegen, wird eine detailliertere Zusammenfassung mit umfassenden Daten zu den Projektvorteilen angezeigt.
+
+					Beachten Sie, dass Sie den Mauszeiger auch über Projekte in der Forschungswarteschlange und die Schaltfläche 'Vorgeschlagenes Projekt in die Warteschlange stellen' bewegen können.
+
+					[H3]Ein Projekt in die Warteschlange für die Forschung stellen[/H3]
+					Klicken Sie mit der linken Maustaste auf ein Projekt, um es in die Warteschlange für die Recherche zu stellen.
+
+					Klicken Sie mit der rechten Maustaste auf ein Projekt, um es aus der Recherche-Warteschlange zu entfernen.
+
+					[H3]Einführungskosten[/H3]
+					Bei einigen Projekten müssen Sie eine Gebühr entrichten, bevor die Forschung beginnen kann. Diese Kosten können Geld und Ressourcen umfassen.
+
+					Wenn Sie auf die linke Maustaste klicken, um ein Projekt in die Warteschlange zu stellen, für das Einführungskosten anfallen, erscheint ein Fenster, in dem Sie aufgefordert werden, die Zahlung der Kosten zu genehmigen.
+
+					[H3]Zusätzliche Anforderungen[/H3]
+					Für einige Projekte müssen Sie einen zusätzlichen Forschungsbonus erhalten, bevor Sie mit der Erforschung des Projekts beginnen können.
+
+					Das bedeutet, dass Sie sie nur dann in Angriff nehmen können, wenn Sie über genügend Forschungsboni eines bestimmten Typs verfügen, z.B. benötigen Sie für einige hochwertige Schildprojekte einen bestimmten Schwellenwert an Schildforschungsboni.
+
+					Sie können Forschungsboni in bestimmten Gebieten erhalten, indem Sie diese Orte durch Erkundung aufspüren. Wenn Sie ein Gebiet mit besonderen Forschungsboni gefunden haben, können Sie dort eine Forschungsstation errichten, um diese Boni für Ihr Imperium zu erhalten.
+
+					Darüber hinaus können Sie auch auf andere Weise Forschungsboni erhalten:
+					[ULI]von Ihren Anführer- und Wissenschaftler-Charakteren[/ULI]
+					[ULI]einige Völker haben Forschungsboni in bestimmten Gebieten[/ULI]
+					[ULI]einige planetare Einrichtungen bieten Forschungsboni[/ULI]
+
+					[H3]Crash-Forschung[/H3]
+					Sie können die Erforschung eines wichtigen Projekts beschleunigen, indem Sie es 'crash-erforschen'. Das bedeutet, dass Sie Geld ausgeben, um die Forschungsrate für dieses Projekt zu verdoppeln.
+
+					Um ein Projekt zu erforschen:
+					[ULI]stellen Sie sicher, dass das Projekt gerade erforscht wird, d.h. das oberste Projekt in der Warteschlange ist[/ULI]
+					[ULI]klicken Sie auf das Projekt in der Ansicht[/ULI]
+					[ULI]es erscheint ein Fenster, in dem Sie aufgefordert werden, die Zahlung für die Notfallrecherche des Projekts zu genehmigen[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string></string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bedienfeld</StepTitle>
+				<MarkupText>
+					Auf der rechten Seite des Bildschirms befindet sich das Forschungskontrollzentrum. Dieses Panel bietet eine Reihe von Funktionen, die bei der Navigation durch den Tech-Baum hilfreich sind.
+
+					[H3]Maximale gleichzeitige Projekte[/H3]
+					In der Nähe des oberen Bereichs finden Sie eine Erklärung zur maximalen Anzahl gleichzeitiger Forschungsprojekte. Bewegen Sie den Mauszeiger über diese Erklärung, um weitere Einzelheiten zu erfahren.
+
+					[H3]Vergrößern/Verkleinern[/H3]
+					Auf der rechten Seite befinden sich die Schaltflächen Vergrößern und Verkleinern, mit denen Sie mehr oder weniger von den verfügbaren Projekten sehen können.
+
+					[H3]Sprung-Schaltflächen[/H3]
+					Als nächstes folgen die Schaltflächen Springen. Wenn Sie auf eine dieser Schaltflächen klicken, können Sie die Ansicht sofort in die erste Zeile der Projekte für diese Kategorie verschieben.
+
+					Wenn Sie z.B. auf die Schaltfläche 'Hyperraumtechnik' klicken, wird die Ansicht sofort so verschoben, dass die Hyperantriebs-Projekte oben auf dem Bildschirm angezeigt werden.
+
+					[H3]Projekte filtern[/H3]
+					Darunter befindet sich eine Dropdown-Liste, mit der Sie die angezeigten Projekte filtern können. So können Sie sich ausschließlich auf eine Kategorie konzentrieren. Das bedeutet natürlich auch, dass Sie die anderen Projekte nicht sehen können. Kehren Sie also unbedingt zu 'Alle Projekte' zurück.
+
+					[H3]Nächstes vorgeschlagenes Projekt[/H3]
+					Als nächstes folgt die Schaltfläche 'Vorgeschlagenes Projekt in die Warteschlange stellen'. Diese Schaltfläche schlägt Ihnen das nächste Projekt vor, das Sie nach Meinung Ihrer Forschungsberater bearbeiten sollten. Klicken Sie auf die Schaltfläche, um das vorgeschlagene Projekt in die Warteschlange zu stellen.
+
+					Wenn Sie mit dem Mauszeiger über die Schaltfläche fahren, wird eine Zusammenfassung des vorgeschlagenen Projekts angezeigt. Wenn Sie den Mauszeiger über die Schaltfläche bewegen, wird das Projekt auch in der Ansicht angezeigt (Sie müssen eventuell herauszoomen, um zu sehen, wo es sich befindet).
+
+					[H3]Recherche-Warteschlange[/H3]
+					Schließlich gibt es noch die Forschungswarteschlange. Hier sehen Sie alle Projekte, die derzeit in der Warteschlange für die Forschung stehen. Die obersten Projekte werden derzeit aktiv bearbeitet (die Anzahl der gleichzeitigen Projekte), während die nachfolgenden Projekte warten, bis die obersten Projekte abgeschlossen sind.
+
+					Sie können Projekte aus der Warteschlange entfernen, indem Sie mit der rechten Maustaste auf sie in der Warteschlange klicken. Sie können Projekte auch mit den Pfeilen auf der rechten Seite in der Warteschlange nach oben oder unten verschieben.
+
+					[H3]Beenden der Forschung[/H3]
+					Ganz oben befindet sich die Schaltfläche 'Recherche beenden'. Wenn Sie auf diese Schaltfläche klicken, wird der Forschungsbildschirm geschlossen und Sie kehren zum Spiel zurück.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ResearchNavigationPanel</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Militär</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Militärschiffe</StepTitle>
+				<MarkupText>
+					Militärschiffe verteidigen Ihr Imperium gegen feindliche Angriffe. Sie können auch eingesetzt werden, um Ihr Reich durch Eroberungen, Angriffe auf feindliche Flotten und die Invasion feindlicher Kolonien zu vergrößern. Militärschiffe können Sie auch gegen marodierende Piraten und gefährliche Weltraumkreaturen schützen.
+
+					Militärschiffe gibt es in verschiedenen Größen und Funktionen. Mit fortschreitender Technologie können Sie neue Militärschiffsrümpfe erforschen, die es Ihnen ermöglichen, größere Militärschiffe zu entwerfen und zu bauen.
+					[ULI]Eskorte: das kleinste Militärschiff. Kann feindliche Angriffe abwehren, vor allem, wenn sich mehrere Eskorten an einem Ort befinden[/ULI].
+					[ULI]Fregatte: schnelle Schiffe, die gut geeignet sind, um feindliche Angreifer, wie z.B. Piraten, abzufangen. Kann auch effektiv als Wache oder Eskorte in einer Flotte eingesetzt werden.
+					[ULI]Zerstörer: das kleinste Schiff, das sich gut für offensive Operationen eignet. Verfügen oft über viele Distanzwaffen, die effektive Fernangriffe gegen feste Ziele wie feindliche Stützpunkte ermöglichen. Kann über Kampfflugzeuge verfügen, was allerdings erhebliche Raumkosten verursacht[/ULI].
+					[ULI]Kreuzer: sehr starke und fähige Mehrzweckkampfschiffe. Sie verfügen in der Regel über ein ausgewogenes Waffenarsenal, aber in der Regel nicht über exotischere Ausrüstung wie Flächenwaffen oder Hyperverteidigungskomponenten. Kann über Jägerbuchten verfügen[/ULI].
+					[ULI]Schlachtschiff: Der größte Typ eines Militärschiffs. In der Regel mit einer ganzen Reihe von Waffentypen ausgestattet: Nahkampf, Abstandswaffen, Abfangwaffen, Flächenwaffen, Ionenwaffen, Hyperverteidigungswaffen. Kann auch über Jägerschächte und Langstrecken-Scanner verfügen. Die offensichtliche Wahl für Schiffe an der Spitze der Flotte. Auch gute Schiffe, auf denen Sie Ihre wertvollen Admiräle stationieren können[/ULI].
+					[ULI]Trägerschiff: Spezialisiert mit mehreren Hangarbuchten zur Unterbringung vieler Jäger. Sie vermeiden es in der Regel, direkt in Kämpfe verwickelt zu werden, und verlassen sich stattdessen auf ihre große Anzahl an Jägern, um den Feind anzugreifen. Sie können auch mit Langstreckenscannern ausgestattet sein und eignen sich gut als Flottenführungsschiffe[/ULI].
+					[ULI]Truppentransporter: Sie sind darauf spezialisiert, große Mengen an Truppen zur Invasion feindlicher Kolonien oder zur Verstärkung Ihrer eigenen Kolonien zu transportieren. Verfügt auch über Assault Pod-Komponenten, um Truppen für die Invasion zu entsenden. Normalerweise Teil einer speziellen Invasionsflotte[/ULI].
+					[ULI]Treibstofftanker: versorgen andere Schiffe mit Treibstoff und erhöhen so deren Reichweite, insbesondere wenn sie sich in feindlichem Gebiet befinden. Können ihren eigenen Treibstoff von Gasplaneten abbauen. Kein reines Militärschiff, wird aber oft als Unterstützungsschiff für Flotten eingesetzt.[/ULI]
+
+					[H3]Zuteilung von Missionen[/H3]
+					Um einem Militärschiff Missionen zuzuweisen, wählen Sie es zunächst mit einem Linksklick in der Liste oder direkt in der Hauptansicht aus. Klicken Sie dann mit der rechten Maustaste auf das Ziel, um die Standardmission zuzuweisen.
+
+					Wenn Sie die Taste für den Rechtsklick gedrückt halten, wird eine Liste mit allen gültigen Missionen für das Ziel angezeigt. Wählen Sie die gewünschte Missionsart aus der Liste aus.
+					[ULI]Angriff: leitet einen Angriff auf ein feindliches Ziel ein, sei es ein Schiff, eine Basis, eine Kolonie oder eine Raumkreatur. Beachten Sie, dass die Zuweisung einer Angriffsmission gegen eine feindliche Kolonie an ein Schiff mit Truppen eine Invasion auslöst, bei der das Schiff versucht, seine Truppen in der Kolonie zu landen[/ULI].
+					[ULI]Überfall: Versucht, die Schilde des feindlichen Stützpunkts zu senken und landet dann Überfallkommandos mit Angriffskapseln. Wenn die Angreifer die Verteidiger besiegen, können sie den Stützpunkt plündern und Geld, Ressourcen oder Technologie erbeuten[/ULI].
+					[ULI]Eroberung: Versucht, die Schilde des feindlichen Schiffes oder Stützpunktes zu senken und landet dann Entertrupps, die versuchen, das Ziel zu übernehmen. Wenn die Eindringlinge die Verteidiger besiegen, übernehmen sie das Schiff oder den Stützpunkt für Ihr Imperium[/ULI].
+					[ULI]Bombardierung: Orbitales Bombardement einer feindlichen Kolonie, wodurch die Verteidigung, die Truppen, die Bevölkerung oder die Qualität der Kolonie reduziert wird. Dies kann ein effektives Mittel sein, um eine Kolonie vor einer Invasion zu schwächen. Bombardierungswaffen sind oft darauf spezialisiert, bestimmte Aspekte der Kolonieverteidigung zu zerstören[/ULI].
+					[ULI]Blockade: Parken Sie vor einem feindlichen Stützpunkt oder einer Kolonie und hindern Sie alle Schiffe daran, Fracht oder Passagiere zu laden oder zu entladen. Greift alle Schiffe an, die versuchen, die Blockade zu durchbrechen[/ULI].
+					[ULI]Eskorte: Begleiten Sie ein ziviles Schiff und schützen Sie es vor Angriffen jeglicher Art.
+					[ULI]Wache: Parken Sie bei einer befreundeten Basis oder Kolonie und schützen Sie sie vor Angriffen.[/ULI]
+					[ULI]Truppen laden: Laden Sie Truppen aus einer Ihrer Kolonien auf ein Schiff mit freier Truppenkapazität.[/ULI]
+					[ULI]Truppen entladen: entladen Sie Truppen von einem Ihrer Schiffe auf eine Kolonie.[/ULI]
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+
+			<TourStep>
+				<StepTitle>Militärschiffe</StepTitle>
+				<MarkupText>
+					[H3]Liste der Militärschiffe[/H3]
+					Dieser Bildschirm listet alle Militärschiffe in Ihrem Reich auf. Prüfen Sie die umfangreichen Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach Stärke, Größe, Flotte, Rolle und Angriffsstärke der Truppen sortieren. Sie können nach Rolle, Flottenstatus, Automatisierungsstatus und Schadensstufe filtern.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Militärschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird die Position auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission des Schiffes an. Wenn das Schiff Teil einer Flotte ist, wird der Flottenname in Klammern hinter dem Schiffsnamen angezeigt. Außerdem werden die Kampfstärke des Schiffes und die Angriffsstärke der Truppen an Bord angezeigt. Alle Charaktere an Bord des Schiffes werden rechts neben der Missionsbeschreibung angezeigt.
+
+					Schiffe, die beschädigt sind oder sich im Bau befinden, haben einen roten oder orangefarbenen Hintergrund hinter ihrem Bild. Bewegen Sie den Mauszeiger über das Schiffsbild, um den Gesundheitszustand anzuzeigen.
+
+					Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird eine detaillierte Zusammenfassung in einem Feld rechts angezeigt.
+
+					[H3]Automatisierungsstatus[/H3]
+					Mit der kleinen Schaltfläche auf der rechten Seite können Sie den Automatisierungsstatus des Schiffes ändern. So können Sie das Schiff manuell steuern oder es vollständig automatisieren, so dass es seine eigenen Missionen auswählen kann.
+
+					Oder Sie können eine spezifischere Automatisierung vornehmen, bei der das Schiff nur Missionen für Eskorte, Wache, Patrouille oder Überfall zuweist.
+
+					[H3]Taktische Einstellungen[/H3]
+					Jedes Schiff verfügt über eine ganze Reihe von taktischen Einstellungen, mit denen Sie die Funktionsweise des Schiffes feinabstimmen können. Öffnen Sie den Bildschirm mit den taktischen Einstellungen, indem Sie das Schiff auswählen und auf die Schaltfläche 'Taktik einstellen' ganz rechts unter dem Auswahlfenster klicken.
+
+					Sie können steuern, wie die Schiffe auf Bedrohungen reagieren, indem Sie die Einsatzreichweite einstellen. Weitere Details erhalten Sie, wenn Sie den Mauszeiger über die einzelnen Einstellungen im Bildschirm Taktische Einstellungen bewegen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Flotten</StepTitle>
+				<MarkupText>
+					Flotten sind Gruppierungen von Militärschiffen, die gemeinsam handeln, um Missionen auszuführen.
+
+					Sie haben eine Heimatbasis, die ihr Operationszentrum definiert. Sie haben auch einen Einsatzbereich, der das Gebiet definiert, in dem sie feindliche Ziele in einem Radius von ihrer Heimatbasis aus angreifen.
+
+					[H3]Flottenliste[/H3]
+					Dieser Bildschirm listet alle Flotten in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Flotten auf der Karte hervorgehoben. Wenn Sie mit dem Mauszeiger über ein Element in der Liste fahren, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission der Flotte an. Außerdem werden die Anzahl der Schiffe in der Flotte, die Kampfstärke der Flotte und die Angriffsstärke der Truppen in der Flotte angezeigt. Das Symbol für die Flottenrolle wird ganz rechts angezeigt. Alle Charaktere in der Flotte werden rechts neben der Missionsbeschreibung angezeigt.
+
+					Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird eine detaillierte Zusammenfassung in einem Feld rechts angezeigt. Diese Zusammenfassung zeigt eine vollständige Aufschlüsselung aller Schiffe in der Flotte nach Schiffsrolle, Schadensstufe und Treibstoffstand. Sie enthält auch Details zu allen Admirälen und Generälen in der Flotte.
+
+					[H3]Schablonen und Flottenrollen[/H3]
+					Wie bereits erläutert, basieren Flotten auf einer Vorlage. Flotten können eine bestimmte Rolle haben, wie z.B.: Angreifen, Überfallen, Verteidigen oder Einfallen. Diese Flotten wählen die Missionen aus, die zu ihrer Flottenrolle passen.
+
+					Sie können eine Flotte auch manuell steuern, indem Sie ihre Rolle auf Manuell setzen (Schaltfläche Flottenrolle im Auswahlfenster) oder indem Sie der Flotte einfach eine Mission zuweisen (wodurch sie automatisch zu einer manuellen Flotte wird).
+
+					[H3]Neue Flotten erstellen[/H3]
+					Sie können eine neue Flotte auf verschiedene Arten erstellen:
+					[ULI]Wählen Sie mehrere Schiffe in der Hauptansicht aus, indem Sie sie mit gedrückter linker Maustaste auswählen oder indem Sie auf jedes Schiff mit der Strg-Taste klicken. Klicken Sie dann auf die Schaltfläche 'Neue Flotte erstellen' unter dem Auswahlfenster[/ULI]
+					[ULI]Wählen Sie mehrere Schiffe in der Liste der Militärschiffe aus, indem Sie bei gedrückter Strg- und Shift-Taste auf die Schiffe in der Liste klicken. Klicken Sie dann auf die Schaltfläche 'Neue Flotte erstellen' unter der Auswahltafel[/ULI]
+					[ULI]Wählen Sie im Bildschirm Flottenvorlagen die gewünschte Vorlage aus und klicken Sie dann entweder auf die Schaltflächen 'Neue Flotte bilden' oder 'Neue Flotte erstellen' auf der rechten Seite[/ULI]
+
+					Sie können auch einzelne Schiffe zu einer bestehenden Flotte hinzufügen, indem Sie das Schiff auswählen und auf die Schaltfläche 'Schiff zur Flotte hinzufügen' unter dem Auswahlfenster klicken. Daraufhin wird eine Liste mit allen Flotten angezeigt, denen Sie beitreten können. Wählen Sie die Flotte aus, der das Schiff beitreten soll, indem Sie sie in der Liste anklicken.
+
+					[H3]Taktische Einstellungen[/H3]
+					Flotten verfügen über eine ganze Reihe von taktischen Einstellungen, mit denen Sie ihre Funktionsweise feinabstimmen können. Öffnen Sie den Bildschirm mit den taktischen Einstellungen, indem Sie die Flotte auswählen und auf die Schaltfläche 'Taktik einstellen' ganz rechts unter dem Auswahlfenster klicken.
+
+					Sie können steuern, wie die Flotten auf Bedrohungen reagieren, indem Sie die Einsatzreichweite einstellen. Weitere Details erhalten Sie, wenn Sie den Mauszeiger über die einzelnen Einstellungen im Bildschirm Taktische Einstellungen bewegen.
+
+					Beachten Sie, dass auch einzelne Schiffe innerhalb einer Flotte ihre eigenen taktischen Einstellungen haben. Wie Flotten- und Schiffstaktik zusammenwirken, können Sie im Abschnitt 'Flottenschiffe - Taktische Überschreibungen' einstellen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryFleets_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Flotten-Vorlagen</StepTitle>
+				<MarkupText>
+					Flottenvorlagen ermöglichen es Ihnen, die Zusammensetzung Ihrer Flotten zu definieren, indem Sie die Anzahl der Schiffe für jede Schiffsrolle festlegen. Sie definieren auch eine Gruppierung von taktischen Standardeinstellungen. Sie können dann neue Flotten auf der Grundlage einer Vorlage erstellen.
+
+					Die Flotten werden versuchen, Schiffe aufzunehmen, die den in der Vorlage angegebenen Rollen und Mengen entsprechen. Wenn jedoch nicht genügend Schiffe für eine gewünschte Rolle verfügbar sind, greift die Flotte auf Schiffe aus anderen Rollen zurück, um die Gesamtzahl der Schiffe aufzufüllen.
+
+					[H3]Flottenvorlagentypen[/H3]
+					Jede Flottenrolle hat eine Standardvorlage: Angreifen, Überfallen, Verteidigen, Eindringen. Sie können auch manuell andere Vorlagen für jede Flottenrolle erstellen.
+
+					[H3]Erstellen von Flotten mit Flottenvorlagen[/H3]
+					Sie können neue Flotten erstellen, indem Sie manuell Schiffe auswählen und dann eine Flotte mit diesen Schiffen bilden. Der Bildschirm Flottenvorlagen bietet jedoch einige schnelle Möglichkeiten, neue Flotten zu erstellen.
+
+					Auf dem Bildschirm Flottenvorlagen können Sie die gewünschte Vorlage auswählen und dann entweder auf die Schaltflächen 'Neue Flotte bilden' oder 'Neue Flotte aufbauen' auf der rechten Seite klicken.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>FleetTemplatesButton</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Truppen</StepTitle>
+				<MarkupText>
+					Truppen werden zur Invasion feindlicher Kolonien und zur Verteidigung Ihrer Kolonien gegen eine Invasion eingesetzt.
+
+					Truppeneinheiten werden in Ihren Kolonien rekrutiert und es dauert eine Weile, bis sie einsatzbereit sind. Größere Kolonien können Truppen schneller ausbilden und zurückholen als kleinere Kolonien.
+
+					Neue Truppenteile können durch Forschung freigeschaltet werden. Höhere Truppenteile können nur rekrutiert werden, wenn die erforderliche planetare Einrichtung in einer Kolonie gebaut wurde.
+
+					Truppen können in Kolonien garnisoniert werden. Das bedeutet, dass sie dauerhaft in der Kolonie stationiert sind, um diese zu verteidigen, und daher nicht von Truppentransportschiffen abgeholt werden.
+
+					Die Rekrutierung von Truppenteilen kostet einmalig Geld. Außerdem fallen für sie laufende jährliche Unterhaltskosten an.
+
+					Jede Truppe hat auch eine bestimmte Größe: einige sind klein (Infanterie), andere sind größer (gepanzert, planetare Verteidigung). Die Größe ist wichtig, wenn Sie die Truppentransportkapazität für Truppentransportschiffe und Invasionsflotten berücksichtigen.
+
+					[H3]Typen von Truppenteilen[/H3]
+					Es gibt 5 Arten von Truppenteilen:
+					[ULI]Infanterie: die grundlegende defensive Truppeneinheit. Die Infanterie ist von Beginn des Spiels an verfügbar. Jede Ethnie hat ihre eigene einzigartige Infanterieeinheit mit verschiedenen Stärken und Schwächen[/ULI].
+					[ULI]Gepanzert: die primäre Angriffstruppeneinheit. Erfordert eine Panzerkaserne zur Rekrutierung[/ULI].
+					[ULI]Planetenverteidigung: Spezialisierte Verteidigungseinheiten, die feindliche Truppen auf ihrem Weg von ihren Landungsschiffen zur Planetenoberfläche abfangen können. Erfordert ein Planetarisches Verteidigungszentrum zur Rekrutierung[/ULI].
+					[ULI]Spezialeinheiten: hochtrainierte Infanterieeinheiten, die darauf spezialisiert sind, die Verteidigungsanlagen von Kolonien während einer Invasion auszuschalten (Bodeneinrichtungen, verteidigende planetare Verteidigungseinheiten, feindliche Generäle). Für die Rekrutierung ist eine Kaserne für Spezialeinsätze erforderlich[/ULI].
+					[ULI]Titanen: sehr starke High-End-Angriffseinheiten. Erfordert ein Titan Manufacturing Center zur Rekrutierung[/ULI].
+
+					[H3]Truppenliste[/H3]
+					Dieser Bildschirm listet alle Truppeneinheiten Ihres Reiches auf. Prüfen Sie die umfangreichen Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach Angriffs- und Verteidigungsstärke, Unterhaltskosten und Standort sortieren. Sie können nach Truppentyp, Garnisonsstatus und Standort (Kolonien vs. Transporte) filtern.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Truppen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die Angriffsstärke, die Verteidigungsstärke und die Unterhaltskosten für die Truppeneinheit an. Wenn Sie den Mauszeiger über ein Listenelement bewegen, wird eine detaillierte Zusammenfassung in einem Feld auf der rechten Seite angezeigt. Truppen mit Garnison sind durch eine blaue Linie unter ihrem Bild gekennzeichnet.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryTroops_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Armee Schablonen</StepTitle>
+				<MarkupText>
+					Mit Armeeschablonen können Sie die relative Zusammensetzung von Truppentypen festlegen. Heeresvorlagen werden von Flotten und Kolonien verwendet, um festzulegen, wie viele Truppen jeder Art sie haben sollten.
+
+					[H3]Heeresvorlagen-Typen[/H3]
+					Es gibt 4 grundlegende Typen von Heeresvorlagen:
+					[ULI]Invasion: wird den Flotten zugewiesen, um festzulegen, welche Truppen bei der Invasion feindlicher Kolonien eingesetzt werden sollen. Dazu gehören in der Regel viele Panzer, einige Spezialeinheiten, etwas Infanterie und Titanen (falls verfügbar)[/ULI]
+					[ULI]Große Kolonieverteidigung: wird großen Kolonien (wie Ihrer Hauptstadt) zugewiesen, um festzulegen, welche Truppen zur Verteidigung der Kolonie gegen eindringende feindliche Truppen eingesetzt werden sollen. Dazu gehören in der Regel alle Truppentypen, vor allem aber viele Infanterie- und Planetenverteidigungseinheiten[/ULI].
+					[ULI]Grenzkolonieverteidigung: wird gefährdeten Grenzkolonien zugewiesen, um festzulegen, welche Truppen zur Verteidigung der Kolonie gegen eindringende feindliche Truppen eingesetzt werden sollen. Dazu gehören in der Regel viel Infanterie und einige Einheiten zur Planetenverteidigung[/ULI].
+					[ULI]Standard Kolonieverteidigung: wird allen anderen Kolonien zugewiesen, um festzulegen, welche Truppen zur Verteidigung der Kolonie gegen eindringende feindliche Truppen eingesetzt werden sollen. Dazu gehört in der Regel eine Menge Infanterie[/ULI].
+
+					Für jeden Typ gibt es eine Standardvorlage, aber Sie können diese ändern oder zusätzliche Vorlagen erstellen, die Ihren Bedürfnissen entsprechen.
+
+					[H3]Zuweisung von Heeresvorlagen[/H3]
+					Sie können eine Heeresvorlage für eine Kolonie auswählen, indem Sie die Kolonie markieren und die Schaltflächen 'Kolonieautomatisierung festlegen' &gt; 'Heeresvorlage' unter dem Auswahlfenster verwenden. Daraufhin wird eine Liste mit allen Armeevorlagen angezeigt, die Sie verwenden können.
+
+					Wählen Sie die Vorlage, die Sie für die Kolonie verwenden möchten, indem Sie sie in der Liste anklicken. Die Kolonie wird dann versuchen, Verteidigungstruppen in dem Verhältnis zu rekrutieren, das in der Vorlage angegeben ist.
+
+					Sie können eine Armeeschablone für eine Flotte auswählen, indem Sie die Flotte markieren und die Schaltfläche 'Armeeschablone' unter der Auswahltafel verwenden. Daraufhin wird eine Liste mit allen Heeresvorlagen angezeigt, die Sie verwenden können. Wählen Sie die Vorlage, die Sie für die Flotte verwenden möchten, indem Sie sie in der Liste anklicken. Die Flotte wird dann versuchen, Truppen in dem Verhältnis zu laden, das in der Vorlage angegeben ist.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>ArmyTemplatesButton</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle></StepTitle>
+				<MarkupText>
+					Alle Admiral- oder Generalcharaktere in Ihrem Reich werden in dieser Liste angezeigt.
+
+					Sie können die Details jedes Charakters sehen, indem Sie mit dem Mauszeiger über den Listeneintrag fahren und auf das Panel auf der rechten Seite klicken, um es zu öffnen.
+
+					Sie können den Namen eines Charakters ändern, indem Sie auf seinen Namen unter dem Porträt klicken und einen neuen Namen eingeben.
+
+					[H3]Admiral und General Standorte[/H3]
+					Admirale wenden ihre Kampfboni an, wenn sie sich an Bord eines Militärschiffes befinden, und insbesondere, wenn sie sich in einer Flotte befinden. Sie sollten die Standort-Dropdown-Liste und die Schaltfläche 'Übertragen' verwenden, um sie einer bestimmten Flotte oder einem anderen Standort zuzuweisen.
+
+					Admirale können auch Nicht-Kampfboni gewähren, wenn sie in Raumhäfen stationiert sind, z.B. die Geschwindigkeit beim Schiffsbau.
+
+					Generäle setzen ihre Bodenkampfboni ein, wenn sie sich in einer Kolonie befinden: entweder zur Verteidigung einer Ihrer eigenen Kolonien oder zur Invasion einer feindlichen Kolonie. Sie sollten die Dropdown-Liste für den Standort und die Schaltfläche 'Übertragen' verwenden, um sie einer bestimmten Flotte oder Kolonie zuzuweisen.
+
+					Um einen General zur Verteidigung einzusetzen, sollten Sie ihn in einer Ihrer Kolonien platzieren. Wenn Sie ihn zum Angriff einsetzen möchten, sollten Sie ihn in einer Ihrer Invasionsflotten platzieren.
+
+					Generäle können auch Nicht-Kampfboni gewähren, wenn sie in Kolonien stationiert sind, z.B. die Rekrutierungsrate von Truppen.
+
+					Alternativ können Sie den Admiral oder General auch automatisieren, so dass Ihre Militärberater den besten Standort für sie auswählen. Verwenden Sie dazu die Schaltfläche 'Automatisieren' unter dem Charakterporträt auf der rechten Seite.
+
+					[H3]Ereignisse[/H3]
+					Ganz unten im Detailfenster finden Sie eine Liste aller Ereignisse, an denen der Admiral oder General beteiligt war. Verschiedene Ereignisse können ihre Fähigkeiten verbessern oder verschlechtern oder ihnen neue Charaktereigenschaften verleihen.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CharactersAdmiralsGenerals_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Defensiv-Basen</StepTitle>
+				<MarkupText>
+					Verteidigungsbasen sind schwere Waffenplattformen, die zur Verteidigung wichtiger Kolonien eingesetzt werden. Sie werden im Weltraum um die Kolonie herum gebaut und bieten eine beträchtliche Feuerkraft zur Bekämpfung angreifender feindlicher Kräfte.
+
+					[H3]Liste der Verteidigungsbasen[/H3]
+					Dieser Bildschirm listet alle aktuellen Verteidigungsbasen in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Verteidigungsbasen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryDefensiveBases_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Überwachungsstationen</StepTitle>
+				<MarkupText>
+					Überwachungsstationen sind spezialisierte Basen, die mit Langstreckenscannern ausgestattet sind, um strategische Orte zu überwachen. Sie werden an ruhigen Orten errichtet, die sich in Reichweite befinden, um feindliche Ziele zu überwachen.
+
+					[H3]Liste der Überwachungsstationen[/H3]
+					Dieser Bildschirm listet alle aktuellen Überwachungsstationen in Ihrem Reich auf. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Überwachungsstationen auf der Karte hervorgehoben. System- und Standortabzeichen zeigen auch Raumhäfen mit dem gelben Konstruktionssymbol an. Wenn Sie den Mauszeiger über ein Element in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wählen Sie seinen Standort aus. Ein Doppelklick auf das Element verschiebt die Ansicht an diesen Ort.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryMonitoringStations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Standorte für Überwachungsstationen</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet ideale Standorte auf, an denen Sie neue Überwachungsstationen errichten sollten.
+
+					Wenn Sie auf die Ebene der Galaxie oder des Systems herauszoomen, werden die Standorte der neuen Überwachungsstationen auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Element in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf das Element klicken, wird es ausgewählt. Ein Doppelklick auf das Element verschiebt die Ansicht zu diesem Ort.
+
+					[H3]Neue Überwachungsstationen in die Warteschlange stellen[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie den Bau einer neuen Überwachungsstation an diesem Ort in die Warteschlange stellen. Sie können die Schaltfläche erneut anklicken, um den Bau abzubrechen.
+
+					Wenn Sie an diesem Ort nicht bauen können, ist die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie dort nicht bauen können.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryNewMonitoringLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Feindliche Ziele</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet bekannte feindliche Ziele auf, die Sie mit Ihren Flotten angreifen können. Dazu gehören feste Ziele wie feindliche Basen (z.B. Piratenbasen) und Kolonien. Sie enthält auch feindliche Flotten, deren aktuelle Position wir kennen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die feindlichen Ziele auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die bekannte Stärke des Feindes am Zielort an. Bei feindlichen Basen wird auch die aktuelle Gesundheitsstufe des Ziels angezeigt.
+
+					[H3]Verteidigungsstärke[/H3]
+					Für feindliche Kolonien wird hier die bekannte Stärke der verteidigenden Truppen angezeigt. Beachten Sie, dass es sich hierbei um eine Schätzung handeln kann, wenn die Kolonie nicht direkt sichtbar ist, so dass bei der Entscheidung über eine Invasion Vorsicht geboten ist.
+
+					[H3]Angriffe in der Warteschlange[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie einen Angriff gegen das Ziel in die Warteschlange stellen. Wenn die nächste geeignete Flotte verfügbar ist, wird sie einen Angriffsauftrag gegen das Ziel erteilen. Sie können die Schaltfläche erneut anklicken, um den Angriff abzubrechen.
+
+					Wenn Sie das Ziel nicht angreifen können, ist die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie nicht angreifen können.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryEnemyTargets_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Gefährliche Orte</StepTitle>
+				<MarkupText>
+					Einige Schauplätze sind gefährlich, weil es dort bekannte feindliche Bedrohungen gibt. Zu diesen Bedrohungen gehören in der Regel mobile Ziele wie Piratenschiffe und tödliche Weltraumkreaturen. Diese Bedrohungen bewegen sich oft von einem Ort zum anderen, daher sind diese Informationen flüchtig und werden häufig aktualisiert.
+
+					Zivile Schiffe werden nicht zu einem Ort reisen, an dem es feindliche Bedrohungen gibt. Das bedeutet, dass Bauschiffe dort keine Basen errichten werden. Erkundungsschiffe werden den Ort nicht weiter erforschen. Das bedeutet auch, dass Bergbauschiffe dort nicht abbauen und Frachter dort keine Fracht abholen oder ausliefern werden.
+
+					[H3]Liste gefährlicher Orte[/H3]
+					Dieser Bildschirm listet gefährliche Orte auf, die bekanntermaßen von Feinden bedroht sind. Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach jeder Art von Bedrohung filtern, einschließlich bestimmter Arten von Weltraumkreaturen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die gefährlichen Orte auf der Karte hervorgehoben. System- und Standortabzeichen zeigen gefährliche Orte auch durch das Symbol eines roten Blitzes an. Wenn Sie den Mauszeiger über einen Gegenstand in der Liste bewegen, wird der Ort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird sein Standort ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Element in der Liste zeigt die größte Bedrohung an diesem Ort zusammen mit der Gesamtstärke des Feindes an. Es wird auch angezeigt, wann diese Informationen zuletzt aktualisiert wurden und wie genau sie sind.
+
+					[H3]Untersuchung in der Warteschlange[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie eine Untersuchung und Räumung des gefährlichen Ortes in die Warteschlange stellen. Sobald die nächste geeignete Flotte zur Verfügung steht, wird sie sich zu dem Ort begeben und alle Bedrohungen beseitigen, die sie dort findet.
+
+					Sie können die Schaltfläche erneut anklicken, um die Untersuchung abzubrechen.
+
+					Wenn Sie den Ort nicht untersuchen können, wird die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie nicht ermitteln können.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>MilitaryDangerousLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Ziviler Sektor</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Alle zivilen Schiffe</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle zivilen Schiffe in Ihrem Reich auf. Dazu gehören Frachter, Passagierschiffe und Minenschiffe.
+
+					Zivilschiffe sind Teil Ihrer zivilen Wirtschaft, so dass Sie ihnen normalerweise keine Missionen zuweisen können. Stattdessen suchen sie sich ihre eigenen Missionen: Frachttransport, Transport von Touristen und Migranten und Abbau von Ressourcen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die zivilen Schiffe auf der Karte hervorgehoben. Wenn Sie mit dem Mauszeiger über ein Objekt in der Liste fahren, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission des Schiffes an. Außerdem wird angezeigt, ob das Schiff Fracht oder Passagiere an Bord hat.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CivilianShipsAll_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Frachter</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle Frachter in Ihrem Reich auf.
+
+					Frachter sind Teil Ihrer zivilen Wirtschaft, daher können Sie ihnen keine Missionen zuweisen. Stattdessen suchen sie sich ihre eigenen Missionen und transportieren Fracht zwischen verschiedenen Orten.
+
+					Prüfen Sie die Sortier- und Filteroptionen am oberen Rand des Fensters. Sie können nach der Art der transportierten Ressourcen filtern: Treibstoff, Bau- oder Luxusressourcen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Frachter auf der Karte hervorgehoben. Wenn Sie mit dem Mauszeiger über ein Objekt in der Liste fahren, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf den Gegenstand verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission des Schiffes an. Es zeigt auch die Fracht an, die das Schiff transportiert.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CivilianFreighters_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Passagierschiffe</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle Passagierschiffe in Ihrem Reich auf.
+
+					Passagierschiffe sind Teil Ihrer zivilen Wirtschaft, daher können Sie ihnen keine Missionen zuweisen. Stattdessen suchen sie sich ihre eigenen Missionen und transportieren Touristen und Migranten zwischen den Orten.
+
+					Prüfen Sie die Sortier- und Filteroptionen oben im Panel. Sie können nach der Art der Passagiere filtern, die transportiert werden: Touristen oder Migranten.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Passagierschiffe auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über einen Eintrag in der Liste bewegen, wird die Position auf der Karte angezeigt. Wenn Sie auf das Objekt klicken, wird es ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht an diesen Ort.
+
+					Jedes Listenelement zeigt die aktuelle Mission des Schiffes an. Außerdem werden alle Passagiere angezeigt, die sich an Bord des Schiffes befinden.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CivilianPassengerShips_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Resort Basen</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet alle Urlaubsorte in Ihrem Reich auf. Ferienorte sind Ziele für den Tourismus. Passagierschiffe transportieren Touristen zu den Urlaubsorten und verschaffen Ihrem Reich so Einnahmen.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die Urlaubsorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Standort auf der Karte angezeigt. Wenn Sie auf den Gegenstand klicken, wird er ausgewählt. Ein Doppelklick auf das Objekt verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Listenelement zeigt die Landschaftsboni an diesem Ort an.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CivilianResortBases_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Resort-Standorte</StepTitle>
+				<MarkupText>
+					Dieser Bildschirm listet potenzielle neue Urlaubsorte auf, die Sie ansteuern können. Diese Orte sind die Orte, an denen Sie neue Ferienanlagen errichten sollten. Ferienorte sind Ziele für den Tourismus. Passagierschiffe bringen die Touristen zu den Urlaubsorten und verschaffen Ihrem Imperium so Einnahmen.
+
+					Resorts werden an landschaftlich reizvollen Orten in der Galaxie gebaut. Diese Orte verfügen in der Regel über ein natürliches landschaftliches Merkmal. Uralte Ruinen können ebenfalls einen Landschaftsbonus bieten, den Sie nutzen können, indem Sie dort eine Resortbasis errichten.
+
+					Wenn Sie auf die Galaxie- oder Systemebene herauszoomen, werden die neuen Resortstandorte auf der Karte hervorgehoben. Wenn Sie den Mauszeiger über ein Objekt in der Liste bewegen, wird der Ort auf der Karte angezeigt. Wenn Sie auf den Eintrag klicken, wird er ausgewählt. Ein Doppelklick auf den Eintrag verschiebt die Ansicht zu diesem Ort.
+
+					Jedes Listenelement zeigt die bekannten Landschaftsboni an diesem Ort an. Fahren Sie mit dem Mauszeiger über die Beschreibung des Landschaftsbonus, um eine vollständige Zusammenfassung zu erhalten, einschließlich der natürlichen Gegebenheiten, die den Bonus bieten.
+
+					[H3]Neue Resort-Basen in die Warteschlange stellen[/H3]
+					Mit der Schaltfläche auf der rechten Seite können Sie den Bau einer neuen Resortbasis an diesem Ort in die Warteschlange stellen. Wenn das nächste Bauschiff verfügbar ist, wird es hier eine Resortbasis bauen. Sie können die Schaltfläche erneut anklicken, um den Bau abzubrechen.
+
+					Wenn Sie an diesem Ort nicht bauen können, ist die Schaltfläche Warteschlange deaktiviert. Ein Tooltip auf der Schaltfläche erklärt, warum Sie dort nicht bauen können.
+
+					[H3]Gefährliche Orte[/H3]
+					Ein rotes Blitzsymbol wird neben dem Ortsnamen angezeigt, wenn der Ort als gefährlich eingestuft wird. Ein Ort gilt als gefährlich, wenn er von nicht beseitigten Gefahren wie Piraten oder tödlichen Weltraumkreaturen bedroht wird.
+
+					Nicht-militärische Schiffe werden nicht zu einem gefährlichen Ort reisen. Die Bedrohungen müssen erst von Militärschiffen oder einer Flotte beseitigt werden. Das bedeutet, dass Sie zwar den Bau einer neuen Resortbasis an einem gefährlichen Ort in die Warteschlange stellen können, aber die Bauschiffe werden nicht dorthin fahren, bevor die Bedrohung beseitigt ist.
+				</MarkupText>
+				<RelatedControlNames>
+					<string>CivilianNewResortLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+
+
+
+	<TourItem>
+		<Title>Verträge</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Verträge</StepTitle>
+				<MarkupText>Verträge sind Aufgaben, die von einer Fraktion zugewiesen werden, aber von einer anderen Fraktion gegen eine Belohnung ausgeführt werden. Die Belohnung ist oft Geld, kann aber auch diplomatische Vorteile oder andere Gegenstände beinhalten.
+
+Sie können Aufgaben wie die Lieferung von Ressourcen an einen Ort, die Vernichtung einer bestimmten feindlichen Bedrohung, die Verteidigung einer Basis gegen Angriffe für einen bestimmten Zeitraum oder die Beseitigung von Weltraumkreaturen an einem Ort umfassen.
+
+Verträge haben ein Zeitlimit für die Erfüllung. Wenn der Vertrag bis zum Ablaufdatum nicht abgeschlossen ist, endet er ohne Belohnung. Die Fraktion, die den Vertrag nicht erfüllt hat, wird ebenfalls mit einer Strafe belegt.
+
+[H3]Quellen für Verträge[/H3]
+Wenn Sie als Standardplanetenimperium spielen, können Ihnen Verträge angeboten werden von:
+[ULI]unabhängigen Kolonien[/ULI]
+[ULI]Piratenfraktionen[/ULI]
+[ULI]internen Fraktionen innerhalb Ihres eigenen Imperiums, z.B. einzelnen Kolonien oder Unternehmen[/ULI]
+
+Wenn Sie als Piratenfraktion spielen, können Ihnen Verträge angeboten werden von:
+[ULI]unabhängigen Kolonien[/ULI]
+[ULI]planetarischen Imperien[/ULI]
+[ULI]anderen Piratenfraktionen[/ULI]
+[ULI]Schattenhäfen[/ULI]</MarkupText>
+				<RelatedControlNames>
+					<string>ContractsAvailable_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Neue Verträge zuweisen</StepTitle>
+				<MarkupText>Sie können Verträge für einen Standort zuweisen, indem Sie die Aktionsschaltfläche 'Neuen Vertrag erstellen' unterhalb des Auswahlbereichs verwenden.
+
+Daraufhin wird das Dialogfeld 'Vertrag anbieten' angezeigt, in dem Sie die Art des Vertrags und die finanzielle Belohnung für die Erfüllung festlegen können.
+
+Wenn Sie auf die Schaltfläche 'Angebot' klicken, erscheint der neue Vertrag in der Liste 'Verfügbare Verträge', die andere Fraktionen annehmen können.</MarkupText>
+				<SelectMode>Capital</SelectMode>
+				<ZoomMode>Capital</ZoomMode>
+				<RelatedControlNames>
+					<string>ActionButton10</string>
+					<string>QuestContractDialog</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Verfügbare Verträge</StepTitle>
+				<MarkupText>Die Liste Verfügbare Verträge zeigt alle Verträge an, die Sie annehmen oder auf die Sie bieten können. Sie zeigt auch alle Verträge an, die Sie für andere Fraktionen erstellt haben und die diese in Betracht ziehen.
+
+Wenn Sie den Mauszeiger über einen Vertrag in der Liste bewegen, werden die Details angezeigt, einschließlich der Belohnung, der Dauer des Ablaufs und eventueller Strafen bei Nichterfüllung. Außerdem wird in der Regel die Galaxiekarte mit dem Zielort für den Vertrag angezeigt (sofern er Ihrer Fraktion bekannt ist).
+
+Wenn Sie auf einen Vertrag klicken, wählen Sie das Ziel des Vertrages aus (sofern bekannt).
+
+[H3]Annahme von Verträgen[/H3]
+Um einen Vertrag aus dieser Liste zu akzeptieren, klicken Sie auf die Schaltfläche Akzeptieren oder Bieten auf der rechten Seite.
+
+Beachten Sie, dass einige Verträge für Ihre Fraktion schwierig oder sogar unmöglich zu erfüllen sein können, daher sollten Sie die Anforderungen sorgfältig prüfen, bevor Sie einen Vertrag annehmen.
+
+[H3]Bieten auf Verträge[/H3]
+Verträge über Ressourcenlieferungen haben eine feste Belohnung, die bei ihrem Angebot festgelegt wird.
+
+Andere Vertragsarten (Angriff, Verteidigung usw.) werden von den Fraktionen, die an dem Vertrag interessiert sind, mitgeboten. Jedes weitere Gebot senkt den Preis der Belohnung.
+
+Interessierte Fraktionen überlegen, ob sie bereit sind, einen niedrigeren Preis zu bieten, um den Zuschlag für den Vertrag zu erhalten. Wenn 30 Sekunden lang keine weiteren Gebote abgegeben werden, wird das aktuelle Gebot akzeptiert und der Vertrag an den letzten Bieter vergeben.</MarkupText>
+				<RelatedControlNames>
+					<string>ContractsAvailable_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Akzeptierte Verträge</StepTitle>
+				<MarkupText>Die Liste „Angenommene Aufträge“ zeigt alle Aufträge an, die Ihre Fraktion angenommen hat. Außerdem werden dort alle von Ihnen zugewiesenen Aufträge angezeigt, die von anderen Fraktionen angenommen wurden.
+
+Wenn Sie mit der Maus über einen Vertrag in der Liste fahren, werden die Details angezeigt, darunter die Belohnung, das Ablaufdatum und etwaige Strafen bei Nichterfüllung. In der Regel wird zudem der Zielort des Vertrags auf der Galaxiekarte markiert (sofern er Ihrer Fraktion bekannt ist).
+
+Durch Anklicken eines Vertrags wird das Ziel des Vertrags ausgewählt (sofern bekannt).
+
+Wurde ein Schiff zur Erfüllung des Auftrags zugewiesen (z. B. zur Lieferung von Ressourcen), wird dieses rechts neben der Auftragszeile angezeigt.
+
+[H3]Automatisierungseinstellungen[/H3]
+Der Bildschirm „Imperiale Richtlinien“ enthält im Abschnitt „Diplomatie“ Automatisierungseinstellungen für Aufträge: „Auftragsannahme“ und „Auftragsangebot“.</MarkupText>
+				<RelatedControlNames>
+					<string>ContractsAccepted_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	
+	
+	<TourItem>
+		<Title>Resource Trading as a Pirate</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Überblick</StepTitle>
+				<MarkupText>Der Handel mit Ressourcen kann eine sehr lukrative Einnahmequelle sein, insbesondere wenn Sie die Ressourcen selbst mit Bergbauschiffen oder Bergbaustationen abbauen.
+
+Unter dem Handel mit Ressourcen versteht man den Kauf und Verkauf von Ressourcen in der gesamten Galaxie. In der Regel kaufen Sie Ressourcen zum niedrigsten Preis, den Sie finden können, und suchen dann nach dem Zielort, an dem die Ressource zum höchsten Preis abgenommen wird.
+				
+Sie müssen zudem die Entfernung zwischen Herkunftsort und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft wird. Diese Obergrenze kann oft bei Null liegen, d. h., der Ort kauft gar nichts von dieser Ressource.</MarkupText>
+				<RelatedControlNames>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Handel mit Piratenressourcen</StepTitle>
+				<MarkupText>Wenn Sie als Pirat spielen (entweder als vollständige Piratenfraktion oder als einzelner Pirat), können Sie Ihre Frachter direkt steuern, wodurch Sie ein hohes Maß an Kontrolle über den Transport von Ressourcen haben.
+ 
+Piraten können zudem direkt an Orten anlegen und Ressourcen manuell kaufen und verkaufen sowie die Ladung von den Schiffen be- und entladen.</MarkupText>
+				<RelatedControlNames>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bildschirm „Handelspunkte“</StepTitle>
+				<MarkupText>Um Handelsorte anzuzeigen, können Sie den Bildschirm „Handelsorte“ nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Ort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
+
+Sie können außerdem auf die Schaltfläche „Bewegen und andocken“ rechts neben jedem Ort klicken, um Ihr ausgewähltes Schiff sofort an diesen Ort zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
+
+Wenn Sie mit der Maus über einen Ort fahren, wird dessen Position auf der Galaxiekarte markiert. Durch Klicken auf den Standort wird dieser ausgewählt und die Liste wird neu sortiert, sodass die dem ausgewählten Standort am nächsten gelegenen anderen Standorte angezeigt werden (wenn „Sortieren“ auf „Entfernung vom ausgewählten Element“ eingestellt ist).
+
+Wenn Sie die Liste der Handelspunkte nach einer bestimmten Ressource filtern, werden die Mengen, Preise und Limits für diese Ressource an jedem Standort direkt in der Liste der Handelspunkte angezeigt.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradingPoints_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Bildschirm „Ressourcenhandel“</StepTitle>
+				<MarkupText>Wenn Sie an einem Ort angedockt sind, können Sie den Bildschirm „Ressourcenhandel“ (Schaltfläche „Ressourcen handeln“) öffnen, der eine vollständige Liste aller dort zum Handel verfügbaren Ressourcen anzeigt.
+ 					
+Über die Schaltflächen „Kaufen“ und „Verkaufen“ können Sie Ressourcen sofort zwischen dem Laderaum Ihres Schiffes und dem jeweiligen Ort übertragen. Sie können Ressourcen in Einheiten von 10, 100 oder „Alle verfügbaren“ übertragen.
+					
+Sie erhalten Geld für verkaufte Ressourcen, sobald Sie diese übertragen. Ebenso bezahlen Sie für gekaufte Ressourcen, sobald Sie diese übertragen.
+					
+Sie können einen ordentlichen Gewinn erzielen, indem Sie Ressourcen zu einem höheren Preis verkaufen, als Sie dafür bezahlt haben. Das bedeutet, dass Sie Ressourcen an einem Standort günstig kaufen und dann zu einem anderen Standort reisen, an dem für diese Ressource ein höherer Preis gezahlt wird.
+					
+Beachten Sie, dass jeder Standort eine Obergrenze dafür hat, wie viel von einer Ressource er zu kaufen bereit ist. Diese Obergrenze kann oft bei Null liegen, d. h., der Standort kauft gar nichts von dieser Ressource.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradeDialog</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Schmuggel</StepTitle>
+				<MarkupText>Piraten können sich auch dafür entscheiden, verbotene Ressourcen vom Schwarzmarkt zu schmuggeln. Kolonien, die unter dem Einfluss von Piratenfraktionen stehen, produzieren verbotene Ressourcen, die zu einem deutlich niedrigeren Preis als üblich erworben werden können.
+
+Ressourcen vom Schwarzmarkt werden am Ende der Liste im Bildschirm „Ressourcenhandel“ angezeigt.
+
+[H3]Schmuggel ist riskant[/H3]
+Der Schmuggel verbotener Ressourcen ist jedoch riskant – werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
+
+Andere Fraktionen können Schmuggler aufspüren, wenn ihre Schiffe über leistungsstarke Ortungsscanner verfügen. Piraten können die Entdeckung geschmuggelter Ressourcen verhindern, indem sie ihre Schiffe mit einer guten Scanner-Störanlage ausstatten und Abstand zu potenziellen Scannern halten (die Erkennungsreichweite von Spurenscannern nimmt mit zunehmender Entfernung ab).
+
+Der Schmuggel bietet die Möglichkeit höherer Belohnungen, birgt jedoch auch das Risiko, Ihr Schiff zu verlieren.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradeDialog</string>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+
+	<TourItem>
+		<Title>Als Pirat spielen</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Überblick</StepTitle>
+				<MarkupText>Das Spielen als Pirat unterscheidet sich erheblich vom Spielen als normales planetares Imperium. Ihre Aktivitäten finden hauptsächlich im Weltraum statt und nicht auf Planeten.
+ 
+[H3]Alle Schiffe bauen und steuern[/H3]
+Sie können alle Ihre Schiffe steuern, sowohl staatliche als auch zivile – für Piraten gibt es keinen privaten Sektor.
+
+Sie können also Frachter und andere zivile Schiffe direkt in Ihren Weltraushäfen bauen. Außerdem können Sie ihnen manuell Missionen zuweisen, um an einem Ort anzudocken und Ressourcen zu kaufen oder zu verkaufen.
+ 				
+[H3]Einfluss auf Kolonien ausüben[/H3]
+Während planetare Imperien durch die Kolonisierung neuer Welten expandieren, beuten Piraten stattdessen bestehende Kolonien (unabhängige und imperiale) aus, indem sie Einfluss auf sie nehmen und einen Teil ihrer Einnahmen für sich selbst abschöpfen.
+				
+[H3]Einnahmen und Ausgaben[/H3]
+Ihre Kosten für die Schiffswartung sind deutlich geringer als bei herkömmlichen Planetenimperien, allerdings wird es Ihnen auch schwerer fallen, Einnahmen zu erzielen. Ihre einzigen regelmäßigen Einnahmequellen sind beeinflusste Kolonien („Koloniekriminalität“) und Schutzabkommen. Der Rest Ihrer Einnahmen stammt aus dem Rohstoffhandel, aus Aufträgen, Überfällen, Spionage und Verhandlungen.</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireEconomy_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Einfluss auf Kolonien</StepTitle>
+				<MarkupText>Sie gewinnen Einfluss in Kolonien, indem Sie Ihre Schiffe in deren Umlaufbahn stationieren oder diese überfallen. Es kann vorkommen, dass Sie mit anderen Piratenfraktionen um die Kontrolle über dieselbe Kolonie konkurrieren.
+
+Wenn Sie an einer Kolonie an Einfluss gewinnen, können Sie versteckte Piratenstützpunkte und Festungen errichten, um die Kontrolle über den Planeten zu sichern und zu verhindern, dass andere Piraten dort Fuß fassen.
+
+Ihr Einflussgrad in der Kolonie bestimmt, wie viel von deren Einnahmen Sie abschöpfen. Ein hoher Einfluss in einer großen Kolonie bringt Ihnen die höchsten Einnahmen ein.</MarkupText>
+				<RelatedControlNames>
+					<string>ColonyColonies_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Ausbau Ihrer Bergbau- und Forschungsaktivitäten</StepTitle>
+				<MarkupText>Sie sollten expandieren, indem Sie an geeigneten Standorten neue Bergbaustationen und Forschungsstationen errichten.
+				
+Durch Forschung schalten Sie neue Technologien für Ihre Schiffe frei, wodurch Sie sich einen Vorteil gegenüber all Ihren Rivalen verschaffen können.
+ 
+Der Bergbau verschafft Ihnen Zugang zu Ressourcen, die Sie selbst für den Bau neuer Schiffe und Stützpunkte nutzen können. Außerdem können Sie Geld verdienen, indem Sie Ihre überschüssigen Ressourcen verkaufen.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourcesNewMiningLocations_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Handel mit Rohstoffen und Schmuggel</StepTitle>
+				<MarkupText>Der Handel mit Rohstoffen kann eine sehr lukrative Einnahmequelle sein, insbesondere wenn Sie die Rohstoffe selbst mit Bergbauschiffen oder Bergbaustationen abbauen.
+ 
+[H3]Bildschirm „Handelsstellen“[/H3]
+Der Bildschirm „Handelsstellen“ bietet leistungsstarke Werkzeuge, um Orte zu finden, an denen Sie bestimmte Rohstoffe zu einem guten Preis handeln können.
+
+An einigen Standorten können Sie zudem verbotene Schwarzmarkt-Ressourcen schmuggeln. Diese Ressourcen sind zu einem niedrigeren Preis erhältlich, was einen höheren Gewinn ermöglicht, jedoch mit einem erhöhten Risiko der Aufdeckung und Festnahme verbunden ist.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradingPoints_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Verträge</StepTitle>
+				<MarkupText>Aufträge sind eine weitere wichtige Einnahmequelle.
+
+Aufträge werden von Shadowports, unabhängigen Kolonien, Planetenimperien und sogar anderen Piraten ausgeschrieben. Sie können sogar selbst Aufträge erstellen, die andere für Sie erfüllen sollen.
+
+Diese Missionen beziehen sich in der Regel auf die Lieferung von Ressourcen, den Angriff auf und die Zerstörung bestimmter Ziele oder den Diebstahl von Gegenständen (wie beispielsweise eines Artefakts). In der Regel gibt es eine finanzielle Belohnung, doch oft gewinnen Sie auch an Einfluss und verbessern Ihre Beziehungen, wenn Sie einen Auftrag für jemanden erfüllen.</MarkupText>
+				<RelatedControlNames>
+					<string>ContractsAvailable_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Schattenhäfen und Freibeuterei</StepTitle>
+				<MarkupText>Schattenhäfen sind wichtige Dreh- und Angelpunkte für alle Piraten. Sie können Schiffe in diesen Schattenhäfen anlegen, um deren gesamtes Dienstleistungsangebot zu nutzen: Schiffe mit fortschrittlicher Technologie aufrüsten, neue Schiffe kaufen, Ressourcen handeln, Spezialausrüstung erwerben und Zugang zu lukrativen Aufträgen erhalten.
+				
+Um die Dienstleistungen eines Schattenhafens in Anspruch zu nehmen, entsenden Sie ein Schiff dorthin, damit es dort anlegt. Wählen Sie das Schiff aus, sobald es angelegt hat; daraufhin erscheint ein Menü, in dem Sie auswählen können, was Sie tun möchten.
+
+Als Freibeuter können Sie sich dafür bezahlen lassen, die feindlichen Schiffe und Stützpunkte einer Fraktion zu zerstören. Sie können Freibeuterverträge im Bildschirm „Diplomatie – Handel“ abschließen.</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyPiratesShadowports_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Piraten-Ziele</StepTitle>
+				<MarkupText>Letztendlich stehen Ihnen als Pirat zwei Wege offen:
+[ULI]Wachsen Sie so stark, dass Sie zu einem regelrechten planetarischen Imperium werden, indem Sie in Ihrer größten Kolonie eine „Criminal Network“-Einrichtung errichten und Ihr Piratenleben für immer hinter sich lassen[/ULI]
+[ULI]ODER Sie können stattdessen das einzigartige Weltwunder „Anarchopolis“ errichten, wodurch Sie den Status einer legendären Piratenfraktion erlangen und eine Weltraumfraktion bleiben können[/ULI]
+
+Die Entscheidung liegt bei Ihnen!</MarkupText>
+				<RelatedControlNames>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+	
+
+	
+	
+	<TourItem>
+		<Title>Als einsamer Pirat spielen</Title>
+		<Steps>
+			<TourStep>
+				<StepTitle>Überblick</StepTitle>
+				<MarkupText>Als „Lone Pirate“ verfügen Sie über ein einziges Schiff, mit dem Sie durch die Sterne reisen. Sie besitzen weder Stützpunkte noch weitere Schiffe. Es steht Ihnen frei, jeden beliebigen Weg einzuschlagen:
+[ULI]Einfacher Handel mit gefragten Ressourcen quer durch die Galaxie[/ULI]
+[ULI]Actiongeladene Überfälle und Kämpfe, um Beute zu machen und zu plündern oder neue Schiffe zu erwerben[/ULI]
+[ULI]Führen Sie heimlich Aufträge im Auftrag anderer aus, jagen Sie Kopfgeldjäger, vernichten Sie Ziele oder suchen Sie nach Gegenständen[/ULI]
+… oder verfolgen Sie eine beliebige Kombination der oben genannten Bereiche, während Sie Ihren eigenen Weg beschreiten.</MarkupText>
+				<RelatedControlNames>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Unterschiede zum normalen Spielverlauf</StepTitle>
+				<MarkupText>Als einsamer Pirat haben Sie – anders als sonst üblich – weder regelmäßige Einnahmen noch Ausgaben. Sie verdienen Geld ganz einfach je nach Ihren Handlungen. Um Treibstoff, Reparaturen, Upgrades oder sogar ein komplett neues Schiff zu bezahlen, müssen Sie durch verschiedene Aktivitäten aktiv Geld verdienen.
+				
+Einige andere Aktivitäten, die für das Standard-Gameplay von „Distant Worlds“ typisch sind, fehlen im „Lone Pirate“-Gameplay größtenteils:
+[ULI]Keine Forschung[/ULI]
+[ULI]Kein Schiffsdesign oder -bau, außer beim Aufrüsten oder Kauf neuer Schiffe in Schattenhäfen[/ULI]
+[ULI]Kein Abbau von Ressourcen[/ULI]</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireEconomy_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Vereinfachte Benutzeroberfläche</StepTitle>
+				<MarkupText>„Lone Pirates“ verwendet eine vereinfachte Benutzeroberfläche mit weniger Bereichen, sodass Sie sich leichter auf die wichtigsten Aktivitäten konzentrieren können. Dazu gehören Bereiche wie Erkundung, Diplomatie, Aufträge und Rohstoffhandel.
+				
+Die Kopfzeile am oberen Rand der Hauptansicht zeigt Ihnen als einsamer Pirat zudem wichtige Informationen an: einen Schnellzugriff auf Ihr eigenes Schiff sowie Schnellzugriffe auf alle bekannten Schattenhäfen.</MarkupText>
+				<RelatedControlNames>
+					<string>EmpireSectionList</string>
+					<string>MainViewHeader</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Impliziertes Verhalten</StepTitle>
+				<MarkupText>Wenn Sie als einzelner Pirat mit nur einem Schiff spielen, können einige der Schaltflächen der Benutzeroberfläche auch implizites Verhalten aufweisen.
+				
+So ist es beispielsweise oft nicht erforderlich, Ihr Schiff auszuwählen, um Missionen zuzuweisen. Stattdessen klicken Sie einfach auf die Aktionsschaltflächen unter dem ausgewählten Element, um sich zu bewegen, anzulegen, anzugreifen usw.
+
+Ebenso können Sie durch Klicken auf die Schaltfläche „Bewegen und anlegen“ in der Liste der Handelsstationen Ihrem Schiff sofort eine Anlege-Mission zuweisen, ohne es zuvor auswählen zu müssen.</MarkupText>
+				<RelatedControlNames>
+					<string>ActionButtons</string>
+				</RelatedControlNames>
+				<ZoomMode>Galaxy</ZoomMode>
+				<SelectMode>NearestShadowport</SelectMode>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Verträge</StepTitle>
+				<MarkupText>Aufträge bieten eine Vielzahl von Möglichkeiten, Geld zu verdienen.
+[ULI][B]Ressourcentransport:[/B] am besten geeignet für Schmuggler, deren Schiffe in der Regel über mehr Laderaum verfügen. Allerdings kann auch jeder einzelne Pirat gelegentlich mit Ressourcen handeln. Schmuggler verfügen zudem über eine sehr hohe Scan-Ausweichrate, wodurch sie besser unentdeckt bleiben können, wenn sie Schwarzmarkt-Ressourcen schmuggeln, die günstiger als üblich zu erwerben sind.[/ULI]
+[ULI][B]Ziele vernichten:[/B] am besten geeignet für einsame Piraten mit starken Militärschiffen, die Kämpfe überstehen und ernsthafte Bedrohungen ausschalten können.[/ULI]
+[ULI][B]Gegenstände beschaffen:[/B] Dazu gehören Aufklärungsmissionen zur Gefangennahme oder Rettung von Charakteren. Dazu gehört auch das Stehlen von Artefakten oder das Auffinden verlorener Gegenstände. Jeder einsame Pirat kann diese Aufträge übernehmen, doch sie eignen sich besonders gut für Spione und Anführer mit ausgeprägten Fähigkeiten in den Bereichen Spionage und Sabotage.[/ULI]
+
+Durch die sorgfältige Auswahl geeigneter Aufträge können Sie Geld verdienen und Freunde gewinnen.</MarkupText>
+				<RelatedControlNames>
+					<string>ContractsAvailable_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Rohstoffhandel</StepTitle>
+				<MarkupText>Der Handel mit Ressourcen bedeutet, Ressourcen in der gesamten Galaxie zu kaufen und zu verkaufen. In der Regel kaufen Sie Ressourcen zum niedrigsten Preis, den Sie finden können, und suchen dann nach dem Zielort, an dem die Ressource zum höchsten Preis abgenommen wird.
+				
+Sie müssen zudem die Entfernung zwischen Herkunfts- und Bestimmungsort berücksichtigen. Natürlich können Sie an näher gelegenen Orten schneller Geld verdienen. Darüber hinaus gilt für jeden Ort eine Obergrenze dafür, wie viel von einer Ressource dort gekauft werden kann. Diese Obergrenze liegt häufig bei null, d. h., der Ort kauft überhaupt keine dieser Ressourcen.
+
+[H3]Bildschirm „Handelsstellen“[/H3]
+Um Handelsstandorte anzuzeigen, können Sie den Bildschirm „Handelsstellen“ nutzen. Dort wird Ihnen eine nach Entfernung sortierte Liste der Orte angezeigt, an denen Sie Ressourcen kaufen und verkaufen können. Für jeden Standort können Sie auf die Schaltfläche rechts klicken, um die Ressourcenmengen und -preise sowie das Kauflimit für die jeweilige Ressource anzuzeigen.
+
+Sie können außerdem auf die Schaltfläche „Bewegen und andocken“ rechts neben jedem Standort klicken, um Ihr Schiff sofort dorthin zu schicken. Bei der Ankunft dockt es automatisch an und öffnet ein Menüfeld, in dem Sie auswählen können, was Sie dort tun möchten, z. B. Ressourcen handeln.
+
+Wenn Sie die Liste der Handelsstellen nach einer bestimmten Ressource filtern, werden die Mengen, Preise und Limits direkt in der Liste der Handelsstellen angezeigt.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradingPoints_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Schmuggel</StepTitle>
+				<MarkupText>Piraten können sich auch dafür entscheiden, verbotene Ressourcen vom Schwarzmarkt zu schmuggeln. Kolonien, die unter dem Einfluss von Piratenfraktionen stehen, produzieren verbotene Ressourcen, die zu einem deutlich niedrigeren Preis als üblich erworben werden können.
+				
+Der Schmuggel verbotener Ressourcen ist jedoch riskant – werden Sie entdeckt, werden Sie als Schmuggler angegriffen.
+
+Andere Fraktionen können Schmuggler aufspüren, wenn ihre Schiffe über leistungsfähige Ortungsscanner verfügen. Piraten können die Entdeckung geschmuggelter Ressourcen verhindern, indem sie ihre Schiffe mit einer guten Scanner-Störanlage ausstatten und Abstand zu potenziellen Scannern halten (die Erkennungsreichweite von Trace-Scannern nimmt mit zunehmender Entfernung ab).
+
+Der Schmuggel bietet die Möglichkeit höherer Belohnungen, birgt jedoch auch das Risiko, Ihr Schiff zu verlieren.</MarkupText>
+				<RelatedControlNames>
+					<string>ResourceTradingPoints_SubSection</string>
+				</RelatedControlNames>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Shadowports</StepTitle>
+				<MarkupText>Schattenhäfen sind wichtige Stützpunkte für einsame Piraten, die unverzichtbare Dienstleistungen anbieten.
+ 
+In Schattenhäfen können Sie Ihr Schiff betanken und reparieren lassen. Außerdem können Sie Ihr Schiff mit neuen Komponenten oder Spezialausrüstung aufrüsten.
+
+Sie können sogar ein völlig neues Schiff aussuchen und kaufen, das besser dafür ausgerüstet ist, das gefährliche Leben eines einsamen Piraten zu überstehen.
+
+Schattenhäfen verfügen über einen Vorrat an zahlreichen Ressourcen und bieten somit Möglichkeiten zum Handel.
+
+Zudem verfügen sie über ein eigenes privates Kommunikationsnetzwerk, das sogenannte ShadowNet, über das Piraten spezielle Aufträge erhalten, die sonst nicht verfügbar sind und direkt an sie vergeben werden. Diese Aufträge beinhalten häufig das Auffinden eines verlorenen Gegenstands oder die Beseitigung einer großen Bedrohung.
+
+Um die Dienste eines Schattenhafens in Anspruch zu nehmen, müssen Sie dorthin reisen und dort anlegen. Es öffnet sich ein Menüfeld, in dem Sie auswählen können, was Sie benötigen.</MarkupText>
+				<RelatedControlNames>
+					<string>DiplomacyPiratesShadowports_SubSection</string>
+				</RelatedControlNames>
+				<ZoomMode>NearestShadowport</ZoomMode>
+				<SelectMode>NearestShadowport</SelectMode>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Cockpit-Modus</StepTitle>
+				<MarkupText>Im Cockpit-Modus sitzen Sie „am Steuer“ und können Ihr Schiff direkt über ein Gamepad oder die Tastatur steuern.
+ 
+Im Cockpit selbst befindet sich unten rechts ein Feld, das den aktuellen Status Ihres Schiffes anzeigt, ähnlich wie das Auswahlfeld auf der linken Seite. Außerdem gibt es Ziel- und Auswahlfelder mit Tastenkombinationen, mit denen Sie schnell durch alle Objekte und feindlichen Ziele an der aktuellen Position blättern können.
+
+Sie können den Cockpit-Modus über die Schaltfläche „Cockpit betreten“ unten rechts auf dem Bildschirm aktivieren und wieder verlassen.</MarkupText>
+				<RelatedControlNames>
+					<string>LonePirateViewCycleButton</string>
+				</RelatedControlNames>
+				<SelectMode>Capital</SelectMode>
+			</TourStep>
+			<TourStep>
+				<StepTitle>Ziele</StepTitle>
+				<MarkupText>Letztendlich stehen Ihnen als einzelner Pirat zwei Wege offen:
+
+[H3]Gründen Sie eine vollwertige Piratenfraktion[/H3]
+Sie können genug Geld verdienen, um eine vollwertige Piratenfraktion zu werden. Dazu müssen Sie einen geeigneten Standort für Ihre Piratenbasis finden und einen Schattenhafen damit beauftragen, die Basis für Sie zu errichten. Sobald dieser Raumhafen fertiggestellt ist, ändert sich Ihr Spielerlebnis vom „einsamen Piraten“ zur „Piratenfraktion“.
+
+[H3]Werden Sie ein legendärer Einzelpirat[/H3]
+Wenn Sie als Einzelpirat erfolgreich genug sind, könnten Sie sich die Feindseligkeit anderer neidischer Piratenfraktionen zuziehen, die Sie als Bedrohung ansehen. Dies kann dazu führen, dass diese einen Kopfgeldjäger auf Sie ansetzen, um Sie zu vernichten.
+
+Wenn Sie den Kopfgeldjäger besiegen, erlangen Sie den Status eines legendären Einzelpiraten. Dadurch werden Sie automatisch auf den Regierungsstil „Legendärer Einzelpirat“ umgestellt, der alle Vorteile der verschiedenen Stile der Einzelpiraterie (Piraten, Schmuggler, Plünderer, Söldner) in einer einzigen Regierungsform vereint.
+
+Als „Legendärer Einzelpirat“ haben Sie dann in den Schattenhäfen Zugang zu Kreuzer- und Großfrachter-Schiffsrümpfen, wodurch Sie Ihr Schiff noch weiter aufrüsten können.</MarkupText>
+				<RelatedControlNames>
+				</RelatedControlNames>
+			</TourStep>
+		</Steps>
+	</TourItem>
+	
+</ArrayOfTourItem>

@@ -11,7 +11,6 @@
 		<DisplaySize>3200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>2900</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>9</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -22,6 +21,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -2578,7 +2578,6 @@
 		<DisplaySize>2200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>2625</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -2588,6 +2587,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -6224,7 +6224,6 @@
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Mining_Station_01/mining_station_01</ModelName>
 		<BaseCost>1500</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -6234,6 +6233,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -6866,7 +6866,6 @@
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Research_Station_01/research_station_01</ModelName>
 		<BaseCost>1500</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -6877,6 +6876,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -9656,7 +9656,6 @@
 		<DisplaySize>2358</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>2888</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -9666,6 +9665,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -14017,7 +14017,6 @@
 		<DisplaySize>1308</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Mining_Station_02/Mining_Station_02</ModelName>
 		<BaseCost>1688</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -14027,6 +14026,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -14757,7 +14757,6 @@
 		<DisplaySize>1292</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Monitoring_Station_02/Monitoring_Station_02</ModelName>
 		<BaseCost>1688</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -14768,6 +14767,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -18056,7 +18056,6 @@
 		<DisplaySize>2392</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>3150</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -18066,6 +18065,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -20174,7 +20174,6 @@
 		<DisplaySize>1200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Monitoring_Station_02/Monitoring_Station_02</ModelName>
 		<BaseCost>2250</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -20184,6 +20183,7 @@
 		<DamageReduction>0</DamageReduction>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -25212,7 +25212,6 @@
 		<DisplaySize>3200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>4500</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -25223,6 +25222,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -26839,7 +26839,6 @@
 		<DisplaySize>2500</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Defense_Base_01/defensive_base_01</ModelName>
 		<BaseCost>1500</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -26850,6 +26849,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -33193,7 +33193,6 @@
 		<DisplaySize>3200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>5250</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -33204,6 +33203,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -34952,7 +34952,6 @@
 		<DisplaySize>2583</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Defense_Base_01/defensive_base_01</ModelName>
 		<BaseCost>1875</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -34963,6 +34962,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
@@ -50933,7 +50933,6 @@
 		<DisplaySize>3200</DisplaySize>
 		<ModelName>Ships/ShadowsRising/Boxes_Shadowport/Boxes_Large_Station</ModelName>
 		<BaseCost>11250</BaseCost>
-		<BuildCostFactor>2</BuildCostFactor>
 		<ArmorReactiveRating>9</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>-1</EngineLimit>
@@ -50944,6 +50943,7 @@
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<BuildCostFactor>2</BuildCostFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>

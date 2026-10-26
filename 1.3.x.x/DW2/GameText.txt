@@ -5249,14 +5249,15 @@ DiplomaticStrategy Conquer		;Mit Gewalt erobern
 DiplomaticStrategy Defend		;Verteidigen
 DiplomaticStrategy Raid		;Überfallen
 DiplomaticStrategy Neutral		;Neutrale Beziehung anstreben
-DiplomaticStrategy Neutral Independent		;Ignore
+DiplomaticStrategy Neutral Independent		;Ignorieren
 DiplomaticStrategy Undermine		;Mit Spionage und Sabotage beeinflussen
+DiplomaticStrategy NoPreference		;Keine Präferenz
 
-DiplomaticStrategy Colonization		;Diplomacy leading to peaceful Colonization
+DiplomaticStrategy Colonization		;Diplomatie, die zu einer friedlichen Kolonialisierung führt
 DiplomaticStrategy Eliminate		;Eliminieren
 DiplomaticStrategy Influence		;Beeinflussen und Kontrollieren
 DiplomaticStrategy Invade		;Invasion wenn möglch
-DiplomaticStrategy No Default		;Keine Vorgabge
+DiplomaticStrategy No Default		;Keine Vorgabe
 
 
 DiplomaticStrategy Explanation Ally		;Die Strategie 'Verbündeten-Vereinbarungen anstreben' bedeutet, dass Eure diplomatischen Vertreter eher auf hochrangige Verträge hinarbeiten (militärische Betankung, Forschung, Erkundung, Bergbaurechte). Es ist auch viel unwahrscheinlicher, dass Ihr Geheimdienstmissionen gegen dieses Volk durchführt.
@@ -5595,6 +5596,8 @@ PolicyExplanation AllowAutoScrappingWhenEconomicShortfallMilitaryShips		;Ob Mili
 PolicyExplanation AllowAutoScrappingWhenEconomicShortfallTroops		;Ob Truppen automatisch verschrottet werden sollen, wenn Ihr Reich ein ernstes wirtschaftliches Defizit hat.\n\nBeachten Sie, dass für die automatische Verschrottung auch die Truppenrekrutierung automatisiert sein muss.
 
 PolicyExplanation IndependentColonyDefaultDiplomaticStrategy		;Die diplomatische Standardstrategie für unabhängige Kolonien bei automatisierter Diplomatie. Die Einstellung 'Kein Standard' bedeutet, dass die Diplomatie-Logik für jede Kolonie eine geeignete Strategie wählt (sofern die Diplomatie automatisiert ist). Gilt nur beim Spielen als reguläres Imperium (nicht als Piratenfraktion).
+
+PolicyExplanation PirateFactionDefaultDiplomaticStrategy		;Die Standard-Diplomatiestrategie für Piraten, sofern die Beziehungen automatisiert verwaltet werden. Die Einstellung „Kein Standard“ bedeutet, dass die Diplomatie-Logik für jede Piratenfraktion eine jeweils passende Strategie wählt (sofern die Diplomatie automatisiert ist). Dies gilt nur, wenn man als reguläres Imperium (nicht als Piratenfraktion) spielt.\n\nDie Einstellung „Erobern“ führt dazu, dass alle Beziehungen zu Piraten feindselig sind. [HL]Dies schließt die Kündigung sämtlicher anderer Abkommen (Schutzverträge, Nichtangriffspakte usw.) ein.[/HL] Dadurch wird es für Piraten schwieriger, sich in der Nähe deiner Kolonien aufzuhalten, um dort ihren Einfluss auszuweiten.
 
 Auto-Scrap Military Ships and Fleets When Cannot Afford		;Automatische Verschrottung von Militärschiffen und Flotten, wenn Sie es sich nicht leisten können
 Auto-Scrap Troops When Cannot Afford		;Truppen automatisch entsorgen, wenn sie nicht mehr erschwinglich sind
@@ -8422,7 +8425,9 @@ Privateering Report		;Kaperbericht
 Targeting EMPIRE		;Zielgruppe {0}
 
 Legendary Lone Pirate Bounty Hunter Destroyed Title		;Kopfgeldjäger besiegt!
+Legendary Lone Pirate Bounty Hunter Captured Title		;Kopfgeldjäger besiegt!
 Legendary Lone Pirate Bounty Hunter Destroyed Description		;Wir haben den Kopfgeldjäger {0} besiegt, indem wir sein Schiff {1} zerstört haben!\n\nTrotz der Bemühungen einiger, uns auszuschalten, haben wir uns durchgesetzt! Dieser Sieg hat uns bei allen anderen Piratenfraktionen und Schattenhäfen den Status [HL]Legendärer einsamer Pirat[/HL] eingebracht.\n\nDurch unseren neuen Regierungsstil „Legendärer einsamer Pirat“ verfügen wir nun über neue Boni und Stärken.\n\nDarüber hinaus sind nun alle Schattenhäfen bereit, uns [HL]Kreuzer- und große Frachter-Schiffsrümpfe[/HL] zu verkaufen. So können wir unser Schiff aufrüsten, um es noch stärker und legendärer zu machen.\n\n[B]Herzlichen Glückwunsch, Sie sind eine Legende![/B]
+Legendary Lone Pirate Bounty Hunter Captured Description		;Wir haben {0} besiegt, indem wir ihr Schiff {1} gekapert haben!\n\nTrotz der Versuche einiger, uns auszuschalten, haben wir uns durchgesetzt! Dieser Sieg hat uns bei allen anderen Piratenfraktionen und Schattenhäfen den Status [HL]Legendärer einsamer Pirat[/HL] eingebracht.\n\nDurch unseren neuen Regierungsstil „Legendärer einsamer Pirat“ – auf den wir bereits automatisch umgestellt haben – verfügen wir nun über neue Boni und Stärken.\n\nZudem sind alle Schattenhäfen jetzt bereit, uns [HL]Schiffsrümpfe für Kreuzer und große Frachter[/HL] zu verkaufen. So können wir unser Schiff weiter aufrüsten, um es noch stärker und legendärer zu machen.\n\n[B]Herzlichen Glückwunsch, du bist eine Legende![/B]
 Legendary Lone Pirate Bounty Hunter Destroyed Other Title		;„Bounty Hunter“ vereitelt
 Legendary Lone Pirate Bounty Hunter Destroyed Other Description		;{0}, der hinter uns hergeschickt wurde, ist von anderen Kräften vernichtet worden. Diese Bedrohung für uns ist somit beseitigt.\n\nSeien Sie jedoch gewarnt, dass unsere Feinde wahrscheinlich weitere Kopfgeldjäger auf uns ansetzen werden. Wir sollten in unserer Wachsamkeit nicht nachlassen...
 Legendary Lone Pirate Bounty Hunter Assigned Title		;Ein Kopfgeldjäger wurde auf uns gehetzt!
@@ -8536,6 +8541,7 @@ Right-click to initiate Crash Research program for X credits		;Klicken Sie mit d
 Cannot Afford		;Kann sich das nicht leisten
 
 Default Diplomatic Strategy for Independent Colonies		;Standard-Diplomatiestrategie für unabhängige Kolonien
+Default Diplomatic Strategy for Pirates		;Standard-Diplomatiestrategie für Piraten
 
 Welcome back to X		;Herzlich willkommen zurück bei {0}
 Our services are at your command		;Unsere Dienstleistungen stehen Ihnen jederzeit zur Verfügung.
@@ -8595,3 +8601,12 @@ Cockpit Mode Manual Control Explanation		;Dieses Schiff führt bereits eine Miss
 No Assault Strength Available		;Keine Angriffsstärke verfügbar
 
 Population in FACTION		;Bevölkerung in {0}
+Captured Ship Has Been Scrapped For Money		;Gekapertes Schiff wurde zu Geld gemacht – und verschrottet
+Immediately Scrap For Money		;Sofort gegen Geld verschrotten
+What should we do with this Captured Ship		;Was sollen wir mit diesem gekaperten Schiff anstellen?
+Lone Pirate Capture Ship Choice Description		;Wir haben die [B]{0} {1}[/B] erobert![/B]!\n\nNun stehen wir vor einer Wahl:[ULI][HL]Zu diesem eroberten Schiff wechseln und unser altes Schiff verschrotten[/HL] (alle Charaktere, Artefakte, Ausrüstungsgegenstände und Fracht werden ebenfalls übertragen)[/ULI][ULI]ODER das Schiff sofort [HL]gegen Geld verschrotten[/HL][/ULI]\n\nWas möchtest du tun?\n\nZu diesem neuen Schiff wechseln? Oder es gegen Geld verschrotten?
+Switch to this Ship		;Zu diesem Schiff wechseln
+You have switched to SHIP		;Ihr habt zu {0} gewechselt.
+You have switched Ship Explanation		;Du hast dein Schiff auf [HL]{0} {1}[/HL] gewechselt!\n\nSämtliche Charaktere, Artefakte, Ausrüstungsgegenstände und Fracht wurden ebenfalls auf dein neues Schiff übertragen.\n\nZudem hat die Verschrottung deines alten Schiffes einige wertvolle Ressourcen eingebracht, die wir für [HL]{2} Credits[/HL] verkauft haben.\n\nDein neues Schiff verfügt wahrscheinlich über andere Fähigkeiten als dein vorheriges. Während es in manchen Bereichen besser sein mag, könnte es in anderen Defizite aufweisen. Es empfiehlt sich daher, einen Shadowport aufzusuchen, um dein Schiff aufzurüsten.
+
+No ShadowNet contract is currently available at this location		;An diesem Standort ist derzeit kein SchattenNetz-Vertrag verfügbar.

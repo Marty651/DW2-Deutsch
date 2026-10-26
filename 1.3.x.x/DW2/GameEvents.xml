@@ -984,6 +984,7 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_Tech</Name>
 		<TriggerType>Acquire</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1013,13 +1014,14 @@ Viele unseres Volkes sagen, dass jetzt die Zeit für uns gekommen ist, zu den St
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!
+		<Title>Welche Daten sollten wir herunterladen?</Title>
+		<Description>Sobald unser Team die Basis betritt, wird automatisch ein Löschvorgang des zentralen Computerkerns ausgelöst!
 
-We only have time to download one piece of information: either some star system maps or important research data.
+Wir haben nur Zeit, eine einzige Information herunterzuladen: entweder einige Sternensystemkarten oder wichtige Forschungsdaten.
 
-Which item should we download?</Description>
+Welchen Datensatz sollen wir herunterladen?</Description>
 		<TriggerType>Acquire</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1640,13 +1642,14 @@ Dadurch ist der Abbau von Ressourcen deutlich einfacher geworden. So werden wir 
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!
+		<Title>Welche Daten sollten wir herunterladen?</Title>
+		<Description>Sobald unser Team die Basis betritt, wird automatisch eine Löschung des zentralen Computerkerns ausgelöst!
 
-We only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.
+Wir haben nur Zeit, eine einzige Information herunterzuladen: entweder den Standort einer nahegelegenen unabhängigen Kolonie oder eine mysteriöse Reihe galaktischer Koordinaten.
 
-Which item should we download?</Description>
+Welche Information sollen wir herunterladen?</Description>
 		<TriggerType>Acquire</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -3725,6 +3728,7 @@ Wir haben einen Standort-Ping für die Koordinaten zur galaktischen Karte hinzug
 	<GameEvent>
 		<Name>MainStory_ShakturiVirus</Name>
 		<TriggerType>Encounter</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -5103,6 +5107,7 @@ Unsere Fähigkeit, mit den alten Systemen zu interagieren, führte auch zu einem
 	<GameEvent>
 		<Name>Research Station Intro (Human)</Name>
 		<TriggerType>Encounter</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -6504,6 +6509,7 @@ Kein Bote ist zurückgekehrt, und weder die Shakturi noch unsere anderen Verbün
 		<TriggerRaceIds>
 			<short>1</short> <!-- Ackdarian -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -7616,6 +7622,7 @@ Außerdem haben wir einen Technologieschub beim Bau leichter Kreuzer erhalten.</
 		<TriggerRaceIds>
 			<short>1</short> <!-- Ackdarian -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -7856,6 +7863,7 @@ Wir haben auch das Gebiet zweier uralter ackdarianischer Kolonien aufgedeckt. Ei
 		<NonTriggerRaceIds>
 			<short>1</short> <!-- Ackdarian -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -9199,6 +9207,7 @@ Wir konnten zwar keine Daten oder Logbücher bergen, aber wir haben erfahren, da
 		<TriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -9257,6 +9266,7 @@ Wir haben versucht, ihr mitzuteilen, dass wir Mortalen sind und nicht als Feind 
 		<NonTriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -9285,6 +9295,7 @@ Wir haben versucht, ihr mitzuteilen, dass wir Mortalen sind und nicht als Feind 
 		<TriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -9361,6 +9372,7 @@ Durch die Untersuchung der Überreste der Station konnten wir einige Geheimnisse
 		<TriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10108,6 +10120,7 @@ Einige Daten in den Wrackteilen weisen auch auf den Ort der alten Heimatwelt der
 		<TriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10150,6 +10163,7 @@ Einige Daten in den Wrackteilen weisen auch auf den Ort der alten Heimatwelt der
 		<TriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10280,6 +10294,7 @@ Die Daten in einigen der Wrackteile weisen auf den Standort der alten Heimatwelt
 		<NonTriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10305,6 +10320,7 @@ Die Daten in einigen der Wrackteile weisen auf den Standort der alten Heimatwelt
 		<NonTriggerRaceIds>
 			<short>4</short> <!-- Mortalen -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10803,6 +10819,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10860,6 +10877,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10898,6 +10916,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<TriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -10932,6 +10951,7 @@ ein faszinierendes Relikt entdeckt, ein uraltes Artefakt namens Speer des ersten
 		<NonTriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -12698,6 +12718,7 @@ Es gibt jedoch noch mehr. Wir haben einen weiteren Stützpunkt entdeckt, der sow
 		<TriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -12765,6 +12786,7 @@ Als Antwort können wir versuchen, die Wachen zu täuschen oder sie zu hacken.</
 		<NonTriggerRaceIds>
 			<short>6</short> <!-- Boskara -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -12942,7 +12964,7 @@ Die gegnerischen Streitkräfte werden nun stark geschwächt sein. Diese alte Fre
 				<GeneratedItemEventNames>
 					<string>Contact Secret Boskara Research Facility (Boskara)</string>
 					<string>Acquire Greer (Non Boskara)</string>
-					<string>Encounter Guardians (Non Boskara)</string>
+					<string>Contact Guardians (Non Boskara)</string>
 					<string>Conquer Greer (Boskara)</string>
 				</GeneratedItemEventNames>
 			</GameEventAction>
@@ -13654,7 +13676,7 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>Carrier</ShipRole>
 				<GeneratedItemEventNames>
-					<string>Destroy Hive Defender 01 (Boskara)</string>
+					<string>Capture Hive Defender 01 (Boskara)</string>
 					<string>Destroy Hive Defender 01 (Boskara)</string>
 				</GeneratedItemEventNames>
 			</GameEventAction>
@@ -13668,7 +13690,7 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>Carrier</ShipRole>
 				<GeneratedItemEventNames>
-					<string>Destroy Hive Defender 02 (Boskara)</string>
+					<string>Capture Hive Defender 02 (Boskara)</string>
 					<string>Destroy Hive Defender 02 (Boskara)</string>
 				</GeneratedItemEventNames>
 			</GameEventAction>
@@ -13682,15 +13704,20 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>Carrier</ShipRole>
 				<GeneratedItemEventNames>
-					<string>Destroy Hive Defender 03 (Boskara)</string>
+					<string>Capture Hive Defender 03 (Boskara)</string>
 					<string>Destroy Hive Defender 03 (Boskara)</string>
 				</GeneratedItemEventNames>
 			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Destroy Hive Defender 01 (Boskara)</Name>
+		<Name>Capture Hive Defender 01 (Boskara)</Name>
 		<TriggerType>Acquire</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13721,6 +13748,11 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 	<GameEvent>
 		<Name>Destroy Hive Defender 01 (Boskara)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13745,8 +13777,13 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Destroy Hive Defender 02 (Boskara)</Name>
+		<Name>Capture Hive Defender 02 (Boskara)</Name>
 		<TriggerType>Acquire</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13777,6 +13814,11 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 	<GameEvent>
 		<Name>Destroy Hive Defender 02 (Boskara)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13801,8 +13843,13 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Destroy Hive Defender 03 (Boskara)</Name>
+		<Name>Capture Hive Defender 03 (Boskara)</Name>
 		<TriggerType>Acquire</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13833,6 +13880,11 @@ Aber wichtige Enthüllung. Ort der Heimatwelt der Boskara entdeckt! Der Ursprung
 	<GameEvent>
 		<Name>Destroy Hive Defender 03 (Boskara)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>IncrementGlobalVariable</Type>
@@ -13959,7 +14011,6 @@ Die Artefakte, die wir in den Ruinen gefunden haben, könnten dabei helfen.  Es 
 				<Type>BuildFacility</Type>
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
-				<Id2>3</Id2> <!-- Colonisable Race Id (-1=Any), Current Value = Haakonish -->
 				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
 				<Value2>5</Value2> <!-- Discovery Level -->
 				<GeneratedItemName>Ancient Haakonish Exploration Ship Hull</GeneratedItemName>
@@ -14411,6 +14462,7 @@ Krieg verschlingt Kredite, und es gibt immer Opportunitätskosten für das, was 
 		<TriggerRaceIds>
 			<short>3</short> <!-- Haakonish -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -14595,6 +14647,7 @@ Die Außerirdischen haben unseren Ingenieuren erlaubt, bei der Reparatur ihres S
 		<NonTriggerRaceIds>
 			<short>3</short> <!-- Haakonish -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -15337,6 +15390,7 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<TriggerRaceIds>
 			<short>3</short> <!-- Haakonish -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -15383,6 +15437,7 @@ In den planetaren Basen haben wir einige interessante Geheimnisse der alten Haak
 		<NonTriggerRaceIds>
 			<short>3</short> <!-- Haakonish -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16342,6 +16397,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16399,6 +16455,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16463,6 +16520,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16489,6 +16547,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16553,6 +16612,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16596,6 +16656,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16631,6 +16692,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -16674,6 +16736,7 @@ Die Energiequellen auf dieser Welt sind sehr begrenzt, und wir können unsere En
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -17756,6 +17819,7 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -17781,6 +17845,7 @@ Viele dieser Informationen sind für die Piraten natürlich wertlos, aber durch 
 		<TriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -17840,6 +17905,7 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -17863,6 +17929,7 @@ Auch hier haben wir entdeckt, wonach wir schon lange gesucht haben: den Ort, an 
 		<NonTriggerRaceIds>
 			<short>2</short> <!-- Teekan -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -18438,6 +18505,7 @@ Da euer Ruf euch vorauseilt, wissen wir, dass ihr der Verlockung neuer Informati
 		<TriggerRaceIds>
 			<short>7</short> <!-- Zenox -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -18556,6 +18624,7 @@ Wie wir befürchtet hatten, sind die Computersysteme der Station schwer beschäd
 		<TriggerRaceIds>
 			<short>7</short> <!-- Zenox -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -18584,6 +18653,7 @@ Wie wir befürchtet hatten, sind die Computersysteme der Station schwer beschäd
 		<TriggerRaceIds>
 			<short>7</short> <!-- Zenox -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -19024,6 +19094,7 @@ In den Ruinen entdeckten wir auch ein altes Gedicht mit dem Titel 'Das Epos des 
 		<TriggerRaceIds>
 			<short>7</short> <!-- Zenox -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -19065,6 +19136,7 @@ In den Ruinen entdeckten wir auch ein altes Gedicht mit dem Titel 'Das Epos des 
 		<NonTriggerRaceIds>
 			<short>7</short> <!-- Zenox -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -19383,12 +19455,6 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 	</GameEvent>
 	<GameEvent>
 		<Name>Lost Zenox Homeworld (Zenox)</Name>
-		<TriggerType>EncounterLocation</TriggerType>
-		<Conditions>
-			<GameEventCondition>
-				<Type>EmpireIsNotPirate</Type>
-			</GameEventCondition>
-		</Conditions>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<PlacementRaceId>7</PlacementRaceId> <!-- Zenox -->
 		<PlacementActions>
@@ -19434,6 +19500,9 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>DefensiveBase</ShipRole>
 				<GeneratedItemName>Cosmas Defensive Station 01</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Encounter Lost Zenox Homeworld (All)</string>
+				</GeneratedItemEventNames>
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateAbandonedShipBase</Type>
@@ -19445,6 +19514,9 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>DefensiveBase</ShipRole>
 				<GeneratedItemName>Cosmas Defensive Station 02</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Encounter Lost Zenox Homeworld (All)</string>
+				</GeneratedItemEventNames>
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateAbandonedShipBase</Type>
@@ -19456,6 +19528,9 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
 				<ShipRole>DefensiveBase</ShipRole>
 				<GeneratedItemName>Cosmas Defensive Station 03</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Encounter Lost Zenox Homeworld (All)</string>
+				</GeneratedItemEventNames>
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateBonusAtOrb</Type>
@@ -19480,7 +19555,17 @@ Vielleicht können wir diese Fragen bald beantworten. Die Karten hier zeigen die
 				<Value1>15</Value1> <!-- Creature Amount -->
 			</GameEventAction>
 		</PlacementActions>
-		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+	</GameEvent>
+	<GameEvent>
+		<Name>Encounter Lost Zenox Homeworld (All)</Name>
+		<TriggerType>EncounterLocation</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>ChangeShipEmpire</Type>

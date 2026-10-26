@@ -1638,6 +1638,7 @@ Wir haben auch einige Datenkristalle mit technischen Spezifikationen gefunden, d
 		<TriggerRaceIds>
 			<short>9</short> <!-- Atuuk -->
 		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1753,6 +1754,7 @@ Wir haben auch einige Datenkristalle mit technischen Spezifikationen gefunden, d
 	<GameEvent>
 		<Name>Destroy Authority Operation Platform 01 (All)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1782,6 +1784,7 @@ Wir haben auch einige Datenkristalle mit technischen Spezifikationen gefunden, d
 	<GameEvent>
 		<Name>Destroy Authority Operation Platform 02 (All)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1811,6 +1814,7 @@ Wir haben auch einige Datenkristalle mit technischen Spezifikationen gefunden, d
 	<GameEvent>
 		<Name>Destroy Authority Operation Platform 03 (All)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -1907,6 +1911,7 @@ Wir haben so viel Gehirnschmalz darauf verwendet, die Technologie der Long-Ago-F
 		<NonTriggerRaceIds>
 			<short>9</short> <!-- Atuuk -->
 		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>

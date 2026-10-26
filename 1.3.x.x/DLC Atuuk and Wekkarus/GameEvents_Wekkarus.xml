@@ -2084,6 +2084,7 @@ Trotz ihrer besten Vorsichtsmaßnahmen fanden die Shakturi die Wekkarus immer. E
 	<GameEvent>
 		<Name>The Refugee's Fortress (All)</Name>
 		<TriggerType>EncounterLocation</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -2155,6 +2156,7 @@ Trotz ihrer besten Vorsichtsmaßnahmen fanden die Shakturi die Wekkarus immer. E
 	<GameEvent>
 		<Name>Capture Fortress Bulwark 01 (All)</Name>
 		<TriggerType>Acquire</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>
@@ -2172,6 +2174,7 @@ Trotz ihrer besten Vorsichtsmaßnahmen fanden die Shakturi die Wekkarus immer. E
 	<GameEvent>
 		<Name>Destroy Fortress Bulwark 01 (All)</Name>
 		<TriggerType>Destroy</TriggerType>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
 		<Conditions>
 			<GameEventCondition>
 				<Type>EmpireIsNotPirate</Type>

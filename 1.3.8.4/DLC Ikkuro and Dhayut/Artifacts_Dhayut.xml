@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>38</ArtifactId> <!-- The Clever Steward -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Der kluge Verwalter</Name>
+		<Description>Ein antikes Gemälde (Öl auf Leinwand aus der Haut eines hingerichteten Deserteurs), das den Verwalter eines primitiven Dhayut-Anwesens darstellt. Der Verwalter ist von den Werkzeugen seines Handwerks umgeben, und diejenigen, die mit der Dhayut-Ikonographie vertraut sind, können erkennen, wie die verschiedenen Werkzeuge eine Art implizites Argument für das beste System zur Verwaltung und Ausbeutung eines Eigentums bilden. Diese dargestellten Prinzipien können auf planetarischer Ebene erweitert und angewendet werden.</Description>
+		<ImageFilename>Artifacts/the clever steward</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>39</ArtifactId> <!-- The Great Deceiver -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Der große Betrüger</Name>
+		<Description>Eine Marmorstatue, die einen Diplomaten aus der frühen Raumfahrtzeit des antiken Dhayut darstellt. Der Diplomat steht in einer Geste, die Offenheit und Großzügigkeit innerhalb der Dhayut-Kultur symbolisiert. Der Ausdruck ist willkommen, obwohl viele Nicht-Dhayut das Gesicht bedrohlich oder sogar erschreckend finden. In einer Hand des Diplomaten verbirgt sich eine tödliche Klinge. Es ist nicht bekannt, ob diese Statue einen echten Diplomaten oder lediglich das diplomatische Ideal darstellt.</Description>
+		<ImageFilename>Artifacts/the great deceiver</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>40</ArtifactId> <!-- The Threads of Research -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Die Fäden der Forschung</Name>
+		<Description>Dieser alte Datenkristall ist funktionsfähig, obwohl er verbrannt, zerkleinert, in Meerwasser getaucht und möglicherweise erbrochen wurde. Es enthält ein wissenschaftliches Manifest, das von einem anonymen Dhayut-Wissenschaftler aus der alten Galaxie verfasst wurde. Diese Wissenschaftlerin verbrachte Jahrzehnte damit, ihre Theorien niederzuschreiben (und auch heimlich alle ihre Mitarbeiter zu entführen und zu verschlingen, die sie als Bedrohung ansah), und während ihre Ideen zu ihrer Zeit ignoriert wurden, haben die revolutionären Prinzipien das Potenzial, die wissenschaftliche Forschung voranzutreiben .</Description>
+		<ImageFilename>Artifacts/the threads of research</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

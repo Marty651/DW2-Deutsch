@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Race>
+		<RaceId>8</RaceId> <!-- Wekkarus -->
+		<BundleName>Wekkarus</BundleName>
+		<FlagFilename>UserInterface/Flags/wekkarus_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/wekkarus_2</string>
+			<string>UserInterface/Flags/wekkarus_3</string>
+			<string>UserInterface/Flags/wekkarus_4</string>
+			<string>UserInterface/Flags/wekkarus_5</string>
+			<string>UserInterface/Flags/wekkarus_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.04</ReproductionRate>
+		<AssimilationRate>0.8</AssimilationRate>
+		<MigrationFactor>0.7</MigrationFactor>
+		<Caution>1.2</Caution>
+		<Dependability>0.9</Dependability>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>4</short> <!-- Monarchy -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>0</short> <!-- Republic -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>24</ResourceId> <!-- Questurian Skin -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+				<Amount>0.03</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<StartingResearchProjectIds>
+			<short>768</short> <!-- Early Pulse Weapons -->
+			<short>7</short> <!-- Pulsed Wave Weapons -->
+			<short>35</short> <!-- Tractor Beams -->
+			<short>262</short> <!-- Proton Ionization -->
+			<short>402</short> <!-- Penetrating Scanners -->
+			<short>251</short> <!-- Early Energy Deflectors -->
+			<short>6</short> <!-- Ground Combat -->
+		</StartingResearchProjectIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Dessau</string>
+			<string>Munich</string>
+			<string>Dresden</string>
+			<string>Kiel</string>
+			<string>Kassel</string>
+			<string>Graz</string>
+			<string>Linz</string>
+			<string>Montreux</string>
+			<string>Westfalen</string>
+			<string>Osnabruck</string>
+			<string>Brandenburg</string>
+			<string>Ingolstadt</string>
+			<string>Dortmund</string>
+			<string>Stuttgart</string>
+			<string>Teuton</string>
+			<string>Eindhoven</string>
+			<string>Koblenz</string>
+			<string>Heidelberg</string>
+			<string>Hannover</string>
+			<string>Lubeck</string>
+			<string>Berlin</string>
+			<string>Munich</string>
+			<string>Hamburg</string>
+			<string>Frankfurt</string>
+			<string>Innsbruck</string>
+			<string>Zurich</string>
+			<string>Dachau</string>
+			<string>Baden</string>
+			<string>Kufstein</string>
+			<string>Klagenfurt</string>
+			<string>Stralsund</string>
+			<string>Wismar</string>
+			<string>Dusseldorf</string>
+			<string>Hagen</string>
+			<string>Lindau</string>
+			<string>Bremen</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>PossessArtifact</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>0</Amount>
+				<Id>65</Id> <!-- Cenotaph of the First Generation -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>PossessArtifact</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>0</Amount>
+				<Id>66</Id> <!-- Airship of the Ancestors -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>PossessArtifact</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>0</Amount>
+				<Id>67</Id> <!-- Orb of Ancestral Strength -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>CaptureMostCharacters</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>LoseFewestColonies</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ControlPlanetTypePercentage</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0.25</Amount>
+				<Id>23</Id> <!-- Deep Ocean -->
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Equia</string>
+			<string>Senaris</string>
+			<string>Udy</string>
+			<string>Okkuroo</string>
+			<string>Tenshik</string>
+			<string>Gorzandu</string>
+			<string>Jekaru</string>
+			<string>Dagranta</string>
+			<string>Kensek</string>
+			<string>Wooshik</string>
+			<string>Atsugok</string>
+			<string>Bektul</string>
+			<string>Redarik</string>
+			<string>Ikkutus</string>
+			<string>Volkta</string>
+			<string>Zuuro</string>
+			<string>Larix</string>
+			<string>Oseon</string>
+			<string>Pinzi</string>
+			<string>Ati</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Wassoga</string>
+			<string>Qendo</string>
+			<string>Lapuri</string>
+			<string>Nakshil</string>
+			<string>Lokhar</string>
+			<string>Zupol</string>
+			<string>Rektu</string>
+			<string>Danshik</string>
+			<string>Vudugar</string>
+			<string>Maggula</string>
+			<string>Odorio</string>
+			<string>Sukantu</string>
+			<string>Jitula</string>
+			<string>Wogaras</string>
+			<string>Addibu</string>
+			<string>Bogari</string>
+			<string>Yektus</string>
+			<string>Kandusa</string>
+			<string>Piyyaru</string>
+			<string>Hutan</string>
+		</CharacterLastNames>
+		<StartingArtifactIds>
+			<int>2</int> <!-- Rekarrun Crystal -->
+		</StartingArtifactIds>
+		<TreatySignedTypes>
+			<EmpireRelationType>FreeTrade</EmpireRelationType>
+			<EmpireRelationType>Research</EmpireRelationType>
+			<EmpireRelationType>Defense</EmpireRelationType>
+		</TreatySignedTypes>
+		<TreatySignedColonyEventDefinitionIds>
+			<short>-1</short> <!-- N/A -->
+			<short>-1</short> <!-- N/A -->
+			<short>-1</short> <!-- N/A -->
+		</TreatySignedColonyEventDefinitionIds>
+		<TreatySignedColonySelections>
+			<ColonySelection>Capital</ColonySelection>
+			<ColonySelection>Capital</ColonySelection>
+			<ColonySelection>Capital</ColonySelection>
+		</TreatySignedColonySelections>
+		<TreatySignedGameEventNames>
+			<string>Ancestors Among Us - Ambassador - Free Trade (Wekkarus)</string>
+			<string>Ancestors Among Us - Ambassador - Research Agreement (Wekkarus)</string>
+			<string>Ancestors Among Us - Ambassador - Defense Pact (Wekkarus)</string>
+		</TreatySignedGameEventNames>
+		<TreatySignedGameEventNamesIndependentColony>
+			<string>Ancestors Among Us - Ambassador - Free Trade Independent Colony (Wekkarus)</string>
+			<string>Ancestors Among Us - Ambassador - Research Agreement Independent Colony (Wekkarus)</string>
+			<string>Ancestors Among Us - Ambassador - Defense Pact Independent Colony (Wekkarus)</string>
+		</TreatySignedGameEventNamesIndependentColony>
+		<FlashesOfThePastCriticalResearchSuccessChance>1</FlashesOfThePastCriticalResearchSuccessChance>
+		<DeepLabyrinthEnemySpyDetectedChance>0.5</DeepLabyrinthEnemySpyDetectedChance>
+		<RandomGameEventPerColonyOrbTypeIds>
+			<unsignedByte>23</unsignedByte> <!-- Deep Ocean -->
+		</RandomGameEventPerColonyOrbTypeIds>
+		<RandomGameEventNamesPerColonyOrbType>
+			<string>Riches from the Deep (Wekkarus)</string>
+		</RandomGameEventNamesPerColonyOrbType>
+		<RandomGameEventFrequencyPerColonyOrbType>
+			<float>0.1</float>
+		</RandomGameEventFrequencyPerColonyOrbType>
+		<CombatGhostShipGenerationChance>1.25</CombatGhostShipGenerationChance>
+		<CombatGhostShipGenerationChanceArtifactId>66</CombatGhostShipGenerationChanceArtifactId> <!-- Airship of the Ancestors -->
+		<CombatGhostShipDurationMinimum>0.15</CombatGhostShipDurationMinimum>
+		<CombatGhostShipDurationMaximum>0.2</CombatGhostShipDurationMaximum>
+		<CombatGhostTroopGenerationChance>1.25</CombatGhostTroopGenerationChance>
+		<CombatGhostTroopGenerationChanceArtifactId>67</CombatGhostTroopGenerationChanceArtifactId> <!-- Orb of Ancestral Strength -->
+		<CombatGhostTroopDurationMinimum>0.15</CombatGhostTroopDurationMinimum>
+		<CombatGhostTroopDurationMaximum>0.2</CombatGhostTroopDurationMaximum>
+		<CombatGhostGeneralGenerationChance>1.5</CombatGhostGeneralGenerationChance>
+		<CombatGhostGeneralGenerationChanceExistingGeneral>0.3</CombatGhostGeneralGenerationChanceExistingGeneral>
+		<CombatGhostGeneralGenerationChanceArtifactId>65</CombatGhostGeneralGenerationChanceArtifactId> <!-- Cenotaph of the First Generation -->
+		<CombatGhostGeneralDurationMinimum>0.8</CombatGhostGeneralDurationMinimum>
+		<CombatGhostGeneralDurationMaximum>1.2</CombatGhostGeneralDurationMaximum>
+		<CombatGhostAdmiralGenerationChance>0.5</CombatGhostAdmiralGenerationChance>
+		<CombatGhostAdmiralGenerationChanceExistingAdmiral>0.05</CombatGhostAdmiralGenerationChanceExistingAdmiral>
+		<CombatGhostAdmiralGenerationChanceArtifactId>65</CombatGhostAdmiralGenerationChanceArtifactId> <!-- Cenotaph of the First Generation -->
+		<CombatGhostAdmiralDurationMinimum>0.8</CombatGhostAdmiralDurationMinimum>
+		<CombatGhostAdmiralDurationMaximum>1.2</CombatGhostAdmiralDurationMaximum>
+		<ResearchFailureGhostScientistGenerationChance>0.3</ResearchFailureGhostScientistGenerationChance>
+		<ResearchFailureGhostScientistGenerationChanceArtifactId>65</ResearchFailureGhostScientistGenerationChanceArtifactId> <!-- Cenotaph of the First Generation -->
+		<ResearchFailureGhostScientistDurationMinimum>1.5</ResearchFailureGhostScientistDurationMinimum>
+		<ResearchFailureGhostScientistDurationMaximum>2.5</ResearchFailureGhostScientistDurationMaximum>
+		<ResearchSuccessGhostScientistGenerationChance>0.3</ResearchSuccessGhostScientistGenerationChance>
+		<ResearchSuccessGhostScientistGenerationChanceArtifactId>65</ResearchSuccessGhostScientistGenerationChanceArtifactId> <!-- Cenotaph of the First Generation -->
+		<ResearchSuccessGhostScientistDurationMinimum>1.5</ResearchSuccessGhostScientistDurationMinimum>
+		<ResearchSuccessGhostScientistDurationMaximum>2.5</ResearchSuccessGhostScientistDurationMaximum>
+		<DetectedSpyAvoidCaptureImprovementChance>0.25</DetectedSpyAvoidCaptureImprovementChance>
+		<DetectedSpyAvoidCaptureImprovementChanceArtifactId>65</DetectedSpyAvoidCaptureImprovementChanceArtifactId> <!-- Cenotaph of the First Generation -->
+		<StartingCharacterExtraPositiveTraitCountAdmiral>2</StartingCharacterExtraPositiveTraitCountAdmiral>
+		<StartingCharacterExtraPositiveTraitCountGeneral>2</StartingCharacterExtraPositiveTraitCountGeneral>
+		<PsychicResistance>0.5</PsychicResistance>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Inscrutable</CharacterTraitType>
+			<CharacterTraitType>PiercingGaze</CharacterTraitType>
+			<CharacterTraitType>OtherworldlyIntellect</CharacterTraitType>
+			<CharacterTraitType>AncestralMemory</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealArtifact</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>RescueCharacter</CharacterMissionType>
+			<CharacterMissionType>CaptureCharacter</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<FeatureExplanations>
+			<string>[HL]Flashes of the Past:[/HL] Wenn ein Wissenschaftler einen kritischen Forschungserfolg erzielt, wähle zwischen zwei neuen Forschungsfähigkeiten für ihn. Der Wissenschaftler muss weniger als 4 vorhandene Fähigkeiten haben.</string>
+			<string>[HL]Tiefes Labyrinth:[/HL] immer wenn ein ausländischer Spion entdeckt wird, der gegen uns arbeitet, 50% Chance, ihn abzufangen und dann zu wählen, ob er inhaftiert oder hingerichtet werden soll</string>
+			<string>[HL]Reichtümer aus der Tiefe:[/HL] Entdecken Sie regelmäßig eine neue Ressource in einer unserer Tiefseekolonien.</string>
+			<string>[HL]Vorfahren unter uns:[/HL] In Zeiten großer Belastung kann eine starke Verbindung mit psychischen Erinnerungen der Vorfahren ausgelöst werden, wodurch sich diese Erinnerungen an dem Ort manifestieren. Dies kann in den folgenden Situationen passieren:[ULI]Wenn ein Schiff in einen Weltraumkampf verwickelt ist, kann ein temporäres [HL]Geisterschiff[/HL] erscheinen, um im Kampf zu helfen. Das Schiff kann nicht gesteuert werden und verschwindet nach einer Weile.[/ULI][ULI]Wenn in einer Kolonie Bodenkämpfe stattfinden (ob sie nun angreifen oder verteidigen), können temporäre [HL]Geistertruppeneinheiten[/HL] erscheinen, um im Kampf zu helfen. Die Truppen können nicht gesteuert werden und verschwinden nach einer Weile.[/ULI][ULI]Wenn ein Wissenschaftler einen kritischen Forschungserfolg oder -misserfolg erlebt, kann ein temporärer [CHARACTER]Geisterwissenschaftler[/CHARACTER] erscheinen, um bei weiteren Forschungen zu helfen. Der Wissenschaftler kann seinen Standort nicht ändern und verschwindet nach einer Weile.[/ULI][ULI]Wenn Sie ein Freihandelsabkommen, ein Forschungsabkommen oder einen Verteidigungspakt unterzeichnen, besteht eine geringe Chance, dass Ihre Beziehungen zur Fraktion durch das Eingreifen eines [CHARACTER]alten Botschafters[/CHARACTER][/ULI] um 20 % verbessert werden.[ULI]Wenn eine Ihrer Spionagemissionen entdeckt wird und der Spion kurz vor der Gefangennahme steht, besteht eine Chance von 25 %, dass der Spion durch das Eingreifen eines [CHARACTER]alten Spions[/CHARACTER][/ULI] der Gefangennahme entgeht.[ULI]Wenn eine Flotte in einen Weltraumkampf verwickelt ist, kann vorübergehend ein [CHARACTER]Geisteradmiral[/CHARACTER] erscheinen, um im Kampf zu helfen. Der Admiral kann seinen Standort nicht ändern und verschwindet nach einer Weile[/ULI][ULI]Wenn in einer Kolonie Bodenkämpfe stattfinden (sei es bei einer Invasion oder Verteidigung), kann vorübergehend ein [CHARACTER]Geistergeneral[/CHARACTER] erscheinen, um im Kampf zu helfen. Der General kann seinen Standort nicht ändern und verschwindet nach einer Weile[/ULI]\nZusätzlich erhöhen die folgenden Wekkarus-Artefakte die Häufigkeit der Ancestors Among Us-Ereignisse. Diese Artefakte müssen durch Erkundung entdeckt werden, um von ihren Vorteilen zu profitieren:[ULI][ARTIFACT]Kenotaph der ersten Generation[/ARTIFACT]: verdoppelt die Häufigkeit von Eingriffen durch Geistercharaktere (Admirale, Generäle, Wissenschaftler und Spione). Erhöht die psychische Resistenz um +7 %[/ULI][ULI][ARTIFACT]Luftschiff der Vorfahren[/ARTIFACT]: verdoppelt die Häufigkeit der Generierung von Geisterschiffen. Erhöht die psychische Resistenz um +7 %[/ULI][ULI][ARTIFACT]Kugel der Ahnenstärke[/ARTIFACT]: verdoppelt die Häufigkeit der Geistertruppengenerierung. Erhöht die psychische Resistenz um +7 %[/ULI]</string>
+			<string>[HL]Einzigartige Spionageeigenschaft - Unergründlich:[/HL] +10% Spionageabwehr</string>
+			<string>[HL]Einzigartige Spionageeigenschaft - Durchdringender Blick:[/HL] +10% Psy Ops</string>
+			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Jenseitiger Intellekt:[/HL] +5% Alle Forschungen, +5% Spionageabwehr</string>
+			<string>[HL]Einzigartige Wissenschaftlereigenschaft - Ahnengedächtnis:[/HL] erhöhte Chance auf kritischen Forschungserfolg</string>
+			<string>[HL]Ahnengedächtnis:[/HL] Admirale und Generäle haben 2 zusätzliche positive Eigenschaften</string>
+		</FeatureExplanations>
+		<DefaultInfantryId>42</DefaultInfantryId> <!-- Guardian Brigade -->
+		<Name>Wekkarus</Name>
+		<Description>Wekkarus sind große Krustentiere mit markanten Gesichtsmandibeln.
+
+Wekkarus leben tief in den Meeren der Ozeanplaneten. Sie können auch für längere Zeit außerhalb des Wassers leben, bevorzugen aber eine feuchte Umgebung.
+
+In den riesigen Höhlen und Tunneln der Ozeanwelten, die sie bewohnen, errichten sie ganze Unterwasserstädte. Diese Städte sind Zentren der Technologie und Industrie, in denen sie fortschrittliche Unterwassertechnologie herstellen, die in der gesamten Galaxie eingesetzt wird.
+
+Die tiefen Unterwassertunnel, die die Wekkarus bewohnen, sind auch die Heimat einer Fülle von anderen Meeresbewohnern - einige von ihnen sind feindlich. Die Wekkarus fürchten vor allem ein Raubtier: den Leviathan Darkhul, ein furchterregendes Tiefseemonster, das bis zu 100 Meter oder mehr lang werden kann.
+
+Die Wekkarus haben sich an diese Bedrohung angepasst, indem sie mächtige Kraftfelder entwickelt haben, die die Eingänge zu ihren Unterwasserkolonien bewachen.
+
+Die Wekkarus haben auch ein tiefes Wissen über hochspezialisierte Wave Beam-Waffen. Dies hat sie zur Entwicklung der mächtigen PulseWave-Waffe geführt. Diese einzigartige Art von Strahlenwaffe feuert mächtige Energiewellen auf Ziele ab.
+
+Die Wekkarus sind im Allgemeinen eine friedliche Spezies, die gerne für sich bleibt.</Description>
+		<ImageFilename>UserInterface/Races/Wekkarus</ImageFilename>
+	</Race>
+</ArrayOfRace>

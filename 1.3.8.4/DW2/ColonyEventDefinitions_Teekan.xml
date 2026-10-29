@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>135</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>0</EmpireHappiness>
+		<MigrationFactor>1</MigrationFactor>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wanderzeit</Name>
+		<Description>Unsere neue Kolonie zieht neue Siedler aus der ganzen Region an!</Description>
+		<ImageFilename>Environment/Events/Wander Time</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>136</ColonyEventDefinitionId> <!-- Great Bakdur Hunt - Mediocre -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<DevelopmentChange>0.05</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Mittelmäßige Bakdur-Jagd</Name>
+		<Description>Die Große Bakdur-Jagd in unserer Kolonie {0} hat sich als enttäuschend erwiesen, mit nur mittelmäßiger Ausbeute.
+
+Dennoch werden wir in den nächsten 5 Jahren einen [GOOD]+5%igen Anstieg des Glücks im gesamten Reich erleben[/GOOD].
+
+Darüber hinaus erhält unsere Kolonie [LOCATION]{0}[/LOCATION] für 5 Jahre einen [GOOD]+5 Entwicklungsschub[/GOOD].</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>137</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Good -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Gute Bakdur-Jagd</Name>
+		<Description>Die Große Bakdur-Jagd in unserer Kolonie {0} war gut, und es wurden viele Bakdur geerntet!
+
+Daher werden wir in den nächsten 5 Jahren einen [GOOD]+10%igen Anstieg des Glücks im gesamten Reich erleben[/GOOD].
+
+Außerdem erhält unsere Kolonie [LOCATION]{0}[/LOCATION] für 5 Jahre einen [GOOD]+10 Entwicklungsschub[/GOOD].
+		</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>138</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Oustanding -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
+		<Name>Verdrängungsjagd auf Bakdur</Name>
+		<Description>Die Große Bakdur-Jagd in unserer Kolonie {0} war ein spektakulärer Erfolg, mit einer enormen Beute an Bakdur!
+
+Daher werden wir in den nächsten 5 Jahren einen [GOOD]+10%igen Anstieg des Glücks im gesamten Reich erleben[/GOOD].
+
+Darüber hinaus erhält unsere Kolonie [LOCATION]{0}[/LOCATION] für 5 Jahre einen [GOOD]+5 Entwicklungsschub[/GOOD].
+
+Diese herausragende Jagd hat auch ein großes Vorkommen an [RESOURCE]Korabbianischem Gewürz[/RESOURCE] zutage gefördert, das der Entwicklung unseres Reiches einen enormen Schub geben wird!</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

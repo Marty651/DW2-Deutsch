@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Startup Mining Ship (Haakonish)</Name>
+		<TechLevelThreshold>0</TechLevelThreshold>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateShipBase</Type>
+				<Id1>-2</Id1> <!-- Owning Race Id -->
+				<Id2>-2</Id2> <!-- Unknown -->
+				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
+				<ShipRole>MiningShip</ShipRole>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Penalty Clauses Triggered (Haakonish)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>CancelAllMutualIndependentTradeTreaties</Type>
+				<Id1>1</Id1> <!-- Send notification to other empire (1=Yes) -->
+				<Id2>1</Id2> <!-- Send notification to triggering empire (1=Yes) -->
+				<Value1>0</Value1> <!-- Amount of incident (0=No incident) -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Start Economic Boost (Haakonish)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>140</Id1> <!-- Colony Event Id, Current Value = Economic Boost - Income -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>141</Id1> <!-- Colony Event Id, Current Value = Economic Boost - Corruption -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<DelaySecondsMinimum>1800</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1800</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Start Xenophobic Riots (Haakonish)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>142</Id1> <!-- Colony Event Id, Current Value = Xenophobic Riots - Happiness -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>143</Id1> <!-- Colony Event Id, Current Value = Xenophobic Riots - Harming Migration -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeEmpireReputation</Type>
+				<Description>Fremdenfeindliche Ausschreitungen</Description>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Race Id -->
+				<Value1>-10</Value1> <!-- Amount Of Change (-100 To 100) -->
+				<Value2>0.2</Value2> <!-- Unknown -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ReducePopulationAtColony</Type>
+				<Id1>3</Id1> <!-- Unknown -->
+				<Value1>0.75</Value1> <!-- Ratio Amount (>0 to 1) -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

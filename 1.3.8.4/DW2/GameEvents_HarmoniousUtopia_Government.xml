@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Initialise Government (Harmonious Utopia)</Name>
+		<TechLevelThreshold>0</TechLevelThreshold>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Harmonische Utopie</MessageTitle>
+				<Description>Aufgrund unserer gewählten Regierung haben wir Einblick erhalten in:
+
+[ULI][RESEARCH]Basis Erholungssysteme[/RESEARCH][/ULI]
+[ULI][RESEARCH]Basis Medizinsysteme[/RESEARCH][/ULI]</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>394</Id1> <!-- Project Id, Current Value = Basic Recreation Systems -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>393</Id1> <!-- Project Id, Current Value = Basic Medical Systems -->
+				<Value1>0</Value1> <!-- Max Tech Level if Tech Chosen by Category/Random (0=Any) -->
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

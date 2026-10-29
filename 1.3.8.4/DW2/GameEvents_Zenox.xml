@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Wonders of the Past (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Wonders of the Past Choice (Zenox)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Wonders of the Past Choice (Zenox)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Wunder der Vergangenheit</MessageTitle>
+				<Description>Unsere jüngste Ruinenerkundung hat bei unserem Volk eine neue Faszination für die galaktische Geschichte ausgelöst. Wir können dieses Interesse auf eine der beiden folgenden Arten nutzen:\n[ULI]+10 Glück des Imperiums für ein Jahr[/ULI][ULI]+10% aller Forschungen für ein Jahr[/ULI]\nWie sollten wir uns diese Begeisterung zunutze machen?</Description>
+				<ImageFilepath>Environment/Events/Zenox Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>+10 Reiches Glück</ChoiceButtonText>
+				<GeneratedItemName>Implement Wonders of the Past - Happiness (Zenox)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>+10% Alle Forschung</ChoiceButtonText>
+				<GeneratedItemName>Implement Wonders of the Past - Scientists (Zenox)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Wonders of the Past - Happiness (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Wunder der Vergangenheit</MessageTitle>
+				<ImageFilepath>Environment/Events/Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>127</Id1> <!-- Colony Event Id, Current Value = Wonders of the Past - Happiness -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Wonders of the Past - Scientists (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Wunder der Vergangenheit</MessageTitle>
+				<ImageFilepath>Environment/Events/Wonders of the Past</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>128</Id1> <!-- Colony Event Id, Current Value = Wonders of the Past - Research -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Predictive History (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Predictive History Choice (Zenox)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Predictive History Choice (Zenox)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Prädiktive Geschichte</MessageTitle>
+				<Description>Unsere jüngste Erkundung der Ruinen bietet uns die Möglichkeit, unsere Entdeckungen hier anzuwenden, um die Diplomatie und die Geheimdienstmissionen unseres Imperiums zu verbessern, allerdings auf Kosten einer Verlangsamung unserer Forschung.\Wenn wir diese Gelegenheit nutzen, werden wir in den nächsten zwei Jahren die folgenden Vorteile und Nachteile erfahren:[ULI][BAD]-5% Alle Forschungen[/BAD][/ULI][ULI][GOOD]+10% Diplomatie[/GOOD][/ULI][ULI][GOOD]+10% Spionageabwehr[/GOOD][/ULI][ULI][GOOD]+10% Spionage[/GOOD][/ULI][ULI][GOOD]+10% PsyOps[/GOOD][/ULI]\nSollten wir diese Entdeckungen auf diese Weise anwenden oder nicht?</Description>
+				<ImageFilepath>Environment/Events/Predictive History</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Unsere Entdeckungen anwenden</ChoiceButtonText>
+				<GeneratedItemName>Implement Predictive History (Zenox)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Wenden Sie unsere Entdeckungen NICHT an</ChoiceButtonText>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Predictive History (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Prädiktive Geschichte</MessageTitle>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>16</Id1> <!-- Colony Event Id, Current Value = Predictive History -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Preserve the Ruins (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Preserve the Ruins Choice (Zenox)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Preserve the Ruins Choice (Zenox)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Bewahren Sie die Ruinen</MessageTitle>
+				<Description>Unsere kürzliche Kolonisierung einer Welt mit antiken Ruinen stellt eine einmalige Gelegenheit dar.\n\nWir können mit den Ruinen eine der folgenden Möglichkeiten nutzen:[ULI]Die Ruinen kostenlos in eine Governance-Einrichtung umwandeln (und dabei alle Ruinenboni verlieren)[/ULI][ULI]Die Ruinen behalten, aber mit erhöhten Bonusstufen (1,5x)[/ULI]\nWas sollen wir mit den Ruinen tun?</Description>
+				<ImageFilepath>Environment/Events/Zenox Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Ruinen in eine Regierungseinrichtung umwandeln</ChoiceButtonText>
+				<GeneratedItemName>Implement Preserve the Ruins - Governance Facility (Zenox)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Behalten Sie Ruinen mit erhöhten Boni</ChoiceButtonText>
+				<GeneratedItemName>Implement Preserve the Ruins - Better Ruins Bonuses (Zenox)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Preserve the Ruins - Governance Facility (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<MessageTitle>Bewahren Sie die Ruinen</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle>Bewahren Sie die Ruinen</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>38</Id1> <!-- Facility Id (-1=Ruins), Current Value = Planetary Administration Center -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Discovery Level -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Preserve the Ruins - Better Ruins Bonuses (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>MultiplyRuinBonuses</Type>
+				<MessageTitle>Bewahren Sie die Ruinen</MessageTitle>
+				<ImageFilepath>Environment/Events/Preserve the Ruins</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Value1>1.5</Value1> <!-- Multiplier -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Search the Archives (Zenox)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>SetGlobalVariableRandomRange</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Value1>0</Value1> <!-- Minimum Value -->
+				<Value2>100</Value2> <!-- Maximum Value -->
+				<GeneratedItemName>SearchTheArchives_RandomValue</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat verschollene wissenschaftliche Erkenntnisse zutage gefördert, die unsere Forschungsanstrengungen beschleunigen!\n\nFür die nächsten zwei Jahre wird unser Reich von einem [BONUS]+5% Alle Forschungen[/BONUS] Bonus profitieren.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id1>130</Id1> <!-- Colony Event Id, Current Value = Search the Archives - Research Boost -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>0</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>25</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat weitere Details über die alten Zenox zutage gefördert, die die Menschen in unserem Reich faszinieren!\n\n In den nächsten zwei Jahren wird unsere Kolonie von einem [HL]+10 Glück[/HL] Schub profitieren.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id1>131</Id1> <!-- Colony Event Id, Current Value = Search the Archives - Happiness Boost -->
+				<Id2>0</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>1</Value1> <!-- 1=Restart With New Duration Period -->
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>25</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>50</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinatesRandomSelection</Type>
+				<MessageTitle>Suche im Archiv</MessageTitle>
+				<Description>Unsere Suche in den Archiven hat einen besonderen Ort in der Galaxie aufgedeckt.\n\nDie Details über diesen Ort sind sehr dünn. Wir konnten nur durch beiläufige Erwähnungen in den Archiven auf diesen Ort schließen. Wir wissen also nicht viel über diesen Ort, außer dass er eine gewisse Bedeutung hat. Wir sollten diesen Ort wahrscheinlich untersuchen.\n\nEine [HL]Navigationsmarkierung ping[/HL] wurde zu unserer Galaxiekarte hinzugefügt. Diesen Ort finden Sie auch in unserer Liste der besonderen Orte im Abschnitt Erkundung.</Description>
+				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
+				<Id2>1</Id2> <!-- Unknown -->
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>50</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>SearchTheArchives_RandomValue</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>101</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

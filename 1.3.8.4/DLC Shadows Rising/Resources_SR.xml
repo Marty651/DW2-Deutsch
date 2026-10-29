@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Resource>
+		<ResourceId>81</ResourceId>
+		<Name>Yuterre Pilzsporen</Name>
+		<Description>Der riesige Yuterre-Pilz kommt auf Algaic Forest-Welten vor. Diese Pilze können bis zu 1,5 Meter hoch werden und produzieren riesige Pilzsporen. Obwohl diese Sporen einen sehr unangenehmen Geschmack haben, bieten sie den meisten empfindungsfähigen Spezies immense gesundheitliche Vorteile. Sie erhöhen auch vorübergehend die geistige Kapazität und ermöglichen oft erstaunliche Einsichten in fortgeschrittene Mathematik und Geometrie.</Description>
+		<BaseCost>9</BaseCost>
+		<ImageFilename>Environment/Resources/YuterreFungalSpores</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.07</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>82</ResourceId>
+		<Name>Karakulas Spinnengift</Name>
+		<Description>Karakulas-Spinnen sind auf Algaic-Wald-Welten zu finden. Zusätzlich zu ihren 8 Beinen haben sie auch 2 kleine Arme in der Nähe ihres Kopfes, mit denen sie Gegenstände manipulieren können. Sie sind rot-braun gefärbt und können bis zu 30 cm oder mehr groß werden. Karakulas-Spinnen produzieren ein tödliches Gift, das sie aus ihrem Maul versprühen, um ihre Beute schnell lahmzulegen und zu töten. In verdünnter Form kann dieses Gift auch als starkes Antibiotikum verwendet werden, das den Schweregrad der meisten Seuchen und Infektionen verringert.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/KarakulasSpiderVenom</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.04</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>83</ResourceId>
+		<Name>Akridos Drachenhaut</Name>
+		<Description>Akridos-Drachen sind sehr große fliegende Reptilien, die auf vulkanischen Welten in der Felswüste leben. Ihre fledermausartigen Flügel können eine Spannweite von 15 Metern erreichen. Trotz ihrer enormen Größe fliegen sie fast lautlos. Sie greifen nachts an, stürzen sich auf ihre Beute und durchbohren sie mit den großen Krallen ihrer klauenartigen Füße. Die lederartige Haut der riesigen Flügel des Akridos-Drachen ist sehr zäh, aber auch sehr leicht. Dieses Leder wird für die Herstellung von Kleidung verschiedener Art geschätzt.</Description>
+		<BaseCost>6</BaseCost>
+		<ImageFilename>Environment/Resources/AkridosDragonSkin</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>84</ResourceId>
+		<Name>Aschewurm-Perlen</Name>
+		<Description>Aschewürmer leben in den riesigen Aschefeldern der vulkanischen Welten der Felswüste. Sie wühlen sich durch die vulkanische Asche und ernähren sich von diesen reichen Siliziumdioxidablagerungen. Aschewürmer können bis zu 2 Meter lang werden und Hunderte von Jahren leben. Sie produzieren auch wunderschöne Perlen, die eigentlich glänzende Konkretionen der Chemikalien aus der Asche sind. Diese Perlen werden wegen ihrer medizinischen Eigenschaften geschätzt, wenn sie in Wasser aufgelöst werden. Sie sollen den Alterungsprozess verlangsamen und die Lebensspanne verlängern.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/AshWormPearls</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.03</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+</ArrayOfResource>

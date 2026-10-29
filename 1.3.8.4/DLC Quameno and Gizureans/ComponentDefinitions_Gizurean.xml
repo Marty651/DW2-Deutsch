@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<ArrayOfComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ComponentDefinition>
+		<ComponentId>373</ComponentId> <!-- Hex Armor -->
+		<Size>8</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>9</ResourceId> <!-- Mebnar -->
+				<Amount>8</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>80</ArmorBlastRating>
+				<ArmorReactiveRating>3</ArmorReactiveRating>
+				<CrewRequirement>1</CrewRequirement>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+			<ComponentStats>
+				<ArmorBlastRating>95</ArmorBlastRating>
+				<ArmorReactiveRating>4</ArmorReactiveRating>
+				<CrewRequirement>1</CrewRequirement>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Hex-Rüstung</Name>
+		<ImageFilename>Environment/Components/373-Hex Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>374</ComponentId> <!-- Reactive Hex Armor -->
+		<Size>8</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId> <!-- Hexodorium -->
+				<Amount>14</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>14</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>7</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId> <!-- Aculon -->
+				<Amount>7</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>114</ArmorBlastRating>
+				<ArmorReactiveRating>6</ArmorReactiveRating>
+				<CrewRequirement>1</CrewRequirement>
+				<IonDamageDefense>2</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Reaktive Hex-Rüstung</Name>
+		<ImageFilename>Environment/Components/373-Hex Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>375</ComponentId> <!-- Dense Hex Armor -->
+		<Size>8</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId> <!-- Hexodorium -->
+				<Amount>18</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>18</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>9</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId> <!-- Aculon -->
+				<Amount>9</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>137</ArmorBlastRating>
+				<ArmorReactiveRating>8</ArmorReactiveRating>
+				<CrewRequirement>1</CrewRequirement>
+				<IonDamageDefense>3</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Dichte Hex-Rüstung</Name>
+		<ImageFilename>Environment/Components/373-Hex Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>376</ComponentId> <!-- Hex Armor [Ftr] -->
+		<Size>2</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>true</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>9</ResourceId> <!-- Mebnar -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>2</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>2</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>16</ArmorBlastRating>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+			<ComponentStats>
+				<ArmorBlastRating>19</ArmorBlastRating>
+				<ArmorReactiveRating>1</ArmorReactiveRating>
+				<IonDamageDefense>1</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Hex-Rüstung [Jäger]</Name>
+		<ImageFilename>Environment/Components/373-Hex Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>377</ComponentId> <!-- Reactive Hex Armor [Ftr] -->
+		<Size>2</Size>
+		<Category>Armor</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>true</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId> <!-- Hexodorium -->
+				<Amount>7</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>13</ResourceId> <!-- Carbonite -->
+				<Amount>7</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId> <!-- Aculon -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ArmorBlastRating>23</ArmorBlastRating>
+				<ArmorReactiveRating>1</ArmorReactiveRating>
+				<IonDamageDefense>2</IonDamageDefense>
+			</ComponentStats>
+			<ComponentStats>
+				<ArmorBlastRating>27</ArmorBlastRating>
+				<ArmorReactiveRating>1</ArmorReactiveRating>
+				<IonDamageDefense>2</IonDamageDefense>
+			</ComponentStats>
+		</Values>
+		<Name>Reaktive Hex-Rüstung [Jäger]</Name>
+		<ImageFilename>Environment/Components/373-Hex Armor</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>378</ComponentId> <!-- Swarm Targeting -->
+		<Size>10</Size>
+		<Category>TargetingComputer</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>6</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>7</ResourceId> <!-- Silicon -->
+				<Amount>3</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>1</ComponentIonDefense>
+				<CrewRequirement>5</CrewRequirement>
+				<ScannerLongRange>50000</ScannerLongRange>
+				<ScannerLongRangePower>25</ScannerLongRangePower>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<TargetingBonus>0.15</TargetingBonus>
+				<TargetingBonusPerFleetShip>0.01</TargetingBonusPerFleetShip>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>1</ComponentIonDefense>
+				<CrewRequirement>5</CrewRequirement>
+				<ScannerLongRange>50000</ScannerLongRange>
+				<ScannerLongRangePower>25</ScannerLongRangePower>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<TargetingBonus>0.2</TargetingBonus>
+				<TargetingBonusPerFleetShip>0.01</TargetingBonusPerFleetShip>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>1</ComponentIonDefense>
+				<CrewRequirement>5</CrewRequirement>
+				<ScannerLongRange>50000</ScannerLongRange>
+				<ScannerLongRangePower>25</ScannerLongRangePower>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<TargetingBonus>0.3</TargetingBonus>
+				<TargetingBonusPerFleetShip>0.01</TargetingBonusPerFleetShip>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>2</ComponentIonDefense>
+				<CrewRequirement>5</CrewRequirement>
+				<ScannerLongRange>50000</ScannerLongRange>
+				<ScannerLongRangePower>30</ScannerLongRangePower>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<TargetingBonus>0.35</TargetingBonus>
+				<TargetingBonusPerFleetShip>0.01</TargetingBonusPerFleetShip>
+			</ComponentStats>
+		</Values>
+		<Name>Schwarm-Zielausrichtung</Name>
+		<ImageFilename>Environment/Components/378-Swarm Command</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>379</ComponentId> <!-- Medium Hive Hangar -->
+		<Size>50</Size>
+		<Category>FighterBay</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>8</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId> <!-- Aculon -->
+				<Amount>4</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>10</ComponentIonDefense>
+				<CrewRequirement>30</CrewRequirement>
+				<FighterBayBuildRate>0.38</FighterBayBuildRate>
+				<FighterBayCapacity>8</FighterBayCapacity>
+				<FighterBayRepairRate>0.75</FighterBayRepairRate>
+				<StaticEnergyUsed>10</StaticEnergyUsed>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>20</ComponentIonDefense>
+				<CrewRequirement>30</CrewRequirement>
+				<FighterBayBuildRate>0.75</FighterBayBuildRate>
+				<FighterBayCapacity>12</FighterBayCapacity>
+				<FighterBayRepairRate>1.5</FighterBayRepairRate>
+				<StaticEnergyUsed>10</StaticEnergyUsed>
+			</ComponentStats>
+		</Values>
+		<Name>Mittlerer Schwarm-Hangar</Name>
+		<ImageFilename>Environment/Components/379-Hive Hangar</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>380</ComponentId> <!-- Small Hive Hangar -->
+		<Size>25</Size>
+		<Category>FighterBay</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>6</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>3</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>5</ComponentIonDefense>
+				<CrewRequirement>15</CrewRequirement>
+				<FighterBayBuildRate>0.18</FighterBayBuildRate>
+				<FighterBayCapacity>4</FighterBayCapacity>
+				<FighterBayRepairRate>0.38</FighterBayRepairRate>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>10</ComponentIonDefense>
+				<CrewRequirement>15</CrewRequirement>
+				<FighterBayBuildRate>0.38</FighterBayBuildRate>
+				<FighterBayCapacity>6</FighterBayCapacity>
+				<FighterBayRepairRate>0.75</FighterBayRepairRate>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
+			</ComponentStats>
+		</Values>
+		<Name>Kleiner Schwarm-Hangar</Name>
+		<ImageFilename>Environment/Components/379-Hive Hangar</ImageFilename>
+	</ComponentDefinition>
+	<ComponentDefinition>
+		<ComponentId>381</ComponentId> <!-- Large Hive Hangar -->
+		<Size>100</Size>
+		<Category>FighterBay</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>false</IsFighterOnly>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId> <!-- Steel -->
+				<Amount>10</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId> <!-- Polymer -->
+				<Amount>5</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId> <!-- Aculon -->
+				<Amount>5</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Values>
+			<ComponentStats>
+				<ComponentIonDefense>20</ComponentIonDefense>
+				<CrewRequirement>60</CrewRequirement>
+				<FighterBayBuildRate>0.75</FighterBayBuildRate>
+				<FighterBayCapacity>16</FighterBayCapacity>
+				<FighterBayRepairRate>1.5</FighterBayRepairRate>
+				<StaticEnergyUsed>20</StaticEnergyUsed>
+			</ComponentStats>
+			<ComponentStats>
+				<ComponentIonDefense>40</ComponentIonDefense>
+				<CrewRequirement>60</CrewRequirement>
+				<FighterBayBuildRate>1.5</FighterBayBuildRate>
+				<FighterBayCapacity>24</FighterBayCapacity>
+				<FighterBayRepairRate>3</FighterBayRepairRate>
+				<StaticEnergyUsed>20</StaticEnergyUsed>
+			</ComponentStats>
+		</Values>
+		<Name>Großer Schwarm-Hangar</Name>
+		<ImageFilename>Environment/Components/379-Hive Hangar</ImageFilename>
+	</ComponentDefinition>
+</ArrayOfComponentDefinition>
